@@ -1,13 +1,6 @@
-# markdown
+# Tips Tricks
 
-## markdown comments
+### How To Query Nodes On The Threefold Grid
 
 
-```
-<!-- 
-comment will not be shown
--->
-```
-
-<!-- should not be visible -->
 
