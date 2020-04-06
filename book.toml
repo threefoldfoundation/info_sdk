@@ -1,0 +1,13 @@
+[book]
+authors = ["kristof"]
+language = "en"
+multilingual = false
+src = "src"
+title = "TFGrid SDK"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html]
+default-theme = "Rust"
