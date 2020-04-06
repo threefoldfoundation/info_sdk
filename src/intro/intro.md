@@ -1,3 +1,11 @@
+<!-- 
+TODO: descriptipn of the ThreeFold cloud
+TODO - ThreeFold foundation
+TODO - ThreeFol Network
+TODO - State of play 
+TODO - Why Peer 2 Peer
+-->
+
 ![ThreeFold Cloud Image](img/intro.png)
 
 # ThreeFold P2P Cloud
@@ -12,3 +20,19 @@ Running on the ThreeFold Grid.
 ThreeFold P2P Cloud Website: [cloud.threefold.io](https://cloud.threefold.io)
 ThreeFold Foundation Website: [threefold.io](https://threefold.io)
 ThreeFold Tech Website: [threefold.io](https://threefold.tech)
+<!-- 
+TODO: descriptipn of the ThreeFold cloud
+TODO - ThreeFold foundation
+TODO - ThreeFol Network
+TODO - State of play 
+TODO - Why Peer 2 Peer
+-->
+
+## ThreeFold foundation
+<!-- insert a generic description of the threefold foundation -->
+
+## ThreeFold  Network
+<!-- insertb general objectives for the TF Network (Grid, Token and 3bot) -->
+
+## Why Peer to Peer?
+<!-- make a statement why there is a need for this peer to peer setup -->
