@@ -1,18 +1,25 @@
 # info_tfgridsdk
 
-manual for the ThreeFold Grid
+Manual 
 
-## how to contributed
+## How to contribute
 
-### how to install mdbook
+Controbution is welcome.  The TF Grid and the technology is an open source project and we welcome external help to make this project even better.  This manual is all about how to get started with the Software Development Kit,from downloading it and installing the SDK to executing workloads.
 
-OSX:
+The steps needed to get the documentation on your device are:
+- install the mdbook software
+- get the content from the repository
+- if you want to edit, create your own branch to edit
 
+### How to install mdbook
+On macOS this can best be done by using brew.  Brew is a package manager and can be found [here](https://brew.sh/).
 ```bash
 brew install mdbook
 ```
+For other operating systems the install process can be found [here](https://snapcraft.io/mdbook)
 
-### get the documents (content)
+### Get the documents (content)
+The documentation is online but can also be downloaded for reading purposes and or updating/editing. 
 
 ```bash
 mkdir -p ~/code/github/threefoldfoundation
@@ -20,16 +27,14 @@ cd ~/code/github/threefoldfoundation
 clone https://github.com/threefoldfoundation/info_tfgridsdk/ -b development
 ```
 
-### use mdbook locally
-
+#### Use mdbook locally
 ```bash
 cd ~/code/github/threefoldfoundation/info_tfgridsdk
 #will open local browser
 ./serve.sh
 ```
 
-### Editing the wikis
-
+#### Helping us to improve and edit the wikis
 - all md files are under src/docs directory, please make sure you get all your changes there.
 - to make link in md file to open in new tab use this 
 - if you are planning ot make massive adjustments, please create your own branch and  clone / pull that branch.  When done please create a well described pull request and push it forwards for integration.
