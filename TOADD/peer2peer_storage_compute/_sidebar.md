@@ -1,7 +1,0 @@
-* [Home](/)
-* [Grid](/grid/README.md)
-* [P2P](/grid/peer2peer_storage_compute/README.md)
-* [Core concepts](/grid/peer2peer_storage_compute/core_concepts/README.md)
-* [Setup Guides](/grid/peer2peer_storage_compute/setup_guides/README.md) 
-* [Tutorials](/grid/peer2peer_storage_compute/tutorials/README.md)
-* [Level Up](/grid/README.md) 
