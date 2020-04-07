@@ -1,7 +1,7 @@
 # Index
 
 - [Intro](./intro/intro.md)
-- Getting Started
+- [Getting Started]()
     - [3bot Connect App](./gettingstarted/3bot_connect_app.md)
     - [Installing The SDK on MacOS](./gettingstarted/sdk_macos.md)
     - [Installing The SDK on Linux](./gettingstarted/sdk_linux.md)
