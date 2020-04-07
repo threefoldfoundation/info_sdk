@@ -36,7 +36,7 @@ To recieve your ThreeFold Tokens you can copy your button or you have to fill ne
 2) To - paste the reciever wallet adress
 3) Amount - amount of TFT to send
 4) Message - message to transaction
-5) SCAN QR - or just scan QR and this fields will be filled autromaticly
+5) SCAN QR - or just scan QR and this fields will be filled automaticaly
 
 ## Social
   
