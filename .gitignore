@@ -1,5 +1,10 @@
 docs
 book
+book/
+docs/
+docs/*
+book/*
+
 "https*
 https*
 http*

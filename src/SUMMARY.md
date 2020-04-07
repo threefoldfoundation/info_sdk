@@ -7,4 +7,5 @@
 - [sdk](./sdk/sdk.md)
 - [tfgrid simulator](./simulator/simulator.md)
     - [tft simulation](./simulator/threefold_simulator.md)
-
+- [notebook](./notebook/notebook.md)
+    - [ui example](./notebook/user_interface.md)
