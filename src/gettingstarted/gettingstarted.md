@@ -29,8 +29,10 @@ To use the 3Bot Connect App you simply need to download the 3Bot Connect App ava
 
 In the future, it may help to restore your wallet in case your devise is lost.
 
-![](img/3bot_seed_phrase.jpg)
-
+<!-- 
+![3bot](img/3bot_seed_phrase.jpg)
+-->
+<img src="img/3bot_seed_phrase.jpg" alt="drawing" width="200"/>
 <!--
 TODO #8 See if we can change the seed phrase screenshot into a nices / smaller one
 -->
