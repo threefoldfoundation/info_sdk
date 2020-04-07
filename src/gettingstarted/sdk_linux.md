@@ -1,24 +1,18 @@
 <!--- Original conents: https://github.com/threefoldfoundation/info_threefold/blob/master/docs/wikieditors/installation_linux.md --->
 
-# JumpscaleX SDK Installation Instructions
+# JumpscaleX SDK Installation Instructions (Linux)
 
 There  are two ways that you can work with the JumpscaleX SDK:
 - a local install on a servers / laptop
-- a version of the SDK installed online o the TF Grid.
+- a version of the SDK installed online on the TF Grid.
 
-In this document we will explain the installation for both options and local installations.
+In this document we will explain the installation a local installation in a docker container..
 
- **supported Operating Systems** are:
-- Ubuntu 18.04 or newer
-- macOS 10.7 or newer
-- Windows (to be completed)
-
-## Local installation (Linux)
-### Step1: Prepare your machine
+## Step 1: Prepare your machine
 
 The JumpscaleX SDK is currently supported on Linux, more specifically this installation script will guide you through the steps for the ubuntu distribution.  Other linux distributions will be supported in the future.
 
-#### Prerequisites for the SDK installation.
+### Prerequisites for the SDK installation.
 
 In order to install the SDK in a container (recommended) you need the docker software suite. You can find instructions for installing it in ubuntu [here](https://docs.docker.com/install/).
 
@@ -49,19 +43,18 @@ root@happy:~#
 
 For the next step to be successfull make sure you have added this identity as a known ssh key to you github account.  The SKD code will come from github and requires you to have a public key configured in GitHub.
 
-
-
-#### Step 2:  JumscaleX SDK installation
+## Step 2:  JumscaleX SDK installation
 
 In a terminal execute the following commands: these will download the install script, make it executable and then create and download directories and files.  It depends on executing from `/tmp`.
 
 ```bash
-curl https://raw.githubusercontent.com/threefoldtech/jumpscaleX_core/unstable/install/jsx.py?$RANDOM > /tmp/jsx;
+curl https://raw.githubusercontent.com/threefoldtech/jumpscaleX_core/development/install/jsx.py?$RANDOM > /tmp/jsx;
 chmod +x /tmp/jsx;
 ```
 
 This script provides a number of commands to operate / configure the SDK.  Options are show with the ```--help``` flag.
 ```bash
+
 root@happy:~# /tmp/jsx 
 - redis loghandler cannot be loaded
 Usage: jsx [OPTIONS] COMMAND [ARGS]...
@@ -100,9 +93,10 @@ Commands:
   wiki-reload         reload the changed files from wikis repo ex: jsx...
   wireguard           jsx wireguard enable wireguard, can be on host or...
   ```
+
 As stated above our recommendation is to install the SDK in a container.  The JSX tool has commands to start and stop the container in a controlled manner. If you have installed 3bot containers in the past - please check and remove the 3bot entries from the known_host file.
 
-Then we can install our threebot using
+Then we can install our jumpscale SDK using
 ```bash
 # Make sure there are no remnissents from previous versions and installations.  If you have installed older version on the Jumpscale SDK please cleanup with the following command
 /tmp/jsx containers-reset
@@ -117,33 +111,35 @@ mv ./.ssh/known_hosts ./.ssh/known_hosts.original
 /tmp/jsx sdk
 ```
 
-The result will be something like the following, will take few minuts please wait untill it's done.
+The result will be something like the following, it will take few minutes so please wait untill it's done.
 
 ![Installation Image](img/install_1.png)
 
-- After installation is done you will see the following screen
+After installation is done you will see the following screen
 
 ![Installation Image](img/install_2.png)
 
 Congratulations, now you have your 3bot installed. To start your 3bot. just type in shell `3bot start`.
 
-- After that we can go to our browser to this link: http://localhost:7000
-or this link: https://localhost:4000 for https
+## Step 3: Connect your 3bot identity to the container
 
+<!--
+TODO #9 Add instructions of the final version of how you connect your 3bot.connect identity to the installed container.
+-->
+
+After that we can go to our browser to this link: http://localhost:7000
+or this link: https://localhost:4000 for https
 
 - We will see the following screen
 
     ![Installation Image](img/install_3.png)
 
-in this step we will need the threebot connect app, you can download it froms the [AppStore](https://apps.apple.com/us/app/3bot-connect/id1459845885) or [GooglePlayStore](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) and use it to login with the 3Bot name you registered.
+Now we will need the 3bot.connect app, you can download it froms the [AppStore](https://apps.apple.com/us/app/3bot-connect/id1459845885) or [GooglePlayStore](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) and use it to login with the 3Bot name you registered.
 
-- Also, other people can access the dashboard, but they need to be added to admins from `Settings`, Also, admins can be dded to `j.tools.threebot.me.default.admins` via `kosmos` shell example:
+
+Also, other people can access the dashboard, but they need to be added to admins from `Settings`, Also, admins can be dded to `j.tools.threebot.me.default.admins` via `kosmos` shell example:
 
 ```python3
 j.tools.threebot.me.default.admins.append("hamada.3bot")
 j.tools.threebot.me.default.save()
 ```
-
-- After logging in we can now see the dashboard, you can see your 3bot informations, logs, alerts, edit your wikis and much more
-
-    ![Installation Image](img/install_4.png)
