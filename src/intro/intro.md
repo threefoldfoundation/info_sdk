@@ -4,7 +4,6 @@
 ![ThreeFold Cloud Image](img/intro.png)
 
 
-
 ## ThreeFold P2P Cloud
 A new standard in peer2peer networking, storage and compute.
 Running on the ThreeFold Grid.
@@ -34,4 +33,3 @@ Underpinning the two initiatives described above sits TF Trech.  This is a regul
 <!-- 
 TODO #5 Check graphics(s) for updated version.
 -->
-

@@ -5,8 +5,12 @@ To get your workloads up and running you will need to meet a few prerequisites.
 All of them are pretty straight forward and you be able to start your journey shortly.
 
 In short you need to have the following items done before you can proceed:
-- Get yourself a **3bot.connect** identity.  This can be done by getting an app and creating yourself an identity.  Please be aware that this is to be your digital indentity on the grid.  The app provides you with access to  ThreeFold sociall media platforms has a wallet for managing TFT's and provides support access.  The app can be found on the google play store and apple app store.
-- Install the jumscale SDK.  The jumpscale SDK is available for local install and will be available for grid deployment (with secure web access).  For local installations we use docker container technology to run the SDK software locally.  Going forward we recommend to move to the TF Grid based version as this will provide you access from all web browsers on any device.
+- First you need to get yourself a **3bot.connect** identity.  This can be done by getting an app and creating yourself an identity.  Please be aware that this is to be your digital indentity on the grid.  The app provides you with access to  ThreeFold sociall media platforms has a wallet for managing TFT's and provides support access.  The app can be found on the google play store and apple app store.
+- The you can install and the jumpscale SDK (and get access to it by your 3bot.connect).  The jumpscale SDK is available for local install and will be available for grid deployment (with secure web access).  For local installations we use docker container technology to run the SDK software locally.  Going forward we recommend to move to the TF Grid based version as this will provide you access from all web browsers on any device.
+- Last you will need TFT tokens in your 3bot.connect app. There are two type of token available (2020 H1):  FreeTFT's and TFT's. The free TFT's are meant for developers and interested parties to testdrive the TF grid.  
+
+
+
 
 
 ## 3Bot Connect App
