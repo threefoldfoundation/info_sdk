@@ -3,37 +3,6 @@
 ![](img/3bot_intro.png)
 # 3Bot Connect App
 
-## Introduction
-
-3Bot is a revolutionary digital avatar that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. With 3Bot, everything changes.
-
-Follow the steps below to set up your 3Bot Connect wallet, and receive and send your first ThreeFold Tokens:
-
-
-  ## Download
-  Download 3Bot from [3Bot.org website](https://3bot.org/3bot.html)
-  
-
-  ## Registration and login
-  
-  To use the 3Bot Connect App you simply need to download the 3Bot Connect App available in the Appstore or Google Play Store. Folow the steps and register using your email address.
- ### Save the seed phrase in a safe place. In the future, it may help to restore your wallet in case your devise is lost.
-
-![](img/3bot_seed_phrase.jpg)
-
-Seed Phrase allows you to access and recover your wallet from any device. 
-We highly recommend write down your seed key on a paper and store it safely offline.
-
-> **3Bot does not have any access to or maintain records of your private key. It is your personal responsibility to keep your 24-word private key in a safe place.**
-
-> **Do not share your private key with anyone, it is strictly personal. Losing your private key means losing access to your wallet and all your ThreeFold Tokens.**
-
-> **Anybody with access to your private key can take ownership of your 3Bot Connect wallet and ThreeFold tokens**
-
-> **To access your wallet from another wallet (on another phone or online) you will need your private key (seed), without this private key your account cannot be recovered on another device or online wallet.**
-
-Finish this steps and choose your new pin, then confirm it and confirm your e-mail adress.
-
 ## Home Page
 
 This is the Home Page of your 3Bot Connect App. From here you can open Social - [FreeFlow Pages](https://freeflowpages.com/) - open source social network hosted on ThreeFold decentralizde capacity. 
