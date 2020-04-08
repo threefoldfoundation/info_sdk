@@ -1,5 +1,0 @@
-- [Network](network/README.md)
-- [Ubuntu](ubuntu/README.md)
-- [Generic flist](flist/README.md)
-- [Kubernetes](kubernetes/README.md)
-- [Minio](minio/README.md)
