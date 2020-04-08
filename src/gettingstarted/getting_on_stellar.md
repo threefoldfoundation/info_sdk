@@ -12,6 +12,8 @@ Trading on the StellarX DEX is not yet possible using 3Bot Connect app (under co
 
 ### How to get a Stellar account in the 3Bot Connect app
 
+A list of available Stellar wallets can be found [here](https://www.stellar.org/ecosystem/projects?tab=wallets#directory). 
+
 Accounts need to be activated on the Stellar network. 
 You can do this doing the following steps : 
 - push the activation button
