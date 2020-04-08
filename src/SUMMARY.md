@@ -1,5 +1,8 @@
 # Summary
 - [Intro](./intro/intro.md)
+- [Architecture](./architecture/README.md)
+    - [Smart Contract for IT](./architecture/smart_contract_for_IT.md)
+    - [Capacity]()./architecture/capacity.md)
 - [Getting Started](./gettingstarted/gettingstarted.md)
     - [3bot Connect App](./gettingstarted/3bot_connect_app.md)
     - [Installing The SDK on Linux](./gettingstarted/sdk_linux.md)
