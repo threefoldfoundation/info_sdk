@@ -27,6 +27,8 @@ Want to know more?
 - [P2P Network architecture](./architecture_network.md)
 - [P2P Webgateway architecture](./architecture_webgateway.md)
 - [P2P Storage architecture](./architecture_storage.md)
+- [P2P node boot](./architecture_boot.md)
+- [P2P container boot](./architecture_flist.md)
 
 
 ### ThreeFold Foundation
