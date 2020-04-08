@@ -12,27 +12,18 @@ If you would like to start playing with the TF Grid today, you can purchase Thre
 You can buy TFT only through Stellar Lumens (XLM), for now.
 
 - We have set up a trading bot on StellarX which sells TFT against XLM.
-- The price defined at the start is expressed in XLM but represents a value of about 0.15 USD. 
+- The price defined at the start is expressed in XLM but represents a value of 0.15 USD during the first month of the TLE. 
 - This will allow people to buy real TFT on Stellar with their own wallets.
+- On the stellar exchange, people can buy TFT using different cryptoassets, the exchange mechanism allows to find a match with TFT, even if the trading pair is different than TFT/XLM. To do that, it combines trades between different pairs, up to 6 levels. 
 - Stellar TFT are provided by the Threefold Foundation, who can be recognized by the mentioned issuer code. 
-- TFT as available on TFchain will be convertible into Stellar TFT. Once converted (conversion mechanism available as from end of April 2020 in the 3Bot connect app), TFChain TFTs will be burned on TFChain. 
+
+## Can I start trading with my TFChain TFTs ? 
+
+TFT as available on TFchain will be converted into Stellar TFTA, burned on TFChain with the conversion to the equivalent amount of TFTAs on Stellar. These TFTA can then be converted 1:1 into Stellar TFT, but only progressively and under price conditions, to allow a smooth transition and avoid heavy price fluctuations. The conversion mechanism between TFTA and TFT is available as from June 2020 until end of 2020 in the 3Bot connect app. 
 
 ## How do I get started?
 1. First, you'll need to get yourself one of the Stellar-compatible wallets listed [here](https://www.stellar.org/lumens/wallets).
 
+2. Next, you will need to trust TFT, which will be issued. Everything is credit on Stellar.
+
 As an example, [here](tftlobstr.md) you can find how to set up TFT in a Lobstr mobile wallet. 
-
-2. Next, you will need to trust TFT, which will be issued. Everyting is credit on Stellar.
-
-    _The Bot will connect to the Kraken exchange to find the price of XLM and will modify sell orders to match 0.15 USD (the price of the TFT)._
-
------
-
-_Notes / Extras:_
-
-- _Rob will create an example this weekend. We can try a different wallet. Will first do it on testnet. We should test another wallet as well._
-- _Only place lumens against TFT orders._
-- _The stellar exchange allows people to buy using differents assets and converts it to Lumens first. 
-- _If ppl have BTC and has a buy order / sell order._
-- _We will place sell orders through lumens._
-- _Will create so always 0.15 USD in Lumens._
