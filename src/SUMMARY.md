@@ -8,7 +8,7 @@
     - [SDK Introduction](./sdk/README.md)
     - [Chatflow](./sdk/chat/README.md)
     - [Notebooks/Codeserver](./sdk/code/README.md)
-    - [Blockchain](/sdk/blockchain/README.md)
+    - [Blockchain](./sdk/blockchain/README.md)
 - [Use Cases](./usecases/README.md)
     - [Kubernetes Cluster](./usecases/compute/kubernetes_cluster.md)
     - [Storage](./usecases/storage/s3_storage.md)
