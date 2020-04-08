@@ -1,4 +1,16 @@
 # Summary
+<<<<<<< HEAD
+
+- [intro](./intro/intro.md)
+- [getting started](./gettingstarted/gettingstarted.md)
+- [use cases](./usecases/usecases.md)
+    - [compute](./usecases/compute/compute.md)
+- [sdk](./sdk/sdk.md)
+- [tfgrid simulator](./simulator/simulator.md)
+    - [tft simulation](./simulator/threefold_simulator.md)
+- [notebook](./notebook/notebook.md)
+    - [ui example](./notebook/user_interface.md)
+=======
 - [Intro](./intro/intro.md)
 - [Getting Started](./gettingstarted/gettingstarted.md)
     - [3bot Connect App](./gettingstarted/3bot_connect_app.md)
@@ -27,3 +39,4 @@
     - [Kubernetes Cluster](./usecases/compute/kubernetes_cluster.md)
     - [Storage](./usecases/storage/s3_storage.md)
     - [Network](./usecases/network/overlay_network.md)
+>>>>>>> development
