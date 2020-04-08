@@ -43,10 +43,16 @@ As from April 29, TFTs are tradable on following exchanges.
 ### Stellar Decentralized exchange
 StellarX, The Stellar decentralized exchange can be used to buy TFTs. 
 
-More info can be found [here](https://github.com/threefoldfoundation/info_threefold/blob/development/src/docs/token/how_to_buy/stellarx.md)
+More info can be found [here](tft_stellarx.md)
 
 
 ## How to get FreeTFTs
+
+Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threefold network. 
+To claim your 1000 FreeTFT, go to the website 
+
+TODO add FreeTFT faucet website 
+
 
 ## Pay capacity
 
