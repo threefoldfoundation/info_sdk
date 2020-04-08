@@ -2,14 +2,22 @@
 
 #### Prerequisites
 The prerequisites of getting started with the SDK are:
-- you got yourself the 3bot.connect app in the apple or google play store `# Insert link to installation page`
+- you got yourself the 3bot.connect app in the apple or google play store
 - you have installed the jumpscale SDK on your laptop.  (installation instructions here: [linux](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_linux.md) or [macos](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_macos.md))
+
+If you have not got these things done please go go the "Getting started session".
 
 #### How to work with the SDK
 
 There are numerous ways to use the SDK and use the TF Grid.  We will mention two ways which are the two ones we prefer.  Obviously you might find other methods work better for you.
 
-##### Option 1:  User the graphical administration panel
+1. Chat
+2. Code
+3. Blockchain
+
+The jumpscale SDK is inclusive of everyone that has an interest to create and deploy on the TF Grid. It presents three ways of communicating one needs for novice, intermediate and experienced developers.  Also these 3 ways to create and innovare are present with different interfaces.
+
+##### User the graphical administration panel
 
 After installing on a local system there should be a 3bot SDK start with a SDK admin panel.  To connect to it you should connect to the IP address on which the docker container is operating.  
     1. For a local system install there is a port forwardwarding to the `localhost` allowing you to do this `[http://localhost:7000'](http://localhost:7000).  
@@ -17,13 +25,16 @@ After installing on a local system there should be a 3bot SDK start with a SDK a
 
 The following screen should welcome you:
 
-![SDK login](./images/SDK_login.png)
+![SDK login](img/SDK_login.png)
 
 Use the 3bot.Connect application to login.
 
-![SDK admin panel](./images/SDK_admin_panel.png)
+![SDK admin panel](img/SDK_admin_panel.png)
 
-##### Option 2: Login the container and use the CLI interface
+Included in the SDK is a Visual Studio editors which allows you to edit and create scripts, packages and jumpscale code to your IT architectures up and running.
+![Codeserver](img/codeserver.png)
+
+##### Login the container and use the CLI interface
 You can also login into the container and use the availabe CLI interface to manage code and execute code.
 
 ```
@@ -39,4 +50,4 @@ IPython 7.13.0 -- An enhanced Interactive Python. Type '?' for help.
 
 In [1]:
 ```
-in this container you can do all the usual git repository management, use the jumpscale libraries to create TF Grig deployments, reservations and payments.
+in this container you can do all the usual git repository management, use the jumpscale libraries to create TF Grid deployments, reservations and payments.
