@@ -1,10 +1,7 @@
-# SDK intro
+# SDK Code
 
-There are 4 ways you can provison workloads on the TFGrid.
-<!--
-TODO: Describe in detail how to create, operate and store jupyter notebooks.
-TODO: describe how to store the notebooks on persistent storage
--->
+Provides a [Visual Studio Code](https://code.visualstudio.com) like experience in the browser allowing you to edit your code and documents from your very own 3bot and reducing the overhead of setup dev environment. 
 
+![SDK Code](../tab_explanation/img/codeserver.png)
 
-
+You will get a very modern IDE with lots of extensions and a terminal access too.
