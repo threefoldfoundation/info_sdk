@@ -19,12 +19,14 @@ TODO: explain what our service is like
 <link rel="stylesheet" href="//cdn.webix.com/edge/webix.css" type="text/css">
 <script src="//cdn.webix.com/edge/webix.js" type="text/javascript"></script>
 
+<div id="testB"></div>
 
 <script type="text/javascript" charset="utf-8">
 webix.ui({
     container:"content",
     id:"testB",
     width:700,
+    height: 700,
     rows:[{ view:"toolbar",
             css:"webix_dark",
             paddingX:17,
