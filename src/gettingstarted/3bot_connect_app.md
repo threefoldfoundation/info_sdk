@@ -1,6 +1,7 @@
 <!--- original content: https://github.com/threefoldfoundation/info_threefold/tree/development/src/docs/token/apps_wallets --->
 
-<img src=img/3bot_intro.png height="200">
+<img src=img/3bot_intro.png height="350">
+
 # 3Bot Connect App
 
 ## Home Page

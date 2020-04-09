@@ -1,3 +1,7 @@
+<img src=img/interstellar_logo.png width="450">
+
+*The Current setup of the ThreeFold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
+
 # Buying Tokens on Interstellar
 
 Interstellar.exchange is a decentralized exchange that allows you to buy TFTs.
