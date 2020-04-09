@@ -18,7 +18,6 @@ TODO: explain what our service is like
 
 <link rel="stylesheet" href="//cdn.webix.com/edge/webix.css" type="text/css">
 <script src="//cdn.webix.com/edge/webix.js" type="text/javascript"></script>
-<!-- <script src="./test/js/index.js"></script> -->
 
 
 <script type="text/javascript" charset="utf-8">
