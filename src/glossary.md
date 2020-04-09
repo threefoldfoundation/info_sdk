@@ -1,8 +1,8 @@
 - 3Bot
 - 3Node
-- jumpscale SDK
-- ThreeFold foundation
-- Threefold Tech
-- peer2peer
-- zero-OS
+- Jumpscale SDK
+- ThreeFold Foundation
+- ThreeFold Tech
+- P2P (technical) or peer-to-peer (non-technical) 
+- Zero-OS
 
