@@ -1,9 +1,9 @@
 # Threebot Application Server
 
 Threebot is a pluggable application server based on [openresty](https://openresty.org/en/) and gevent servers and comes with lots of goodies by default.
-- [Admin Dashboard]
-- [Chatflow systems]
-- [RPC Server]
+- [Admin Dashboard](../admin/README.md)
+- [Chatflow systems](../chat/README.md)
+- RPC Server
 
 ## Starting the server
 Using  `j.servers.threebot.start()`.
