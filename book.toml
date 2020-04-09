@@ -14,4 +14,4 @@ enable = true
 level = 0
 
 [output.html]
-default-theme = "Rust"
+default-theme = "Light"
