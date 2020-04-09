@@ -55,7 +55,6 @@ StellarX, The Stellar decentralized exchange can be used to buy TFTs.
 More info can be found [here](tft_stellarx.md).
 
 
-
 ## Pay capacity
 
 Capacity on the Threefold Network can only be bought using tokens. These tokens are registered on the Stellar network. 
