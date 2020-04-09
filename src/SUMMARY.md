@@ -6,7 +6,7 @@
     - [Storage](./intro/architecture_storage.md)
     - [Network](./intro/architecture_network.md)
     - [Web gateway](./intro/architecture_webgateway.md)
-    - [Boot 3node](./intro/architecture_boot.md)
+    - [Boot 3Node](./intro/architecture_boot.md)
     - [Boot container](./intro/architecture_flist.md)
 - [Capacity layer](./capacity_layer/README.md)
     - [0-DB namespace](./capacity_layer/0-DB.md)
