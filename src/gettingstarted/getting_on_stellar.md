@@ -67,8 +67,11 @@ Two tokens can be used :
 
 Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threefold network. 
 
-To claim your 1000 FreeTFT, go to the website and claim your tokens. 
-<!--- TODO add FreeTFT faucet website --->
+To claim your 1000 FreeTFT, go to the website and claim your tokens.
+
+
+<!--- TODO add FreeTFT faucet website, testnet already available :
+https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
 
 <b/> Remark: </b> 
 - only 1000 FreeTFTs are available per 3Bot. Moreover, also the number of 3Bots per user / phone number is limited. 
