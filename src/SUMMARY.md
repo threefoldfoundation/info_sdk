@@ -19,7 +19,7 @@
     - [3bot Connect App](./gettingstarted/3bot_connect_app.md)
     - [Installing The SDK on Linux](./gettingstarted/sdk_linux.md)
     - [Installing The SDK on Windows](./gettingstarted/sdk_windows.md)
-    - [Getting TFT in your wallet](./gettingstarted/getting_on_stellar.md)
+    - [Getting a TFT wallet](./gettingstarted/getting_on_stellar.md)
 - [Jumpscale SDK](./sdk/README.md)
     - [SDK Introduction](./sdk/README.md)
     - [Chatflow](./sdk/chat/README.md)

@@ -26,4 +26,4 @@ TFT as available on TFchain will be converted into Stellar TFTA, burned on TFCha
 
 2. Next, you will need to trust TFT, which will be issued. Everything is credit on Stellar.
 
-As an example, [here](tftlobstr.md) you can find how to set up TFT in a Lobstr mobile wallet. 
+As an example, [here](./tft_lobstr.md) you can find how to set up TFT in a Lobstr mobile wallet. 
