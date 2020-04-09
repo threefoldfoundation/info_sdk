@@ -1,6 +1,8 @@
 
 ## Architecture in general
-
+<!--
+TODO #34 Proofread and improve on type an unclarities
+-->
 ### Built by many for anyone
 The peer2peer nature is embedded in the architecture by the token economy.  The technology stack is open source and allows anyone to participate as a producer or a consumer of capacity.  Capacity producers (Farmers) create compute, storage and network utility by which they mint the digital currency called TFT.  Capacity consumers use capacity to create digital services and architect IT worklaods.  The only accepted currency for the consumed capacity is the TFT.  So the architecture is from the ground up a peer to peer techonlogy
 

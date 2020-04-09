@@ -1,5 +1,7 @@
 ## Storage architecture
-
+<!--
+TODO #33 Proofread and improve typos and language
+-->
 ### Introduction
 The storage architecture follows the true peer2peer design of this grid.  Any participating node can store elements of objects (files, photos, movies, databases etc.) by offering a slice of the present (local) storage devices. Managing storage and retrieval of all of these distributed fragments is done by software that creates delopment or enduser interfaces for this storage algorithm.  We call this dispersed storage.  More details later.
 
@@ -68,9 +70,13 @@ The overhead in this example is 4 out of 20 which is a mere **20%** instead of (
 
 ### Available today
 
+Dispersed storag is a very important buidling block for our autonomous grid, we store al data (blockchain databases included) by using this method.  This underlying storage method will be presented in many different forms for developers and end user protocols.  
+
+Availa today is an S3 interface based on the [min.io](https://min.io/) S3 interface.  With the dispersed storage layer available you can build fast, robust and reliable storage adnd archiving solution.  Some example code and deployment schedule are schared in this manual
+
 ![](img/storage_architecture_0.png)
 
-## Storage details
+A typical master slave setup would look like:
 
 ![](img/storage_architecture_1.png)
 
