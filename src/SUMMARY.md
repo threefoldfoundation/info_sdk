@@ -39,7 +39,7 @@
         - [Kubernetes](./sdk/chat/solutions/kubernetes/README.md)
         - [Min.io](./sdk/chat/solutions/minio/README.md)
         - [Linux Server](./sdk/chat/solutions/ubuntu/README.md)
-    - [Notebooks/Codeserver](./sdk/code/README.md)
+    - [Codeserver](./sdk/code/README.md)
     - [Blockchain](./sdk/blockchain/README.md)
     - [SDK Interface](./sdk/tab_explanation/README.md)
         - [Dashboard](./sdk/tab_explanation/dashboard.md)
