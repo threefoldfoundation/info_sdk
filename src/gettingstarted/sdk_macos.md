@@ -1,6 +1,6 @@
 <!--- Original conents: https://github.com/threefoldfoundation/info_threefold/edit/master/docs/wikieditors/installation_macos.md --->
 
-## Local installation (MacOS)
+## Local installation (macOS)
 
 ### Prerequisites for the SDK installation.
 
