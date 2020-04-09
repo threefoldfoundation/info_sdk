@@ -55,6 +55,15 @@ StellarX, The Stellar decentralized exchange can be used to buy TFTs.
 More info can be found [here](tft_stellarx.md).
 
 
+
+## Pay capacity
+
+Capacity on the Threefold Network can only be bought using tokens. These tokens are registered on the Stellar network. 
+
+Two tokens can be used : 
+- TFT is the usual currency to be used for capacity reservation. 
+- FreeTFT is a token that is freely distributed to 3Bot users, for exploration of the capabilities. Every new 3Bot ID gets 1000 FreeTFT, which can be used for reserving capacity.
+
 ## How to get FreeTFTs
 
 Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threefold network. 
@@ -65,11 +74,3 @@ To claim your 1000 FreeTFT, go to the website and claim your tokens.
 <b/> Remark: </b> 
 - only 1000 FreeTFTs are available per 3Bot. Moreover, also the number of 3Bots per user / phone number is limited. 
 - FreeTFTs are only available to explore the Threefold Network, and have no long-term value. 
-
-## Pay capacity
-
-Capacity on the Threefold Network can only be bought using tokens. These tokens are registered on the Stellar network. 
-
-Two tokens can be used : 
-- TFT is the usual currency to be used for capacity reservation. 
-- FreeTFT is a token that is freely distributed to 3Bot users, for exploration of the capabilities. Every new 3Bot ID gets 1000 FreeTFT, which can be used for reserving capacity.
