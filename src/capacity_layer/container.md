@@ -4,29 +4,37 @@ This primitives allow a user to run its application into a container on a node.
 
 ## Reservation definition
 
-Here is the schema used to define a 0-DB namespace reservation:
+Here is the schema used to define a container reservation:
 
 - **NodeId**: the node ID on which to create the volume
 - **Flist**: the URL of the [flist](#flist). This URL needs to be reachable by the node. This is usually a URL to https://hub.grid.tf/
-- **Environment**: The environment variables to set inside the container. This is usually used to configure the application running in the container
-- **SecretEnvironment**: It is the same as `Environment` but these value are encrypted
-- **Entrypoint**: It is the program to start when the container is created
-- **Interactive**: If set to true, coreX is started in the container and the value of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager) for more detail
-- **Volumes**: This is where you define which [volume](./volume.md) to mount inside the container.
+- **Environment**: the environment variables to set inside the container. This is usually used to configure the application running in the container
+- **SecretEnvironment**: it is the same as `Environment` but these value are encrypted
+- **Entrypoint**: it is the program to start when the container is created
+- **Interactive**: if set to true, coreX is started in the container and the value of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager) for more detail
+- **Volumes**: this is where you define which [volume](./volume.md) to mount inside the container.
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
-- **NetworkConnection**: This is where you define the network of the container
-  - **NetworkId**: The name of the network created using a [network](./network.md) primitive.
+- **NetworkConnection**: this is where you define the network of the container
+  - **NetworkId**: the name of the network created using a [network](./network.md) primitive.
   - **Ipaddress**: net.IP: The IP address to give to the container
-  - **PublicIp6**: If this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
+  - **PublicIp6**: if this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
+- **Logs**: a redis backend where you can send stdout and stderr output
 
 ## Flist
 
 More information about flist at [flist documentation](../intro/architecture_flist.md)
 
-## CoreX - the 0-OS container process manager
+## CoreX - The 0-OS container process manager
 
-TODO
+When running a container, if you want an interactive way to use it, the easiest solution is enabling `CoreX`.
+
+When CoreX runs in your container, you'll get a web access to your container (`container-ip:7681`) via a web browser.
+On this web page, you can track processes you run and attach them to get a remote console within your web browser.
+
+It's like ssh over web page.
+
+You can use `j.clients.corex` to start, stop, list etc. process on your Core X.
 
 ## Example using sdk
 
