@@ -22,12 +22,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 ## Flist
 
-The flist format is a general purpose format to store metadata about a (posix) filesystem. 
-It's main goal is keeping a small file with enough information to make a complete filesystem available without the data payload itself, in an efficient way.
-
-### Convert docker image into flist
-
-If you already have some docker images of your application, you can convert them directly into flist: https://hub.grid.tf/docker-convert
+More information about flist at [flist documentation](../intro/architecture_flist.md)
 
 ## CoreX - the 0-OS container process manager
 

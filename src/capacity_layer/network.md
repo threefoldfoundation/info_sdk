@@ -4,7 +4,7 @@ The network primitive allows a user to define its own overlay network between an
 The technology we used to create the overlay network is [wireguard](https://www.wireguard.com/).  
 When you send a reservation that contains a network primitive, the overlay network will automatically get installed and started on all the nodes defined in your reservation.
 
-This is the building block on top of which containers and kubernets cluster communicates.
+This is the building block on top of which containers and kubernetes cluster communicates.
 
 The end goal is to build a secure and fully encrypted channel between all your application running on the grid.
 
@@ -12,7 +12,7 @@ The end goal is to build a secure and fully encrypted channel between all your a
 
 ## How to define a network ?
 
-A network is defined by its name and its subnet. 
+A network is defined by its name and its subnet.  
 The network subnet must be a 16-bit block within the private address space define in [RFC1918](https://tools.ietf.org/html/rfc1918). So one from:
 
 - 10.0.0.0        -   10.255.255.255  (10/8 prefix)
@@ -21,6 +21,12 @@ The network subnet must be a 16-bit block within the private address space defin
 
 The 16-bit block is then splitter into 24-bit block and each node get assigned one of these 24-bit block.  
 So for example if you picked `192.168.0.0/16` as global network subnet, all the nodes get assigned an subnet from `192.168.1.0/24` to `192.168.254.0/24`.
+
+To make it more visual imagine your network is like a bit box full of IP addresses. The big box contain 65534 IP address (a 16-bit address block).  
+For each node that join the network, you reserve a part of the big box, 254 IP address, for the node to use (the 24-bit block).
+Finally, when you create a container or a kubernetes VM on a node, you assign one IP from the part that is reserved for the node.
+
+![network-box](img/network-box.png)
 
 to recap, to create a network you must:
 

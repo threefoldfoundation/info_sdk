@@ -3,7 +3,6 @@
 This primitives allow a user to deploy a kubernetes cluster.
 
 A cluster must be composed of at least 2 nodes. One master node and any number of worker nodes.
-TODO: copy from https://github.com/threefoldtech/zos/blob/master/docs/kubernetes/README.md
 
 ## Reservation definition
 
@@ -72,4 +71,91 @@ result = zos.reservation_result(registered_reservation.reservation_id)
 
 print("provisioning result")
 print(result)
+```
+
+
+## How to log into your VM after deployement
+
+
+Once the cluster is deployed, you need to connect to one of the nodes and copy the kube-config file.
+
+```shell
+ssh rancher@172.30.1.2 # replace with your master node IP
+The authenticity of host '172.30.1.2 (172.30.1.2)' can't be established.
+ECDSA key fingerprint is SHA256:Q4kQ94B8QaSbo1EsyI8dQrgBkZyk/USda72c8nwVwIE.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '172.30.1.2' (ECDSA) to the list of known hosts.
+Welcome to k3OS!
+
+Refer to https://github.com/rancher/k3os for README and issues
+
+By default mode of k3OS is to run a single node cluster. Use "kubectl"
+to access it.  The node token in /var/lib/rancher/k3s/server/node-token
+can be used to join agents to this server.
+
+k3os-15956 [~]$
+```
+
+Let's get all nodes of the cluster
+
+```shell
+k3os-15956 [~]$ k3s kubectl get nodes
+NAME         STATUS   ROLES    AGE     VERSION
+k3os-15956   Ready    master   3m46s   v1.16.3-k3s.2
+k3os-15957   Ready    <none>   2m26s   v1.16.3-k3s.2
+k3os-15958   Ready    <none>   1m42s   v1.16.3-k3s.2
+```
+
+Copy the config so that we can use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
+
+Execute this command on your local machine not in a remote shell
+
+```shell
+scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml ./k3s.yaml
+
+> IMPORTANT: Do not forget to update the server IP in the copied yaml file.
+> By default, it will be pointing to localhost, this must be changed into the
+> IP you used to connect to the VM.
+```
+
+If you already have a kube config file usually located in `~/.kube/config`
+you can edit it and add the new cluster with the informations written on k3s.yaml
+
+here is an example of `~/.kube/config`
+
+```yaml
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdLKjhdDGhjDHKHKhDBJWakNCL3FBREFnRUNBZ0VBTUFvR0NDcUdTTTQ5QkFNQ01DTXhJVEFmQmdOVkJBTU1HR3N6Y3kxelpYSjIKWlhJdFkyRkFNVFU0TURjME9EQXhOakFlRncweU1EQXlNRE14TmpRd01UWmFGdzB6TURBeE16RXhOalF3TVRaYQpNQ014SVRBZkJnTlZCQU1NR0dzemN5MXpaWEoyWlhJdFkyRkFNVFU0TURjME9EQXhOakPPOIHjkDHDJHGkFnRUddaW9tdVR1MXQ1aVRlZDhHaVFrQ2FrdnRWL2xpRGJ3MUlxSS94dEkKWmUya2Y3Tm1mL0txR3IrMzN5SVZ5Q0tkaEdlelBCbEsvanNUSkZVSWpzdWpJekFoTUE0R0ExVWREd0DezdzedzenTlZIUk1CQWY4RUJUQURBUUgvTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUJFNTYzcUttY2xiClVQWHc2UXJCbWxQUmlrbWdCVnY0VHlkMVZ0TWNXY3JYQWlCVlJPY3RjMTF1TXFrOGJWVHJOVFNiN0lFS3ZkRjAKelluMzhwME41MdLUVORCBDRVJUSUZJQ0FURS0D=
+    server: https://172.30.1.2:6443
+  name: k3s
+- context:
+    cluster: k3s
+    namespace: default
+    user: k3s
+  name: k3s
+current-context: k3s
+kind: Config
+preferences: {}
+users:
+- name: k3s
+  user:
+    password: 8719c8d71457366ecaff927cf784
+    username: admin
+```
+
+or leverage the KUBECONFIG environment variable
+
+```shell
+$ export KUBECONFIG=/home/zgo/k3s.yaml
+$ kubectl get pods --all-namespaces
+$ helm ls --all-namespaces
+```
+
+Or specify the location of the kubeconfig file per command:
+
+```shell
+kubectl --kubeconfig ./k3s.yaml get pods --all-namespaces
+helm --kubeconfig ./k3s.yaml ls --all-namespaces
 ```
