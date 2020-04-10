@@ -30,7 +30,7 @@ More information about flist at [flist documentation](../intro/architecture_flis
 When running a container, if you want an interactive way to use it, the easiest solution is enabling `CoreX`.
 
 When CoreX runs in your container, you'll get a web access to your container (`container-ip:7681`) via a web browser.
-On this web page, you can track processes you run and attach they to get a remote console to your processes within your web browser.
+On this web page, you can track processes you run and attach them to get a remote console within your web browser.
 
 It's like ssh over web page.
 
