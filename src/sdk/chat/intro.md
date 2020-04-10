@@ -87,20 +87,20 @@ def chat(bot):
 
 ```
 Here's how it will look like 
-![Chat Flow1](./images/chat/chat1.png)
+![Chat Flow1](images/chat/chat1.png)
 Asking what to eat as a string `string_ask`
 
-![Chat Flow2](./images/chat/chat2.png)
+![Chat Flow2](images/chat/chat2.png)
 Asking for amount as int `int_ask`
-![Chat Flow3](./images/chat/chat3.png)
+![Chat Flow3](images/chat/chat3.png)
 Asking for side dishes as multiple choice `multi_choice`
 
-![Chat Flow4](./images/chat/chat4.png)
+![Chat Flow4](images/chat/chat4.png)
 Asking for drink as single choice `single_choice`
-![Chat Flow5](./images/chat/chat5.png)
+![Chat Flow5](images/chat/chat5.png)
 Showing final results using md_show
 
-For more technical information on the chat package please check [Internals page](./internals.md)
+For more technical information on the chat package please check [Internals page](internals.md)
 
 
 ### Available question types:

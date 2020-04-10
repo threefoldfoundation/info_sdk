@@ -4,3 +4,6 @@ This section will havea growing number of tips and trick found and shared by the
 
 ![](img/forum_sdk.png)
 
+### Index
+
+- [Notebook User Interface](user_interface.md)

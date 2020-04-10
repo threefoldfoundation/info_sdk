@@ -12,18 +12,18 @@ Here is the schema used to define a container reservation:
 - **SecretEnvironment**: it is the same as `Environment` but these value are encrypted
 - **Entrypoint**: it is the program to start when the container is created
 - **Interactive**: if set to true, coreX is started in the container and the value of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager) for more detail
-- **Volumes**: this is where you define which [volume](./volume.md) to mount inside the container.
+- **Volumes**: this is where you define which [volume](volume.md) to mount inside the container.
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
 - **NetworkConnection**: this is where you define the network of the container
-  - **NetworkId**: the name of the network created using a [network](./network.md) primitive.
+  - **NetworkId**: the name of the network created using a [network](network.md) primitive.
   - **Ipaddress**: net.IP: The IP address to give to the container
   - **PublicIp6**: if this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
 
 ## Flist
 
-More information about flist at [flist documentation](../intro/architecture_flist.md)
+More information about flist at [flist documentation](.intro/architecture_flist.md)
 
 ## CoreX - The 0-OS container process manager
 

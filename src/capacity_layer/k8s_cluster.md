@@ -10,7 +10,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 - **NodeId**:
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
-- **NetworkId**: The name of the network created using a [network](./network.md) primitive.
+- **NetworkId**: The name of the network created using a [network](network.md) primitive.
 - **Ipaddress**: The IP address to give to the VM
 - **ClusterSecret**: The value of this field must be the same for all the member of a cluster
 - **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here
@@ -111,7 +111,7 @@ Copy the config so that we can use kubectl from our local machine. By default it
 Execute this command on your local machine not in a remote shell
 
 ```shell
-scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml ./k3s.yaml
+scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml k3s.yaml
 
 > IMPORTANT: Do not forget to update the server IP in the copied yaml file.
 > By default, it will be pointing to localhost, this must be changed into the
@@ -156,6 +156,6 @@ $ helm ls --all-namespaces
 Or specify the location of the kubeconfig file per command:
 
 ```shell
-kubectl --kubeconfig ./k3s.yaml get pods --all-namespaces
-helm --kubeconfig ./k3s.yaml ls --all-namespaces
+kubectl --kubeconfig k3s.yaml get pods --all-namespaces
+helm --kubeconfig k3s.yaml ls --all-namespaces
 ```

@@ -17,7 +17,7 @@ The frontend is written in webix, and located at `frontend_src`, the build is at
 If u want to add another view "menu" item to include another package in the admin view. It's very easy using
 
 ```python
-import { ExternalView } from "../external";
+import { ExternalView } from ".external";
 
 const CODE_URL = "/codeserver/?folder=/sandbox/code";
 const REQUIRED_PACKAGES = {
