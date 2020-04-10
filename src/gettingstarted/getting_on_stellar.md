@@ -6,22 +6,20 @@ TODO Generic description to get yourself / your 3bot.connect on the stellar netw
 
 ### Getting your 3bot connect to the Stellar network
 
-The 3Bot Connect app has a Wallet inside, accessed using either the seed keys of the 3Bot connect app or an imported seed key. 
+The 3Bot Connect app has a wallet inside, accessed using either the seed keys of the 3Bot connect app or an imported seed key. 
 The wallet allows you to show your balance in TFTs and FreeTFTs, as well as transferring (sending and receiving) tokens. 
 Trading on the StellarX DEX is not yet possible using 3Bot Connect app (under construction). This is why it can be useful to install other wallets, which are able to do trades on the Stellar DEX. 
 
 ### How to get a Stellar account in the 3Bot Connect app
 
 Accounts need to be activated on the Stellar network. 
-You can do this doing the following steps : 
-- push the activation button
-- send an sms with the 5 character code to the shown sms number 
+You can do this by sending an sms with the 5 character code to the shown sms number.
 
 ![sms_activ](./img/3bot_staging_sms_activation.png)
 
 <!--- TODO add screenshots 3Bot Connect app for activation and code --->
 
-Sending this sms will trigger the activation of the account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
+Sending this sms will trigger the activation of a TFT account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
 Once activation is done, you can start sending and receiving TFTs. 
 
 ### Getting other Stellar wallets to add a TFT or FreeTFT account
