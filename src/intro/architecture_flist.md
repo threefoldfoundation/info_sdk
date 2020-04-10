@@ -30,7 +30,7 @@ One word: CAS (or more words: Content Adressed Storage). We store metadata and d
 
 The flist itself is the Metadata. It's a database that contains a list of directories and files, all their information (name, size, permissions, ...) and the list of chunk addresses (the list of hashes we can use to query the database).
 
-We store flist files into our « hub » which is just an http server serving static files. For example, you can see the file ubuntu:18.04 which is mostly the same as an ubuntu:18.04 Docker Image, but the flist is 3.16 MB large. By downloading this, you have enough information to know everything in the archive.
+We store flist files into our [<< hub >>](https://hub.grid.tf) which is just an http server serving static files. For example, you can see the file ubuntu:18.04 which is mostly the same as an ubuntu:18.04 Docker Image, but the flist is 3.16 MB large. By downloading this, you have enough information to know everything in the archive.
 
 With some tools (like 0-fs, explained later), you can even mount that flist and use it like a real directory.
 
