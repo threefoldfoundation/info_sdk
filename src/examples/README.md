@@ -1,9 +1,6 @@
 ### Examples
 
-
-* [deploy a network](./python/overlay_network.md)
-* [deploy an flist](./python/flist.md)
-* [deploy an S3 Solution](./python/s3_storage.md)
-* [deploy a kubernetes cluster](./python/kubernetes_cluster.md)
-
-
+* [deploy a network](network/overlay_network.md)
+* [deploy an flist](flist/flist.md)
+* [deploy an S3 Solution](s3_server/s3_storage.md)
+* [deploy a kubernetes cluster](kubernetes_cluster/kubernetes_cluster.md)

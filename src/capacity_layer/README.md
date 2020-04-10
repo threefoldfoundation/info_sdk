@@ -1,7 +1,5 @@
 # Capacity layer
 
-TODO: insert graphic
-
 The lowest layer of the ThreefoldGrid is its capacity layer. Raw internet capacity is exposed to the grid through nodes running the [0-OS operating system](https://github.com/threefoldtech/zos).
 
 0-OS provides 4 primitives that can be combined together to build full applications.

@@ -1,4 +1,4 @@
-### Create a private overlay network
+## Create a private overlay network
 
 In this example we will create an overlay network over a number of nodes in the TF Grid.  The nodes and locations can be researched on this explorer site:  http://explorer.grid.tf
 

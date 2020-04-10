@@ -106,7 +106,7 @@ rm -fr /sandbox
 
 # If the known hosts file exists - delete the entries made by previous installations.
 cd 
-mv ./.ssh/known_hosts ./.ssh/known_hosts.original
+mv .ssh/known_hosts .ssh/known_hosts.original
 # install
 /tmp/jsx sdk
 ```

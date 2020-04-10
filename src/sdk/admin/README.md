@@ -57,4 +57,4 @@ j.tools.threebot.me.default.save()
 
 ## Developing and extending admin dashboard
 
-Please check [extending admin dashboard](./extending_admin.md)
+Please check [extending admin dashboard](extending_admin.md)

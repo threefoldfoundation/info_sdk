@@ -6,7 +6,7 @@ This package is used to deploy a network on the grid and to connect your solutio
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](./adminmenu.png)
+![solutions menu](adminmenu.png)
 
 
 ## Inputs
@@ -29,7 +29,7 @@ The solution takes some configurations from the user, we will list them and expl
 
 ### Choosing the network name
 
-![Step1](./network1.png)
+![Step1](network1.png)
 We choose the network name to be referenced again in the dashboard reservation manager
 
 ### Expiration time
