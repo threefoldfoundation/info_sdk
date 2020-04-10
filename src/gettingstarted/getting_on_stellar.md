@@ -17,6 +17,8 @@ You can do this doing the following steps :
 - push the activation button
 - send an sms with the 5 character code to the shown sms number 
 
+![sms_activ](./img/3bot_staging_sms_activation.png)
+
 <!--- TODO add screenshots 3Bot Connect app for activation and code --->
 
 Sending this sms will trigger the activation of the account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
@@ -38,8 +40,6 @@ FreeTFT is a separate token with :
 
 Both TFT and FreeTFT are registered on this blockchain, under the domain `threefold.io` . Some wallets don't require you to introduce assetcode and issuer, but need this domain name to find back the tokens on the Stellar network. 
 
-Most of the 
-
 ## How to buy TFTs
 
 Trading capabilities are not yet available in the 3Bot Connect app. 
@@ -50,10 +50,9 @@ As from April 29, TFTs are tradable on following exchanges.
 - [BTC Alpha](https://btc-alpha.com/en/) (centralized exchange)
 
 ### Stellar Decentralized exchange
-StellarX, The Stellar decentralized exchange can be used to buy TFTs. 
+You can also exchange TFTs with other tokens in a decentralized way, using StellarX, the Stellar decentralized exchange. 
 
 More info can be found [here](tft_stellarx.md).
-
 
 ## Pay capacity
 
