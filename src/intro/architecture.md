@@ -4,7 +4,7 @@
 ### Built by many for anyone
 The peer-2-peer nature is embedded in the architecture by the token economy. The technology stack is open source and allows anyone to participate as a producer or a consumer of capacity. Capacity producers (Farmers) create compute, storage and network utility by which they mint the digital currency called TFT. Capacity consumers use capacity to create digital services and architect IT workloads. The only accepted currency for the consumed capacity is the TFT. So the architecture is from the ground up a peer to peer technology
 
-### Use cases (to be removed)
+### Use cases
 
 The technology stack aims to be a universal substrate (build by many for anyone) for generic IT workloads. Any (Linux based) workload can be ported to the substrate and use capacity (compute, storage and networking) spread over many devices. These devices can exist in traditional datacenters, but also in other locations where people have opted in to be a capacity provider.
 
