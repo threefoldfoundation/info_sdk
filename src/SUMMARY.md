@@ -13,6 +13,7 @@
     - [Installing The SDK on Linux](gettingstarted/sdk_linux.md)
     - [Installing The SDK on macOS](gettingstarted/sdk_macos.md)
     - [(soon) Installing The SDK on Windows](gettingstarted/sdk_windows.md)
+    - [User Identity](gettingstarted/identity.md)
     - [Buy TFT: Interstellar](gettingstarted/tft_interstellar.md)
     - [Buy TFT: StellarX](gettingstarted/tft_stellarx.md)
     - [Buy TFT: Lobster Wallet](gettingstarted/tft_lobstr.md)
