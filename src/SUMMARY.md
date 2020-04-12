@@ -44,6 +44,7 @@
         - [Kubernetes](sdk/chat/solutions/kubernetes/README.md)
         - [Min.io](sdk/chat/solutions/minio/README.md)
         - [Linux Server](sdk/chat/solutions/ubuntu/README.md)
+        - [WebGateway](sdk/chat/solutions/webgateway/README.md)
     - [Codeserver](sdk/code/README.md)
     - [Blockchain](sdk/blockchain/README.md)
 - [Capacity layer](capacity_layer/README.md)
