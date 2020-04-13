@@ -82,7 +82,7 @@ Obviously, this kind of situation adds some latency when you access the file the
 #### Early version
 Earlier versions of flist were plain text format listing files, metadata and chunks using plain text and pipe as a delimiter, but we moved to a more complex but easier to manipulate format, with a higher-level programming interface.
 
-Versions of 0-fs had RocksDB incorporated as key-value store, but that library was very difficult to integrate and maintain, that we opted for SQLite as backend.
+Versions of 0-fs had RocksDB incorporated as a key-value store, but that library was very difficult to integrate and maintain, that we opted for SQLite as backend.
 
 Also, we reduced some hash lengths, like for permissions, to further reduce the flist sizes themselves.
 

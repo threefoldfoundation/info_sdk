@@ -33,7 +33,7 @@ Want to know more?
 
 ### ThreeFold Foundation
 <!-- insert general objectives for the TF Network (Grid, Token and 3bot) -->
-The Threefold Foundation is realising the vision to provide affordable, local digital services by many for anyone. 
+The Threefold Foundation is realizing the vision to provide affordable, local digital services by many for anyone. 
 ![](img/ses.png)
 For more information on the foundation, please check [threefold.io](https://threefold.io).
 
