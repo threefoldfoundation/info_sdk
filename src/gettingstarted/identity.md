@@ -10,12 +10,12 @@
 
 ## If you want to check your configuration or change
 
-- This will ask you about a secret passphrase, this secret is saved in redis and encrypt your identities.
+- This will ask you about a secret passphrase, this secret is saved in redis and encrypts your identities.
 Please keep it safe and remember it.
 
  ![Identity photo](./img/identity1.png)
 
-- After kosmos starts, configure using j.me
+- After Kosmos starts, configure using j.me
     
     ```python
     j.me.configure()
@@ -28,7 +28,7 @@ This command will automatically register your information in the phonebook.
 
 #### Congratulations your 3bot is ready ! Now you can start the 3bot server and start your reservation.
 
-To save your identity, you best copy these files (holding your identity information) to safe place : 
+To save your identity, you best copy these files (holding your identity information) to a safe place : 
 
  ![recover photo](./img/identity2.png)
 
@@ -57,7 +57,7 @@ will remove your container & redo your registration.
 
 Your own 3bot name (the one as configured in the default identity is automatically added as administrator to any 3bot created.)
  
-## how to start from an existing private key
+## How to start from an existing private key
 
 ```
 jsx container -d -id someone.3bot --words='course salon aword ship team broccoli explain gate three again heart busy vessel parrot bar chalk pig world snow ...' --email='...'
@@ -65,7 +65,7 @@ jsx container -d -id someone.3bot --words='course salon aword ship team broccoli
 
 ## Creating multiple identities
 
-You can either start kosmos with a new identity name ```jsx kosmos -n newname.3bot``` which will guide you through configuration, or you can do it from kosmos shell through following steps :
+You can either start Kosmos with a new identity name ```jsx kosmos -n newname.3bot``` which will guide you through the configuration, or you can do it from Kosmos shell through following steps :
 
 - Create a new identity
 
@@ -143,7 +143,7 @@ JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
 
 In case you lost your identites, we can restore from the saved toml keys in `/sandbox/myhost/identities`.
 
-These contains the identity information, please keep them safe
+This contains the identity information, please keep them safe
 
  ![recover photo](./img/identity2.png)
 
