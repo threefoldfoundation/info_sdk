@@ -1,0 +1,23 @@
+@startuml 3Botserver_workflow
+
+title 3Bot Server Workflow
+
+actor User
+participant "OpenResty" as or
+participant "FrontEnd App" as fe 
+participant "Bottle Server" as bs 
+participant "Gedis Server" as gs 
+
+
+User -> or: Request app
+or -> fe: Request 
+fe -> or: Front-end interact with Back-end
+or -> bs: /actors forwards to bottle
+bs -> gs: Actor cmd/args 
+gs -> bs: cmd result
+bs -> or: cmd result
+or -> fe: result back to front-end 
+fe -> or: front-end update 
+or -> User: Front-end updated
+@enduml
+© 2020 GitHub, Inc.
