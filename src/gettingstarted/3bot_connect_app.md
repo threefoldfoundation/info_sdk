@@ -1,36 +1,38 @@
 <!--- original content: https://github.com/threefoldfoundation/info_threefold/tree/development/src/docs/token/apps_wallets --->
 
-![](img/3bot_intro.png)
+<img src=img/3bot_intro.png height="350">
+
 # 3Bot Connect App
 
 ## Home Page
 
 This is the Home Page of your 3Bot Connect App. It offers a gateway to your digital life. From here you can open  [FreeFlow Pages](https://freeflowpages.com/), an open source social network hosted on ThreeFold decentralized capacity. 
 
-![](img/3bot_home_page.jpg)
+<img src=img/3bot_home_page.png height="450">
 
 ## Wallet
 
 In this tab you can check your ThreeFold Tokens wallets and balances. You can copy your wallet address using the green "Copy" buttons for each specific wallet. Using the button in the bottom right side you can send or generate QR code to receive ThreeFold Tokens:
 
-![](img/3bot_wallet_1.jpg)
+<img src=img/3bot_wallet_1.png height="450">
+
 
 ### Generate QR Code to receive ThreeFold Tokens
 
 To receive your ThreeFold Tokens you can copy your button or you have to fill next fields:
 
-![](img/3bot_wallet_2.jpg)
+<img src=img/3bot_wallet_2.png height="450">
 
 1) `To` : choose the wallet that receives the transaction
 2) `Amount` : amount of TFT to receive
 3) `Message` : message to transaction
 4) `Generate QR` : this button generates a QR code that holds all info, allowing an easy way to exchange the payment information. 
 
-![](img/3bot_wallet_3.jpg)
+<img src=img/3bot_wallet_3.png height="450">
 
 ### Send
 
-![](img/3bot_wallet_4.jpg)
+<img src=img/3bot_wallet_4.png height="450">
 
 1) `From` : choose your wallet with TFT to make transaction
 2) `To` : paste the reciever wallet adress

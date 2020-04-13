@@ -5,9 +5,13 @@ multilingual = false
 src = "src"
 title = "TFGrid SDK"
 
+# [preprocessor.foo]
+# command = "python3 foo.py"
+# renderer = ["html"]
+
 [output.html.fold]
 enable = true
 level = 0
 
 [output.html]
-default-theme = "Rust"
+default-theme = "Light"

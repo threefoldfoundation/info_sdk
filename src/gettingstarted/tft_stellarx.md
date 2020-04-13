@@ -1,5 +1,10 @@
 <!--- original content https://github.com/threefoldfoundation/info_threefold/blob/development/src/docs/token/how_to_buy/stellarx.md --->
 
+
+<img src=img/stellarx_logo.png width="450">
+
+*The Current setup of the ThreeFold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
+
 # StellarX
 
 StellarX is a free peer2peer marketplace available on the Stellar network. It offers trading for a range of assets, using stellar lumens (XLM) as the base currency. 
@@ -26,4 +31,4 @@ TFT as available on TFchain will be converted into Stellar TFTA, burned on TFCha
 
 2. Next, you will need to trust TFT, which will be issued. Everything is credit on Stellar.
 
-As an example, [here](./tft_lobstr.md) you can find how to set up TFT in a Lobstr mobile wallet. 
+As an example, [here](tft_lobstr.md) you can find how to set up TFT in a Lobstr mobile wallet. 
