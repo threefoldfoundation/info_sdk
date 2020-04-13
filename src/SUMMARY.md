@@ -17,7 +17,7 @@
     - [Getting TFT and FreeTFT](gettingstarted/getting_on_stellar.md)
         - [Buy TFT: Interstellar](gettingstarted/tft_interstellar.md)
         - [Buy TFT: StellarX](gettingstarted/tft_stellarx.md)
-        - [Buy TFT: Lobster Wallet](gettingstarted/tft_lobstr.md)
+        - [Buy TFT: Lobstr Wallet](gettingstarted/tft_lobstr.md)
 - [Jumpscale SDK](sdk/README.md)
     - [Admin Dashboard](sdk/admin/README.md)
       - [Extending Admin Dashboard: Developers](sdk/admin/extending_admin.md)
