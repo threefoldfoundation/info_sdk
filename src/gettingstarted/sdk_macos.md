@@ -1,16 +1,16 @@
-<!--- Original conents: https://github.com/threefoldfoundation/info_threefold/edit/master/docs/wikieditors/installation_macos.md --->
+<!--- Original contents: https://github.com/threefoldfoundation/info_threefold/edit/master/docs/wikieditors/installation_macos.md --->
 
 ## Local installation (macOS)
 
 ### Prerequisites for the SDK installation.
 
-In order to install the SDK in a container (recommended) you should have the docker software suite. You can find instructions for most operating systems [here](https://docs.docker.com/install/)
+In order to install the SDK in a container (recommended) you should have the Docker software suite. You can find instructions for most operating systems [here](https://docs.docker.com/install/)
 
-**Note** the latest release of docker desktop for macOS seems to have issues and the installer does not work for that.  If you have an older version of the docker Desktop the install might work.  Issue has been created and you can track it on [GitHub](https://github.com/threefoldtech/jumpscaleX_core/issues/672). 
+**Note** the latest release of Docker desktop for macOS seems to have issues and the installer does not work for that.  If you have an older version of the Docker desktop the install might work.  Issue has been created and you can track it on [GitHub](https://github.com/threefoldtech/jumpscaleX_core/issues/672). 
 
-If you still want to start on your mac we propose for now to use virtualbox and install an ubuntu server on it. you can find virtualbox [here](https://www.virtualbox.org/wiki/Downloads) and the ubuntu server image [here](https://ubuntu.com/download/server).  Once you have the virtual box VM with ubuntu servers you can follow the instructions to install the SDK [here](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_linux.md)
+If you still want to start on your Mac we propose for now to use Virtualbox and install an ubuntu server on it. You can find Virtualbox [here](https://www.virtualbox.org/wiki/Downloads) and the Ubuntu server image [here](https://ubuntu.com/download/server).  Once you have the Virtualbox VM with Ubuntu servers you can follow the instructions to install the SDK [here](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_linux.md)
 
-Also you need to have python installed on your machine.  For MacOS we recommend using the package manager [```brew```](https://brew.sh/), but there are regular installers for MacOS as well.  Here we assume that you have installed brew and install all the necessary packages:
+Also you need to have Python installed on your machine.  For macOS we recommend using the package manager [```brew```](https://brew.sh/), but there are regular installers for macOS as well.  Here we assume that you have installed brew and install all the necessary packages:
 ```bash
 brew install python3
 ```
@@ -21,7 +21,7 @@ python: stable 3.7.7 (bottled), HEAD
 ... will output some info
 ```
 
-And we need a gew additional libraries for the installation:
+And we need a few additional libraries for the installation:
 
 ```bash
 pip3 install click requests;
@@ -47,13 +47,13 @@ root@happy:~#
 
 ### Step 2:  TFGrid SDK installation
 
-In a terminal execute the following commands. This will download the installer, change its permission to make it executable.  In MacOS this install can be done as a normal user, you do not need to be root (no sudo -i required as witht the ubuntu installation).
+In a terminal execute the following commands. This will download the installer, change its permission to make it executable.  In macOS this install can be done as a normal user, you do not need to be root (no sudo -i required as with the Ubuntu installation).
 ```
 curl https://raw.githubusercontent.com/threefoldtech/jumpscaleX_core/development/install/jsx.py?$RANDOM > /tmp/jsx;
 chmod +x /tmp/jsx;
 ```
 
-This script provides a number of commands to operate / configure the SDK.  Options are show with the ```--help``` flag.
+This script provides a number of commands to operate / configure the SDK.  Options are shown with the ```--help``` flag.
 
 ```bash
 root@happy:~ /tmp/jsx --help
@@ -94,7 +94,7 @@ Commands:
   wireguard           jsx wireguard enable wireguard, can be on host or...
 ```
 
-## Install threebot
+## Install 3bot
 <!--
 TODO #10 Content to add representing the Jumpscale SDK install
 

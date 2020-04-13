@@ -4,9 +4,9 @@
 
 In order to be able to deploy this example deployment you will have to have the following components activated
 - the Jumpscale SDK, in the form of a local container with the SDK, or a grid based SDK container.  Getting started instuctions are [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK) 
-- if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
+- if you use a locally installed container with the Jumpscale SDK you need to have the Wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 
-After following these install instructions you should end up having a local, working jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
+After following these install instructions you should end up having a local, working Jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
 
 
 ### Overview
@@ -25,7 +25,7 @@ Each overlay network is private and contains private IP addresses.  Each overlay
 
 #### Set up the capacity environment to find, reserve and configure
 
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
+Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the Jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the Kosmos shell.
 
 
 
@@ -58,7 +58,7 @@ demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
 
-When you executed the reservation it also provided you with a data on order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create a storage solution.  For this soultion we will using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the ouput of the network reservation notebook to describe the high level design of the storage solution:
+When you executed the reservation it also provided you with a data on order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a Wireguard tunnel.  On these nodes we can now create a storage solution.  For this soultion we will be using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the ouput of the network reservation notebook to describe the high level design of the storage solution:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
@@ -72,9 +72,9 @@ When you executed the reservation it also provided you with a data on order numb
 
 #### Reserve and deploy the low level ZeroDB storage nodes
 
-First let's deploy low level storage capacity manager (Zero BD, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
-- create some empty reservation and result structures
-- select and set the node to container the S3 software
+First let's deploy a low level storage capacity manager (Zero BD, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
+- create some empty reservations and result structures
+- select and set the node to contain the S3 software
 - select and load the nodes in a list to push them in the zero-DB reservation structure
 
 
@@ -129,7 +129,7 @@ for node in nodes_all:
 
 #### Prepare and deploy the S3 software container
 
-The nodes that will run the storage solution needs some persistent storage.  This will create a reservation for a volume on the same node as the software runs and attached this as a volume to the container that will run the storage software.  For the reservation duration please set a period of time that allows for expermenting, in this case it is set for one day.  
+The nodes that will run the storage solution need some persistent storage.  This will create a reservation for a volume on the same node as the software runs and attaches this as a volume to the container that will run the storage software.  For the reservation duration please set a period of time that allows for expermenting, in this case it is set for one day.  
 
 
 ```python
@@ -215,7 +215,7 @@ category = "ZDB"
     
    ```
 
-With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network.  We need to store those addresses in `namespace_config` to pass it to the container running the storage software.
+With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network)  we need to store those addresses in `namespace_config` to pass it to the container running the storage software.
 
 
 ```python
@@ -241,17 +241,17 @@ Last step is to design the redundacy policy for the storage solution.  We have 6
 
 | Option | data storage devices | parity storage devices | total devices  | overhead  |
 |--------|---|---|---|---|
-|  1      | 3  | 3  | 6  | 50%%  |
+|  1      | 3  | 3  | 6  | 50%  |
 |  2      | 4  | 2  | 6  | 33% |
 |  3      | 5  | 1  | 6  | 16%  |
 
-Now in this example real efficiency of this solution is not achieved, in a real life deployment we would do something like this:
+Now in this example real efficiency of this solution is not achieved, in a real live deployment we would do something like this:
 
 | Option | data storage devices | parity storage devices | total devices  | overhead  |
 |--------|---|---|---|---|
 |  4      | 16  | 4  | 20  | 20%  |
 
-In that case it is highly unlikely that 4 distributed devices will fail at the same time, therefore this is a very robust storage solution
+In that case it is highly unlikely that 4 distributed devices will fail at the same time, therefore this is a very robust storage solution.
 
 
 Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
@@ -283,7 +283,7 @@ minio_container=zos.container.create(reservation=reservation_minio,
         })
 ```
 
-With the definition of the S3 container done we now need to attached persistent storage on a volume to store metadata.
+With the definition of the S3 container done we now need to attach persistent storage on a volume to store metadata.
 
 
 ```python

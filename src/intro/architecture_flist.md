@@ -14,7 +14,7 @@ You're in Europe with decent Internet connections? For you this is probably a fe
 
 It would be a lot more efficient if you could only download the files you actually want and not the full blob (archive, image, whatever...).
 
-### Enter the flist (Files List) format and concept.
+### Enter the flist (Files List) format and concept
 
 #### Metadata and Data
 The main idea is splitting metadata and data. Metadata is referential information about everything you need to know about the contents of the archive, but without the payload. The payload is the content of the referred files.
@@ -49,7 +49,7 @@ A Key can be a hash of two differents things: an ACL (8 bytes) or a directory (1
 
 ACLs are text encoded strings describing user, group and file permissions. We hash the contents (this is the key) and store it in the database, that way, we can dedupe permissions. In terms of content-addressed storage, dedupe means that key references always the same file, alleviating the need to store it every time again. As there are a lot of identical permissions, let's say for example: User: root, Group: root, Permission: 01755, that ACL needs to be stored only once.
 
-Directories are capnp serialized binary objects that contain all information needed to describe the directory contents. The key used to store that blob is hash of the full path (eg: blake2b_16("/usr/share/man")).
+Directories are `capnp` serialized binary objects that contain all information needed to describe the directory contents. The key used to store that blob is hash of the full path (eg: blake2b_16("/usr/share/man")).
 
 A directory contains: full path, directory name, permissions, link to it's parent directory, eventual ACLS, modification and creation time, and obviously, a list of files it contains.
 
@@ -63,14 +63,14 @@ Each file entry on that list represents a kind of inode, containing:
 - Creation and modification time
 - List of chunk hashes to reference the payload
 
-Each file is cut in chunks (fixed size of 512KB right now), each chunk is compressed with snappy then encrypted using an xxtea algorithm. The encryption key is the blake2 hash of the chunk. This is quite useful for security and consistency since we can ensure that the payload is not modified after the flist is created, while encryption is needed to avoid readable data on the backend disk.
+Each file is cut in chunks (fixed size of 512KB right now), each chunk is compressed with snappy then encrypted using an `xxtea` algorithm. The encryption key is the blake2 hash of the chunk. This is quite useful for security and consistency since we can ensure that the payload is not modified after the flist is created, while encryption is needed to avoid readable data on the backend disk.
 
 ##### Metadata
 This table contains extra data (not mandatory to make a working flist) to improve the description of the flist.
 
 Flists are designed to be used as Container or VM root filesystems, where added metadata can describe all sorts of things, like which ports need to be opened/forwarded to use the container, what volumes to mount, specify the default backend from where to get the data, location, credentials, etc. There can also be extra metadata like licenses or readme's attached to the flist to provide useful information.
 
-#### You can get more information about metadata here.
+#### You can get more information about metadata here
 
 Zero-FS (0-fs)
 We created a small tool called 0-fs, which uses the power of of the flist metadata and lets you mount this flist on your local machine to navigate inside directories, etc. With all the files inside, using a FUSE layer.
@@ -82,11 +82,11 @@ Obviously, this kind of situation adds some latency when you access the file the
 #### Early version
 Earlier versions of flist were plain text format listing files, metadata and chunks using plain text and pipe as a delimiter, but we moved to a more complex but easier to manipulate format, with a higher-level programming interface.
 
-Versions of 0-fs had RocksDB incorporated as key-value store, but that library was very difficult to integrate and maintain, that we opted for SQLite as backend.
+Versions of 0-fs had RocksDB incorporated as a key-value store, but that library was very difficult to integrate and maintain, that we opted for SQLite as backend.
 
 Also, we reduced some hash lengths, like for permissions, to further reduce the flist sizes themselves.
 
-Although size and performance results are more than satisfactory, the flist format is still subject to change. In fact, while the capnp serializing format is very effective, we feel we can optimize the inner workings of 0-fs even further, we'll keep you posted on the progress.
+Although size and performance results are more than satisfactory, the flist format is still subject to change. In fact, while the `capnp` serializing format is very effective, we feel we can optimize the inner workings of 0-fs even further, we'll keep you posted on the progress.
 
 ### Conclusion
 In short, 0-fs is without a doubt, the best thing since sliced bread, period.
