@@ -22,8 +22,8 @@ The Jumpscale SDK is inclusive of everyone that has the interest to create and d
 
 ##### Use the graphical administration panel
 
-After installing on a local system there should be a 3bot SDK start with a SDK admin panel.  To connect to it you should connect to the IP address on which the Docker container is operating.  
-    1. For a local system install there is a port forwardwarding to the `localhost` allowing you to do this `[http://localhost:7000'](http://localhost:7000).  
+After installing on a local system there should be a 3bot SDK start with an SDK admin panel.  To connect to it you should connect to the IP address on which the Docker container is operating.  
+    1. For a local system install there is a port forwarding to the `localhost` allowing you to do this `[http://localhost:7000'](http://localhost:7000).  
 
 The following screen should welcome you:
 

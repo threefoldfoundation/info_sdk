@@ -9,7 +9,7 @@ The SDK installation process is documented in the `threefold` repository. The sp
 
 #### Admin panel overview
 
-The 3bot admin panel is a versatile tool to administrate and control processes and activities of the jumpscale SDK.
+The 3bot admin panel is a versatile tool to administrate and control processes and activities of the Jumpscale SDK.
 
 - [Dashboard](tab_explanation/dashboard.md):  An dashboard for your 3bot.
 - [Wikis](tab_explanation/wikis.md): Wiki's structure is which wiki's exists
