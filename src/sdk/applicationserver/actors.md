@@ -1,6 +1,6 @@
 # Actors
 
-Actors are our solution for to interact with the backend, and it's very to write and extend APIs. So, actor is like a service that exposes a certain set of functionality and can be invoked using gedis client, or over http
+Actors are our solution to interact with the backend, and it's very simple to write and extend APIs. So, actor is like a service that exposes a certain set of functionality and can be invoked using gedis client, or over http
 
 
 Example actor:
