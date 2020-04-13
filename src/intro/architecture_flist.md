@@ -49,7 +49,7 @@ A Key can be a hash of two differents things: an ACL (8 bytes) or a directory (1
 
 ACLs are text encoded strings describing user, group and file permissions. We hash the contents (this is the key) and store it in the database, that way, we can dedupe permissions. In terms of content-addressed storage, dedupe means that key references always the same file, alleviating the need to store it every time again. As there are a lot of identical permissions, let's say for example: User: root, Group: root, Permission: 01755, that ACL needs to be stored only once.
 
-Directories are capnp serialized binary objects that contain all information needed to describe the directory contents. The key used to store that blob is hash of the full path (eg: blake2b_16("/usr/share/man")).
+Directories are `capnp` serialized binary objects that contain all information needed to describe the directory contents. The key used to store that blob is hash of the full path (eg: blake2b_16("/usr/share/man")).
 
 A directory contains: full path, directory name, permissions, link to it's parent directory, eventual ACLS, modification and creation time, and obviously, a list of files it contains.
 
@@ -63,7 +63,7 @@ Each file entry on that list represents a kind of inode, containing:
 - Creation and modification time
 - List of chunk hashes to reference the payload
 
-Each file is cut in chunks (fixed size of 512KB right now), each chunk is compressed with snappy then encrypted using an xxtea algorithm. The encryption key is the blake2 hash of the chunk. This is quite useful for security and consistency since we can ensure that the payload is not modified after the flist is created, while encryption is needed to avoid readable data on the backend disk.
+Each file is cut in chunks (fixed size of 512KB right now), each chunk is compressed with snappy then encrypted using an `xxtea` algorithm. The encryption key is the blake2 hash of the chunk. This is quite useful for security and consistency since we can ensure that the payload is not modified after the flist is created, while encryption is needed to avoid readable data on the backend disk.
 
 ##### Metadata
 This table contains extra data (not mandatory to make a working flist) to improve the description of the flist.
@@ -86,7 +86,7 @@ Versions of 0-fs had RocksDB incorporated as key-value store, but that library w
 
 Also, we reduced some hash lengths, like for permissions, to further reduce the flist sizes themselves.
 
-Although size and performance results are more than satisfactory, the flist format is still subject to change. In fact, while the capnp serializing format is very effective, we feel we can optimize the inner workings of 0-fs even further, we'll keep you posted on the progress.
+Although size and performance results are more than satisfactory, the flist format is still subject to change. In fact, while the `capnp` serializing format is very effective, we feel we can optimize the inner workings of 0-fs even further, we'll keep you posted on the progress.
 
 ### Conclusion
 In short, 0-fs is without a doubt, the best thing since sliced bread, period.

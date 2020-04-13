@@ -17,8 +17,7 @@ Characteristics:
 - connect all containers point-to-point
 - all traffic is encrypted
 - high performance
-- the shortest path between any two endpoints
-- multi-homed containers
+- the shortest path between two endpoints multi-homed containers
 - can span large geographical areas and create virtual datacenters
 - all created and made operational **without** public access from the internet.
 
