@@ -1,4 +1,4 @@
-## Deploy a a Kubernetes cluster
+## Deploy a Kubernetes cluster
 
 #### Requirements
 
