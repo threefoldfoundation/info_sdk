@@ -60,7 +60,7 @@
     - [Kubernetes Cluster](examples/kubernetes_cluster/kubernetes_cluster.md)
     - [Storage](examples/s3_server/s3_storage.md)
 - [Simulator](simulator/simulator.md)
-    - [ThreeFold simulator](simulator/threefold_simulator.md)
+    - [ThreeFold Simulator](simulator/threefold_simulator.md)
 - [Tips and Tricks](tips_tricks/README.md)
     - [Notebook User Interface](tips_tricks/user_interface.md)
 - [Test](test/grid.md)
