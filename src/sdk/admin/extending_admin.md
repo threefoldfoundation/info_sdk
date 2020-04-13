@@ -9,10 +9,8 @@ The frontend is written in webix, and located at `frontend_src`, the build is at
 - `cd frontend_src`
 - `bash build_frontend.sh`
 
-### Integrating a package in the admin
 
-
-### Including other packages in the admin panel
+#### Including other packages in the admin panel
 
 If u want to add another view "menu" item to include another package in the admin view. It's very easy using
 
