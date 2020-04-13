@@ -1,10 +1,10 @@
 # 0-DB namespace
 
-This primitives allow a user to reserve some storage on a node. The storage is expose through [0-DB](https://github.com/threefoldtech/0-DB), a low level key-value store that uses the RESP protocol.
+This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/threefoldtech/0-DB), a low level key-value store that uses the RESP protocol.
 
 0-DB is responsible to get the best write and read speed out of the disk exposed underneath.
 
-When a user reservation a 0-DB namespace, a portion of a disk is reserved for the user. This portion of disk is called a namespace.  
+When a user reserves a 0-DB namespace, a portion of a disk is reserved for the user. This portion of disk is called a namespace.  
 A namespace is protected by a password and has a certain size.
 
 ## Reservation definition
@@ -19,7 +19,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 ## Network consideration
 
-0-DB server are running on 0-OS node and exposed on the 0-OS nodes over public IPv6 addresses. The address of a specific 0-DB remains constant over time. This means even in the event a node reboot, the 0-DB will automatically starts and have the same IP address.
+0-DB server is running on 0-OS node and exposed on the 0-OS nodes over public IPv6 addresses. The address of a specific 0-DB remains constant over time. This means even in the event a node reboots, the 0-DB will automatically start and have the same IP address.
 
 ## Useful links and extra documentation
 
