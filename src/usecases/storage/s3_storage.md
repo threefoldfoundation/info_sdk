@@ -3,29 +3,29 @@
 #### Requirements
 
 In order to be able to deploy this example deployment you will have to have the following components activated
-- the 3bot SDK, in the form of a local container with the SDK, or a grid based SDK container.  Getting started instuctions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
+- the 3bot SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
 - if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 - capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with.  Instructions to get tokens can be found [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_information/payment/FreeTFT_testtoken.md)
 
-After following these install instructions you should end up having a local, working jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)
+After following these install instructions you should end up having a local, working Jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)
 
 ### Overview
 The design a simple S3 archive solution we need to follow a few simple steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
 - identify which nodes are involved in the archive for storage and which nodes are running the storage software
-- create reservations on the storage nodes for low level storage.  Create and deploy zero-DB's
-- collect information of how to access and use the low level storage devices to be passed on to the S3 storage software
+- create reservations on the storage nodes for low-level storage.  Create and deploy zero-DB's
+- collect information of how to access and use the low-level storage devices to be passed on to the S3 storage software
 - design the architecture, data and parity disk design
 - deploy the S3 software in a container
 
-#### Create overlay network of identity an previously deployed overlay network
+#### Create an overlay network or use the identity of a previously deployed overlay network
 
 Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to do that [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_examples/network/overlay_network.md)
 
 
 #### Set up the capacity environment to find, reserve and configure
 
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
+Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the Jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
 
 
 
@@ -48,7 +48,7 @@ r = zos.reservation_create()
 
 #### Setup your overlay network (skip this step if you have a network setup and available)
 
-An overlay network creates a private peer2peer network over selected nodes.  In this notebook it is assumend you have created one by following this [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb)
+An overlay network creates a private peer2peer network over selected nodes.  In this notebook it is assumed you have created one by following this [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb)
 
 #### Design the S3 simple storage solution
 
@@ -59,11 +59,11 @@ demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
 
-When you executed the reservation it also provided you with a data on order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create a storage solution.  For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the ouput of the network reservation notebook to describe the high level design of the storage solution:
+When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create a storage solution.  For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the output of the network reservation notebook to describe the high-level design of the storage solution:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
-|    1    | Salzburg  | 9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx  | 172.20.15.0/24  | Storage sofware container, 10GB raw  |
+|    1    | Salzburg  | 9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx  | 172.20.15.0/24  | Storage software container, 10GB raw  |
 |    2    | Salzburg  | 3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y  | 172.20.16.0/24  |  10GB raw |
 |    3    | Salzburg  |  FUq4Sz7CdafZYV2qJmTe3Rs4U4fxtJFcnV6mPNgGbmRg | 172.20.17.0/24  |  10GB raw |
 |    4    | Vienna  |  9LmpYPBhnrL9VrboNmycJoGfGDjuaMNGsGQKeqrUMSii | 172.20.28.0/24  |  10GB raw |
@@ -73,7 +73,7 @@ When you executed the reservation it also provided you with a data on order numb
 
 #### Reserve and deploy the low level ZeroDB storage nodes
 
-First let's deploy low level storage capacity manager (Zero BD, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
+First let's deploy low-level storage capacity manager (Zero BD, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
 - create some empty reservation and result structures
 - select and set the node to container the S3 software
 - select and load the nodes in a list to push them in the zero-DB reservation structure
@@ -130,7 +130,7 @@ for node in nodes_all:
 
 #### Prepare and deploy the S3 software container
 
-The nodes that will run the storage solution needs some persistent storage.  This will create a reservation for a volume on the same node as the software runs and attached this as a volume to the container that will run the storage software.  For the reservation duration please set a period of time that allows for expermenting, in this case it is set for one day.  
+The nodes that will run the storage solution needs some persistent storage.  This will create a reservation for a volume on the same node as the software runs and attached this as a volume to the container that will run the storage software.  For the reservation duration please set a period of time that allows for experimenting, in this case it is set for one day.  
 
 
 ```python
@@ -238,7 +238,7 @@ print(namespace_config)
 ['9012-4:supersecret@[2a04:7700:1003:1:54f0:edff:fe87:2c48]:9900', '9012-1:supersecret@[2a02:16a8:1000:0:5c2f:ddff:fe5a:1a70]:9900', '9012-2:supersecret@[2a02:16a8:1000:0:1083:59ff:fe38:ce71]:9900', '9012-7:supersecret@[2003:d6:2f32:8500:dc78:d6ff:fe04:7368]:9900', '9012-3:supersecret@[2a02:16a8:1000:0:fc7c:4aff:fec8:baf]:9900', '9012-5:supersecret@[2a04:7700:1003:1:acc0:2ff:fed3:1692]:9900', '9012-6:supersecret@[2a04:7700:1003:1:ac9d:f3ff:fe6a:47a9]:9900']
 ```
 
-Last step is to design the redundacy policy for the storage solution.  We have 6 low level devices available (over 6 nodes, in 2 different datacenters and cities).  So we can build any of the following configurations:
+The last step is to design the redundancy policy for the storage solution.  We have 6 low-level devices available (over 6 nodes, in 2 different datacenters and cities).  So we can build any of the following configurations:
 
 | Option | data storage devices | parity storage devices | total devices  | overhead  |
 |--------|---|---|---|---|
@@ -246,7 +246,7 @@ Last step is to design the redundacy policy for the storage solution.  We have 6
 |  2      | 4  | 2  | 6  | 33% |
 |  3      | 5  | 1  | 6  | 16%  |
 
-Now in this example real efficiency of this solution is not achieved, in a real life deployment we would do something like this:
+Now in this example the real efficiency of this solution is not achieved, in a real-life deployment we would do something like this:
 
 | Option | data storage devices | parity storage devices | total devices  | overhead  |
 |--------|---|---|---|---|
@@ -297,7 +297,7 @@ zos.volume.attach_existing(
     mount_point='/data')
 ```
 
-Last but not least, execute the resevation for the storage manager.
+Last but not least, execute the reservation for the storage manager.
 
 
 ```python
