@@ -13,7 +13,7 @@ Running on the ThreeFold Grid.
 * Release your workloads to the World Wide Web through our web gateways
 * Encrypted network connections between all your containers through overlay networks 
 
-This Wiki is meant to provider you with all the information you need to get started on the P2P cloud.  There is an easy to use SDK that is being made available for this and it will provide you with a number of different ways to use and operate this P2P cloud.
+This Wiki is meant to provide you with all the information you need to get started on the P2P cloud.  There is an easy to use SDK that is being made available for this and it will provide you with a number of different ways to use and operate this P2P cloud.
 
 It is meant to everyone, meaning that the SDK provides means for both highly technical skilled people and people taking their first steps in creating digital services.
 
@@ -32,8 +32,8 @@ Want to know more?
 
 
 ### ThreeFold Foundation
-<!-- insertb general objectives for the TF Network (Grid, Token and 3bot) -->
-The Threefold foundation is realising the vision to provide affordable, local digital services by many for anyone. 
+<!-- insert general objectives for the TF Network (Grid, Token and 3bot) -->
+The Threefold Foundation is realising the vision to provide affordable, local digital services by many for anyone. 
 ![](img/ses.png)
 For more information on the foundation, please check [threefold.io](https://threefold.io).
 
