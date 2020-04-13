@@ -8,7 +8,7 @@ The peer-2-peer nature is embedded in the architecture by the token economy. The
 
 The technology stack aims to be a universal substrate (build by many for anyone) for generic IT workloads. Any (Linux based) workload can be ported to the substrate and use capacity (compute, storage and networking) spread over many devices. These devices can exist in traditional datacenters, but also in other locations where people have opted in to be a capacity provider.
 
-Use cases span a gamma of different industries and specific purposes but the ones that show most early adopter interests are blockchain projects who have a needs to break out of the captivity of the current internet (cloud ) provider monopolies. Many projects relay over 50% of their "distributed" and "decentralized" blockchain nodes infrastructure on a hand full of market leaders in the cloud world. They welcome a distributed and decentralised architecture like [cloud.threefold.io](http://cloud.threefold.io) offers.
+Use cases span a gamma of different industries and specific purposes but the ones that show most early adopter interests are blockchain projects who have a needs to break out of the captivity of the current internet (cloud ) provider monopolies. Many projects relay over 50% of their "distributed" and "decentralized" blockchain nodes infrastructure on a hand full of market leaders in the cloud world. They welcome a distributed and decentralized architecture like [cloud.threefold.io](http://cloud.threefold.io) offers.
 
 ![](img/architecture1.png)
 
@@ -18,7 +18,7 @@ The technology stack creates autonomous IT capacity that produces usable slices 
 
 ![](img/scfit.png)
 
-This diagram shows the inner working of the autonomous grid. Every element of it operates in a peer-2-peer manner. Every participant (entity) in this systems needs to have a digital representation. The jumpscale SDK is your digital representation carrying your identity, your wallet, and a lot of "knowledge" in terms of completing tasks. This SDK is also referred to as a 3bot.
+This diagram shows the inner working of the autonomous grid. Every element of it operates in a peer-2-peer manner. Every participant (entity) in this system needs to have a digital representation. The Jumpscale SDK is your digital representation carrying your identity, your wallet, and a lot of "knowledge" in terms of completing tasks. This SDK is also referred to as a 3bot.
 
 #### Nodes (5)
 The nodes making up the grid, owned and hosted by farmers, run a very lightweight operating system. This operating system on nodes is called  [zero OS](https://github.com/threefoldtech/zos) and is a lightweight single-purpose operating system. It exposes all available peripherals in the nodes and announces the available capacity in a so-called explorer. The operating system does not have interfaces for people to use, not locally not remotely over the network. Therefore this operating system is very secure as there are no attack vectors locally nor remotely. It has so-called "watchers" that periodically reach out over the network to a blockchain database to see if there is any workload for them to execute. The only way that nodes will execute any code is for it to have been committed to the blockchain database (3).
