@@ -1,6 +1,6 @@
-# k8bernetes cluster
+# K8bernetes cluster
 
-This primitives allow a user to deploy a kubernetes cluster.
+This primitive allows a user to deploy a kubernetes cluster.
 
 A cluster must be composed of at least 2 nodes. One master node and any number of worker nodes.
 
@@ -10,11 +10,11 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 - **NodeId**:
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
-- **NetworkId**: The name of the network created using a [network](network.md) primitive.
+- **NetworkId**: The name of the network created using a [network](network.md) primitive
 - **Ipaddress**: The IP address to give to the VM
-- **ClusterSecret**: The value of this field must be the same for all the member of a cluster
+- **ClusterSecret**: The value of this field must be the same for all the members of a cluster
 - **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here
-- **SshKeys**: A list of SSH public key to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all.
+- **SshKeys**: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all
 
 ### VM Sizes
 
@@ -119,9 +119,9 @@ scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml k3s.yaml
 ```
 
 If you already have a kube config file usually located in `~/.kube/config`
-you can edit it and add the new cluster with the informations written on k3s.yaml
+you can edit it and add the new cluster with the information written on k3s.yaml
 
-here is an example of `~/.kube/config`
+Here is an example of `~/.kube/config`
 
 ```yaml
 apiVersion: v1
