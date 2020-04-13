@@ -22,7 +22,7 @@ All of the above concepts were invented when datasets were small(er) and could s
 
 Today we produce more data than ever before (in the last two years we produced more data than in the history of mankind, and this is accelerating exponentially). We cannot continue to make full copies of data to make sure it is stored reliably. This will simply not scale. We need to move from securing the whole dataset to securing all the objects that make up a dataset.
 
-Dispersed storage is using space technology to store data(fragments) over multiple devices (physical storage devices in 3Nodes). The solution does not distribute and store parts of an object (file, photo, movie etc.) but describes the part of an object. This can be visualised by thinking of it as equations.
+Dispersed storage is using space technology to store data(fragments) over multiple devices (physical storage devices in 3Nodes). The solution does not distribute and store parts of an object (file, photo, movie etc.) but describes the part of an object. This can be visualized by thinking of it as equations.
 
 ![](mg/dispersed_storage.png)
 
@@ -32,7 +32,7 @@ a=1
 b=2
 c=3
 ```
-(and for reference that part of real world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`).  With these numbers we can create endless amounts of equations:
+(and for reference that part of real-world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`).  With these numbers we can create endless amounts of equations:
 ```
 1: a+b+c=6
 2: c-b-a=0
@@ -41,7 +41,7 @@ c=3
 5: 5c-b-a=12
 ......
 ```
-Mathematically we only need 3 to descibe the content (=value) of the fragments. But creating more add reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of themany equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
+Mathematically we only need 3 to describe the content (=value) of the fragments. But creating more add reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of the many equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
 
 ```
 5c-b-a=12
