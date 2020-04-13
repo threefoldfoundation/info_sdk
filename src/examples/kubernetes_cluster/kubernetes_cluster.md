@@ -1,19 +1,19 @@
-## Deploy a a kubernetes cluster
+## Deploy a a Kubernetes cluster
 
 #### Requirements
 
 In order to be able to deploy this example deployment you will have to have the following components activated
 - the Jumpscale SDK, in the form of a local container with the SDK, or a grid based SDK container.  Getting started instuctions are [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK) 
-- if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
+- if you use a locally installed container with the Jumpscale SDK you need to have the Wireguard software installed.  Instructions on how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 
-After following these install instructions you should end up having a local, working jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
+After following these install instructions you should end up having a local, working Jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
 
 ### Overview
-The design a simple kubernetes cluster we need to follow a few steps:
+The design a simple Kubernetes cluster we need to follow a few steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
-- identify which nodes are involved in the kubernetes cluster, master and worker nodes
-- create reservations for the kubernetes virtual machines.
-- deploy the kubernetes cluster.
+- identify which nodes are involved in the Kubernetes cluster, master and worker nodes
+- create reservations for the Kubernetes virtual machines.
+- deploy the Kubernetes cluster.
 
 #### Create overlay network of identity an previously deployed overlay network
 
@@ -22,7 +22,7 @@ Each overlay network is private and contains private IP addresses.  Each overlay
 
 #### Set up the capacity environment to find, reserve and configure
 
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
+Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the Jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the Kosmos shell.
 
 
 
@@ -54,7 +54,7 @@ demo_ip_range="72.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you executed the reservation it also provided you with data on order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create the kubernetes solution.  For this soultion we will be using some of these nodes as master nodes and others as worker nodes.  Using the ouput of the network reservation notebook to describe the high level design of the kubernetes cluster:
+When you executed the reservation it also provided you with data on order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a Wireguard tunnel.  On these nodes we can now create the Kubernetes solution.  For this soultion we will be using some of these nodes as master nodes and others as worker nodes.  Using the ouput of the network reservation notebook to describe the high level design of the Kubernetes cluster:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
@@ -68,7 +68,7 @@ When you executed the reservation it also provided you with data on order number
 
 #### Reserve and deploy the master and worker nodes
 
-A Kubernetes cluster is built from master and worker nodes.  Based on the network that we have build we can build and deploy nodes in Vienna and Salzbug,
+A Kubernetes cluster is built from master and worker nodes.  Based on the network that we have build we can build and deploy on nodes in Vienna and Salzbug,
 
 
 ```python
@@ -92,7 +92,7 @@ network_name = 'demo_network_name_01'
 sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2N9XH3pVbb7ex zaibon@tesla']
 ```
 
-Create the master node reservations.  The function add the nodes to the reservation structure `r`.
+Create the master node reservations.  The function adds the nodes to the reservation structure `r`.
 
 
 ```python
@@ -169,7 +169,7 @@ print(result)
 # ----------------------------------------------------------------------------------
 ```
 
-With the low level reservations done and stored the `result`.  You are now able to access you kubernetes cluster on the assigned IP addresses
+With the low level reservations done and stored the `result`.  You are now able to access you Kubernetes cluster on the assigned IP addresses
 
 
 
