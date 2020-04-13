@@ -14,7 +14,7 @@ You're in Europe with decent Internet connections? For you this is probably a fe
 
 It would be a lot more efficient if you could only download the files you actually want and not the full blob (archive, image, whatever...).
 
-### Enter the flist (Files List) format and concept.
+### Enter the flist (Files List) format and concept
 
 #### Metadata and Data
 The main idea is splitting metadata and data. Metadata is referential information about everything you need to know about the contents of the archive, but without the payload. The payload is the content of the referred files.
@@ -70,7 +70,7 @@ This table contains extra data (not mandatory to make a working flist) to improv
 
 Flists are designed to be used as Container or VM root filesystems, where added metadata can describe all sorts of things, like which ports need to be opened/forwarded to use the container, what volumes to mount, specify the default backend from where to get the data, location, credentials, etc. There can also be extra metadata like licenses or readme's attached to the flist to provide useful information.
 
-#### You can get more information about metadata here.
+#### You can get more information about metadata here
 
 Zero-FS (0-fs)
 We created a small tool called 0-fs, which uses the power of of the flist metadata and lets you mount this flist on your local machine to navigate inside directories, etc. With all the files inside, using a FUSE layer.
