@@ -33,6 +33,7 @@
       - [Jupyter](sdk/tab_explanation/jupyter.md): Token simulator (for Farmers)
       - [Settings](sdk/tab_explanation/settings.md):  Administration page
     - [Admin Dashboard](sdk/admin/README.md)
+      - [Extending Admin Dashboard: Developers](sdk/admin/extending_admin.md)
     - [Application Server](sdk/applicationserver/README.md)
         - [Packages](sdk/applicationserver/packages.md)
         - [APIs and Actors](sdk/applicationserver/actors.md)
