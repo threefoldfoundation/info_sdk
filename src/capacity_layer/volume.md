@@ -1,12 +1,12 @@
-# Container volume
+# Container Volume
 
-This primitives allow a user to reserve some storage from a disk of a node.
+This primitive allows a user to reserve some storage from a disk of a node.
 
 The volume can then be mounted into a container so applications can have a persistent storage space from their containers.
 
-Since a volume is a primitive by itself, you can have a single volume mounted in multiple container.
+Since a volume is a primitive by itself, you can have a single volume mounted in multiple containers.
 
-This allow a user to create/update an existing container while keeping all the data separated.
+This allows a user to create/update an existing container while keeping all the data separated.
 
 ## Reservation definition
 
@@ -24,7 +24,7 @@ zos = j.sal.zosv2
 # create a reservation
 r = zos.reservation_create()
 
-# find some node that have 10 GiB of SSD disks
+# find some nodes that have 10 GiB of SSD disks
 nodes = zos.nodes_finder.nodes_search(sru=10)
 
 # reserve a volume of 10 GiB on a SSD disk
