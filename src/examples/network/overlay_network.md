@@ -6,13 +6,13 @@ In this example we will create an overlay network over a number of nodes in the 
 
 In order to be able to deploy this example deployment you will have to have the following components activated
 - the Jumpscale SDK, in the form of a local container with the SDK, or a grid based SDK container.  Getting started instuctions are [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK) 
-- if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
+- if you use a locally installed container with the Jumpscale SDK you need to have the Wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 
-After following these install instructions you should end up having a local, working jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
+After following these install instructions you should end up having a local, working Jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
 
 
 #### 1. Mainnet and Identity
-First load you identity and make sure you are talking to the production explorer.  This is done by making sure you have set the default explorer to `explorer.grid.tf`.  Also you have to have an indentity set.
+First load your identity and make sure you are talking to the production explorer.  This is done by making sure you have set the default explorer to `explorer.grid.tf`.  Also you have to have an indentity set.
 
 
 
@@ -30,7 +30,7 @@ j.clients.explorer.default_addr_set('explorer.grid.tf')
 
 #### 2. Load required libraries and create empty reservation structure
 
-To be able to made a reservation we need to local the System Abstraction Layer (SAL) and create an empty reservation structure
+To be able to make a reservation we need to load the System Abstraction Layer (SAL) and create an empty reservation structure
 
 
 ```bash
@@ -41,7 +41,7 @@ r = zos.reservation_create()
 
 #### 3. Select overlay network addressing scheme and select nodes
 
-In this example we added all the nodes from the salzburg, vienna, lochristi and munich are into one list.  You can shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the wireguard tunnel to terminate.  
+In this example we added all the nodes from the Salzburg, Vienna, Lochristi and Munich are into one list.  You can shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the Wireguard tunnel to terminate.  
 
 
 ```bash
@@ -79,9 +79,9 @@ for i, node in enumerate(nodes_all):
         print("Node", node.node_id,"is not up")
 ```
 
-Please store the list of nodes somewhere for you reference to deploy containers and architectures, or you can write code to store this to a file.  All nodes are connected with IPv6 to the internet.  If you have IPv6 at home you can create a wireguard configuration to any of the nodes as they all speak IPv6 and any node can act as you private gateway into your overlay network.  If you fo not have IPv6 at home you need to identify a nodes that has IPv4 capabilities.  In this example the nodes in Belgium have a dual stack and can therefore be used to provide an IPv4 gateway into your overlay network.
+Please store the list of nodes somewhere for your reference to deploy containers and architectures, or you can write code to store this to a file.  All nodes are connected with IPv6 to the Internet.  If you have IPv6 at home you can create a Wireguard configuration to any of the nodes as they all speak IPv6 and any node can act as you private gateway into your overlay network.  If you do not have IPv6 at home you need to identify a node that has IPv4 capabilities.  In this example the nodes in Belgium have a dual stack and can therefore be used to provide an IPv4 gateway into your overlay network.
 
-Important step is to create a wireguard configuration (file) providing you with secure access to you private peer2peer overlay network.  Please copy / paste the  configuration into a file and import to you local wireguard setup.  At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium.  With IPv6 available you can select any of the nodes in your network and build a secure tunnel to those. 
+Important step is to create a Wireguard configuration (file) providing you with secure access to you private peer2peer overlay network.  Please copy / paste the  configuration into a file and import to your local Wireguard setup.  At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium.  With IPv6 available you can select any of the nodes in your network and build a secure tunnel to those. 
 
 
 ```bash
@@ -93,7 +93,7 @@ print(wg_config)
 print("------------------------")
 ```
 
-Copy the wireguard configuration to your local host on which the Jumpscale SDK is running and bring the wireguard interface up.  Instructions to do this are [here](https://www.wireguard.com/quickstart/)
+Copy the Wireguard configuration to your local host on which the Jumpscale SDK is running and bring the Wireguard interface up.  Instructions to do this are [here](https://www.wireguard.com/quickstart/)
 
 Now that we have built a network reservation structure which includes on the nodes we want to use, here how to send this reservation to the grid.
 
@@ -101,7 +101,7 @@ Now that we have built a network reservation structure which includes on the nod
 
 ```bash
 # Set the duration for the reservation
-# Reservation period set in seconds. Please adjust, this only allys for the network to exists for 60 minutes.
+# Reservation period set in seconds. Please adjust, this only allows for the network to exists for 60 minutes.
 reservation_period=(60*60)
 
 expiration = j.data.time.epoch + reservation_period
@@ -121,4 +121,4 @@ print("provisioning result")
 print(result)
 ```
 
-This will provide you with an overlay network.  It is wise to do this once for the nodes that you want in your network and then do a reservation for a long period.  This will allow you to continue to work, deploy, optimise and configure all neccessary components for the work on the grid.  Obviously
+This will provide you with an overlay network.  It is wise to do this once for the nodes that you want in your network and then do a reservation for a long period.  This will allow you to continue to work, deploy, optimise and configure all neccessary components for the work on the grid. 

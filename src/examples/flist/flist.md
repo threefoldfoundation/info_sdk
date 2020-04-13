@@ -4,16 +4,16 @@
 
 In order to be able to deploy this example deployment you will have to have the following components activated
 - the Jumpscale SDK, in the form of a local container with the SDK, or a grid based SDK container.  Getting started instuctions are [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK) 
-- if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
+- if you use a locally installed container with the Jumpscale SDK you need to have the Wireguard software installed.  Instructions on how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 
-After following these install instructions you should end up having a local, working jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
+After following these install instructions you should end up having a local, working Jumpscale SDK installed.  You can work / connect to the installed SDK as described [here](/grid/peer2peer_storage_compute/general/jumpscale_SDK/SDK_getting_started.md)
 
 ### Overview
-The design a simple kubernetes cluster we need to follow a few steps:
+To design a simple Kubernetes cluster we need to follow a few steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
 - identify which nodes are involved in the kubernetes cluster, master and worker nodes
-- create reservations for the kubernetes virtual machines.
-- deploy the kubernetes cluster.
+- create reservations for the kubernetes virtual machines
+- deploy the kubernetes cluster
 
 #### Create overlay network of identity an previously deployed overlay network
 
@@ -21,7 +21,7 @@ Each overlay network is private and contains private IP addresses.  Each overlay
 
 #### Set up the capacity environment to find, reserve and configure
 
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
+Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the Jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the Kosmos shell.
 
 
 
@@ -39,15 +39,11 @@ zos = j.sal.zosv2
 r = zos.reservation_create()
 ```
 
-#### Set up the capacity environment to find, reserve and configure
-
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the jumpscale SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
-
 #### What is an flist?  
 
-An flist is a very special container images.  One of the challenges with industry leading technologies like docker and kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These can either be base images on which specific modifications need to be made or they are specific images downloaded from the docker hub or a private image repository (enterprise use cases).  Having these images exists on many different nodes requires these to be downloaded and maintained for version control and bug fixes.  This is waistfull (many times the same image required storage space) and time consuming. 
+An flist is a very special container image.  One of the challenges with industry leading technologies like Docker and Kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These can either be base images on which specific modifications need to be made or they are specific images downloaded from the Docker Hub or a private image repository (enterprise use cases).  Having these images exist on many different nodes requires these to be downloaded and maintained for version control and bug fixes.  This is waistful (many times the same image required storage space) and time consuming. 
 
-The flist solves that issue by facilitating container images to be made available on fly to nodes that needs the content of a container image over the network from a so called hub.  There is a public hub that serves images but the hub facility is open source and can be replicated for private or corporate usage.  The hub can be found here: `http://hub.grid.tf`.
+The flist solves that issue by facilitating container images to be made available on the fly to nodes that need the content of a container image over the network from a so called hub.  There is a public hub that serves images but the hub facility is open source and can be replicated for private or corporate usage.  The hub can be found here: `http://hub.grid.tf`.
 
 
 
