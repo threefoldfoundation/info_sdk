@@ -1,6 +1,6 @@
 # Smart contract for IT
 
-This chapter contains a detailed explanation about how the IT contract is build. What are the different component that compose it.
+This chapter contains a detailed explanation about how the IT contract is built. What are the different component that compose it?
 
 ## Reservation
 
@@ -22,23 +22,22 @@ will cause the customer signature to become invalid.
 The reservation state is updated throughout the lifetime of the reservation. It also
 contains the signatures needed to have the farmer 3bot take action. In order for
 the farmer 3bot to start provisioning the workloads, or delete the workloads,
-the `signing_request_provision` and `signing_request_delete`, respectively, need to be filled with
-valid signatures.  
+the `signing_request_provision` and `signing_request_delete`, respectively, need to be filled with valid signatures.  
 
 A valid signature is a signature for the reservation data, with a private key owned by one of the 3bots listed in the reservation data (in the `signatures_provision` and `signatures_delete` fields).  
 These fields also define the minimum amount of signatures required.  
 For example, a signature request for provisioning might list 3 3bot ids which can sign, but only specify a `quorum_min` of 2. As such, only 2 out of the 3 listed 3bot ids would need to sign before the node is allowed to deploy the workloads.
 
-#### signature validity
+#### Signature validity
 
-A signature is created by signing a piece of data using a private key. Afterward,
+A signature is created by signing a piece of data using a private key. Afterwards,
 the corresponding public key can be used to check if the signature is valid. A [signature field](#signingsignature) is valid if it meets the following conditions:
 
 - It contains at least the minimum amount of signatures required, as defined in
 the `quorum_min` field of the corresponding [signing request field](#signingrequest), 1 if there is no such corresponding signing request.
 - All signatures are valid with a public key owned by a referenced 3bot (referenced in the aforementioned accompanying [signing request field](#signingrequest) or possibly other fields).
 
-##### signature algorithm
+##### Signature algorithm
 
 - signature algorithm: [ed25519](https://ed25519.cr.yp.to/)
 - public key size: 32 bytes
@@ -65,18 +64,18 @@ Next to the reservation data, there is also a reservation state. These fields de
   - user sends the reservation to the explorer, status goes from `create` to `sign`
   - user sign the reservation, status goes from `sign` to `pay`
   - as a result of registering the reservation on the explorer, the user got a list of transactions to do in other to pay the farmer involved into the reservation. Once the user has actually executed the transactions, the explorer checks the token have actually arrived, the status goes from `pay` to `deploy`. Check the [payment documentation](reservation_payment.md) for more detail information on how to pay for a reservation.
-  - when a reservation is has a state `deploy`, the node can now pick it up and provision the workloads.  
+  - when a reservation has a state `deploy`, the node can now pick it up and provision the workloads.  
 
   From here there are 2 possibility:  
 
   - the reservation expires, it's state goes from `deploy` to `delete`.  
-  - Or the user decide to delete the reservation before it expires. It validate the condition defined in `SignaturesDelete` field. the state does from `deploy` to `delete`
-  - when a reservation is has a state `delete`. The node decommission the workloads, and reports the workloads to be deleted, and once all workloads have been marked as deleted, the reservation state goes from `delete` to `deleted` and the reservation life cycle is ended.
+  - or the user decides to delete the reservation before it expires. It validates the condition defined in `SignaturesDelete` field. The state does from `deploy` to `delete`
+  - when a reservation has a state `delete`. The node decommissions the workloads, and reports the workloads to be deleted, and once all workloads have been marked as deleted, the reservation state goes from `delete` to `deleted` and the reservation life cycle is ends.
 
 - `SignaturesProvision`: A list of `signatures` needed to start the provisioning (deploy) step.  
 i.e. after enough valid signatures are provided here, the nodes can start to deploy the workloads defined. The validity of signatures and the amount of valid signatures required is defined by the `SigningRequestProvision` field in the [data]((provisiond.md#reservation-data) object.
 
-~~- `SignaturesFarmer`: the [signatures](#signingsignature) of the farmer 3bots, which declares that the farmer agrees to provision the workloads as defined by the reservation once there is consensus about the provisioning (see the previous field). Every farmer who deploys a workload will need to sign this. To find out which 3bots need to sign, you can iterate over the workloads defined in the [reservation data](#reservationdata), and collect a set of unique farmer id's from them.~~
+- `SignaturesFarmer`: the [signatures](#signingsignature) of the farmer 3bots, which declares that the farmer agrees to provision the workloads as defined by the reservation once there is consensus about the provisioning (see the previous field). Every farmer who deploys a workload will need to sign this. To find out which 3bots need to sign, you can iterate over the workloads defined in the [reservation data](#reservationdata), and collect a set of unique farmer id's from them.~~
 
 - `SignaturesDelete`: Much like `SignaturesProvision`, however it is used when a currently deployed workload needs to be deleted (before it expires). It is tied to the `SignaturesDelete` field in the `data` object.
 - `epoch`: The date of the last modification
@@ -142,13 +141,13 @@ A signature has the actual `signature` bytes, as well as the id of the 3bot whic
 A result is used by a 0-OS node to add a response to a reservation. This result can inform users if an error occurred, or more commonly, it can relay back vital information such as the IP address of a container after it is started.  
 The result object has a `WorkloadId` field, which is used to map the result to the actual workload. With the workload request, the `NodeId` can be inspected, to get the nodes public key. The key can then be used to verify the signature of the data, proving that it is indeed this node which created the reply, and that the `DataJSON` (TODO:remove this field) has not been tampered with after it was created.
 
-- `Category`: The type of workload for which the reply is.
+- `Category`: The type of workload for which the reply is
 - `WorkloadId`: The id of the workload for which the reply is. This will be the same as one of the `workload_id`s in the [reservation data](#reservationdata).
-- `DataJson`: The full data as a JSON object.
-- `Signature`: The bytes of the signature. The signature is created by the node which creates the reply. The data signed is the `data_json` field. This proves the authenticity of the reply as well as the integrity of the response data.
-- `State`: Did the workload deploy ok ("ok") or not ("error").
-- `Message`: Content of the message sent by the node.
-- `Epoch`: Time at which the result has been created.
+- `DataJson`: The full data as a JSON object
+- `Signature`: The bytes of the signature. The signature is created by the node which creates the reply. The data signed is the `data_json` field. This proves the authenticity of the reply as well as the integrity of the response data
+- `State`: Did the workload deploy ok ("ok") or not ("error")
+- `Message`: Content of the message sent by the node
+- `Epoch`: Time at which the result has been created
 - `NodeId`: the node ID of the node that deployed the workload
 
 ## Reservation flow Diagram
@@ -161,4 +160,4 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - **Farmer**: a digital avatar of a farmer. It owns some node in the grid and is responsible to set the price of its node capacity.
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain using ThreefoldToken (TFT).
-- **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid.
+- **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid
