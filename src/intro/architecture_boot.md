@@ -2,13 +2,13 @@
 
 ### Introduction
 
-3nodes are hardware which rund the Zero-OS software.  All 3nodes make up the capacity layers for the TF Grid.  Today we have about 600 3nodes in the field. See more details [here](http://www2.cloud.threefold.io)
+3nodes are hardware which runs the Zero-OS software.  All 3nodes make up the capacity layers for the TF Grid.  Today we have about 600 3nodes in the field. See more details [here](http://www2.cloud.threefold.io)
 <!--
 TODO #45 Change URL to real URL once published
 -->
 ![](img/tf_grid.png)
 
-All of these 3nodes have a bootloader software installed on their local storage devices.  The Zero-OS is delivered to them over the network and the boot facility is hosted on the TF grid itself.
+All of these 3nodes have bootloader software installed on their local storage devices.  The Zero-OS is delivered to them over the network and the boot facility is hosted on the TF grid itself.
 
 ### 3node operations
 
@@ -26,7 +26,7 @@ The mechanism to allow this to work in a safe and efficient manner if a Threefol
 
 ## Zero-OS
 
-Zero-OS is a very lightweight and efficient operating system.  It supports a small number of primitives, meaning low level functions it can perform natively in the operating system.  There is no shell, local nor remote, and it does not allows for inboud networks connections. There is a dedicated githib repository for [Zero-OS](https://github.com/threefoldtech/zos/tree/master/docs)
+Zero-OS is a very lightweight and efficient operating system.  It supports a small number of primitives, meaning low-level functions it can perform natively in the operating system.  There is no shell, local nor remote, and it does not allows for inbound network connections. There is a dedicated GitHub repository for [Zero-OS](https://github.com/threefoldtech/zos/tree/master/docs)
 
 
 

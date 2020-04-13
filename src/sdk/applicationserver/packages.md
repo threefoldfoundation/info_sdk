@@ -5,7 +5,7 @@ Package is the way to write extensions and applications to threebot server and i
 
 ## Creating a new package
 
-a package is a self contained code where you define the configurations, the API endpoints, and your database models. It should have the same structure that we will go through in the upcoming sections 
+A package is a self contained code where you define the configurations, the API endpoints, and your database models. It should have the same structure that we will go through in the upcoming sections 
 ```
 
 3BOTDEVEL:3bot:tmp: tree hello/
@@ -26,9 +26,9 @@ hello
 
     _note_: Crud model actors are automatically generated and added to the package actors, to disable this option add `disable_crud = true` to the package.toml file
 - **actors directory** 
-    - is registered automatically when loading the package. There is no need to manually add actors, they can be accessed via http at `3BOT_URL/<threefold_name>/<package_name>/actors/<actor_name>/<actor_method>`.
+    - is registered automatically when loading the package. There is no need to manually add actors, they can be accessed via http at `3BOT_URL/<threefold_name>/<package_name>/actors/<actor_name>/<actor_method>`
     - is the logic inside a package
-    - the code inside an actor should call as much as possible libraries in jumpscale (sals, clients, ...)
+    - the code inside an actor should call as many as possible libraries in jumpscale (sals, clients, ...)
     - is also the implementation of our api for this package to the outside world, our interface basically
 - **wiki directory** 
     - is loaded automatically and can be accessed via `3BOT_URL/<threefold_name>/<package_name>/wiki`.
