@@ -4,26 +4,26 @@
 
 There  are two ways that you can work with the JumpscaleX SDK:
 - a local install on a servers / laptop
-- a version of the SDK installed online on the TF Grid.
+- a version of the SDK installed online on the TF Grid
 
-In this document we will explain the installation a local installation in a docker container..
+In this document we will explain the installation a local installation in a Docker container.
 
 ## Step 1: Prepare your machine
 
-The JumpscaleX SDK is currently supported on Linux, more specifically this installation script will guide you through the steps for the ubuntu distribution.  Other linux distributions will be supported in the future.
+The Jumpscale SDK is currently supported on Linux, more specifically this installation script will guide you through the steps for the Ubuntu distribution.  Other linux distributions will be supported in the future.
 
 ### Prerequisites for the SDK installation.
 
-In order to install the SDK in a container (recommended) you need the docker software suite. You can find instructions for installing it in ubuntu [here](https://docs.docker.com/install/).
+In order to install the SDK in a container (recommended) you need the Docker software suite. You can find instructions for installing it in ubuntu [here](https://docs.docker.com/install/).
 
-When you have docker installed on your system, pleass open a terminal and execute the following commands:
+When you have Docker installed on your system, pleass open a terminal and execute the following commands:
 ```bash
 sudo -i; # this may ask you for your password
 apt update -y;
 apt install -y openssh-server locales curl git rsync unzip lsb python3 python3-pip;
 pip3 install click requests;
 ```
-This will update ubuntu to the latest stable release and make sure you have the required packages installed. 
+This will update Ubuntu to the latest stable release and make sure you have the required packages installed. 
 
 ssh-agent is a program to hold private keys used for public key authentication (RSA, DSA, ECDSA, Ed25519). ssh-agent is usually started in the beginning of an X-session or a login session, and all other windows or programs are started as clients to the ssh-agent program.  Through use of environment variables the agent can be located and automatically used for authentication when logging in to other machines using ssh(1). The install script needs an agent to be started:
 ```bash
@@ -41,7 +41,7 @@ sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC05P5eFki+5vHdn9BMrQwj0LZzl4FxwTAQ4GtwJFTS4
 root@happy:~# 
 ```
 
-For the next step to be successfull make sure you have added this identity as a known ssh key to you github account.  The SKD code will come from github and requires you to have a public key configured in GitHub.
+For the next step to be successfull make sure you have added this identity as a known ssh key to you github account.  The SKD code will come from Github and requires you to have a public key configured in GitHub.
 
 ## Step 2:  JumscaleX SDK installation
 
