@@ -37,9 +37,9 @@ class Package(j.baseclasses.threebot_package):
 ```
 
 ## Proxy
-To `proxy` to requests on certain location to a running server.
+To `proxy` requests on certain location to a running server.
 
-The following examples creates a proxy on `/calendar` which will redirect requests to `0.0.0.0:8851/`, make sure of `ipaddr_dest`, `port_dest`, `path_dest` and `schema` as these are very important for the proxy to work properly.
+The following examples create a proxy on `/calendar` which will redirect requests to `0.0.0.0:8851/`, make sure of `ipaddr_dest`, `port_dest`, `path_dest` and `schema` as these are very important for the proxy to work properly.
 
 ```python
 class Package(j.baseclasses.threebot_package):
@@ -67,7 +67,7 @@ class Package(j.baseclasses.threebot_package):
 ## Single page apps (SPA)
 A special location to serve SPA (e.g. sapper exported) directories mainly.
 
-The following example create an SPA location that serves the build directory of `html`.
+The following example creates a SPA location that serves the build directory of `html`.
 
 ```python
 class Package(j.baseclasses.threebot_package):
@@ -131,7 +131,7 @@ class Package(j.baseclasses.threebot_package):
 
 To serve a website from domain directly, you need to create a new server config with this domain.
 
-If you need main server config, which is created by `webinterface` package to handle wikis, gedis and others, you should include it.
+If you need the main server config, which is created by `webinterface` package to handle wikis, gedis and others, you should include it.
 
 Also, you can rewrite all requests of package route to `/` instead of `/<threebot name>/<package name>`, using rewrite directive like:
 
