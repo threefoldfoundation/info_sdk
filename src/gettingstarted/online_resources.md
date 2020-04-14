@@ -26,7 +26,10 @@ On a per-node level, node specific details are available.  Opening a specific no
 
 ### Find or create flists   
 The flist principle is explained in the introduction architecture section ([here](../intro/architecture_flist.md)).  It is a very unique and efficient way to store and distribute container images.  We have create a storage mechanism for these flists online which is called the hub: [hub.grid.tf](https://hub.grid.tf/).
-![](img/hub_startpage.png)
+<!-- ![](img/hub_startpage.png) -->
+
+<img src="img/hub_startpage.png" width="600" alt="Docker converter">
+
 Access to this hub is restricted to people that have a 3bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3bot_connect_app.md).
 
 Login to the hub and you will not only have access to flists created and uploaded by others but also the ability to create and upload your own. Two principle ways to create (custom) flists:
