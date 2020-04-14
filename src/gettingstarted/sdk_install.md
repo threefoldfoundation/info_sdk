@@ -29,13 +29,13 @@ Binaries should be in the [release](https://github.com/threefoldtech/jumpscaleX_
 
 launch `3sdk`
 
-![](images/3sdk2.png)
+![](img/3sdk2.png)
 
 ### <a name='Gettinghelp'></a>Getting help
 
 You can type `info` or `info()` and you will see a list of available commands that you can use.
 
-![](images/3sdk3.png)
+![](img/3sdk3.png)
 
 ### <a name='BasicFeatures'></a>Basic Features
 
