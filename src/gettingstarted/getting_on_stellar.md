@@ -17,7 +17,6 @@ You can do this by sending an sms with the 5 character code to the shown sms num
 
 ![sms_activ](./img/3bot_staging_sms_activation.png)
 
-<!--- TODO add screenshots 3Bot Connect app for activation and code --->
 
 Sending this sms will trigger the activation of a TFT account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
 Once activation is done, you can start sending and receiving TFTs. 
@@ -64,9 +63,9 @@ Two tokens can be used :
 
 Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threefold network. 
 
-To claim your 1000 FreeTFT, go to the website and claim your tokens.
+To claim your 1000 FreeTFT, go to the [website](https://getfreetft.threefold.io/) and claim your tokens.
 
-
+![getfreetft](./img/getfreetft.png)
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
 
