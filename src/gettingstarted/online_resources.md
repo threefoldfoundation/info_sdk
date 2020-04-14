@@ -25,12 +25,12 @@ On a per-node level, node specific details are available.  Opening a specific no
 <!-- ![](explorer_node_details.png) -->
 
 ### Find or create flists   
-The flist prinple is explained in the introduction architecture section ([here](../intro/architecture_flist.md)).  It is a very unique anf efficient way to store and distribute container images.  We have create a storage mechanism for these flists online which is called the hub: [hub.grid.tf](https://hub.grid.tf/).
+The flist principle is explained in the introduction architecture section ([here](../intro/architecture_flist.md)).  It is a very unique and efficient way to store and distribute container images.  We have create a storage mechanism for these flists online which is called the hub: [hub.grid.tf](https://hub.grid.tf/).
 ![](img/hub_startpage.png)
 Access to this hub is restricted to people that have a 3bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3bot_connect_app.md).
 
-Login to the hub and you will not only have access to flists created and uploaded by others but also the ability to creat and upload your own. Two pinciple ways to create (custom) flists:
-- import docker images from the docker hib
+Login to the hub and you will not only have access to flists created and uploaded by others but also the ability to create and upload your own. Two principle ways to create (custom) flists:
+- import docker images from the docker hub
 - create your own tarballs and upload those
 
 <img src="img/docker_converter.png" width="600" alt="Docker converter">
