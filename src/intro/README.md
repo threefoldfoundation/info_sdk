@@ -18,7 +18,7 @@ This Wiki is meant to provide you with all the information you need to get start
 It is meant to everyone, meaning that the SDK provides means for both highly technical skilled people and people taking their first steps in creating digital services.
 
 ### Why peer2peer? 
-We believe the future of the internet is to be created, owned and operated by many people, not by a happy few.  The current version of the internet is not ready to move forward and create sovereignty, equality and sustainability.  A token economy that allows anyone to become a producer and consumer of digital services with the aim to reach 1 Billion people by 2030 is the vision of the ThreeFold foundation. Peer2peer is the only answer to reach this vision and not have the risk of it being hijacked for different (commercial) interests of a few.
+We believe the future of the internet is to be created, owned and operated by many people, not by a happy few.  The current version of the internet is not ready to move forward and create sovereignty, equality and sustainability.  A token economy that allows anyone to become a producer and consumer of digital services with the aim to reach 1 Billion people by 2030 is the vision of the ThreeFold Foundation. Peer2peer is the only answer to reach this vision and not have the risk of it being hijacked for different (commercial) interests of a few.
 
 The peer2peer cloud provides compute, storage and networking services as a world first in one architecture creating a sovereign, equal and sustainable cloud by many for anyone. [cloud.threefold.io](https://cloud.threefold.io)
 
@@ -35,7 +35,7 @@ Want to know more?
 <!-- insert general objectives for the TF Network (Grid, Token and 3bot) -->
 The Threefold Foundation is realizing the vision to provides affordable, local digital services by many for anyone. 
 ![](img/ses.png)
-For more information on the foundation, please check [threefold.io](https://threefold.io)
+For more information on the Foundation, please check [threefold.io](https://threefold.io)
 
 ### ThreeFold Tech Website
 Underpinning the two initiatives described above sits TF Tech.  This is a regular technology company which is creating (and leading) the community to  build the required software.  All software used is open source and we welcome anyone to participate and help us improve.  For more information please see [threefold.tech](https://threefold.tech)
