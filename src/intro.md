@@ -1,7 +1,4 @@
-<!-- 
--->
-
-![ThreeFold Cloud Image](img/intro.png)
+<img src="intro.png">
 
 
 ## ThreeFold P2P Cloud
