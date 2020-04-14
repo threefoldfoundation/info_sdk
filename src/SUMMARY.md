@@ -13,6 +13,7 @@
     - [Installing the SDK on Linux](gettingstarted/sdk_linux.md)
     - [Installing the SDK on macOS](gettingstarted/sdk_macos.md)
     - [(soon) Installing the SDK on Windows](gettingstarted/sdk_windows.md)
+    - [Online resources](gettingstarted/online_resources.md)
     - [User Identity](gettingstarted/identity.md)
     - [Getting TFT and FreeTFT](gettingstarted/getting_on_stellar.md)
         - [Buy TFT: Interstellar](gettingstarted/tft_interstellar.md)
