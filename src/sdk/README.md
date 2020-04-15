@@ -4,8 +4,8 @@
 
 The SDK installation process is documented in the `threefold` repository. The specific installation instructions for different OS's can be found here:
 
-- [Ubuntu](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_linux.md)
-- [macoOS](https://github.com/threefoldfoundation/info_threefold/blob/development/docs/wikieditors/installation_macos.md)
+- [Ubuntu](../gettingstarted/sdk_install.md)
+- [macoOS](../gettingstarted/sdk_install.md)
 
 #### Admin panel overview
 
