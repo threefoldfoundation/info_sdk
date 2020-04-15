@@ -2,14 +2,14 @@
 ### Introduction
 The storage architecture follows the true peer2peer design of this grid. Any participating node can store elements of objects (files, photos, movies, databases etc.) by offering a slice of the present (local) storage devices. Managing storage and retrieval of all of these distributed fragments is done by software that creates development or end-user interfaces for this storage algorithm. We call this dispersed storage. More details later.
 
-Peer2peer provides the unique proposition of selecting storage providers that match your application, service of business criteria. For example, you might be looking to store data for your application in a certain geographic area (for governance and compliance) reasons. Also, you might want to use different "storage policies" for different types of data. Examples are live versus archived data. All of these uses cases are possible with this storage architecture and can be build by using the same building blocks produced by farmers and consumed by developers/end-users.
+Peer2peer provides the unique proposition of selecting storage providers that match your application and service of business criteria. For example, you might be looking to store data for your application in a certain geographic area (for governance and compliance) reasons. Also, you might want to use different "storage policies" for different types of data. Examples are live versus archived data. All of these uses cases are possible with this storage architecture and can be build by using the same building blocks produced by farmers and consumed by developers/end-users.
 
 ### Dispersed storage architecture design philosophy
 
 #### Classic storage
 Classic storage designs reliability around (multiple) copies of the same data. The reasoning is to build storage solutions around the following structure:
 - The first copy is the active one which is being worked on. Intense storage and retrieval processes.
-- Then there is a (hot) second copy of the data that is continuously being synchronized with the live one and is available in case the active copy fails for immediate (uninterrupted) failover
+- Then there is a (hot) second copy of the data that is continuously being synchronized with the live one and is available in case the active copy fails for immediate (uninterrupted) failover.
 - The third copy is a cold, off-line copy, also referred to as a backup. This is a complete copy of the data which is available but not (live) accessible
 - The fourth copy is what is usually referenced to as an "archive". On off-site, securely stored (physical storage) offline copy of the data that can be pulled in in case all of the above fails.
 
@@ -18,7 +18,7 @@ All of the above concepts were invented when datasets were small(er) and could s
 
 ![](img/classic_storage.png)
 
-#### Dispersed storage
+#### ThreeFold Space Algorithm (dispersed storage)
 
 Today we produce more data than ever before (in the last two years we produced more data than in the history of mankind, and this is accelerating exponentially). We cannot continue to make full copies of data to make sure it is stored reliably. This will simply not scale. We need to move from securing the whole dataset to securing all the objects that make up a dataset.
 

@@ -58,10 +58,7 @@ The Jumpscale SDK is the interface where you get access in different ways to bui
 TODO #7: Get an idea about then the Jumpscale SDK is to be released as an flist on the grid.
 -->
 
-Local installation instructions can be found here:
+Local installation instructions [using 3sdk binary](sdk_install.md)
 
-- [Installing The SDK For MacOS](sdk_macos.md)
-- [Installing The SDK For Linux](sdk_linux.md)
-- [Installing The SDK For Windows*](sdk_windows.md)
 
 **Available Soon*

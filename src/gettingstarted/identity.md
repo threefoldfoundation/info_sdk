@@ -1,37 +1,34 @@
-# Initialize 3bot environment with identity
+# Initialize your 3bot environment with an identity
 
 ## For the first start of jsx container
 
 - Start kosmos shell using ```jsx container```
-- it will ask your for your identity
-    - if you want to specify it at start ```jsx container -id someone.3bot```
-    - ps:is no need to specify 3bot at the end, will happen automatically
-- if you want to work with more than 1 container use ```-n aname```
+- it will ask you for your identity
+    - if you want to specify it at the start ```jsx container -id someone.3bot``` (there is no need to specify 3bot at the end, this will happen automatically).
+- if you want to work with more than 1 container, use ```-n aname```.
 
 
-## if you want to check your configuration or change
+## If you want to check your configuration or change
 
-- This will ask you abot a secret work, this secret is saved in redis and encrypt your identites
-please keep it safe
+- This will ask you about a secret passphrase, this secret is saved in redis and encrypts your identities.
+Please keep it safe and remember it.
 
  ![Identity photo](./img/identity1.png)
 
-- After kosmos starts make configure to j.me
+- After Kosmos starts, configure using j.me
     
     ```python
     j.me.configure()
     ```
 
-This will as you about your information, 3botname, email, description .. and if you want to add admins to your system.
+This will ask you about your information: 3bot name, email, description, ... . It will also ask if you want to add admins to your system.
 This command will automatically register your information in the phonebook.
 
  ![Identity photo](./img/identity.png)
 
-#### Congratulations your 3bot is ready now you can start the 3bot server and start your reservation.
+#### Congratulations your 3bot is ready ! Now you can start the 3bot server and start your reservation.
 
-## To save your identity you can copy these files to safe place
-
-These contains the identity information, please keep them safe
+To save your identity, you best copy these files (holding your identity information) to a safe place : 
 
  ![recover photo](./img/identity2.png)
 
@@ -48,27 +45,29 @@ walid.3bot
 
 - for tests use ```aname.test```  (aname to be changed)
 - the email address you can specify but if not done will be someone@aname.test (--email)
-- when using a .test name everything will happen automatically, you will find the generated identity in your identity folder
+- when using a .test name everything will happen automatically, you will find the generated identity in your identity folder.
 
-example
+Example
 
 ```bash
 jsx container -id test5.test -n test -d
 ```
 
-this will remove your container & redo your registration
+will remove your container & redo your registration. 
 
 Your own 3bot name (the one as configured in the default identity is automatically added as administrator to any 3bot created.)
  
-## how to start from an existing private key
+## How to start from an existing private key
 
 ```
 jsx container -d -id someone.3bot --words='course salon aword ship team broccoli explain gate three again heart busy vessel parrot bar chalk pig world snow ...' --email='...'
 ```
 
-## Creating multiple identities:
+## Creating multiple identities
 
-You can either start kosmos with a new identity name ```jsx kosmos -n newname.3bot``` which will guide you through configuration, or you can do it from kosmos shell as follows:
+You can either start Kosmos with a new identity name ```jsx kosmos -n newname.3bot``` which will guide you through the configuration, or you can do it from Kosmos shell through following steps :
+
+- Create a new identity
 
 ```bash
 JSX> j.myidentities.get("test2.3bot")
@@ -90,7 +89,7 @@ ID: 3
 
 JSX> i = j.myidentities.get("test2.3bot")
 ```
-- Then configure your new identity
+- Configure your new identity
 ```
 JSX> i.configure()
 
@@ -125,17 +124,17 @@ want to add threebot administrators? [y/n]: n
  - save identity:test2.3bot
 JSX>
 ```
-- Then register to the tf_phonebook using
+- Register the identity to the tf_phonebook using
 ```python
 i.tfgrid_phonebook_register()
 ```
 
-- Then start 3bot server with your preferred identity using
+- Start 3bot server with your preferred identity using
 ```python
 JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
 ```
 
-- You will find your identity set in 3bot server
+- You will find your identity set in 3bot server :
 
 ![multiple_identities](./img/identity4.jpg)
 
@@ -144,11 +143,11 @@ JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
 
 In case you lost your identites, we can restore from the saved toml keys in `/sandbox/myhost/identities`.
 
-These contains the identity information, please keep them safe
+This contains the identity information, please keep them safe
 
  ![recover photo](./img/identity2.png)
 
-- `default` file contains the name default identity, please make it to refer to your recovered identity
+- `default` file contains the name default identity, please make it to refer to your recovered identity.
 
 Example:
 

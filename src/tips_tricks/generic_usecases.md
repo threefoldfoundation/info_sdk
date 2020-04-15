@@ -1,11 +1,11 @@
 
-# overview of high level usecases
+# overview of high-level use cases
 
 ## Decentralized, Autonomous, Edge, Grid Computing
 
 ![](img/edge_cloud.png)
 
-TODO:  usecase Autonomous, Edge, Grid Computing, high level
+TODO:  use case Autonomous, Edge, Grid Computing, high level
 
 ## BCDB: Secure, Scalable, Distributed Storage Workloads
 
@@ -19,4 +19,4 @@ TODO:  usecase Autonomous, Edge, Grid Computing, high level
 
 ## S3 Storage
 
-TODO:  high level usecase S3 Storage
+TODO: high-level use case S3 Storage
