@@ -13,7 +13,7 @@
 * [Packaged installer (sdk)](#Packagedinstallersdk)
 * [Using 3sdk.py from source](#Using3sdk.pyfromsource)
 * [Troubleshooting](#Troubleshooting)
-	* [Existing user](#ExistingUser)
+	* [Signature Verification Error/Already registerd users with wrong secret on phonebook](#SignatureVerification)
 	* [REMOTE HOST IDENTIFICATION HAS CHANGED](#REMOTEHOSTIDENTIFICATIONHASCHANGED)
 
 
@@ -23,27 +23,44 @@
 - Docker
 - Chrome browser for OSX users
 
+
+## Know your 3bot secret
+
+- From 3botconnect application go to settings, then show phrase to get your mnemonics
+- Take a note of the 3bot name and your email
+- When registering for the first time you can use these private words in your configurations
+
+
 ## <a name='Using3sdk'></a>Using 3sdk
 
-Binaries should be in the [release](https://github.com/threefoldtech/jumpscaleX_core/releases) page for osx and linux 
+Binaries should be in the [release](https://github.com/threefoldtech/jumpscaleX_core/releases) page for osx and linux.  Please select the latest release candidate for you OS and download it.  If yo don;t want to download binaries we have a description available how to compile the binaru from source.  You can find it in the packaged installer section below
 
-launch `3sdk`
+Once downloaded please move the binary to a location in your path.  You can launch `3sdk` in a terminal.
 
-![](img/3sdk2.png)
+![](img/sdk_start.png)
 
 ### <a name='Gettinghelp'></a>Getting help
 
-You can type `info` or `info()` and you will see a list of available commands that you can use.
+Once you have the binary in a location that is part in `$PATH` defnition you can start the 3sdk shell.  In this shell you have a help function that allows you to see what you can do.
 
-![](img/3sdk3.png)
+![](img/3sdk_info.png)
 
 ### <a name='BasicFeatures'></a>Basic Features
 
+Every command section in the container shell has command completion and further information presented at the bottom of the screen
+
+![](3sdk_command_completion.png)
+### Using the 3botconnect app words (mnemonics)
+
+- You have to use same username & same email
+- use the `words=` parameter in the your commands (you will see example commands in the upcoming section)
 
 #### <a name='StartThreebotContaineronecommand'></a>Start Threebot Container (one command)
 
 
 > `container threebot`
+
+if you want to set 3botconnect application words `container install words=''`
 
 
 #### <a name='InstallNewContainer'></a>Install New Container
@@ -133,10 +150,53 @@ This will require python3, git on the user system
 
 ## <a name='Troubleshooting'></a>Troubleshooting
 
-### <a name='ExistingUser'></a>Existing user / using your private words (mnemonics)
-- You have to use same username & same email
-- use the `words=` parameter in the your commands
-- e.g `container install words=''`
+
+
+## <a name='SignatureVerification'></a>signature verification failed, ensure your pubkey to be the same as local configured nacl
+
+```
+Tue 14 19:18:01 e/Jumpscale/me/Me.py - 461 - tfgrid_phonebook_register          : EXCEPTION: 
+    signature verification failed, ensure your pubkey to be the same as local configured nacl
+--TRACEBACK------------------
+
+```
+
+is most likely caused that you registered on phonebook with different words other than the ones in the 3bot connect app
+
+## case you have an old container with your old key and secret
+you can get your private key `cat /sandbox/cfg/keys/default/key.priv`
+and the secret `cat /sandbox/cfg/jumpscale_config.toml | grep SECRET`
+
+
+#### Recovering old words (saved)
+if you have your key.priv and secret from jumpscale_config and want to restore them
+
+
+
+##### Restore estore the key
+either copy the file back into `/sandbox/cfg/keys/default/key.priv` or
+
+```
+root@3bot:/sandbox# echo -n 'PRIVATEKEYCONTENT' > /sandbox/cfg/keys/default/key.priv
+root@3bot:/sandbox# cat /sandbox/cfg/keys/default/key.priv | wc -c
+144
+```
+
+make sure the length is 144
+
+##### Restore the secret
+
+edit `/sandbox/cfg/jumpscale_config.toml` and set `SECRET` to the old secret.
+
+when done do `jsx check`
+##### Retrieve the words 
+
+execute that in kosmos `j.data.nacl.default.words`
+
+NOTE: these words aren't compatible with the keys you have in 3bot connect 
+
+NOTE: You may have to delete `/sandbox/cfg/bcdb_config` and `pkill redis` if you got secret conflicts
+
 
 
 ### <a name='REMOTEHOSTIDENTIFICATIONHASCHANGED'></a>REMOTE HOST IDENTIFICATION HAS CHANGED
