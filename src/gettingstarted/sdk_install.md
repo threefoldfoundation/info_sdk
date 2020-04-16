@@ -1,7 +1,7 @@
 ## Install the Jumpscale SDK
 
 
-### What do I need to instal the SDK?
+### What do I need to install the SDK?
 
 Installing the Jumpscale SDK is easy.  There are two ways available today and there will be a third one very soon:
 
@@ -18,37 +18,66 @@ Today the Jumpscale SDK is supported on two main operating systems: Linux and ma
 
 ###  Install the SDK on your local machine by using the 3sdk binary 
 
-Using the binary installation method saves you from having to go through all the requirements to have a full pythin development environment installed on you machine with all the libraries and wheels that we need to build the 3sdk banary.  You can find the latest release candidate (we're still beta with this installer) here:
+Using the binary installation method saves you from having to go through all the requirements to have a full python development environment installed on you machine with all the libraries and wheels that we need to build the 3sdk banary.  You can find the latest release candidate (we're still beta with this installer) here:
 
 - [Release Candidate 5 (Linux only)](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.4-rc5)
 - [Relaese Candidate 4 (macOS + Linux)](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.4-rc4)
 
 Download this file, make sure its properties are set correct and store it in a location which is included in your `$PATH`.
 
-------
-On macOS you will have to allow this binary to run.  Since this application is distributed outside of the official apple store channel macOS does not trust it.  When you execute this application if will tell you tha tthis is from an unidentified deloper.
+#### macOS remarks
+On macOS you will have to allow this binary to run.  Since this application is distributed outside of the official apple store channel macOS does not trust it.  When you execute this application if will tell you that this is from an unidentified deloper.
 
 ![](img/macos_complain.png)
+<!--
+TODO #71 resize the image to a smaller form - does not need to be this large
+-->
 
 Please go to the security tab in the system preferences app and click "Security & Privacy".  You will see at the bottom of that windows a message that it was blocked.  Please allow it to run
 
 ![](img/macos_allow_binary_to_run.png)
 
-----
+#### Linux remarks
 
-## <a name='Using3sdk'></a>Using 3sdk
+We do not provide packages for mainstream Linux distributions (Ubuntu, CentOS, RedHat).  This is something that might come in the future if there is sufficient demand for it.  However we believe that the majority of SDK installs will be running on the grid and providing you with secure access to your SDK container with a web browser.  This is planned later in Q2 2020.
 
-Binaries should be in the [release](https://github.com/threefoldtech/jumpscaleX_core/releases) page for osx and linux.  Please select the latest release candidate for you OS and download it.  If yo don;t want to download binaries we have a description available how to compile the binaru from source.  You can find it in the packaged installer section below
+## Compile and install the `3sdk` binary and install the SDK on you local machine
 
-Once downloaded please move the binary to a location in your path.  You can launch `3sdk` in a terminal.
+For a detailed description how to compile the SDK binary please click [here](add link)
+<!--
+TODO #70 write compilation and installation instructions for the 3sdk binary
+-->
+
+## Install the SDK on the TF Grid (later Q2 2020)
+This option is not available yet and will come later in q2 2020
+<!--
+TODO #69 write and provide grid based jumpscale SDK access
+-->
+
+
+## Installing the Jumpscale SDK with the 3sdk shell.
+
+Once you have downloaded and installed (or compiled) yout own `3sdk` executable please open a terminal window an start the shell.
 
 ![](img/sdk_start.png)
+The `3sdk` prompt indicates that you are in the shell
 
-### <a name='Gettinghelp'></a>Getting help
+### Getting help
 
-Once you have the binary in a location that is part in `$PATH` defnition you can start the 3sdk shell.  In this shell you have a help function that allows you to see what you can do.
+The shell provides a help facility which provides a brief descriptiont for all the commands that are available in the shell.
 
 ![](img/3sdk_info.png)
+
+Main commands are:
+- `simulator`: command category to run and manage the ThreeFold simulator.  ThreeFold simulator is a tool for (future) farmers to look at the token economy for the ThreeFold grid.  Simulator options are:
+    - `browser`: launch the simulator and open a browser (tab
+    - `stop`: stop the simulator
+    - `start`: start the simulator.  You can connect to it by opening up a browser and connect to: `http://localhost:4000`
+    - `shell`: connect to the simulator container and provide you with a (bash) shell
+    - `restart`: restart the simulator. As it is CPU and memory intensive it help to do this occasionally
+- `container`: 
+- `args`
+- `core`
 
 ### <a name='BasicFeatures'></a>Basic Features
 
