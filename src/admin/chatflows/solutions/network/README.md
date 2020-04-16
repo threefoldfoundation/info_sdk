@@ -6,7 +6,7 @@ This package is used to deploy a network on the grid and to connect your solutio
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu.png)
+![solutions menu](adminmenu2.png)
 
 
 ## Inputs
