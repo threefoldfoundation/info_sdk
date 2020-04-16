@@ -13,4 +13,4 @@ Self-driving and self-healing technology allows for 100% decentralization. Inclu
 ### Capacity layer
 Low level technology. Delivers the required capacity for your IT solution. Any applications which can run on Linux can run on the TF Grid and our systems provide more decentralization, security, and efficiency.
 
-More information on the capa
+More information on the capacity layer is [here](./capacity_layer/README.md)
