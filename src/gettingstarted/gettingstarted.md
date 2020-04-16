@@ -30,7 +30,7 @@ To use the 3Bot Connect App you need to download the 3Bot Connect App available 
 In the future, these seed words are required to restore your wallet in case your device is lost.
 
 <!-- 
-![3bot](img/3bot_seed_phrase.jpg)
+![3bot](../3botconnect/img/3bot_seed_phrase.jpg)
 -->
 <img src="img/3bot_seed_phrase.jpg" alt="drawing" width="200"/>
 <!--
@@ -55,4 +55,6 @@ The TFGrid SDK is the interface where you get access in different ways to build 
 You can install your TFGrid SDK hosted on the TFGrid, or on a local OS, for this manual we consider you use the SDK on your own machine.
 
 Local installation instructions [using 3sdk binary](sdk_install.md)
+
+
 

@@ -4,7 +4,7 @@
 ![](img/gateway.png)
 
 ### Introduction
-The webgateway is an important component of exposing anything deployed on the TF Grid to the open Internet.  TF Grid works natively with IPv6 (and IPv4 in locations where IPv6 is not available) and is by default not exposing any of the reservered overlay networks to the open Internet (please find more information on the [network](./architecture_network.md) section). The webgateway is the element that bridges (in a secure way) the open Internet and the private overlay network.  
+The webgateway is an important component of exposing anything deployed on the TF Grid to the open Internet.  TF Grid works natively with IPv6 (and IPv4 in locations where IPv6 is not available) and is by default not exposing any of the reservered overlay networks to the open Internet (please find more information on the [network](architecture_network.md) the open Internet and the private overlay network.  
 
 ### Capacity farming and network farming
 TG Grid is built by farmers that invest and deploy hardware on which Zero-OS runs creating a peer2peer grid capacity generating grid.  Each node is as important as any other node and all together they form this universal substrate for IT workloads. Although all nodes are equal in this grid they do not all come equal in the sense of network connectivity.  Besides the obvious differences of having redundant network upstream connections (most datacenter setups) or having small, medium and large upstream bandwidth available (home setups versus office and datacenter setups).
@@ -23,3 +23,4 @@ Source code can be found here: https://github.com/threefoldtech/tcprouter
 ![](img/webgateway_scale.png)
 
 The independence of network and location created by the webgateway allows this architecture to scale endless. There is not limit to the amount of 3nodes that can be added to the TF Grid create more universal substrate and the number of Ingress and Egress point scales independently from that.  Peer2Peer and scaleout architecture.
+

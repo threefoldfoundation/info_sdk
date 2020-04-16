@@ -16,14 +16,14 @@ Here is the schema used to define a container reservation:
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
 - **NetworkConnection**: this is where you define the network of the container
-  - **NetworkId**: the name of the network created using a [network](network.md) primitive
+  - **NetworkId**: the name of the network created using a [network](../develop/code/network/network.md) primitive
   - **Ipaddress**: net.IP: The IP address to give to the container
   - **PublicIp6**: if this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
 
 ## Flist
 
-More information about flist at [flist documentation](.intro/architecture_flist.md)
+More information about flist at [flist documentation](../architecture/architecture_flist.md)
 
 ## CoreX - The 0-OS container process manager
 
@@ -72,3 +72,5 @@ print("provisioning result")
 print(result)
 {'Namespace': '60-3', 'IP': '2a02:1802:5e:1102:e85a:41ff:fedb:2c65', 'Port': 9900}
 ```
+
+

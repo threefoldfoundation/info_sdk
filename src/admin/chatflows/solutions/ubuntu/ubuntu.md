@@ -6,7 +6,7 @@ Ubuntu is officially released in three editions: Desktop, Server, and Core(for i
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu.png)
+![solutions menu](../flist/adminmenu.png)
 
 
 ## Inputs
@@ -72,6 +72,8 @@ Here we confirm the specifications we entered in the chatflow
 ### Reaching your container
 ![step11](ubuntu11.png)
 Here we get the container 
+
+
 
 
 

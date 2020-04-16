@@ -11,3 +11,5 @@ The 5 primitives available at the moment are:
 - [Kubernetes cluster](capacity_kubernetes.md): full kubernetes cluster
 - [0-DB namespace](capacity_0db.md): low lever key-value store
 - [Container volume](capacity_vdisk.md): direct access to raw disk from a container
+
+

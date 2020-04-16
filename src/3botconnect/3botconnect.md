@@ -53,3 +53,4 @@ Here you can receive online support on any questions related to the ThreeFold Ne
 
 ## Settings
 You can check your Secret Phrase here, change your pin code, activate access through biometric (fingerprint) or remove your account in `Advanced Settings` tab.
+

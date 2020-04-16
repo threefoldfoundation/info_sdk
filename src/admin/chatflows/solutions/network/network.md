@@ -6,7 +6,7 @@ This package is used to deploy a network on the grid and to connect your solutio
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu2.png)
+![solutions menu](../minio/adminmenu2.png)
 
 
 ## Inputs
@@ -53,3 +53,5 @@ While the grid is built around IP v6 you need you to connected to the network, a
 ### Configuring your machine
 ![Step7](network7.png)
 Now you need to configure your machine to access the network by applying the wireguard configurations
+
+

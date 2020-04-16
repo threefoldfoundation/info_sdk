@@ -8,7 +8,7 @@ MinIO is a high performance object storage. With the assist of the chatflow the 
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu.png)
+![solutions menu](../flist/adminmenu.png)
 
 
 ## Inputs
@@ -87,3 +87,5 @@ Once accessing the url the following is shown once redirected to MinIO login(acc
 ### MinIO UI
 Once logged in using the previous page, you can upload and use the browser to navigate through all your items
 ![](upload.png)
+
+

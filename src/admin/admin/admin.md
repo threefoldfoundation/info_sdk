@@ -7,31 +7,31 @@ This package provides an admin dashboard interface with some actors for your 3Bo
 ### Home
 
 Shows system versions, network, processes status, memory consumptions and some health checks
-![img/dashboard.png](./img/dashboard.png)
+![img/dashboard.png](img/dashboard.png)
 
 ### Logs
 Allows seeing logs per application
 
-![logs](./img/logs.png)
+![logs](img/logs.png)
 
 
 ### Alerts
 Advanced alerts system
 
-![alerts](./img/alerts.png)
+![alerts](img/alerts.png)
 
-check [alerts.md](./alerts.md) for info about its actors
+check [alerts.md](alerts.md) for info about its actors
 ### Package management system
 Easy way to install/stop packages available on the filesystem or from a trusted git repository
 
-![packagemanager](./img/packagemanager.png)
+![packagemanager](img/packagemanager.png)
 
 
 ### Online code editor
 
 If you want to edit code from the dashboard directly you can do so using CodeServer package
 
-![codeserver](./img/codeserverterminal.png)
+![codeserver](img/codeserverterminal.png)
 
 ## Installation
 
@@ -59,5 +59,7 @@ j.tools.threebot.me.default.save()
 
 ## Extending Admin Dashboard
 
-Please check [extending admin dashboard](./extending_admin.md)
+Please check [extending admin dashboard](extending_admin.md)
+
+
 

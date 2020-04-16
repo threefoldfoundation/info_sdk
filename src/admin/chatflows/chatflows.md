@@ -100,7 +100,7 @@ Asking for drink as single choice `single_choice`
 ![Chat Flow5](img/chat/chat5.png)
 Showing final results using md_show
 
-For more technical information on the chat package please check [Internals page](internals.md)
+For more technical information on the chat package please check [Internals page](../../develop/internals/internals.md)
 
 
 ### Available question types:
@@ -116,4 +116,5 @@ For more technical information on the chat package please check [Internals page]
 - country_drop_down
 
 ## Internals
-check [internals page](internals.md) for more information on the mechanics of chatbot and how to extend it.
+check [internals page](../../develop/internals/internals.md) for more information on the mechanics of chatbot and how to extend it.
+

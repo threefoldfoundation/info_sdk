@@ -163,3 +163,5 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain using ThreefoldToken (TFT).
 - **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid
+
+

@@ -87,7 +87,7 @@ efficient and fasr in the same time
 
 ## Components
 
-![BCDB components](img/BCDB_components.png)
+![BCDB components](img/bcdb_components.png)
 
 
 ### Quick Beginners guide
@@ -291,3 +291,5 @@ assert len(result) == 1
 ### Export/Import
 
 BCDB exposes an export/import functionality.
+
+

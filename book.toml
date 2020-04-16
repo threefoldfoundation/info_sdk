@@ -9,9 +9,29 @@ title = "TFGrid SDK"
 # command = "python3 foo.py"
 # renderer = ["html"]
 
+[build]
+create-missing = false
+
+[preprocessor.links]
+
 [output.html.fold]
 enable = true
 level = 0
 
 [output.html]
 default-theme = "Light"
+git-repository-url = "https://github.com/threefoldfoundation/info_tfgridsdk"
+no-section-label = true
+
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true

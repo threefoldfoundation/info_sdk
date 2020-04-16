@@ -17,15 +17,15 @@ The TF Grid has an explorer which represents all of the 3nodes that form the cap
 Also included is a rudimentary search facility where you can select nodes based on their characteristics (number of CPU cores, memory etc.). For discovery purpose this grid portal is a good starting point to find out what is available on the TF Grid in which geography.
 
 <img src="img/explorer-front-page.png" width="600" alt="Explorer front page">
-<!-- ![](explorer-front-page.png) -->
+<!-- ![](img/explorer_front_page.png) -->
 
 
 On a per-node level, node specific details are available.  Opening a specific node tab provides you with the identity and statistics of the node.  All this information is also searchable and available in the SDK.
 <img src="img/explorer_node_details.png" width="600" alt="Explorer front page">
-<!-- ![](explorer_node_details.png) -->
+<!-- ![](img/explorer_node_details.png) -->
 
 ### Find or create flists   
-The flist principle is explained in the introduction architecture section ([here](../intro/architecture_flist.md)).  It is a very unique and efficient way to store and distribute container images.  We have create a storage mechanism for these flists online which is called the hub: [hub.grid.tf](https://hub.grid.tf/).
+The flist principle is explained in the introduction architecture section ([here](../architecture/architecture_flist.md).
 <!-- ![](img/hub_startpage.png) -->
 
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
@@ -45,3 +45,4 @@ original image includes
 ![](img/docker_converter.png)
 ![](img/homemade_flist.png)
 -->
+

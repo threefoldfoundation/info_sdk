@@ -8,7 +8,7 @@ The result can be uploaded and made available in the flist repository, where it 
 
 Within the 3bot Admin console, a chatflow has been created to deploy a generic flist. 
 
-![](img/chatflow_flist0.png)
+![](images/chatflow_flist0.png)
 
 Through this chatflow, the flist is deployed into your local 3bot in a few simple steps : 
 - Select the flist to be deployed
@@ -22,3 +22,5 @@ After this specification, the container will be deployed.
 To make it accessible, the following needs to happen: 
 - Activate the network (using wireguard)
 - Access the workload (using the specified ip address)
+
+

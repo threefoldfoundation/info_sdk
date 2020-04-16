@@ -10,7 +10,7 @@ A [Kubernetes](https://kubernetes.io) cluster is a set of node machines for runn
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu.png)
+![solutions menu](../flist/adminmenu.png)
 
 
 ## Inputs
@@ -67,3 +67,5 @@ To verify the nodes created on the machine after ssh
 kubectl get nodes
 ```
 ![](nodes.png)
+
+

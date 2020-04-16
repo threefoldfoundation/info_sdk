@@ -1,6 +1,6 @@
 Package is the way to write extensions and applications to threebot server and it is driven using `package.py` file which controls the life cycle of the application, including configurations (prepare) , start, stop .. etc.
 
-![workflow](img/workflow.png)
+![workflow](images/workflow.png)
 
 
 ## Creating a new package
@@ -328,3 +328,5 @@ JSX> cl = j.clients.gedis.get(name="pm", port=8901, package_name="zerobot.packag
 JSX> cl.reload()
 JSX> cl.actors.package_manager.package_add(path='/sandbox/code/github/threefoldtech/jumpscaleX_threebot/ThreeBotPackages/zerobot/alerta')
 ```
+
+

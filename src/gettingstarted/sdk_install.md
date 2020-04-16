@@ -54,7 +54,7 @@ Once you have the binary in a location that is part in `$PATH` defnition you can
 
 Every command section in the container shell has command completion and further information presented at the bottom of the screen
 
-![](3sdk_command_completion.png)
+![](../3botconnect/img/3sdk_command_completion.png)
 ### Using the 3botconnect app words (mnemonics)
 
 - You have to use same username & same email
@@ -242,3 +242,4 @@ TOSORT
 - From 3botconnect application go to settings, then show phrase to get your mnemonics (24 words for your private key)
 - Take a note of the 3bot name and your email
 - When registering for the first time you can use these private words in your configurations
+

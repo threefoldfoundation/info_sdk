@@ -27,15 +27,15 @@ After installing on a local system there should be a 3bot SDK start with an SDK 
 
 The following screen should welcome you:
 
-![SDK login](tab_explanation/img/SDK_login.png)
+![SDK login](admin/img/sdk_login.png)
 
 Use the 3bot Connect application to login.
 
-![SDK admin panel](tab_explanation/img/SDK_admin_panel.png)
+![SDK admin panel](admin_functions/img/sdk_admin_panel.png)
 
 
 Included in the SDK is a Visual Studio editors which allows you to edit and create scripts, packages and Jumpscale code to your IT architectures up and running.
-![Codeserver](tab_explanation/img/codeserver.png)
+![Codeserver](admin_functions/img/codeserver.png)
 
 ##### Login the container and use the CLI interface
 You can also login into the container and use the available CLI interface to manage code and execute code.
@@ -52,3 +52,6 @@ container shell
 this will give you a shell into the container.
 
 In this container you can do all the usual Git repository management, use the Jumpscale libraries to create TF Grid deployments, reservations and payments.
+
+
+
