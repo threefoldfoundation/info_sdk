@@ -1,5 +1,8 @@
 
-# ThreeFold Token Simulator
+# ThreeFold Token Simulator Start
+
+after installing the simulator you should see
+
 
 ![](img/tft_simulator.png)
 
