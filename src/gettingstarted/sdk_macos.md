@@ -96,7 +96,7 @@ Commands:
 
 ## Install 3bot
 <!--
-TODO #10 Content to add representing the Jumpscale SDK install
+TODO #10 Content to add representing the TFGrid SDK install
 
 As the installation is not completing still needs to be finished when the install works.
 -->
