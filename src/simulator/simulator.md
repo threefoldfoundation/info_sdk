@@ -7,8 +7,8 @@ It was a tool developed to allow us to develop the tokenomics when we developed 
 
 It allows you to simulate hardware and see how the hardware could potentially behave inside the TF Grid.
 
-- [install](./simulator/simulator_install.md)
-- [open the simulator](./simulator/simulator_open.md)
-- [simulator usage basics](./simulator/simulator_usage_basics.md)
-- [tfgrid simulation start](./simulator/simulator_tfgrid_start.md)   
+- [install](simulator_install.md)
+- [open the simulator](simulator_open.md)
+- [simulator usage basics](simulator_usage_basics.md)
+- [tfgrid simulation start](simulator_tfgrid_start.md)   
 
