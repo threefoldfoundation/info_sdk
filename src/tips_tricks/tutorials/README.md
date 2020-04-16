@@ -1,3 +1,3 @@
 ## Tutorials
 
-![Core concepts](images/tutorials.png)
+![Core concepts](img/tutorials.png)
