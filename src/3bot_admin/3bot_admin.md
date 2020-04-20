@@ -5,7 +5,7 @@
 
 The 3bot admin panel is a versatile tool to administrate and control processes and activities of the TFGrid SDK.
 
-- [how to get started][admin_panel_open.md]
+- [how to get started](admin_panel_open.md)
 
 ## The parts
 
