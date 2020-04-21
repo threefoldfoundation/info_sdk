@@ -1,7 +1,7 @@
 # Summary
 
 - [Intro](intro.md)
-- [Architecture](architecture/architecture.md)
+- [Architecture](architecture/smart_contract.md )
     - [Smart contract for IT](architecture/smart_contract.md)
     - [Storage](architecture/architecture_storage.md)
     - [Network](architecture/architecture_network.md)

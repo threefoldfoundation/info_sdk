@@ -1,6 +1,6 @@
 # Smart contract for IT
 
-TODO: smart contract picture
+![](img/smart_contract.jpeg)
 
 This chapter contains a detailed explanation about how the IT contract is built. What are the different component that compose it?
 
