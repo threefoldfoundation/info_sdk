@@ -5,7 +5,7 @@
 
 The 3bot admin panel is a versatile tool to administrate and control processes and activities of the TFGrid SDK.
 
-- [admin_panel_open.md](admin_panel_open.md)
+- [how to get started](admin_panel_open.md)
 
 ## The parts
 
@@ -21,6 +21,5 @@ The 3bot admin panel is a versatile tool to administrate and control processes a
 - [Codeserver](admin_functions/codeserver.md)
 - [Jupyter](admin_functions/jupyter.md)
 - [Settings](admin_functions/settings.md):  Administration page
-
 
 

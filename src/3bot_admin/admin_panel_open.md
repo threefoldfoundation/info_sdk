@@ -27,7 +27,7 @@ After installing on a local system there should be a 3bot SDK start with an SDK 
 
 The following screen should welcome you:
 
-![SDK login](admin/img/sdk_login.png)
+![SDK login](3bot_admin/img/sdk_login.png)
 
 Use the 3bot Connect application to login.
 

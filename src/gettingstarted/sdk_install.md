@@ -18,7 +18,7 @@ Today the TFGrid SDK is supported on two main operating systems: Linux and macOS
 
 ###  Install the SDK on your local machine by using the 3sdk binary 
 
-Using the binary installation method saves you from having to go through all the requirements to have a full pythin development environment installed on you machine with all the libraries and wheels that we need to build the 3sdk banary.  You can find the latest release candidate (we're still beta with this installer) here:
+Using the binary installation method saves you from having to go through all the requirements to have a full pythin development environment installed on your machine with all the libraries and wheels that we need to build the 3sdk banary.  You can find the latest release candidate (we're still beta with this installer) here:
 
 - [Release Candidate 5 (Linux only)](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.4-rc5)
 - [Relaese Candidate 4 (macOS + Linux)](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.4-rc4)

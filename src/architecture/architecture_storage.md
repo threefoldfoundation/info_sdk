@@ -1,4 +1,7 @@
 ## Storage architecture
+
+![](img/storage_header.jpeg)
+
 ### Introduction
 The storage architecture follows the true peer2peer design of this grid. Any participating node can store elements of objects (files, photos, movies, databases etc.) by offering a slice of the present (local) storage devices. Managing storage and retrieval of all of these distributed fragments is done by software that creates development or end-user interfaces for this storage algorithm. We call this dispersed storage. More details later.
 
