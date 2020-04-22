@@ -121,8 +121,8 @@ key of the 3bot can be loaded, and then used to verify the signature.
 As an example of how this might be applied in practice, consider the following
 signing request:
 
-- `Signers`: [3bot_a, 3bot_b, 3bot_c]
-- `QuorumMin`: 1
+- `Signers: [3bot_a, 3bot_b, 3bot_c]`
+- `QuorumMin: 1`
 
 This means that any of the 3 listed 3bots can sign the data, and the request is fulfilled as soon as anyone signs. For instance, a workload for testing is used by 3 developers, and any of those can choose to have the workload deployed or deleted.  
 If however another person signs (perhaps a 4th developer who is new in the company), the signature will not be valid, as he is not listed in the `signers` field, and therefore he is not able to deploy the workload.
@@ -163,5 +163,6 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain using ThreefoldToken (TFT).
 - **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid
+
 
 

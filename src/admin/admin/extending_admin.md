@@ -28,9 +28,9 @@ Make sure to push production builds after you finish updating frontend source.
 
 ## Structure
 
-* The main entry is [app.js](sources/app.js)
+* The main entry is ```app.js:sources/app.js```
 * Views:
-  * Main view is defined at [main.js](sources/views/main.js)
+  * Main view is defined at ```main.js:sources/views/main.js```
   * External views are [wiki](sources/views/wikis), [codeserver](sources/views/codeserver) and [TF-Simulator](sources/views/jupyter).
 * Services (calling backend/actors) can be found at [sources/services](sources/services).
 

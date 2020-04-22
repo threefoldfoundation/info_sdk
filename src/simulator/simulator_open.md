@@ -21,7 +21,7 @@ you will now see following tabs.
 
 close the left parameters tabs
 
-![](simulator_close1.png)
+![](img/simulator_close1.png)
 
 drag drop (on top) the params next to each other, you should get to:
 
@@ -46,4 +46,5 @@ you will see the exection, this will take a while, its a serious simulator, mill
 this is what you should get to.
 
 At the right side you can change the paramters for the simulation..At the left you need to click on the refresh button to calculate again using the new parameters.
+
 

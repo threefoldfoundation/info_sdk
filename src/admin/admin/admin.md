@@ -7,6 +7,7 @@ This package provides an admin dashboard interface with some actors for your 3Bo
 ### Home
 
 Shows system versions, network, processes status, memory consumptions and some health checks
+
 ![img/dashboard.png](img/dashboard.png)
 
 ### Logs

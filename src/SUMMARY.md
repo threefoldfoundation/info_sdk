@@ -65,7 +65,7 @@
     - [open the simulator](simulator/simulator_open.md)
     - [tfgrid simulation start](simulator/simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator/simulator_usage_basics.md)
-    - [simulator troubleshooting](./simulator/simulator_troubleshooting)
+    - [simulator troubleshooting](./simulator/simulator_troubleshooting.md)
 - [Troubleshooting](troubleshooting/troubleshooting.md)
 - [Tips and tricks](usecases/usecases.md)
     - [Notebook User Interface](tips_tricks/user_interface.md)
