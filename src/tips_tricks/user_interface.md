@@ -73,3 +73,4 @@ mainbox
 when running the above code in a notebook you should see something like:
 
 ![](img/example_ui.png)
+

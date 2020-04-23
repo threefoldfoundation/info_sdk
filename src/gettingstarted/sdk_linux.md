@@ -10,7 +10,7 @@ In this document we will explain the installation a local installation in a Dock
 
 ## Step 1: Prepare your machine
 
-The Jumpscale SDK is currently supported on Linux, more specifically this installation script will guide you through the steps for the Ubuntu distribution.  Other linux distributions will be supported in the future.
+The TFGrid SDK is currently supported on Linux, more specifically this installation script will guide you through the steps for the Ubuntu distribution.  Other linux distributions will be supported in the future.
 
 ### Prerequisites for the SDK installation.
 
@@ -96,9 +96,9 @@ Commands:
 
 As stated above our recommendation is to install the SDK in a container.  The JSX tool has commands to start and stop the container in a controlled manner. If you have installed 3bot containers in the past - please check and remove the 3bot entries from the known_host file.
 
-Then we can install our jumpscale SDK using
+Then we can install our TFGrid SDK using
 ```bash
-# Make sure there are no remnissents from previous versions and installations.  If you have installed older version on the Jumpscale SDK please cleanup with the following command
+# Make sure there are no remnissents from previous versions and installations.  If you have installed older version on the TFGrid SDK please cleanup with the following command
 /tmp/jsx containers-reset
 
 # If /sandbox exists as a directory
@@ -143,3 +143,5 @@ Also, other people can access the dashboard, but they need to be added to admins
 j.tools.threebot.me.default.admins.append("hamada.3bot")
 j.tools.threebot.me.default.save()
 ```
+
+

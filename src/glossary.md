@@ -1,6 +1,6 @@
 - 3Bot
 - 3Node
-- Jumpscale SDK
+- TFGrid SDK
 - ThreeFold Foundation
 - ThreeFold Tech
 - Zero-OS

@@ -34,3 +34,5 @@ In the Navbar you will find the section "NEED THE NAME" that has pre-made notebo
 ## How to deploy a Kubernetes Cluster using the CodeServer?
 Within the SDK you'll find the CodeServer in the left hand navbar.
 In here you will find all files and code you need to set up a network and have total control over it, set your parameters, choose your nodes, etc.
+
+
