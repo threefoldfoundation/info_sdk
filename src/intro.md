@@ -1,5 +1,5 @@
-![](intro.png)
 
+![](intro.png)
 
 ## ThreeFold P2P Cloud
 A new standard in peer2peer networking, storage and compute.
