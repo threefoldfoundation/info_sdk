@@ -1,6 +1,6 @@
 Package is the way to write extensions and applications to threebot server and it is driven using `package.py` file which controls the life cycle of the application, including configurations (prepare) , start, stop .. etc.
 
-![workflow](images/workflow.png)
+![workflow](workflow.png)
 
 
 ## Creating a new package
@@ -167,7 +167,7 @@ self.bcdb =             #can be overruled by you (is a property), default is the
 Detailed types of `openresty/nginx` locations that can be defined inside are documented [here](locations.md).
 
 ## Authentication
-We provide oauth2 proxy and clients, see [documentation](oauth2/README.md) of how you can use them inside your package.
+We provide oauth2 proxy and clients, see [documentation](oauth2.md) of how you can use them inside your package.
 
 ## Example package.toml
 

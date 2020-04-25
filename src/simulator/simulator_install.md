@@ -14,11 +14,11 @@ Windows should be ready soon, check the releases page.
 
 - go to https://github.com/threefoldtech/jumpscaleX_core/releases
 
-![](img/download_3sdk.png)
+![](download_3sdk.png)
 
 download the 3sdk to your local folder.
 
-![](img/downloaded.png)
+![](downloaded.png)
 
 you will see at botomn of your browser the download.
 
@@ -28,7 +28,7 @@ Now start a terminal:
 
 you will see a terminal like 
 
-![](img/terminal.png)
+![](terminal.png)
 
 do the following in your terminal
 
@@ -42,7 +42,7 @@ chmod 700 3sdk*
 ./3sdk_osx
 ```
 
-![](img/dir.png)
+![](dir.png)
 
 when executing the 3sdk you will probably be warned by your operating system that this is an unknown file.
 
@@ -50,34 +50,34 @@ On OSX you will have to go to securyt
 
 - on OSX: command space security  (select security & privacy)
 
-![](img/security_privacy.png)
+![](security_privacy.png)
 
 you will then see the file you need to allow access for (don't see here because I already allowed the file to run.)
 
 once succesful you will see the following (restart the command 3sdk... in the terminal)
 
-![](img/3sdk1.png)
+![](3sdk1.png)
 
 now do 'info' to see the commands
 
-![](img/3sdk2.png)
+![](3sdk2.png)
 
 ## Install the simulator
 
-![](img/install_cmd_3sdk.png)
+![](install_cmd_3sdk.png)
 
 ```bash
 #type
 simulator start 
 ```
 
-![](img/simulator_installing.png)
+![](simulator_installing.png)
 
 This will take 1-5 min depending download speed and performance computer.
 
 a browser will open and you will see
 
-![](img/open_simulator.png)
+![](open_simulator.png)
 
 what you see here is a python notebook visualizing the code of the simulator.
 

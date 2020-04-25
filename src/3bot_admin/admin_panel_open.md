@@ -27,15 +27,15 @@ After installing on a local system there should be a 3bot SDK start with an SDK 
 
 The following screen should welcome you:
 
-![SDK login](3bot_admin/img/sdk_login.png)
+![SDK login](sdk_login.png)
 
 Use the 3bot Connect application to login.
 
-![SDK admin panel](admin_functions/img/sdk_admin_panel.png)
+![SDK admin panel](sdk_admin_panel.png)
 
 
 Included in the SDK is a Visual Studio editors which allows you to edit and create scripts, packages and Jumpscale code to your IT architectures up and running.
-![Codeserver](admin_functions/img/codeserver.png)
+![Codeserver](codeserver.png)
 
 ##### Login the container and use the CLI interface
 You can also login into the container and use the available CLI interface to manage code and execute code.

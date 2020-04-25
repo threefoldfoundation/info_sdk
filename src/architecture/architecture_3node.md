@@ -6,7 +6,7 @@
 <!--
 TODO #45 Change URL to real URL once published
 -->
-![](img/tf_grid.png)
+![](tf_grid.png)
 
 All of these 3nodes have bootloader software installed on their local storage devices.  The Zero-OS is delivered to them over the network and the boot facility is hosted on the TF grid itself.
 

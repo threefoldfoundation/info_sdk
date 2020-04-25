@@ -44,7 +44,7 @@ To receive your ThreeFold Tokens you can copy your button or you have to fill ne
   
 In `Social` tab you can join our FreeFlow network, get actual news from official pages of ThreeFold communities. You can also create your own communities. Home page contains links to the specific ThreeFold communities. 
   
-![](img/3bot_social.jpg)
+![](3bot_social.jpg)
 
 You can find available circles by pressing `My Spaces`, and start typing a name or select from the proposed list.
 

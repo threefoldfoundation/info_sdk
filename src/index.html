@@ -7,14 +7,17 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">  
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
         name: 'TFGrid SDK',
+        repo: 'https://github.com/threefoldfoundation/info_tfgridsdk',
         loadSidebar: true,
+        loadNavbar: true,
         auto2top: true,
 
         search: 'auto', // default
@@ -23,16 +26,24 @@
           tag: 'remoteMarkdownUrl',
         }, 
 
-        // complete configuration parameters
-        search: {
-            maxAge: 86400000, // Expiration time, the default one day
-            paths: 'auto',
-            placeholder: 'Type to search',
-            noData: 'No Results!',
-            // Headline depth, 1 - 6
-            depth: 6,
-            hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        alias: {
+          '/.*/_sidebar.md': '/_sidebar.md',
         },
+        subMaxLevel: 3,      
+        themeable: {
+            readyTransition : true, // default
+            responsiveTables: true  // default
+        },  
+
+          // complete configuration parameters
+          search: {
+              maxAge: 86400000, // Expiration time, the default one day
+              paths: 'auto',
+              placeholder: 'Type to search',
+              noData: 'No Results!',
+              depth: 6,
+              hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+          },
         
       //...
     }
@@ -42,6 +53,9 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="//unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
 </body>
 </html>

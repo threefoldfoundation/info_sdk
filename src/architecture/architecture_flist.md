@@ -1,7 +1,7 @@
 
 # Ultra efficient virtual filesystem for Zero-OS
 
-![](img/boot_monkey.png)
+![](boot_monkey.png)
 
 <!--
 #TODO #48: need to describe how it works

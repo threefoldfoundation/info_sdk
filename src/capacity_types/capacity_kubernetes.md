@@ -10,7 +10,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 - **NodeId**:
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
-- **NetworkId**: The name of the network created using a [network](../develop/code/network/network.md) primitive
+- **NetworkId**: The name of the network created using a [network](network.md) primitive
 - **Ipaddress**: The IP address to give to the VM
 - **ClusterSecret**: The value of this field must be the same for all the members of a cluster
 - **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here

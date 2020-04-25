@@ -8,7 +8,7 @@ This is the building block on top of which containers and kubernetes cluster com
 
 The end goal is to build a secure and fully encrypted channel between all your applications running on the grid.
 
-![network](../admin/chatflows/solutions/network/network2.png)
+![network](network2.png)
 
 ## How to define a network ?
 
@@ -26,7 +26,7 @@ To make it more visual imagine your network is like a big box full of IP address
 For each node that joins the network, you reserve a part of the big box, 254 IP addresses, for the node to use (the 24-bit block).
 Finally, when you create a container or a kubernetes VM on a node, you assign one IP from the part that is reserved for the node.
 
-![network-box](img/network_box.png)
+![network-box](network_box.png)
 
 to recap, to create a network you must:
 

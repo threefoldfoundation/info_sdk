@@ -87,20 +87,20 @@ def chat(bot):
 
 ```
 Here's how it will look like 
-![Chat Flow1](img/chat/chat1.png)
+![Chat Flow1](chat1.png)
 Asking what to eat as a string `string_ask`
 
-![Chat Flow2](img/chat/chat2.png)
+![Chat Flow2](chat2.png)
 Asking for amount as int `int_ask`
-![Chat Flow3](img/chat/chat3.png)
+![Chat Flow3](chat3.png)
 Asking for side dishes as multiple choice `multi_choice`
 
-![Chat Flow4](img/chat/chat4.png)
+![Chat Flow4](chat4.png)
 Asking for drink as single choice `single_choice`
-![Chat Flow5](img/chat/chat5.png)
+![Chat Flow5](chat5.png)
 Showing final results using md_show
 
-For more technical information on the chat package please check [Internals page](../../develop/internals/internals.md)
+For more technical information on the chat package please check [Internals page](internals.md)
 
 
 ### Available question types:
@@ -116,5 +116,5 @@ For more technical information on the chat package please check [Internals page]
 - country_drop_down
 
 ## Internals
-check [internals page](../../develop/internals/internals.md) for more information on the mechanics of chatbot and how to extend it.
+check [internals page](internals.md) for more information on the mechanics of chatbot and how to extend it.
 

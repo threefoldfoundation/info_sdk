@@ -8,7 +8,7 @@ MinIO is a high performance object storage. With the assist of the chatflow the 
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](../flist/adminmenu.png)
+![solutions menu](adminmenu.png)
 
 
 ## Inputs

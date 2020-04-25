@@ -1,7 +1,7 @@
 # architecture overview
 
 
-![](img/architecture_intro.png)
+![](architecture_intro.png)
 
 
 - [smartcontract_it](smartcontract_it.md)

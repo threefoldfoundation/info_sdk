@@ -1,4 +1,4 @@
-<img src="intro.png">
+![](intro.png)
 
 
 ## ThreeFold P2P Cloud

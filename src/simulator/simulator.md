@@ -1,6 +1,6 @@
 # TFGrid Simulator
 
-![](img/simulator_intro.png)
+![](simulator_intro.png)
 
 The ThreeFold Grid and Token Simulator allows you to simulate the future behavior of the grid.
 It was a tool developed to allow us to develop the tokenomics when we developed our 2nd generation of the farming code.

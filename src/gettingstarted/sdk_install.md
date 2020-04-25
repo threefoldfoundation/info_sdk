@@ -25,7 +25,7 @@ The generic structure of this manual is:
 - macOS 10.7 or newer
 - Windows 10
 
-The installation method for Linux and macOS are similar with some minor details how to install the prerequisites.  For windows we have a different installation method which you can find [here](./windows_installation/jsx_windows.md).  
+The installation method for Linux and macOS are similar with some minor details how to install the prerequisites.  For windows we have a different installation method which you can find [here](jsx_windows.md).  
 
 This manual will start with the software components that are needed to start the install and when needed specific instructions will be linked for different operating systems.  
 

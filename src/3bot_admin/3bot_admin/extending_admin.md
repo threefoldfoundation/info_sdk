@@ -46,7 +46,7 @@ Main view is defined at [main.js](sources/views/main.js) it contains the sidebar
 
 * Add a directory for your view with under `/sources/views`
 *
-    ![codeserver](img/codeserverterminal.png)
+    ![codeserver](codeserverterminal.png)
 
 * Then in index.js define your view. example
 
@@ -433,7 +433,7 @@ the last example we are going to talk about is defining subviews (An extension t
 
 e.g MyJobs
 
-![myjobs](img/myjobs.png)
+![myjobs](myjobs.png)
 
 
 As you can see in the UI that `MyJobs` menu item has two more views `Jobs` and `Workers`

@@ -15,7 +15,7 @@ Trading on the StellarX DEX is not yet possible using 3Bot Connect app (under co
 Accounts need to be activated on the Stellar network. 
 You can do this by sending an sms with the 5 character code to the shown sms number.
 
-![sms_activ](../3botconnect/img/3bot_staging_sms_activation.png)
+![sms_activ](3bot_staging_sms_activation.png)
 
 
 Sending this sms will trigger the activation of a TFT account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
@@ -65,7 +65,7 @@ Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threef
 
 To claim your 1000 FreeTFT, go to the website and claim your tokens.
 
-![getfreetft](img/getfreetft.png)
+![getfreetft](getfreetft.png)
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
 

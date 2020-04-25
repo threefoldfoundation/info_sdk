@@ -1,6 +1,6 @@
 # Smart contract for IT
 
-![](img/smart_contract.jpeg)
+![](smart_contract.jpeg)
 
 This chapter contains a detailed explanation about how the IT contract is built. What are the different component that compose it?
 
@@ -154,7 +154,7 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 
 ## Reservation flow Diagram
 
-![process](img/grid_provisioning2.png)
+![process](grid_provisioning2.png)
 
 ## Actors
 

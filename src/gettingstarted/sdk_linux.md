@@ -113,11 +113,11 @@ mv .ssh/known_hosts .ssh/known_hosts.original
 
 The result will be something like the following, it will take few minutes so please wait untill it's done.
 
-![Installation Image](img/install_1.png)
+![Installation Image](install_1.png)
 
 After installation is done you will see the following screen
 
-![Installation Image](img/install_2.png)
+![Installation Image](install_2.png)
 
 Congratulations, now you have your 3bot installed. To start your 3bot. just type in shell `3bot start`.
 
@@ -132,7 +132,7 @@ or this link: https://localhost:4000 for https
 
 - We will see the following screen
 
-    ![Installation Image](img/install_3.png)
+    ![Installation Image](install_3.png)
 
 Now we will need the 3bot.connect app, you can download it froms the [AppStore](https://apps.apple.com/us/app/3bot-connect/id1459845885) or [GooglePlayStore](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) and use it to login with the 3Bot name you registered.
 

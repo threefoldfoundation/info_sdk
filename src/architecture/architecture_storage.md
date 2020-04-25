@@ -1,6 +1,6 @@
 ## Storage architecture
 
-![](img/storage_header.jpeg)
+![](storage_header.jpeg)
 
 ### Introduction
 The storage architecture follows the true peer2peer design of this grid. Any participating node can store elements of objects (files, photos, movies, databases etc.) by offering a slice of the present (local) storage devices. Managing storage and retrieval of all of these distributed fragments is done by software that creates development or end-user interfaces for this storage algorithm. We call this dispersed storage. More details later.
@@ -19,7 +19,7 @@ Classic storage designs reliability around (multiple) copies of the same data. T
 The overhead is 100% per copy so you quite easily end off with 400% overhead for reliability.
 All of the above concepts were invented when datasets were small(er) and could still fit on one device, or is a single (dual redundant) box. This is no longer the case and therefore these storage principles are outdated.
 
-![](img/classic_storage.png)
+![](classic_storage.png)
 
 #### ThreeFold Space Algorithm (dispersed storage)
 
@@ -27,7 +27,7 @@ Today we produce more data than ever before (in the last two years we produced m
 
 Dispersed storage is using space technology to store data(fragments) over multiple devices (physical storage devices in 3Nodes). The solution does not distribute and store parts of an object (file, photo, movie etc.) but describes the part of an object. This can be visualized by thinking of it as equations.
 
-![](img/dispersed_storage.png)
+![](dispersed_storage.png)
 
 Let a,b,c,d.... be the parts of that original object. Then by creating equations which those parts you can create endless unique equations using these parts. A simple example: let's assume we have 3 parts of original objects that have the following values:
 ```
@@ -73,11 +73,11 @@ Dispersed storage is a very important building block for our autonomous grid, we
 Available today is an S3 interface based on the [min.io](https://min.io/) S3 interface.  With the dispersed storage layer available you can build fast, robust and reliable storage and archiving solution. Some example code and deployment schedules are shared in this manual
 
 
-![](img/storage_architecture_0.png)
+![](storage_architecture_0.png)
 
 A typical master-slave setup would look like:
 
-![](img/storage_architecture_1.png)
+![](storage_architecture_1.png)
 
 
 
