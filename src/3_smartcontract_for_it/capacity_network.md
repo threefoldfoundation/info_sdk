@@ -1,6 +1,6 @@
 # ThreeFold Overlay Network
 
-![](img/network_wireguard_logo.png)
+![](network_wireguard_logo.png)
 
 The network primitive allows a user to define its own overlay network between any of the nodes running 0-OS.  The technology we used to create the overlay network is [wireguard](https://www.wireguard.com/).  
 When you send a reservation that contains a network primitive, the overlay network will automatically get installed and started on all the nodes defined in your reservation.
@@ -9,7 +9,7 @@ This is the building block on top of which containers and kubernetes cluster com
 
 The goal is to build a secure and fully encrypted channel between all your applications running on the grid.
 
-![network](img/network2.png)
+![network](network2.png)
 
 ## How to define a network ?
 

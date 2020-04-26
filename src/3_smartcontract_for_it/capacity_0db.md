@@ -1,13 +1,12 @@
 # 0-DB : the low level storage primitive
 
-![](img/0db_head.png)
+![](0db_head.png)
 
-This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/threefoldtech/0-DB), a low level key-value store that uses the RESP protocol.
+This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/threefoldtech/0-DB), a low level key-value store that uses the RESP (redis) protocol.
 
-0-DB is responsible to get the best write and read speed out of the disk exposed underneath.
+0-DB is responsible to get the best write and read speed out of the disk or SSD exposed underneath.
 
-When a user reserves a 0-DB namespace, a portion of a disk is reserved for the user. This portion of disk is called a namespace.  
-A namespace is protected by a password and has a certain size.
+When a user reserves a 0-DB namespace, a portion of a disk is reserved for the user. This portion of disk is called a namespace. A namespace is protected by a password and has a certain size.
 
 ## Reservation definition
 

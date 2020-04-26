@@ -1,18 +1,23 @@
 # Smart contract for IT
 
-![](img/smartcontract_intro.png)
+![](smartcontract_intro.png)
 
 The TF Grid is orchestrated using a very unique approach.
 Each workload gets registered on the TFGrid smartcontract database.
 
-## detailed information about the workload definition
+### workload definitions
 
 - [capacity definition for 0-Containers](capacity_container.md) (our own optimized form of containers)
-- capacity 0-db
+- [smartcontract details](smartcontract_details.md)
+- [overlay network](capacity_network.md)
+- [web gateway](capacity_webgateway.md)
+- [kubernetes](capacity_kubernetes.md)
+- [0-DB storage](capacity_0db.md)
+- [virtual disk](capacity_vdisk.md)
 
-## the process
+### the process
 
-![](img/smart_contract_it_arch.png)
+![](smart_contract_it_arch.png)
 
 #### STEP 1: educate 3bot = TFGrid SDK
 
@@ -41,6 +46,6 @@ Need to give consensus to check the “IT smart contract” and give their appro
 - run the required processes and again signatures are checked to make sure the workload is pure.
 0 ensures that no person (hacker or IT person) can ever gain access or influence on the execution process.
 
-## details how the smart contract layer works
+### details how the smart contract layer works
 
 - [smartcontract details](smartcontract_details.md)

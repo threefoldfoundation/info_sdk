@@ -1,13 +1,12 @@
 # architecture overview
 
+![](architecture_why_us.png)
 
-![](architecture_intro.png)
+**More info:**
 
-
-- [architecture_3node](architecture_3node.md)		
-- [smartcontract_it](smartcontract_it.md)
-- [architecture_network](architecture_network.md)
-- [architecture_storage](architecture_storage.md)
-- [architecture_flist](architecture_flist.md)
-- [architecture_webgateway](architecture_webgateway.md)
-- [smart_contract](smart_contract.md)
+- [Zero-OS/3Node](architecture_3node.md)    
+- [Storage](architecture_storage.md)
+- [Network](architecture_network.md)
+- [Web gateway](architecture_webgateway.md)
+- [0-Container virtual FS](architecture_flist.md)
+<!-- - [Boot Architecture](architecture_boot.md) -->
