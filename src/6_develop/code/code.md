@@ -2,8 +2,8 @@
 
 Next examples should make it easy for you to come up with your own usecases:
 
-- [container](container.md)
-- [kubernetes](kubernetes.md)
-- [network](network.md)
-- [storage](storage.md)
-- [web](web.md)
+- [container](code_container.md)
+- [kubernetes](code_kubernetes.md)
+- [network](code_network.md)
+- [storage](code_storage.md)
+- [web](code_web.md)
