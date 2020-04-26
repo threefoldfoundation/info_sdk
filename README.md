@@ -1,5 +1,7 @@
 # info_tfgridsdk
 
+![](img/intro.png)
+
 Manual Content:
 - [**Intro**](src/intro/README.md): This sections respresent an introduction the technolgy available through the SDK and the creator(s) and maintainer(s).  It should only have information about the technology in general, not about how to use it and what to with it.
 - [**Getting started**](src/gettingstarted/README.md):  In this section we collect all the information needed to get the SDK up and running.  All pre-requisites and software components needed for a local install and for the future what needs done to have you
@@ -16,35 +18,48 @@ The steps needed to get the documentation on your device are:
 - get the content from the repository
 - if you want to edit, create your own branch to edit
 
-### How to install mdbook
-On macOS this can best be done by using brew.  Brew is a package manager and can be found [here](https://brew.sh/).
-```bash
-brew install mdbook
-```
-For other operating systems the install process can be found [here](https://snapcraft.io/mdbook)
+## How to install the required tools to run the wiki yourself
 
-### Get the documents (content)
+PS: we have a new tool how to serve the wiki, its easier to use and has more support for the future (based on an own implemented server & docsify)
+
+
+#### Get the documents (content)
+
 The documentation is online but can also be downloaded for reading purposes and or updating/editing. 
 
 ```bash
 mkdir -p ~/code/github/threefoldfoundation
 cd ~/code/github/threefoldfoundation
 clone https://github.com/threefoldfoundation/info_tfgridsdk/ -b development
+#if you are on OSX do:
+sh install_osx.sh
 ```
 
-#### Use mdbook locally
+#### if you are on linux
+
+- build the tool in https://github.com/threebotserver/publishingtools
+- make sure tf_wiki is in path
+
+#### this is only a prelease
+
+by tonight normally we should have a new version which has easier install and also support for multiple wiki & website.
+
+#### Run the server
+
 ```bash
 cd ~/code/github/threefoldfoundation/info_tfgridsdk
-#will open local browser
-serve.sh
+run.sh
 ```
 
+now go to: http://localhost:3000/index.html
+
 #### Helping us to improve and edit the wikis
+
 - all md files are under src/docs directory, please make sure you get all your changes there.
 - to make link in md file to open in new tab use this 
 - if you are planning ot make massive adjustments, please create your own branch and  clone / pull that branch.  When done please create a well described pull request and push it forwards for integration.
 
-Branches and there purpose
+#### Branches and there purpose
 
 **Master** This branch containes the information which is currently considered as production content.
 
