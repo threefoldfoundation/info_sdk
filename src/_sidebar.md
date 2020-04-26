@@ -6,6 +6,11 @@
     - [Web gateway](architecture_webgateway.md)
     - [Boot Architecture](architecture_boot.md)
     - [0-Container virtual FS](architecture_flist.md)
+- [Getting Started](gettingstarted.md)
+    - [3bot connect install](3botconnect_install.md)
+    - [3bot connect overview](3botconnect_overview.md)
+    - [3sdk install](3sdk_install.md)
+    - [3sdk use](3sdk_use.md)
 - [Smart Contract For IT](smart_contract.md)
     - [smartcontract details](smartcontract_details.md)
     - [container](capacity_container.md)
@@ -14,11 +19,6 @@
     - [kubernetes](capacity_kubernetes.md)
     - [0-DB storage](capacity_0db.md)
     - [virtual disk](capacity_vdisk.md)
-- [Getting Started](gettingstarted.md)
-    - [3bot connect install](3botconnect_install.md)
-    - [3bot connect overview](3botconnect_overview.md)
-    - [3sdk install](3sdk_install.md)
-    - [3sdk use](3sdk_use.md)
 - [Tokens](tokens.md)
     - [Stellar](getting_on_stellar.md)
     - [Buy TFT: StellarX](tft_stellarx.md)
@@ -47,7 +47,6 @@
         - [Codeserver](codeserver.md)
         - [Jupyter](jupyter.md)
         - [Settings](settings.md)
-
 - [Develop](develop.md)
     - [ChatFlow](develop_chatflow.md)
     - [Code](code.md)
@@ -70,13 +69,13 @@
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
     - [simulator troubleshooting](simulator_troubleshooting.md)
-- [Troubleshooting](troubleshooting.md)
+<!-- - [Troubleshooting](troubleshooting.md)
 - [Tips and tricks](usecases.md)
     - [Notebook User Interface](user_interface.md)
     - [Kubernetes Cluster](compute.md)
     - [Storage](storage.md)
     - [Network](network.md)
-    
+     -->
 
 
 
