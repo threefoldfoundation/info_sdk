@@ -2,26 +2,18 @@
 
 ![](img/intro.png)
 
-Manual Content:
+### Manual Content
+
 - [**Intro**](src/intro/README.md): This sections respresent an introduction the technolgy available through the SDK and the creator(s) and maintainer(s).  It should only have information about the technology in general, not about how to use it and what to with it.
 - [**Getting started**](src/gettingstarted/README.md):  In this section we collect all the information needed to get the SDK up and running.  All pre-requisites and software components needed for a local install and for the future what needs done to have you
 - [**SDK**](src/sdk/README.md): This is where the information sits describing the SDK, how to use the SDK. 
 - [**Use cases**](src/usecases/README.md): Use case descriptions and examples to take forward yourself. 
 - [**Tips and Tricks**](src/tips_tricks)
 
-## How to contribute
 
-Controbution is welcome.  The TF Grid and the technology is an open source project and we welcome external help to make this project even better.  This manual is all about how to get started with the Software Development Kit,from downloading it and installing the SDK to executing workloads.
-
-The steps needed to get the documentation on your device are:
-- install the mdbook software
-- get the content from the repository
-- if you want to edit, create your own branch to edit
-
-## How to install the required tools to run the wiki yourself
+### Run the wiki yourself
 
 PS: we have a new tool how to serve the wiki, its easier to use and has more support for the future (based on an own implemented server & docsify)
-
 
 #### Get the documents (content)
 
@@ -52,6 +44,19 @@ run.sh
 ```
 
 now go to: http://localhost:3000/index.html
+
+### How to contribute
+
+Contribution is welcome.  The TF Grid and the technology is an open source project and we welcome external help to make this project even better.  This manual is all about how to get started with the Software Development Kit,from downloading it and installing the SDK to executing workloads.
+
+The steps needed to get the documentation on your device are:
+- install the tool & get the content, see above
+- if you want to edit, create your own branch to edit
+
+Learn how to use the tool well:
+
+- see https://github.com/threefoldfoundation/info_tfgridsdk/blob/development/src/tips_tricks/tfweb.md
+
 
 #### Helping us to improve and edit the wikis
 
