@@ -1,5 +1,7 @@
 # Container
 
+![](img/containers_real.png)
+
 This primitive allows a user to run its application into a container on a node.
 
 ## Reservation definition

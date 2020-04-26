@@ -4,8 +4,8 @@
 ![](architecture_intro.png)
 
 
-- [smartcontract_it](smartcontract_it.md)
 - [architecture_3node](architecture_3node.md)		
+- [smartcontract_it](smartcontract_it.md)
 - [architecture_network](architecture_network.md)
 - [architecture_storage](architecture_storage.md)
 - [architecture_flist](architecture_flist.md)

@@ -1,12 +1,16 @@
 # K8bernetes cluster
 
+![](img/kubernetes_intro.png)
+
 This primitive allows a user to deploy a kubernetes cluster.
 
 A cluster must be composed of at least 2 nodes. One master node and any number of worker nodes.
 
+A kubernetes cluster can be linked to our other primitives.
+
 ## Reservation definition
 
-Here is the schema used to define a 0-DB namespace reservation:
+Schema used to define a 0-DB namespace reservation:
 
 - **NodeId**:
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
