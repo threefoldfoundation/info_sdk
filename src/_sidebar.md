@@ -47,7 +47,7 @@
     - [open the simulator](simulator_open.md)
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
-    - [simulator troubleshooting](simulator_troubleshooting.md)
+    <!-- - [simulator troubleshooting](simulator_troubleshooting.md) -->
 
 
 
