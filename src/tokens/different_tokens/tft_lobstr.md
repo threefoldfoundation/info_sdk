@@ -1,6 +1,4 @@
-<img src=img/lobstr_wallet_logo.png width="450">
-
-*The Current setup of the ThreeFold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
+![lobstr4](lobstr_wallet_logo.png)
 
 # Setup of TFT mobile wallet on Lobstr
 
@@ -20,15 +18,19 @@ In the app, there is a way to buy cryptocurrencies of any kind, using a credit c
 You can create a TFT account doing the following steps : 
 
 - Go to Assets
+
 ![lobstr4](lobstr4.jpeg)
 
 - Select 'More assets'
+
 ![lobstr3](lobstr3.jpeg)
 
 - Select 'Add custom'
+
 ![lobstr2](lobstr2.jpeg)
 
 - Find TFT and FreeTFT by filling in the domain name threefold.io
+
 ![lobstr1](lobstr_assets_selection.jpg)
 
 - Push the 'Add' button

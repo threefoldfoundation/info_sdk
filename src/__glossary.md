@@ -6,11 +6,6 @@ hi
 
 see peer2peer
 
-##### tft
-
-hallo
-
-
 #### TFGrid
 
 sss

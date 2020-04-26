@@ -14,6 +14,18 @@
 2 times. in paths ["./.ds_store", "./gettingstarted/.ds_store"]
 
 
+# 3sdk2.png 
+2 times. in paths ["./simulator/img/3sdk2.png", "./gettingstarted/3sdk_installer_basics/img/3sdk2.png"]
+
+
+# 3sdk_build.md 
+2 times. in paths ["./develop/internals/sdk_build/3sdk_build.md", "./gettingstarted/3sdk_installer_basics/3sdk_build.md"]
+
+
+# 3sdk3.png 
+2 times. in paths ["./gettingstarted/3sdk_installer_basics/img/3sdk3.png", "./gettingstarted/img/3sdk3.png"]
+
+
 # network 
 3 times. in paths ["./develop/code/network", "./usecases/network", "./3bot_admin/chatflows/solutions/network"]
 

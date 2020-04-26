@@ -15,7 +15,7 @@ Trading on the StellarX DEX is not yet possible using 3Bot Connect app (under co
 Accounts need to be activated on the Stellar network. 
 You can do this by sending an sms with the 5 character code to the shown sms number.
 
-![sms_activ](3bot_staging_sms_activation.png)
+![sms_activ](3bot_staging_sms_activation.png ':size=400x750')
 
 
 Sending this sms will trigger the activation of a TFT account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
@@ -28,10 +28,12 @@ A list of available Stellar wallets can be found [here](https://www.stellar.org/
 An account needs the below information keys to access the Stellar network. 
 
 Threefold token is registered under : 
+
 - `AssetCode` TFT
 - `Issuer` GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47
 
 FreeTFT is a separate token with : 
+
 - `AssetCode` FreeTFT
 - `Issuer` GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT
 
@@ -43,10 +45,12 @@ Trading capabilities are not yet available in the 3Bot Connect app.
 As from April 29, TFTs are tradable on following exchanges. 
 
 ### Centralized exchanges
+
 - [Liquid](https://www.liquid.com/) (centralized exchange)
 - [BTC Alpha](https://btc-alpha.com/en/) (centralized exchange)
 
 ### Stellar Decentralized exchange
+
 You can also exchange TFTs with other tokens in a decentralized way, using StellarX, the Stellar decentralized exchange. 
 
 More info can be found [here](tft_stellarx.md).
@@ -56,6 +60,7 @@ More info can be found [here](tft_stellarx.md).
 Capacity on the Threefold Network can only be bought using tokens. These tokens are registered on the Stellar network. 
 
 Two tokens can be used : 
+
 - TFT is the usual currency to be used for capacity reservation. 
 - FreeTFT is a token that is freely distributed to 3Bot users, for exploration of the capabilities. Every new 3Bot ID gets 1000 FreeTFT, which can be used for reserving capacity.
 
@@ -65,11 +70,13 @@ Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threef
 
 To claim your 1000 FreeTFT, go to the website and claim your tokens.
 
-![getfreetft](getfreetft.png)
+![getfreetft](getfreetft.png ':size=500x620')
+
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
 
 <b/> Remark: </b> 
+
 - only 1000 FreeTFTs are available per 3Bot. Moreover, also the number of 3Bots per user / phone number is limited.
 - FreeTFTs are only available to explore the Threefold Network, and have no long-term value. 
 - Getting Free TFT is currently only available on testnet, the website for production is coming soon. 

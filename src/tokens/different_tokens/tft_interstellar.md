@@ -1,4 +1,5 @@
-<img src=img/interstellar_logo.png width="450">
+
+![logo](interstellar_logo.png )
 
 *The Current setup of the ThreeFold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
 
@@ -19,7 +20,7 @@ Interstellar.exchange is a decentralized exchange that allows you to buy TFTs.
 * Click Enter Account
 For Interstellar all you need to do is set a password. As the wallet will be linked to your device instead of an email address.
 
-<img src=img/interstellar_enter_account.png width="900">
+![](interstellar_enter_account.png )
 
 * Set your password, Confirm it, and accept the Terms and Conditions
 
@@ -35,7 +36,7 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 
 * We have funded our wallet with $408 or 10.000 XLMs for this manual as you can see these are now shown in the account overview.
 
-<img src=img/interstellar_account_overview_1.png width="900">
+![](interstellar_account_overview_1.png )
 
 ## Part 3: Adding the TFT Asset to your account.
 
@@ -48,11 +49,12 @@ Asset Code: TFT
 Asset Issuer: GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47!![image alt text](interstellar_add_asset.png)
 
 * The Asset is now added to your account, to trade the asset however you will have to create a trustline, you can do this by clicking on the "Trust Asset" Button.
-<img src=img/interstellar_trust_asset.png width="900">
+
+![](interstellar_trust_asset.png )
 
 * When you have successfully created a trustline it will say success and the activity will show up in the right-hand column of the account page.
 
-<img src=img/interstellar_account_overview_2.png width="900">
+![](interstellar_account_overview_2.png )
 
 ## Part 4: Trading Digital Currencies for TFT
 
@@ -62,17 +64,18 @@ Now that the account is set up and funded and you have the TFT asset listed in y
 
 * Then go to the most right tab to select the currency you would like to trade for TFTs (XLM in the case of the screenshot) and press go
 
-<img src=img/interstellar_trade_xlm_tft.png width="900">
+![](interstellar_trade_xlm_tft.png )
 
-* You can now choose to fullfill a sell order from the order book, do a partial buy of an order,  or create you own buy order by stating the amount of TFT you would like to buy and at what price. 
+* You can now choose to fullfill a sell order from the order book, do a partial buy of an order,  or create you own buy order by stating the amount of TFT you would like to buy and at what price.
 
-<img src=img/interstellar_trade_1.png width="900">
+![](interstellar_trade_1.png )
 
 * You confirm the transaction and will get a succes message when it has gone through plus a little bell will also ring.
 
 * You now have TFTs in your wallet
 
-<img src=img/interstellar_account_overview_3.png width="900">
+![](interstellar_account_overview_3.png )
+
 
 
 
