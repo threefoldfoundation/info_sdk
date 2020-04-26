@@ -1,5 +1,3 @@
-# Summary
-
 - [Intro](intro.md)
 - [Architecture](smart_contract.md )
     - [Smart contract for IT](smart_contract.md)

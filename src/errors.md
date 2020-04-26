@@ -7,7 +7,7 @@
 
 
 # network.md 
-3 times. in paths ["./develop/code/network/network.md", "./tips_tricks/tutorials/use_cases/network.md", "./3bot_admin/chatflows/solutions/network/network.md"]
+2 times. in paths ["./develop/code/network/network.md", "./tips_tricks/tutorials/use_cases/network.md"]
 
 
 # .ds_store 
@@ -20,10 +20,6 @@
 
 # storage 
 2 times. in paths ["./develop/code/storage", "./usecases/storage"]
-
-
-# kubernetes.md 
-2 times. in paths ["./develop/code/kubernetes/kubernetes.md", "./3bot_admin/chatflows/solutions/kubernetes/kubernetes.md"]
 
 
 # kubernetes 

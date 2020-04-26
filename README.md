@@ -43,7 +43,7 @@ cd ~/code/github/threefoldfoundation/info_tfgridsdk
 run.sh
 ```
 
-now go to: http://localhost:3000/index.html
+now go to: http://localhost:3000/index.html#/intro
 
 ### How to contribute
 

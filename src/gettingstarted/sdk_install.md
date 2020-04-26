@@ -7,9 +7,6 @@ At some point in time this cannot be a copy.
 -->
 
 
-[remoteMarkdownUrl](https://raw.githubusercontent.com/docsifyjs/docsify/develop/README.md)
-
-
 ## Getting the basics done
 BEfore we start installing we have to get the basics done.  The basics include a small number of required software packages and a GitHub account.  With this done the installation is straightforward.
 
