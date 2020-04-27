@@ -27,11 +27,11 @@ You can create a TFT account doing the following steps :
 
 - Select 'Add custom'
 
-![lobstr2](img/lobstr2.jpeg)
+![lobstr2](./img/lobstr2.jpeg)
 
 - Find TFT and FreeTFT by filling in the domain name threefold.io
 
-![lobstr1](img/lobstr_assets_selection.jpg)
+![lobstr1](./img/Lobstr_Assets_Selection.jpg)
 
 - Push the 'Add' button
 
@@ -41,6 +41,6 @@ You can create a TFT account doing the following steps :
 - Find the order book and buy TFT (in this case with XLM)
 - When done, the result can be found in the history, and the amount of tokens is added to the balance of the account
 
-![lobstr_order_book](img/lobstr_orderbook.jpg)
+![lobstr_order_book](./img/Lobstr_Orderbook.jpg)
 
 
