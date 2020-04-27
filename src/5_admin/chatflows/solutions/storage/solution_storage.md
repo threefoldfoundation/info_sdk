@@ -30,70 +30,70 @@ After the deployment of MinIO is complete,  a url will be returned that can be u
 
 #### Choosing the network name
 
-![Step2](minio2.png)
+![Step2](./img/minio2.png)
 Choosing the network to be used from a list of existing networks created by the user
 
 #### Choosing the solution name
 
 
-![Step3](minio3.png)
+![Step3](./img/minio3.png)
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
 
 #### ZDB Storage
 
-![Step4](minio4.png)
+![Step4](./img/minio4.png)
 
 Here we set the password for the backend of minio our [0-db](https://github.com/threefoldtech/0-db)
 
 #### Choosing the Disk Type
 
-![Step5](minio5.png)
+![Step5](./img/minio5.png)
 Now time to choose your disk type either SSD or HDD.
 
 
 #### User credentials
 
 Here we ask for the key and secret to access minio 
-![Step6](minio6.png)
+![Step6](./img/minio6.png)
 
-![Step7](minio7.png)
+![Step7](./img/minio7.png)
 Let's make sure we never lose them
 #### Resources for Minio
 
-![Step8](minio9.png)
+![Step8](./img/minio9.png)
 Here we define the CPU we need
-![Step9](minio10.png)
+![Step9](./img/minio10.png)
 And Now the time to specify the memory resources we need.
 
 #### Locations 
 
-![Step10](minio11.png)
-![Step11](minio12.png)
+![Step10](./img/minio11.png)
+![Step11](./img/minio12.png)
 Here we choose the number of locations we want to save data on and number of locations we allow to fail.
 
 #### Expiration time
 
-![Step12](minio13.png)
+![Step12](./img/minio13.png)
 Now we define the expiration time for the solution on the grid.
 
 #### Confirming 
 
-![Step14](minio15.png)
+![Step14](./img/minio15.png)
 The user should confirm his reservation details
 
 #### Access information
 
-![Step15](minio16.jpg)
+![Step15](./img/minio16.jpg)
 You will get a message indicating the success of your reservation or error in case of error for any reason.
 
 #### Login Page
 
 Once accessing the url the following is shown once redirected to MinIO login(access key and secret are to be used here)
-![](login.png)
+![](./img/login.png)
 
 #### MinIO UI
 
 Once logged in using the previous page, you can upload and use the browser to navigate through all your items
-![](upload.png)
+![](./img/upload.png)
 
 

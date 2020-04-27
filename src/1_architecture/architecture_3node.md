@@ -1,12 +1,12 @@
 ## 3Node
 
-![](3node_nice.png)
+![](./img/3node_nice.png)
 
 3nodes are servers which runs the Zero-OS software and provide storage, compute & networking capacity.  
 
 All 3nodes make up the capacity layers for the TF Grid.  Today we have about 600 3nodes in the field. See more details [here](http://www2.cloud.threefold.io)
 
-![](tf_grid.png)
+![](./img/tf_grid.png)
 
 All of these 3nodes have bootloader software installed on their local storage devices.  The Zero-OS is delivered to them over the network and the boot facility is hosted on the TF grid itself.
 

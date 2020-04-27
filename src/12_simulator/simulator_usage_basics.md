@@ -1,7 +1,7 @@
 # Simulator Usage Basics
 
 
-![](simulator_start_page.png)
+![](./img/simulator_start_page.png)
 
 When you install the TFGrid SDK you can look for the simulator package and install it. When starting it you will get access to this python notbooke.
 

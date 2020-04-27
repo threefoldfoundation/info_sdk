@@ -30,35 +30,35 @@ The solution takes some configurations from the user, we will list them and expl
 
 #### Choosing the network name
 
-![Step1](network1.png)
+![Step1](./img/network1.png)
 
 We choose the network name to be referenced again in the dashboard reservation manager
 
 #### Expiration time
 
-![Step2](network2.png)
+![Step2](./img/network2.png)
 Choosing the expiration time for the network on the grid
 
 #### Choosing how to reach the entry point node
 
-![Step3](network3.png)
+![Step3](./img/network3.png)
 
 To reach your solution on the grid you can use IP v6, problem is some countries don't have that infrastructure so we provide them access with an IP v4 entry point.
 
 #### The network IP Range
 
-![Step4](network4.png)
+![Step4](./img/network4.png)
 
 We decide the IP range the network and all of the other solutions connected on it will operate on
 
 #### Wireguard configurations
 
-![Step6](network6.png)
+![Step6](./img/network6.png)
 While the grid is built around IP v6 you need you to connected to the network, and that's done using wireguard.
 
 #### Configuring your machine
 
-![Step7](network7.png)
+![Step7](./img/network7.png)
 Now you need to configure your machine to access the network by applying the wireguard configurations
 
 

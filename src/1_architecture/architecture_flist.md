@@ -1,7 +1,7 @@
 
 # Ultra efficient virtual filesystem for Zero-OS
 
-![](vfs_intro2.png)
+![](./img/vfs_intro2.png)
 
 
 ## Flist architecture

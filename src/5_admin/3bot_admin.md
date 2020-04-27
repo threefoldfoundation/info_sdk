@@ -1,6 +1,6 @@
 # Admin panel overview
 
-![](admin_start.png)
+![](./img/admin_start.png)
 
 The 3bot admin panel is a versatile tool to administrate and control processes and activities of the TFGrid SDK.
 
@@ -8,31 +8,31 @@ The 3bot admin panel is a versatile tool to administrate and control processes a
 
 Shows system versions, network, processes status, memory consumptions and some health checks
 
-![dashboard.png](dashboard.png)
+![./img/dashboard.png](./img/dashboard.png)
 
 ### Logs
 Allows seeing logs per application
 
-![logs](logs.png)
+![logs](./img/logs.png)
 
 
 ### Alerts
 Advanced alerts system
 
-![alerts](alerts.png)
+![alerts](./img/alerts.png)
 
 check [alerts.md](alerts.md) for info about its actors
 ### Package management system
 Easy way to install/stop packages available on the filesystem or from a trusted git repository
 
-![packagemanager](packagemanager.png)
+![packagemanager](./img/packagemanager.png)
 
 
 ### Online code editor
 
 If you want to edit code from the dashboard directly you can do so using CodeServer package
 
-![codeserver](codeserverterminal.png)
+![codeserver](./img/codeserverterminal.png)
 
 ### Details
 

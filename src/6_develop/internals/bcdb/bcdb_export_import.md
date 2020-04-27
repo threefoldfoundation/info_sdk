@@ -15,11 +15,11 @@ will create a directory under /sandbox/var/bcdb_exports
 
 per bcdb we get following:
 
-![](export1.png)
+![](./img/export1.png)
 
 per schema (model) we get following
 
-![](export2.png)
+![](./img/export2.png)
 
 the data gets exported to data (binary) & yaml
 for import we only support binary for now.
@@ -47,7 +47,7 @@ def export(self, name=None, bcdbname=None, path=None, yaml=True, data=True, encr
 
 To import its easy to go to a directory like this and just do
 
-![](import.png)
+![](./img/import.png)
 
 ```bash
 kosmos 'j.data.bcdb.import_()'

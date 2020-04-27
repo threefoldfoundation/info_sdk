@@ -7,7 +7,7 @@ Ubuntu is officially released in three editions: Desktop, Server, and Core(for i
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu7.png)
+![solutions menu](./img/adminmenu7.png)
 
 
 ### Inputs
@@ -31,55 +31,55 @@ After the deployment of the ubuntu is complete, a url will be returned that can 
 
 #### Choosing the network name
 
-![step2](ubuntu2.png)
+![step2](./img/ubuntu2.png)
 Choosing the network to be used from a list of existing networks created by the user
 
 #### Choosing the solution name
 
-![step3](ubuntu3.png)
+![step3](./img/ubuntu3.png)
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
 
 #### Choosing ubuntu version
 
-![step4](ubuntu4.png)
+![step4](./img/ubuntu4.png)
 We currently support 18.04 and 16.04
 
 
 #### Choosing Resources for your container
 
-![step5](ubuntu5.png)
+![step5](./img/ubuntu5.png)
 Here we specify the CPU and Memory resources allocated for the container
 
 #### Authorizing yourself
 
-![step6](ubuntu6.png)
+![step6](./img/ubuntu6.png)
 Uploading your public key for SSH access
 
 #### Environment variables
 
-![step7](ubuntu7.png)
+![step7](./img/ubuntu7.png)
 It's very common that you need to pass some environment variables to your container when starting, if not sure leave empty
 
 #### Setting expiration
 
-![step8](ubuntu8.png)
+![step8](./img/ubuntu8.png)
 Now we need to tell the grid how long we want our solution to stay alive on the grid
 
 #### Choosing IP for the solution
 
-![step9](ubuntu9.png)
+![step9](./img/ubuntu9.png)
 Here we choose the IP to access the solution
 
 
 #### Confirm your reservation
 
-![step10](ubuntu10.png)
+![step10](./img/ubuntu10.png)
 Here we confirm the specifications we entered in the chatflow
 
 
 #### Reaching your container
 
-![step11](ubuntu11.png)
+![step11](./img/ubuntu11.png)
 Here we get the container 
 
 

@@ -1,6 +1,6 @@
 # Chatflows
 
-![](chathome.png)
+![](./img/chathome.png)
 
 Chatflows are an interactive communication bot that can be used to interactively ask the user some questions then perform actions based on the user's choices. think of serving a customer, handling invoices, buying items or in our case provisioning workloads on the grid.
 
@@ -89,17 +89,17 @@ def chat(bot):
 
 ```
 Here's how it will look like 
-![Chat Flow1](chat1.png)
+![Chat Flow1](./img/chat1.png)
 Asking what to eat as a string `string_ask`
 
-![Chat Flow2](chat2.png)
+![Chat Flow2](./img/chat2.png)
 Asking for amount as int `int_ask`
-![Chat Flow3](chat3.png)
+![Chat Flow3](./img/chat3.png)
 Asking for side dishes as multiple choice `multi_choice`
 
-![Chat Flow4](chat4.png)
+![Chat Flow4](./img/chat4.png)
 Asking for drink as single choice `single_choice`
-![Chat Flow5](chat5.png)
+![Chat Flow5](./img/chat5.png)
 Showing final results using md_show
 
 For more technical information on the chat package please check [Internals page](internals.md)
@@ -123,4 +123,4 @@ check [internals page](internals.md) for more information on the mechanics of ch
 
 ### oAuth
 
-![](oauth.png)
+![](./img/oauth.png)
