@@ -1,0 +1,104 @@
+#can be many wiki & many www sites
+
+[server]
+port = 3000
+addr = "0.0.0.0"
+
+[[wiki]]
+#unique name for the wiki
+name = "sdk"
+#http or git url
+url = "github.com/threefoldfoundation/info_tfgridsdk"
+#if empty will be auto created
+path = "./src"
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = false
+#path in the repo where the info is, std "src"
+srcdir = "src"
+
+[[wiki]]
+#unique name for the wiki
+name = "wiki"
+#http or git url
+url = "https://github.com/threefoldfoundation/info_threefold"
+#if empty will be auto created
+path = ""
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = false
+#path in the repo where the info is, std "src"
+srcdir = "src"
+
+
+#website
+[[www]]
+name = "freetft"
+#http or git url
+url = "git@github.com:threefoldfoundation/www_getfreetft.git"
+#if empty will be auto created
+path = ""
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = true
+#path in the repo where the info is, std "src"
+srcdir = ""
+
+
+#website
+[[www]]
+name = "threefold"
+#http or git url
+url = "git@github.com:threefoldfoundation/www_threefold.io_new.git"
+#if empty will be auto created
+path = ""
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = true
+#path in the repo where the info is, std "src"
+srcdir = "html"
+
+
+#website
+[[www]]
+name = "incubaid"
+#http or git url
+url = "git@github.com:Incubaid/www_incubaid.git"
+#if empty will be auto created
+path = ""
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = true
+#path in the repo where the info is, std "src"
+srcdir = ""
+
+#website
+[[www]]
+name = "freeflownation"
+#http or git url
+url = "https://github.com/freeflownation/www_freeflownation"
+#if empty will be auto created
+path = ""
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = true
+#path in the repo where the info is, std "src"
+srcdir = "html"
