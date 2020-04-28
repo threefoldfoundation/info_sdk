@@ -1,4 +1,4 @@
-![lobstr4](img/lobstr_wallet_logo.png)
+![lobstr4](./img/lobstr_wallet_logo.png)
 
 # Setup of TFT mobile wallet on Lobstr
 
@@ -19,11 +19,11 @@ You can create a TFT account doing the following steps :
 
 - Go to Assets
 
-![lobstr4](img/lobstr4.jpeg)
+![lobstr4](./img/lobstr4.jpeg)
 
 - Select 'More assets'
 
-![lobstr3](img/lobstr3.jpeg)
+![lobstr3](./img/lobstr3.jpeg)
 
 - Select 'Add custom'
 
@@ -31,7 +31,7 @@ You can create a TFT account doing the following steps :
 
 - Find TFT and FreeTFT by filling in the domain name threefold.io
 
-![lobstr1](./img/Lobstr_Assets_Selection.jpg)
+![lobstr1](./img/lobstr_assets_selection.jpg)
 
 - Push the 'Add' button
 
@@ -41,6 +41,6 @@ You can create a TFT account doing the following steps :
 - Find the order book and buy TFT (in this case with XLM)
 - When done, the result can be found in the history, and the amount of tokens is added to the balance of the account
 
-![lobstr_order_book](./img/Lobstr_Orderbook.jpg)
+![lobstr_order_book](./img/lobstr_orderbook.jpg)
 
 

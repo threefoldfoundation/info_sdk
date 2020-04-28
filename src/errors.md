@@ -1,17 +1,17 @@
 # 3sdk3.png 
-2 times. in paths ["/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk3.png", "/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/img/3sdk3.png"]
+2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk3.png", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/img/3sdk3.png"]
 
 
 # 3sdk2.png 
-2 times. in paths ["/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk2.png", "/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/12_simulator/img/3sdk2.png"]
+2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk2.png", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/12_simulator/img/3sdk2.png"]
 
 
 # 3sdk_build.md 
-2 times. in paths ["/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/3sdk_build.md", "/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/sdk_build/3sdk_build.md"]
+2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/3sdk_build.md", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/sdk_build/3sdk_build.md"]
 
 
 # internals.md 
-2 times. in paths ["/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/internals.md", "/Users/despiegk/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/applicationserver/internals.md"]
+2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/internals.md", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/applicationserver/internals.md"]
 
 
 # 3bot_connect_app.md link 
@@ -74,8 +74,6 @@ volume.md is used but doesn't exist in the repo.
 provision.md is used but doesn't exist in the repo.
 # provisiond.mdNextActionEnum link 
 provisiond.mdNextActionEnum is used but doesn't exist in the repo.
-# reservation_payment.md link 
-reservation_payment.md is used but doesn't exist in the repo.
 # lobstr_assets_selection.jpg img 
 lobstr_assets_selection.jpg is used but doesn't exist in the repo.
 # lobstr_orderbook.jpg img 

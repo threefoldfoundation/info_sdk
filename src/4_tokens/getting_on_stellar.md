@@ -70,7 +70,7 @@ Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threef
 
 To claim your 1000 FreeTFT, go to the website and claim your tokens.
 
-![getfreetft](img/getfreetft.png ':size=500x620')
+![getfreetft](./img/getfreetft.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
