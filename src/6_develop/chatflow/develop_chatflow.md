@@ -120,7 +120,3 @@ For more technical information on the chat package please check [Internals page]
 ## Internals
 
 check [internals page](internals.md) for more information on the mechanics of chatbot and how to extend it.
-
-### oAuth
-
-![](./img/oauth.png)
