@@ -19,7 +19,7 @@ Your wallet has now been created and should show up in your list
 
 And you can copy the address to receive tokens on it.
 
-## Receiving TFT, FreeTFT or TFTA on a different Stellar based wallet.
+## Receiving TFT, FreeTFT or TFTA on a different Stellar based wallet
 
 To receive FreeTFT on other Stellar wallets you will need to meet a few prerequisites:
 
@@ -51,7 +51,7 @@ You have now added the asset. Now you need to set up a trustline.
 
 Click "Trust Asset"
 
-Step4: Confirm the trustline-transaction with your password.
+### Step4: Confirm the trustline-transaction with your password
 
 ![image alt text](img/trustasset_2.png)
 
@@ -61,7 +61,7 @@ Upon completing this successfully you have a trustline for FreeTFTs setup and we
 
 You can also choose to import an already existing wallet (like an interstellar wallet) into the SDK.
 
-We’re using interstellar as an example again, but any stellar wallet will be possible.
+We’re using Interstellar as an example again, but any Stellar wallet will be possible.
 
 Go to Interstellar and click security in the leftside menu.
 
