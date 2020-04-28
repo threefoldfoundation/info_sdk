@@ -20,6 +20,7 @@
     - [virtual disk](capacity_vdisk.md)
 - [Tokens](tokens.md)
     - [Stellar](getting_on_stellar.md)
+    - [Get FreeTFT](getting_freetft.md)
     - [Buy TFT: StellarX](tft_stellarx.md)
     - [Buy TFT: Interstellar](tft_interstellar.md)
     - [Buy TFT: Lobstr Wallet](tft_lobstr.md)
