@@ -49,11 +49,11 @@ the `quorum_min` field of the corresponding [signing request field](#signingrequ
 
 ### Data model
 
-The following is an overview of the types used, their fields, and what these fields are used for.  You can find a full definition of the types in [provisiond.md](provision.md)
+The following is an overview of the types used, their fields, and what these fields are used for.  You can find a full definition of the types in [provision.md](provision.md)
 
 #### Reservation
 
-The [reservation object](provisiond.md#reservation) is the high-level object for dealing with a reservation on the threefold grid. It is composed of the [reservation.data](#reservationdata) object, which holds all data for the workloads covered by this reservation (and is immutable after it is created), and additional info for the reservation state.
+The [reservation object](provisioningflow.md) is the high-level object for dealing with a reservation on the threefold grid. It is composed of the [reservation.data](#reservationdata) object, which holds all data for the workloads covered by this reservation (and is immutable after it is created), and additional info for the reservation state.
 
 - `DataReservation`: As explained, the data field holds the [reservation.data](#reservationdata) object, which contains all low-level workloads to be provisioned. After the reservation is created, this field is immutable.
 - JSON: TODO: this field needs to away ~~A representation of the `data` object, in JSON form. It is directly derived from
@@ -61,7 +61,7 @@ the `data` field. As such, it is also immutable. This is the actual input for th
 
 Next to the reservation data, there is also a reservation state. These fields describe the current state of the reservation, as well as the signatures provided by authorized 3bots to advance the state of the reservation.
 
-- `NextAction`: This field describes what action should be performed next. Given the [enum values](provisiond.mdNextActionEnum), we can roughly describe a reservation life cycle as follows:  
+- `NextAction`: This field describes what action should be performed next. Given the [enum values](provisioningflow.md), we can roughly describe a reservation life cycle as follows:  
 
   - user create the reservation, initial status is `created`
   - user sends the reservation to the explorer, status goes from `create` to `sign`
