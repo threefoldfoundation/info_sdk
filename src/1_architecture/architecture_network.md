@@ -35,7 +35,7 @@ This provides ample possibilities to create distributed architectures where proc
 ### Existing Enterprise private networks
 We have also thought about the existing world of private networks, IPsec, VPN, WAN's and more and have the facility to create bridges to make those networks part of the deployed private overlay networks.
 
-This is in an early stage as this does not have out focus right now, but with the right level(s) of interest this can be built out by the [TF Tech](www.threefold.tech).
+This is in an early stage as this does not have out focus right now, but with the right level(s) of interest this can be built out by the [TF Tech](http://www.threefold.tech).
 
 ![](./img/network_architecture.png)
 

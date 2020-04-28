@@ -1,15 +1,3 @@
-# 3sdk3.png 
-2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk3.png", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/img/3sdk3.png"]
-
-
-# 3sdk2.png 
-2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/img/3sdk2.png", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/12_simulator/img/3sdk2.png"]
-
-
-# 3sdk_build.md 
-2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/2_gettingstarted/3sdk_installer_basics/3sdk_build.md", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/sdk_build/3sdk_build.md"]
-
-
 # internals.md 
 2 times. in paths ["/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/internals.md", "/Users/weynandkuijpers/code/github/threefoldfoundation/info_tfgridsdk/src/6_develop/internals/applicationserver/internals.md"]
 
@@ -18,8 +6,6 @@
 3bot_connect_app.md is used but doesn't exist in the repo.
 # alerts.md link 
 alerts.md is used but doesn't exist in the repo.
-# www.threefold.tech link 
-www.threefold.tech is used but doesn't exist in the repo.
 # user_interface.md link 
 user_interface.md is used but doesn't exist in the repo.
 # admin_panel_open.md link 
