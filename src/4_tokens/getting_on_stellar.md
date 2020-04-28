@@ -12,17 +12,14 @@ Trading on the StellarX DEX is not yet possible using 3Bot Connect app (under co
 
 ### How to get a Stellar account in the 3Bot Connect app
 
-Accounts need to be activated on the Stellar network. 
-You can do this by sending an sms with the 5 character code to the shown sms number.
+In the wallet section of a 3Bot you can set up an account with a trustline to all Threefold tokens: TFT, FreeTFT and TFTA. 
+Also by importing the seed keys of a wallet registered on the TFchain (Rivine technology), the conversion mechanism automatically sets up trust lines on the Stellar blockchain. 
 
-![sms_activ](3bot_staging_sms_activation.png ':size=400x750')
-
-
-Sending this sms will trigger the activation of a TFT account on the Stellar Network, and the creation of a trustline to the issuer of the token. 
-Once activation is done, you can start sending and receiving TFTs. 
+Once activation is done and trustlines are established, you can start sending and receiving tokens. 
 
 ### Getting other Stellar wallets to add a TFT or FreeTFT account
 
+All Threefold tokens are registered on Stellar. This implies that these tokens can also be kept on any Stellar wallet.
 A list of available Stellar wallets can be found [here](https://www.stellar.org/ecosystem/projects?tab=wallets#directory). 
 
 An account needs the below information keys to access the Stellar network. 
