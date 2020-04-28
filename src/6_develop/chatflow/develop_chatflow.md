@@ -102,7 +102,7 @@ Asking for drink as single choice `single_choice`
 ![Chat Flow5](./img/chat5.png)
 Showing final results using md_show
 
-For more technical information on the chat package please check [Internals page](internals.md)
+For more technical information on the chat package please check [Internals page](internals_chat.md)
 
 
 ### Available question types:

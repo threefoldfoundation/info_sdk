@@ -38,7 +38,7 @@ Make sure to push production builds after you finish updating frontend source.
 
 ### MainView
 
-Main view is defined at [main.js](sources/views/main.js) it contains the sidebar stuff and gathers the whole app in it.
+Main view is defined at main.js:sources/views/main.js it contains the sidebar stuff and gathers the whole app in it.
 
 ### Add entry to sidebar
 
@@ -68,7 +68,7 @@ Main view is defined at [main.js](sources/views/main.js) it contains the sidebar
 - If it requires packages to be installed first you define them in `REQUIRED_PACKAGES`
 - Just extend `ExternalView` and pass the remote view url `CODE_URL` and required packages `REQUIRED_PACKGGES` to the super
 - Now we have the view, to be able to access it we need to add an entry in the sidebar to access it
-- in [main.js](sources/views/main.js) there is a list `sidebarData` we can append a view or a view with subviews
+- in main.js:sources/views/main.js there is a list `sidebarData` we can append a view or a view with subviews
 
 
 ```javascript
@@ -640,107 +640,3 @@ and the `main.js` we add the info to the `sidebarData`
         },
 ```
 
-# Admin dashboard
-
-Admin dashboard UI based on [webix jet](https://webix.gitbook.io/webix-jet/).
-
-## Dependencies
-
-* nodejs & npm
-* `cd frontend_src`
-* `npm install`
-
-## Development
-
-While development, 3Bot needs to be started with this package installed, then for building the front-end with source maps as a development build, you can use `build_frontend.sh`:
-
-```bash
-cd frontend_src && bash build_frontend.sh dev
-```
-
-This script will build and copy the output to `frontend` directory to be served as a single page app,then you can go to `http://<host>/admin`.
-
-For production builds, don't pass `dev` to the script:
-
-```bash
-bash build_frontend.sh
-```
-
-Make sure to push production builds after you finish updating frontend source.
-
-## Structure
-
-* The main entry is ```app.js:sources/app.js```
-* Views:
-  * Main view is defined at ```main.js:sources/views/main.js```
-  * External views are [wiki](sources/views/wikis), [codeserver](sources/views/codeserver) and [TF-Simulator](sources/views/jupyter).
-* Services (calling backend/actors) can be found at [sources/services](sources/services).
-
-## Walktrough creating new component
-
-### MainView
-
-Main view is defined at [main.js](sources/views/main.js) it contains the sidebar stuff and gathers the whole app in it.
-
-### Add entry to sidebar
-
-#### Let's take example `codeserver`:
-
-* Add a directory for your view with under `/sources/views`
-*
-    ![codeserver](codeserverterminal.png)
-
-* Then in index.js define your view. example
-
-    ```javascript
-    import { ExternalView } from "../external";
-
-    const CODE_URL = "/codeserver/?folder=/sandbox/code";
-    const REQUIRED_PACKAGES = {
-        "zerobot.codeserver": "https://github.com/threefoldtech/jumpscaleX_threebot/tree/development/ThreeBotPackages/zerobot/codeserver"
-    }
-
-    export default class CodeserverView extends ExternalView {
-        constructor(app, name) {
-            super(app, name, CODE_URL, REQUIRED_PACKAGES);
-        }
-    }
-    ```
-- Make sure to pass the url of the remote view -in our example its `CODE_URL`-
-- If it requires packages to be installed first you define them in `REQUIRED_PACKAGES`
-- Just extend `ExternalView` and pass the remote view url `CODE_URL` and required packages `REQUIRED_PACKGGES` to the super
-- Now we have the view, to be able to access it we need to add an entry in the sidebar to access it
-- in [main.js](sources/views/main.js) there is a list `sidebarData` we can append a view or a view with subviews
-
-
-```javascript
-{
-    id: "codeserver",
-    value: "Codeserver",
-    icon: "mdi mdi-code-tags"
-}
-```
-
-* this will add a view with id dash (must be the same view directory), and defines icon of from webix
-
-#### Developing a Service
-
-- a service represents a backend webservice `Actor` that has specific functionality that we want to abstract over to use from other parts in our UI.
-
-##### Create your service 
-
-Services are created in `frontend_src/sources/services`
-
-in the following example we will define our `Health` service that we use to check for the health of our application server and its information.
-
-- Create the service in `frontend_src/sources/services/health.js`
-```javascript
-import { Service } from "../common/api";
-
-```
-
-
-#### actors used 
-
-- [admin_alerts](admin_alerts.md)
-- [admin_myjobs](admin_myjobs.md)

@@ -6,5 +6,4 @@ This section will have a growing number of tips and trick found and shared by th
 
 ### Index
 
-- [Notebook User Interface](user_interface.md)
 
