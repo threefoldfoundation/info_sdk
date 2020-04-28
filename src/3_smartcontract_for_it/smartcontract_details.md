@@ -49,7 +49,7 @@ the `quorum_min` field of the corresponding [signing request field](#signingrequ
 
 ### Data model
 
-The following is an overview of the types used, their fields, and what these fields are used for.  You can find a full definition of the types in [provision.md](provision.md)
+The following is an overview of the types used, their fields, and what these fields are used for.  You can find a full definition of the types in [provision](provisioningflow.md)
 
 #### Reservation
 
