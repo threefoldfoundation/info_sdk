@@ -1,9 +1,31 @@
 ![image alt text](img/logo.png)
 
-To receive FreeTFT you will need to meet a few prerequisites:
+## Receiving TFT in the 3SDK Wallets
 
-1. You need a stellar based wallet
-2. It needs to be funded with a little XLM to set up a trustline
+
+**Important note: SDK Wallets automatically have a trustline for the TFT, FreeTFT & TFTA assets.**
+
+In the SDK you can easily set up Stellar based wallets for both TFT and TFTA
+
+In the left Menu click Wallets Manager.
+
+![image alt text](img/wallets_manager.jpg)
+
+Click Create Wallet and give it a name
+
+![image alt text](img/create_wallet.jpg)
+
+Your wallet has now been created and should show up in your list
+
+And you can copy the address to receive tokens on it.
+
+## Receiving TFT, FreeTFT or TFTA on a different Stellar based wallet.
+
+To receive FreeTFT on other Stellar wallets you will need to meet a few prerequisites:
+
+1. It needs to be funded with some XLM (activated)
+
+2. You will need to set up a trustline to receive the assets
 
 For this example, we will use interstellar.exchange to receive our FreeTFT’s but any stellar based wallet will support FreeTFT. Please refer to the wallet of your choice on how to add assets.
 
@@ -33,6 +55,32 @@ Step4: Confirm the trustline-transaction with your password.
 
 ![image alt text](img/trustasset_2.png)
 
-Upon completing this successfully you have a trustline for FreeTFTs setup. You can now fill out or complete your application for FreeTFT on **[getfreetft.threefold.io](https://www.getfreetft.threefold.io)**
+Upon completing this successfully you have a trustline for FreeTFTs setup and we can now send them your way!
 
-![image alt text](img/freetft_form.png)
+## Importing Wallets into the 3SDK
+
+You can also choose to import an already existing wallet (like an interstellar wallet) into the SDK.
+
+We’re using interstellar as an example again, but any stellar wallet will be possible.
+
+Go to Interstellar and click security in the leftside menu.
+
+Scroll down and click "View Secret Keys"
+
+![image alt text](img/interstellar_secret.png)
+
+In this section you will find the secret key / public key / wallet name. 
+
+You will have to copy the first part only: the secret key.
+
+Now go to the SDK Wallets Manager and Click Import Wallet.
+Give the wallet a name and paste your wallet secret.
+
+![image alt text](img/3sdk_import_1.jpg)
+
+You have now imported the Interstellar wallet and it will show up in your Wallets Manager.
+
+![image alt text](img/3sdk_import_2.jpg)
+
+![image alt text](img/3sdk_import_3.jpg)
+
