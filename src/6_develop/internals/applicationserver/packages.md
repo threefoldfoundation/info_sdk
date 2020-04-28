@@ -166,8 +166,6 @@ self.bcdb =             #can be overruled by you (is a property), default is the
 ## Locations
 Detailed types of `openresty/nginx` locations that can be defined inside are documented [here](locations.md).
 
-## Authentication
-We provide oauth2 proxy and clients, see [documentation](oauth2.md) of how you can use them inside your package.
 
 ## Example package.toml
 
