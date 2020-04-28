@@ -14,7 +14,7 @@ Here is the schema used to define a container reservation:
 - **SecretEnvironment**: it is the same as `Environment` but these values are encrypted
 - **Entrypoint**: it is the program to start when the container is created
 - **Interactive**: if set to true, coreX is started in the container and the value of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager) for more detail
-- **Volumes**: this is where you define which [volume](volume.md) to mount inside the container
+- **Volumes**: this is where you define which volume to mount inside the container
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
 - **NetworkConnection**: this is where you define the network of the container
