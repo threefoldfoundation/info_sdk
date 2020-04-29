@@ -12,7 +12,7 @@ Running on the ThreeFold Grid.
 
 This Wiki is meant to provide you with all the information you need to get started on the P2P cloud.  There is an easy to use SDK that is being made available for this and it will provider you with a number of different ways to use and operate this P2P cloud.
 
-It is meant to everyone, meaning that the SDK provides means for both highly technical skilled people and people taking their first steps in creating digital services.
+It is meant to be for everyone, meaning that the SDK provides means for both highly technical skilled people and people taking their first steps in creating digital services.
 
 ### Why peer2peer? 
 We believe the future of the internet is to be created, owned and operated by many people, not by a happy few.  The current version of the internet is not ready to move forward and create sovereignty, equality and sustainability.  A token economy that allows anyone to become a producer and consumer of digital services with the aim to reach 1 Billion people by 2030 is the vision of the ThreeFold Foundation. Peer2peer is the only answer to reach this vision and not have the risk of it being hijacked for different (commercial) interests of a few.
