@@ -1,6 +1,6 @@
 - [Intro](intro.md)
 - [Architecture](architecture.md )
-    - [Zero-OS/3Node](architecture_3node.md)    
+    - [Node](architecture_3node.md)    
     - [Storage](architecture_storage.md)
     - [Network](architecture_network.md)
     - [Web gateway](architecture_webgateway.md)
