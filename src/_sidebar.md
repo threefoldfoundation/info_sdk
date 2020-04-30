@@ -6,6 +6,7 @@
     - [Web gateway](architecture_webgateway.md)
     - [0-Container virtual FS](architecture_flist.md)
 - [Getting Started](gettingstarted.md)
+    - [release notes](releasenotes.md)
     - [3bot connect install](3botconnect_install.md)
     - [3bot connect overview](3botconnect_overview.md)
     - [3sdk install](3sdk_install.md)
@@ -37,7 +38,6 @@
         - [Storage](solution_storage.md)
         - [Ubuntu](solution_ubuntu.md)
     - [Code Editor](ide.md)
-    <!-- - [Interface](admin_functions.md) -->
 - [Develop](develop.md)
     - [Provisioning Code](code.md)
         - [container](code_container.md)
@@ -53,7 +53,6 @@
     - [open the simulator](simulator_open.md)
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
-    <!-- - [simulator troubleshooting](simulator_troubleshooting.md) -->
 
 
 
