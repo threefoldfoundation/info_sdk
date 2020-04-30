@@ -1,6 +1,6 @@
 # release notes TFGrid 2.0.4.beta
 
-![](./img/releasenotes.png)
+![](img/releasenotes.png)
 
 ## experts and scripters only
 
