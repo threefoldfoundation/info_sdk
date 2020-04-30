@@ -26,7 +26,7 @@
         - [IPv4 to IPv6 Gateway](capacity_gw4to6.md)
 - [Tokens](tokens.md)
     - [Stellar](getting_on_stellar.md)
-    - [Get FreeTFT](getting_freetft.md)
+    - [Getting started with tokens](getting_started_with_tokens.md)
     - [Buy TFT: StellarX](tft_stellarx.md)
     - [Buy TFT: Interstellar](tft_interstellar.md)
     - [Buy TFT: Lobstr Wallet](tft_lobstr.md)
