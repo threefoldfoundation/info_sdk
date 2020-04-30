@@ -53,6 +53,7 @@
     - [open the simulator](simulator_open.md)
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
+    - [video tutorial](tokenomics_simulator_video_tutorial.md)
 
 
 
