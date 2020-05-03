@@ -14,10 +14,29 @@ Depending on which kind of solution you are trying to expose you might be offere
 
 You will to choose which solution of the previous selected kind you want to expose
 
+![Choose solution](solution_expose_choose_solution.png)
+
 3. In case the solution kind is not kubernetes or minio you get to pick which port you would like to expose
+
+![Choose port](solution_expose_choose_port.png)
 
 4. Next you can choose on which domain you would like to expose your solution this can be a subdomain of either one of your own delegated domains or a subdomain of a gateway provider, it's also possible to enter a custom domain which will required you to make a `cname` dns record towards the nameserver of the gateway
 
-5. Select the duration of the exposure.
+![Choose domain](solution_expose_choose_domain.png)
 
-6. Deployment or payment will follow
+5. Choose subdomain or custom domain
+Note: Currently only direct subdomains are supported no nested domains
+
+![Choose subdomain](solution_expose_choose_subdomain.png)
+
+6. Select the duration of the exposure.
+
+![Choose duration](solution_expose_duration.png)
+
+7. Solution expose payment
+
+![Payment](solution_expose_payment_overview.png)
+
+8. Solution expose result
+
+![Result](solution_expose_result.png)
