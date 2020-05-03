@@ -8,3 +8,4 @@
 - [Kubernetes](solution_kubernetes.md)
 - [Storage](solution_storage.md)
 - [Ubuntu](solution_ubuntu.md)
+- [Delegate Domain](solution_ubuntu.md)

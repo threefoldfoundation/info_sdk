@@ -37,6 +37,7 @@
         - [Kubernetes](solution_kubernetes.md)
         - [Storage](solution_storage.md)
         - [Ubuntu](solution_ubuntu.md)
+        - [Delegate Domain](delegate_domain.md)
     - [Code Editor](ide.md)
 - [Develop](develop.md)
     - [Provisioning Code](code.md)
