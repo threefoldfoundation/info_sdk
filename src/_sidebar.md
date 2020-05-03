@@ -38,6 +38,8 @@
         - [Storage](solution_storage.md)
         - [Ubuntu](solution_ubuntu.md)
         - [Delegate Domain](delegate_domain.md)
+        - [Solution Expose](solution_expose.md)
+        - [4 to 6 Gateway](four_to_six_gateway.md)
     - [Code Editor](ide.md)
 - [Develop](develop.md)
     - [Provisioning Code](code.md)
