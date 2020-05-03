@@ -161,9 +161,13 @@ To start the wizard click the left menu on Solutions then Ubuntu
 
     ![step11](img/ubuntu_success.png)
 
-13. You can now simply access the deployed ubuntu container by the following command `ssh root@IP_ADDRESS` where the ip address is the one you chose in the chatflow earlier and is shown in the previous success message.
-![step11](img/ubuntu_access.jpg)
+13. You can now simply access the deployed ubuntu container by the following command
 
+    ```bash
+    ssh root@IP_ADDRESS
+    ```
 
-You can view all your deployed solutions that haven't expired such as the network and the ubuntu container you created by clicking the left menu on **Deployed Solutions**.
+    where the ip address is the one you chose in the chatflow earlier and is shown in the previous success message.
+
+You can view _all_ your deployed solutions that haven't expired such as the network and the ubuntu container you created by clicking the left menu on **Deployed Solutions**.
 ![step11](img/deployed_solutions.png)
