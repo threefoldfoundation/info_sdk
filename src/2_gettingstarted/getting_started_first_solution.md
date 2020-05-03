@@ -20,7 +20,7 @@ The easiest way to generate this identity is to download the **3Bot Connect** ap
 
 The app can be found on the [Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) and [Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885).
 
-For a more detail documentation about the installation and usage of the **3Bot Connect**, head to the dedicated section:
+For a more detailed documentation about the installation and usage of the **3Bot Connect**, head to the dedicated section:
 
 - [3Bot connect installation](3botconnect_install.md)
 - [3Bot connect overview](3botconnect_overview.md)
@@ -33,7 +33,7 @@ Now that you have an identity, the next step is to retrieve the 3sdk binary on y
 
 You can find the binaries for GNU/Linux, macOS and Windows on the [release page of the github repository](https://github.com/threefoldtech/jumpscaleX_core/releases)
 
-If you are hitting issue or want to build from source, head to the full installation process is documented at [3sdk_install](3sdk_install.md).
+If you are hitting an issue or want to build from source, head to the full installation process documented at [3sdk_install](3sdk_install.md).
 
 #### Start the 3SDK
 
@@ -45,13 +45,13 @@ After typing the command, a wizard will guide you through the rest of the instal
 
 After the full installation process is done, you should be able to reach the webUI of the 3SDK at [https://localhost:4000](https://localhost:4000)  and it should look like:
 
-![dashboard.png](dashboard.png)
+![dashboard.png](img/dashboard.png)
 
 ### Get yourself some token
 
 The next step before we get to actually deployed workloads on the grid, is to get yourself some tokens.
 
-At the time of writting, there are three type of token available:
+At the time of writting, there are three types of tokens available:
 
 - [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft)
 - [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft)
@@ -105,6 +105,12 @@ Depending on your platform the configuration of Wireguard can look a bit differe
 
 ![Step6](img/network_wgconfig.png)
 
+Once you have the file downloaded, you can start it by typing in the terminal
+```
+wg-quick up PATH_TO_THE_FILE
+```
+where the PATH_TO_THE_FILE is the location you saved the configuration file in
+
 ### Deploy an ubuntu container and connect to it
 
 Now that you have a network in place. We can deploy containers and connect it to the network. To do so we will use the ubuntu Chat flow
@@ -127,7 +133,7 @@ To start the wizard click the left menu on Solutions then Ubuntu
 4. Then choose how much CPU and Memory resources you want allocated for the container
     ![step5](img/ubuntu_resources.png)
 
-5. In order to access this container after it is deployed, you will need to upload your public ssh key. Usually your public and private ssh key pairs are found in `/root/.ssh` where the public key ends in `.pub`
+5. In order to access this container after it is deployed, you will need to upload your public ssh key. Usually your public and private ssh key pairs are found in `~/.ssh` where the public key ends in `.pub`
 
     ![step6](img/ubuntu_sshkey.png)
 
