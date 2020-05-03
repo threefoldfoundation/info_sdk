@@ -54,6 +54,8 @@
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
     - [video tutorial](tokenomics_simulator_video_tutorial.md)
-
+- [Farm Setup & Management](farm_setup_management.md)
+    - [Farm Setup](v2_jsx_farmsetup.md)
+    - [Configure Wallet](configure_wallet.md)
 
 
