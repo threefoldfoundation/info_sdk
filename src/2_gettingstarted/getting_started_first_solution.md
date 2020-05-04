@@ -134,55 +134,55 @@ Now that you have a network in place. We can deploy containers and connect it to
 
 To start the wizard click the left menu on Solutions then Ubuntu
 
-![solutions menu](adminmenu.png)
+![Solutions menu](adminmenu.png)
 
 1. First step to deploy ubuntu is to choose the network on which you want to deploy your Ubuntu container. Use the same name you entered previously when creating the network
 
-![step2](ubuntu_network.png)
+    ![Choose network](ubuntu_network.png)
 
 2. Second enter a name to give your ubuntu solution. This will be used locally to save the details of the deployment.
 
-    ![step3](ubuntu_solution.png)
+    ![Solution name](ubuntu_solution.png)
 
 3. Next choose the version of Ubuntu on you want. We currently support versions 18.04 and 16.04
-    ![step4](ubuntu_version.png)
+    ![Ubuntu version](ubuntu_version.png)
 
 4. Then choose how much CPU and Memory resources you want allocated for the container
-    ![step5](ubuntu_resources.png)
+    ![Container resources](ubuntu_resources.png)
 
 5. In order to access this container after it is deployed, you will need to upload your public ssh key. Usually your public and private ssh key pairs are found in `~/.ssh` where the public key ends in `.pub`
 
-    ![step6](ubuntu_sshkey.png)
+    ![SSH key](ubuntu_sshkey.png)
 
 6. The next step is to choose the expiration time of your ubuntu reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
 
     For this tutorial one day will be more then enough.
 
-    ![step8](ubuntu_expiration.png)
+    ![Expiration time](ubuntu_expiration.png)
 
 7. After that you will encounter an optional question asking for a node ID to deploy the container on. If there is a specific node you want your container to be on then provide its ID otherwise leave it empty. To discover nodes where to deploy your solution the easiest place to look for them is the explorer: https://explorer.grid.tf
 
-    ![step8](ubuntu_nodeid.png)
+    ![Choose node](ubuntu_nodeid.png)
 
 8. If you left the nodeid empty, you can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
-    ![step8](ubuntu_farms2.png)
+    ![Choose farms](ubuntu_farms2.png)
 
 9. You can now choose an IP address that will be given to your ubuntu container in your network. This is the ip address you will be using to access the container.
 
-    ![step9](ubuntu_ip.png)
+    ![Choose IP](ubuntu_ip.png)
 
 10. Then read carefully the options you selected previously until this point in the chatflow and confirm them by clicking next to proceed with.
 
-    ![step10](ubuntu_overview.png)
+    ![Overview](ubuntu_overview.png)
 
 11. Now that you have chosen all the resources and details required, you will need to proceed with the payment for the solution that will be deployed. As previously mentioned, you will have your wallet setup and funded with an amount of the currency you chose your network with. The following overview will show the price of the deployment and the details regarding the address to be payed to. By clicking on the wallet you will pay with and then next then you accept the payment to be automatically done from it.
 
-    ![step10](ubuntu_payments.png)
+    ![Payment](ubuntu_payments.png)
 
 12. Once the amount is available in the wallet and the payment is successfully complete, the deployment process is continued. After the deployment is successful which may take a couple of minutes sometimes, the following message is shown with details regarding the reservation id which is a unique id used for your specific container deployment. It also views the ip address that is to be used to connect to the container.
 
-    ![step11](ubuntu_success.png)
+    ![Deployment Success](ubuntu_success.png)
 
 13. You can now simply access the deployed ubuntu container by the following command
 
@@ -193,4 +193,4 @@ To start the wizard click the left menu on Solutions then Ubuntu
     where the ip address is the one you chose in the chatflow earlier and is shown in the previous success message.
 
 You can view _all_ your deployed solutions that haven't expired such as the network and the ubuntu container you created by clicking the left menu on **Deployed Solutions**.
-![step11](deployed_solutions.png)
+![Deployed solutions](deployed_solutions.png)
