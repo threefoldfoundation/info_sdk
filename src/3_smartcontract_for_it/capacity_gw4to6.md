@@ -20,6 +20,5 @@ r = zos.reservation_create()
 
 zos.gateway.gateway_4to6(reservation=r,
                          node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                         public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc='
-                         secret='123:chieb7roi9oongah9shukuupeiChaeph')
+                         public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=")
 ```

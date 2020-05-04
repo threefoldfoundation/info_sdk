@@ -11,6 +11,7 @@
     - [3bot connect overview](3botconnect_overview.md)
     - [3sdk install](3sdk_install.md)
     - [3sdk use](3sdk_use.md)
+    - [Deploy your first solution](getting_started_first_solution.md)
 - [Smart Contract For IT](smart_contract.md)
     - [smartcontract details](smartcontract_details.md)
     - [container](capacity_container.md)
