@@ -4,6 +4,14 @@
 
 There are 3 main steps to get started
 
+1. There are 3 main steps to get started
+2. Install the 3SDK tool to bootstrap your 3SDK container
+3. Get yourself some ThreeFold tokens to get started
+
+## TL;DR
+
+If you want to jump right in, use the [Deploy your first solution](getting_started_first_solution.md) tutorial. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure.
+
 ## Get Yourself a 3bot Connect
 
 As a first step, you need to get yourself a **3bot.connect** identity.  
