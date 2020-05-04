@@ -2,7 +2,7 @@
 
 In order for users to reserve capacity from your farm and pay for it. The users needs to know the wallet address where to send the tokens for the reservation.
 
-At the time of writing, 2 currencies are supported, [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft), [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft) and [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta).
+At the time of writing, 3 currencies are supported, [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft), [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft) and [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta).
 
 ## Configure your farm wallet addresses from the 3SDK GUI
 
