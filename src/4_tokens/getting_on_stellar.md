@@ -63,9 +63,9 @@ Two tokens can be used :
 
 ## How to get FreeTFTs
 
-Every 3bot gives right to 1000 FreeTFTs, available to pay capacity on the Threefold Grid. 
+There is a possibility to connect to us, for useful projects that want to explore the grid, an amount of 1000 FreeTFT per 3Bot can be obtained, available to pay capacity on the Threefold Grid. 
 
-To claim your 1000 FreeTFT, go to the website and claim your tokens.
+To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.threefold.io) and fill in the application form.
 
 ![getfreetft](./img/getfreetft.png ':size=500x620')
 
