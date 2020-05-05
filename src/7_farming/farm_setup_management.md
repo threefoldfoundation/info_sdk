@@ -1,4 +1,4 @@
-![alt](img/cap2layer.png)
+![alt](./img/cap2layer.png)
 
 # Farm Management & Setup
 

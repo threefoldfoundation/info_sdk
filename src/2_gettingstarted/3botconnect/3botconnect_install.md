@@ -18,7 +18,7 @@ To use the 3Bot Connect App you need to download the 3Bot Connect App available 
 
 In the future, these seed words are required to restore your wallet in case your device is lost.
 
-![3bot](3bot_seed_phrase.jpg ':size=400x600')
+![3bot](./img/3bot_seed_phrase.jpg ':size=400x600')
 
 The seed phrase allows you to access and recover your 3bot connect on any device. We highly recommend to write down your seed key on a paper and store it safely offline. The seed phrase is the only "key" to your 3bot and 3bot assets (not only digital currency but also all of the reservations, deployments and data storage on the P2P cloud)
 

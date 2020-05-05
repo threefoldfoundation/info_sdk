@@ -14,11 +14,11 @@ Windows should be ready soon, check the releases page.
 
 - go to https://github.com/threefoldtech/jumpscaleX_core/releases
 
-![](img/download_3sdk1.png)
+![](./img/download_3sdk1.png)
 
 download the 3sdk to your local folder.
 
-![](img/downloaded1.png)
+![](./img/downloaded1.png)
 
 you will see at botomn of your browser the download.
 
