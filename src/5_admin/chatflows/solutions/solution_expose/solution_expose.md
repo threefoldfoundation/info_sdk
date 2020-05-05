@@ -16,7 +16,7 @@ You will to choose which solution of the previous selected kind you want to expo
 
 ![Choose solution](solution_expose_choose_solution.png)
 
-3. In case the solution kind is not kubernetes or minio you get to pick which port you would like to expose
+3. Pick the ports you would like to expose for your solution typically this will be your https and http ports (443, 80)
 
 ![Choose port](solution_expose_choose_port.png)
 
