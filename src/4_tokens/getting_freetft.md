@@ -2,6 +2,8 @@
 
 ## Receiving tokens in the 3SDK Wallets
 
+You can apply for FreeTFT here: [GetFreeTFT.ThreeFold.io](https://www.getfreetft.threefold.io)
+But before you do please make sure you create a wallet that has a trustlin to receive the tokens in.
 
 **Important note: SDK Wallets automatically have a trustline for the TFT, FreeTFT & TFTA assets.**
 
@@ -51,11 +53,15 @@ You have now added the asset. Now you need to set up a trustline.
 
 Click "Trust Asset"
 
-### Step4: Confirm the trustline-transaction with your password
+### Step 4: Confirm the trustline-transaction with your password
 
 ![image alt text](./img/trustasset_2.png)
 
 Upon completing this successfully you have a trustline for FreeTFTs setup and we can now send them your way!
+
+### Step 5: Fill the faucet form
+
+Go to the [FreeTFT Faucet form](https://www.getfreetft.threefold.io/) and fill it in. You should receive your FreeTFT within one working day. 
 
 ## Importing Wallets into the 3SDK
 

@@ -28,19 +28,19 @@ Many millions of calculations are being done.
 Once done you will see something like.
 
 
-![](./img/simulation1.png)
+![](img/simulation11.png)
 
-![](./img/simulation2.png)
+![](img/simulation22.png)
 
-![](./img/simulation3.png)
+![](img/simulation31.png)
 
-![](./img/simulation4.png)
+![](img/simulation41.png)
 
-![](./img/simulation5.png)
+![](img/simulator51.png)
 
 it goes on for a while eventually we get to:
 
-![](./img/simulation10.png)
+![](img/simulation101.png)
 
 At the end screen you will see the evolution of the token price.
 

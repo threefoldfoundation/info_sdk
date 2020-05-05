@@ -13,7 +13,7 @@
 - This will ask you about a secret passphrase, this secret is saved in redis and encrypts your identities.
 Please keep it safe and remember it.
 
- ![Identity photo](./img/identity1.png)
+ ![Identity photo](identity1.png)
 
 - After Kosmos starts, configure using j.me
     
@@ -24,13 +24,13 @@ Please keep it safe and remember it.
 This will ask you about your information: 3bot name, email, description, ... . It will also ask if you want to add admins to your system.
 This command will automatically register your information in the phonebook.
 
- ![Identity photo](./img/identity.png)
+ ![Identity photo](identity.png)
 
 #### Congratulations your 3bot is ready ! Now you can start the 3bot server and start your reservation.
 
 To save your identity, you best copy these files (holding your identity information) to a safe place : 
 
- ![recover photo](./img/identity2.png)
+ ![recover photo](identity2.png)
 
 - `default` file contains the name default identity, please make it to refer to your recovered identity
 
@@ -136,7 +136,7 @@ JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
 
 - You will find your identity set in 3bot server :
 
-![multiple_identities](./img/identity4.jpg)
+![multiple_identities](identity4.jpg)
 
 
 ## Recovering identites
@@ -145,7 +145,7 @@ In case you lost your identites, we can restore from the saved toml keys in `/sa
 
 This contains the identity information, please keep them safe
 
- ![recover photo](./img/identity2.png)
+ ![recover photo](identity2.png)
 
 - `default` file contains the name default identity, please make it to refer to your recovered identity.
 

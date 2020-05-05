@@ -11,6 +11,7 @@
     - [3bot connect overview](3botconnect_overview.md)
     - [3sdk install](3sdk_install.md)
     - [3sdk use](3sdk_use.md)
+    - [Deploy your first solution](getting_started_first_solution.md)
 - [Smart Contract For IT](smart_contract.md)
     - [smartcontract details](smartcontract_details.md)
     - [container](capacity_container.md)
@@ -26,7 +27,7 @@
         - [IPv4 to IPv6 Gateway](capacity_gw4to6.md)
 - [Tokens](tokens.md)
     - [Stellar](getting_on_stellar.md)
-    - [Get FreeTFT](getting_freetft.md)
+    - [Getting started with tokens](getting_started_with_tokens.md)
     - [Buy TFT: StellarX](tft_stellarx.md)
     - [Buy TFT: Interstellar](tft_interstellar.md)
     - [Buy TFT: Lobstr Wallet](tft_lobstr.md)
@@ -37,6 +38,9 @@
         - [Kubernetes](solution_kubernetes.md)
         - [Storage](solution_storage.md)
         - [Ubuntu](solution_ubuntu.md)
+        - [Delegate Domain](delegate_domain.md)
+        - [Solution Expose](solution_expose.md)
+        - [4 to 6 Gateway](four_to_six_gateway.md)
     - [Code Editor](ide.md)
 - [Develop](develop.md)
     - [Provisioning Code](code.md)
@@ -53,6 +57,9 @@
     - [open the simulator](simulator_open.md)
     - [tfgrid simulation start](simulator_tfgrid_start.md)  
     - [simulator usage basics](simulator_usage_basics.md)
-
+    - [video tutorial](tokenomics_simulator_video_tutorial.md)
+- [Farm Setup & Management](farm_setup_management.md)
+    - [Farm Setup](v2_jsx_farmsetup.md)
+    - [Configure Wallet](configure_wallet.md)
 
 

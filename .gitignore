@@ -2,6 +2,7 @@ src/errors.md
 docs
 book
 book/
+build/
 docs/
 docs/*
 book/*
