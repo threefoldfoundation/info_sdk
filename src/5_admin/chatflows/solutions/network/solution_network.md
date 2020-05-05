@@ -2,17 +2,16 @@
 
 This package is used to deploy a network on the grid and to connect your solutions together.
 
-### Accessing the solution
+## Accessing the solution
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](adminmenu2.png)
+![solutions menu](adminmenu.png)
 
 
-### Inputs
+## Inputs
 
 The solution takes some configurations from the user, we will list them and explain their meaning
-
 - `Network name` : a name for the network to deploy on and also to reference in the reservation manager.
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M) is how long you want that solution to live on the grid
 - `IP version` : (IPv4 or IPv6) Version of the entrypoint node.
@@ -20,18 +19,17 @@ The solution takes some configurations from the user, we will list them and expl
 
 
 
-### User setup
+## User setup
 
 - register user threebot on explorer `kosmos "j.tools.threebot.init_my_threebot(name=3bot_NAME,email=EMAIL)"` **Note**: name of 3bot is (your 3bot name).3bot , email is your 3bot email
 - Install [wireguard](https://www.wireguard.com/install/)
 
 
-### Chatflow steps:
+## Chatflow steps:
 
-#### Choosing the network name
+### Choosing the network name
 
 ![Step1](network1.png)
-
 We choose the network name to be referenced again in the dashboard reservation manager
 
 #### Expiration time
@@ -60,5 +58,3 @@ While the grid is built around IP v6 you need you to connected to the network, a
 
 ![Step7](network7.png)
 Now you need to configure your machine to access the network by applying the wireguard configurations
-
-

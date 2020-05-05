@@ -158,7 +158,7 @@ To start the wizard click the left menu on Solutions then Ubuntu
 
     For this tutorial one day will be more then enough.
 
-    ![Expiration time](ubuntu_expiration.png)
+    ![Expiration time](chatflow_expiration.png)
 
 7. After that you will encounter an optional question asking for a node ID to deploy the container on. If there is a specific node you want your container to be on then provide its ID otherwise leave it empty. To discover nodes where to deploy your solution the easiest place to look for them is the explorer: https://explorer.grid.tf
 
