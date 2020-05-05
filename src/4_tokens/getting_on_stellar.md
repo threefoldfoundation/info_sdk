@@ -67,15 +67,13 @@ There is a possibility to connect to us, for useful projects that want to explor
 
 To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.threefold.io) and fill in the application form.
 
-![getfreetft](./img/getfreetft.png ':size=500x620')
+![appl_form](./img/getfreetft_application_form.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
 
 <b/> Remark: </b> 
 
-- only 1000 FreeTFTs are available per 3Bot. Moreover, also the number of 3Bots per user / phone number is limited.
+- max 1000 FreeTFTs are available per 3Bot. 
 - FreeTFTs are only available to explore the Threefold Grid, and have no long-term value. 
-- Getting Free TFT is currently only available on testnet, the website for production is coming soon. 
-
 
