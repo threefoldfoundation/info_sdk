@@ -1,0 +1,21 @@
+#can be many wiki & many www sites
+
+[server]
+port = 3000
+addr = "0.0.0.0"
+
+[[wiki]]
+#unique name for the wiki
+name = "sdk"
+#http or git url
+url = "github.com/threefoldfoundation/info_tfgridsdk"
+#if empty will be auto created
+path = "./src"
+#commit automatically when there is new info, only works when ssh used
+autocommit = false
+#branch name, of "" then will be the default or what is found on the FS
+branch = "development"
+#switch branch automatically if the name given above and its different on FS
+branchswitch = false
+#path in the repo where the info is, std "src"
+srcdir = "src"

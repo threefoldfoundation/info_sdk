@@ -1,6 +1,6 @@
 Package is the way to write extensions and applications to threebot server and it is driven using `package.py` file which controls the life cycle of the application, including configurations (prepare) , start, stop .. etc.
 
-![workflow](./img/workflow.png)
+![workflow](workflow.png)
 
 
 ## Creating a new package

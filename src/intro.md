@@ -1,5 +1,5 @@
 
-![](./img/intro.png)
+![](intro.png)
 
 ## ThreeFold P2P Cloud
 A new standard in peer2peer networking, storage and compute.
@@ -31,7 +31,7 @@ Want to know more?
 ### ThreeFold Foundation
 <!-- insert general objectives for the TF Network (Grid, Token and 3bot) -->
 The Threefold Foundation is realizing the vision to provides affordable, local digital services by many for anyone. 
-![](./img/ses.png)
+![](ses.png)
 For more information on the Foundation, please check [threefold.io](https://threefold.io)
 
 ### ThreeFold Tech Website

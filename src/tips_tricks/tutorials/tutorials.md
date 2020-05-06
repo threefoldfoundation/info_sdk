@@ -1,5 +1,5 @@
 ## Tutorials
 
-![Core concepts](./img/tutorials.png)
+![Core concepts](tutorials.png)
 
 

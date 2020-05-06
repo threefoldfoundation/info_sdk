@@ -27,33 +27,33 @@ Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 ### Deploying Kubernetes:
 
 #### Choosing deployment name
-![Step2](./img/k8s2.png)
+![Step2](k8s2.png)
 
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
 
 #### Choosing the network
-![Step3](./img/k8s3.png)
+![Step3](k8s3.png)
 Here we choose which network we connect our kubernetes cluster to
 
 #### Choosing number of worker nodes
-![Step4](./img/k8s4.png)
+![Step4](k8s4.png)
 
 Here, we specify the number of worker nodes used in the cluster.
 
 #### Uploading your public Key 
-![Step5](./img/k8s5.png)
+![Step5](k8s5.png)
 This step is necessary to access the kubernetes machine and authorize you to be able to SSH into it
 
 #### Expiration time
-![Step6](./img/k8s6.png)
+![Step6](k8s6.png)
 Here we specify for how long you want to reserve kubernetes cluster on our grid
 
 #### Choosing a secret for the cluster
-![Step7](./img/k8s7.png)
+![Step7](k8s7.png)
 Now it's time to choose the secret for your kubernetes cluster, make sure you don't forget it.
 
 #### Set the IP Address for the solution
-![Step8](./img/k8s8.png)
+![Step8](k8s8.png)
 
 After the deployment of the Kubernetes cluster is complete, the user with the ssh keys will have access to the deployed cluster.
 
@@ -66,6 +66,6 @@ To verify the nodes created on the machine after ssh
 ```bash
 kubectl get nodes
 ```
-![](./img/nodes.png)
+![](nodes.png)
 
 

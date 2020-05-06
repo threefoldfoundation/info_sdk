@@ -1,6 +1,6 @@
 # ThreeFold Overlay Network
 
-![](./img/network_wireguard_logo.png)
+![](network_wireguard_logo.png)
 
 The network primitive allows a user to define its own overlay network between any of the nodes running 0-OS.  The technology we used to create the overlay network is [wireguard](https://www.wireguard.com/).  
 When you send a reservation that contains a network primitive, the overlay network will automatically get installed and started on all the nodes defined in your reservation.
@@ -27,7 +27,7 @@ To make it more visual imagine your network is like a big box full of IP address
 For each node that joins the network, you reserve a part of the big box, 254 IP addresses, for the node to use (the 24-bit block).
 Finally, when you create a container or a kubernetes VM on a node, you assign one IP from the part that is reserved for the node.
 
-![network-box](./img/network_box.png)
+![network-box](network_box.png)
 
 to recap, to create a network you must:
 

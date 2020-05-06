@@ -1,6 +1,6 @@
 # 3sdk installer basics
 
-![](./img/3fold_header1.png)
+![](3fold_header1.png)
 
 The 3sdk is a command line application which allows us to install a local ThreeFold SDK container.
 We leverage docker to install this SDK onto your machine

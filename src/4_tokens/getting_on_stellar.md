@@ -26,15 +26,20 @@ An account needs the below information keys to access the Stellar network.
 
 Threefold token is registered under : 
 
-- `AssetCode` TFT
-- `Issuer` GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47
+- AssetCode: `TFT`
+- Issuer: `GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47`
+
+TFTA is registered under:
+
+- AssetCode: `TFTA`
+- Issuer: `GBUT4GP5GJ6B3XW5PXENHQA7TXJI5GOPW3NF4W3ZIW6OOO4ISY6WNLN2`
 
 FreeTFT is a separate token with : 
 
-- `AssetCode` FreeTFT
-- `Issuer` GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT
+- AssetCode: `FreeTFT`
+- Issuer: `GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT`
 
-Both TFT and FreeTFT are registered on this blockchain, under the domain `threefold.io` . Some wallets don't require you to introduce assetcode and issuer, but need this domain name to find back the tokens on the Stellar network. 
+TFT, TFTA and FreeTFT are registered on this blockchain, under the domain `threefold.io` . Some wallets don't require you to introduce asset code and issuer, but need this domain name to find back the tokens on the Stellar network.
 
 ## How to buy TFTs
 
@@ -67,7 +72,7 @@ There is a possibility to connect to us, for useful projects that want to explor
 
 To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.threefold.io) and fill in the application form.
 
-![appl_form](./img/getfreetft_application_form.png ':size=500x620')
+![appl_form](getfreetft_application_form.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->

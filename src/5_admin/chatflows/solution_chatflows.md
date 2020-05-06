@@ -1,7 +1,7 @@
 
 # Solution Chatflows
 
-![](./img/bot.png)
+![](bot.png)
 
 - [Network](solution_network.md)
 - [Container](solution_container.md)

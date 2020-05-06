@@ -27,14 +27,14 @@ When you have installed your 3SDK container, you should be able to access the we
 First things is to select the network you want to create your farm on. Most probably you want to use `mainnet`.
 To select `mainnet`, click the `settings` tab on the bottom left, then select `Main` in the explorer dropdown input.
 
-![network_choice](./img/network_choice.png)
+![network_choice](network_choice.png)
 
 ### 2. Install the farm management application
 
 Next step is to install the farm management application. To do so, click the `Farm Management` tab on the left side menu.
 Then click `Install required packages` button
 
-![install_package](./img/install_packages.png)
+![install_package](install_packages.png)
 
 Once the package is installed, the page will reload the `farm management` UI will appear.
 
@@ -42,11 +42,11 @@ Once the package is installed, the page will reload the `farm management` UI wil
 
 To create a new farm, click the little plus button on the top left corner:
 
-![add farm](./img/add_farm.png)
+![add farm](add_farm.png)
 
 It will open up a form to create a new Farm:
 
-![new farm](./img/new_farm.png)
+![new farm](new_farm.png)
 
 Fill the form with your values. 
 
@@ -58,7 +58,7 @@ Once the farm is created you should see a new entry in the top table.
 
 Notice the first colume of the table: ID. This is your farm ID, write this down cause you will need to use it when generating the 0-OS image for you the nodes of you farm.
 
-![farm table](./img/farm_table.png)
+![farm table](farm_table.png)
 
 ## Create your farm using the 3SDK kosmos shell
 

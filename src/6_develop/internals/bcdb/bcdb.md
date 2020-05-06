@@ -87,7 +87,7 @@ efficient and fasr in the same time
 
 ## Components
 
-![BCDB components](./img/bcdb_components.png)
+![BCDB components](bcdb_components.png)
 
 
 ### Quick Beginners guide
