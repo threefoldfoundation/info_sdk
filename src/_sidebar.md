@@ -62,5 +62,4 @@
 - [Farm Setup & Management](farm_setup_management.md)
     - [Farm Setup](v2_jsx_farmsetup.md)
     - [Configure Wallet](configure_wallet.md)
-
-
+- [Community](community.md)
