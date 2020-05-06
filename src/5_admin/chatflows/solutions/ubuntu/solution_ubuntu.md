@@ -6,11 +6,7 @@ Ubuntu is officially released in three editions: Desktop, Server, and Core(for i
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-<<<<<<< HEAD
-![solutions menu](adminmenu7.png)
-=======
 ![solutions menu](adminmenu.png)
->>>>>>> Update chatflows docs in 5_admin
 
 
 ## Inputs

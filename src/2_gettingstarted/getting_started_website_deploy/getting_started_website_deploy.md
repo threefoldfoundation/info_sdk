@@ -62,7 +62,7 @@ hugo server -s /my_hugo_website/
 
 ### Create flist with website content
 
-We are now ready to create our flist. An [flist]() (file list) is an archive to store metadata about a filesystem and can be used on the grid to deploy a container with its contents. The flist should include a startup file as well to indicate if there are any commands to be done once a container is created. In our case we will want to start the hugo server.
+We are now ready to create our flist. An flist (file list) is an archive to store metadata about a filesystem and can be used on the grid to deploy a container with its contents. The flist should include a startup file as well to indicate if there are any commands to be done once a container is created. In our case we will want to start the hugo server.
 
 We will start by preparing a compressed folder with hugo binary and the new website we just created:
 
