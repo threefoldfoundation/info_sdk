@@ -8,6 +8,7 @@ As an example, please find here an example on how to set up TFT in a Stellar wal
 
 This Stellar wallet is available on both Android and iOS. 
 As setup of any account requires XLM, you get a temporary loan of 1.5 XLM, which needs to be refunded once you have funded your wallet with cryptoassets. 
+Remark: you need to refund the temporary loan before you are able to establish trustlines, so be sure that this is done as first action when you have XLM available on your account. 
 
 ## Buy cryptocurrencies 
 
