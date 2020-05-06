@@ -49,46 +49,39 @@ echo 'theme = "ananke"' >> config.toml
 ```
 
 We will now have the folder `my_hugo_website` created with the following structure
-    ![hugo_structure](hugo_structure.png)
+
+![hugo_structure](hugo_structure.png)
 
 We can then add our content under the contents directory or using hugo commands. To test locally just start the server and access it from the browser at  `http://localhost:1313`.
 
 ```
 hugo new posts/my-first-post.md
 # start the server
-hugo server -D
+hugo server -s /my_hugo_website/
 ```
 
 ### Create flist with website content
 
 We are now ready to create our flist. An [flist]() (file list) is an archive to store metadata about a filesystem and can be used on the grid to deploy a container with its contents. The flist should include a startup file as well to indicate if there are any commands to be done once a container is created. In our case we will want to start the hugo server.
 
-We will start by preparing a compressed folder with the hugo binary, the new website we just created, and the startup:
+We will start by preparing a compressed folder with hugo binary and the new website we just created:
 
 - `bin/hugo`
 - `my_hugo_website/`
-- `start.sh`
 
- We can simply create an flist by compressing the contents and uploading them onto the [hub](https://hub.grid.tf/upload) for conversion. We will need to include our startup file that will be used as an entry point in the folder as well. The startup file will be a simple bash file with the following commands to start the server
+We can simply create an flist by compressing the contents and uploading them onto the [hub](https://hub.grid.tf/upload) for conversion.
 
-```bash
-#!/bin/sh
-
-cd my_hugo_website
-/bin/hugo server -D
-```
-
-Now you are ready to tar the contents using 
+First you need to tar the contents using
 
 ```bash
-tar -czvf my_website_flist_3.tar.gz -C hugo_flist .
+tar -czvf my_website_flist.tar.gz -C hugo_flist .
 ```
 
-and upload the it to the [hub](https://hub.grid.tf/upload) once you log in with your 3bot app successfully
+and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with your 3bot app successfully
 
 ![my website flist upload](my_website_flist_upload.png)
 
-Once the upload is complete we now have an flist ready to be used. The flist url we will be using is the source which in our example is
+Once the upload is complete we now have an flist ready to be used. The flist url we will be need is the source which is usually in the following format
     `https://hub.grid.tf/YOUR_3BOT_NAME.3bot/my_website_flist.flist`
 
 ![my website flist upload success](my_website_flist_upload_success.png)
@@ -101,7 +94,10 @@ Now that we have our flist ready, we are prepared to deploy a container on the g
 - You have tokens that will be used for payment
 - You have a deployed network
 
-If any of the previous items is not satisfied you can make sure of them by checking [Deploy your first solution guide](getting_started_first_solution.md). Once you have your network ready we can move on to deploying your container.
+If any of the previous items is not satisfied you can make sure of them by checking [Deploy your first solution guide](getting_started_first_solution.md). Once you have your network ready we can move on to deploying your container using the generic flist deploy wizard.
+To start the wizard click the left menu on Solutions then Generic flist
+
+![Solutions menu](full_adminmenu.png)
 
 1. The first step to deploy the container is to choose the network on which you want to deploy your container. Use the same name you entered previously when creating the network
 
@@ -121,7 +117,8 @@ If any of the previous items is not satisfied you can make sure of them by check
 5. You will then be asked if you want corex running. Since we want the container to be interactive and can be accessed through ssh, then we will disable it and choose `NO`. If enabled, the container will not be accessible through ssh.
     ![Disable corex](my_first_website_corex.png)
 
-6. You now need to provide the entrypoint the container will start with which includes the file you added in your flist to start the server
+6. You now need to provide the entrypoint the container will start with which is the following command to start the server:
+`/bin/hugo server -s /my_hugo_website/ --bind 0.0.0.0`
     ![add entrypoint](my_first_website_entrypoint.png)
 
 7. You can pass any other environment variables that will be used by the flist startup as well incase you chose a different server with different configurations. In this tutorial we don't need to pass anything so you can leave it empty.
@@ -139,14 +136,67 @@ If any of the previous items is not satisfied you can make sure of them by check
 
 10. You can now choose an IP address that will be given to your container in your network. This is the ip address you will be using to access the container.
 
-    ![Choose IP](ubuntu_ip.png)
+    ![Choose IP](my_first_Website_ip.png)
 
 11. Then read carefully the options you selected previously until this point in the chatflow and confirm them by clicking next to proceed with the payment.
+    ![summary](my_first_website_summary.png)
 
 12. Now that you have chosen all the resources and details required, you will need to proceed with the payment for the solution that will be deployed. As previously mentioned, you will have your wallet setup and funded with an amount of the currency you chose your network with. The following overview will show the price of the deployment and the details regarding the address to be payed to. By clicking on the wallet you will pay with and then next then you accept the payment to be automatically done from it.
 
     ![Payment](ubuntu_payments.png)
 
-Once the deployment is successful you should have a container running with the hugo server started to serve your files on port _1313_. In the following section we will configure the web gateway to expose the website to be able to access it.
+Once the deployment is successful you should have a container running with the hugo server started to serve your files on port _1313_.
+
+![deploy success](website_deploy_success.png)
+
+This can be accessed using the \<IP:1313\> when wireguard is configured on your machine.
+
+![my first website access ip](my_first_website_access_ip.png)
+
+In the following section we will configure the web gateway to expose the website to be able to access it with a domain name instead.
 
 ### Expose website by configuring web gateway
+Now that the website is ready and deployed. We will need to expose it to be accessible without wireguard. We can do this by simply using the Solution expose wizard in the dashboard.
+To start the wizard click the left menu on Solutions then Solution expose
+
+![Solutions menu](full_adminmenu.png)
+1. First we will choose the type of the solution that we want exposed. Since we used a custom flist and used the flist deploy wizard then we will choose flist
+
+    ![solution expose type](solution_expose_flist.png)
+
+2. Second step we need to choose the solution deployed that we want exposed. In our case we named it _my_first_solution_ so we can simply choose that.
+
+    ![solution expose choose](solution_expose_choose.png)
+
+3. We then need to choose the ports to be exposed whether the tls port or the port the server will be served on. Since we started hugo server on the default port we will stick to port 1313
+    ![my first website ports](my_first_website_ports.png)
+
+4. Now we need to specify the domain name that we will be registering. We can choose the option Managed Domain to simply add a subdomain to it. 
+
+    We can give the name `my_first_website`,
+
+    so that the full domain will be `http://my_first_website.grid.deboeck.xyz/`
+
+    ![my first website domain generation](my_first_website_domain_generation.png)
+
+    ![my first website subdomain](my_first_website_subdomain.png)
+
+5. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
+
+    For this part we will choose a similar value to the expiration of the solution itself, so that the website is accessible as long as the container lives.
+
+    ![Expiration time](chatflow_expiration.png)
+
+6. Now you will need to proceed with the payment for the solution exposure. As previously mentioned, you will have your wallet setup and funded with an amount of the currency you chose your network with. The following overview will show the price of the deployment and the details regarding the address to be payed to. By clicking on the wallet you will pay with and then next then you accept the payment to be automatically done from it.
+
+    ![Payment](ubuntu_payments.png)
+
+Congratulations!
+
+Once the payment is complete you have your website ready!!
+
+![my first website full domain](my_first_website_full_domain.png)
+
+You can now access it from the browser using the full domain you registered
+
+![my website access domain](my_website_access_domain.png)
