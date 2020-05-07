@@ -171,7 +171,15 @@ To start the wizard click the left menu on Solutions then Solution expose
 3. We then need to choose the ports to be exposed whether the tls port or the port the server will be served on. Since we started hugo server on the default port we will stick to port 1313
     ![my first website ports](my_first_website_ports.png)
 
-4. Now we need to specify the domain name that we will be registering. We can choose the option Managed Domain to simply add a subdomain to it. 
+4. Now we need to specify the domain name that we will be registering. We have two possible options:
+
+    - You can choose a Managed domain available and add a subdomain to it
+
+    or
+
+    - You can choose a ready Custom domain to add an available domain that we will bind to
+
+    Since we have a managed subdomain available we will use that in this tutorial and simply provide a subdomain.
 
     We can give the name `my_first_website`,
 
