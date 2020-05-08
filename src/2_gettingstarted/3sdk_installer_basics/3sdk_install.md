@@ -8,9 +8,9 @@
 
 ## Requirements
 
-- Docker
-- Chrome browser for OSX users
-- Git
+- [Docker](https://docs.docker.com/desktop/#download-and-install)
+- [Chrome browser](https://www.google.com/chrome/) for OSX users
+- [Git](https://git-scm.com/downloads)
 
 ## Get 3sdk binaries
 

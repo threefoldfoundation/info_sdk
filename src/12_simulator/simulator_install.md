@@ -2,8 +2,8 @@
 
 ## requirements
 
-- docker desktop needs to be installed
-- chrome browser needs to be installed
+- [docker desktop](https://docs.docker.com/desktop/#download-and-install) needs to be installed
+- [chrome browser](https://www.google.com/chrome/) needs to be installed
 
 ## supported platforms
 
