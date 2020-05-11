@@ -32,12 +32,12 @@ You can type `info` and you will see a list of available commands that you can u
 
 - You have to use same username & same email
 
-### Start Threebot Container
+### Start Threebot
 
-The `container threebot` command is a helper command that will guide you through all the steps required to deploy your 3bot confiner.
+The `threebot start` command is a helper command that will guide you through all the steps required to deploy your 3bot confiner.
 
 ```shell
-3sdk> container threebot
+3sdk> threebot start
 Which network would you like to register to?
 make your choice (mainnet,testnet,devnet,none): testnet
 what is your threebot name (identity)?
@@ -48,6 +48,14 @@ your words from your 3bot application need to be entered here
 specify secret to encrypt your data:
 specify secret to encrypt your data (confirm):
 ```
+
+### Stop Threebot
+
+`threebot stop`
+
+## Advanced features
+
+All the following commands will require you to start `3sdk` with `--expert` flag
 
 ### Install New Container
 
@@ -96,7 +104,6 @@ Either use the sshport info from `container list` command and `ssh root@localhos
 
 Execute `container kosmos` to get into kosmos shell
 
-## Advanced features
 
 ### Controlling code branches
 
