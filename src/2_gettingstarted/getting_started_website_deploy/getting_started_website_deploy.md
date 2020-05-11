@@ -112,16 +112,20 @@ To start the wizard click the left menu on Solutions then Generic flist
     ![Flist link](my_first_website_flist_link.png)
 
 4. Then choose how much CPU and Memory resources you want allocated for the container. You can stick to the default values provided.
+
     ![Container resources](ubuntu_resources.png)
 
-5. You will then be asked if you want corex running. Since we want the container to be interactive and can be accessed through ssh, then we will disable it and choose `NO`. If enabled, the container will not be accessible through ssh.
+5. You will then be asked if you want corex running. In our case there is no need for corex as we will start hugo server directly in the container as we pass the entrypoint (check next step) in the wizard, therefor we will disable it and choose `NO`.
+
     ![Disable corex](my_first_website_corex.png)
 
 6. You now need to provide the entrypoint the container will start with which is the following command to start the server:
 `/bin/hugo server -s /my_hugo_website/ --bind 0.0.0.0`
+
     ![add entrypoint](my_first_website_entrypoint.png)
 
 7. You can pass any other environment variables that will be used by the flist startup as well incase you chose a different server with different configurations. In this tutorial we don't need to pass anything so you can leave it empty.
+
     ![Environment variables](chatflows_environment_variables.png)
 
 8. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
@@ -139,6 +143,7 @@ To start the wizard click the left menu on Solutions then Generic flist
     ![Choose IP](my_first_Website_ip.png)
 
 11. Then read carefully the options you selected previously until this point in the chatflow and confirm them by clicking next to proceed with the payment.
+
     ![summary](my_first_website_summary.png)
 
 12. Now that you have chosen all the resources and details required, you will need to proceed with the payment for the solution that will be deployed. As previously mentioned, you will have your wallet setup and funded with an amount of the currency you chose your network with. The following overview will show the price of the deployment and the details regarding the address to be payed to. By clicking on the wallet you will pay with and then next then you accept the payment to be automatically done from it.
@@ -160,6 +165,7 @@ Now that the website is ready and deployed. We will need to expose it to be acce
 To start the wizard click the left menu on Solutions then Solution expose
 
 ![Solutions menu](full_adminmenu.png)
+
 1. First we will choose the type of the solution that we want exposed. Since we used a custom flist and used the flist deploy wizard then we will choose flist
 
     ![solution expose type](solution_expose_flist.png)
@@ -169,6 +175,7 @@ To start the wizard click the left menu on Solutions then Solution expose
     ![solution expose choose](solution_expose_choose.png)
 
 3. We then need to choose the ports to be exposed whether the tls port or the port the server will be served on. Since we started hugo server on the default port we will stick to port 1313
+
     ![my first website ports](my_first_website_ports.png)
 
 4. Now we need to specify the domain name that we will be registering. We have two possible options:
