@@ -12,7 +12,7 @@ A kubernetes cluster can be linked to our other primitives.
 
 Schema used to define a 0-DB namespace reservation:
 
-- **NodeId**:
+- **NodeId**: The node ID on which to Virtual machine will be created
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
 - **NetworkId**: The name of the network created using a [network](network.md) primitive
 - **Ipaddress**: The IP address to give to the VM
