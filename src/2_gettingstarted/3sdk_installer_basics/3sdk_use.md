@@ -1,15 +1,15 @@
 # 3sdk getting started
 
-- [Get your 3bot words](Get-your-3bot-words)
-- [Basic Features](Basic-Features)
-  - [Start Threebot Container](Start-Threebot-Container)
-  - [Install New Container](Install-New-Container)
-  - [Running New Container](Running-New-Container)
-  - [Listing Containers](Listing-Containers)
-  - [Accessing Container Shell](Accessing-Container-Shell)
-  - [Getting Container Kosmos](Getting-Container-Kosmos)
-- [Advanced features](Advanced-features)
-  - [Controlling code branches](Controlling-code-branches)
+- [Get your 3bot words](#Get-your-3bot-words)
+- [Basic Features](#Basic-Features)
+  - [Start Threebot Container](#Start-Threebot-Container)
+  - [Install New Container](#Install-New-Container)
+  - [Running New Container](#Running-New-Container)
+  - [Listing Containers](#Listing-Containers)
+  - [Accessing Container Shell](#Accessing-Container-Shell)
+  - [Getting Container Kosmos](#Getting-Container-Kosmos)
+- [Advanced features](#Advanced-features)
+  - [Controlling code branches](#Controlling-code-branches)
 
 ## Get your 3bot words
 
