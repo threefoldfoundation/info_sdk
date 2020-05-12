@@ -180,11 +180,11 @@ To start the wizard click the left menu on Solutions then Solution expose
 
 4. Now we need to specify the domain name that we will be registering. We have two possible options:
 
-    - You can choose a Managed domain available and add a subdomain to it
+    - You can choose a Managed domain and add a subdomain to it, where the managed domain is a ready domain available that subdomains can simply be added to through the wizard. This way you will only provide a subdomain that will be binded to the domain you chose.
 
     or
 
-    - You can choose a ready Custom domain to add an available domain that we will bind to
+    - You can choose a Custom domain to add an available domain that we will bind to, where you will need to get the domain from a domain provider yourself. You will need to add a CNAME record in your dns manager yourself when following this step.
 
     Since we have a managed subdomain available we will use that in this tutorial and simply provide a subdomain.
 
