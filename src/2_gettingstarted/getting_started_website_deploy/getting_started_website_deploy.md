@@ -192,9 +192,9 @@ To start the wizard click the left menu on Solutions then Solution expose
 
     so that the full domain will be `http://my_first_website.grid.deboeck.xyz/`
 
-    ![my first website domain generation](my_first_website_domain_generation.png)
+    ![my first website domain generation](my_first_website_domain_generation.jpg)
 
-    ![my first website subdomain](my_first_website_subdomain.png)
+    ![my first website subdomain](my_first_website_subdomain.jpg)
 
 5. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
 
@@ -210,8 +210,8 @@ Congratulations!
 
 Once the payment is complete you have your website ready!!
 
-![my first website full domain](my_first_website_full_domain.png)
+![my first website full domain](my_first_website_full_domain.jpg)
 
 You can now access it from the browser using the full domain you registered
 
-![my website access domain](my_website_access_domain.png)
+![my website access domain](my_website_access_domain.jpg)
