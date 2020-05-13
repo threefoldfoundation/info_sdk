@@ -12,7 +12,7 @@
     - [3sdk install](3sdk_install.md)
     - [3sdk use](3sdk_use.md)
     - [Deploy your first solution](getting_started_first_solution.md)
-    - [Tutorials](tutorials.md)
+    - [Tutorials](getting_started_tutorials.md)
         - [How to select a node](explore_nodes.md)
         - [Deploy a website](getting_started_website_deploy.md)
 - [Smart Contract For IT](smart_contract.md)

@@ -90,7 +90,7 @@ Optionally (if you want to deploy the charts);
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](./../adminmenu.png)
+![solutions menu](adminmenu.png)
 
 
 ## Inputs
@@ -124,7 +124,7 @@ Here we specify the size of the nodes that will be selected for deployment. We a
 
 ### Choose a farm to deploy on
 
-![step8](../farms.png)
+![step8](farms.png)
 
 We can choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
 
@@ -155,7 +155,7 @@ We then select IP addresses equal to the number of worker nodes we entered earli
 
 ### Payment
 
-![step10](../payment.png)
+![step10](payment.png)
 
 Finally we select the wallet that we will pay with to proceed with the payment for the solution that will be deployed.
 
@@ -326,7 +326,7 @@ $ kubectl get -o jsonpath="{.spec.ports[0].nodePort}" services wordpress
 We can browse any nodes url on port 31004 to find the wordpress website e.g. [http://172.30.3.2:31004/](http://172.30.3.2:31004/)
 and after some setup screens you will access your articles
 
-![wordpress first article](ressources/wordpress/wordpress.png)
+![wordpress first article](wordpress.png)
 
 ### Helm charting
 
@@ -364,9 +364,9 @@ Forwarding from [::1]:8888 -> 3000
 We can browse localhost on port 8888 to find the grafana UI e.g. [http://localhost:8888/](http://localhost:8888/)
 The username is `admin` and the default admin password to log into the grafana UI is `prom-operator`
 Then you can for instance import a dashboard and use the ID 8588 and don't forget to select the prometheus data source
-![kubernetes-deployment-statefulset-daemonset-metrics dashboard](ressources/grafana/grafana1.png)
+![kubernetes-deployment-statefulset-daemonset-metrics dashboard](grafana1.png)
 or the dashboard ID 6879
-![analysis-by-pod](ressources/grafana/grafana2.png)
+![analysis-by-pod](grafana2.png)
 
 ## Want to know more ?
 

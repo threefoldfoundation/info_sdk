@@ -140,7 +140,7 @@ To start the wizard click the left menu on Solutions then Generic flist
 
 10. You can now choose an IP address that will be given to your container in your network. This is the ip address you will be using to access the container.
 
-    ![Choose IP](my_first_Website_ip.png)
+    ![Choose IP](my_first_website_ip.png)
 
 11. Then read carefully the options you selected previously until this point in the chatflow and confirm them by clicking next to proceed with the payment.
 
