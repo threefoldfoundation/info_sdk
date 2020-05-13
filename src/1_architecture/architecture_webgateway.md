@@ -22,5 +22,5 @@ Source code can be found here: https://github.com/threefoldtech/tcprouter
 ### Scaleout architecture
 ![](webgateway_scale.png)
 
-The independence of network and location created by the webgateway allows this architecture to scale endless. There is not limit to the amount of 3nodes that can be added to the TF Grid create more universal substrate and the number of Ingress and Egress point scales independently from that.  Peer2Peer and scaleout architecture.
+The independence of network and location created by the webgateway allows this architecture to scale endlessly. There is no limit to the amount of 3nodes that can be added to the TF Grid to create more universal substrates and the number of Ingress and Egress points scale independently from that. This results in a true Peer2Peer and scaleout architecture.
 

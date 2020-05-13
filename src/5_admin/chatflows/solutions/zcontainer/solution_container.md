@@ -19,7 +19,7 @@ The solution takes some configurations from the user, we will list them and expl
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
 - `Inetractive`: choose whether you prefer to access to your container through the web browser (coreX) or not.
 - `ssh key` : add your public ssh key `~/.ssh/id_rsa.pub`, if your flist supports using the ssh key from the env variables provided to allow future ssh access
-- `IP Address`: choose the ip address for your ubuntu machine.
+- `IP Address`: choose the IP address for your Ubuntu machine.
 
 
 
@@ -70,7 +70,7 @@ Choosing the expiration time for the solution on the grid
 Choosing the private IP address that will be used to access or communicate with the deployed solution
 
 ### Accessing corex of the deployed container
-Accessing a deployed solution using an flist with the link  `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with ubuntu started.
+Accessing a deployed solution using an flist with the link  `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with Ubuntu started.
 
 ![](2.png)
 

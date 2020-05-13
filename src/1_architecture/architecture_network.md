@@ -3,7 +3,7 @@
 ![](network_funny.png)
 
 ### Introduction
-True peer-to-peer (P2P) is a principle that exists everywhere in the ThreeFold technology stack, especially in the networking part of this.  Farmers produce capacity by connecting hardware to the network and installing Zero-OS.  The P2P network of devices form the TF Grid.  This TF Grid is a universal substrate on which a large variety of IT workloads can run.
+True peer-to-peer (P2P) is a principle that exists everywhere in the ThreeFold technology stack, especially in the networking part of this.  Farmers produce capacity by connecting hardware to the network and installing Zero-OS.  The P2P network of devices forms the TF Grid.  This TF Grid is a universal substrate on which a large variety of IT workloads can run.
 
 ### Peer-to-peer networking
 The TF Grid is built by 3nodes (hardware + Zero-OS) that are connected to the Internet by using the IPv6 protocol.  To futureproof this grid IPv6 has been chosen as the native networking technology.  The TF Grid operates on IPv6 (where available) and creates peer-to-peer network connections between all the containers (and other primitives). Please find more about Zero-OS primitives here [link]() 

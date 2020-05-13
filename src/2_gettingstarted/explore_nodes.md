@@ -1,6 +1,6 @@
 # How to select a node in the grid
 
-One of the first thing to do when you are preparing to deploy some workloads on the Grid is to select the nodes you are going to use.
+One of the first things to do when you are preparing to deploy some workloads on the Grid is to select the nodes you are going to use.
 Depending on what your workloads and requirements are, there are different aspects to take in account.
 
 The Grid explorers gather all the statistics of the nodes and is your source of information to select them.
@@ -42,21 +42,21 @@ Where the node is located in the world. This information is gather using the IP 
 
 ### Farm
 
-To which farm this nodes belongs to.
+To which farm this node belongs to.
 
 ### Free to use
 
-Specify is this node capacity can be reserved with `FreeTFT` or not.
+Specify if this node capacity can be reserved with `FreeTFT` or not.
 
 If the node is marked as free to use. Only `FreeTFT` can be used to pay the reserved capacity.
 
-The currency used to reserve capacity is important to take in account. Because a reservation must be paid in a single transaction, all the nodes used in a reservation must be all be free to use or not. Mixing both is not possible.
+The currency used to reserve capacity is important to take into account. Because a reservation must be paid in a single transaction, all the nodes used in a reservation must all be free to use or not. Mixing both is not possible.
 
 ### Last heartbeat
 
-The date and time at which the explorer received an heartbeat from the node. We consider a node offline is the explorer did not received a heartbeat for more than 10 minutes.
+The date and time at which the explorer received an heartbeat from the node. We consider a node offline is the explorer did not receive a heartbeat for more than 10 minutes.
 
-Make sure to always skip offline node when doing a reservation. Falling to do so will let your reservation blocked until it's provision timeout is reached and then cancelled.
+Make sure to always skip offline node when doing a reservation. Failing to do so will leave your reservation blocked until its provision timeout is reached and then cancelled.
 
 ### List of network interfaces
 

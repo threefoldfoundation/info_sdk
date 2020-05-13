@@ -11,7 +11,7 @@ Through this chatflow, the kubernetes cluster is reserved and configured simply 
 - public ssh key (allowing to access the container using ssh)
 - cluster secret
 - network definition (choice between reuse of a netork that has been set up earlier or new one)
-- ip addresses to access all workers
+- IP addresses to access all workers
 
 This information is sufficient to create the cluster.
 ![](kubernetes_chatflow11.png)
