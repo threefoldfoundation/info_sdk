@@ -6,7 +6,7 @@ We will start by creating an flist that will include the contents of the website
 
 This tutorial will be using [Hugo](https://gohugo.io/getting-started/), which is a static site generator to serve the website contents. A simple configuration and basic files will be used.
 
-The tutorial will also use the example "chat flows" to deploy the solution. The chat flows are wizards that guide you through different steps asking you question to help you generate a reservation understandable by the grid. The Generic flist chatflow will be used where the url of the flist we will be creating is used in the process.
+The tutorial will also use the example "chat flows" to deploy the solution. The chat flows are wizards that guide you through different steps asking you questions to help you generate a reservation understandable by the grid. The Generic flist chatflow will be used where the url of the flist we will be creating is used in the process.
 
 ## Index
 
@@ -130,15 +130,15 @@ To start the wizard click the left menu on Solutions then Generic flist
 
 8. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
 
-    For this tutorial one day will be more then enough. This expiration should include the duration you want the container to live and so the website to be available
+    For this tutorial one day will be more than enough. This expiration should include the duration you want the container to live and so the website to be available
 
     ![Expiration time](chatflow_expiration.png)
 
-9. You can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm. In our case it wont really matter so it can be left empty.
+9. You can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm. In our case it wont really matter so it can be left empty.
 
     ![Choose farms](ubuntu_farms2.png)
 
-10. You can now choose an IP address that will be given to your container in your network. This is the ip address you will be using to access the container.
+10. You can now choose an IP address that will be given to your container in your network. This is the IP address you will be using to access the container.
 
     ![Choose IP](my_first_website_ip.png)
 

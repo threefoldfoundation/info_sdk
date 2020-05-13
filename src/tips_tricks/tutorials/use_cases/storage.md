@@ -28,7 +28,7 @@ This information is sufficient to create the workload on the network.
 
 
 The network might yet be set up, using Wireguard.
-For ubuntu machines, you get command line instruction: 
+For Ubuntu machines, you get command line instruction: 
 ![](minio_chatflow17.png)
 
 

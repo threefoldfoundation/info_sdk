@@ -3,7 +3,7 @@
 ### Introduction
 The storage architecture follows the true peer2peer design of this grid. Any participating node can store elements of objects (files, photos, movies, databases etc.) by offering a slice of the present (local) storage devices. Managing storage and retrieval of all of these distributed fragments is done by software that creates development or end-user interfaces for this storage algorithm. We call this dispersed storage. More details later.
 
-Peer2peer provides the unique proposition of selecting storage providers that match your application and service of business criteria. For example, you might be looking to store data for your application in a certain geographic area (for governance and compliance) reasons. Also, you might want to use different "storage policies" for different types of data. Examples are live versus archived data. All of these uses cases are possible with this storage architecture and can be build by using the same building blocks produced by farmers and consumed by developers/end-users.
+Peer2peer provides the unique proposition of selecting storage providers that match your application and service of business criteria. For example, you might be looking to store data for your application in a certain geographic area (for governance and compliance) reasons. Also, you might want to use different "storage policies" for different types of data. Examples are live versus archived data. All of these uses cases are possible with this storage architecture and can be built by using the same building blocks produced by farmers and consumed by developers/end-users.
 
 ### Dispersed storage architecture design philosophy
 
@@ -42,7 +42,7 @@ c=3
 5: 5c-b-a=12
 ......
 ```
-Mathematically we only need 3 to describe the content (=value) of the fragments. But creating more add reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of the many equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
+Mathematically we only need 3 to describe the content (=value) of the fragments. But creating more adds reliability. Now store those equations distributed (one equation per physical storage device) and forget the original object. So we no longer have access to the values of a, b, c and see and we just remember the locations of all the equations created with the original data fragments. Mathematically we need three equations (any 3 of the total) to recover the original values for a, b or c. So do a request to retrieve 3 of the many equations and the first 3 to arrive are good enough to recalculate the original values. Three randomly retrieved equations are:
 
 ```
 5c-b-a=12
@@ -59,7 +59,7 @@ Now that we know `a=1` we can solve the rest `c=a+2=3` and `b=c-a=2`.  And we ha
 The redundancy and reliability in such a system comes in the form of creating (more than needed) equations and storing them. As shown these equations in any random order can recreate the original fragments and therefore
 redundancy comes in at a much lower overhead.
 
-Example: each object is fragmented into 16 parts. So we have 16 original fragments for which we need 16 equations to mathematically describe them. Now let's make 20 equations and storing them dispersed on 20 devices. To recreate the original object we only need 16 equations, the first 16 that we find and collect which allows us to recover the fragment and in the end the original object. We can lose any 4 of those original 20 equations.
+Example: each object is fragmented into 16 parts. So we have 16 original fragments for which we need 16 equations to mathematically describe them. Now let's make 20 equations and store them dispersed on 20 devices. To recreate the original object we only need 16 equations, the first 16 that we find and collect which allows us to recover the fragment and in the end the original object. We can lose any 4 of those original 20 equations.
 
 The likelihood of losing 4 independent, dispersed storage devices at the same time is very low and since we have continuous monitoring of all of the stored equations we can create additional equations immediately when one of them is missing. Autoregenration of lost data and a self-repairing storage system.
 The overhead in this example is 4 out of 20 which is a mere **20%** instead of (up to) **400%.**
@@ -68,7 +68,7 @@ The overhead in this example is 4 out of 20 which is a mere **20%** instead of (
 
 Dispersed storage is a very important building block for our autonomous grid, we store all data (blockchain databases included) by using this method. This underlying storage method will be presented in many different forms for developers and end-user protocols.
 
-Available today is an S3 interface based on the [min.io](https://min.io/) S3 interface.  With the dispersed storage layer available you can build fast, robust and reliable storage and archiving solution. Some example code and deployment schedules are shared in this manual
+Available today is an S3 interface based on the [min.io](https://min.io/) S3 interface.  With the dispersed storage layer available you can build fast, robust and reliable storage and archiving solutions. Some example code and deployment schedules are shared in this manual
 
 
 ![](storage_architecture_0.png)

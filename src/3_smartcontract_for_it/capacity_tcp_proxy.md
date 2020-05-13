@@ -30,7 +30,7 @@ zos.gateway.sub_domain(reservation=r,
 
 ## How does the TFGateway find the destination domain from incoming traffic
 
-The TFGateway uses 2 technics to identity the destination domain of incoming request:
+The TFGateway uses 2 technics to identify the destination domain of incoming request:
 
 - for HTTP, it inspect the `Host` header value
 - for TLS traffic is uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication)

@@ -59,7 +59,7 @@ All the following commands will require you to start `3sdk` with `--expert` flag
 
 ### Install New Container
 
-If you do not want to have the interactive wizrd, you can specify the different option manually too.
+If you do not want to have the interactive wizard, you can specify the different option manually too.
 
 ```shell
 container install name=someuser identity=someuser email=someuser@gmail.com server=True
@@ -69,7 +69,7 @@ container install name=someuser identity=someuser email=someuser@gmail.com serve
 
 ### Listing Containers
 
-You can list all the 3bot container installed on yout system using the `container list` command
+You can list all the 3bot container installed on your system using the `container list` command
 
 ```shell
 3sdk> container list  

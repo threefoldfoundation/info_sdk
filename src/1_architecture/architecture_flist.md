@@ -28,7 +28,7 @@ That's it, a flist is exactly that metadata with references that point to where 
 
 #### But how does it work ?
 
-One word: CAS (or more words: Content Addressed Storage). We store metadata and data in two ways. Data is stored in a 0-db somewhere. We split files into chunks, and then we save each chunk (content) and it's hash (address) into the database (storage).
+One word: CAS (or more words: Content Addressed Storage). We store metadata and data in two ways. Data is stored in a 0-db somewhere. We split files into chunks, and then we save each chunk (content) and its hash (address) into the database (storage).
 
 The flist itself is the Metadata. It's a database that contains a list of directories and files, all their information (name, size, permissions, ...) and the list of chunk addresses (the list of hashes we can use to query the database).
 

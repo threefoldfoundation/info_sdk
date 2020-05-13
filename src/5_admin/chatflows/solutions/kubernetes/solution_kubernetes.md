@@ -126,7 +126,7 @@ Here we specify the size of the nodes that will be selected for deployment. We a
 
 ![step8](farms.png)
 
-We can choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
+We can choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions can be deployed on. We can either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
 
 ### Uploading your public Key
 

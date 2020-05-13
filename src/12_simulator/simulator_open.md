@@ -4,8 +4,8 @@
 
 Open following files:
 
-- parameters.ipynb
-- params_valuation.ipynb
+- params
+- params_valuation...
 
 you will see
 

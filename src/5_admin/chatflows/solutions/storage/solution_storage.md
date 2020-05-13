@@ -20,7 +20,7 @@ Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 - `memory size` : Memory size needed example 2048
 - `number of data drives and parity drives` : number of drives needed and hence the number of zdbs to be created. Take care of the ratio between the number of data drives and the number of parity drives ([more info about drives](https://docs.min.io/docs/minio-erasure-code-quickstart-guide.html))
     - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
-    - `IP Address` : choose the ip address for your MinIO machine.
+    - `IP Address` : choose the IP address for your MinIO machine.
 
 
 After the deployment of MinIO is complete,  a url will be returned that can be used to access it.

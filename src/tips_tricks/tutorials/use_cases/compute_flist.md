@@ -16,11 +16,11 @@ Through this chatflow, the flist is deployed into your local 3bot in a few simpl
 - Set environment variables (if needed) 
 - Indicate whether the container needs to be accessible using a web browser
 - Choose IPv4 vs IPv6
-- Specify ip addresses
+- Specify IP addresses
 After this specification, the container will be deployed. 
 
 To make it accessible, the following needs to happen: 
 - Activate the network (using wireguard)
-- Access the workload (using the specified ip address)
+- Access the workload (using the specified IP address)
 
 

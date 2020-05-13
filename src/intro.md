@@ -2,7 +2,7 @@
 ![](intro.png)
 
 ## ThreeFold P2P Cloud
-A new standard in peer2peer networking, storage and compute.
+A new standard in peer2peer networking, storage and computing.
 Running on the ThreeFold Grid.
 
 * Capacity in over 21 countries like: United States, Canada, Austria, Belgium,...
@@ -10,7 +10,7 @@ Running on the ThreeFold Grid.
 * Release your workloads to the World Wide Web through our web gateways
 * Encrypted network connections between all your containers through overlay networks 
 
-This Wiki is meant to provide you with all the information you need to get started on the P2P cloud.  There is an easy to use SDK that is being made available for this and it will provider you with a number of different ways to use and operate this P2P cloud.
+This Wiki is meant to provide you with all the information you need to get started on the P2P cloud.  There is an easy to use SDK that is being made available for this and it will provide you with a number of different ways to use and operate this P2P cloud.
 
 It is meant to be for everyone, meaning that the SDK provides means for both highly technical skilled people and people taking their first steps in creating digital services.
 
@@ -30,7 +30,7 @@ Want to know more?
 
 ### ThreeFold Foundation
 <!-- insert general objectives for the TF Network (Grid, Token and 3bot) -->
-The Threefold Foundation is realizing the vision to provides affordable, local digital services by many for anyone. 
+The Threefold Foundation is realizing the vision to provide affordable, local digital services by many for anyone. 
 ![](ses.png)
 For more information on the Foundation, please check [threefold.io](https://threefold.io)
 

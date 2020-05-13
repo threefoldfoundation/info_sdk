@@ -2,10 +2,10 @@
 
 The low-level provider for digital capabilities is hardware.  Hardware provides components that enable software to create, process, transmit and store data.  Nodes run an operating system to expose all embedded components in such a way that applications can use these components.  Operating systems come in many different types, kinds, sizes and purposes.  None of the existing operating systems have the characteristics of what the TF Grid needs:
 - **autonomy**.  TF Grid needs to create compute, storage and networking capacity everywhere.  We cannot rely on remote (or local) maintenance of the operating system by owners  or operating system administrators
-- **simplicity**. The be everywhere, for anyone, good for the planet it has to be simple.  Simplicity will get you the maximum return out 
-- **stateless** In a grid (peer2peer) setup the sum of the components is providing a stable basis for single elements to fail and not bring down the whole system. Therefore the single elements have to be stateless and state needs to be stored in the grid.
+- **simplicity**. To be everywhere, for anyone, good for the planet it has to be simple.  Simplicity will get you the maximum return out 
+- **stateless**. In a grid (peer2peer) setup the sum of the components is providing a stable basis for single elements to fail and not bring down the whole system. Therefore the single elements have to be stateless and state needs to be stored in the grid.
 
-With nothing good enough to do this jon ThreeFold invented an efficient, simple stateless operating system called [Zero-OS](https://github.com/threefoldtech/zos)
+With nothing good enough to do this job, ThreeFold invented an efficient, simple stateless operating system called [Zero-OS](https://github.com/threefoldtech/zos)
 
 ![](3node_nice.png)
 
@@ -27,7 +27,7 @@ To install a 3node and make it part of the TF Grid a few steps need to be comple
 
 All details regarding this process are listed in the TF Grid [wiki](https://wiki.threefold.io/grid/readme#/grid/tf_farming/v2_jsx_farmsetup).  The actual bootloader is very small and brings up the network interface of you hardware and then queries (web) servers for the remainder of the installation files needed.  The operating system is not installed on any local storage facility nor is any state with regards to this operating system stored locally, the hardware does not store any state of the OS and all of it's containers and other Zero-OS primitives.
 
-The mechanism to allow this to work in a safe and efficient manner if a Threefold innovation called flist.  This is explained in more detail [here](architecture_flist.md)
+The mechanism to allow this to work in a safe and efficient manner is a Threefold innovation called flist.  This is explained in more detail [here](architecture_flist.md)
 
 ### Zero-OS
 
