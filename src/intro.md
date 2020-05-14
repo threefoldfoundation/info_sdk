@@ -39,4 +39,3 @@ Underpinning the two initiatives described above sits TF Tech.  This is a regula
 <!-- 
 TODO #5 Check graphics(s) for updated version.
 -->
-
