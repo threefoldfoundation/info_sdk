@@ -9,7 +9,7 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
 - better visualization of reservations in chatflows and admin panel
 - admin panel components more defensive to help users reach successful reservations
 - customized views for solutions for easier management
-- step-by-step turotrials 
+- step-by-step tutorials A new section has been created into the manual specially for this: [tutorials](getting_started_tutorials)
 
 ## Component versions
 
