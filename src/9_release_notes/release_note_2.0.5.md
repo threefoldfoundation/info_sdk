@@ -21,6 +21,12 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
   - [0-OS release notes](https://github.com/threefoldtech/zos/releases/tag/v0.3.1)
   - [tfexplorer release notes](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.3.0)
 
+### 3SDK binaries
+
+- [linux](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_linux_x86_64)
+- [macOS](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_darwin_x86_64)
+- [windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_windows.exe)
+
 ## Known issues
 
 - Impossible to extend or modify a reservation. Research to allow it is ongoing at https://github.com/threefoldtech/tfexplorer/pull/64
