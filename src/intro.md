@@ -20,12 +20,12 @@ We believe the future of the internet is to be created, owned and operated by ma
 The peer2peer cloud provides compute, storage and networking services as a world first in one architecture creating a sovereign, equal and sustainable cloud by many for anyone. [cloud.threefold.io](https://cloud.threefold.io)
 
 Want to know more?
-- [Generic architecture](architecture/architecture.md)
-- [P2P Network architecture](architecture/architecture_network.md)
-- [P2P Webgateway architecture](architecture/architecture_webgateway.md)
-- [P2P Storage architecture](architecture/architecture_storage.md)
-- [P2P node boot](architecture/architecture_boot.md)
-- [P2P container boot](architecture/architecture_flist.md)
+- [Generic architecture](architecture.md)
+- [P2P Network architecture](architecture_network.md)
+- [P2P Webgateway architecture](architecture_webgateway.md)
+- [P2P Storage architecture](architecture_storage.md)
+- [P2P node boot](architecture_boot.md)
+- [P2P container boot](architecture_flist.md)
 
 
 ### ThreeFold Foundation
@@ -38,3 +38,4 @@ For more information on the Foundation, please check [threefold.io](https://thre
 Underpinning the two initiatives described above sits TF Tech.  This is a regular technology company which is creating (and leading) the community to  build the required software.  All software used is open source and we welcome anyone to participate and help us improve.  For more information please see [threefold.tech](https://threefold.tech)
 <!-- 
 TODO #5 Check graphics(s) for updated version.
+-->
