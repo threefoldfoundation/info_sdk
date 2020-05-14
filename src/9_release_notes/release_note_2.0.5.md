@@ -19,7 +19,7 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
 - 0-OS v2:`0.3.1`
   - [Github project](https://github.com/orgs/threefoldtech/projects/87)
   - [0-OS release notes](https://github.com/threefoldtech/zos/releases/tag/v0.3.1)
-  - [tfexplorer release notes](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.2.6)
+  - [tfexplorer release notes](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.3.0)
 
 ## Known issues
 
