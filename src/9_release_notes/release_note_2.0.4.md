@@ -9,11 +9,7 @@
 
 - Jumpscale/SDK: `10.5.2`
   - [Github project](https://github.com/orgs/threefoldtech/projects/69)
-  - [Jumpscale core release notes](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.5.2)
-  - [Jumpscale libs release notes](https://github.com/threefoldtech/jumpscaleX_libs/releases/tag/v10.5.2)
-  - [Jumpscale libs extra release notes](https://github.com/threefoldtech/jumpscaleX_libs_extra/releases/tag/v10.5.2)
-  - [Jumpscale threebot release notes](https://github.com/threefoldtech/jumpscaleX_threebot/releases/tag/v10.5.2)
-  - [Jumpscale builders release notes](https://github.com/threefoldtech/jumpscaleX_builders/releases/tag/v10.5.2)
+  - [Jumpscale release notes](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.5.2)
 - 0-OS v2: `0.3.0`
   - [Github project](https://github.com/orgs/threefoldtech/projects/21)
   - [0-OS release notes](https://github.com/threefoldtech/zos/releases/tag/v0.3.0)

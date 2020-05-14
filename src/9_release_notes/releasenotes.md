@@ -11,21 +11,15 @@
 
 ### 2.1.0 some of the new features
 
-TODO: define date and feature set for 2.1.0
-
-<!-- #### sdk & user interface
+#### sdk & user interface
 
 - user friendly admin panels
 - many more deployment wizards
 - split manuals in 2: 1 for the capacity layer, 1 for the autonomous layer
 
-#### containers / kubernetes
-
-- support for flists inside kubernetes
-
 #### 3bot connect
 
-- seamless integration with ipv4/6 gateway from your mobile -->
+- seamless integration with ipv4/6 gateway from your mobile
 
 ## how to get support
 
