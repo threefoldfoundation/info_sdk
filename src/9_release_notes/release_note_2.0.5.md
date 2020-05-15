@@ -1,6 +1,6 @@
 # Release notes TFGrid 2.0.5 beta
 
-TFGrid 2.0.5 beta is a minor release which is focus on bug fixing and stability improvement.
+TFGrid 2.0.5 beta is a minor release which is focus on bug fixing and stability improvement. It also include an update in the way how billing works for reservations.
 
 We have received quite a lot of feedback from the field regarding difficulty of installation and confusion around how identity works.
 These concerned have been addressed, documentation improved and 3sdk CLI tool simplified.
@@ -10,6 +10,8 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
 - admin panel components more defensive to help users reach successful reservations
 - customized views for solutions for easier management
 - step-by-step tutorials A new section has been created into the manual specially for this: [tutorials](getting_started_tutorials)
+
+The billing of the reservation has been updated. The amount of token required to make a reservation is now computed per hour. This allows to create very short living reservations. Detail of the new billing is documented in the [wiki](https://wiki.threefold.io/#/capacity_pricing_start?id=threefold-grid-capacity-pricing-promotion).
 
 ## Component versions
 
@@ -23,9 +25,9 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
 
 ### 3SDK binaries
 
-- [linux](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_linux_x86_64)
-- [macOS](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_darwin_x86_64)
-- [windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_windows.exe)
+- Linux: [3sdk_v10.5.3_linux_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_linux_x86_64)
+- MacOS: [3sdk_v10.5.3_darwin_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_darwin_x86_64)
+- Windows: [3sdk_v10.5.3_windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.5.3/3sdk_v10.5.3_windows.exe)
 
 ## Known issues
 
