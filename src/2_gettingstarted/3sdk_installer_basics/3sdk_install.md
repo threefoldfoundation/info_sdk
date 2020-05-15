@@ -14,18 +14,15 @@
 
 ## Get 3sdk binaries
 
-Binaries should be in the [release](https://github.com/threefoldtech/jumpscaleX_core/releases) page for osx and linux
+Binaries can be downloaded from the [Github release page](https://github.com/threefoldtech/jumpscaleX_core/releases) for MacOSX, Linux and Windows.
 
-After downloading the 3sdk make them executable `chmod +x 3sdk`.
+After downloading the 3sdk make them executable:
 
-In terminal do
-
-```shell
-3sdk
-```
-
+- On Linux, in a terminal do `chmod +x 3sdk`.
 - On OSX you probably will have to go to security settings & allow the os to start the 3sdk application.
-- Now go to [3sdk_use](3sdk_use.md) to use the 3sdk to get yourself a 3sdk container on your system using docker.
+- On Windows make sure the [requirements](3sdk_windows) are met.
+
+Now go to [3sdk_use](3sdk_use.md) to use the 3sdk to get yourself a 3sdk container on your system using docker.
 
 ## Using 3sdk from source (experts only)
 
