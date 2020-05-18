@@ -57,6 +57,7 @@
     - [Admin Panel](admin_extending.md)
     - [Jumpscale](internals.md)
     - [ChatFlow](develop_chatflow.md)
+    - [Flist](flist.md)
 - [Simulator](simulator.md)
     - [install](simulator_install.md)
     - [open the simulator](simulator_open.md)
