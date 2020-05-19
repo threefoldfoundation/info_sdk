@@ -18,8 +18,7 @@ The solution takes some configurations from the user, we will list them and expl
 - `environment variables`: set environment variables on your deployed container, enter comma-separated variable=value For example: var1=value1, var2=value2. Leave empty if not needed
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
 - `Inetractive`: choose whether you prefer to access to your container through the web browser (coreX) or not.
-- `ssh key` : add your public ssh key `~/.ssh/id_rsa.pub`, if your flist supports using the ssh key from the env variables provided to allow future ssh access
-- `IP Address`: choose the IP address for your Ubuntu machine.
+- `IP Address`: choose the ip address for your ubuntu machine.
 
 
 
@@ -31,7 +30,7 @@ After the deployment of the flist is complete, a url will be returned that can b
 
 #### Choosing the network name
 
-![Step2](2.png)
+![Step2](flist2.png)
 Choosing the network to be used from a list of existing networks created by the user
 
 #### Choosing the solution name
@@ -53,25 +52,39 @@ Specify the number of CPU cores and the size of the memory to be used by the con
 ![Step6](flist6.png)
 The corex option allows the user to access the container through corex. If disable the user can access the container using ssh
 
-#### Uploading ssh key
-![Step7](flist7.png)
-This ssh key is used in case corex option is No, and the flist supports ssh on startup hence adding the ssh key in the env variables passed to it
 
 #### Choosing environment variables
-![Step8](flist8.png)
+![Step7](flist7.png)
 If the container needs any env variables on startup, they are passed through this option where they are in the format `variable=value` seperated by commas.
 
 #### Choosing the expiration time for the solution
-![Step9](flist9.png)
+![Step8](flist8.png)
 Choosing the expiration time for the solution on the grid
 
+#### Choose a farm to deploy on
+
+![step9](flist9.png)
+
+We can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+
 #### Choosing the private IP address of the container
+
 ![Step10](flist10.png)
 Choosing the private IP address that will be used to access or communicate with the deployed solution
 
+#### Confirm your reservation
+![step11](flist11.png)
+Here we confirm the specifications we entered in the chatflow
+
+#### Payment
+
+![step12](flist12.png)
+
+We select the wallet that we will pay with to proceed with the payment for the solution that will be deployed.
+
 ### Accessing corex of the deployed container
-Accessing a deployed solution using an flist with the link  `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with Ubuntu started.
+
+Accessing a deployed solution using an flist with the link  `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with ubuntu started.
 
 ![](2.png)
-
 
