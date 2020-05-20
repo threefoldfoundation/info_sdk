@@ -54,6 +54,8 @@ The flist represents a very efficient way to distribute a de-duped container ima
     
 On the public hub there is import functionality to import Docker images and create flists out of them. Another way to create your own tar archives and upload these to transform into flists.  More information with regards to creating, managing and using flists can be found [here](https://hub.grid.tf/)
 
+You can find more information about flist and hub usage [here](flist.md)
+
 #### Select which flist to deploy?
 
 For this example we selected the code-server flist in a public hub.  The code-server flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode.  Its visual studio code providing a very feature-rich coding and code management environment.  The flist can be found [here](https://hub.grid.tf/weynandkuijpers.3bot/codercom-code-server-latest.flist).

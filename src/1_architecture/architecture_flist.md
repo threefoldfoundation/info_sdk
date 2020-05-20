@@ -40,3 +40,4 @@ With some tools (like 0-fs, explained later), you can even mount that flist and 
 ## More info
 
 - see [container virtual filesystem details](container_vfs_details.md)
+- see [how to build and upload flist](flist.md)
