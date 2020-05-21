@@ -17,7 +17,7 @@ The tutorial will also use the example "chat flows" to deploy the solution. The 
 
 ### Prepare website content and server
 
-First we need to prepare the content of the website to be viewed. In this tutorial a one page html file will be used to demonstrate the idea. Feel free to add all your content hoever you like.
+First we need to prepare the content of the website to be viewed. In this tutorial a one page html file will be used to demonstrate the idea. Feel free to add all your content however you like.
 
 We will be using [Hugo](https://gohugo.io/getting-started/) to generate the site. To get the hugo binary follow the next steps
 
@@ -190,7 +190,7 @@ To start the wizard click the left menu on Solutions then Solution expose
 
     We can give the name `my_first_website`,
 
-    so that the full domain will be `http://my_first_website.grid.deboeck.xyz/`
+    so that the full domain will be `http://my_first_website.tf-gateway-x.gateway.tf/`
 
     ![my first website domain generation](my_first_website_domain_generation.jpg)
 
