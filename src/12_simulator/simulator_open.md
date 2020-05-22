@@ -1,6 +1,6 @@
 # Simulator Open
 
-![](open_simulator.png)
+![](./img/open_simulator.png)
 
 Open following files:
 
@@ -9,23 +9,23 @@ Open following files:
 
 you will see
 
-![](simulatoropen_1.png)
+![](./img/simulatoropen_1.png)
 
 click on the round symbol next to markdown for each of the params
 
-![](round_symbol.png)
+![](./img/round_symbol.png)
 
-![](simulator_open3.png)
+![](./img/simulator_open3.png)
 
 you will now see following tabs.
 
 close the left parameters tabs
 
-![](simulator_close1.png)
+![](./img/simulator_close1.png)
 
 drag drop (on top) the params next to each other, you should get to:
 
-![](simulator_close2.png)
+![](./img/simulator_close2.png)
 
 now open:
 
@@ -37,11 +37,11 @@ do same as above, click on the round symbol (the voila button)
 
 and reorganize your screens till you have achieved the following
 
-![](simulator_execution.png)
+![](./img/simulator_execution.png)
 
 you will see the exection, this will take a while, its a serious simulator, millions of combinations are done.
 
-![](simulator_start.png)
+![](./img/simulator_start.png)
 
 this is what you should get to.
 

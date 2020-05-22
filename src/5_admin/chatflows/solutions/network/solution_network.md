@@ -6,7 +6,7 @@ This package is used to deploy a network on the grid and to connect your solutio
 
 Go to your admin dashboard `https://localhost:4000/admin` and click on Network
 
-![solutions menu](./adminmenu.png)
+![solutions menu](adminmenu.png)
 
 
 ## Inputs
@@ -30,35 +30,35 @@ The solution takes some configurations from the user, we will list them and expl
 
 ### Choosing the network name
 
-![Step1](network1.png)
+![Step1](./img/network1.png)
 We choose the network name to be referenced again in the dashboard reservation manager
 
 ### Payment currency
-![Step2](network2.png)
+![Step2](./img/network2.png)
 Choosing a currency that will be used for the payment
 
 ### Expiration time
-![Step3](network3.png)
+![Step3](./img/network3.png)
 Choosing the expiration time for the network on the grid
 
 ### Choosing how to reach the entry point node
-![Step4](network4.png)
+![Step4](./img/network4.png)
 
 To reach your solution on the grid you can use IP v6, problem is some countries don't have that infrastructure so we provide them access with an IP v4 entry point.
 
 ### The network IP Range
-![Step5](network5.png)
+![Step5](./img/network5.png)
 
 We decide the IP range the network and all of the other solutions connected on it will operate on
 
 ### Wireguard install
-![Step6](network6.png)
+![Step6](./img/network6.png)
 Just ask you to make sure you have Wireguard installed
 
 ### Wireguard configurations
-![Step7](network7.png)
+![Step7](./img/network7.png)
 While the grid is built around IP v6 you need you to connected to the network, and that's done using wireguard.
 
 ### Configuring your machine
-![Step8](network8.png)
+![Step8](./img/network8.png)
 Now you need to configure your machine to access the network by applying the wireguard configurations

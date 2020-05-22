@@ -6,12 +6,12 @@ The chatflow will also instruct you todo so.
 
 First you will be instructed to provide your domain name and the gateway you wish to delgate your domain on
 
-![Choose Domain](choose_domain.png)
+![Choose Domain](./img/choose_domain.png)
 
 Next you will be asked to choose for how long you want to delgate your domain
 
-![Expiration](reservation_domain_delegation.png)
+![Expiration](./img/reservation_domain_delegation.png)
 
 Finally you will be shown a message that your domain was delegated successfully and will show you which domain to use in the `ns` record you have to create
 
-![Success](domain_delegation_success.png)
+![Success](./img/domain_delegation_success.png)

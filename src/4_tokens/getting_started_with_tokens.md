@@ -1,4 +1,4 @@
-![image alt text](logo.png)
+![image alt text](./img/logo.png)
 
 ## Receiving tokens in the 3SDK Wallets
 
@@ -11,11 +11,11 @@ In the SDK you can easily set up Stellar based wallets for both TFT, FreeTFT and
 
 In the left Menu click Wallets Manager.
 
-![image alt text](wallets_manager.jpg)
+![image alt text](./img/wallets_manager.jpg)
 
 Click Create Wallet and give it a name
 
-![image alt text](create_wallet.jpg)
+![image alt text](./img/create_wallet.jpg)
 
 Your wallet has now been created and should show up in your list
 
@@ -35,11 +35,11 @@ For this example, we will use interstellar.exchange to receive our FreeTFT’s b
 
 Click Add Token
 
-![image alt text](selectasset.png)
+![image alt text](./img/selectasset.png)
 
 ### Step 2: Go to "manual" and Use the following information
 
-![image alt text](manual.png)
+![image alt text](./img/manual.png)
 
 `Asset code` : FreeTFT
 
@@ -49,13 +49,13 @@ You have now added the asset. Now you need to set up a trustline.
 
 ### Step 3: Setting up the Trustline
 
-![image alt text](trustasset_1.png)
+![image alt text](./img/trustasset_1.png)
 
 Click "Trust Asset"
 
 ### Step4: Confirm the trustline-transaction with your password
 
-![image alt text](trustasset_2.png)
+![image alt text](./img/trustasset_2.png)
 
 Upon completing this successfully you have a trustline for FreeTFTs setup and we can now send them your way!
 
@@ -69,7 +69,7 @@ Go to Interstellar and click security in the leftside menu.
 
 Scroll down and click `View Secret Keys`
 
-![image alt text](interstellar_secret.png)
+![image alt text](./img/interstellar_secret.png)
 
 In this section you will find the secret key / public key / wallet name. 
 
@@ -78,12 +78,12 @@ You will have to copy the first part only: the secret key.
 Now go to the SDK Wallets Manager and Click Import Wallet.
 Give the wallet a name and paste your wallet secret.
 
-![image alt text](3sdk_import_1.jpg)
+![image alt text](./img/3sdk_import_1.jpg)
 
 You have now imported the Interstellar wallet and it will show up in your Wallets Manager.
 
-![image alt text](3sdk_import_2.jpg)
+![image alt text](./img/3sdk_import_2.jpg)
 
 The public address of the account is the same for all assets. So by setting up the account, you have also an overview of all tokens / assets for which a trustline has been created. 
 
-![image alt text](3sdk_import_3.jpg)
+![image alt text](./img/3sdk_import_3.jpg)

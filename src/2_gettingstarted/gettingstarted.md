@@ -1,6 +1,6 @@
 # Getting started
 
-![](3fold_header1.png)
+![](./img/3fold_header1.png)
 
 There are 3 main steps to get started
 

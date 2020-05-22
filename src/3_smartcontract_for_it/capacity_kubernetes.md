@@ -1,6 +1,6 @@
 # K8bernetes cluster
 
-![](kubernetes_intro.png)
+![](./img/kubernetes_intro.png)
 
 This primitive allows a user to deploy a kubernetes cluster.
 
