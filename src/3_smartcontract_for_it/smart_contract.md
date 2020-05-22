@@ -1,6 +1,6 @@
 # Smart contract for IT
 
-![](smartcontract_intro.png)
+![](./img/smartcontract_intro.png)
 
 The TF Grid is orchestrated using a very unique approach.
 Each workload gets registered on the TFGrid smartcontract database.
@@ -17,7 +17,7 @@ Each workload gets registered on the TFGrid smartcontract database.
 
 ### the process
 
-![](smart_contract_it_arch.png)
+![](./img/smart_contract_it_arch.png)
 
 #### STEP 1: educate 3bot = TFGrid SDK
 

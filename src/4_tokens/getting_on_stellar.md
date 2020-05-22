@@ -43,13 +43,12 @@ TFT, TFTA and FreeTFT are registered on this blockchain, under the domain `three
 
 ## How to buy TFTs
 
-Trading capabilities are not yet available in the 3Bot Connect app. 
-As from April 29, TFTs are tradable on following exchanges. 
+Trading capabilities are not yet available in the 3Bot Connect app, but there is a growing number of options on how you can buy and sell TFTs:
 
 ### Centralized exchanges
 
-- [Liquid](https://www.liquid.com/) (centralized exchange)
-- [BTC Alpha](https://btc-alpha.com/en/) (centralized exchange)
+- [Liquid](https://www.liquid.com/) (centralized exchange, coming soon)
+- [BTC Alpha](https://btc-alpha.com/en/) (centralized exchange, coming soon)
 
 ### Stellar Decentralized exchange
 
@@ -72,7 +71,7 @@ There is a possibility to connect to us, for useful projects that want to explor
 
 To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.threefold.io) and fill in the application form.
 
-![appl_form](getfreetft_application_form.png ':size=500x620')
+![appl_form](./img/getfreetft_application_form.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->

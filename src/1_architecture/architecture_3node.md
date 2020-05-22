@@ -7,11 +7,11 @@ The low-level provider for digital capabilities is hardware.  Hardware provides 
 
 With nothing good enough to do this job, ThreeFold invented an efficient, simple stateless operating system called [Zero-OS](https://github.com/threefoldtech/zos)
 
-![](3node_nice.png)
+![](./img/3node_nice.png)
 
 3nodes are servers which run the [Zero-OS](https://github.com/threefoldtech/zos) software and provide storage, compute & networking capacity.  All 3nodes together make up the capacity layers for the TF Grid.  Today we have about 600 3nodes in the field. See more details [here](http://www2.cloud.threefold.io)
 
-![](tf_grid.png)
+![](./img/tf_grid.png)
 
 All of these 3nodes have bootloader software installed on a local storage device.  The Zero-OS is delivered to them over the network and the boot facility is hosted on the TF grid itself.
 
