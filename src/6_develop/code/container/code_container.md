@@ -109,9 +109,11 @@ zos.container.create(reservation=r,
                     ip_address='172.20.30.11', # part of ip_range you reserved for your network xxx.xxx.1.10
                     flist='https://hub.grid.tf/weynandkuijpers.3bot/codercom-code-server-latest.flist', # flist of the container you want to install
                     interactive=True,         # True only if corex_connect required, default false
-                    cpu=4,
-                    memory=4196,
-                  # env={},                   # field for parameters like config 
+                    cpu=4, # request 4 virtual CPU
+                    memory=4196, # request 4 GiB of memory
+                    disk_size=2048, # request a 2GiB of storage for the root disk for the container
+                    disk_type='SSD' # use an SSD for the root disk of the container
+                  # env={},                   # field for parameters like config
                     entrypoint='/sbin/my_init')
 ```
 

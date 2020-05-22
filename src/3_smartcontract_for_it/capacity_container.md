@@ -17,6 +17,11 @@ Here is the schema used to define a container reservation:
 - **Volumes**: this is where you define which volume to mount inside the container
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
+- **Capacity**:
+  - **CPU**: the amount of virtual CPU to allocate to the container
+  - **Memory**: the amount memory in MiB to allocate to the container
+  - **DiskSize**: the size in MiB of the root filesystem of the container
+  - **DiskType**: the type of disk to use for the root filesystem of the container. Valid value are 'HHD' or 'SSD'.
 - **NetworkConnection**: this is where you define the network of the container
   - **NetworkId**: the name of the network created using a [network](network.md) primitive
   - **Ipaddress**: net.IP: The IP address to give to the container
@@ -51,7 +56,9 @@ zos.container.create(reservation=r,
                     node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
                     network_name='<network_name>', # this assumes that this network is already provisioned on the node
                     ip_address='172.24.1.10', # part of ip_range you reserved for your network xxx.xxx.1.10
-                    flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # flist of the container you want to install
+                    flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # flist of the container you want to install,
+                    disk_size=2048, # request a 2GiB of storage for the root disk for the container
+                    disk_type='SSD' # use an SSD for the root disk of the container
                   # interactive=True,  # True only if corex_connect required, default false
                     env={"KEY":"VAL"},
                     entrypoint='/sbin/my_init') #
@@ -69,10 +76,8 @@ zos.billing.payout_farmers(wallet, registered_reservation)
 # inspect the result of the reservation provisioning
 time.sleep(5)
 result = zos.reservation_result(registered_reservation.reservation_id)
- 
+
 print("provisioning result")
 print(result)
 {'Namespace': '60-3', 'IP': '2a02:1802:5e:1102:e85a:41ff:fedb:2c65', 'Port': 9900}
 ```
-
-
