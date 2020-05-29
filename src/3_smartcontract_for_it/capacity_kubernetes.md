@@ -24,8 +24,8 @@ Schema used to define a 0-DB namespace reservation:
 
 | size | vCpu | RAM (GiB) | Storage (GiB) |
 | --- | --- | --- | --- |
-| 2 | 1 | 2 | 50 |
-| 1 | 2 | 4 | 100 |
+| 1 | 1 | 2 | 50 |
+| 2 | 2 | 4 | 100 |
 
 ## Example
 
