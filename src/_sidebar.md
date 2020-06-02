@@ -8,6 +8,7 @@
 - [Release notes](releasenotes.md)
     - [2.0.4 beta](release_note_2.0.4.md)
     - [2.0.5 beta](release_note_2.0.5.md)
+    - [2.0.5 beta](release_note_2.0.5.md)
 - [Getting Started](gettingstarted.md)
     - [3bot connect install](3botconnect_install.md)
     - [3bot connect overview](3botconnect_overview.md)
