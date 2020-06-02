@@ -20,7 +20,7 @@ zos = j.sal.zosv2
 # create a reservation
 r = zos.reservation_create()
 
-zos.gateway.sub_domain(reservation=r,
+zos.gateway.tcp_proxy(reservation=r,
                             node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
                             domain='solution1.tfgrid.zaibon.be',
                             addr='2a02:2788:864:1314:9eb6:d0ff:fe97:764b',
