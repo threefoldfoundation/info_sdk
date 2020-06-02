@@ -53,7 +53,7 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 
 - Jumpscale/SDK: `10.6`
   - [Github project](https://github.com/orgs/threefoldtech/projects/88)
-  - [Jumpscale release notes](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.6rc1)
+  - [Jumpscale release notes](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.6)
 - 0-OS v2:`0.3.1`: TODO, CHANGE LINKS BELOW
   - [Github project](https://github.com/orgs/threefoldtech/projects/87)
   - [0-OS release notes](https://github.com/threefoldtech/zos/releases/tag/v0.3.1)
@@ -61,9 +61,9 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 
 ### 3SDK binaries
 
-- Linux: [3sdk_v10.6rc1_linux_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6rc1/3sdk_v10.6rc1_linux_x86_64)
-- MacOS: [3sdk_v10.6rc1_darwin_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6rc1/3sdk_v10.6rc1_darwin_x86_64)
-- Windows: [3sdk_v10.6rc1_windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6rc1/3sdk_v10.6rc1_windows.exe)
+- Linux: [3sdk_v10.6_linux_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_linux_x86_64)
+- MacOS: [3sdk_v10.6_darwin_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_darwin_x86_64)
+- Windows: [3sdk_v10.6_windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_windows.exe)
 
 ## Known issues
 
