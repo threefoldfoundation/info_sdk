@@ -26,7 +26,7 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 
 #### Chatflows improvements
 
-- Statefull chatflows:
+- Stateful chatflows:
   - Pick up where a chatflow was last left
   - Go back and forth within a chatflow
 - Gitea solution chatflow
@@ -50,7 +50,7 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 
 - Improve docs and provide more tutorials
 
-#### Bbugs fixed
+#### Bugs fixed
 
 - Mixing of `--expert` and non-expert mode issues fixed
 - 3bot restart issues
