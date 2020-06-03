@@ -37,4 +37,4 @@ The billing of the reservation has been updated. The amount of token required to
 
 ## Roadmap see
 
-- [Roadmap](info:roadmap.md)
+- [Roadmap](wiki:roadmap.md)
