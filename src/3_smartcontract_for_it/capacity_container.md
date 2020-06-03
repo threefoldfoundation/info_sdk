@@ -27,6 +27,7 @@ Here is the schema used to define a container reservation:
   - **Ipaddress**: net.IP: The IP address to give to the container
   - **PublicIp6**: if this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
+- **Statistics**: a redis backend where you can send periodic statistics
 
 ## Flist
 
@@ -42,6 +43,71 @@ On this web page, you can track processes you run and attach them to get a remot
 It's like ssh over web page.
 
 You can use `j.clients.corex` to start, stop, list etc. process on your Core X.
+
+## Logs
+
+In order to get your container logs easily readable and accessible, without adding anything to your container code, you can
+provide some extra settings to get your logs (stdout and stderr) pushed remotely to a redis channel.
+
+You can even specify multiple endpoint. For now only redis is supported but this can be extended in the futur.
+
+In the reservation payload, there is a `logs` field where you can specify your endpoints:
+
+```
+    ...
+    "entrypoint": "",
+    "interactive": true,
+    ...
+    "logs": [
+        {
+            "type": "redis",
+            "data": {
+                "stdout": "redis://1.2.3.4:6379/container-stdout",
+                 "stderr": "redis://1.2.3.4:6379/container-stderr"
+            }
+        }
+    ],
+    ...
+```
+
+Fields `stdout` and `stderr` wants uri like: `redis://host:port/channel`.
+
+You can read them via redis using `SUBSCRIBE container-stdout container-stderr` for example.
+
+## Statistics
+
+Like logs, you can send statistics to a (only for now) redis channel. Container will send each 2 seconds a statistic info into
+the specified channel:
+```
+{
+    "timestamp": 1586221435,
+    "memory_usage": 561152,
+    "memory_limit": 315621376,
+    "memory_cache": 36864,
+    "cpu_usage": 12129887,
+    "pids_current": 1
+}
+```
+
+To set your remote endpoint, you can specify in the reservation:
+```
+    ...
+    "interactive": true,
+    "logs": null,
+    "stats_aggregator": [
+        {
+            "type": "redis",
+            "data": {
+                "endpoint": "redis://1.2.3.4:6379/container-stats"
+            }
+        }
+    ],
+    ...
+```
+
+Fields `endpoint` wants uri like: `redis://host:port/channel`
+
+You can read them via redis using `SUBSCRIBE container-stats` for example.
 
 ## Example using sdk
 
