@@ -5,6 +5,8 @@ The basic idea is to provide a reliable storage solution that leverage on the cu
 
 > NOTE: We are discussing a modified version of minio that has be officially released by threefold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `threefold` version. You can find the source code [here](https://github.com/threefoldtech/minio)
 
+## Installation tutorial
+Please check a full installation tutorial [here](tutorial.md)
 # Diagrams
 ![Minio Arch](../../img/minio-arch.png)
 
