@@ -57,7 +57,10 @@ For storage type we choose HDD. HDD speed is good enough for archive purposes. A
 Set the username and password for your minio instance. These will be your access KEY, and SECRET.
 ![015](img/015.jpeg)
 
-CPU and Memory capacity giving for each minio instance (each master and slave instance will get 1 CPU and 1024 MB of memory)
+CPU and Memory capacity giving for each minio instance (each master and slave instance will get 1 CPU and 4096 MB of memory)
+
+> Please make sure to set memory to AT LEAST 4G (4096 MB) of memory
+
 ![016](img/016.jpeg)
 
 The total number of ZDB instances (2+1 in this case = 3 ZDB instances), with a `DATA/PARITY` ration of `2/1`
