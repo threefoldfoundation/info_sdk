@@ -4,3 +4,5 @@ Some tutorials to help you getting started
 
 - [How to select a node](explore_nodes.md)
 - [Deploy a website](getting_started_website_deploy.md)
+
+You can also look in the section of the forum to find some community created tutorials: [https://forum.threefold.io/c/learning-library/tutorials-and-examples/21](https://forum.threefold.io/c/learning-library/tutorials-and-examples/21)
