@@ -17,33 +17,61 @@ Public hub: [hub.grid.tf](https://hub.grid.tf)
 If you want to experiment the hub and features, you can use the [playground hub](https://playground.hub.grid.tf).
 This hub can be reset anytime, don't put sensitive or production code there.
 
-# Uploading your image
+# Build your own flist using 3sdk
+
+### we using zflist binary in [0-flist](https://github.com/threefoldtech/0-flist/tree/development-v2)
+ 
+to install it using kosmos
+ ```
+ j.builders.storage.zflist.install(reset=True)
+ ```
+ 
+## create new flist:
+### create new flist then put file from local then commit it
+```python
+new_flist = j.data.flist.new() 
+new_flist.put("/sandbox/code/github/test.py","/") 
+new_flist.commit("/sandbox/code/app.flist") 
+#delete everything in temporary-point
+new_flist.close()
+```
+
+## open flist and edit on it:
+### open flist , put dir from local , commit it
+```python
+new_flist = j.data.flist.open("/tmp/app.flist") 
+new_flist.put_dir ("/tmp/app","/") 
+# list all things in flist
+new_flist.list_all()
+new_flist.commit("/sandbox/code/app2.flist") 
+#delete everything in temporary-point
+new_flist.close()
+```
+
+
+## upload flist to hub (Guest):
+before upload to hub please export  ``ZFLIST_HUB_TOKEN`` on this [example](https://github.com/threefoldtech/0-flist/tree/development-v2#example)
+
+```python
+new_flist = j.data.flist.open("/tmp/app.flist") 
+new_flist.put_dir ("/tmp/app","/") 
+# list all things in flist
+new_flist.list_all()
+new_flist.commit("/sandbox/code/app2.flist") 
+new_flist.upload("/sandbox/code/app2.flist")
+```
+
+Then check it at ```https://playground.hub.grid.tf/guest```
+
+Note: token is itsyou.online API key, you can't use 3bot login for now.
+An open issue to allow it is in progress at [threefoldtech/0-hub/issues/28](https://github.com/threefoldtech/0-hub/issues/28)
+
 
 ## Upload an image
 
 The easiest way to upload your image to the hub is building a `.tar.gz` archive of your files/directories
 (the root directory of your container) and upload it to the hub. The hub will itself convert it to an flist
 you can use directly on any Zero-OS container.
-
-## Command line tool
-
-If you want to use command line tools, you can use [0-flist](https://github.com/threefoldtech/0-flist/tree/development-v2)
-
-Here is a simple example how to upload a complete directory:
-
-```
-export ZFLIST_MNT=/tmp/zflistmnt
-export ZFLIST_BACKEND='{"host": "hub.grid.tf", "port": 9980}'
-export ZFLIST_HUB_TOKEN=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVC....
-
-zflist init
-zflist putdir /mnt/ubuntu-18.04 /
-zflist commit /tmp/ubuntu-18.04.flist
-zflist hub upload /tmp/ubuntu-18.04.flist
-```
-
-Note: token is itsyou.online API key, you can't use 3bot login for now.
-An open issue to allow it is in progress at [threefoldtech/0-hub/issues/28](https://github.com/threefoldtech/0-hub/issues/28)
 
 ## Metadata
 
