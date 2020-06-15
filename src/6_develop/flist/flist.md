@@ -63,6 +63,24 @@ new_flist.upload("/sandbox/code/app2.flist")
 
 Then check it at ```https://playground.hub.grid.tf/guest```
 
+
+## Command line tool
+
+If you want to use command line tools, you can use [0-flist](https://github.com/threefoldtech/0-flist/tree/development-v2)
+
+Here is a simple example how to upload a complete directory:
+
+```
+export ZFLIST_MNT=/tmp/zflistmnt
+export ZFLIST_BACKEND='{"host": "hub.grid.tf", "port": 9980}'
+export ZFLIST_HUB_TOKEN=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVC....
+
+zflist init
+zflist putdir /mnt/ubuntu-18.04 /
+zflist commit /tmp/ubuntu-18.04.flist
+zflist hub upload /tmp/ubuntu-18.04.flist
+```
+
 Note: token is itsyou.online API key, you can't use 3bot login for now.
 An open issue to allow it is in progress at [threefoldtech/0-hub/issues/28](https://github.com/threefoldtech/0-hub/issues/28)
 
