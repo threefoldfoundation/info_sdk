@@ -9,7 +9,6 @@ The basic idea is to provide a reliable storage solution that leverage on the cu
 Please check a full installation tutorial [here](chatflow_hercule.md)
 
 # Diagrams
-## Single setup
 ![Minio Arch](img/minio-arch.png)
 
 ## Master/Slave setup
