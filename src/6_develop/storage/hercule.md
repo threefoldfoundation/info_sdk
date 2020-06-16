@@ -17,13 +17,29 @@ We have a modified version of minio so it can work against our zdb instances. It
 Once files are uploaded, we can afford losing multiple `0-db` instances (below certain threshold) and still able to retrieve the files un-intact. (later we can heal the setup to make sure files are distributed again in an optimal manner)
 
 # Deployment
+## Graphical
 Please refer to the [tutorial](tutorial.md) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
+
+## Programmatically
+Please make sure you understand the graphical method first. Since it explains the generic main steps that you need to build a solution from scratch.
+
+In [this document](https://github.com/threefoldtech/jumpscaleX_libs/blob/development/JumpscaleLibs/sal/zosv2/readme.md) it explains building "simple" solutions using the API (jumpscale API), including a single node `minio` setup.
+
+For a more complex flow (master/slave) setup please check the [chat flow](https://github.com/threefoldtech/jumpscaleX_threebot/blob/development/ThreeBotPackages/tfgrid_solutions/tfgrid_solutions/chatflows/minio_deploy.py) code, where it uses the jumpscale API to build a complete minio setup from scratch.
 
 # Disaster recovery
 ## Monitoring
 Minio provides metrics for prometheus, so you can monitor the health of the instance and also the zdb shards. By checking the rate of the errors owner of the instance can decide to start a heal process.
 
 ## Healing
+## Reinstalling minio.
+Minio keep some state (metadata) in the container that is pretty important to be able to actually list and download your files back from zdb. Without this meta even if the data is not lost, there is no way to reconstruct your files back. Hence a master/slave setup is recommended. In a master/slave setup you can even lose BOTH your instances (the master and the slave) and still recover your files because minio keep also a transaction log `tlog`. The tlog is another (extra) zdb namespace that is used mainly to synchronize the master and the slave(s) nodes.
+
+Reinstalling any of the minio instances (the master or the slave) with exactly same setup (data shards and tlog shard) will make minio rebuild its local metadata store. It doesn't matter if it's a master or slave instance, they will rerun the tlog to catchup to all the changes in the tlog. Then after they are synched, only the master minio can actually add new transactions to the log, hence the master node is the only node you can upload files to, while all the slaves can be used for "read-only" access.
+
+## Healing routines
+This healing routines make sure that the data distribution is ideal on all the configured zdb nodes. Based on your setup, make sure to run the healer jobs regularly.
+
 Minio provides a `healer` api where you can kick start healing jobs.
 The API  can be used to run a full check on all the objects, or a full bucket, or a single object.
 The API provide options so you can do a check without fixing, or check and fix (default). The check or check and fix jobs can either run in the foreground
