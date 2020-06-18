@@ -9,8 +9,11 @@ The basic idea is to provide a reliable storage solution that leverage on the cu
 Please check a full installation tutorial [here](chatflow_hercule.md)
 
 # Diagrams
+## Single setup
 ![Minio Arch](img/minio-arch.png)
 
+## Master/Slave setup
+![Minio Master/Slave](img/minio-master-slave.png)
 
 # Data flow
 We have a modified version of minio so it can work against our zdb instances. It has been modified to use [0-stor](https://github.com/threefoldtech/0-stor). `0-stor` can do `replication or distribution` out of the box. Hence files uploaded to this version of minio are split into separate smaller chunks, and distributed across separate instances of `0-db`. The distribution is done according to the configuration (discussed later).
