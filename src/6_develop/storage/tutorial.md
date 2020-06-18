@@ -3,6 +3,25 @@ This tutorial will guide you to install a fully working minio storage instance i
 
 The solution will also show you how to install an additional monitoring solution to check the health of nodes, and more information about the storage capacity and free space.
 
+## Size Calculations
+Each minio container instance requires a `Volume` to store the metadata for the files. So if the disk is limited, this can limit the number/and total size of the files that can be stored, even if the zdb backend still has more space.
+
+We coined this formula to give a rough `estimate` of the disk size (per minio container) that you need to support your archive.
+
+```
+Assume:
+D = number of data shards
+P = number of parity shards
+N = expected number of files in the archive
+S = expected archive total size
+B = block size
+M = required metadata volume size
+
+Then:
+C = D + P
+M = {([26 * C] + 40) * S/B} + N * 2560
+```
+
 ## Steps
 ### Installing the network
 In your admin panel, click on `Solutions > Network` then click the `Create New` button. This should show up a window as the following one.
