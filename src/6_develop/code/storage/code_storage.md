@@ -159,7 +159,7 @@ results = zos.reservation_result(rid_zdb)
 If you want to have a look at what is returned as results it will look similar to this
 ```
 category = "ZDB"
-    data_json = "{\n \"IP\": \"2a04:7700:1003:1:54f0:edff:fe87:2c48\",\n \"Namespace\": \"9012-4\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a04:7700:1003:1:54f0:edff:fe87:2c48\",\n \"Namespace\": \"9012-4\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:33"
     message = ""
     signature = "db9ffc8b89702887575ae1c54481a916bafea6036ce85419ab95302756c3ca45955fd8961901d87ccb3f0a92eca31bc202106fe3d1d746e32d0b01017c0b220e"
@@ -167,7 +167,7 @@ category = "ZDB"
     workload_id = "9012-4"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2a02:16a8:1000:0:5c2f:ddff:fe5a:1a70\",\n \"Namespace\": \"9012-1\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a02:16a8:1000:0:5c2f:ddff:fe5a:1a70\",\n \"Namespace\": \"9012-1\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:35"
     message = ""
     signature = "0cded492a91fc54c862a79a56b4e41372ee4a7bd298ba01b94134b63679f35856a697fae8d9aa53d3b9de3aeb324b3ddea034eadeea708df0bf8e3d30176540a"
@@ -175,7 +175,7 @@ category = "ZDB"
     workload_id = "9012-1"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2a02:16a8:1000:0:1083:59ff:fe38:ce71\",\n \"Namespace\": \"9012-2\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a02:16a8:1000:0:1083:59ff:fe38:ce71\",\n \"Namespace\": \"9012-2\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:38"
     message = ""
     signature = "caf5c78a314e4673abadf2a53a79e20939598ef9c4dab07cd461c82cc195c8df940b0d7bb05544c409e5a3e695220c432d2c31e2366f595d46f4141b106dbc09"
@@ -183,7 +183,7 @@ category = "ZDB"
     workload_id = "9012-2"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2003:d6:2f32:8500:dc78:d6ff:fe04:7368\",\n \"Namespace\": \"9012-7\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2003:d6:2f32:8500:dc78:d6ff:fe04:7368\",\n \"Namespace\": \"9012-7\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:40"
     message = ""
     signature = "8eca8bc3feff37997f0a1958ab9c7b563932c7c4fc05fab9c95a4d353fb79e12ea1b1f3e355a8d13c790edc5e4fabe139970346a0fccbc9c32f4da91a7f7f20f"
@@ -191,7 +191,7 @@ category = "ZDB"
     workload_id = "9012-7"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2a02:16a8:1000:0:fc7c:4aff:fec8:baf\",\n \"Namespace\": \"9012-3\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a02:16a8:1000:0:fc7c:4aff:fec8:baf\",\n \"Namespace\": \"9012-3\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:43"
     message = ""
     signature = "707ac7ed6a3930175b12488857a08a67b5d64dbc431fa19d3ccc1cea097b6c6bbbaac3a54de19360ca405079123f5f3f089e8ea3623a83e561fad5137dfa1507"
@@ -199,7 +199,7 @@ category = "ZDB"
     workload_id = "9012-3"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2a04:7700:1003:1:acc0:2ff:fed3:1692\",\n \"Namespace\": \"9012-5\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a04:7700:1003:1:acc0:2ff:fed3:1692\",\n \"Namespace\": \"9012-5\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:44"
     message = ""
     signature = "4023a55eaf26a02dddb61004334c5324d4f880d31327eec4ad0884c6a0b66eaeff4b5e0f14725953ac45074abe6c984f71e06f8e2b37d3a341e4fe9d7a7e500f"
@@ -207,7 +207,7 @@ category = "ZDB"
     workload_id = "9012-5"
 
     category = "ZDB"
-    data_json = "{\n \"IP\": \"2a04:7700:1003:1:ac9d:f3ff:fe6a:47a9\",\n \"Namespace\": \"9012-6\",\n \"Port\": 9900\n}"
+    data_json = "{\n \"IPs\": \"2a04:7700:1003:1:ac9d:f3ff:fe6a:47a9\",\n \"Namespace\": \"9012-6\",\n \"Port\": 9900\n}"
     epoch = "2020/03/25 07:38:44"
     message = ""
     signature = "86992453291b9c6dbf19965248ecc23a55f1b0379546b2fa41aa7476fde84e15e63174a0f8ee9e2e622d7e3986ecd15e07cba81d98d5a54f8bdc722b1fe64705"
@@ -227,7 +227,7 @@ With the low level zero-DB reservations done and stored the `results` variable (
 namespace_config = []
 for result in results:
     data = result.data_json
-    cfg = f"{data['Namespace']}:{password}@[{data['IP']}]:{data['Port']}"
+    cfg = f"{data['Namespace']}:{password}@[{data['IPs']}]:{data['Port']}"
     namespace_config.append(cfg)
     
 # All IP's for the zdb's are now known and stored in the namespace_config structure.
