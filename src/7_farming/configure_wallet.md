@@ -10,18 +10,18 @@ The easiest method to configure the wallet addresses of your farm is to do it fr
 
 1. Click on the little gear in the `Actions` colum of the farm tables
 
-![farm table](img/farm_table_configure.png)
+![farm table](./img/farm_table_configure.png)
 
 This will open up the configuration page of the farm
 
-![farm configuration](img/farm_configuration.png)
+![farm configuration](./img/farm_configuration.png)
 
 Click the big green button `Add wallet address` at the bottom of the form. This will create a new wallet address.
 A wallet address is composed of 2 things, the address itself and the asset code. The asset code is used to identify the currency on the stellar blockchain.
 
 Fill in the wallet address with your address and the correct asset. You can add as many addresses as you want. But only one per supported asset you want to accept is required.
 
-![](img/freefarm_wallet_assets.png)
+![](freefarm_wallet_assets.png)
 
 Once you are done, click the save button at the bottom right.
 
