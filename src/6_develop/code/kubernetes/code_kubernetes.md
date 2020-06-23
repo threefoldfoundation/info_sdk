@@ -23,7 +23,7 @@ Each overlay network is private and contains private IP addresses.  Each overlay
 
 #### Set up the capacity environment to find, reserve and configure
 
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the TFGrid SDK.  To check your available identities you can request the number of identities available for you by typing `j.tools.threebot.me` in the kosmos shell.
+Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the TFGrid SDK.
 
 
 
@@ -31,11 +31,8 @@ Make sure that your SDK points to the mainnet explorer for deploying this capaci
 from Jumpscale import j
 import time
 
-# Which identities are available in you SDK
-j.tools.threebot.me
-
 # Make sure I have an identity (set default one for mainnet of testnet)
-me = j.tools.threebot.me.default
+me = j.me
 
 # Load the zero-os sal and reate empty reservation method
 zos = j.sal.zosv2

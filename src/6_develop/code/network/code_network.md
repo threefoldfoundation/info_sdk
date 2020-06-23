@@ -20,11 +20,8 @@ First load you identity and make sure you are talking to the production explorer
 import time
 from Jumpscale import j
 
-# Which identities are available in you SDK
-j.tools.threebot.me
-
 # Make sure I have an identity (set default one for mainnet of testnet)
-me = j.tools.threebot.me.default
+me = j.me
 j.clients.explorer.default_addr_set('explorer.grid.tf')
 ```
 
