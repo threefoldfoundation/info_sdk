@@ -148,9 +148,14 @@ expiration = j.data.time.epoch + (nr_of_hours*hour)
 
 # register the reservation
 rid_zdb = zos.reservation_register(reservation_zdbs, expiration, identity=me)
+
+# next step is to execute the payment transactions
+wallet = j.clients.stellar.get('my_wallet')
+zos.billing.payout_farmers(wallet, rid_zdb)
+
 time.sleep(5)
 
-results = zos.reservation_result(rid_zdb)
+results = zos.reservation_result(rid_zdb.reservation_id)
 ```
 
 If you want to have a look at what is returned as results it will look similar to this
@@ -304,7 +309,13 @@ Last but not least, execute the reservation for the storage manager.
 expiration = j.data.time.epoch + (nr_of_hours*hour)
 # register the reservation
 rid = zos.reservation_register(reservation_minio, expiration, identity=me)
+
+# next step is to execute the payment transactions
+wallet = j.clients.stellar.get('my_wallet')
+zos.billing.payout_farmers(wallet, rid)
+
+
 time.sleep(5)
 
-results = zos.reservation_result(rid)
+results = zos.reservation_result(rid.reservation_id)
 ```

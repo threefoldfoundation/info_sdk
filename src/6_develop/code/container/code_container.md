@@ -124,11 +124,15 @@ import time
 # reserve until now + (x) seconds
 expiration = j.data.time.epoch + (5*60)
 # register the reservation
-rid = zos.reservation_register(r, expiration, identity=me)
+response = zos.reservation_register(r, expiration, identity=me)
 time.sleep(5)
 
 # inspect the result of the reservation provisioning
-result = zos.reservation_result(rid)
+result = zos.reservation_result(response.reservation_id)
+
+# next step is to execute the payment transactions
+wallet = j.clients.stellar.get('my_wallet')
+zos.billing.payout_farmers(wallet, response)
 ```
 
 The reservation had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command.  It has created a secure web interface to the coreX process where we can now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).

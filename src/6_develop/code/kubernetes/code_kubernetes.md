@@ -151,10 +151,15 @@ With the reservation structure done we can now reserve the cluster.
 expiration = j.data.time.epoch + (24*hour)
 
 # register the reservation
-rid = zos.reservation_register(r, expiration)
+response = zos.reservation_register(r, expiration)
+
+# next step is to execute the payment transactions
+wallet = j.clients.stellar.get('my_wallet')
+zos.billing.payout_farmers(wallet, response)
+
 time.sleep(120)
 # inspect the result of the reservation provisioning
-result = zos.reservation_result(rid)
+result = zos.reservation_result(response.reservation_id)
 
 print("provisioning result")
 print(result)
