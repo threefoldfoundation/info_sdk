@@ -20,6 +20,48 @@ We have a modified version of minio so it can work against our zdb instances. It
 Once files are uploaded, we can afford losing multiple `0-db` instances (below certain threshold) and still able to retrieve the files un-intact. (later we can heal the setup to make sure files are distributed again in an optimal manner)
 
 # Deployment
+
+## Capacity requirements
+
+### CPU and Memory
+
+2 virtual CPU and 4 GiB of memory are recommended for the minio container. These values can very depending on the block sizes chosen and if encryption and or compression is enabled.
+
+### Storage shards
+
+Each minio container instance requires a `Volume` to store the metadata for the files. So if the disk is limited, this can limit the number/and total size of the files that can be stored, even if the zdb backend still has more space.
+
+We coined this formula to give a rough `estimate` of the disk size (per minio container) that you need to support your archive.
+
+```
+Assume:
+D = number of data shards
+P = number of parity shards
+N = expected number of files in the archive
+S = expected archive total size
+B = block size
+M = required metadata volume size
+
+Then:
+C = D + P
+M = (((26 * C) + 40) * S/B) + N * 2560
+```
+
+Example for a 10TB archive with block size of 1M:
+
+```
+D = 16
+P = 4
+N = 150000
+B = 1024*1024
+S = 1024*1024*1024*1024 * 10
+B = 1024*1024
+M = (((26 * C) + 40) * S/B) + N * 2560 = 6256025600
+```
+
+`6256025600 bytes = 5.82 GiB required of metadata storage`
+
+
 ## Graphical
 Please refer to the [tutorial](tutorial.md) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
 
