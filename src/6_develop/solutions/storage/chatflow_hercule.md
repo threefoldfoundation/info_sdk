@@ -271,3 +271,6 @@ Clicking the metrics drop down you should see all the `metrics` that are know to
 ![069](./img/069.jpeg)
 
 Later you can add dashboards for `minio` that shows you all minio statistics. We might also later provide a pre-configured minio dashboard that also graph the new custom metrics in minio that were added by `threefold`
+
+Later you can add dashboards for `minio` that shows you all minio statistics.
+Please import this [dashboard](https://raw.githubusercontent.com/threefoldtech/minio/master-rework/cmd/gateway/zerostor/grafana.json) in grafana which will give you the best overview for tall available metrics.
