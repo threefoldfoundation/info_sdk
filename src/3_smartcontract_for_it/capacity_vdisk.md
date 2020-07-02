@@ -28,7 +28,8 @@ r = zos.reservation_create()
 nodes = zos.nodes_finder.nodes_search(sru=10)
 
 # reserve a volume of 10 GiB on a SSD disk
-volume = zos.volume.create(node_id=nodes[0].node_id,
+volume = zos.volume.create(reservation=r,
+                           node_id=nodes[0].node_id,
                            size=10,
                            type='SSD')
 
