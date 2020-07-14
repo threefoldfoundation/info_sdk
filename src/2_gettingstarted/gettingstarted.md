@@ -12,9 +12,9 @@ There are 3 main steps to get started
 
 If you want to jump right in, use the [Deploy your first solution](getting_started_first_solution.md) tutorial. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure.
 
-## Get Yourself a 3bot Connect
+## Get Yourself a 3Bot Connect
 
-As a first step, you need to get yourself a **3bot.connect** identity.  
+As a first step, you need to get yourself a **3Bot.connect** identity.  
 
 This can be done by downloading the app on your smartphone and creating yourself an identity.  Please be aware that this is to be your digital identity on the grid, and holds the keys to access it.  The app provides you with access to  ThreeFold social media platforms, has a wallet for managing TFT's and provides support access.  
 
@@ -36,7 +36,7 @@ You can install your TFGrid SDK hosted on the TFGrid, or on a local OS, for this
 
 ## Get yourself some ThreeFold tokens to get started
 
-- Last you will need TFT tokens in your **3bot.connect** app.
+- Last you will need TFT tokens in your **3Bot.connect** app.
 
 There are three type of token available (2020 H1): [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft)'s,  [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft)'s and [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta)'s.
 

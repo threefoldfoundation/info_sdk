@@ -5,8 +5,8 @@ In this example we will create an overlay network over a number of nodes in the 
 #### Requirements
 
 In order to be able to deploy this example deployment you will have to have the following components activated
-- the 3bot SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
-- if you use a locally installed container with the 3bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
+- the 3Bot SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
+- if you use a locally installed container with the 3Bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
 - capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with.  Instructions to get tokens can be found [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_information/payment/FreeTFT_testtoken.md)
 
 After following these install instructions you should end up having a local, working TFGrid SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)

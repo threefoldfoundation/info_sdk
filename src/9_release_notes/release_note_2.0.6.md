@@ -53,7 +53,7 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 #### Bugs fixed
 
 - Mixing of `--expert` and non-expert mode issues fixed
-- 3bot restart issues
+- 3Bot restart issues
 - Delete specific schema and remove it from cache
 - Resetting name error
 - The total amount deducted is exactly as  paid to  farmer

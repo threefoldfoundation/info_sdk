@@ -28,7 +28,7 @@
 
 - Download the latest binary release from this page [jumpscaleX releases](https://github.com/threefoldtech/jumpscaleX_core/releases)
 
-- Check [3sdk_install](3sdk_install.md) to know how to get your 3bot connect words in installation section
+- Check [3sdk_install](3sdk_install.md) to know how to get your 3Bot connect words in installation section
 
 - Go to the the command prompt then run the exe or just double click it.
 

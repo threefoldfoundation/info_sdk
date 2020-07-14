@@ -1,7 +1,7 @@
 # Install 3sdk
 
 * [Requirements](#Requirements)
-* [3bot private key (3bot words)](#Get-your-3bot-words)
+* [3Bot private key (3Bot words)](#Get-your-3Bot-words)
 * [Install 3sdk command line](#Get-3sdk-binaries)
 * [Use 3sdk command line from source](#Using-3sdk-from-source-experts-only)
 * [Installation on windows](3sdk_windows.md)

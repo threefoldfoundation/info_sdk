@@ -192,7 +192,7 @@ Some points to take care of:
 
 ## Threebot Connect
 
-- In case you need your locations authenticated by 3bot connect in each location you can add
+- In case you need your locations authenticated by 3Bot connect in each location you can add
 
     ```python
     website_location.is_auth = True
@@ -213,5 +213,5 @@ j.tools.threebot.threebotconnect_enable()
 ```
 
 
-Then start 3bot server.
+Then start 3Bot server.
 

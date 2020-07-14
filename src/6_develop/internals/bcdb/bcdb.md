@@ -200,7 +200,7 @@ and sometimes we need to load schemas from these files
 we can load all schemas from toml files in a path
 
     - **manually** `bcdb.models_add("/sandbox/code/github/threefoldtech/digitalmeX/packages/notary/models")`
-    - **Automatically** By default inside 3 a 3bot package, you create a directory called `models` and add your
+    - **Automatically** By default inside 3 a 3Bot package, you create a directory called `models` and add your
 schema `toml` files there, and it wil be loaded automatically
 
 - **Hooks** There are a lot of use cases for triggers, and basically they are added by defining a function like below in the example and inside the finction you could check for the action you want

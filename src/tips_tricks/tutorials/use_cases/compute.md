@@ -1,7 +1,7 @@
 # Deploying a Kubernetes Cluster
 ## Deployment of a Kubernetes cluster through the chatflow
 
-Within the 3bot Admin console, a chatflow has been created to reserve capacity to run Kubernetes cluster on. 
+Within the 3Bot Admin console, a chatflow has been created to reserve capacity to run Kubernetes cluster on. 
 
 ![](./img/kubernetes_chatflow1.png)
 

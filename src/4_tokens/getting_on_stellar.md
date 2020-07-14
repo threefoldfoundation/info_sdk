@@ -1,10 +1,10 @@
 ## Getting TFT's on the Stellar network
 
 <!--
-TODO Generic description to get yourself / your 3bot.connect on the stellar network and get (free) TFT's
+TODO Generic description to get yourself / your 3Bot.connect on the stellar network and get (free) TFT's
 -->
 
-### Getting your 3bot connect to the Stellar network
+### Getting your 3Bot connect to the Stellar network
 
 The 3Bot Connect app has a wallet inside, accessed using either the seed keys of the 3Bot connect app or an imported seed key. 
 The wallet allows you to show your balance in TFTs and FreeTFTs, as well as transferring (sending and receiving) tokens. 

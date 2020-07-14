@@ -19,11 +19,11 @@ Each workload gets registered on the TFGrid smartcontract database.
 
 ![](./img/smart_contract_it_arch.png)
 
-#### STEP 1: educate 3bot = TFGrid SDK
+#### STEP 1: educate 3Bot = TFGrid SDK
 
 IT Experts: Give knowledge to the 3Bots (it's like god defining our DNA of our cells)
 
-#### STEP 2: Business IT/Customer: Asks their 3bot to deploy an IT workload following their requirements 
+#### STEP 2: Business IT/Customer: Asks their 3Bot to deploy an IT workload following their requirements 
 
 - e.g. give me an archive of 1 PB in CH, e.g. deploy a CRM for 100 users, …
 - e.g. deploy my new banking app feature X

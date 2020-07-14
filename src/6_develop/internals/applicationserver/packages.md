@@ -89,13 +89,13 @@ class Package(j.baseclasses.threebot_package):
 
     def install(self):
         """
-        called when the 3bot will install your package
+        called when the 3Bot will install your package
         """
         pass
 
     def start(self):
         """
-        called when the 3bot starts
+        called when the 3Bot starts
         :return:
         """
         #std will load the actors & models & the wiki's, no need to specify
@@ -133,7 +133,7 @@ class Package(j.baseclasses.threebot_package):
 
     def stop(self):
         """
-        called when the 3bot stops
+        called when the 3Bot stops
         :return:
         """
         if not j.sal.fs.exists("{DIR_BIN}/code-server"):
@@ -191,7 +191,7 @@ instance = "default"
 
 - Packages does the lifecycle management of your application
 - Package.py file which is read when a package get's loaded.
-- This is the ONLY file which deals with installing, start/stop, remove a package from a 3bot.
+- This is the ONLY file which deals with installing, start/stop, remove a package from a 3Bot.
 
 
 typical `package.py` should look like
@@ -274,7 +274,7 @@ JSX> p.zerobot.chatbot_examples.start()
 
 
 ## Package manager
-is an actor on threebot, any user with admin rights can call this actor to remotely instruct his 3bot to install/remove/start/stop a package
+is an actor on threebot, any user with admin rights can call this actor to remotely instruct his 3Bot to install/remove/start/stop a package
 package can be identified by means of git_url
 if the package is already on the server (normally not the case) can use the path
 

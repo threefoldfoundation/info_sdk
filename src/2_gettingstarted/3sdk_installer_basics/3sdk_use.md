@@ -1,6 +1,6 @@
 # 3sdk getting started
 
-- [Get your 3bot words](#Get-your-3bot-words)
+- [Get your 3Bot words](#Get-your-3Bot-words)
 - [Basic Features](#Basic-Features)
   - [Start Threebot Container](#Start-Threebot-Container)
   - [Install New Container](#Install-New-Container)
@@ -11,12 +11,12 @@
 - [Advanced features](#Advanced-features)
   - [Controlling code branches](#Controlling-code-branches)
 
-## Get your 3bot words
+## Get your 3Bot words
 
-You will be asked the mnemonic words from your 3bot connect app during installation. Here is how to find them in the app:
+You will be asked the mnemonic words from your 3Bot connect app during installation. Here is how to find them in the app:
 
-- From 3botconnect application go to settings, then show phrase to get your mnemonics
-- Take a note of the 3bot name and your email
+- From 3Botconnect application go to settings, then show phrase to get your mnemonics
+- Take a note of the 3Bot name and your email
 - When registering for the first time you can use these private words in your configurations
 - These words are needed, they are your private key.
 
@@ -28,23 +28,23 @@ You can type `info` and you will see a list of available commands that you can u
 
 ## Basic Features
 
-### Using the 3botconnect app words (mnemonics)
+### Using the 3Botconnect app words (mnemonics)
 
 - You have to use same username & same email
 
 ### Start Threebot
 
-The `threebot start` command is a helper command that will guide you through all the steps required to deploy your 3bot confiner.
+The `threebot start` command is a helper command that will guide you through all the steps required to deploy your 3Bot confiner.
 
 ```shell
 3sdk> threebot start
 Which network would you like to register to?
 make your choice (mainnet,testnet,devnet,none): testnet
 what is your threebot name (identity)?
-example.3bot
+example.3Bot
 Configured email for this identity is me@example.com
-Copy the phrase from your 3bot Connect app here.
-your words from your 3bot application need to be entered here
+Copy the phrase from your 3Bot Connect app here.
+your words from your 3Bot application need to be entered here
 specify secret to encrypt your data:
 specify secret to encrypt your data (confirm):
 ```
@@ -65,20 +65,20 @@ If you do not want to have the interactive wizard, you can specify the different
 container install name=someuser identity=someuser email=someuser@gmail.com server=True
 ```
 
-`server=True` means to start 3bot server.
+`server=True` means to start 3Bot server.
 
 ### Listing Containers
 
-You can list all the 3bot container installed on your system using the `container list` command
+You can list all the 3Bot container installed on your system using the `container list` command
 
 ```shell
 3sdk> container list  
 
 list the containers
 
- - notsomeuser3 : localhost       : threefoldtech/3bot2       (sshport:9000)
- - notsomeuser4 : localhost       : threefoldtech/3bot2       (sshport:9010)
- - 3bot       : localhost         : threefoldtech/3bot2       (sshport:9020)
+ - notsomeuser3 : localhost       : threefoldtech/3Bot2       (sshport:9000)
+ - notsomeuser4 : localhost       : threefoldtech/3Bot2       (sshport:9010)
+ - 3Bot       : localhost         : threefoldtech/3Bot2       (sshport:9020)
 3sdk>  
 ```
 
@@ -97,7 +97,7 @@ container start name=mycontainer
 Either use the sshport info from `container list` command and `ssh root@localhost -p $SSH_PORT` or just execute `container shell` and optionally give it the name of your container
 
 ```shell
-3sdk> container start name=3bot
+3sdk> container start name=3Bot
 ```
 
 ### Getting Container Kosmos

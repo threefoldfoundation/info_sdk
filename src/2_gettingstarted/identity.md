@@ -1,10 +1,10 @@
-# Initialize your 3bot environment with an identity
+# Initialize your 3Bot environment with an identity
 
 ## For the first start of jsx container
 
 - Start kosmos shell using ```jsx container```
 - it will ask you for your identity
-    - if you want to specify it at the start ```jsx container -id someone.3bot``` (there is no need to specify 3bot at the end, this will happen automatically).
+    - if you want to specify it at the start ```jsx container -id someone.3bot``` (there is no need to specify 3Bot at the end, this will happen automatically).
 - if you want to work with more than 1 container, use ```-n aname```.
 
 
@@ -21,12 +21,12 @@ Please keep it safe and remember it.
     j.me.configure()
     ```
 
-This will ask you about your information: 3bot name, email, description, ... . It will also ask if you want to add admins to your system.
+This will ask you about your information: 3Bot name, email, description, ... . It will also ask if you want to add admins to your system.
 This command will automatically register your information in the phonebook.
 
  ![Identity photo](./img/identity.png)
 
-#### Congratulations your 3bot is ready ! Now you can start the 3bot server and start your reservation.
+#### Congratulations your 3Bot is ready ! Now you can start the 3Bot server and start your reservation.
 
 To save your identity, you best copy these files (holding your identity information) to a safe place : 
 
@@ -37,11 +37,11 @@ To save your identity, you best copy these files (holding your identity informat
 Example:
 
 ```
-3BOTDEVEL:3bot:identities: cat default
+3BOTDEVEL:3Bot:identities: cat default
 walid.3bot
 ```
 
-## .test identities (3bot names)
+## .test identities (3Bot names)
 
 - for tests use ```aname.test```  (aname to be changed)
 - the email address you can specify but if not done will be someone@aname.test (--email)
@@ -55,7 +55,7 @@ jsx container -id test5.test -n test -d
 
 will remove your container & redo your registration. 
 
-Your own 3bot name (the one as configured in the default identity is automatically added as administrator to any 3bot created.)
+Your own 3Bot name (the one as configured in the default identity is automatically added as administrator to any 3Bot created.)
  
 ## How to start from an existing private key
 
@@ -129,12 +129,12 @@ JSX>
 i.tfgrid_phonebook_register()
 ```
 
-- Start 3bot server with your preferred identity using
+- Start 3Bot server with your preferred identity using
 ```python
 JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
 ```
 
-- You will find your identity set in 3bot server :
+- You will find your identity set in 3Bot server :
 
 ![multiple_identities](./img/identity4.jpg)
 

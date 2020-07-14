@@ -6,11 +6,11 @@ The result can be uploaded and made available in the flist repository, where it 
 
 ## Deployment of a flist through the chatflow
 
-Within the 3bot Admin console, a chatflow has been created to deploy a generic flist. 
+Within the 3Bot Admin console, a chatflow has been created to deploy a generic flist. 
 
 ![](./img/chatflow_flist0.png)
 
-Through this chatflow, the flist is deployed into your local 3bot in a few simple steps : 
+Through this chatflow, the flist is deployed into your local 3Bot in a few simple steps : 
 - Select the flist to be deployed
 - Indicate public ssh key allowing to access the container through ssh
 - Set environment variables (if needed) 

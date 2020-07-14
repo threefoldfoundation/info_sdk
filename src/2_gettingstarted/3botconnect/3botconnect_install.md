@@ -10,7 +10,7 @@ The 3Bot itself is not ready for generic public usage yet but we already use the
 
 Follow the steps below to set up your 3Bot Connect wallet, and receive and send your first ThreeFold Tokens:
 
-### Install the 3bot connect app on your phone.
+### Install the 3Bot connect app on your phone.
   
 To use the 3Bot Connect App you need to download the 3Bot Connect App available in the Appstore or Google Play Store. Follow the steps and register using your email address.
 
@@ -20,7 +20,7 @@ In the future, these seed words are required to restore your wallet in case your
 
 ![3bot](./img/3bot_seed_phrase.jpg ':size=400x600')
 
-The seed phrase allows you to access and recover your 3bot connect on any device. We highly recommend to write down your seed key on a paper and store it safely offline. The seed phrase is the only "key" to your 3bot and 3bot assets (not only digital currency but also all of the reservations, deployments and data storage on the P2P cloud)
+The seed phrase allows you to access and recover your 3Bot connect on any device. We highly recommend to write down your seed key on a paper and store it safely offline. The seed phrase is the only "key" to your 3Bot and 3Bot assets (not only digital currency but also all of the reservations, deployments and data storage on the P2P cloud)
 
 ### A few very important things to remember
 

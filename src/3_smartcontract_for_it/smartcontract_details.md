@@ -10,7 +10,7 @@ What are the different component that compose it?
 The reservation model consists of 2 parts: the reservation data, and the
 reservation state.  
 The data is defined entirely when the reservation is created, and is immutable after this.  
-The state is mutable, and after the reservation has been created, this will be updated continuously by both the customer 3bot and the farmer 3bot (and possibly other 3bots who will sign to trigger actions).
+The state is mutable, and after the reservation has been created, this will be updated continuously by both the customer 3Bot and the farmer 3Bot (and possibly other 3Bots who will sign to trigger actions).
 
 ### Reservation data
 
@@ -23,13 +23,13 @@ will cause the customer signature to become invalid.
 ### Reservation state
 
 The reservation state is updated throughout the lifetime of the reservation. It also
-contains the signatures needed to have the farmer 3bot take action. In order for
-the farmer 3bot to start provisioning the workloads, or delete the workloads,
+contains the signatures needed to have the farmer 3Bot take action. In order for
+the farmer 3Bot to start provisioning the workloads, or delete the workloads,
 the `signing_request_provision` and `signing_request_delete`, respectively, need to be filled with valid signatures.  
 
-A valid signature is a signature for the reservation data, with a private key owned by one of the 3bots listed in the reservation data (in the `signatures_provision` and `signatures_delete` fields).  
+A valid signature is a signature for the reservation data, with a private key owned by one of the 3Bots listed in the reservation data (in the `signatures_provision` and `signatures_delete` fields).  
 These fields also define the minimum amount of signatures required.  
-For example, a signature request for provisioning might list 3 3bot ids which can sign, but only specify a `quorum_min` of 2. As such, only 2 out of the 3 listed 3bot ids would need to sign before the node is allowed to deploy the workloads.
+For example, a signature request for provisioning might list 3 3Bot ids which can sign, but only specify a `quorum_min` of 2. As such, only 2 out of the 3 listed 3Bot ids would need to sign before the node is allowed to deploy the workloads.
 
 #### Signature validity
 
@@ -38,7 +38,7 @@ the corresponding public key can be used to check if the signature is valid. A [
 
 - It contains at least the minimum amount of signatures required, as defined in
 the `quorum_min` field of the corresponding [signing request field](#signingrequest), 1 if there is no such corresponding signing request.
-- All signatures are valid with a public key owned by a referenced 3bot (referenced in the aforementioned accompanying [signing request field](#signingrequest) or possibly other fields).
+- All signatures are valid with a public key owned by a referenced 3Bot (referenced in the aforementioned accompanying [signing request field](#signingrequest) or possibly other fields).
 
 ##### Signature algorithm
 
@@ -59,7 +59,7 @@ The [reservation object](provisioningflow.md) is the high-level object for deali
 - JSON: TODO: this field needs to away ~~A representation of the `data` object, in JSON form. It is directly derived from
 the `data` field. As such, it is also immutable. This is the actual input for the signature algorithm.~~
 
-Next to the reservation data, there is also a reservation state. These fields describe the current state of the reservation, as well as the signatures provided by authorized 3bots to advance the state of the reservation.
+Next to the reservation data, there is also a reservation state. These fields describe the current state of the reservation, as well as the signatures provided by authorized 3Bots to advance the state of the reservation.
 
 - `NextAction`: This field describes what action should be performed next. Given the [enum values](provisioningflow.md), we can roughly describe a reservation life cycle as follows:  
 
@@ -78,7 +78,7 @@ Next to the reservation data, there is also a reservation state. These fields de
 - `SignaturesProvision`: A list of `signatures` needed to start the provisioning (deploy) step.  
 i.e. after enough valid signatures are provided here, the nodes can start to deploy the workloads defined. The validity of signatures and the amount of valid signatures required is defined by the `SigningRequestProvision` field in the [data]((provisiond.md#reservation-data) object.
 
-- `SignaturesFarmer`: the [signatures](#signingsignature) of the farmer 3bots, which declares that the farmer agrees to provision the workloads as defined by the reservation once there is consensus about the provisioning (see the previous field). Every farmer who deploys a workload will need to sign this. To find out which 3bots need to sign, you can iterate over the workloads defined in the [reservation data](#reservationdata), and collect a set of unique farmer id's from them.~~
+- `SignaturesFarmer`: the [signatures](#signingsignature) of the farmer 3Bots, which declares that the farmer agrees to provision the workloads as defined by the reservation once there is consensus about the provisioning (see the previous field). Every farmer who deploys a workload will need to sign this. To find out which 3Bots need to sign, you can iterate over the workloads defined in the [reservation data](#reservationdata), and collect a set of unique farmer id's from them.~~
 
 - `SignaturesDelete`: Much like `SignaturesProvision`, however it is used when a currently deployed workload needs to be deleted (before it expires). It is tied to the `SignaturesDelete` field in the `data` object.
 - `epoch`: The date of the last modification
@@ -104,38 +104,38 @@ considered invalid and a new one must be created.
 - expiration_reservation: The expiry time of the reservation, i.e. the provisioned workloads.
 The farmer(s) agree(s) to keep the provisioned workloads available until at least this
 time.
-- signing_request_provision: The list of 3bots which can sign for the provisioning to happen,
+- signing_request_provision: The list of 3Bots which can sign for the provisioning to happen,
 and the minimum amount of signatures required to do so, as described in [signing request](#siginingrequest).
-- signing_request_delete: The list of 3bots which can sign for the early deletion of the workloads
+- signing_request_delete: The list of 3Bots which can sign for the early deletion of the workloads
 to happen, and the minimum amount of signatures required to do so, as described in [signing request](#signingrequest).
 
 #### SigningRequest
 
-A signing request defines who (which 3bots) can sign for a particular action,
+A signing request defines who (which 3Bots) can sign for a particular action,
 and the minimum amount of required signatures. The minimum amount of people needed
 can be anything between 1 and the number of signers.
 
-- `Signers`: A list of 3bot ids who can sign. To verify the signature, the public
-key of the 3bot can be loaded, and then used to verify the signature.
-- `QuorumMin`: The minimum amount of requested signatures. At least this amount of 3bots need to sign before the signature request is considered fulfilled.
+- `Signers`: A list of 3Bot ids who can sign. To verify the signature, the public
+key of the 3Bot can be loaded, and then used to verify the signature.
+- `QuorumMin`: The minimum amount of requested signatures. At least this amount of 3Bots need to sign before the signature request is considered fulfilled.
 
 As an example of how this might be applied in practice, consider the following
 signing request:
 
-- `Signers: [3bot_a, 3bot_b, 3bot_c]`
+- `Signers: [3Bot_a, 3Bot_b, 3Bot_c]`
 - `QuorumMin: 1`
 
-This means that any of the 3 listed 3bots can sign the data, and the request is fulfilled as soon as anyone signs. For instance, a workload for testing is used by 3 developers, and any of those can choose to have the workload deployed or deleted.  
+This means that any of the 3 listed 3Bots can sign the data, and the request is fulfilled as soon as anyone signs. For instance, a workload for testing is used by 3 developers, and any of those can choose to have the workload deployed or deleted.  
 If however another person signs (perhaps a 4th developer who is new in the company), the signature will not be valid, as he is not listed in the `signers` field, and therefore he is not able to deploy the workload.
 
 Note that `quorum_min` is a _minimum_ and as such, it is possible, and legal, for more than 1 of the listed persons to sign.  
-I.e. if both `3bot_a` and `3bot_b` sign, the request is still fulfilled.
+I.e. if both `3Bot_a` and `3Bot_b` sign, the request is still fulfilled.
 
 #### SigningSignature
 
-A signature has the actual `signature` bytes, as well as the id of the 3bot which signed. The 3bot id is used to verify that this 3bot is actually allowed to sign, and to fetch its public key to verify the signature. Additionally, the time of signing is also recorded.
+A signature has the actual `signature` bytes, as well as the id of the 3Bot which signed. The 3Bot id is used to verify that this 3Bot is actually allowed to sign, and to fetch its public key to verify the signature. Additionally, the time of signing is also recorded.
 
-- `tid`: Id of the 3bot which signed.
+- `tid`: Id of the 3Bot which signed.
 - `signature`: The actual signature in binary form
 - `epoch`: Time of signing
 

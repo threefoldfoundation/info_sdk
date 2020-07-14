@@ -77,12 +77,12 @@ First you need to tar the contents using
 tar -czvf my_website_flist.tar.gz -C hugo_flist .
 ```
 
-and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with your 3bot app successfully
+and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with your 3Bot app successfully
 
 ![my website flist upload](./img/my_website_flist_upload.png)
 
 Once the upload is complete we now have an flist ready to be used. The flist url we will be need is the source which is usually in the following format
-    `https://hub.grid.tf/YOUR_3BOT_NAME.3bot/my_website_flist.flist`
+    `https://hub.grid.tf/YOUR_3BOT_NAME.3Bot/my_website_flist.flist`
 
 ![my website flist upload success](./img/my_website_flist_upload_success.png)
 
@@ -90,7 +90,7 @@ Once the upload is complete we now have an flist ready to be used. The flist url
 
 Now that we have our flist ready, we are prepared to deploy a container on the grid. To be able to do so you will need to make sure of the following:
 
-- You have a 3bot identity registered on the TFgrid
+- You have a 3Bot identity registered on the TFgrid
 - You have tokens that will be used for payment
 - You have a deployed network
 

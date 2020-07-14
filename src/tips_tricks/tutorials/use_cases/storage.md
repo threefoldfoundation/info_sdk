@@ -1,7 +1,7 @@
 # Deploying S3 Storage Capacity
 ## Deployment of S3 Storage Capacity through the chatflow
 
-Within the 3bot Admin console, a chatflow has been created to reserve S3 storage capacity. 
+Within the 3Bot Admin console, a chatflow has been created to reserve S3 storage capacity. 
 This storage can be dispersed over different nodes. 
 
 ![](./img/minio_chatflow1.png)
