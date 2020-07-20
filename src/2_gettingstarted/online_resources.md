@@ -31,7 +31,7 @@ The flist principle is explained in the introduction architecture section ([here
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
 
 <<<<<<< HEAD
-Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3Bot_connect_app.md).
+Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3bot_connect_app.md).
 =======
 Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3botconnect_overview.md).
 >>>>>>> update more links
