@@ -1,16 +1,5 @@
 # 3sdk getting started
 
-- [Get your 3Bot words](#Get-your-3Bot-words)
-- [Basic Features](#Basic-Features)
-  - [Start Threebot Container](#Start-Threebot-Container)
-  - [Install New Container](#Install-New-Container)
-  - [Running New Container](#Running-New-Container)
-  - [Listing Containers](#Listing-Containers)
-  - [Accessing Container Shell](#Accessing-Container-Shell)
-  - [Getting Container Kosmos](#Getting-Container-Kosmos)
-- [Advanced features](#Advanced-features)
-  - [Controlling code branches](#Controlling-code-branches)
-
 ## Get your 3Bot words
 
 You will be asked the mnemonic words from your 3Bot connect app during installation. Here is how to find them in the app:
@@ -20,92 +9,42 @@ You will be asked the mnemonic words from your 3Bot connect app during installat
 - When registering for the first time you can use these private words in your configurations
 - These words are needed, they are your private key.
 
-## Show all the available commands
-
-You can type `info` and you will see a list of available commands that you can use.
-
-![info](3sdk_info.png)
-
-## Basic Features
 
 ### Using the 3Botconnect app words (mnemonics)
 
 - You have to use same username & same email
 
-### Start Threebot
+## Runnning 3bot
 
-The `threebot start` command is a helper command that will guide you through all the steps required to deploy your 3Bot confiner.
+After the [installation](3sdk_install.md) steps you should have an executable `threebot`
 
-```shell
-3sdk> threebot start
-Which network would you like to register to?
-make your choice (mainnet,testnet,devnet,none): testnet
-what is your threebot name (identity)?
-example.3Bot
-Configured email for this identity is me@example.com
-Copy the phrase from your 3Bot Connect app here.
-your words from your 3Bot application need to be entered here
-specify secret to encrypt your data:
-specify secret to encrypt your data (confirm):
+- in case of pip it should be available for the user
+- in case of poetry you need to be in the isolated environment using `poetry shell`
+
+threebot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
+
+### Setting capabilities for nginx
+
 ```
-
-### Stop Threebot
-
-`threebot stop`
-
-## Advanced features
-
-All the following commands will require you to start `3sdk` with `--expert` flag
-
-### Install New Container
-
-If you do not want to have the interactive wizard, you can specify the different option manually too.
-
-```shell
-container install name=someuser identity=someuser email=someuser@gmail.com server=True
+sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
+to be able to run as a normal user, you don't need it if you are root.
 
-`server=True` means to start 3Bot server.
+- After that we will just do
 
-### Listing Containers
+  ```bash
+  threebot start
+  ```
 
-You can list all the 3Bot container installed on your system using the `container list` command
+- This will take you to configure your identity, It will ask you about your the network you want to use, 3bot name, email, and words.
 
-```shell
-3sdk> container list  
+- Then it will start threebot server you will see some thing like that
 
-list the containers
+  ![configure](identity_new.png)
 
- - notsomeuser3 : localhost       : threefoldtech/3Bot2       (sshport:9000)
- - notsomeuser4 : localhost       : threefoldtech/3Bot2       (sshport:9010)
- - 3Bot       : localhost         : threefoldtech/3Bot2       (sshport:9020)
-3sdk>  
-```
+- After success you can visit the admin dashboard at http://localhost and start creating reservations
 
-Using the `sshport` information you can do `ssh root@localhost -p $SSH_PORT` to manually ssh into the container.
+  ![configure](success.png)
 
-### Start existing Container
-
-To start an existing container:
-
-```shell
-container start name=mycontainer
-```
-
-### Accessing Container Shell
-
-Either use the sshport info from `container list` command and `ssh root@localhost -p $SSH_PORT` or just execute `container shell` and optionally give it the name of your container
-
-```shell
-3sdk> container start name=3Bot
-```
-
-### Getting Container Kosmos
-
-Execute `container kosmos` to get into kosmos shell
-
-
-### Controlling code branches
-
-use `core branch` command to select which branch of the code to use to run your container.
-you want to stop restart the container after switching branch to make sure all the processes inside have been properly updated with the new code.
+## Stopping 3bot
+You can stop threebot using `threebot stop`
