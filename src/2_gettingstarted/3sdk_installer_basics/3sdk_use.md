@@ -24,21 +24,22 @@ After the [installation](3sdk_install.md) steps you should have an executable `t
 threebot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
 
 ### Setting capabilities for nginx
+To be able to run as a normal user, you don't need it if you are root.
 
 ```
 sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
-to be able to run as a normal user, you don't need it if you are root.
+### Starting 3bot
 
-- After that we will just do
+- After setting capabilities for nginx, we can just do
 
   ```bash
   threebot start
   ```
 
-- This will take you to configure your identity, It will ask you about your the network you want to use, 3bot name, email, and words.
+- This will take you to configure your identity, It will ask you about the network you want to use, 3bot name, email, and words.
 
-- Then it will start threebot server you will see some thing like that
+- Then it will start threebot server where you will see some thing like that
 
   ![configure](identity_new.png)
 
