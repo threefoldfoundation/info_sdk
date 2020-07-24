@@ -4,19 +4,20 @@
 
 This primitive allows a user to deploy a kubernetes cluster.
 
-A cluster must be composed of at least 2 nodes. One master node and any number of worker nodes.
+A cluster must be composed of at least 2 nodes. One master node and any number of
+worker nodes.
 
 A kubernetes cluster can be linked to our other primitives.
 
 ## Reservation definition
 
-Schema used to define a 0-DB namespace reservation:
+Schema used to define a kubernetes reservation:
 
-- **NodeId**: The node ID on which to Virtual machine will be created
 - **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
+- **ClusterSecret**: The value of this field must be the same for all the members
+of a cluster
 - **NetworkId**: The name of the network created using a [network](network.md) primitive
 - **Ipaddress**: The IP address to give to the VM
-- **ClusterSecret**: The value of this field must be the same for all the members of a cluster
 - **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here
 - **SshKeys**: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all
 

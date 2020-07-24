@@ -20,6 +20,7 @@
         - [Deploy a website](getting_started_website_deploy.md)
 - [Smart Contract For IT](smart_contract.md)
     - [smartcontract details](smartcontract_details.md)
+    - [capacity reservation](capacity_reservation.md)
     - [container](capacity_container.md)
     - [overlay network](capacity_network.md)
     - [kubernetes](capacity_kubernetes.md)

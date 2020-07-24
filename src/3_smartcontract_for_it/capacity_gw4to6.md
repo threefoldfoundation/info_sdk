@@ -6,7 +6,6 @@ The idea behind this primitive is to try to allow everyone to access the grid, w
 
 ## Reservation definition
 
-- **NodeId**: the gateway ID on which to create the VPN
 - **publicKey**: a wireguard public key
 
 

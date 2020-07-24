@@ -12,7 +12,6 @@ This allows a user to create/update an existing container while keeping all the 
 
 Here is the schema used to define a 0-DB namespace reservation:
 
-- **NodeId**: the node ID on which to create the volume
 - **Size**: the size of the volume in GiB
 - **Type**: the type of disk to use. value can be `HDD` or `SSD`
 

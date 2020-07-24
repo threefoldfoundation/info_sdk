@@ -7,7 +7,6 @@ Delegating allow to create sub-domain directly from the TFGateway.
 
 Here is the schema used to define a container reservation:
 
-- **NodeId**: the gateway ID on which to delegate the domain
 - **domain**: The domain you want to delegate
 
 ## Example using sdk
