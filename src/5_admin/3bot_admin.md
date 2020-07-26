@@ -19,7 +19,7 @@ Allows seeing logs per application
 ### Alerts
 Advanced alerts system
 
-![alerts](./img/alerts.png)
+![alerts](./img/alerts.jpg)
 
 check [alerts.md](admin_alerts.md) for info about its actors
 ### Package management system
@@ -44,20 +44,19 @@ You can view the dashboard by navigating to `http://<host>/admin`.
 
 #### Login
 
-The dashboard is protected by 3Bot connect, you need to register your current 3Bot, from 3Bot server shell (for now, you need to suffix your name with `.3Bot`):
+The dashboard is protected by 3Bot connect. To access it in the first place, the user should have started threebot server using their saved identity  or their 3bot name was added by the initial user giving them access to the dashboard.
 
-```
-j.tools.threebot.init_my_threebot()
-```
-
-Now, you can download [3Bot connect app](https://3Bot.org/3Bot.html) and use it to login with the 3Bot name you registered.
-
-Also, other people can access the dashboard, but they need to be added to admins from `Settings`, Also, admins can be dded to `j.tools.threebot.me.default.admins` via `kosmos` shell:
+Giving admin access to other users can be done from `Settings` or admins can be dded to `j.tools.threebot.me.default.admins` via `jsng` shell:
 
 ```python3
-j.tools.threebot.me.default.admins.append("ahmed.3Bot")
-j.tools.threebot.me.default.save()
+j.core.identity.me.admins.append("ahmed.3Bot")
+j.core.identity.me.save()
 ```
+![admin_list](./img/admin_list.png)
+
+
+The user can also choose to use between multiple identities as long as that identity is registered from the 3bot connect app. This can be done in the `Settings`as well.
+![identity_list](./img/identity_list.png)
 
 
 #### Extending Admin Dashboard
