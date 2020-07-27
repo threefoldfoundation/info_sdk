@@ -46,7 +46,7 @@ You can view the dashboard by navigating to `http://<host>/admin`.
 
 The dashboard is protected by 3Bot connect. To access it in the first place, the user should have started threebot server using their saved identity  or their 3bot name was added by the initial user giving them access to the dashboard.
 
-Giving admin access to other users can be done from `Settings` or admins can be dded to `j.tools.threebot.me.default.admins` via `jsng` shell:
+Giving admin access to other users can be done from `Settings` or admins can be added to `j.tools.threebot.me.default.admins` via `jsng` shell:
 
 ```python3
 j.core.identity.me.admins.append("ahmed.3Bot")
