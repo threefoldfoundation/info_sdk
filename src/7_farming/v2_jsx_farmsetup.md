@@ -20,14 +20,18 @@ See the installation instruction to get yourself the 3SDK installed: [https://sd
 
 ## Create your farm using the 3SDK GUI
 
-When you have installed your 3SDK container, you should be able to access the web GUI at [https://localhost:4000](https://localhost:4000)
+When you have installed your 3SDK, you should be able to access the web GUI at [https://localhost/admin](https://localhost/admin)
 
-### 1. Choose your network
+### 1. Choose your network using identities
 
-First things is to select the network you want to create your farm on. Most probably you want to use `mainnet`.
-To select `mainnet`, click the `settings` tab on the bottom left, then select `Main` in the explorer dropdown input.
+First things is to select the identity with the network you want to create your farm on. Most probably you want to use `mainnet`.
+To check the explorer instance of your identity, click on the `settings` tab and click on the current identity to see the explorer url of it
 
-![network_choice](./img/network_choice.png)
+![identity_list](identity_list.png)
+
+If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+
+![new_identity_form](./img/new_identity_form.png)
 
 ### 2. Install the farm management application
 
