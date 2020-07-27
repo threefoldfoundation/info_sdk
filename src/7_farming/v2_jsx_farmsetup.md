@@ -1,4 +1,4 @@
-# This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid 2.0 (JSX Version)
+# This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid 2.2 (js-ng 11.0.0.alpha1)
 
 **Summary**
 
@@ -68,13 +68,17 @@ Notice the first colume of the table: ID. This is your farm ID, write this down 
 
 To enter kosmos shell just type `kosmos` in your 3SDK terminal
 
-### 1. Choose your network
+### 1. Choose your network using identity
 
-First things is to select the network you want to create your farm on. Most probably you want to use `mainnet`.
+First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You can do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
+
+![identity_buttons](./img/identity_buttons.png)
+
+You can also set the default identity to be used from the js-ng shell
 
 ```python
-j.clients.threebot.explorer_addr_set('explorer.grid.tf')
-# j.clients.threebot.explorer_addr_set('explorer.testnet.grid.tf')  If you want to use testnet
+j.core.identity.set_default("identity_instance_name")
+# This identity can now be accessed using j.core.identity.me
 ```
 
 ### 2. Create a TF Farm
@@ -82,8 +86,10 @@ j.clients.threebot.explorer_addr_set('explorer.grid.tf')
 Now you can create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
+from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+
 # get a client to the explorer
-explorer = j.clients.explorer.explorer
+explorer = j.core.identity.me.explorer
 # create a new farm object
 farm = explorer.farms.new()
 # name your farm
@@ -93,19 +99,25 @@ farm.threebot_id = j.me.tid
 # Instruction below is only for farms which already exist in version 1.x and need to be migrated to version 2.0 !
 # Specify the ItsYouOnline organization link to the farm
 farm.iyo_organization = 'my_super_farm_v1'
+
 # add your wallet address
-wallet_address = farm.wallet_addresses.new()
+wallet_address = TfgridDirectoryWallet_address1()
 wallet_address.asset = 'TFT'
 wallet_address.address = 'GABONHE4AV6FFL57ZAYJXYSM7MHW5ONLYJE5F6O4ZADRUFGBFLHZWOGF'
+farm.wallet_addresses.append(wallet_address)
+
 # email address where farming result and any information for farmer will be sent.
 farm.email = 'myname@gmail.com'
 # actually register the farm on the grid
 farm_id = explorer.farms.register(farm)
+
+# save the farm instance created
+farm.save()
 # print your farmer ID
 print(farm_id)
 ```
 
-If the last function succeeded, your farm is now created.
+If the register function succeeded, your farm is now created and you can save it and proceed.
 If you go to the explorer web UI you should be able to see your farm in "All farms" dropdown list.
 
 ## Create a bootable image
