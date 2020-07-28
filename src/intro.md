@@ -35,7 +35,7 @@ The Threefold Foundation is realizing the vision to provide affordable, local di
 For more information on the Foundation, please check [threefold.io](https://threefold.io)
 
 ### ThreeFold Tech Website
-Underpinning the two initiatives described above sits TF Tech.  This is a regular technology company which is creating (and leading) the community to  build the required software.  All software used is open source and we welcome anyone to participate and help us improve.  For more information please see [threefold.tech](https://threefold.tech)
+Underpinning the two initiatives described above sits TFTech.  This is a regular technology company which is creating (and leading) the community to  build the required software.  All software used is open source and we welcome anyone to participate and help us improve.  For more information please see [threefold.tech](https://threefold.tech)
 <!-- 
 TODO #5 Check graphics(s) for updated version.
 -->
