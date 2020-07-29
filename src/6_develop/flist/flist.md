@@ -17,52 +17,7 @@ Public hub: [hub.grid.tf](https://hub.grid.tf)
 If you want to experiment the hub and features, you can use the [playground hub](https://playground.hub.grid.tf).
 This hub can be reset anytime, don't put sensitive or production code there.
 
-# Build your own flist using 3sdk
-
-### we using zflist binary in [0-flist](https://github.com/threefoldtech/0-flist/tree/development-v2)
- 
-to install it using kosmos
- ```
- j.builders.storage.zflist.install(reset=True)
- ```
- 
-## create new flist:
-### create new flist then put file from local then commit it
-```python
-new_flist = j.data.flist.new() 
-new_flist.put("/sandbox/code/github/test.py","/") 
-new_flist.commit("/sandbox/code/app.flist") 
-#delete everything in temporary-point
-new_flist.close()
-```
-
-## open flist and edit on it:
-### open flist , put dir from local , commit it
-```python
-new_flist = j.data.flist.open("/tmp/app.flist") 
-new_flist.put_dir ("/tmp/app","/") 
-# list all things in flist
-new_flist.list_all()
-new_flist.commit("/sandbox/code/app2.flist") 
-#delete everything in temporary-point
-new_flist.close()
-```
-
-
-## upload flist to hub (Guest):
-before upload to hub please export  ``ZFLIST_HUB_TOKEN`` on this [example](https://github.com/threefoldtech/0-flist/tree/development-v2#example)
-
-```python
-new_flist = j.data.flist.open("/tmp/app.flist") 
-new_flist.put_dir ("/tmp/app","/") 
-# list all things in flist
-new_flist.list_all()
-new_flist.commit("/sandbox/code/app2.flist") 
-new_flist.upload("/sandbox/code/app2.flist")
-```
-
-Then check it at ```https://playground.hub.grid.tf/guest```
-
+# Build your own flist
 
 ## Command line tool
 
@@ -93,7 +48,7 @@ you can use directly on any Zero-OS container.
 
 ## Metadata
 
-Hub include a way to add some metadata (eg: a readme) available through the hub directly. Just add a file
+Hub includes a way to add some metadata (eg: a readme) available through the hub directly. Just add a file
 called `.README.md` (or `.README`) on the root directory of your archive, this file will be used as
 readme. You can use this readme to add documentation about your flist if other people want to use it.
 
