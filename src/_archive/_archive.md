@@ -52,7 +52,7 @@
         - [Network](network.md)
         - [Web](web.md)
     - [Jumpscale](internals.md)
-        - [applicationserver](applicationserver.md)
+        - [Threebot server](threebot_server.md)
         - [actors](actors.md)
         - [packages](packages.md)
         - [locations](locations.md)
