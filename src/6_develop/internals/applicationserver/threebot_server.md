@@ -33,7 +33,7 @@ In case you need to start a local threebot, ny passing `--local` option will, it
 threebot start --local
 ```
 
-You can then access its admin on https://localhost:4000/admin
+You can then access its admin on https://localhost/admin
 
 ### Manual start
 

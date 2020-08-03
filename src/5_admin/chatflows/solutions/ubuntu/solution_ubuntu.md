@@ -4,7 +4,7 @@ Ubuntu is officially released in three editions: Desktop, Server, and Core(for i
 
 ## Accessing the solution
 
-Go to your admin dashboard `https://localhost:4000/admin` and click on Network
+Go to your admin dashboard `https://localhost/admin` and click on Network
 
 ![solutions menu](adminmenu.png)
 
