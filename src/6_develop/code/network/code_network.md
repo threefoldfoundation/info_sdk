@@ -3,6 +3,9 @@
 In this example we will create an overlay network over a number of nodes in the TF Grid.  The nodes and locations can be researched on this explorer site:  http://explorer.grid.tf
 
 
+#### Requirements
+
+Please check the [general requirements](code.md)
 
 #### 1. Load required libraries and create empty reservation structure
 

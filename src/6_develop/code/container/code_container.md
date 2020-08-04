@@ -1,11 +1,13 @@
 ### Deploy a generic container using an flist
 
+#### Requirements
+
+Please check the [general requirements](code.md)
+
 ### Overview
-The aim is to create a simple Kubernetes cluster where we need to follow a few steps:
-- create (or identify and use) an overlay network that spans all of the nodes needed in the solution
-- identify which nodes are involved in the Kubernetes cluster, master and worker nodes
-- create reservations for the Kubernetes virtual machines.
-- deploy the Kubernetes cluster.
+The aim is to deploy a simple container using an flist which is further describer below.
+
+
 
 #### Create an overlay network or identity a previously deployed overlay network
 
@@ -55,15 +57,15 @@ When you executed the reservation it also provided you with data on the order nu
 The reservation for a general-purpose flist has the following structure
 ```python
 zos.container.create(reservation=r,
-                    node_id=string,             # node_id to make the capacity reservation on and deploy the flist
-                    network_name=string,        # network_name deployed on the node (node can have multiple private networks)
-                    ip_address=string,          # one IP address in the range of the chosen network_name on the node
-                    flist=string,               # flist of the container you want to install, htttp hub location.
-                    interactive=Bolean,         # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
-                    cpu=integer,                # number of logical cores
-                    memory=interger,            # number of mBs of memory
+                    node_id={string},             # node_id to make the capacity reservation on and deploy the flist
+                    network_name={string},        # network_name deployed on the node (node can have multiple private networks)
+                    ip_address={string},          # one IP address in the range of the chosen network_name on the node
+                    flist={string},               # flist of the container you want to install, htttp hub location.
+                    interactive={Bolean},         # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
+                    cpu={integer},                # number of logical cores
+                    memory={integer,            # number of mBs of memory
                   # env={},                     # field for parameters like needed in the container environment 
-                    entrypoint=string)          # start command to get the software running in the container
+                    entrypoint={string})          # start command to get the software running in the container
 ```
 
 For more details and options please see [here](https://github.com/threefoldtech/js-sdk/blob/development/jumpscale/sals/zos/container.py)
@@ -98,7 +100,7 @@ Having defined registration structure `r` we can now deploy.  In this example we
 import time
 
 # reserve until now + (x) seconds
-expiration = j.data.time.utcnow().timestamps + (5*60)
+expiration = j.data.time.utcnow().timestamp + (5*60)
 # register the reservation
 response = zos.reservation_register(r, expiration)
 time.sleep(5)
