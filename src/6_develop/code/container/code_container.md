@@ -1,16 +1,7 @@
 ### Deploy a generic container using an flist
 
-#### Requirements
-
-In order to be able to deploy this example deployment you will have to have the following components activated
-- the TFGrid SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
-- if you use a locally installed container with the 3Bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
-- capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with.  Instructions to get tokens can be found [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_information/payment/FreeTFT_testtoken.md)
-
-After following these install instructions you should end up having a local, working TFGrid SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)
-
 ### Overview
-The design a simple Kubernetes cluster we need to follow a few steps:
+The aim is to create a simple Kubernetes cluster where we need to follow a few steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
 - identify which nodes are involved in the Kubernetes cluster, master and worker nodes
 - create reservations for the Kubernetes virtual machines.
@@ -18,24 +9,8 @@ The design a simple Kubernetes cluster we need to follow a few steps:
 
 #### Create an overlay network or identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to do that [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_examples/network/overlay_network.md)
+Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to create a network [here](code_network.md)
 
-#### Set up the capacity environment to find, reserve and configure
-
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the TFGrid SDK.
-
-
-
-```python
-j.clients.explorer.default_addr_set('explorer.grid.tf')
-
-# Make sure I have an identity (set default one for mainnet of testnet)
-me = j.me
-
-# Load the zero-os sal and reate empty reservation method
-zos = j.sal.zosv2
-r = zos.reservation_create()
-```
 
 #### What is a flist?  
 
@@ -58,7 +33,7 @@ You can find more information about flist and hub usage [here](flist.md)
 For this example we selected the code-server flist in a public hub.  The code-server flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode.  Its visual studio code providing a very feature-rich coding and code management environment.  The flist can be found [here](https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.flist).
 
 #### Node selection and parameters.
-You have created a network in the network creation [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb) with the following details:
+You have created a network in the network creation [tutorial](code_network.md) with the following details:
 
 ```python
 demo_ip_range="172.20.0.0/16"
@@ -91,12 +66,13 @@ zos.container.create(reservation=r,
                     entrypoint=string)          # start command to get the software running in the container
 ```
 
-For more details and options please see [here](https://github.com/threefoldtech/jumpscaleX_libs/blob/master/JumpscaleLibs/sal/zosv2/container.py)
+For more details and options please see [here](https://github.com/threefoldtech/js-sdk/blob/development/jumpscale/sals/zos/container.py)
 
 Providing the correct details allows us to deploy the code-server container.
 
 
 ```python
+zos = j.sals.zos
 r = zos.reservation_create()
 
 # Add data to method to what to deploy.  Example is code server
@@ -122,9 +98,9 @@ Having defined registration structure `r` we can now deploy.  In this example we
 import time
 
 # reserve until now + (x) seconds
-expiration = j.data.time.epoch + (5*60)
+expiration = j.data.time.utcnow().timestamps + (5*60)
 # register the reservation
-response = zos.reservation_register(r, expiration, identity=me)
+response = zos.reservation_register(r, expiration)
 time.sleep(5)
 
 # inspect the result of the reservation provisioning
