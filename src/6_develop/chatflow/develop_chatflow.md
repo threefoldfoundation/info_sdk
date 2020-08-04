@@ -7,6 +7,50 @@ Chatflows are an interactive communication bot that can be used to interactively
 
 It's very easy to define a new bot, you just need to make sure it's added in a package and that package is installed with threebot server. The chatflow should be under the `/chats` directory in the package created.
 
+### Main Features
+Each chatflow should include these :
+- `steps` list:
+    It includes the names of the functions of the chatflow steps in the chatflow that will be appearing.
+- `chatflow_step` decorator:
+    Every step function included in the steps list should have this decorator imported using `from jumpscale.sals.chatflows.chatflows import chatflow_step`. If a custom name is to be added for a step, it can be given as a parameter to the decorator function.
+- Title:
+    `title ` (optional) parameter will display a custom title for the chatflow.
+
+### Custom Features
+
+A chatflow can include some custom features which are optional. These features can be activated by providing the corresponding parameter to the `chatflow_step` decorator that is added for each chatflow step
+
+- disable_previous:
+    If set to **True**, the previous button is deactivated and going to any previous step is no longer possible
+- final_step:
+    Is set to **True** for the final step to reset the chatflow after reaching the last step when revisiting it in the same session
+
+### Available question types for user inputs:
+
+- string_ask
+- secret_ask
+- int_ask
+- text_ask
+- single_choice
+- multi_choice
+- multi_list_choice
+- drop_down_choice
+- autocomplete_drop_down
+- datetime_picker
+- time_delta_ask
+- download_file
+- upload_file
+- qrcode_show
+- captcha_ask
+- md_show
+- md_show_confirm
+- loading_show
+- multi_values_ask
+
+
+## Example
+
+### Example code
 Here is an example for a simple chatflow that will help you order a meal from one of your favorite restaurants
 
 ```python
@@ -22,6 +66,7 @@ class FoodChat(GedisChatBot):
     }
     # title = "Food Chatflow"
     steps = ["client_name_select", "restaurant_select", "restaurant_main_dish", "restaurant_side_dish", "confirmation"]
+    title = 'Food Chat'
 
     @chatflow_step("Name")
     def client_name_select(self):
@@ -64,7 +109,8 @@ chat = FoodChat
 
 ```
 
-## Usage
+### Usage example for previous code
+<!-- # TODO  Describe chatflows more include step configurations like last step and previous-->
 
 Here's how the previously created chatflow will look like
 
@@ -74,7 +120,7 @@ Here's how the previously created chatflow will look like
 - Asking what restaurant the user wants from a list of options using `drop_down_choice`
 ![Chat Flow2](./img/chat2.png)
 
-- Asking what main dish the user will be havinng from a list of options using `single_choice`
+- Asking what main dish the user will be having from a list of options using `single_choice`
 ![Chat Flow3](./img/chat3.png)
 
 - Asking about the amount of the main dish to be ordered using `int_ask`
@@ -87,25 +133,4 @@ Here's how the previously created chatflow will look like
 ![Chat Flow6](./img/chat6.png)
 
 
-## Available question types:
-
-- string_ask
-- secret_ask
-- int_ask
-- text_ask
-- single_choice
-- multi_choice
-- multi_list_choice
-- drop_down_choice
-- autocomplete_drop_down
-- datetime_picker
-- time_delta_ask
-- download_file
-- upload_file
-- qrcode_show
-- captcha_ask
-- md_show
-- md_show_confirm
-- loading_show
-- multi_values_ask
 
