@@ -4,7 +4,7 @@ This package is used to deploy a network on the grid and to connect your solutio
 
 ## Accessing the solution
 
-Go to your admin dashboard `https://localhost:4000/admin` and click on Network
+Go to your admin dashboard `https://localhost/admin` and click on Network
 
 ![solutions menu](adminmenu.png)
 

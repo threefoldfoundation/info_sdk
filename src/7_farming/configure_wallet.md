@@ -33,15 +33,20 @@ It is also possible to configure your farm using the kosmos shell.
 Here is a commented script that shows you how to proceed:
 
 ```python
+from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+
 # get a client to the explorer
-client = j.clients.explorer.default
+explorer = j.core.identity.me.explorer
 # retrieve the information of your farm
-farm = client.farms.get(farm_name='freefarm')
+farm = explorer.farms.get(farm_name='freefarm')
 # create a new wallet
-wallet = farm.wallet_addresses.new()
+wallet = TfgridDirectoryWallet_address1()
 # configure the wallet address and asset code
 wallet.address = '....'
 wallet.asset = 'TFT'
+# update farm with address and save the instance
+farm.wallet_addresses.append(wallet)
+farm.save()
 # send the updated farm configuration to the explorer
-client.farms.update(farm)
+explorer.farms.update(farm)
 ```

@@ -2,57 +2,52 @@
 
 Actors are our solution to interact with the backend, and it's very simple to write and extend APIs. So, actor is like a service that exposes a certain set of functionality and can be invoked using gedis client, or over http
 
+## Adding new actors
+- Adding new actors should be in the `actors/` directory of the package created
 
 Example actor:
 
 ````python
-from Jumpscale import j
+from jumpscale.servers.gedis.baseactor import BaseActor, actor_method
+from jumpscale.loader import j
 
-class alerta(j.baseclasses.threebot_actor):
-    def _init(self, **kwargs):
-        self.alert_model = j.tools.alerthandler.model
+class Hello(BaseActor):
+    def __init__(self):
+        pass
 
-    @j.baseclasses.actor_method
-    def get_alert(self, alert_id, schema_out=None, user_session=None):
-        """
-        ```in
-        alert_id = (I)
-        ```
+    @actor_method
+    def get_hello(self):
+        return "hello from foo's actor"
+    
+    @actor_method
+    def add_name(self,name: str) -> str:
+        print(name)
+        return j.data.serializers.json.dumps({"data": f"Hello {name}"})
 
-        """
-        res = self.alert_model.find(id=alert_id)
-        if res:
-            return j.data.serializers.json.dumps(res[0]._ddict)
-        return "{}"
-
-    @j.baseclasses.actor_method
-    def list_alerts(self, schema_out=None, user_session=None):
-        alerts = j.data.serializers.json.dumps({"alerts": [alert._ddict for alert in self.alert_model.find()]})
-        return alerts
+Actor = Hello
 
 ````
 
-- all actors methods should be decorated with `@j.baseclasses.actor_method` so you can access it directly from threebot shell.
+- all actors methods should be decorated with `actor_method` so you can access it directly from threebot shell. The actor method can be imported using `from jumpscale.servers.gedis.baseactor import actor_method`
 
-- The actors of your registered packages are exposed on http endpoint `<threebot_name>/<package name>/actors/<actor_name>/<method_name>`.
+## Invoke actors
 
-or if you want to use pure http client, here's an example in javascript
-```javascript
-import axios from 'axios'
+- The actors of your registered packages are exposed on http endpoint `{PACKAGE_NAME}/actors/{ACTOR_NAME}/{ACTOR_METHOD}`where 
+    - **PACKAGE_NAME** is the name of the package added in the `package.toml` 
+    - **ACTOR_NAME** is the name of the actor
+    - **ACTOR_METHOD** is the name of the function being called, in the previous example could be `hello` or `add_name`
 
-export function getPaste(pasteId) {
-    return (axios.post("/threefold/pastebin/actors/pastebin/get_paste", { "args": { "paste_id": pasteId } }))
-}
+- or if you want to use pure http client, here's an example in javascript
+    ```javascript
+    import axios from 'axios'
 
-export function newPaste(code) {
-    return (axios.post("/threefold/pastebin/actors/pastebin/new_paste", { "args": { "code": code } }))
-}
-```
+    export function getPaste(pasteId) {
+        return (axios.post("/pastebin/actors/pastebin/get_paste", { "args": { "paste_id": pasteId } }))
+    }
 
-Or you can use [gedis_package.js](https://github.com/threefoldtech/jumpscaleX_weblibs/tree/development/static/gedis/gedis_package.js), and call actors in the form of:
+    export function newPaste(code) {
+        return (axios.post("/pastebin/actors/pastebin/new_paste", { "args": { "code": code } }))
+    }
+    ```
 
-`packageGedisClient.<threebot_name>.<package_name>.actors.<actor_name>.<method_name>...`
 
-like:
-
-`packageGedisClient.threefold.alerta.actors.alerta.list_alerts()`

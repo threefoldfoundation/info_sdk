@@ -2,15 +2,10 @@
 
 #### Requirements
 
-In order to be able to deploy this example deployment you will have to have the following components activated
-- the TFGrid SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
-- if you use a locally installed container with the 3Bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
-- capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with.  Instructions to get tokens can be found [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_information/payment/FreeTFT_testtoken.md)
-
-After following these install instructions you should end up having a local, working TFGrid SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)
+Please check the [general requirements](code.md)
 
 ### Overview
-The design a simple Kubernetes cluster we need to follow a few steps:
+The aim is to create a simple Kubernetes cluster where we need to follow a few steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
 - identify which nodes are involved in the Kubernetes cluster, master and worker nodes
 - create reservations for the Kubernetes virtual machines.
@@ -18,35 +13,15 @@ The design a simple Kubernetes cluster we need to follow a few steps:
 
 #### Create an overlay network of identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to do that [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_examples/network/overlay_network.md)
+Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to create a network [here](code_network.md)
 
 
-#### Set up the capacity environment to find, reserve and configure
-
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the TFGrid SDK.
-
-
-
-```python
-from Jumpscale import j
-import time
-
-# Make sure I have an identity (set default one for mainnet of testnet)
-me = j.me
-
-# Load the zero-os sal and reate empty reservation method
-zos = j.sal.zosv2
-r = zos.reservation_create()
-```
-
-#### Setup your overlay network (skip this step if you have a network setup and available)
-
-An overlay network creates a private peer2peer network over selected nodes.  In this notebook it is assumed you have created one by following this [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb)
 
 #### Design the Kubernetes cluster
 
-You have created a network in the network creation [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb) with the following details:
-```
+You have created a network in the network creation [tutorial](code_network.md) with the following details:
+
+```python
 demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
@@ -69,8 +44,9 @@ A Kubernetes cluster is built from master and worker nodes.  Based on the networ
 
 
 ```python
-# load the zero-os sal
-zos = j.sal.zosv2
+# Load the zero-os sal and create an empty reservation instance
+zos = j.sals.zos
+r = zos.reservation_create()
 
 day=24*60*60
 hour=60*60
@@ -94,12 +70,12 @@ Create master node reservations.  The function add the nodes to the reservation 
 ```python
 master = zos.kubernetes.add_master(
     reservation=r,           # reservation structure
-    node_id=srting,          # node_id to make the capacity reservation on and deploy the flist
-    network_name=string,     # network_name deployed on the node (node can have multiple private networks)
-    cluster_secret=string,   # cluster pasword
-    ip_address=string,       # IP address the network range defined by network_name on the node
-    size=integer,            # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
-    ssh_keys=string)         # ssh public key providing ssh access to master of worker vm's
+    node_id={string},          # node_id to make the capacity reservation on and deploy the flist
+    network_name={string},     # network_name deployed on the node (node can have multiple private networks)
+    cluster_secret={string},   # cluster pasword
+    ip_address={string},       # IP address the network range defined by network_name on the node
+    size={integer},            # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
+    ssh_keys={string})         # ssh public key providing ssh access to master of worker vm's
 ```
 
 Now that we have defined the master node, let us deploy worker nodes.  Worker nodes can exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna
@@ -142,13 +118,11 @@ worker_3 = zos.kubernetes.add_worker(
 ```
 
 
-```python
 With the reservation structure done we can now reserve the cluster.
-```
 
 
 ```python
-expiration = j.data.time.epoch + (24*hour)
+expiration = j.data.time.utcnow().timestamp + (24*60*60)# A day from now
 
 # register the reservation
 response = zos.reservation_register(r, expiration)
@@ -163,16 +137,7 @@ result = zos.reservation_result(response.reservation_id)
 
 print("provisioning result")
 print(result)
-# ----------------------------------------------------------------------------------
-# Select and create a reservation for nodes to deploy a ZDB
-# first find the node where to reserve 0-db namespaces.  Select all the salzburg nodes
-# ----------------------------------------------------------------------------------
-```
+
 
 With the low-level reservations done and stored the `result`.  You are now able to access your Kubernetes cluster on the assigned IP addresses
 
-
-
-```python
-
-```

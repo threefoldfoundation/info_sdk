@@ -43,11 +43,11 @@ If you are hitting an issue or want to build from source, head to the full insta
 
 Once you have the 3SDK binary available, you can now use it to start the installation process.
 
-To do so, execute the 3SDK binary. This will open a shell in which plenty of actions are available to you. For this tutorial you only need to use one `container threebot`
+To do so, execute the 3SDK binary. This will open a shell in which plenty of actions are available to you. For this tutorial you only need to use one `threebot start`
 
-After typing the command, a wizard will guide you through the rest of the installation process. (Complete documentation is once again available in the [associated section of the manual](3sdk_use.md))
+After typing the command, a wizard will guide you through the rest of the installation process and setting up your identity. (Complete documentation is once again available in the [associated section of the manual](3sdk_use.md))
 
-After the full installation process is done, you should be able to reach the webUI of the 3SDK at [https://localhost:4000](https://localhost:4000)  and it should look like:
+After the full installation process is done, you should be able to reach the webUI of the 3SDK at [https://localhost/admin](https://localhost/admin/)  and it should look like:
 
 ![./img/dashboard.png](./img/dashboard.png)
 

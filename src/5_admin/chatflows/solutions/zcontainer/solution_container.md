@@ -4,7 +4,7 @@ This Solution helps to spawn a container using specific flist provided by the us
 
 ### Accessing the solution
 
-Go to your admin dashboard `https://localhost:4000/admin` and click on Network
+Go to your admin dashboard `https://localhost/admin` and click on Network
 
 ![solutions menu](./img/adminmenu.png)
 

@@ -17,7 +17,7 @@ Optionally (if you want to deploy the charts);
 - helm (v3) ([install instructions](https://helm.sh/docs/intro/install))
 ## Accessing the solution
 
-Go to your admin dashboard `https://localhost:4000/admin` and click on Network
+Go to your admin dashboard `https://localhost/admin` and click on Network
 
 ![solutions menu](adminmenu.png)
 
