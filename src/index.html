@@ -15,7 +15,7 @@
     </style>
     </head>
     <body>
-      <div id="app"></div>
+        <div id="app"></div>
       <script>
         window.$docsify = {
             name: "TF Grid 2.1 Manual",
@@ -41,6 +41,23 @@
                 depth: 6,
                 hideOtherSidebarContent: false, // whether or not to hide other sidebar content
             },
+
+        plugins: [
+            function(hook) {
+            var footer = [
+                '<hr/>',
+                '<footer>',
+                '<span>content needs to be updated for our version 2.1 of the TFGrid, help appreciated, use <a href="https://github.com/threefoldfoundation/info_gridmanual">Github repository</a> please</span>',
+                '</footer>'
+            ].join('');
+
+            hook.afterEach(function(html) {
+                return html + footer;
+            });
+            }
+  ]
+
+
         }
       </script>
       <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
