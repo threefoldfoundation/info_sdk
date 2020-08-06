@@ -75,3 +75,6 @@
     - [2.0.5 beta](release_note_2.0.5.md)
     - [2.0.6 beta](release_note_2.0.6.md)
     - [2.1 beta](release_note_2.1.md)
+- [Legals](legals.md)
+ - [Disclaimer](disclaimer.md)
+ - [Terms & Conditions](terms_conditions.md)
