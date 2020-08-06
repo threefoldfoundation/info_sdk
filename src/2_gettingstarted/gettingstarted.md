@@ -4,8 +4,8 @@
 
 There are 3 main steps to get started
 
-1. There are 3 main steps to get started
-2. Install the 3SDK tool to bootstrap your 3SDK container
+1. Get Yourself a 3Bot Connect
+2. Get yourself a hosted Threebot from the marketplace
 3. Get yourself some ThreeFold tokens to get started
 
 ## TL;DR
@@ -20,19 +20,10 @@ This can be done by downloading the app on your smartphone and creating yourself
 
 The app can be found on the [Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) and [Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885).
 
-## Install the 3SDK tool to bootstrap your 3SDK container
+## Get yourself a hosted Threebot from the marketplace
 
-In the second step, you need to install the TFGrid SDK.  
+In the second step, follow this doc on how to get your own [hosted threebot](../marketplace/threebot.md)  
 
-The TFGrid Software Development Kit is available for local installation and will be available for grid deployment (with secure web access).  
-
-For local installations we use Docker container technology to run the SDK software locally. Going forward we recommend to move to the TF Grid based version as this will provide you access from all web browsers on any device.
-
-The TFGrid SDK is the interface where you get access in different ways to build and deploy digital services on the peer2peer grid.  
-You can install your TFGrid SDK hosted on the TFGrid, or on a local OS, for this manual we consider you use the SDK on your own machine.
-
-- [3sdk_install](3sdk_install.md)
-- [3sdk_use](3sdk_use.md)
 
 ## Get yourself some ThreeFold tokens to get started
 
