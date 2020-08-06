@@ -1,4 +1,4 @@
-# Threefold Grid Manual Wiki
+# Threefold Grid 2.1 Manual
 
 ![](./img/storage_compute.png)
 
@@ -28,7 +28,7 @@ As the first step, you need to get yourself a **3Bot Connect** identity.
 
 This can be done by downloading the app on your smartphone and create your own 3bot Identity. Please be aware that this ID is going to be used as your main digital identity on the Threefold grid, and holds the keys to access every services on the grid.  The 3bot Connect App will also provide you with an access to your 3bot wallet where your TFTs are stored.
 
- [Download 3bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en)
+ [Download 3bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
  [Download 3bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
 
 
@@ -45,7 +45,7 @@ There are three type of token available (2020 H1). Please click on the links to 
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
 
-[Claim your FreeTFT!](https://getfreetft.testnet.threefold.io)
+[__Claim your FreeTFT!__](https://getfreetft.testnet.threefold.io)
 
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
