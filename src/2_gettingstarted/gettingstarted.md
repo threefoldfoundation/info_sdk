@@ -1,5 +1,7 @@
 # Threefold Grid Manual Wiki
 
+![](./img/storage_compute.png)
+
 Welcome to the __TF Grid Manual wiki__, a knowledge base for those interested in learning more about the Threefold Grid Ecosystem, deploying a network, and developing solutions on top of the TF Grid.
 
 ## Getting started
@@ -18,7 +20,7 @@ To deploy a network on top of the Threefold Grid, there are 3 pre-requisites tha
 
 Please see below for the high-level instructions.
 
-> By using the services, deploying a network, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)
+> _By using the services, deploying a network, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)_
 
 ### Get Yourself a 3Bot Connect and ID
 
@@ -42,9 +44,10 @@ There are three type of token available (2020 H1). Please click on the links to 
 [__FreeTFT__](https://github.com/threefoldfoundation/tft-stellar/#freetft), [__TFT__](https://github.com/threefoldfoundation/tft-stellar/#tft), and [__TFTA__](https://github.com/threefoldfoundation/tft-stellar/#tfta).
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
+
 [Claim your FreeTFT!](https://getfreetft.testnet.threefold.io)
 
-> Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency.
+> _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
 There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens and how to purchase them.
 
