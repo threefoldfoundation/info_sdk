@@ -27,7 +27,9 @@ In the second step, follow this doc on how to get your own [hosted threebot](../
 
 ## Get yourself some ThreeFold tokens to get started
 
-- Last you will need TFT tokens in your **3Bot.connect** app.
+follow the document here to get yourself tokens [get tokens](./getting_started_tft.md)
+
+Last you will need TFT tokens in your **3Bot.connect** app.
 
 There are three type of token available (2020 H1): [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft)'s,  [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft)'s and [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta)'s.
 
