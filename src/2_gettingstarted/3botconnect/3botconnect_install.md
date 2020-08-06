@@ -6,7 +6,6 @@
 
 3Bot will be your digital twin, that will execute your digital needs. 
 It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 
-The 3Bot itself is not ready for generic public usage yet but we already use the mobile application for authentication & wallet purposes.
 
 Follow the steps below to set up your 3Bot Connect wallet, and receive and send your first ThreeFold Tokens:
 

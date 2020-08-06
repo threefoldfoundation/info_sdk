@@ -13,7 +13,6 @@ At the time of writting, there are three types of tokens available:
 
 The FreeTFT's is a special token that has been created to allow developers and interested parties to play with the grid for free using free capacity by certain farmers.
 
-To watch a quick video with the next steps go to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)
 
 To get yourself FreeTFTs and TFTs on testnet network you can follow the following steps where you create a wallet and configure it:
 
@@ -55,3 +54,10 @@ and after creating a new wallet it will be funded with 10000 XLM
 
 
 You are now ready with a new wallet with the required TFT and FreeTFT
+
+
+
+### for advanced users
+
+
+You can also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)
