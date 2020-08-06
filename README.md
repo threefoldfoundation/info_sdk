@@ -49,6 +49,39 @@ __FreeTFT__ is a token especially created to allow developers and early adopters
 
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
+<<<<<<< HEAD
 There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens and how to purchase them.
+=======
+- all md files are under src/docs directory, please make sure you get all your changes there.
+- to make link in md file to open in new tab use this 
+- if you are planning ot make massive adjustments, please create your own branch and  clone / pull that branch.  When done please create a well described pull request and push it forwards for integration.
+
+#### Branches and there purpose
+
+**Master** This branch containes the information which is currently considered as production content.
+
+**Development** This branch is used to be the staging branch before things are pulled into master.  Normally we try to have at the end of the day all the branches that are used for personal development and work to be pulled into the development branch.  Development is pushed into master every few days.
+
+**Other branches**  Everyone that wants to participate in this projects, please create your own branch from development (clone the developement branch from the repository and create your own branch).  Please consider dooing a pull request at the end of every day in order for the branches not to divert too much.
+
+
+### Owners
+
+This repository is maintained by:
+
+@weynandkuijpers
+
+### Meetings
+The team holds a update meeting twice a month, on monday at 17:00
+
+<!-- TODO: create and enter a zoon link for the meeting -->
+Zoom URL: 
+
+### tips and tricks
+
+```
+<a href="http://example.com/" target="_blank">Hello, world!</a>
+```
+>>>>>>> be5435c5cf91b3a7e511dad29ee1eb0f08743110
 
 !!!include:tft_not_speculative_note
