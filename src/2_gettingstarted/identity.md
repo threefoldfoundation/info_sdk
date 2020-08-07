@@ -66,8 +66,8 @@ where
 
 - Admin dashboard
 
-    When clicking on the identity intance then the `SET DEFAULT` button, that instane will be the current default intance used
+    When clicking on the identity instance then the `SET DEFAULT` button, that instance will be the current default intance used
 
-    ![set default identity](identity_buttons.png)
+    ![set default identity](./img/identity_buttons.png)
 
 
