@@ -56,7 +56,14 @@ Fill the form with your values.
 
 **Make sure you add a valid TFT stellar address. This is required in order for user to be able to reserve capacity from your farm.**
 
-Copy the secret of the Stellar account from your 3Bot Connect app, where you can find this secret in the Details screen of your wallet. 
+Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
+
+![detail_3bot](./img/detail_3bot_connect.png)
+
+A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
+
+
+![wallet_in_jsng](./img/wallet_in_jsng.png)
 
 Once the farm is created you should see a new entry in the top table.
 
