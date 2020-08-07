@@ -47,11 +47,11 @@ identity.save()
 ### Using admin dashboard
 
 New identities can be added through the admin dashboard once threebot server is started.
-- Access settings of `httpa://<host>/admin` and click on the `ADD` button on the identities
+- Access settings of `https://<host>/admin` and click on the `ADD` button on the identities
 ![identity_list](./img/identity_list.png)
 
-- Add the threebot name,email, words, and explorer type in the window prompted then click on `Add` to create and register the identity intance
-![new identity](identity_new_dashboard.png)
+- Add the Threebot name, email, words and explorer type in the window prompted then click on `Add` to create and register the identity instance
+![new identity](./img/new_identity_form.png)
 
 
 ## Change default identity
@@ -66,7 +66,7 @@ where
 
 - Admin dashboard
 
-    When clicking on the identity instance then the `SET DEFAULT` button, that instance will be the current default intance used
+    When clicking on the identity instance then the `SET DEFAULT` button, that instance will be the current default instance used
 
     ![set default identity](./img/identity_buttons.png)
 
