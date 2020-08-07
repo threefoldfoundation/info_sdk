@@ -6,7 +6,7 @@
     - [Get Your 3bot](getting_started_3bot.md)
     - [Your first network](getting_started_network.md)
     - [Your first solution (wiki example)](getting_started_wikideploy.md)
-- [Architecture](architecture.md )
+- [Architecture](architecture.md)
     - [Node](architecture_3node.md)
     - [Storage](architecture_storage.md)
     - [Network](architecture_network.md)
