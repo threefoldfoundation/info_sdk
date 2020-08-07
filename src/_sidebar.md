@@ -1,5 +1,5 @@
 
-- [Intro](Intro.md)
+- [Intro](gettingstarted.md)
 - [Getting Started](gettingstarted.md)
     - [3bot connect install](3botconnect_install.md)
     - [Get Tokens](getting_started_get_tft.md)
