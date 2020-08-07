@@ -1,4 +1,3 @@
-
 - [Intro](intro.md)
 - [Getting Started](gettingstarted.md)
     - [3bot connect install](3botconnect_install.md)
