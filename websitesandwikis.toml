@@ -6,10 +6,10 @@ addr = "0.0.0.0"
 
 [[wiki]]
 #unique name for the wiki
-name = "sdk"
+name = "manual"
 title = "Grid Manual"
 #http or git url
-url = "github.com/threefoldfoundation/info_tfgridsdk"
+url = "github.com/threefoldfoundation/info_gridmanual"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used
@@ -28,7 +28,7 @@ environment = ""
 name = "wiki"
 title = "ThreeFold Wiki"
 #http or git url
-url = "https://github.com/threefoldfoundation/info_threefold"
+url = "https://github.com/threefoldfoundation/info_foundation"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used

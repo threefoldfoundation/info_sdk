@@ -17,7 +17,7 @@ If you are looking for some example how to do this programmatically, head to the
 You are now all set to start deploying workloads on the TFGrid. Yeah!
 
 
-Follow the steps decribed to [deploy your network](./getting_started_network.md)
+Follow the steps decribed to [deploy your network](getting_started_network.md)
 
 
 

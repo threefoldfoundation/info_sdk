@@ -20,37 +20,37 @@ To get yourself FreeTFTs and TFTs on testnet network you can follow the followin
 ## From the admin dashboard
   
 From your 3bot you can go to wallet manager and create a new wallet (will be test if you are using identity against testnet) and it will add the trustlines and activate using friendbot
-![admin walletmanager](../images/walletmanager.jpg)
+![admin walletmanager](./img/walletmanager.jpg)
 
 and after creating a new wallet it will be funded with 10000 XLM
-![admin walletdetails](../images/walletdetails.jpg)
+![admin walletdetails](./img/walletdetails.jpg)
 
 
 - To get TFTs we can sell from the XLM tokens in the wallet in exchange for TFTs by following the next steps:
     - Access [https://testnet.interstellar.exchange/app](https://testnet.interstellar.exchange/app) and proceed with the steps until you can **Enter Account**.
 
-        ![start](../images/interstellar_start.png)
+        ![start](./img/interstellar_start.png)
 
     - Enter a password for your current session. **Please keep it saved safely**
-    ![new_session](../images/interstellar_new_session.png)
+    ![new_session](./img/interstellar_new_session.png)
 
     - Click on Import your wallet
-    ![import_wallet_button](../images/interstellar_import_wallet_button.png)
+    ![import_wallet_button](./img/interstellar_import_wallet_button.png)
 
     - Enter the wallet secret you obtained from the wallet instance you created in the jsng shell
-    ![import_wallet](../images/interstellar_import_wallet.png)
+    ![import_wallet](./img/interstellar_import_wallet.png)
 
     - Click on **trading** from the sidebar
-    ![home](../images/interstellar_home.png)
+    ![home](./img/interstellar_home.png)
 
     - Click on the last item on the right from the top bar then choose the exchange tokens to be from XLM to TFT. If it is not shown click on my assets in the pop up menu to choose TFT from the assets you have setup in the wallet
-    ![trading_assets](../images/interstellar_trading_assets.png)
+    ![trading_assets](./img/interstellar_trading_assets.png)
 
     - Choose the from the available the XLM you will be selling then click on the number or percentage from the amount wanted and click on **SELL XLM**
-    ![sell_xlm](../images/interstellar_sell_xlm.png)
+    ![sell_xlm](./img/interstellar_sell_xlm.png)
 
     - Enter the session secret you chose earlier and submit the sell request.
-    ![sign_transaction](../images/interstellar_sign_transaction.png)
+    ![sign_transaction](./img/interstellar_sign_transaction.png)
 
 
 You are now ready with a new wallet with the required TFT and FreeTFT
