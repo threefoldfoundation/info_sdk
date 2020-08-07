@@ -27,7 +27,7 @@ When you have installed your 3SDK, you should be able to access the web GUI at [
 First things is to select the identity with the network you want to create your farm on. Most probably you want to use `mainnet`.
 To check the explorer instance of your identity, click on the `settings` tab and click on the current identity to see the explorer url of it
 
-![identity_list](identity_list.png)
+![identity_list](./img/identity_list.png)
 
 If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
 
