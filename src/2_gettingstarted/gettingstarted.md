@@ -34,11 +34,11 @@ This can be done by downloading the app on your smartphone and create your own 3
 
 ### Get yourself a **hosted 3bot** from the Marketplace
 
-Once you set up your 3bot identity, Follow this doc on how to get your own [hosted 3bot](../marketplace/threebot.md)  
+Once you set up your 3bot identity, Follow this doc on how to get your own [hosted 3bot](threebot.md)  
 
 ### Get yourself some TFTs to get started
 
-Follow this [get tokens tutorial](./getting_started_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
+Follow this [get tokens tutorial](getting_started_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
 
 There are three type of token available (2020 H1). Please click on the links to learn more about the tokens: 
 [__FreeTFT__](https://github.com/threefoldfoundation/tft-stellar/#freetft), [__TFT__](https://github.com/threefoldfoundation/tft-stellar/#tft), and [__TFTA__](https://github.com/threefoldfoundation/tft-stellar/#tfta).

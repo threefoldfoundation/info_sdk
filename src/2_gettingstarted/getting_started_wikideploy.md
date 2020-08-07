@@ -17,7 +17,7 @@ If you are looking for some example how to do this programmatically, head to the
 You are now all set to start deploying workloads on the TFGrid. Yeah!
 
 
-Follow the steps decribed to [deploy your network](./getting_started_network.md)
+Follow the steps decribed to [deploy your network](getting_started_network.md)
 
 
 ### Publish Wiki
@@ -26,4 +26,4 @@ Now that you have a network in place. We can now publish our wiki. To do so we w
 
 
 To start the wizard click the left menu Publisher
-and follow the steps described in the [publisher walkthrough](../marketplace/publisher.md)
+and follow the steps described in the [publisher walkthrough](publisher.md)

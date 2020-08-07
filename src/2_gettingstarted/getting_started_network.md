@@ -3,7 +3,7 @@
 Any solution you choose to deploy will need the prior provisioning of an overlay network in order to reach the deployment.
 We support both IPv4 and IPv6. 
 
-If you are curious how the overlay network works, some documentation is available at [Overlay network](../3_smartcontract_for_it/capacity_network.md)
+If you are curious how the overlay network works, some documentation is available at [Overlay network](capacity_network.md)
 
 The technology used to implement the network overlay is [Wireguard](https://www.Wireguard.com/). Make sure you have installed Wireguard on your device to be able to continue: [Wireguard installation](https://www.wireguard.com/install/)
 
