@@ -19,6 +19,7 @@ This section contains some example code showing how you can generate workloads r
 
 Examples:
 
+- [Reserve some IT capacity by creating a capacity pool](code_pool.md)
 - [Deploy a network](code_network.md)
 - [Deploy a container](code_container.md)
 - [Deploy a kubernetes cluster](code_kubernetes.md)

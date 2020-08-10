@@ -55,6 +55,7 @@
     - [Code Editor](ide.md)
 - [Develop](develop.md)
     - [Provisioning Code](code.md)
+        - [capacity pool](code_pool.md)
         - [network](code_network.md)
         - [container](code_container.md)
         - [kubernetes](code_kubernetes.md)
