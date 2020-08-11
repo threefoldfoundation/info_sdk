@@ -6,9 +6,10 @@ Please check the [general requirements](code.md)
 
 ### Overview
 The aim is to create a simple S3 archive solution by following a few steps:
-- create (or identify and use) an overlay network that spans all of the nodes needed in the solution
+- create and pay for capacity pools in which you reserve the capacity that your workloads will run on
+- create (or identify and use) an overlay network workload that spans all of the nodes needed in the solution (through the capacity pools)
 - identify which nodes are involved in the archive for storage and which nodes are running the storage software
-- create reservations on the storage nodes for low-level storage.  Create and deploy zero-DB's
+- create workloads on the storage nodes for low-level storage.  Create and deploy zero-DB's
 - collect information of how to access and use the low-level storage devices to be passed on to the S3 storage software
 - design the architecture, data and parity disk design
 - deploy the S3 software in a container
@@ -51,17 +52,20 @@ First let's deploy low-level storage capacity manager (Zero BD, more info [here]
 ```python
 # load the zero-os sal
 zos = j.sals.zos
-r = zos.reservation_create()
-
-day=24*60*60
-hour=60*60
+minio_container = zos.container.create()
 
 # Node:  5  ID:  9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx  IPv4 address:  172.20.15.0/24
 minio_node_id = '9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx'
 minio_node_ip = '172.20.15.16'
+
+# use the pool
+
+pool = zos.pools.get(payment_detail.reservation_id)
+minio_pool_id = pool.pool_id
+
 # ----------------------------------------------------------------------------------
-reservation_zdbs = zos.reservation_create()
-reservation_storage = zos.reservation_create()
+reservation_zdbs = zos.zdb.create()
+reservation_storage = zos.volume.create()
 
 rid_network=0
 rid_zdbs=0
@@ -87,11 +91,11 @@ nodes_all = nodes_salzburg[5:8] + nodes_vienna_1[5:8]
 # ----------------------------------------------------------------------------------
 for node in nodes_all:
     zos.zdb.create(
-        reservation=reservation_zdbs,
         node_id=node.node_id,
         size=10,
         mode=0, # seq
         password=password,
+        pool_id=pool.pool_id,
         disk_type=1,#SSD=1, HDD=0
         public=False)
     
@@ -103,24 +107,15 @@ The nodes that will run the storage solution needs some persistent storage.  Thi
 
 
 ```python
-# Storage solution reservation time
-nr_of_hours=24
 
 # ----------------------------------------------------------------------------------
 # Attach persistant storage to container - for storing metadata
 # ----------------------------------------------------------------------------------  
-rid_zdb = zos.volume.create(reservation_zdbs,minio_node_id,size=10,type='SSD')
-rid_zdb = zos.reservation_register(reservation_zdbs, j.data.time.utcnow().timestamp + (nr_of_hours*60*60))
-results = zos.reservation_result(volume_rid)
+w_volume = zos.volume.create(minio_node_id,pool_id,size=10,type='SSD')
+zos.workloads.deploy(w_volume)
 
+results = zos.workloads.get(workload_id)
 
-# next step is to execute the payment transactions
-wallet = j.clients.stellar.get('my_wallet')
-zos.billing.payout_farmers(wallet, rid_zdb)
-
-time.sleep(5)
-
-results = zos.reservation_result(rid_zdb.reservation_id)
 ```
 
 With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network.  We need to store those addresses in `namespace_config` to pass it to the container running the storage software.
@@ -187,11 +182,11 @@ secret_env = {"SHARDS": shards_encrypted, "SECRET_KEY": minio_secret_encrypted}
 
 # Make sure to adjust the node_id and network name to the appropriate in copy / paste mode :-)
 minio_container=zos.container.create(
-    reservation=reservation_minio,
     node_id=minio_node_id,
     network_name=demo_network_name,
     ip_address=minio_node_ip,
     flist='https://hub.grid.tf/tf-official-apps/minio:latest.flist',
+    capacity_pool_id=minio_pool_id,
     interactive=False, 
     entrypoint='',
     cpu=2,
@@ -229,16 +224,9 @@ Last but not least, execute the reservation for the storage manager.
 # ----------------------------------------------------------------------------------
 # Write reservation for min.io container in BCDB - end user interface
 # ----------------------------------------------------------------------------------      
-expiration = j.data.time.utcnow().timestamp + (nr_of_hours*60*60)
-# register the reservation
-rid = zos.reservation_register(reservation_minio, expiration)
 
-# next step is to execute the payment transactions
-wallet = j.clients.stellar.get('my_wallet')
-zos.billing.payout_farmers(wallet, rid)
+# deploy the workload
+zos.workloads.deploy(reservation_minio)
 
-
-time.sleep(5)
-
-results = zos.reservation_result(rid.reservation_id)
+results = zos.workloads.get(workload_id)
 ```
