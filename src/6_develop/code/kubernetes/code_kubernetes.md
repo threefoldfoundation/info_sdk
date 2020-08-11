@@ -8,7 +8,7 @@ Please check the [general requirements](code.md)
 The aim is to create a simple Kubernetes cluster where we need to follow a few steps:
 - create (or identify and use) an overlay network that spans all of the nodes needed in the solution
 - identify which nodes are involved in the Kubernetes cluster, master and worker nodes
-- create reservations for the Kubernetes virtual machines.
+- deploy Kubernetes virtual machines.
 - deploy the Kubernetes cluster.
 
 #### Create an overlay network of identity a previously deployed overlay network
@@ -61,7 +61,7 @@ size = 1
 # set in the example network deployment - please replace with your personal network name.
 network_name = 'demo_network_name_01'
 
-# exmaple public ssh key.  This is used to log in two the cluster nodes - please replace with you own ssh-key.
+# example public ssh key.  This is used to log in two the cluster nodes - please replace with you own ssh-key.
 sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2N9XH3pVbb7ex zaibon@tesla']
 ```
 
@@ -69,13 +69,13 @@ Create master node reservations.  The function add the nodes to the reservation 
 
 ```python
 master = zos.kubernetes.add_master(
-    reservation=r,           # reservation structure
     node_id={string},          # node_id to make the capacity reservation on and deploy the flist
     network_name={string},     # network_name deployed on the node (node can have multiple private networks)
     cluster_secret={string},   # cluster pasword
     ip_address={string},       # IP address the network range defined by network_name on the node
     size={integer},            # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
-    ssh_keys={string})         # ssh public key providing ssh access to master of worker vm's
+    ssh_keys={string},         # ssh public key providing ssh access to master of worker vm's
+    pool_id={integer})
 ```
 
 Now that we have defined the master node, let us deploy worker nodes.  Worker nodes can exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna
@@ -85,59 +85,35 @@ Now that we have defined the master node, let us deploy worker nodes.  Worker no
 # Repeat for worker nodes, or create a looped assignment
 
 worker_1 = zos.kubernetes.add_worker(
-    reservation=r,
     node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
     network_name=network_name,
     cluster_secret=cluster_secret,
     ip_address='172.24.16.20',
     size=size,
     master_ip=master.ipaddress,
-    ssh_keys=sshkeys)
+    ssh_keys=sshkeys,
+    pool_id=62)
 
 worker_2 = zos.kubernetes.add_worker(
-    reservation=r,
     node_id='FUq4Sz7CdafZYV2qJmTe3Rs4U4fxtJFcnV6mPNgGbmRg',
     network_name=network_name,
     cluster_secret=cluster_secret,
     ip_address='172.24.17.20',
     size=size,
     master_ip=master.ipaddress,
-    ssh_keys=sshkeys)
+    ssh_keys=sshkeys,
+    pool_id=62)
 
 worker_3 = zos.kubernetes.add_worker(
-    reservation=r,
     node_id='9LmpYPBhnrL9VrboNmycJoGfGDjuaMNGsGQKeqrUMSii',
     network_name=network_name,
     cluster_secret=cluster_secret,
     ip_address='172.24.28.20',
     size=size,
     master_ip=master.ipaddress,
-    ssh_keys=sshkeys)
+    ssh_keys=sshkeys,
+    pool_id=62)
 
 
 ```
-
-
-With the reservation structure done we can now reserve the cluster.
-
-
-```python
-expiration = j.data.time.utcnow().timestamp + (24*60*60)# A day from now
-
-# register the reservation
-response = zos.reservation_register(r, expiration)
-
-# next step is to execute the payment transactions
-wallet = j.clients.stellar.get('my_wallet')
-zos.billing.payout_farmers(wallet, response)
-
-time.sleep(120)
-# inspect the result of the reservation provisioning
-result = zos.reservation_result(response.reservation_id)
-
-print("provisioning result")
-print(result)
-
-
-With the low-level reservations done and stored the `result`.  You are now able to access your Kubernetes cluster on the assigned IP addresses
-
+You are now able to access your Kubernetes cluster on the assigned IP addresses
