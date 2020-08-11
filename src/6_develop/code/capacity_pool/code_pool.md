@@ -27,7 +27,7 @@ txs = zos.billing.payout_farmers(wallet, payment_detail)
 # get the pool detail
 pool = zos.pools.get(payment_detail.reservation_id)
 print("compute units available:", pool.cus)
-print("storage units available:", pool.cus)
+print("storage units available:", pool.sus)
 ```
 
 ### Extend a capacity pool
@@ -56,6 +56,6 @@ txs = zos.billing.payout_farmers(wallet, payment_detail)
 # get the updated pool detail
 pool = zos.pools.get(payment_detail.reservation_id)
 print("compute units available:", pool.cus)
-print("storage units available:", pool.cus)
+print("storage units available:", pool.sus)
 ```
 ```
