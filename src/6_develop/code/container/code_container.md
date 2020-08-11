@@ -42,7 +42,7 @@ demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now launch the flist.  For this solution we will be using some of these nodes as master nodes and others as worker nodes.  Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
+When you executed the network workload it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now launch the flist.  For this solution we will be using some of these nodes as master nodes and others as worker nodes.  Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
@@ -56,11 +56,11 @@ When you executed the reservation it also provided you with data on the order nu
 
 The reservation for a general-purpose flist has the following structure
 ```python
-zos.container.create(reservation=r,
-                    node_id={string},             # node_id to make the capacity reservation on and deploy the flist
+zos.container.create(node_id={string},             # node_id to deploy the flist
                     network_name={string},        # network_name deployed on the node (node can have multiple private networks)
                     ip_address={string},          # one IP address in the range of the chosen network_name on the node
                     flist={string},               # flist of the container you want to install, htttp hub location.
+                    capacity_pool_id={integer},   # pool_id of where the capacity for container deployment is to be used from 
                     interactive={Bolean},         # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
                     cpu={integer},                # number of logical cores
                     memory={integer,            # number of mBs of memory
