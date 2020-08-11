@@ -75,14 +75,13 @@ Providing the correct details allows us to deploy the code-server container.
 
 ```python
 zos = j.sals.zos
-r = zos.reservation_create()
 
 # Add data to method to what to deploy.  Example is code server
-zos.container.create(reservation=r,
-                    node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
+zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
                     network_name=u_networkname, # this assume this network is already provisioned on the node
                     ip_address='172.20.30.11', # part of ip_range you reserved for your network xxx.xxx.1.10
                     flist='https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.flist', # flist of the container you want to install
+                    capacity_pool_id=62, # ID of the capacity pool you have created and that you want to deploy the container on
                     interactive=True,         # True only if corex_connect required, default false
                     cpu=4, # request 4 virtual CPU
                     memory=4196, # request 4 GiB of memory
@@ -92,28 +91,13 @@ zos.container.create(reservation=r,
                     entrypoint='/sbin/my_init')
 ```
 
-Having defined registration structure `r` we can now deploy.  In this example we deploy for 5 minutes (adapt if required
-
 
 ```python
-# methods needed to do time calculations
-import time
-
-# reserve until now + (x) seconds
-expiration = j.data.time.utcnow().timestamp + (5*60)
-# register the reservation
-response = zos.reservation_register(r, expiration)
-time.sleep(5)
 
 # inspect the result of the reservation provisioning
-result = zos.reservation_result(response.reservation_id)
+result = zos.workloads.get(workload_id)
 
-# next step is to execute the payment transactions
-wallet = j.clients.stellar.get('my_wallet')
-zos.billing.payout_farmers(wallet, response)
-```
-
-The reservation had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command.  It has created a secure web interface to the coreX process where we can now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).
+The container workload deployment had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command.  It has created a secure web interface to the coreX process where we can now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).
 
 
 ```python
