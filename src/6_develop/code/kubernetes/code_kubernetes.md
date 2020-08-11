@@ -80,7 +80,9 @@ Now that we have defined the master node, let us deploy worker nodes.  Worker no
 ```python
 # Repeat for worker nodes, or create a looped assignment
 
-zos.kubernetes.add_worker(
+cluster = []
+
+master = zos.kubernetes.add_worker(
     node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -89,8 +91,13 @@ zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
+cluster.append(master)
+```
 
-zos.kubernetes.add_worker(
+Then create as many worker workload objects as you need. 
+
+```python
+worker = zos.kubernetes.add_worker(
     node_id='FUq4Sz7CdafZYV2qJmTe3Rs4U4fxtJFcnV6mPNgGbmRg',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -99,8 +106,9 @@ zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
+cluster.append(worker)
 
-zos.kubernetes.add_worker(
+worker = zos.kubernetes.add_worker(
     node_id='9LmpYPBhnrL9VrboNmycJoGfGDjuaMNGsGQKeqrUMSii',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -109,11 +117,15 @@ zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
+cluster.append(worker)
 
+```
 
+And finally deploy each of the K8S VMs (master and workers). 
+
+```bash
+for w in cluster:
+    zos.workloads.deploy(w)
 ```
 
 You are now able to access your Kubernetes cluster on the assigned IP addresses. 
-```bash
-zos.workloads.deploy(K8s)
-```
