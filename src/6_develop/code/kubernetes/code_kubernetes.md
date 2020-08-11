@@ -64,7 +64,9 @@ sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2
 Create master node reservations.  The function add the nodes to the reservation structure `r`.
 
 ```python
-zos.kubernetes.add_master(
+cluster = []
+
+master = zos.kubernetes.add_master(
     node_id={string},          # node_id to make the capacity reservation on and deploy the flist
     network_name={string},     # network_name deployed on the node (node can have multiple private networks)
     cluster_secret={string},   # cluster pasword
@@ -72,6 +74,7 @@ zos.kubernetes.add_master(
     size={integer},            # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
     ssh_keys={string},         # ssh public key providing ssh access to master of worker vm's
     pool_id={integer})
+cluster.append(master)
 ```
 
 Now that we have defined the master node, let us deploy worker nodes.  Worker nodes can exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna
@@ -80,9 +83,7 @@ Now that we have defined the master node, let us deploy worker nodes.  Worker no
 ```python
 # Repeat for worker nodes, or create a looped assignment
 
-cluster = []
-
-master = zos.kubernetes.add_worker(
+worker1 = zos.kubernetes.add_worker(
     node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -91,13 +92,9 @@ master = zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
-cluster.append(master)
-```
+cluster.append(worker1)
 
-Then create as many worker workload objects as you need. 
-
-```python
-worker = zos.kubernetes.add_worker(
+worker2 = zos.kubernetes.add_worker(
     node_id='FUq4Sz7CdafZYV2qJmTe3Rs4U4fxtJFcnV6mPNgGbmRg',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -106,9 +103,9 @@ worker = zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
-cluster.append(worker)
+cluster.append(worker2)
 
-worker = zos.kubernetes.add_worker(
+worker3 = zos.kubernetes.add_worker(
     node_id='9LmpYPBhnrL9VrboNmycJoGfGDjuaMNGsGQKeqrUMSii',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -117,7 +114,7 @@ worker = zos.kubernetes.add_worker(
     master_ip=master.ipaddress,
     ssh_keys=sshkeys,
     pool_id=62)
-cluster.append(worker)
+cluster.append(worker3)
 
 ```
 
