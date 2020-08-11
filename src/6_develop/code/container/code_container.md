@@ -77,7 +77,7 @@ Providing the correct details allows us to deploy the code-server container.
 zos = j.sals.zos
 
 # Add data to method to what to deploy.  Example is code server
-zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
+container = zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
                     network_name=u_networkname, # this assume this network is already provisioned on the node
                     ip_address='172.20.30.11', # part of ip_range you reserved for your network xxx.xxx.1.10
                     flist='https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.flist', # flist of the container you want to install
@@ -90,9 +90,10 @@ zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # o
                   # env={},                   # field for parameters like config
                     entrypoint='/sbin/my_init')
 ```
-
+After creation, the container can be deployed.
 
 ```python
+zos.workloads.deploy(container)
 
 # inspect the result of the reservation provisioning
 result = zos.workloads.get(workload_id)
