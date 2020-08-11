@@ -70,7 +70,9 @@ The network is now a workload that needs to be deployed.
 
 #### 4. Deploy the network to the grid
 
-##### 4a. Now that we have built a network workload structure which includes the nodes we want to use, here is how to deploy this network as a workload to the grid.
+Now that we have built a network workload structure which includes the nodes we want to use, here is how to deploy this network as a workload to the grid.
+
+##### 4a. New API, deploy as a workload
 
 ```bash
 # Deploy the network
