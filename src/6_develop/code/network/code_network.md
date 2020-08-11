@@ -89,7 +89,7 @@ for nr in network.network_resources:
     zos.workloads.deploy(nr)
 ```
 
-##### 4b. The old way of reserving network resources is still supported but not recommended (without expiration date):
+##### 4b. The old way of reserving network resources (without expiration date) is still supported but not recommended :
 
 ```bash
 r = zos.reservation_create()
