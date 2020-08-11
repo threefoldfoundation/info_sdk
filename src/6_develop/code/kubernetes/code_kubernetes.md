@@ -46,10 +46,6 @@ A Kubernetes cluster is built from master and worker nodes.  Based on the networ
 ```python
 # Load the zero-os sal and create an empty reservation instance
 zos = j.sals.zos
-r = zos.reservation_create()
-
-day=24*60*60
-hour=60*60
 
 cluster_secret = 'supersecret'
 
@@ -68,7 +64,7 @@ sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2
 Create master node reservations.  The function add the nodes to the reservation structure `r`.
 
 ```python
-master = zos.kubernetes.add_master(
+zos.kubernetes.add_master(
     node_id={string},          # node_id to make the capacity reservation on and deploy the flist
     network_name={string},     # network_name deployed on the node (node can have multiple private networks)
     cluster_secret={string},   # cluster pasword
@@ -84,7 +80,7 @@ Now that we have defined the master node, let us deploy worker nodes.  Worker no
 ```python
 # Repeat for worker nodes, or create a looped assignment
 
-worker_1 = zos.kubernetes.add_worker(
+zos.kubernetes.add_worker(
     node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -94,7 +90,7 @@ worker_1 = zos.kubernetes.add_worker(
     ssh_keys=sshkeys,
     pool_id=62)
 
-worker_2 = zos.kubernetes.add_worker(
+zos.kubernetes.add_worker(
     node_id='FUq4Sz7CdafZYV2qJmTe3Rs4U4fxtJFcnV6mPNgGbmRg',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -104,7 +100,7 @@ worker_2 = zos.kubernetes.add_worker(
     ssh_keys=sshkeys,
     pool_id=62)
 
-worker_3 = zos.kubernetes.add_worker(
+zos.kubernetes.add_worker(
     node_id='9LmpYPBhnrL9VrboNmycJoGfGDjuaMNGsGQKeqrUMSii',
     network_name=network_name,
     cluster_secret=cluster_secret,
@@ -116,4 +112,8 @@ worker_3 = zos.kubernetes.add_worker(
 
 
 ```
-You are now able to access your Kubernetes cluster on the assigned IP addresses
+
+You are now able to access your Kubernetes cluster on the assigned IP addresses. 
+```bash
+zos.workloads.deploy(K8s)
+```
