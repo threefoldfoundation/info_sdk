@@ -1,5 +1,5 @@
 - [Home](intro.md)
-[Learn](learn.md)  
+- [Learn](learn.md)  
     - [Cloud Intro](cloud_intro.md)
     - [Grid Intro](grid_intro.md)
         - [Architecture](architecture.md)
