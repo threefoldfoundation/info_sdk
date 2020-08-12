@@ -2,10 +2,7 @@
 
 # Farm Management & Setup
 
-In this section of our SDK wiki, you find everything you need to know about:
-- Getting a 3Bot Connect App
-- Install the 3SDK
-- Configuring a TFT Wallet
+In this section of our wiki, you find everything you need to know about:
 - Creating a Farm ID
 - Creating a Bootable Image
 - Booting Your 3Node
