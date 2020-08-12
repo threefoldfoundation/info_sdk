@@ -29,7 +29,7 @@ demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
 
-When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create a storage solution.  For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the output of the network reservation notebook to describe the high-level design of the storage solution:
+When you deployed the network workload it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now create a storage solution.  For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes.  Using the output of the network reservation notebook to describe the high-level design of the storage solution:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
@@ -43,8 +43,7 @@ When you executed the reservation it also provided you with data on the order nu
 
 #### Reserve and deploy the low level ZeroDB storage nodes
 
-First let's deploy low-level storage capacity manager (Zero BD, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
-- create some empty reservation and result structures
+First let's deploy low-level storage capacity manager (Zero-DB, more info [here](https://github.com/threefoldtech/0-db)).  In the next piece of code we do the following:
 - select and set the node to container the S3 software
 - select and load the nodes in a list to push them in the zero-DB reservation structure
 
@@ -52,25 +51,16 @@ First let's deploy low-level storage capacity manager (Zero BD, more info [here]
 ```python
 # load the zero-os sal
 zos = j.sals.zos
-minio_container = zos.container.create()
 
 # Node:  5  ID:  9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx  IPv4 address:  172.20.15.0/24
 minio_node_id = '9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx'
 minio_node_ip = '172.20.15.16'
 
 # use the pool
-
 pool = zos.pools.get(payment_detail.reservation_id)
 minio_pool_id = pool.pool_id
 
 # ----------------------------------------------------------------------------------
-reservation_zdbs = zos.zdb.create()
-reservation_storage = zos.volume.create()
-
-rid_network=0
-rid_zdbs=0
-rid_storage=0
-
 password = "supersecret"
 
 # ----------------------------------------------------------------------------------
@@ -87,10 +77,11 @@ nodes_vienna_1 = zos.nodes_finder.nodes_search(farm_id=82872) # (IPv6 nodes)
 nodes_all = nodes_salzburg[5:8] + nodes_vienna_1[5:8]
 
 # ----------------------------------------------------------------------------------
-# Create ZDB reservation for the selected nodes
+# Create and deploy ZDB workloads for the selected nodes
 # ----------------------------------------------------------------------------------
+
 for node in nodes_all:
-    zos.zdb.create(
+   w_zdb = zos.zdb.create(
         node_id=node.node_id,
         size=10,
         mode=0, # seq
@@ -98,7 +89,8 @@ for node in nodes_all:
         pool_id=pool.pool_id,
         disk_type=1,#SSD=1, HDD=0
         public=False)
-    
+   zos.workloads.deploy(w_zdb)
+
 ```
 
 #### Prepare and deploy the S3 software container
@@ -113,8 +105,6 @@ The nodes that will run the storage solution needs some persistent storage.  Thi
 # ----------------------------------------------------------------------------------  
 w_volume = zos.volume.create(minio_node_id,pool_id,size=10,type='SSD')
 zos.workloads.deploy(w_volume)
-
-results = zos.workloads.get(workload_id)
 
 ```
 
@@ -172,7 +162,6 @@ Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
 # With the low level disk managers done and the IP adresses discovered we can now build
 # the reservation for the min.io S3 interface.
 # ----------------------------------------------------------------------------------
-reservation_minio = zos.reservation_create()
 
 # Encrypt minio secret to pass as a secret env variable
 secret = 'PASSWORD'
@@ -202,6 +191,9 @@ minio_container=zos.container.create(
         },
     secret_env=secret_env,
     )
+    
+zos.workloads.deploy(minio_container)
+
 ```
 
 With the definition of the S3 container done we now need to attached persistent storage on a volume to store metadata.
@@ -215,18 +207,4 @@ zos.volume.attach_existing(
     container=minio_container,
     volume_id=f'{volume_rid}-{volume.workload_id}',
     mount_point='/data')
-```
-
-Last but not least, execute the reservation for the storage manager.
-
-
-```python
-# ----------------------------------------------------------------------------------
-# Write reservation for min.io container in BCDB - end user interface
-# ----------------------------------------------------------------------------------      
-
-# deploy the workload
-zos.workloads.deploy(reservation_minio)
-
-results = zos.workloads.get(workload_id)
 ```
