@@ -1,7 +1,7 @@
 # Community
 ![](./img/header.png)
 
-The Threefold community is expanding every day. If you want to engage with the community, there are a couple of places you can do so. Below are the most essential links to the community channels.
+The Threefold community is expanding every day. If you want to engage with the community, there are a couple of places you can go to do so. Below are the most essential links to the community channels.
 
 ## General
 - [Threefold Forum](forum.threefold.io/): General room for talk about Threefold.
