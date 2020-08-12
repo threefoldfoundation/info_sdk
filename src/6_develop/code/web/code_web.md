@@ -9,6 +9,9 @@ The aim is to delegate your domain to the gateway, access your running web appli
 - create subdomains using that domain.
 - create a tcp reverse proxy on the gateway.
 - use `trc` flist to expose your running containers.
+- managed domain example
+
+Also show how to use the gateway4to6 workloads for users with IPv4 only networks to get IPv6 connectivity through the gateway
 
 #### Choose a gateway
 
@@ -118,3 +121,47 @@ wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
 now you can use that subdomain in your tcp reverse proxy as above
+
+## Gateway4to6
+
+This workload gives you a connection to IPv6 networks using a wireguard tunnel.
+
+```python
+# first you need a keypair to be used for your wireguard cofiguration.
+# you can use existing ones or generate a pair like this
+private_key, public_key = j.tools.wireguard.generate_key_pair()
+
+# create gateway4to6 workload
+gateway4to6 = j.sals.zos.gateway.gateway_4to6(gateway.node_id, public_key.decode(), pool.pool_id)
+wid = j.sals.zos.workloads.deploy(gateway4to6)
+
+# get result to build your wireguard config
+result = j.sals.zos.workloads.get(wid).info.result
+
+
+cfg = j.data.serializers.json.loads(result.data_json)
+wgconfigtemplate = """
+[Interface]
+Address = {{cfg.ips[0]}}
+PrivateKey = {{privatekey}}
+{% for peer in cfg.peers %}
+[Peer]
+PublicKey = {{peer.public_key}}
+AllowedIPs = {{",".join(peer.allowed_ips)}}
+{% if peer.endpoint -%}
+Endpoint = {{peer.endpoint}}
+{% endif %}
+{% endfor %}
+"""
+config = j.tools.jinja2.render_template(
+    template_text=wgconfigtemplate, cfg=cfg, privatekey=private_key.decode()
+)
+
+# save your config
+filename = "wg-{}.conf".format(wid)
+j.sals.fs.touch(f"/home/maged/{filename}")
+j.sals.fs.write_file(f"/home/maged/{filename}", config)
+```
+
+now you can start your wiregaurd config and access IPv6 addresses
+![ipv6_access](./img/03-web-gateway.png)
