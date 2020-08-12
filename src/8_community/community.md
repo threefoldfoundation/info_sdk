@@ -15,9 +15,9 @@ The Threefold Community is expanding every day. If you want to engage with the c
 
 
 ## Social
-[Threefold Newsletter](https://landing.mailerlite.com/webforms/landing/i3m3q8)
-[Threefold Blog](blog.threefold.io)
-[Threefold Twitter](https://twitter.com/threefold_io)
-[Threefold Facebook](https://facebook.com/ThreeFold.io)
-[Threefold LinkedIn](https://linkedin.com/company/threefold-foundation/)
-[Threefold Youtube](https://youtube.com/c/ThreeFoldFoundation)
+- [Threefold Newsletter](https://landing.mailerlite.com/webforms/landing/i3m3q8)
+- [Threefold Blog](blog.threefold.io)
+- [Threefold Twitter](https://twitter.com/threefold_io)
+- [Threefold Facebook](https://facebook.com/ThreeFold.io)
+- [Threefold LinkedIn](https://linkedin.com/company/threefold-foundation/)
+- [Threefold Youtube](https://youtube.com/c/ThreeFoldFoundation)
