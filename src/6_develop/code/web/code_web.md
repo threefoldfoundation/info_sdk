@@ -104,4 +104,17 @@ wid = j.sals.zos.workloads.deploy(container)
 now you can access your server using the gateway
 ![http_access](./img/02-web-gateway.png)
 
-### 
+#### Managed domains example
+
+- gateways can have managed domains that you can use to create subdomains directly without the need of delegating domains or having a domain in the first place.
+
+```python
+gateway.managed_domains # list of the managed domains
+domain = gateway.managed_domains[0] # the gateway I'm using is "tfgw-testnet-01.gateway.tf"
+
+# create a subdomain of a managed domain
+subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gateway_ips, pool.pool_id)
+wid = j.sals.zos.workloads.deploy(subdomain)
+```
+
+now you can use that subdomain in your tcp reverse proxy as above
