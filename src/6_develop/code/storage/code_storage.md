@@ -80,6 +80,7 @@ nodes_all = nodes_salzburg[5:8] + nodes_vienna_1[5:8]
 # Create and deploy ZDB workloads for the selected nodes
 # ----------------------------------------------------------------------------------
 
+results = []
 for node in nodes_all:
    w_zdb = zos.zdb.create(
         node_id=node.node_id,
@@ -89,8 +90,11 @@ for node in nodes_all:
         pool_id=pool.pool_id,
         disk_type=1,#SSD=1, HDD=0
         public=False)
-   zos.workloads.deploy(w_zdb)
-
+   id = zos.workloads.deploy(w_zdb)
+   
+   result_workload = zos.workloads.get(id)
+   
+   results.append(result_workload)
 ```
 
 #### Prepare and deploy the S3 software container
@@ -108,7 +112,7 @@ zos.workloads.deploy(w_volume)
 
 ```
 
-With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network.  We need to store those addresses in `namespace_config` to pass it to the container running the storage software.
+With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network, we need to store those addresses in `namespace_config` to pass it to the container running the storage software.
 
 
 ```python
