@@ -1,6 +1,6 @@
 - [Intro](intro.md)
 - [Getting Started](gettingstarted.md)
-    - [3Bot Connect Installattion](3botconnect_install.md)
+    - [3Bot Connect Installation](3botconnect_install.md)
     - [Get Tokens](getting_started_get_tft.md)
     - [Get Your 3Bot](getting_started_3bot.md)
     - [Your First Network](getting_started_network.md)
