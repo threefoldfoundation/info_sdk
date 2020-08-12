@@ -14,9 +14,10 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 - **NodeId**: the node ID on which to create the 0-DB namespace
 - **Size**: the size of the namespace in GiB
-- **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/threefoldtech/0-db#running-modes
-- **Password**: the password of the namespace. When creating the reservation, you need to encrypt this value with the public key of the node
+- **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/threefoldtech/0-db#running-modes. Valid values for this fields are `seq` and `user`.
+- **Password**: the password of the namespace. When creating the workload, you need to encrypt this value with the public key of the node
 - **DiskType**: the type of disk to use. value can be `HDD` or `SSD`
+- **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Network consideration
 
@@ -29,40 +30,31 @@ If you want to dive in more about 0-DB itself, head to the official repository: 
 ## Example
 
 ```python
-zos = j.sal.zosv2
+zos = j.sals.zos
 
 # find some node that have 10 GiB of SSD disks
 nodes = zos.nodes_finder.nodes_search(sru=10)
 
-# create a reservation
-r = zos.reservation_create()
-
-# reserve a 0-DB namespace of 10 GiB on a SSD disk.
-zos.zdb.create(
-    reservation=r,
+# create a 0-DB namespace workload of 10 GiB on a SSD disk.
+zdb = zos.zdb.create(
     node_id=nodes[0].node_id,
     size=10,
     mode='seq',
     password='supersecret',
+    pool_id=12,
     disk_type="SSD")
 
-# define the expiration date
-expiration = j.data.time.epoch + (10*60) # 10 minutes
-
-# register the reservation
-registered_reservation = zos.reservation_register(r, expiration)
-
-# pay for the capacity reserved
-wallet = j.clients.stellar.default
-zos.billing.payout_farmers(wallet, registered_reservation)
+# deploy the workload and retrieve its ID
+id = zos.workloads.deploy(zdb)
 
 # inspect the result of the reservation provisioning
-time.sleep(5)
-result = zos.reservation_result(registered_reservation.reservation_id)
+time.sleep(10)
+zdb = zos.workloads.get(id)
+result = zdb.info.result
 
 print("provisioning result")
 print(result) # show the result of the reservation
-{'Namespace': '60-3', 'IP': '2a02:1802:5e:1102:e85a:41ff:fedb:2c65', 'Port': 9900}
+{'Namespace': '60-3', 'IPs': ['2a02:1802:5e:1102:e85a:41ff:fedb:2c65'], 'Port': 9900}
 
 # create a client to the 0-DB namespace and connect to it
 zdb = j.clients.zdb.new(name='demo',

@@ -6,31 +6,33 @@ This primitives provided by the TFGateway allow a user to forward traffic from t
 
 Here is the schema used to define a container reservation:
 
-- **NodeId**: the gateway ID on which to delegate the domain
-- **domain**: The domain to forward traffic from.
-- **addr**: The destination address where to proxy the traffic to. This address needs to be reachable by the TFGateway.
-- **port**: The listening port of your service handling plain text traffic, usually HTTP
-- **port_tls**: The listening port of your service handling TLS traffic, usually HTTPS
+* **NodeId**: the gateway ID on which to delegate the domain
+* **domain**: The domain to forward traffic from.
+* **addr**: The destination address where to proxy the traffic to. This address needs to be reachable by the TFGateway.
+* **port**: The listening port of your service handling plain text traffic, usually HTTP
+* **port_tls**: The listening port of your service handling TLS traffic, usually HTTPS
+* **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Example using sdk
 
-```python
-zos = j.sal.zosv2
+``` python
+zos = j.sals.zos
 
-# create a reservation
-r = zos.reservation_create()
-
-zos.gateway.sub_domain(reservation=r,
+proxy = zos.gateway.sub_domain(
                             node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
                             domain='solution1.tfgrid.zaibon.be',
                             addr='2a02:2788:864:1314:9eb6:d0ff:fe97:764b',
                             port=8080,
-                            port_tls=4080)
+                            port_tls=4080,
+                            pool_id=12)
+
+# deploy the workload
+id = zos.workloads.deploy(proxy)
 ```
 
 ## How does the TFGateway find the destination domain from incoming traffic
 
 The TFGateway uses 2 technics to identify the destination domain of incoming request:
 
-- for HTTP, it inspect the `Host` header value
-- for TLS traffic is uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication)
+* for HTTP, it inspect the `Host` header value
+* for TLS traffic is uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication)
