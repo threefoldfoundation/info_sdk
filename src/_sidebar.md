@@ -74,7 +74,7 @@
         - [Hercules](code_hercule.md)
             - [Hercules Chatflow](chatflow_hercule.md)
 - [Farm Setup & Management](farm_setup_management.md)
-    - [Farm Setup](marketplace_farm_setup.md)
+    - [Farm Setup](farm_setup.md)
 - [Community](community.md)
 - [Release Notes](releasenotes.md)
     - [2.0.4 beta](release_note_2.0.4.md)
