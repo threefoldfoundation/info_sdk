@@ -1,7 +1,5 @@
 # SSH Connect
 
-- how to connect to your container over ssh
-- link to how to make network connection
+After every successful deployment you will get instructed in the chatflow with how to access container via SSH if enabled, basically it will be `ssh root@containerIP`
 
-
-- #TODO:
+check [solution ubuntu](solution_ubuntu.md)
