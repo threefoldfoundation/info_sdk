@@ -23,10 +23,10 @@ This can be done by downloading the app on your smartphone and create your own 3
 
  ## Get yourself some TFTs to get started
 
-Follow this [get tokens tutorial](getting_started_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
-
 There are three type of token available (2020 H1). Please click on the links to learn more about the tokens: 
 [__FreeTFT__](https://github.com/threefoldfoundation/tft-stellar/#freetft), [__TFT__](https://github.com/threefoldfoundation/tft-stellar/#tft), and [__TFTA__](https://github.com/threefoldfoundation/tft-stellar/#tfta).
+
+### Get FreeTFT
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. You need to first get a __Stellar wallet__, and a Stellar wallet address, so that we could send you some FreeTFT.
 
@@ -49,10 +49,13 @@ Go back to your dashboard, click on __"FreeTFT"__ , and click on __"receive"__ o
 
 Paste your wallet address, and the FreeTFT will be sent to your stellar wallet.
 
+> _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
-> _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
-Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens and how to purchase them.
+### Buy TFT and TFTA
+
+Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens. Follow this [get tokens tutorial](getting_started_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
+
 
 !!!include:tft_not_speculative_note
 
