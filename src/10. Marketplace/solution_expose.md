@@ -1,5 +1,5 @@
 ## Solution Expose
-This wizard enables you to access your solutions running over HTTP/HTTPS using a public FQDN.
+This wizard enables you to access your solutions running over HTTP/HTTPS using a public fully qualified domain name (FQDN).
 
 ## Steps
 
