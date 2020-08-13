@@ -1,4 +1,4 @@
-## Running your Threebot on a local machine
+## Nginx capabilities and advanced running options
 
 After the [installation](local_3bot.md) steps you should have an executable `threebot`
 
