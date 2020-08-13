@@ -28,13 +28,31 @@ Follow this [get tokens tutorial](getting_started_tft.md) to get yourself some T
 There are three type of token available (2020 H1). Please click on the links to learn more about the tokens: 
 [__FreeTFT__](https://github.com/threefoldfoundation/tft-stellar/#freetft), [__TFT__](https://github.com/threefoldfoundation/tft-stellar/#tft), and [__TFTA__](https://github.com/threefoldfoundation/tft-stellar/#tfta).
 
-__FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
+__FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. You need to first get a __Stellar wallet__, and a Stellar wallet address, so that we could send you some FreeTFT.
+
+![](./img/interstellar_start.png)
+
+Get a Stellar wallet (testnet) [here]( https://testnet.interstellar.exchange/app)
+
+![](STELLAR_DASHBOARD.PNG)
+After your wallet is successfully set, click on __+ Add Token__, 
+
+![](GET_FREETFT.PNG)
+and find 'FreeTFT'
+
+![](receive_freetft.png)
+Go back to your dashboard, click on __"FreeTFT"__ , and click on __"receive"__ on the sidebar. Copy your wallet address. And now go to this website below to claim your freeTFT:
 
 [__Claim your FreeTFT!__](https://getfreetft.testnet.threefold.io)
 
+![](./img/freetft.png)
+
+Paste your wallet address, and the FreeTFT will be sent to your stellar wallet.
+
+
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
-There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens and how to purchase them.
+Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens and how to purchase them.
 
 !!!include:tft_not_speculative_note
 
