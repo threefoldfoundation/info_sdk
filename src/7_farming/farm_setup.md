@@ -1,10 +1,10 @@
 
-# Farm Setup via Marketplace
+# Set up a farm
 
-This document shows how to setup/migrate your ThreeFold Farm and 3Nodes using the marketplace
+This document shows how to set up/migrate your ThreeFold Farm and 3Nodes. 
 
-Once you have created your Threebot using the marketplace or on your local machine,  you can use it also to set up a farm and manage it. 
-Go to the generated domain name and login using your 3Bot connect app. 
+First your Threebot should be up and running, either on the marketplace or on your local machine. In the Threebot admin panel there is tooling available to set up a farm and manage it. 
+Go to the generated domain name that hosts your Threebot, and login using your 3Bot connect app. 
 
 ## Choose Your Network Using Identities
 
