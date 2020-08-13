@@ -11,7 +11,7 @@
 
 ## Roadmap
 
-- [Roadmap](wiki:roadmap.md)
+- [Roadmap](wiki:info:roadmap.md)
 
 ## how to get support
 

@@ -18,7 +18,7 @@
     - [Deploy your first solution](getting_started_first_solution.md)
 - [Tutorials](getting_started_tutorials.md)
     - [How to select a node](explore_nodes.md)
-    - [Deploy a website](getting_started_website_deploy.md)
+    - [Deploy a website](hugo_website.md.md)
 - [Smart Contract For IT](smart_contract.md)
     - [smartcontract details](smartcontract_details.md)
     - [container](capacity_container.md)

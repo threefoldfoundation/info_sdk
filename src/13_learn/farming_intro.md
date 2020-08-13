@@ -14,6 +14,6 @@ There are two types of ThreeFold Farmers
 - Certified Farmer: Buys certified hardware and signs a contract with ThreeFold Tech for support.
 - Do It Yourself (DIY) Farmer: Uses any hardware and in case of support uses online material only.
 
-![](circular_tft.png)
+![](./img/circular_tft.png)
 
 > For more in-depth information on Farming, please check out [Threefold's main Wiki](https://wiki.threefold.io/#/what_is_farming)
