@@ -1,7 +1,13 @@
-# network connect 
+# How to set up a network connection
 
-- how to use wireguard client to connect
-- focus windows/osx
+Deploying a workload on the TF Grid requires that all the nodes that you intend to use for running workload on, need to be interconnected to each other. 
+To achieve this, the overlay network solution implemented in Zero-OS is based on [Wireguard](https://www.wireguard.io). 
 
-osx = client
+## Setup in Ubuntu
+
+## Setup in OSX
+
+## setup in Windows
+
+## How to use Wireguard
 
