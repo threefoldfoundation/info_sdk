@@ -85,7 +85,4 @@ threebot server can run using `threebot start --local` starts a server on `8443,
 
 - After success you can visit the admin dashboard at https://localhost:8443/admin and start creating reservations
 
-
-- After success you can visit the admin dashboard at http://localhost and start creating reservations
-
   ![configure](images/success.png)
