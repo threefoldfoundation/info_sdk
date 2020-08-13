@@ -16,4 +16,5 @@ There are two types of ThreeFold Farmers
 
 ![](./img/circular_tft.png)
 
-> For more in-depth information on Farming, please check out [Threefold's main Wiki](https://wiki.threefold.io/#/what_is_farming)
+> Go to [Farming Setup](https://wiki.threefold.io/#/what_is_farming) for the step-by-step tutorials on how to become a farmer.
+> For more in-depth information on Farming concept, please check out [the Farming section on Threefold's Main Wiki](https://wiki.threefold.io/#/what_is_farming)
