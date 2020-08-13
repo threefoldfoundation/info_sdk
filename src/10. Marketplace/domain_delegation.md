@@ -22,10 +22,10 @@ Go to the marketplace https://marketplace.grid.tf/marketplace and click on Domai
 
 ![](./img/delegate_4.png)
 
-## Depoly the solution
+## Deploy the solution
 
 ![](./img/delegate_5.png)
 
-## Congrats the solution has been deployed now
+## Congrats, the solution has been deployed now
 
 ![](./img/delegate_6.png)
