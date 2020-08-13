@@ -24,4 +24,4 @@
 
 ## Roadmap see
 
-- [Roadmap](wiki:info:roadmap.md)
+- [Roadmap](wiki:roadmap.md)

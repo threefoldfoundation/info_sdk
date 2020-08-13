@@ -96,4 +96,4 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 
 ## Roadmap see
 
-- [Roadmap](wiki:info:roadmap.md)
+- [Roadmap](wiki:roadmap.md)
