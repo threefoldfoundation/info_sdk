@@ -30,7 +30,6 @@
     - [Monitoring](./monitoring.md)
 - [Beginner Tutorials](tutorials.md)
     - [How to Select a Node](explore_nodes.md)
-    - [Manage Your Wallet](wallet_management.md)
 - [Advance Tutorials](tutorials_advanced.md)    
     - [Advance: deploy Hugo Website](huge_website_advanced)
     - [How to Connect to Your Network](net_connect_client.md)
