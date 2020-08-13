@@ -40,7 +40,7 @@ After your wallet is successfully set, click on __+ Add Token__,
 ![](GET_FREETFT.PNG)
 and find 'FreeTFT'
 
-![](receive_freetft.png)
+![](./img/receive_freetft.png)
 Go back to your dashboard, click on __"FreeTFT"__ , and click on __"receive"__ on the sidebar. Copy your wallet address. And now go to this website below to claim your freeTFT:
 
 [__Claim your FreeTFT!__](https://getfreetft.testnet.threefold.io)
@@ -54,7 +54,7 @@ Paste your wallet address, and the FreeTFT will be sent to your stellar wallet.
 
 ### Buy TFT and TFTA
 
-Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens. Follow this [get tokens tutorial](getting_started_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
+Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens. Follow this [get tokens tutorial](getting_started_get_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
 
 
 !!!include:tft_not_speculative_note
