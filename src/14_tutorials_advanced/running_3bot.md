@@ -1,6 +1,6 @@
 ## Running your Threebot on a local machine
 
-After the [installation](installation.md) steps you should have an executable `threebot`
+After the [installation](local_3bot.md) steps you should have an executable `threebot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
