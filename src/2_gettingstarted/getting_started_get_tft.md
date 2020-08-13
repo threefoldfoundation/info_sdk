@@ -9,13 +9,9 @@ At the time of writting, there are three types of tokens available:
 - [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta)
 
 
-## Getting some tokens
+## Purchasing TFT and TFTA
 
-The FreeTFT's is a special token that has been created to allow developers and interested parties to play with the grid for free using free capacity by certain farmers.
-
-
-To get yourself FreeTFTs and TFTs on testnet network you can follow the following steps where you create a wallet and configure it:
-
+To purchase TFT and TFTA on testnet network, you can follow the following steps where you create a wallet and configure it:
 
 ## From the admin dashboard
   
