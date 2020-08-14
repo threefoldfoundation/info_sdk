@@ -56,7 +56,7 @@
         - [Reverse Tunnel TCP Proxy](capacity_reverse_tcp_proxy.md)
         - [IPv4 to IPv6 Gateway](capacity_gw4to6.md)
 - [Advance Development](develop.md)
-    - [Provisioning Code](code.md)
+    - [Sample Provisioning Code](code.md)
         - [Network](code_network.md)
         - [Container](code_container.md)
         - [Kubernetes](code_kubernetes.md)
