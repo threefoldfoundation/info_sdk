@@ -22,9 +22,9 @@ By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns dig
 
 Each 3Bot has a unique capability to use this CPU and storage capacity from the different TFNodes in the TF Grid in a safely and reliably. Data cannot be lost because of the above described dispersed storage algorithm. A 3Bot can store a petabyte of information as long as enough TFTs are available so the required resource can be reserved on the individual TFNodes. 3Bot is the only entity that has the required information and keys to make retrieval of the distributed data possible.
 
-## Jumpscale X: The automation platform which makes the 3Bot possible
+## Jumpscale: The automation platform which makes the 3Bot possible
 
-Jumpscale is an automation framework written in Python. It has been developed for more than a decade and originates from an automation product that was acquired by SUN Microsystems from Q-Layer, which was one of our previous companies. Our newest release is version 10, called JSX.
+Jumpscale is an automation framework written in Python. It has been developed for more than a decade and originates from an automation product that was acquired by SUN Microsystems from Q-Layer, which was one of our previous companies. Our newest release is version 11, called JS-NG.
 
 Jumpscale is the foundation of the autonomous layer. To get to autonomous operations, IT experts have to model IT architectures. These models have to describe all the components involved in creating the architecture (e.g. a container running a webserver, a container running a database server, and then all the required network paths between these two containers and the rest of the world). Once this description is complete and tested, it can be given to the autonomous layer which launches, monitors, and operates the architecture. Hence, autonomous IT.
 
