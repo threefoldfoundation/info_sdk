@@ -9,7 +9,7 @@
         - [Web Gateway](architecture_webgateway.md)
         - [0-Container Virtual FS](architecture_flist.md)
     - [Farming Intro](farming_intro.md)
-- [Getting Started](gettingstarted.md)
+- [Getting Started](getting_started.md)
     - [3Bot Connect Installation](3botconnect_install.md)
     - [Get Tokens](getting_started_get_tft.md)
     - [Get Your 3Bot](getting_started_3bot.md)
