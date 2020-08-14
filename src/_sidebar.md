@@ -30,7 +30,7 @@
 - [Tutorials](tutorials.md)
     - [Select a Node](explore_nodes.md)
     - [Deploy Hugo Website](huge_website_advanced)
-- [3bot: Your Virtual System Administrator](3bot_intro)
+- [3bot: Virtual Sys-Ad](3bot_intro)
     - [Admin Panel Overview](3bot_admin.md)
     - [ChatFlows](solution_chatflows.md)
         - [Network](solution_network.md)
