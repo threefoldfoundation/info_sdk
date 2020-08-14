@@ -1,6 +1,6 @@
-# Get yourself a Threebot
+# Get yourself a 3bot
 
-You can either create a Threebot on your local machine or hosted on the TF Grid. 
+You can either create a 3bot on your local machine, or hosted on the TF Grid. 
 
-- Easy setup: [Create a hosted Threebot](threebot.md)
-- Advanced setup: [Create a Threebot on your local machine](3bot_local.md)
+- Easy setup: [Create a hosted 3bot](threebot.md)
+- Advanced setup: [Create a 3bot on your local machine](local_3bot.md)
