@@ -1,50 +1,50 @@
-# Threebot Server
+# 3Bot Server
 
-Threebot server is an application server based on nginx and [gedis](rpc.md). It can further be extended using packages.
+3Bot server is an application server based on nginx and [gedis](rpc.md). It can further be extended using packages.
 
-When adding packages to a server, they should first be defined, then added to the threebot server then the server can be started.
+When adding packages to a server, they should first be defined, then added to the 3Bot server then the server can be started.
 
 
 Content:
 
-- [Threebot Server](#threebot-server)
-  - [Staring threebot](#staring-threebot)
-    - [Using threebot command](#using-threebot-command)
+- [3Bot Server](#3Bot-server)
+  - [Staring 3Bot](#staring-3Bot)
+    - [Using 3Bot command](#using-3Bot-command)
     - [Manual start](#manual-start)
     - [Nginx and privileged ports](#nginx-and-privileged-ports)
   - [APIs](#apis)
   - [Packages](#packages)
   - [ssl](#ssl)
 
-## Staring threebot
+## Staring 3Bot
 
-### Using threebot command
-`threebot` command can be used to start/stop threebot and to check for current running threebot status. This will give you a ready shell in the same process where you can interact with your threebot:
+### Using 3Bot command
+`3Bot` command can be used to start/stop 3Bot and to check for current running 3Bot status. This will give you a ready shell in the same process where you can interact with your 3Bot:
 
-It can be used to start a threebot server on standard ports (http and https).
-
-```
-threebot start
-```
-
-In case you need to start a local threebot, ny passing `--local` option will, it will search for free port on `80xx` range and starts threebot on this port.
+It can be used to start a 3Bot server on standard ports (http and https).
 
 ```
-threebot start --local
+3Bot start
+```
+
+In case you need to start a local 3Bot, ny passing `--local` option will, it will search for free port on `80xx` range and starts 3Bot on this port.
+
+```
+3Bot start --local
 ```
 
 You can then access its admin on https://localhost/admin
 
 ### Manual start
 
-Start threebot server from `jsng` shell:
+Start 3Bot server from `jsng` shell:
 
 ```python
 jsng
 
-JS-NG> threebot_server = j.servers.threebot.get(domain="<optional><your-threebotdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
-JS-NG> threebot_server.save()
-JS-NG> threebot_server.start()
+JS-NG> 3Bot_server = j.servers.3Bot.get(domain="<optional><your-3Botdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
+JS-NG> 3Bot_server.save()
+JS-NG> 3Bot_server.start()
 ```
 
 It should start nginx for you too, if it's not stared, you can start it manually:
@@ -69,7 +69,7 @@ APIs can be added as actors to your package, which are exposed directly and can 
 *Actors in more detail are documented [here](actors.md).
 
 ## Packages
-Packages are the way to write extensions and applications to your threebot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
+Packages are the way to write extensions and applications to your 3Bot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
 
 *Packages in more detail are documented [here](packages.md).
 
@@ -106,11 +106,11 @@ path_url = "/"
 path_dest = "/admin/"
 ```
 
-- If you want to have default domain for your threebot, define it in the threebot start
+- If you want to have default domain for your 3Bot, define it in the 3Bot start
 
 ```python
-threebot_server = j.servers.threebot.get(domain="<optional><your-threebotdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
-threebot_server.start()
+3Bot_server = j.servers.3Bot.get(domain="<optional><your-3Botdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
+3Bot_server.start()
 ```
 
 This will use certbot to generate a certificate for your domain

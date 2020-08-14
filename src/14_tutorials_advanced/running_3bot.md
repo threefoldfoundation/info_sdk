@@ -1,11 +1,11 @@
 ## Nginx capabilities and advanced running options
 
-After the [installation](local_3bot.md) steps you should have an executable `threebot`
+After the [installation](local_3Bot.md) steps you should have an executable `3Bot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-threebot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
+3Bot server can run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
 
 ### Setting capabilities for nginx
 
@@ -17,12 +17,12 @@ to be able to run as a normal user, you don't need it if you are root.
 - After that we will just do
 
   ```bash
-  threebot start
+  3Bot start
   ```
 
-- This will take you to configure your identity, It will ask you about your the network you want to use, 3bot name, email, and words.
+- This will take you to configure your identity, It will ask you about your the network you want to use, 3Bot name, email, and words.
 
-- Then it will start threebot server you will see some thing like that
+- Then it will start 3Bot server you will see some thing like that
 
   ![configure](identity_new.png)
 
@@ -32,14 +32,14 @@ to be able to run as a normal user, you don't need it if you are root.
 - After success you can visit the admin dashboard at http://localhost and start creating reservations
 
   ![configure](success.png)
-###  Advannced running options threebot
+###  Advannced running options 3Bot
 
 - You have some options available to start three bot
 ```
-threebot start <--identity user.3bot> <--background> <--local>
+3Bot start <--identity user.3Bot> <--background> <--local>
 ```
 
-if you specified `--indentity user.3bot`, then the passed identity will be the default identity in the running 3bot
+if you specified `--indentity user.3Bot`, then the passed identity will be the default identity in the running 3Bot
 
 if you specified `--background` then the server will run in background mode
 

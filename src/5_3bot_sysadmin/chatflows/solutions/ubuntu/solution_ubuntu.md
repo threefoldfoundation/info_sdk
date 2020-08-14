@@ -22,7 +22,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 
 ## User setup
 
-- Register user threebot on explorer ```kosmos "j.me.configure()"```
+- Register user 3Bot on explorer ```kosmos "j.me.configure()"```
 
     Note: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
 - Install [wireguard](https://www.wireguard.com/install/)

@@ -26,7 +26,7 @@ ThreeFold brings the world the first true peer-to-peer Internet. It uses pioneer
 - [Technologies Intro](tech_intro.md)
 - [Farming Intro](farming_intro.md)
 - [Threefold Grid Architecture](architecture.md)
-- [3bot](3bot_intro.md)
+- [3Bot](3Bot_intro.md)
 - [Smart Contract For IT](smart_contract.md)
    
  > For more in-depth information on Threefold, please go to [Threefold's main Wiki](https://wiki.threefold.io/)

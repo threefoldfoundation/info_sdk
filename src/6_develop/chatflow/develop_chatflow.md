@@ -5,7 +5,7 @@ Chatflows are an interactive communication bot that can be used to interactively
 
 ## Create a new Chatflow
 
-It's very easy to define a new bot, you just need to make sure it's added in a package and that package is installed with threebot server. The chatflow should be under the `/chats` directory in the package created.
+It's very easy to define a new bot, you just need to make sure it's added in a package and that package is installed with 3Bot server. The chatflow should be under the `/chats` directory in the package created.
 
 ### Main Features
 Each chatflow should include these :

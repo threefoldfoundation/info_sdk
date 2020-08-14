@@ -86,7 +86,7 @@ Go to the marketplace https://marketplace.grid.tf/marketplace and click on Monit
 
 ![Step20](./img/monitoring_20.png)
 
-## Pay for the solution using threebot connect staging app wallet
+## Pay for the solution using 3Bot connect staging app wallet
 
 ![Step21](./img/monitoring_21.png)
 

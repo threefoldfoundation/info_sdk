@@ -82,7 +82,7 @@ and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with
 ![my website flist upload](./img/my_website_flist_upload.png)
 
 Once the upload is complete we now have an flist ready to be used. The flist url we will be need is the source which is usually in the following format
-    `https://hub.grid.tf/YOUR_3BOT_NAME.3Bot/my_website_flist.flist`
+    `https://hub.grid.tf/YOUR_3Bot_NAME.3Bot/my_website_flist.flist`
 
 ![my website flist upload success](./img/my_website_flist_upload_success.png)
 

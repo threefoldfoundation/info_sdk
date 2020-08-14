@@ -70,7 +70,7 @@ Please make sure you understand the graphical method first. Since it explains th
 
 In [this document](https://github.com/threefoldtech/jumpscaleX_libs/blob/development/JumpscaleLibs/sal/zosv2/readme.md) it explains building "simple" solutions using the API (jumpscale API), including a single node `minio` setup.
 
-For a more complex flow (master/slave) setup please check the [chat flow](https://github.com/threefoldtech/jumpscaleX_threebot/blob/development/ThreeBotPackages/tfgrid_solutions/tfgrid_solutions/chatflows/minio_deploy.py) code, where it uses the jumpscale API to build a complete minio setup from scratch.
+For a more complex flow (master/slave) setup please check the [chat flow](https://github.com/threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/tfgrid_solutions/tfgrid_solutions/chatflows/minio_deploy.py) code, where it uses the jumpscale API to build a complete minio setup from scratch.
 
 # Disaster recovery
 ## Monitoring

@@ -2,10 +2,10 @@
 # Pre-requisites
 
 To deploy a network on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
-- Get A __3Bot Connect App__ and __3bot ID__: your system administrator and digital identity on top of the Threefold Grid.
+- Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
 - Get some __TFTs__ (Threefold Tokens) to reserve grid capacity for your solution.
-- Deploy your first network: to be able to connect to your threebot
-- Get a __Hosted 3bot__: Host your 3bot online.
+- Deploy your first network: to be able to connect to your 3Bot
+- Get a __Hosted 3Bot__: Host your 3Bot online.
 
 Please see below for the high-level instructions.
 
@@ -15,10 +15,10 @@ Please see below for the high-level instructions.
 
 As the first step, you need to get yourself a **3Bot Connect** identity.  
 
-This can be done by downloading the app on your smartphone and create your own 3bot Identity. Please be aware that this ID is going to be used as your main digital identity on the Threefold grid, and holds the keys to access every services on the grid.  The 3bot Connect App will also provide you with an access to your 3bot wallet where your TFTs are stored.
+This can be done by downloading the app on your smartphone and create your own 3Bot Identity. Please be aware that this ID is going to be used as your main digital identity on the Threefold grid, and holds the keys to access every services on the grid.  The 3Bot Connect App will also provide you with an access to your 3Bot wallet where your TFTs are stored.
 
- [Download 3bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
- [Download 3bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
+ [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.3Botlogin&hl=en) <BR>
+ [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
 
 
  ## Get yourself some TFTs to get started
@@ -62,10 +62,10 @@ Other than FreeTFT, There are multiple options available to get yourself TFT and
 
 ## Deploy a network through the Marketplace
 
- Once you set up your 3bot identity and get your tfts, follow this doc on how to deploy your [first network](getting_started_network.md)
+ Once you set up your 3Bot identity and get your tfts, follow this doc on how to deploy your [first network](getting_started_network.md)
 
 
-## Get yourself a **hosted 3bot** from the Marketplace
+## Get yourself a **hosted 3Bot** from the Marketplace
 
-Once you're ready, follow this doc on how to get your own [hosted 3bot](threebot.md)  
+Once you're ready, follow this doc on how to get your own [hosted 3Bot](3Bot.md)  
 

@@ -31,9 +31,9 @@ The flist principle is explained in the introduction architecture section ([here
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
 
 <<<<<<< HEAD
-Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3bot_connect_app.md).
+Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3Bot_connect_app.md).
 =======
-Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3botconnect_overview.md).
+Access to this hub is restricted to people that have a 3Bot connect identity.  There is a description in the "getting started" section on how to get one of these [here](3Botconnect_overview.md).
 >>>>>>> update more links
 
 Login to the hub and you will not only have access to flists created and uploaded by others but also the ability to create and upload your own. Two principle ways to create (custom) flists:

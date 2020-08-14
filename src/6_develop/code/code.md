@@ -2,9 +2,9 @@
 
 ## Prerequisites
 In order to be able to deploy anything on the grid, you will have to have the following components beforehand
-- Install 3bot connect app to get an identity. More details can be found in [3bot connect installation](3botconnect_install.md) and [3bot connect setup](3botconnect_overview.md)
+- Install 3Bot connect app to get an identity. More details can be found in [3Bot connect installation](3Botconnect_install.md) and [3Bot connect setup](3Botconnect_overview.md)
 - Installation of js-sdk.  Getting started instructions to install the sdk can be found [here](3sdk_install.md)
-- Setup 3bot connect identity on the grid using the installed sdk. Further details can be found [here](identity.md)
+- Setup 3Bot connect identity on the grid using the installed sdk. Further details can be found [here](identity.md)
     
     Identity can be verified by checking `j.core.identity.me`
 - Install wireguard software.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)

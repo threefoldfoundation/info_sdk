@@ -1,7 +1,7 @@
 # Farm setup using Jumpscale code
 
 This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid, not through chatflows but through Jumpscale code.
-It is for people that have their Threebot running on their local machine, by having set up the Jumpscale SDK, in the shell, and want to have more personalized DIY tooling for their farm than is available on the chatflow. 
+It is for people that have their 3Bot running on their local machine, by having set up the Jumpscale SDK, in the shell, and want to have more personalized DIY tooling for their farm than is available on the chatflow. 
 
 If you need assistance contact ThreeFold support via the chat on www.threefold.io .
 
@@ -36,7 +36,7 @@ farm = explorer.farms.new()
 # name your farm
 farm.name = 'my_super_farm'
 # link the farm with your identity
-farm.threebot_id = j.me.tid
+farm.3Bot_id = j.me.tid
 # Instruction below is only for farms which already exist in version 1.x and need to be migrated to version 2.0 !
 # Specify the ItsYouOnline organization link to the farm
 farm.iyo_organization = 'my_super_farm_v1'

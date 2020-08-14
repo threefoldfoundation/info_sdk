@@ -1,7 +1,7 @@
 
-## Create a Threebot on your local machine
+## Create a 3Bot on your local machine
 
-A Threebot on your local machine requires the installation of an SDK. Please find the instructions below. 
+A 3Bot on your local machine requires the installation of an SDK. Please find the instructions below. 
 
 ### Quick Start with js-sdk
 
@@ -54,25 +54,25 @@ This version of the SDK tries to be isolated as possible in case of developers o
   poetry shell
   ```
 
-#### Running your 3bot
+#### Running your 3Bot
 
 ##### using mkcert
 [mkcert](https://github.com/FiloSottile/mkcert) is optionally needed to trust the self signed certificates when used in local development environment. All you need to do is install it in your system under the name `mkcert` and do `mkcert -install`
 
-After the installation steps you should have an executable `threebot`
+After the installation steps you should have an executable `3Bot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-threebot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
+3Bot server can run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3Bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
 
   ```bash
-  threebot start --local
+  3Bot start --local
   ```
 
-- This will take you to configure your identity, It will ask you about your the network you want to use, 3bot name, email, and words.
+- This will take you to configure your identity, It will ask you about your the network you want to use, 3Bot name, email, and words.
 
-- Then it will start threebot server you will see some thing like that
+- Then it will start 3Bot server you will see some thing like that
 
   ![configure](identity_new.png)
 
