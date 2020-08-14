@@ -1,9 +1,9 @@
 # Farm setup using Jumpscale code
 
 This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid, not through chatflows but through Jumpscale code.
-It is for people that have their Threebot running on their local machine, by having set up the Jumpscale SDK, in the shell. 
+It is for people that have their Threebot running on their local machine, by having set up the Jumpscale SDK, in the shell, and want to have more personalized DIY tooling for their farm than is available on the chatflow. 
 
-If you need assistance contact ThreeFold support via the chat on www.threefold.io
+If you need assistance contact ThreeFold support via the chat on www.threefold.io .
 
 ## Create your farm using the JS-SDK poetry shell
 
