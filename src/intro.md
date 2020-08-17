@@ -2,7 +2,7 @@
 
 ![](./img/storage_compute.png)
 
-Welcome to the __TF Grid Manual wiki__, a knowledge base for those interested in learning more about the Threefold Grid Ecosystem, deploying a network, and developing solutions on top of the TF Grid. Here you will be able to find the most up-to-date information on the status of the development tools as well as comprehensive Grid manuals and tutorials.
+Hi! Welcome to the __TF Grid Manual wiki__, a knowledge base for those interested in learning more about the Threefold Grid Ecosystem, deploying a network, and developing solutions on top of the TF Grid. Here you will be able to find the most up-to-date information on the status of the development tools as well as comprehensive Grid manuals and tutorials.
 
 The wiki is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [Introduction](learn.md) section. To start deploying a network, head over to the [Getting Started](#getting_started.md) section of the Manual. If you're a developer who is interested in more advanced technical hand-outs on deployment, check out our [Advance Development](develop.md) section. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure. Feel free to check all available solutions and easy deployment on [Threefold Grid Marketplace](marketplace.md) section.
 

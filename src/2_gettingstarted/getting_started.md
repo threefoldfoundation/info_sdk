@@ -67,5 +67,5 @@ Other than FreeTFT, There are multiple options available to get yourself TFT and
 
 ## Get yourself a **hosted 3Bot** from the Marketplace
 
-Once you're ready, follow this doc on how to get your own [hosted 3Bot](3Bot.md)  
+Once you're ready, follow this doc on how to get your own [hosted 3Bot](3bot.md)  
 

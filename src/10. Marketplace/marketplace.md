@@ -3,7 +3,7 @@
 
 ![](./img/Homepagelaptop.png)
 
-ThreeFold Foundation is proud to announce that [TF Grid Marketplace](www.marketplace.grid.tf) is currently live on an alpha version (July 2020). The ThreeFold Grid Marketplace is an inventory platform of open source solutions that are built on top of ThreeFold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. Go to [3Bot Connect](3Botconnect.md) section to learn more about using 3Bot ID to connect to the Marketplace.
+ThreeFold Foundation is proud to announce that [TF Grid Marketplace](www.marketplace.grid.tf) is currently live on an alpha version (July 2020). The ThreeFold Grid Marketplace is an inventory platform of open source solutions that are built on top of ThreeFold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. Go to [3Bot Connect](3botconnect.md) section to learn more about using 3Bot ID to connect to the Marketplace.
 
 ![](./img/3Bot_launch.png)
 
@@ -17,7 +17,7 @@ Here is the list of the current deployed solutions available on the TF Grid Mark
 - [K8S](k8s.md)
 - [Minio](minio.md)
 - [Publisher](publisher.md)
-- [3Bot](3Bot.md)
+- [3Bot](3bot.md)
 - [Solution Expose](solution_expose.md)
 - [Domain Delegation](domain_delegation.md)
 - [4to6 Gateway](4to6gateway.md)
