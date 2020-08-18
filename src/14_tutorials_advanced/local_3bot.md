@@ -59,12 +59,12 @@ This version of the SDK tries to be isolated as possible in case of developers o
 ##### using mkcert
 [mkcert](https://github.com/FiloSottile/mkcert) is optionally needed to trust the self signed certificates when used in local development environment. All you need to do is install it in your system under the name `mkcert` and do `mkcert -install`
 
-After the installation steps you should have an executable `3Bot`
+After the installation steps you should have an executable `threebot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-3Bot server can run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
+3Bot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
 
   ```bash
   3Bot start --local
