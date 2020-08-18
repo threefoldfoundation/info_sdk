@@ -1,4 +1,4 @@
-# Threefold Grid 2.1 Manual
+# Threefold Grid 2.2 Manual
 
 ![](./img/storage_compute.png)
 
