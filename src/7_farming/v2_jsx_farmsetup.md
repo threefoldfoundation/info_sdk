@@ -16,7 +16,7 @@ If you need assistance contact ThreeFold support via the chat on www.threefold.i
 
 ## Prerequisite: Install 3SDK
 
-See the installation instruction to get yourself the 3SDK installed: [https://sdk.threefold.io/#/3sdk_install](https://sdk.threefold.io/#/3sdk_install)
+See the installation instruction to get yourself the 3SDK installed: [https://manual.threefold.io/#/3sdk_install](https://manual.threefold.io/#/3sdk_install)
 
 ## Create your farm using the 3SDK GUI
 
@@ -31,7 +31,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -60,7 +60,7 @@ Fill the form with your values.
 
 Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
-![detail_3bot](./img/detail_3bot_connect.png)
+![detail_3Bot](./img/detail_3Bot_connect.png)
 
 A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 
@@ -104,7 +104,7 @@ farm = explorer.farms.new()
 # name your farm
 farm.name = 'my_super_farm'
 # link the farm with your identity
-farm.threebot_id = j.me.tid
+farm.3Bot_id = j.me.tid
 # Instruction below is only for farms which already exist in version 1.x and need to be migrated to version 2.0 !
 # Specify the ItsYouOnline organization link to the farm
 farm.iyo_organization = 'my_super_farm_v1'

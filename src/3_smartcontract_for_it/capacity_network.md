@@ -2,7 +2,8 @@
 
 ![](./img/network_wireguard_logo.png)
 
-The network primitive allows a user to define its own overlay network between any of the nodes running 0-OS.  The technology we used to create the overlay network is [wireguard](https://www.wireguard.com/).  
+The network primitive allows a user to define its own overlay network between any of the nodes running 0-OS.  The technology we used to create the overlay network is [Wireguard](https://www.wireguard.com/).  For setting it up on your local machine, please check the [Getting Started: Your First Network](getting_started_network.md) section. 
+
 When you send a reservation that contains a network primitive, the overlay network will automatically get installed and started on all the nodes defined in your reservation.
 
 This is the building block on top of which containers and kubernetes cluster communicate.
@@ -93,3 +94,4 @@ print("wireguard configuration")
 print(wg_config) # this is the config you need to use to configure the wireguard of your laptop
 print("provisioning result")
 ```
+> Related article: [Getting Started: Your First Network](getting_started_network.md)

@@ -1,5 +1,5 @@
 ## 4to6GW deployment
-4to6gw provides access ti IPv6 addresses for users with IPv4 networks only through a wireguard tunnel.
+4to6gw provides access to IPv6 addresses for users with IPv4 networks only through a Wireguard tunnel.
 
 ## Steps
 

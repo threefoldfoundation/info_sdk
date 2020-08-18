@@ -11,7 +11,7 @@ Chat now is a part of webinterface package.
 
 ### Getting available chatflows
 
-[chatbot actor](https://github.com/threefoldtech/jumpscaleX_threebot/blob/development/ThreeBotPackages/zerobot/webinterface/actors/chatbot.py) is available as part of base actors
+[chatbot actor](https://github.com/threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/zerobot/webinterface/actors/chatbot.py) is available as part of base actors
 
 ```python
 

@@ -5,7 +5,9 @@ We support both IPv4 and IPv6.
 
 If you are curious how the overlay network works, some documentation is available at [Overlay network](capacity_network.md)
 
-The technology used to implement the network overlay is [Wireguard](https://www.Wireguard.com/). Make sure you have installed Wireguard on your device to be able to continue: [Wireguard installation](https://www.wireguard.com/install/)
+The technology used to implement the network overlay is [Wireguard](https://www.Wireguard.com/). Make sure you have installed Wireguard on your device to be able to access your deployments from your local machine: [Wireguard installation](https://www.wireguard.com/install/).
+
+The usage of Wireguard is explained in the info about deployment of solutions.
 
 
 ## Network Solution

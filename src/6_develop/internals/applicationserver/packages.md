@@ -1,6 +1,6 @@
 # Packages
 
-Packages are the way to write extensions and applications to your threebot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
+Packages are the way to write extensions and applications to your 3Bot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
 
 Content:
 - [Structure](#structure)
@@ -11,7 +11,7 @@ Content:
 - [More about packages](#more-about-packages)
 - [Package manager](#package-manager)
 - [Adding new packages](#adding-new-packages)
-    - [Add the package to the threebot server](#add-the-package-to-the-threebot-server)
+    - [Add the package to the 3Bot server](#add-the-package-to-the-3Bot-server)
     - [Add the package using package manager actor](#add-the-package-using-package-manager-actor)
 
 
@@ -74,7 +74,7 @@ Some components will be defined by default based on the parent package classes i
 
 - **package.py** manages the lifecycle of the package.
     - By default, main functionalities are used to start,stop,install..etc the packages.
-    - If additional functionalities want to be added during install,uninstall,start of the package in threebot server they can be redifined in this file.
+    - If additional functionalities want to be added during install,uninstall,start of the package in 3Bot server they can be redifined in this file.
     - The basic functions that you can add are included here
         ```python
         from jumpscale.loader import j
@@ -96,17 +96,17 @@ Some components will be defined by default based on the parent package classes i
                 pass
 
             def uninstall(self):
-                """Called when package is deletedand is no longer needed and will be removed from the threebot
+                """Called when package is deletedand is no longer needed and will be removed from the 3Bot
                 """
                 pass
 
             def start(self):
-                """Called when threebot is started
+                """Called when 3Bot is started
                 """
                 pass
 
             def stop(self):
-                """Called when 3bot stops
+                """Called when 3Bot stops
                 """
                 pass
         ```
@@ -216,7 +216,7 @@ Basic Package functionalities and properties
 
 
 ## Package manager
-- `Packages` is an actor on threebot under the `admin` package, any user with admin rights can call this actor to remotely instruct the 3Bot to install/remove/start/stop a package from threebot server
+- `Packages` is an actor on 3Bot under the `admin` package, any user with admin rights can call this actor to remotely instruct the 3Bot to install/remove/start/stop a package from 3Bot server
 - A package can be identified by means of git_url or its local path
 - The actor methods in the packages actor include:
 
@@ -227,11 +227,11 @@ def get_package_status(self, names: list) -> str:
 
 @actor_method
 def list_packages(self) -> str:
-    return j.data.serializers.json.dumps({"data": self.threebot.packages.get_packages()})
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.get_packages()})
 
 @actor_method
 def packages_names(self) -> str:
-    return j.data.serializers.json.dumps({"data": list(self.threebot.packages.list_all())})
+    return j.data.serializers.json.dumps({"data": list(self.3Bot.packages.list_all())})
 
 @actor_method
 def add_package(self, path: str = "", giturl: str = "", extras=None) -> str:
@@ -240,42 +240,42 @@ def add_package(self, path: str = "", giturl: str = "", extras=None) -> str:
         path = path.strip()
     if giturl:
         giturl = giturl.strip()
-    return j.data.serializers.json.dumps({"data": self.threebot.packages.add(path=path, giturl=giturl, **extras)})
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.add(path=path, giturl=giturl, **extras)})
 
 @actor_method
 def delete_package(self, name: str) -> str:
-    return j.data.serializers.json.dumps({"data": self.threebot.packages.delete(name)})
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.delete(name)})
 
 ```
 
 
 ## Adding new packages
-Adding a package can easily be done either through the threebot server directly or using the package manager actor mentioned earlier
+Adding a package can easily be done either through the 3Bot server directly or using the package manager actor mentioned earlier
 
 
-### Add the package to the threebot server
+### Add the package to the 3Bot server
 
-A package can be added directly to the threebot server as follows
+A package can be added directly to the 3Bot server as follows
 ```python
-threebot_server = j.servers.threebot.get("<instance_name>") 
-threebot_server.packages.add(<path or giturl>)
-threebot_server.packages.add(path="/home/xmonader/wspace/threefoldtech/js-ng/jumpscale/packages/hello")
+3Bot_server = j.servers.3Bot.get("<instance_name>") 
+3Bot_server.packages.add(<path or giturl>)
+3Bot_server.packages.add(path="/home/xmonader/wspace/threefoldtech/js-ng/jumpscale/packages/hello")
 ```
 
 ```python
-➜  js-ng git:(development_threebot) ✗ curl -XPOST localhost:80/hello/actors/helloActor/hello
+➜  js-ng git:(development_3Bot) ✗ curl -XPOST localhost:80/hello/actors/helloActor/hello
 "hello from foo's actor"%
 ```
 
-This also applies to deleting and installing packages directly using the threebot server.
+This also applies to deleting and installing packages directly using the 3Bot server.
 
 ### Add the package using package manager actor
 
-After starting the server with the recommended way, the package created can be added using the packages actors which calls the package manager of the threebot server. The actor can be called as follows:
+After starting the server with the recommended way, the package created can be added using the packages actors which calls the package manager of the 3Bot server. The actor can be called as follows:
 
 ```
-j.clients.gedis.threebot.actors.admin_packages.add_package("<path_to_package>")
+j.clients.gedis.3Bot.actors.admin_packages.add_package("<path_to_package>")
 ```
-where threebot is the gedis instance name for the threebot started
+where 3Bot is the gedis instance name for the 3Bot started
 
 

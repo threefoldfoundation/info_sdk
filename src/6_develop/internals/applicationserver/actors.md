@@ -28,7 +28,7 @@ Actor = Hello
 
 ````
 
-- all actors methods should be decorated with `actor_method` so you can access it directly from threebot shell. The actor method can be imported using `from jumpscale.servers.gedis.baseactor import actor_method`
+- all actors methods should be decorated with `actor_method` so you can access it directly from 3Bot shell. The actor method can be imported using `from jumpscale.servers.gedis.baseactor import actor_method`
 
 ## Invoke actors
 

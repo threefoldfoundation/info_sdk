@@ -1,10 +1,10 @@
 # Domain delegation
 
-Delegate your domain to one of the tf gateways
+Delegate your domain to one of the TF gateways.
 
 ## Accessing the solution
 
-Go to the marketplace https://marketplace.grid.tf/marketplace and click on Domain Delegation
+Go to the marketplace https://marketplace.grid.tf/marketplace and click on `Domain Delegation`.
 
 ## Steps
 
@@ -22,10 +22,10 @@ Go to the marketplace https://marketplace.grid.tf/marketplace and click on Domai
 
 ![](./img/delegate_4.png)
 
-## Depoly the solution
+## Deploy the solution
 
 ![](./img/delegate_5.png)
 
-## Congrats the solution has been deployed now
+## Congrats, the solution has been deployed now
 
 ![](./img/delegate_6.png)

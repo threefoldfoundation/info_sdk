@@ -1,2 +1,2 @@
 # Develop
-content needs to be updated for our version 2.1 of the TFGrid, help appreciated, use [Github repository](https://github.com/threefoldfoundation/info_gridmanual) please
+in this section it gets more technical on how the inner things work, how you could use the SDK, provision workloads on the grid, develop more features in the admin panels, writing your own chatflows and the internals of the 3Bot server.
