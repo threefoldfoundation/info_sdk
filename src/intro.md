@@ -10,4 +10,4 @@ If you're looking for an introduction to Threefold in general, please go to our 
 
 
 
-If you want to learn more about Grid 2.2 which is currently on testnet, please visit the [testnet manual](https://manual-testnet.threefold.io/)
+If you want to learn more about Grid 2.1 which is currently on mainnet, please visit the [manual](https://manual.threefold.io/)
