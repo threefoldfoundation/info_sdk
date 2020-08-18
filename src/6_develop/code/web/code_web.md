@@ -29,7 +29,7 @@ time.sleep(5)
 ```
 
 
-# Create Subdomains using that domain
+#### Create Subdomains using that domain
 ```python
 SUBDOMAIN = f"srv5.{DOMAIN}"
 gateway_ips = []
@@ -47,7 +47,7 @@ time.sleep(5)
 ```
 
 
-# Create a tcp reverse proxy on a gateway
+#### Create a tcp reverse proxy on a gateway
 ```python
 import uuid
 SECRET = f"{j.core.identity.me.tid}:{uuid.uuid4().hex}"
