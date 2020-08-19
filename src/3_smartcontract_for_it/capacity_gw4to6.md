@@ -6,18 +6,20 @@ The idea behind this primitive is to try to allow everyone to access the grid, w
 
 ## Reservation definition
 
-- **publicKey**: a wireguard public key
-
+* **NodeId**: the gateway ID on which to create the VPN
+* **publicKey**: a wireguard public key
+* **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Example using sdk
 
-```python
-zos = j.sal.zosv2
+``` python
+zos = j.sals.zos
 
-# create a reservation
-r = zos.reservation_create()
-
-zos.gateway.gateway_4to6(reservation=r,
+workload = zos.gateway.gateway_4to6(reservation=r,
                          node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                         public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=")
+                         public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=",
+                         pool_id=12)
+
+# deploy the workload
+id = zos.workloads.deploy(workload)
 ```

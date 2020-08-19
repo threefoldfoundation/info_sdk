@@ -79,13 +79,13 @@ Example:
 JSX> wallet = j.clients.stellar.get(name="my_wallet", network="STD")
 
 JSX> import time
-JSX> zos = j.sal.zosv2
+JSX> zos = j.sals.zos
 # create a reservation
 JSX> r = zos.reservation_create()
 
 JSX> zos.volume.create(r, "72CP8QPhMSpF7MbSvNR1TYZFbTnbRiuyvq5xwcoRNAib", size=1, type='SSD')
 JSX> expiration = j.data.time.epoch + (3600 * 24 * 365)
-# register the reservation
+# deploy the workload
 JSX> registered_reservation = zos.reservation_register(r, expiration)
 JSX> time.sleep(5)
 # inspect the result of the reservation provisioning

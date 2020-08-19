@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-cd ~/code/github/threefoldfoundation/info_tfgridsdk
-open http://localhost:3000/sdk#/
+cd ~/code/github/threefoldfoundation/info_gridmanual
+open http://localhost:3000/manual#/
 tfweb -c websitesandwikis.toml
 

@@ -1,122 +1,136 @@
 # Chatflows
 
-![](./img/chathome.png)
 
-Chatflows are an interactive communication bot that can be used to interactively ask the user some questions then perform actions based on the user's choices. think of serving a customer, handling invoices, buying items or in our case provisioning workloads on the grid.
+Chatflows are an interactive communication bot that can be used to interactively ask the user some questions then perform actions based on the user's choices. Think of serving a customer, handling invoices, buying items or in our case provisioning workloads on the grid.
 
-## Usage
+## Create a new Chatflow
 
-it's very easy to define a new bot, you just need to make sure it's added in a package and that package is installed. The chatflow should be under the `/chatflows` directory in the package created.
+It's very easy to define a new bot, you just need to make sure it's added in a package and that package is installed with 3Bot server. The chatflow should be under the `/chats` directory in the package created.
 
+### Main Features
+Each chatflow should include these :
+- `steps` list:
+    It includes the names of the functions of the chatflow steps in the chatflow that will be appearing.
+- `chatflow_step` decorator:
+    Every step function included in the steps list should have this decorator imported using `from jumpscale.sals.chatflows.chatflows import chatflow_step`. If a custom name is to be added for a step, it can be given as a parameter to the decorator function.
+- Title:
+    `title ` (optional) parameter will display a custom title for the chatflow.
+
+### Custom Features
+
+A chatflow can include some custom features which are optional. These features can be activated by providing the corresponding parameter to the `chatflow_step` decorator that is added for each chatflow step
+
+- disable_previous:
+    If set to **True**, the previous button is deactivated and going to any previous step is no longer possible
+- final_step:
+    Is set to **True** for the final step to reset the chatflow after reaching the last step when revisiting it in the same session
+
+### Available question types for user inputs:
+
+- string_ask
+- secret_ask
+- int_ask
+- text_ask
+- single_choice
+- multi_choice
+- multi_list_choice
+- drop_down_choice
+- autocomplete_drop_down
+- datetime_picker
+- time_delta_ask
+- download_file
+- upload_file
+- qrcode_show
+- captcha_ask
+- md_show
+- md_show_confirm
+- loading_show
+- multi_values_ask
+
+
+## Example
+
+### Example code
 Here is an example for a simple chatflow that will help you order a meal from one of your favorite restaurants
 
 ```python
-def chat(bot):
+from jumpscale.loader import j
+from jumpscale.sals.chatflows.chatflows import GedisChatBot, chatflow_step
+
+
+class FoodChat(GedisChatBot):
     # Sample data
     menus = {
-        "3 Burger": {
-            "main": ["Cheese Burger", "Douple Burger"],
-            "sides": ["fries", "Onion rings"],
-        },
-        "3 Pizza": {
-            "main": ["Chicken Pizza", "Beef Pizza", "Cheese Pizza"],
-            "sides": ["fries", "Cheese"],
-        }
+        "3 Burger": {"main": ["Cheese Burger", "Douple Burger"], "sides": ["fries", "Onion rings"]},
+        "3 Pizza": {"main": ["Chicken Pizza", "Beef Pizza", "Cheese Pizza"], "sides": ["fries", "Cheese"]},
     }
+    # title = "Food Chatflow"
+    steps = ["client_name_select", "restaurant_select", "restaurant_main_dish", "restaurant_side_dish", "confirmation"]
+    title = 'Food Chat'
 
-    # Ask the user about his name
-    name = bot.string_ask("Hello, What's your name?")
+    @chatflow_step("Name")
+    def client_name_select(self):
+        # Ask the user about his name
+        self.client_name = self.string_ask("Hello, What's your name?", required=True)
 
-    # display a dropdown containing your favourite Restaurants
-    restaurant_name = bot.drop_down_choice("Please select a Resturant", menus.keys())
+    @chatflow_step("Restaurant")
+    def restaurant_select(self):
+        # display a dropdown containing your favourite Restaurants
+        self.restaurant_name = self.drop_down_choice("Please select a Resturant", list(self.menus.keys()))
 
-    # display the main dishes of the selected restaurant so the user can choose only one dish
-    main_dish = bot.single_choice("Please Select your main dish", menus[restaurant_name]["main"])
+    @chatflow_step("Main Dish")
+    def restaurant_main_dish(self):
+        # display the main dishes of the selected restaurant so the user can choose only one dish
+        self.main_dish = self.single_choice("Please Select your main dish", self.menus[self.restaurant_name]["main"])
 
-    # ask about the mount (this accepts any integer)
-    amount = bot.int_ask("How many {} do you want".format(main_dish))
+        # ask about the mount (this accepts any integer)
+        self.amount = self.int_ask("How many {} do you want".format(self.main_dish))
 
-    # ask about the side dishes (the user can choose multible side dishes)
-    side_dish = bot.multi_choice("what do you want with your order", menus[restaurant_name]["sides"])
+    @chatflow_step("Side Dish")
+    def restaurant_side_dish(self):
+        # ask about the side dishes (the user can choose multible side dishes)
+        self.side_dish = self.multi_choice(
+            "what do you want with your order", self.menus[self.restaurant_name]["sides"]
+        )
 
-    # Now you can add any logic you want here to send the order to the restaurant
-    # Then we can show a report to the user about his order using md format
-    report = """# Hello {name}
-    your order has been confirmed
-    you have ordered : {amount} {main_dish] with {side_dish}
-    """.format(name=name, amount=amount, main_dish=main_dish, side_dish=side_dish)
+    @chatflow_step(title="Confirmation", disable_previous=True, final_step=True)
+    def confirmation(self):
+        # Now you can add any logic you want here to send the order to the restaurant
+        # Then we can show a report to the user about his order using md format
+        report = f"""# Hello {self.client_name}
+## Your order has been confirmed \n\n<br>\n
+### You have ordered : {self.amount} {self.main_dish} with {self.side_dish}
+        """
 
-    bot.md_show(report)
-```
-
-Home page lists all of the registered chatflows
-
-## Chatflow
-
-We register a sample chatflow `food_get` in threebot
-
-it's as easy as 
-
-
-```python
-from Jumpscale import j
-import gevent
+        self.md_show(report, md=True)
 
 
-def chat(bot):
-    """
-    to call http://localhost:5050/chat/session/food_get
-    """
-
-    res = {}
-    waittime = bot.int_ask("Wait time")
-    bot.loading_show("progress", waittime)
-
-    food = bot.string_ask("What do you need to eat?")
-    amount = bot.int_ask(f"Enter the amount you need to eat from {food} in grams")
-    sides = bot.multi_choice("Choose your side dishes: ", ["rice", "fries", "saute", "mashed potato"])
-    drink = bot.single_choice("Choose your Drink: ", ["tea", "coffee", "lemon"])
-
-    res = f"""
-
-    # You have ordered:
-    - {amount} grams,sides {sides} and {drink} drink
-    ### Click next
-    for the final step which will redirect you to threefold.me
-    """
-    bot.md_show(res)
-    bot.redirect("https://threefold.me")
+chat = FoodChat
 
 ```
-Here's how it will look like 
+
+### Usage example for previous code
+<!-- # TODO  Describe chatflows more include step configurations like last step and previous-->
+
+Here's how the previously created chatflow will look like
+
+- Asking what the user's name is as string `string_ask`
 ![Chat Flow1](./img/chat1.png)
-Asking what to eat as a string `string_ask`
 
+- Asking what restaurant the user wants from a list of options using `drop_down_choice`
 ![Chat Flow2](./img/chat2.png)
-Asking for amount as int `int_ask`
+
+- Asking what main dish the user will be having from a list of options using `single_choice`
 ![Chat Flow3](./img/chat3.png)
-Asking for side dishes as multiple choice `multi_choice`
 
+- Asking about the amount of the main dish to be ordered using `int_ask`
 ![Chat Flow4](./img/chat4.png)
-Asking for drink as single choice `single_choice`
+
+- Asking about one or more side dishes to be ordered with the main dish using `multi_choice`
 ![Chat Flow5](./img/chat5.png)
-Showing final results using md_show
 
-For more technical information on the chat package please check [Internals page](internals_chat.md)
+- Showing final results using md_show
+![Chat Flow6](./img/chat6.png)
 
 
-### Available question types:
 
-- string_ask
-- password_ask
-- text_ask
-- int_ask
-- single_choice
-- multi_choice
-- drop_down_choice
-- md_show
-- country_drop_down
-
-## Internals
-
-check [internals page](internals.md) for more information on the mechanics of chatbot and how to extend it.

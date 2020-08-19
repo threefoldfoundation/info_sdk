@@ -2,40 +2,17 @@
 
 #### Requirements
 
-In order to be able to deploy this example deployment you will have to have the following components activated
-- the TFGrid SDK, in the form of a local container with the SDK, or a grid-based SDK container.  Getting started instructions are [here](https://github.com/threefoldfoundation/info_projectX/tree/development/doc/jumpscale_SDK) 
-- if you use a locally installed container with the 3Bot SDK you need to have the wireguard software installed.  Instructions to how to get his installed on your platform can be found [here](https://www.wireguard.com/install/)
-- capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with.  Instructions to get tokens can be found [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_information/payment/FreeTFT_testtoken.md)
-
-After following these install instructions you should end up having a local, working TFGrid SDK installed.  You can work / connect to the installed SDK as described [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK/SDK_getting_started.md)
+Please check the [general requirements](code.md)
 
 ### Overview
-The design a simple Kubernetes cluster we need to follow a few steps:
-- create (or identify and use) an overlay network that spans all of the nodes needed in the solution
-- identify which nodes are involved in the Kubernetes cluster, master and worker nodes
-- create reservations for the Kubernetes virtual machines.
-- deploy the Kubernetes cluster.
+The aim is to deploy a simple container using an flist which is further describer below.
+
+
 
 #### Create an overlay network or identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to do that [here](https://github.com/threefoldfoundation/info_projectX/blob/development/doc/jumpscale_SDK_examples/network/overlay_network.md)
+Each overlay network is private and contains private IP addresses.  Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly.  In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network.  You can find instructions how to create a network [here](code_network.md)
 
-#### Set up the capacity environment to find, reserve and configure
-
-Make sure that your SDK points to the mainnet explorer for deploying this capacity example.  Also make sure you have an identity loaded.  The example code uses the default identity.  Multiple identities can be stored in the TFGrid SDK.
-
-
-
-```python
-j.clients.explorer.default_addr_set('explorer.grid.tf')
-
-# Make sure I have an identity (set default one for mainnet of testnet)
-me = j.me
-
-# Load the zero-os sal and reate empty reservation method
-zos = j.sal.zosv2
-r = zos.reservation_create()
-```
 
 #### What is a flist?  
 
@@ -58,14 +35,14 @@ You can find more information about flist and hub usage [here](flist.md)
 For this example we selected the code-server flist in a public hub.  The code-server flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode.  Its visual studio code providing a very feature-rich coding and code management environment.  The flist can be found [here](https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.flist).
 
 #### Node selection and parameters.
-You have created a network in the network creation [notebook](https://github.com/threefoldfoundation/info_projectX/blob/development/code/jupyter/SDK_examples/network/overlay_network.ipynb) with the following details:
+You have created a network in the network creation [tutorial](code_network.md) with the following details:
 
 ```python
 demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now launch the flist.  For this solution we will be using some of these nodes as master nodes and others as worker nodes.  Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
+When you executed the network workload it also provided you with data on the order number, node ID and private network range on the node.  All the nodes in the network are connected peer2peer with a wireguard tunnel.  On these nodes we can now launch the flist.  For this solution we will be using some of these nodes as master nodes and others as worker nodes.  Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
 
 | Nr.  |  Location | Node ID.   |  IPV4 network    | Function.  |
 |--------|---|---|---|---|
@@ -79,32 +56,35 @@ When you executed the reservation it also provided you with data on the order nu
 
 The reservation for a general-purpose flist has the following structure
 ```python
-zos.container.create(reservation=r,
-                    node_id=string,             # node_id to make the capacity reservation on and deploy the flist
-                    network_name=string,        # network_name deployed on the node (node can have multiple private networks)
-                    ip_address=string,          # one IP address in the range of the chosen network_name on the node
-                    flist=string,               # flist of the container you want to install, htttp hub location.
-                    interactive=Bolean,         # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
-                    cpu=integer,                # number of logical cores
-                    memory=interger,            # number of mBs of memory
+zos.container.create(node_id={string},             # node_id to deploy the flist
+                    network_name={string},        # network_name deployed on the node (node can have multiple private networks)
+                    ip_address={string},          # one IP address in the range of the chosen network_name on the node
+                    flist={string},               # flist of the container you want to install, htttp hub location.
+                    capacity_pool_id={integer},   # pool_id of where the capacity for container deployment is to be used from 
+                    interactive={Bolean},         # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
+                    cpu={integer},                # number of logical cores
+                    memory={integer,            # number of mBs of memory
                   # env={},                     # field for parameters like needed in the container environment 
-                    entrypoint=string)          # start command to get the software running in the container
+                    entrypoint={string})          # start command to get the software running in the container
 ```
 
-For more details and options please see [here](https://github.com/threefoldtech/jumpscaleX_libs/blob/master/JumpscaleLibs/sal/zosv2/container.py)
+For more details and options please see [here](https://github.com/threefoldtech/js-sdk/blob/development/jumpscale/sals/zos/container.py)
 
 Providing the correct details allows us to deploy the code-server container.
 
 
 ```python
-r = zos.reservation_create()
+zos = j.sals.zos
+
+# use the pool
+pool = zos.pools.get(payment_detail.reservation_id)
 
 # Add data to method to what to deploy.  Example is code server
-zos.container.create(reservation=r,
-                    node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
+container = zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttcNNgJX7', # one of the node_id that is part of the network
                     network_name=u_networkname, # this assume this network is already provisioned on the node
                     ip_address='172.20.30.11', # part of ip_range you reserved for your network xxx.xxx.1.10
                     flist='https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.flist', # flist of the container you want to install
+                    capacity_pool_id=pool.pool_id, # ID of the capacity pool you have created and that you want to deploy the container on
                     interactive=True,         # True only if corex_connect required, default false
                     cpu=4, # request 4 virtual CPU
                     memory=4196, # request 4 GiB of memory
@@ -113,29 +93,15 @@ zos.container.create(reservation=r,
                   # env={},                   # field for parameters like config
                     entrypoint='/sbin/my_init')
 ```
-
-Having defined registration structure `r` we can now deploy.  In this example we deploy for 5 minutes (adapt if required
-
+After creation, the container can be deployed.
 
 ```python
-# methods needed to do time calculations
-import time
-
-# reserve until now + (x) seconds
-expiration = j.data.time.epoch + (5*60)
-# register the reservation
-response = zos.reservation_register(r, expiration, identity=me)
-time.sleep(5)
+zos.workloads.deploy(container)
 
 # inspect the result of the reservation provisioning
-result = zos.reservation_result(response.reservation_id)
+result = zos.workloads.get(workload_id)
 
-# next step is to execute the payment transactions
-wallet = j.clients.stellar.get('my_wallet')
-zos.billing.payout_farmers(wallet, response)
-```
-
-The reservation had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command.  It has created a secure web interface to the coreX process where we can now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).
+The container workload deployment had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command.  It has created a secure web interface to the coreX process where we can now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).
 
 
 ```python

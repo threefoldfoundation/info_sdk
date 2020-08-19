@@ -1,330 +1,281 @@
-Package is the way to write extensions and applications to threebot server and it is driven using `package.py` file which controls the life cycle of the application, including configurations (prepare) , start, stop .. etc.
+# Packages
 
-![workflow](./img/workflow.png)
+Packages are the way to write extensions and applications to your 3Bot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
+
+Content:
+- [Structure](#structure)
+    - [Mandatory components](#mandatory-components)
+    - [Optional components](#optional-components)
+- [Configuration](#configuration)
+    - [Servers](#servers)
+- [More about packages](#more-about-packages)
+- [Package manager](#package-manager)
+- [Adding new packages](#adding-new-packages)
+    - [Add the package to the 3Bot server](#add-the-package-to-the-3Bot-server)
+    - [Add the package using package manager actor](#add-the-package-using-package-manager-actor)
 
 
-## Creating a new package
-
-A package is a self contained code where you define the configurations, the API endpoints, and your database models. It should have the same structure that we will go through in the upcoming sections 
+## Structure
+A package is a self contained code where you define the configurations, the API endpoints, and your database models. It should have the same structure that we will go through in the upcoming sections
 ```
-
-3BOTDEVEL:3bot:tmp: tree hello/
 hello
 ├── actors
-│   └── hello.py
-├── chatflows
-│   └── hello.py
-├── models
+│   └── helloActor.py
+├── chats
+│   └── helloChatflow.py
 ├── package.py
 ├── package.toml
-└── wiki
+└── __init__.py
 ```
 
+Some components will be defined by default based on the parent package classes if not provided in the package while other components have to be included in the package when loading it to the jumpscale server.
 
-## Package structure
-- **models directory** registers the model on the package loading. There is no need to manually add the models
-
-    _note_: Crud model actors are automatically generated and added to the package actors, to disable this option add `disable_crud = true` to the package.toml file
-- **actors directory** 
-    - is registered automatically when loading the package. There is no need to manually add actors, they can be accessed via http at `3BOT_URL/<threefold_name>/<package_name>/actors/<actor_name>/<actor_method>`
-    - is the logic inside a package
-    - the code inside an actor should call as many as possible libraries in jumpscale (sals, clients, ...)
-    - is also the implementation of our api for this package to the outside world, our interface basically
-- **wiki directory** 
-    - is loaded automatically and can be accessed via `3BOT_URL/<threefold_name>/<package_name>/wiki`.
-    - how to use wiki check [wiki](https://github.com/threefoldtech/jumpscaleX_threebot/blob/development/docs/wikis/README.md)
-- **chatflows directory** 
-    - is loaded automatically, can be access via `3BOT_URL/<threefold_name>/<package_name>/chat`.
-    - interactive communication, implemented as chat bots
-    - each file inside is a chat bot
-- **html**
-    - adds html in `http(s)://$threeboturl/$packagename/` 
-    - you can add simple static html pages 
-- **frontend**
-- you can add a fully functional website using frontend framework (example ```Svelte``` or ```Vue.js```) that can use the package
-- **package.py**  is where the  package logic is defined.
-
-    For packages that need their own bcdb, you need to override bcdb property like this
-
-    ```python
-    class Package(j.baseclasses.threebot_package):
-        @property
-        def bcdb(self):
-            return self.threebot_server.bcdb_get("your_name")
-
-        ...
+### Mandatory components
+- **package.toml** is where the package information is defined such as its name, ports, and type of content for example static website.<br />
+    Example
     ```
-- **package.toml**  is where the package information is defined, such as bcdb's and actors' namespaces.
+    name = "chatflows"
+    ports = [ 80,443]
 
-All of these except **package.py** and **package.toml** are optional and other loading logic can be used they will be automatically loaded, do not do manually.
+    [[static_dirs]]
+    name = "frontend"
+    path_url = "/static"
+    path_location = "frontend"
+    ```
 
+    We can also define bottle server to start in the toml file like in the following example
 
-## Package basic functions
-Please do not put any load/install/uninstall logic on any other location.
+    ```
+    [[bottle_servers]]
+    name = "main"
+    file_path = "bottle/bottle.py"
+    path_url = "/"
+    path_dest = "/"
+    host = "0.0.0.0"
+    port = 8552
+    ```
 
-The basic functions that you can override there 
-```python
-class Package(j.baseclasses.threebot_package):
+    Other servers locations can also be defined, for example using codeserver
+    ```
+    [[servers.locations]]
+    type = "proxy"
+    host = "127.0.0.1"
+    name = "codeserver"
+    port = 8080
+    path_url = "/codeserver"
+    path_dest = "/"
+    websocket = true
+    ```
+    *Detailed types of `nginx` locations that can be defined inside `package.toml` are documented [here](locations.md).
 
-    def _init(self, **kwargs):
-        #if you want to initialize something you might need for your package, is optional !!!
-        self.actors_namespace = "someothernamespace" #default is 'default' can overrule like this
-        self.giturl = ...
+- **__init__.py** could include the docs that will summarize the use of the package where they are added in the beging of the file in docstrings.
 
-    @property
-    def bcdb(self):
-        #is the default implementation, if you want to overrule, provide this method
-        return self.threebot_server.bcdb_get("$packagename")
+### Optional components
 
-    def prepare(self):
-        """
-        is called at install time
-        :return:
-        """
-        #use this to e.g. checkout git files use
-        codepath = j.clients.git.getContentPathFromURLorPath(urlOrPath=self.giturl, pull=True, branch=None):
-        #e.g. when you have developed a website can use this to check out the git code
-        #the codepath will be where the code is checked out        
-        #can now e.g. 
+- **package.py** manages the lifecycle of the package.
+    - By default, main functionalities are used to start,stop,install..etc the packages.
+    - If additional functionalities want to be added during install,uninstall,start of the package in 3Bot server they can be redifined in this file.
+    - The basic functions that you can add are included here
+        ```python
+        from jumpscale.loader import j
 
-    def install(self):
-        """
-        called when the 3Bot will install your package
-        """
-        pass
+        class MyTestPackage:
+            @property
+            def started(self):
+                return self._started
 
-    def start(self):
-        """
-        called when the 3Bot starts
-        :return:
-        """
-        #std will load the actors & models & the wiki's, no need to specify
-        #you can leave it empty or add specific configuration you want to specify
-        self.openresty.install()
-        self.openresty.configure()
+            @property
+            def startupcmd(self):
+                cmd = j.tools.startupcmd.get("<startupcmd_name>")
+                cmd.start_cmd = "<startup_cmd start bash command>"
+                return cmd
 
-        for port in (443, 80):
-            default_website = self.openresty.get_from_port(port)
-            locations = default_website.locations.get(name=f"admin_{port}")
+            def install(self):
+                """Called when package is added and installed
+                """
+                pass
 
-            admin_location = locations.get_location_static("admin")
-            admin_location.path_url = "/admin"
-            admin_location.path_location = f"{self._dirpath}/output"
-            admin_location.is_auth = True
+            def uninstall(self):
+                """Called when package is deletedand is no longer needed and will be removed from the 3Bot
+                """
+                pass
 
-            # another website/server config for /
-            root_website = self.openresty.websites.get(f"admin_root_{port}")
-            root_website.port = port
-            root_website.ssl = port == 443
-            root_locations = root_website.locations.get(name=f"admin_root_{port}")
+            def start(self):
+                """Called when 3Bot is started
+                """
+                pass
 
-            root_location = root_locations.get_location_static("admin_home")
-            root_location.path_url = "/"
-            root_location.path_location = f"{self._dirpath}/output"
-            root_location.is_auth = True
-            # include default website locations
-            root_include_location = root_locations.get_location_custom("admin_home_includes")
-            root_include_location.config = (
-                f"include {default_website.path_cfg_dir}/{default_website.name}_locations/*.conf;"
-            )
+            def stop(self):
+                """Called when 3Bot stops
+                """
+                pass
+        ```
 
-            default_website.configure()
-            root_website.configure()
-
-    def stop(self):
-        """
-        called when the 3Bot stops
-        :return:
-        """
-        if not j.sal.fs.exists("{DIR_BIN}/code-server"):
-            j.builders.apps.codeserver.install()
-        self.startupcmd.stop()
+        If any method is not needed you can omit it. 
 
 
-    def uninstall(self):
-        """
-        called when the package is no longer needed and will be removed from the threebot
-        :return:
-        """
-        # TODO: clean up bcdb ?
-        pass
+
+- **actors**
+    - actors directory contains the logic defined by the package and will be exposed as an API.
+    - actor methods can be accessed through `<HOST>/{PACKAGE_NAME}/actors/{ACTOR_NAME}/{ACTOR_METHOD}`.
+    - Parent class : `from jumpscale.servers.gedis.baseactor import BaseActor`
+    - decorator for actor methods: ``from jumpscale.servers.gedis.baseactor import actor_method`
+    <br />
+    Example
+
+        ```python3
+        from jumpscale.servers.gedis.baseactor import BaseActor, actor_method
+        from jumpscale.loader import j
+
+        class HelloActor(BaseActor):
+            def __init__(self):
+                pass
+
+            @actor_method
+            def hello(self):
+                return "hello from foo's actor"
+
+        Actor = HelloActor
+        ```
+    - To know more see [actors](actors.md)
+
+- **chats**
+    - chats (chatflows) are interactive communication tools implemented as chatbots where interactive question structures are defined in the parent class
+    - chatflows can be accessed through `<HOST>/{PACKAGE_NAME}/chats/{CHATFLOW_NAME}`.
+    - Parent class : `from jumpscale.sals.chatflows.chatflows import GedisChatBot`
+    - decorator for chatflow methods `from jumpscale.sals.chatflows.chatflows import chatflow_step`
+    <br />
+    Example
+        ```
+        from jumpscale.loader import j
+
+        from jumpscale.sals.chatflows.chatflows import GedisChatBot, chatflow_step
+
+        class HelloChatflow(GedisChatBot):
+            steps = [
+                "step1",
+                "step2"
+            ]
+
+            @chatflow_step(title="Step1")
+            def step1(self):
+                self.name = self.string_ask("What is your name?",required=True)
+
+            @chatflow_step(title="Step2")
+            def step2(self):
+                self.age = self.string_ask("How old are you?",required=True)
+
+        chat = HelloChatflow
+        ```
+    - To know more see [chatflows](develop_chatflow.md)
+
+## Configuration
+
+Configuration is done in `package.toml`, where you configure servers, bottle apps, chatflows and more.
+
+Manual configuration can be done also on package objects directly in the shell, but it's not recommended.
+
+Example configuration:
+
+```conf
+name = "admin"
+
+[[static_dirs]]
+name = "frontend"
+path_url = ""
+path_location = "frontend"
+index = "index.html"
+spa = true
+is_admin = true
 ```
 
-If method is not needed you can omit it. 
+### Servers
+In a package, the server configurations  will be mapped to nginx server configuration.
 
-## Package properties
-properties available in the package object
-```python
-self.package_root =     #path of this dir
-self.gedis_server =     #gedis server which will serve actors in this package
-self.openresty =        #openresty which is active in the threebot server
-self.threebot_server =  #the threebot server itself
-self.rack_server =      #the gevent rackserver dealing with all gevent greenlets running in a gevent rack
-self.bcdb =             #can be overruled by you (is a property), default is the system bcdb
-```
+## More about packages
 
-## Locations
-Detailed types of `openresty/nginx` locations that can be defined inside are documented [here](locations.md).
+Basic Package functionalities and properties
+- Functions
+    - load_config()
+    - get_bottle_server(file_path, host, port)
+    - install()
+    - uninstall()
+    - start()
+    - stop()
+    - restart()
 
+- Properties
+    - module
+    - base_url
+    - actors_dir
+    - chats_dir
+    - static_dirs
+    - bottle_servers
+    - actors
 
-## Example package.toml
-
-```toml
-[source]
-name = "demo"
-description = "mypackage"
-threebot = "zerobot"
-version = "1.0.0"
-
-[actor]
-namespace = "zerobot"
-
-[[bcdbs]]
-name = "zerobot_demo"
-namespace = "zerobot_demo"
-type = "zdb"
-instance = "default"
-```
-
-## Example package.py
-
-
-- Packages does the lifecycle management of your application
-- Package.py file which is read when a package get's loaded.
-- This is the ONLY file which deals with installing, start/stop, remove a package from a 3Bot.
-
-
-typical `package.py` should look like
-
-```python
-from Jumpscale import j
-
-
-class Package(j.baseclasses.threebot_package):
-    pass
-
-```
-
-In case you wanted to do more, creating proxies, special locations .. etc it may look like the following
-
-```python
-from Jumpscale import j
-
-
-class Package(j.baseclasses.threebot_package):
-    def setup_locations(self):
-        """
-        ports & paths used for threebotserver
-        see: {DIR_BASE}/code/github/threefoldtech/jumpscaleX_core/docs/3Bot/web_environment.md
-        will start bottle server web interface which include (gedis http interface, gedis websocket interface and
-        bcdbfs web server)
-        endpoints:
-        "/web/gedis/http"       >    gedis htto interface
-        "/web/gedis/websocket"  >    gedis websocket interface
-        "/web/bcdbfs"           >    bcdbfs web server
-        "/weblibs"              >    static jumpscale weblibs files
-        """
-
-        self.openresty.configure()
-
-        # get our main webserver
-        for port in (443, 80):
-            website = self.openresty.get_from_port(port)
-
-            # PROXY for gedis HTTP
-            locations = website.locations.get(name="webinterface_locations")
-
-            package_actors_location = locations.locations_proxy.new()
-            package_actors_location.name = "package"
-            package_actors_location.path_url = "~* /(.*)/(.*)/actors/(.*)/(.*)$"
-            package_actors_location.ipaddr_dest = "127.0.0.1"
-            package_actors_location.port_dest = 9999
-            package_actors_location.path_dest = ""
-            package_actors_location.type = "http"
-            package_actors_location.scheme = "http"
-
-            ## more code omitted.
-
-
-            website.configure()
-
-    def start(self):
-
-        # add the main webapplication
-
-        self.setup_locations()
-
-        from threebot_packages.zerobot.webinterface.bottle.gedis import app
-
-        self.gevent_rack.bottle_server_add(name="bottle_web_interface", port=9999, app=app, websocket=True)
-        # self.gevent_rack.webapp_root = webapp
-
-```
-
-### Custom configs for package
-
-```
-JSX> p.zerobot.chatbot_examples.install(install_kwargs={"mode":"staging"})     
-JSX> p.zerobot.chatbot_examples.start()                                        
-```
-
-
-- `self._package.install_kwargs` to can be used to access the `install_kwargs` in `package.py`
-- `self.package.install_kwargs` can be used to access the `install_kwargs` in the actors
 
 
 ## Package manager
-is an actor on threebot, any user with admin rights can call this actor to remotely instruct his 3Bot to install/remove/start/stop a package
-package can be identified by means of git_url
-if the package is already on the server (normally not the case) can use the path
+- `Packages` is an actor on 3Bot under the `admin` package, any user with admin rights can call this actor to remotely instruct the 3Bot to install/remove/start/stop a package from 3Bot server
+- A package can be identified by means of git_url or its local path
+- The actor methods in the packages actor include:
 
 ```python
-def package_add(self, git_url=None, path=None):
-    """
-    can use a git_url or a path
-    path needs to exist on the threebot server
-    the git_url will get the code on the server (package source code) if its not there yet
-    it will not update if its already there
-    """
+@actor_method
+def get_package_status(self, names: list) -> str:
+    return "hello from packages_get_status actor"
 
-def package_delete(self, name):
-    """
-    remove this package from the threebot server
-    will call package.uninstall()
-    """
+@actor_method
+def list_packages(self) -> str:
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.get_packages()})
 
-def package_stop(self, name):
-    """
-    stop a package, which means will call package.stop()
-    """
+@actor_method
+def packages_names(self) -> str:
+    return j.data.serializers.json.dumps({"data": list(self.3Bot.packages.list_all())})
 
-def package_start(self, name):
-    """
-    start a package, which means will call package.start()
-    """
-```
+@actor_method
+def add_package(self, path: str = "", giturl: str = "", extras=None) -> str:
+    extras = extras or {}
+    if path:
+        path = path.strip()
+    if giturl:
+        giturl = giturl.strip()
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.add(path=path, giturl=giturl, **extras)})
 
-## Registering package
-
-### TODO: add package manager UI or link to admin package manager.
-
-#### Using package manager actor
-
-After starting the server with the recommended way, the package created can be added using the package manager (It's implemented as a package too and loaded by default):
-
-Directly from threebot shell:
+@actor_method
+def delete_package(self, name: str) -> str:
+    return j.data.serializers.json.dumps({"data": self.3Bot.packages.delete(name)})
 
 ```
-j.threebot.packages.zerobot.packagemanager.actors.package_manager.package_add(path='/sandbox/code/github/threefoldtech/jumpscaleX_threebot/ThreeBotPackages/zerobot/alerta')
+
+
+## Adding new packages
+Adding a package can easily be done either through the 3Bot server directly or using the package manager actor mentioned earlier
+
+
+### Add the package to the 3Bot server
+
+A package can be added directly to the 3Bot server as follows
+```python
+3Bot_server = j.servers.3Bot.get("<instance_name>") 
+3Bot_server.packages.add(<path or giturl>)
+3Bot_server.packages.add(path="/home/xmonader/wspace/threefoldtech/js-ng/jumpscale/packages/hello")
 ```
 
-Or through a client from another process:
+```python
+➜  js-ng git:(development_3Bot) ✗ curl -XPOST localhost:80/hello/actors/helloActor/hello
+"hello from foo's actor"%
+```
+
+This also applies to deleting and installing packages directly using the 3Bot server.
+
+### Add the package using package manager actor
+
+After starting the server with the recommended way, the package created can be added using the packages actors which calls the package manager of the 3Bot server. The actor can be called as follows:
 
 ```
-kosmos -p
-JSX> cl = j.clients.gedis.get(name="pm", port=8901, package_name="zerobot.packagemanager")
-JSX> cl.reload()
-JSX> cl.actors.package_manager.package_add(path='/sandbox/code/github/threefoldtech/jumpscaleX_threebot/ThreeBotPackages/zerobot/alerta')
+j.clients.gedis.3Bot.actors.admin_packages.add_package("<path_to_package>")
 ```
+where 3Bot is the gedis instance name for the 3Bot started
 
 

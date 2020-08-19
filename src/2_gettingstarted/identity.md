@@ -1,158 +1,73 @@
-# Initialize your 3Bot environment with an identity
+# Identities
 
-## For the first start of jsx container
+## Creating/registering new identities using the sdk
 
-- Start kosmos shell using ```jsx container```
-- it will ask you for your identity
-    - if you want to specify it at the start ```jsx container -id someone.3bot``` (there is no need to specify 3Bot at the end, this will happen automatically).
-- if you want to work with more than 1 container, use ```-n aname```.
+### When starting 3Bot for the first time
 
+- After installing the sdk successfully, when starting 3Bot server using the following commands, you will be prompted to enter the required information to setup an initial default identity which includes the explorer url to be used
+  
+  ```bash
+  3Bot start
+  ```
 
-## If you want to check your configuration or change
-
-- This will ask you about a secret passphrase, this secret is saved in redis and encrypts your identities.
-Please keep it safe and remember it.
-
- ![Identity photo](./img/identity1.png)
-
-- After Kosmos starts, configure using j.me
+- This will take you to configure your identity, It will ask you about the network you want to use, 3Bot name, email, and words.
     
-    ```python
-    j.me.configure()
-    ```
+    ![configure](./img/identity_new.png)
 
-This will ask you about your information: 3Bot name, email, description, ... . It will also ask if you want to add admins to your system.
-This command will automatically register your information in the phonebook.
+- Then it will start 3Bot server with an identity setup that can be accessed via `j.core.identity.me`
 
- ![Identity photo](./img/identity.png)
 
-#### Congratulations your 3Bot is ready ! Now you can start the 3Bot server and start your reservation.
+### Manual configuration of identity
 
-To save your identity, you best copy these files (holding your identity information) to a safe place : 
-
- ![recover photo](./img/./img/identity2.png)
-
-- `default` file contains the name default identity, please make it to refer to your recovered identity
-
-Example:
-
+Further identities can also be added from the jsng shell as follows
+- Create a new identity instance
 ```
-3BOTDEVEL:3Bot:identities: cat default
-walid.3bot
+identity = j.core.identity.new(name="INSTANCE_NAME",tname="3Bot_NAME.3Bot", email="3Bot_EMAIL", words="WORDS",explorer_url="https://explorer.testnet.grid.tf/explorer")
 ```
+where
+  - **INSTANCE_NAME**: is the instance name of the identity that will be configured
+  - **3Bot_NAME**: 3Bot name registered from 3Bot connect app (should be in the form `NAME.3Bot`)
+  - **3Bot_EMAIL**:  corresponding email for the 3Bot name from 3Bot connect app 
+  - **WORDS**: words that can be retrieved from the 3Bot connect app settings
+  - **explorer_url**: explorer grid url that is to be used. Should be one of the following:
+    - Mainnet: `https://explorer.grid.tf/explorer`
+    - Testnet: `https://explorer.testnet.grid.tf/explorer`
 
-## .test identities (3Bot names)
+- Register/retrieved registered identity
 
-- for tests use ```aname.test```  (aname to be changed)
-- the email address you can specify but if not done will be someone@aname.test (--email)
-- when using a .test name everything will happen automatically, you will find the generated identity in your identity folder.
+    You will then need to register the new identity to the grid corresponding to the explorer url in the instance. If the identity name and email combination already exist on the explorer, the details are simply retrieved which include the tid.
 
-Example
-
-```bash
-jsx container -id test5.test -n test -d
+    To register and save the identity:
 ```
-
-will remove your container & redo your registration. 
-
-Your own 3Bot name (the one as configured in the default identity is automatically added as administrator to any 3Bot created.)
- 
-## How to start from an existing private key
-
+identity.register()
+identity.save()
 ```
-jsx container -d -id someone.3bot --words='course salon aword ship team broccoli explain gate three again heart busy vessel parrot bar chalk pig world snow ...' --email='...'
+    The identity will now have a tid in the instance
+
+### Using admin dashboard
+
+New identities can be added through the admin dashboard once 3Bot server is started.
+- Access settings of `https://<host>/admin` and click on the `ADD` button on the identities
+![identity_list](./img/identity_list.png)
+
+- Add the 3Bot name, email, words and explorer type in the window prompted then click on `Add` to create and register the identity instance
+![new identity](./img/new_identity_form.png)
+
+
+## Change default identity
+
+When you have multiple identities setup and want to switch the usage between them, this can simply be done using 
+- jsng shell
 ```
-
-## Creating multiple identities
-
-You can either start Kosmos with a new identity name ```jsx kosmos -n newname.3bot``` which will guide you through the configuration, or you can do it from Kosmos shell through following steps :
-
-- Create a new identity
-
-```bash
-JSX> j.myidentities.get("test2.3bot")
- - save identity:test1.3bot
-
-## jumpscale.threebot.me
-ID: 3
- - name                : test2.3bot
- - tid                 : 0
- - tname               :
- - email               :
- - signing_key         :
- - verify_key          :
- - admins              : []
- - sshkey_name         :
- - sshkey_pub          :
- - sshkey_priv         :
-
-
-JSX> i = j.myidentities.get("test2.3bot")
+j.core.identity.set_default("INSTANCE_NAME") 
 ```
-- Configure your new identity
-```
-JSX> i.configure()
+where
+    - **INSTANCE_NAME**: is the instance name of the identity previously created and registered
 
-THREEBOT IDENTITY NOT PROVIDED YET, WILL ASK SOME QUESTIONS NOW
+- Admin dashboard
 
+    When clicking on the identity instance then the `SET DEFAULT` button, that instance will be the current default instance used
 
-please provide your threebot connect name (min 5 chars) [test2.3bot]:
-please provide your email: test2@mail.com
-
- *** WILL NOW CONFIGURE SSH KEY FOR USE IN 3BOT ***
-
-
-SSH: found preconfigured SSH key, ok to use ssh key: id_rsa [y/n]: y
-
- *** WILL NOW CONFIGURE YOUR PRIVATE 3BOT SECURE KEY (IMPORTANT) ***
-
-
-Ok to generate private key (Y or 1 for yes, otherwise provide words)?
-make your choice (y,n): y
-We have generated a private key for you.
-The private key:
-
-fine bitter abandon annual inject among vanish supply custom pause beach type puppy exhibit carbon neutral hole trouble drastic remain artwork antique laptop material
-ITS IMPORTANT TO STORE THIS KEY IN A SAFE PLACE
-Did you write the words down and store them in safe place?
-make your choice (y,n): y
-
-give the 3e word of the private key string: abandon
-
-want to add threebot administrators? [y/n]: n
- - save identity:test1.3bot
- - save identity:test2.3bot
-JSX>
-```
-- Register the identity to the tf_phonebook using
-```python
-i.tfgrid_phonebook_register()
-```
-
-- Start 3Bot server with your preferred identity using
-```python
-JSX> j.servers.threebot.start(background=True, identity="test2.3bot")
-```
-
-- You will find your identity set in 3Bot server :
-
-![multiple_identities](./img/identity4.jpg)
-
-
-## Recovering identites
-
-In case you lost your identites, we can restore from the saved toml keys in `/sandbox/myhost/identities`.
-
-This contains the identity information, please keep them safe
-
- ![recover photo](./img/./img/identity2.png)
-
-- `default` file contains the name default identity, please make it to refer to your recovered identity.
-
-Example:
-
-```
-3BOTDEVEL:3bot:identities: cat default
-walid.3bot
+    ![set default identity](./img/identity_buttons.png)
 
 

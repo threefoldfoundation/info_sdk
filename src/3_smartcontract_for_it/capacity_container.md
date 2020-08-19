@@ -35,6 +35,8 @@ for more detail
   to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
 - **StatsAggregator**: a list of redis backends where you can send periodic statistics
+- **Statistics**: a redis backend where you can send periodic statistics
+- **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Flist
 
@@ -119,38 +121,29 @@ You can read them via redis using `SUBSCRIBE container-stats` for example.
 ## Example using sdk
 
 ```python
-zos = j.sal.zosv2
+zos = j.sal.zos
 
-# create a reservation
-r = zos.reservation_create()
 
 # add container reservation into the reservation
-zos.container.create(reservation=r,
-                    node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
+container = zos.container.create(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
                     network_name='<network_name>', # this assumes that this network is already provisioned on the node
                     ip_address='172.24.1.10', # part of ip_range you reserved for your network xxx.xxx.1.10
                     flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # flist of the container you want to install,
+                    capacity_pool_id=12, # capacity pool ID
                     disk_size=2048, # request a 2GiB of storage for the root disk for the container
                     disk_type='SSD' # use an SSD for the root disk of the container
                   # interactive=True,  # True only if corex_connect required, default false
                     env={"KEY":"VAL"},
                     entrypoint='/sbin/my_init') #
 
-# define the expiration date
-expiration = j.data.time.epoch + (10*60) # 10 minutes
-
-# register the reservation
-registered_reservation = zos.reservation_register(r, expiration)
-
-# pay for the capacity reserved
-wallet = j.clients.stellar.default
-zos.billing.payout_farmers(wallet, registered_reservation)
+# deploy the workload
+id = zos.workloads.deploy(container)
 
 # inspect the result of the reservation provisioning
-time.sleep(5)
-result = zos.reservation_result(registered_reservation.reservation_id)
+time.sleep(10)
+container = zos.workloads.get(id)
+result = container.info.result
 
 print("provisioning result")
-print(result)
-{'Namespace': '60-3', 'IP': '2a02:1802:5e:1102:e85a:41ff:fedb:2c65', 'Port': 9900}
+print(result) # show the result of the reservation
 ```

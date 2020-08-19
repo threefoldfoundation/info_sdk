@@ -1,0 +1,1 @@
+By using the services of Threefold, deploying solutions on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md).

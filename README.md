@@ -76,7 +76,7 @@ Learn how to use the tool well:
 ### Owners
 
 This repository is maintained by:
-
+@sasha-astiadi
 @weynandkuijpers
 
 ### Meetings
@@ -85,7 +85,7 @@ The team holds a update meeting twice a month, on monday at 17:00
 <!-- TODO: create and enter a zoon link for the meeting -->
 Zoom URL: 
 
-### tips and trics
+### tips and tricks
 
 ```
 <a href="http://example.com/" target="_blank">Hello, world!</a>
