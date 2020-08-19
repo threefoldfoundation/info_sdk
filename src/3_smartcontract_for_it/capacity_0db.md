@@ -12,11 +12,11 @@ When a user reserves a 0-DB namespace, a portion of a disk is reserved for the u
 
 Here is the schema used to define a 0-DB namespace reservation:
 
-- **NodeId**: the node ID on which to create the 0-DB namespace
 - **Size**: the size of the namespace in GiB
 - **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/threefoldtech/0-db#running-modes. Valid values for this fields are `seq` and `user`.
 - **Password**: the password of the namespace. When creating the workload, you need to encrypt this value with the public key of the node
 - **DiskType**: the type of disk to use. value can be `HDD` or `SSD`
+- **Public**: whether this 0-db namespace should be publicly accessible
 - **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Network consideration

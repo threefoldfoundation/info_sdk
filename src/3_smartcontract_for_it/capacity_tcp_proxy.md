@@ -34,5 +34,6 @@ id = zos.workloads.deploy(proxy)
 
 The TFGateway uses 2 technics to identify the destination domain of incoming request:
 
+
 * for HTTP, it inspect the `Host` header value
 * for TLS traffic is uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication)

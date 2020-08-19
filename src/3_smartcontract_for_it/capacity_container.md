@@ -8,12 +8,16 @@ This primitive allows a user to run its application into a container on a node.
 
 Here is the schema used to define a container reservation:
 
-- **NodeId**: the node ID on which to create the volume
-- **Flist**: the URL of the [flist](#flist). This URL needs to be reachable by the node. This is usually a URL to https://hub.grid.tf/
-- **Environment**: the environment variables to set inside the container. This is usually used to configure the application running in the container
+- **Flist**: the URL of the [flist](#flist). This URL needs to be reachable by
+the node. This is usually a URL to https://hub.grid.tf/
+- **HubUrl**: the URL of the hub to use, if not using the default hub.grid.tf
+- **Environment**: the environment variables to set inside the container. This
+is usually used to configure the application running in the container
 - **SecretEnvironment**: it is the same as `Environment` but these values are encrypted
 - **Entrypoint**: it is the program to start when the container is created
-- **Interactive**: if set to true, coreX is started in the container and the value of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager) for more detail
+- **Interactive**: if set to true, coreX is started in the container and the value
+of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
+for more detail
 - **Volumes**: this is where you define which volume to mount inside the container
   - **VolumeID**: the ID of the volume
   - **Mountpoint**: the path into the container filesystem where to mount the volume
@@ -21,14 +25,18 @@ Here is the schema used to define a container reservation:
   - **CPU**: the amount of virtual CPU to allocate to the container
   - **Memory**: the amount memory in MiB to allocate to the container
   - **DiskSize**: the size in MiB of the root filesystem of the container
-  - **DiskType**: the type of disk to use for the root filesystem of the container. Valid value are 'HHD' or 'SSD'.
+  - **DiskType**: the type of disk to use for the root filesystem of the container.
+  Valid value are 'HDD' or 'SSD'.
 - **NetworkConnection**: this is where you define the network of the container
-  - **NetworkId**: the name of the network created using a [network](network.md) primitive
+  - **NetworkId**: the name of the network created using a [network](network.md)
+  primitive
   - **Ipaddress**: net.IP: The IP address to give to the container
-  - **PublicIp6**: if this is true, the container will have an extra network interface with a Public IPv6 address. This is useful when you want to expose service directly to the public internet and out of your private overlay network
+  with a Public IPv6 address. This is useful when you want to expose service directly
+  to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
+- **StatsAggregator**: a list of redis backends where you can send periodic statistics
 - **Statistics**: a redis backend where you can send periodic statistics
-- **capacity_pool_id**: the capacity pool ID to use to provision the workload
+- **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Flist
 
