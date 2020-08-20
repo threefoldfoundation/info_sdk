@@ -3,8 +3,8 @@
 
 This document shows how to set up/migrate your ThreeFold Farm and 3Nodes. 
 
-First your Threebot should be up and running, either on the marketplace or on your local machine. In the Threebot admin panel there is tooling available to set up a farm and manage it. 
-Go to the generated domain name that hosts your Threebot, and login using your 3Bot connect app. 
+First your 3Bot should be up and running, either on the marketplace or on your local machine. In the 3Bot admin panel there is tooling available to set up a farm and manage it. 
+Go to the generated domain name that hosts your 3Bot, and login using your 3Bot connect app. 
 
 ## Choose Your Network Using Identities
 
@@ -15,7 +15,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -44,7 +44,7 @@ Fill the form with your values.
 
 Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
-![detail_3bot](./img/detail_3bot_connect.png)
+![detail_3Bot](./img/detail_3Bot_connect.png)
 
 A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 

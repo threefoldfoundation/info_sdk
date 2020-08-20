@@ -6,7 +6,7 @@ We will start by creating an flist that will include the contents of the website
 
 This tutorial will be using [Hugo](https://gohugo.io/getting-started/), which is a static site generator to serve the website contents. A simple configuration and basic files will be used.
 
-The tutorial will also use the example "chat flows" to deploy the solution. The chat flows are wizards that guide you through different steps asking you question to help you generate a reservation understandable by the grid. The Generic flist chatflow will be used where the url of the flist we will be creating is used in the process.
+The tutorial will also use the example "chat flows" to deploy the solution. The chat flows are wizards that guide you through different steps asking you questions to help you generate a reservation understandable by the grid. The Generic flist chatflow will be used where the url of the flist we will be creating is used in the process.
 
 ## Index
 
@@ -17,7 +17,7 @@ The tutorial will also use the example "chat flows" to deploy the solution. The 
 
 ### Prepare website content and server
 
-First we need to prepare the content of the website to be viewed. In this tutorial a one page html file will be used to demonstrate the idea. Feel free to add all your content hoever you like.
+First we need to prepare the content of the website to be viewed. In this tutorial a one page html file will be used to demonstrate the idea. Feel free to add all your content however you like.
 
 We will be using [Hugo](https://gohugo.io/getting-started/) to generate the site. To get the hugo binary follow the next steps
 
@@ -50,7 +50,7 @@ echo 'theme = "ananke"' >> config.toml
 
 We will now have the folder `my_hugo_website` created with the following structure
 
-![hugo_structure](hugo_structure.png)
+![hugo_structure](./img/hugo_structure.png)
 
 We can then add our content under the contents directory or using hugo commands. To test locally just start the server and access it from the browser at  `http://localhost:1313`.
 
@@ -79,12 +79,12 @@ tar -czvf my_website_flist.tar.gz -C hugo_flist .
 
 and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with your 3Bot app successfully
 
-![my website flist upload](my_website_flist_upload.png)
+![my website flist upload](./img/my_website_flist_upload.png)
 
 Once the upload is complete we now have an flist ready to be used. The flist url we will be need is the source which is usually in the following format
     `https://hub.grid.tf/YOUR_3Bot_NAME.3Bot/my_website_flist.flist`
 
-![my website flist upload success](my_website_flist_upload_success.png)
+![my website flist upload success](./img/my_website_flist_upload_success.png)
 
 ### Deploy a container
 
@@ -97,7 +97,7 @@ Now that we have our flist ready, we are prepared to deploy a container on the g
 If any of the previous items is not satisfied you can make sure of them by checking [Deploy your first solution guide](getting_started_first_solution.md). Once you have your network ready we can move on to deploying your container using the generic flist deploy wizard.
 To start the wizard click the left menu on Solutions then Generic flist
 
-![Solutions menu](full_adminmenu.png)
+![Solutions menu](./img/./img/full_adminmenu.png)
 
 1. The first step to deploy the container is to choose the network on which you want to deploy your container. Use the same name you entered previously when creating the network
 
@@ -105,11 +105,11 @@ To start the wizard click the left menu on Solutions then Generic flist
 
 2. Second enter a name to give your solution. This will be used locally to save the details of the deployment.
 
-    ![Solution name](my_first_website_solution.png)
+    ![Solution name](./img/my_first_website_solution.png)
 
 3. You then need to enter the link of the flist you created and uploaded on the hub earlier to be provided in the deployment.
 
-    ![Flist link](my_first_website_flist_link.png)
+    ![Flist link](./img/my_first_website_flist_link.png)
 
 4. Then choose how much CPU and Memory resources you want allocated for the container. You can stick to the default values provided.
 
@@ -117,34 +117,34 @@ To start the wizard click the left menu on Solutions then Generic flist
 
 5. You will then be asked if you want corex running. In our case there is no need for corex as we will start hugo server directly in the container as we pass the entrypoint (check next step) in the wizard, therefor we will disable it and choose `NO`.
 
-    ![Disable corex](my_first_website_corex.png)
+    ![Disable corex](./img/my_first_website_corex.png)
 
 6. You now need to provide the entrypoint the container will start with which is the following command to start the server:
 `/bin/hugo server -s /my_hugo_website/ --bind 0.0.0.0`
 
-    ![add entrypoint](my_first_website_entrypoint.png)
+    ![add entrypoint](./img/my_first_website_entrypoint.png)
 
 7. You can pass any other environment variables that will be used by the flist startup as well incase you chose a different server with different configurations. In this tutorial we don't need to pass anything so you can leave it empty.
 
-    ![Environment variables](chatflows_environment_variables.png)
+    ![Environment variables](./img/chatflows_environment_variables.png)
 
 8. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
 
-    For this tutorial one day will be more then enough. This expiration should include the duration you want the container to live and so the website to be available
+    For this tutorial one day will be more than enough. This expiration should include the duration you want the container to live and so the website to be available
 
     ![Expiration time](chatflow_expiration.png)
 
-9. You can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm. In our case it wont really matter so it can be left empty.
+9. You can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm. In our case it wont really matter so it can be left empty.
 
     ![Choose farms](ubuntu_farms2.png)
 
-10. You can now choose an IP address that will be given to your container in your network. This is the ip address you will be using to access the container.
+10. You can now choose an IP address that will be given to your container in your network. This is the IP address you will be using to access the container.
 
-    ![Choose IP](my_first_website_ip.png)
+    ![Choose IP](./img/my_first_website_ip.png)
 
 11. Then read carefully the options you selected previously until this point in the chatflow and confirm them by clicking next to proceed with the payment.
 
-    ![summary](my_first_website_summary.png)
+    ![summary](./img/my_first_website_summary.png)
 
 12. Now that you have chosen all the resources and details required, you will need to proceed with the payment for the solution that will be deployed. As previously mentioned, you will have your wallet setup and funded with an amount of the currency you chose your network with. The following overview will show the price of the deployment and the details regarding the address to be payed to. By clicking on the wallet you will pay with and then next then you accept the payment to be automatically done from it.
 
@@ -152,11 +152,11 @@ To start the wizard click the left menu on Solutions then Generic flist
 
 Once the deployment is successful you should have a container running with the hugo server started to serve your files on port _1313_.
 
-![deploy success](website_deploy_success.png)
+![deploy success](./img/website_deploy_success.png)
 
 This can be accessed using the \<IP:1313\> when wireguard is configured on your machine.
 
-![my first website access ip](my_first_website_access_ip.png)
+![my first website access ip](./img/my_first_website_access_ip.png)
 
 In the following section we will configure the web gateway to expose the website to be able to access it with a domain name instead.
 
@@ -164,37 +164,37 @@ In the following section we will configure the web gateway to expose the website
 Now that the website is ready and deployed. We will need to expose it to be accessible without wireguard. We can do this by simply using the Solution expose wizard in the dashboard.
 To start the wizard click the left menu on Solutions then Solution expose
 
-![Solutions menu](full_adminmenu.png)
+![Solutions menu](./img/./img/full_adminmenu.png)
 
 1. First we will choose the type of the solution that we want exposed. Since we used a custom flist and used the flist deploy wizard then we will choose flist
 
-    ![solution expose type](solution_expose_flist.png)
+    ![solution expose type](./img/solution_expose_flist.png)
 
 2. Second step we need to choose the solution deployed that we want exposed. In our case we named it _my_first_solution_ so we can simply choose that.
 
-    ![solution expose choose](solution_expose_choose.png)
+    ![solution expose choose](./img/solution_expose_choose.png)
 
 3. We then need to choose the ports to be exposed whether the tls port or the port the server will be served on. Since we started hugo server on the default port we will stick to port 1313
 
-    ![my first website ports](my_first_website_ports.png)
+    ![my first website ports](./img/my_first_website_ports.png)
 
 4. Now we need to specify the domain name that we will be registering. We have two possible options:
 
-    - You can choose a Managed domain available and add a subdomain to it
+    - You can choose a Managed domain and add a subdomain to it, where the managed domain is a ready domain available that subdomains can simply be added to through the wizard. This way you will only provide a subdomain that will be binded to the domain you chose.
 
     or
 
-    - You can choose a ready Custom domain to add an available domain that we will bind to
+    - You can choose a Custom domain to add an available domain that we will bind to, where you will need to get the domain from a domain provider yourself. You will need to add a CNAME record in your dns manager yourself when following this step.
 
     Since we have a managed subdomain available we will use that in this tutorial and simply provide a subdomain.
 
     We can give the name `my_first_website`,
 
-    so that the full domain will be `http://my_first_website.grid.deboeck.xyz/`
+    so that the full domain will be `http://my_first_website.tf-gateway-x.gateway.tf/`
 
-    ![my first website domain generation](my_first_website_domain_generation.png)
+    ![my first website domain generation](./img/my_first_website_domain_generation.jpg)
 
-    ![my first website subdomain](my_first_website_subdomain.png)
+    ![my first website subdomain](./img/my_first_website_subdomain.jpg)
 
 5. The next step is to choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
 
@@ -210,8 +210,8 @@ Congratulations!
 
 Once the payment is complete you have your website ready!!
 
-![my first website full domain](my_first_website_full_domain.png)
+![my first website full domain](./img/my_first_website_full_domain.jpg)
 
 You can now access it from the browser using the full domain you registered
 
-![my website access domain](my_website_access_domain.png)
+![my website access domain](./img/my_website_access_domain.jpg)

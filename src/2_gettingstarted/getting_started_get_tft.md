@@ -15,7 +15,7 @@ To purchase TFT and TFTA on testnet network, you can follow the following steps 
 
 ## From the admin dashboard
   
-From your 3bot you can go to wallet manager and create a new wallet (will be test if you are using identity against testnet) and it will add the trustlines and activate using friendbot
+From your 3Bot you can go to wallet manager and create a new wallet (will be test if you are using identity against testnet) and it will add the trustlines and activate using friendbot
 ![admin walletmanager](./img/walletmanager.jpg)
 
 and after creating a new wallet it will be funded with 10000 XLM

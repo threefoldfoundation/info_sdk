@@ -7,7 +7,7 @@ Inside a package, you can define one of the following location types:
 - [Single page apps (SPA)](#single-page-apps-spa)
 - [Proxy](#proxy)
 - [Custom](#custom)
-- [Threebot Connect](#threebot-connect)
+- [3Bot Connect](#3Bot-connect)
 
 
 ## Static:
@@ -68,7 +68,7 @@ location / {
 """
 ```
 
-## Threebot Connect
+## 3Bot Connect
 
 - In case you need your locations authenticated by 3Bot connect which is the default you need to add to the `package.toml` the following
 ```
@@ -79,14 +79,14 @@ is_auth=true
 is_auth=false
 ```
 
-- To disable threebot login totally use in js-ng shell:
+- To disable 3Bot login totally use in js-ng shell:
 ```python
-j.core.config.set('threebot_connect', False)
+j.core.config.set('3Bot_connect', False)
 ```
 
-- To Enable threebot login totally use in js-ng shell:
+- To Enable 3Bot login totally use in js-ng shell:
 ```python
-j.core.config.set('threebot_connect', True)
+j.core.config.set('3Bot_connect', True)
 ```
 
 Then start 3Bot server.

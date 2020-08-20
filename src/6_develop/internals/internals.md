@@ -10,7 +10,7 @@ This is a section for jumpscale experts its under heavy construction and will ha
 
 Jumpscale is the framework used inside the TFGrid SDK.
 
-- [Threebot server](threebot_server.md)
+- [3Bot server](3bot_server.md)
 - [Actors](actors.md)
 - [Packages](packages.md)
 - [Locations](locations.md)

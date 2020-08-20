@@ -14,14 +14,14 @@ You will be asked the mnemonic words from your 3Bot connect app during installat
 
 - You have to use same username & same email
 
-## Runnning 3bot
+## Runnning 3Bot
 
-After the [installation](3sdk_install.md) steps you should have an executable `threebot`
+After the [installation](3sdk_install.md) steps you should have an executable `3Bot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-threebot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
+3Bot server can run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
 
 ### Setting capabilities for nginx
 To be able to run as a normal user, you don't need it if you are root.
@@ -29,17 +29,17 @@ To be able to run as a normal user, you don't need it if you are root.
 ```
 sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
-### Starting 3bot
+### Starting 3Bot
 
 - After setting capabilities for nginx, we can just do
 
   ```bash
-  threebot start
+  3Bot start
   ```
 
-- This will take you to configure your identity, It will ask you about the network you want to use, 3bot name, email, and words.
+- This will take you to configure your identity, It will ask you about the network you want to use, 3Bot name, email, and words.
 
-- Then it will start threebot server where you will see some thing like that
+- Then it will start 3Bot server where you will see some thing like that
 
   ![configure](identity_new.png)
 
@@ -47,5 +47,5 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 
   ![configure](success.png)
 
-## Stopping 3bot
-You can stop threebot using `threebot stop`
+## Stopping 3Bot
+You can stop 3Bot using `3Bot stop`
