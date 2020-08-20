@@ -2,7 +2,9 @@
 
 ![](./img/interstellar_start.png)
 
-### Get a Stellar Wallet (testnet) [here]( https://testnet.interstellar.exchange/app)
+### Get an Interstellar Wallet (testnet) 
+
+Click [here]( https://testnet.interstellar.exchange/app) to set up an Interstellar Wallet.
 
 ![](STELLAR_DASHBOARD.PNG)
 
