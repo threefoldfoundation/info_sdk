@@ -1,14 +1,23 @@
-# info_tfgridsdk
+# info_gridmanual
 
-![](img/intro.png)
+## Manual Content
 
-### Manual Content
+Welcome to Grid Manual.
+Before contributing to this repo, one should understand that this repo reflects on three different manuals for 2 different versions of the TF Grid, and the content is clustered within 3 different branches.
 
-- [**Intro**](src/intro/README.md): This sections respresent an introduction the technolgy available through the SDK and the creator(s) and maintainer(s).  It should only have information about the technology in general, not about how to use it and what to with it.
-- [**Getting started**](src/gettingstarted/README.md):  In this section we collect all the information needed to get the SDK up and running.  All pre-requisites and software components needed for a local install and for the future what needs done to have you
-- [**SDK**](src/sdk/README.md): This is where the information sits describing the SDK, how to use the SDK. 
-- [**Use cases**](src/usecases/README.md): Use case descriptions and examples to take forward yourself. 
-- [**Tips and Tricks**](src/tips_tricks)
+1. [TF Grid 2.1 manual](manual.threefold.io) - the manual for the [Marketplace (Mainnet)](marketplace.grid.tf)
+   
+   __Production Branch: Master__
+   
+  __Staging branch: Development__
+   
+   TF Grid 2.1 Manual, please create a pull request by comparing your working branch to 'development' for edits approval.
+  
+2. [TF Grid 2.2 Testnet manual](manual-testnet.threefold.io) - the manual for the [Marketplace (Testnet)](staging.marketplace.threefold.me)
+
+    __Production Branch: Development_testnet__
+    
+    To contribute to TF Grid 2.2 Manual, please create a pull request by comparing your working branch to 'development_testnet' for edits approval.
 
 
 ### Run the wiki yourself
@@ -77,7 +86,7 @@ Learn how to use the tool well:
 
 This repository is maintained by:
 @sasha-astiadi
-@weynandkuijpers
+
 
 ### Meetings
 The team holds a update meeting twice a month, on monday at 17:00
