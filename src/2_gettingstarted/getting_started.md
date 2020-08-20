@@ -3,7 +3,7 @@
 
 To deploy a network on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
 - Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
-- Get some __TFTs__ (Threefold Tokens) to reserve grid capacity for your solution.
+- Receive __TFTs__ (Threefold Tokens) to reserve grid capacity for your solution. This can be done by creating a testnet wallet account for you.
 - Deploy your first network: to be able to connect to your 3Bot
 - Get a __Hosted 3Bot__: Host your 3Bot online.
 
@@ -13,41 +13,21 @@ Please see below for the high-level instructions.
 
 ## Get Yourself a 3Bot Connect and ID
 
-As the first step, you need to get yourself a **3Bot Connect** identity.  
+As the first step, you need to get yourself a **3Bot Connect** ID. This can be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
-This can be done by downloading the app on your smartphone and create your own 3Bot Identity. Please be aware that this ID is going to be used as your main digital identity on the Threefold grid, and holds the keys to access every services on the grid.  The 3Bot Connect App will also provide you with an access to your 3Bot wallet where your TFTs are stored.
+Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 
  [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.3Botlogin&hl=en) <BR>
  [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
 
+ ## Receive FreeTFT for Testing TF Grid 2.2 and Testnet Marketplace
 
- ## Get yourself some TFTs to get started
+__FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them  on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
 
-There are three type of token available (2020 H1). Please click on the links to learn more about the tokens: 
-[__FreeTFT__](https://github.com/threefoldfoundation/tft-stellar/#freetft), [__TFT__](https://github.com/threefoldfoundation/tft-stellar/#tft), and [__TFTA__](https://github.com/threefoldfoundation/tft-stellar/#tfta).
-
-### Get FreeTFT
-
-__FreeTFT__ is a token especially created to allow developers and early adopters to play with the grid (testnet) for free, by spending them to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. You need to first get a __Stellar wallet__, and a Stellar wallet address, so that we could send you some FreeTFT.
-
-![](./img/interstellar_start.png)
-
-Get a Stellar wallet (testnet) [here]( https://testnet.interstellar.exchange/app)
-
-![](STELLAR_DASHBOARD.PNG)
-After your wallet is successfully set, click on __+ Add Token__, 
-
-![](GET_FREETFT.PNG)
-and find 'FreeTFT'
-
-![](./img/receive_freetft.png)
-Go back to your dashboard, click on __"FreeTFT"__ , and click on __"receive"__ on the sidebar. Copy your wallet address. And now go to this website below to claim your freeTFT:
-
-[__Claim your FreeTFT!__](https://getfreetft.testnet.threefold.io)
-
-![](./img/freetft.png)
-
-Paste your wallet address, and the FreeTFT will be sent to your stellar wallet.
+You need to first set up a __testnet wallet__, and a testnet wallet address, so that we could send you some FreeTFT.
+There are two types of recommended testnet wallets that accepts FreeTFT; __Interstellar Wallet__ and __Sollar Wallet__.You could choose to set up either one of them based on your personal preferences. Click on the link below for further tutorial on how to set up the wallet and receive the FreeTFT.
+1. [Set up an Interstellar Wallet (Testnet)](interstellar_wallet.md)
+2. [Set up a Sollar Wallet (Testnet)](sollar_wallet.md)
 
 > _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
