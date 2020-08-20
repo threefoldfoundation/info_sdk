@@ -22,7 +22,7 @@
     - [K8S](./k8s.md)
     - [Minio](./minio.md)
     - [Publisher](./publisher.md)
-    - [3Bot](./3Bot.md)
+    - [3Bot](./threebot.md)
     - [Solution Expose](./solution_expose.md)
     - [Domain Delegation](./domain_delegation.md)
     - [4to6 Gateway](./4to6gateway.md)
