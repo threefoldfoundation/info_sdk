@@ -2,12 +2,12 @@
 
 ## Manual Content
 
-Welcome to Grid Manual.
+Welcome to __Grid Manual__.
 Before contributing to this repo, one should understand that this repo reflects on three different manuals for 2 different versions of the TF Grid, and the content is clustered within 3 different branches.
 
 1. [TF Grid 2.1 manual](manual.threefold.io) - the manual for the [Marketplace (Mainnet)](marketplace.grid.tf)
    
-   __Production Branch: Master__
+  __Production Branch: Master__
    
   __Staging branch: Development__
    
@@ -19,6 +19,11 @@ Before contributing to this repo, one should understand that this repo reflects 
     
     To contribute to TF Grid 2.2 Manual, please create a pull request by comparing your working branch to 'development_testnet' for edits approval.
 
+### Creating Issues
+When creating a new issue, please identify if it's an issue from TF Grid Manual 2.1 or TF Grid Manual 2.2.
+Title example:
+MANUAL 2.1 - Create a tutorial on installing wireguard
+MANUAL 2.2 - Add placeholder for intro.md
 
 ### Run the wiki yourself
 
