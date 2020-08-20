@@ -1,8 +1,6 @@
 # info_gridmanual
 
-![](img/intro.png)
-
-### Manual Content
+## Manual Content
 
 Welcome to Grid Manual.
 Before contributing to this repo, one should understand that this repo reflects on three different manuals for 2 different versions of the TF Grid, and the content is clustered within 3 different branches.
