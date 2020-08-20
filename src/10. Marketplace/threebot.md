@@ -4,7 +4,7 @@ Deploy your 3Bot online
 
 ## Accessing the solution
 
-Go to the marketplace https://marketplace.grid.tf/marketplace and click on 3Bot
+Go to the marketplace https://staging.marketplace.grid.tf/marketplace and click on 3Bot
 
 ## Steps
 
