@@ -14,7 +14,7 @@
     - [Sign up for a 3Bot ID](getting_started_3bot.md)
     - [Claim FreeTFT](getting_started_get_tft.md)
         - [Interstellar Wallet](interstellar_wallet.md)
-        - [Sollar Wallet](sollar_wallet.md)
+        - [Solar Wallet](Solar_wallet.md)
     - [Your First Network](getting_started_network.md)
     - [Solution Example](getting_started_wikideploy.md)
 - [Testnet Marketplace](marketplace.md)
