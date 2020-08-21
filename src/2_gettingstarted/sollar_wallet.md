@@ -33,13 +33,13 @@ After your wallet is successfully set, run Solar Wallet software from your compu
 
 click on __Create Account__ on your wallet home.
 
-###  Set up a New Mainnet Solar Wallet Account
+### Set up a New Mainnet Solar Wallet Account
 
 ![](./img/solar/5_sollar_password.png)
 
 You will be directed automatically to the mainnet wallet set up. Set a wallet name and password for your first mainnet wallet. Remember that in order to create a testnet wallet, we must first create a mainnet wallet.
 
-###  Back up Your Security Key (Mainnet)
+### Back up Your Security Key (Mainnet)
 
 ![](./img/solar/6_sollar_key.png)
 
@@ -49,7 +49,7 @@ Back up your security key by entering your account password.
 
 Your key is a very important component of your wallet management and recovery, and should be kept in a secure place and only be known by you.
 
-###  Go back to 'Mainnet Wallet Account List' Page
+### Go back to 'Mainnet Wallet Account List' Page
 
 After your key is securely backed up, you will be redirected to your first wallet homepage.
 
@@ -57,7 +57,7 @@ After your key is securely backed up, you will be redirected to your first walle
 
 Press the __"<" back__  button next to your wallet name to go back to all your mainnet wallet accounts list
 
-###  Activate 'Testnet' via Wallet Account List's Setting
+### Activate 'Testnet' via Wallet Account List's Setting
 
 ![](./img/solar/8_sollar_setting.png)
 
@@ -65,18 +65,17 @@ On your mainnet wallet account list page, click on the __'setting'__  icon on th
 
 ![](./img/solar/9_sollar_showtestnet.png)
 
-On your wallet account setting, click on the option to __'Show Testnet Account'__
-in order to switch from mainnet to testnet wallet environment where we would store our Free TFT.
+On your wallet account setting, click on the option to __'Show Testnet Account'__ in order to switch from mainnet to testnet wallet environment where we would store our Free TFT.
 
 ### Switch to Testnet Wallet Account List
 
-![](./img/solar/11_sollar_testhome.png)
+![](./img/solar/10_sollar_switch.png)
 
 Go back to your mainnet wallet accounts list, and click on __'SWITCH TO TESTNET'__.
 
 ### Create Your First Testnet Wallet Account
 
-![](./img/solar/12_sollar_create.png)
+![](./img/solar/11_sollar_testhome.png)
 
 Congratulations, now you are on the testnet environment. But we need to create a testnet wallet account, so let's click on __'ADD ACCCOUNT'__ to create a new testnet wallet.
 
