@@ -3,7 +3,7 @@
 
 To deploy a network on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
 - Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
-- Receive __TFTs__ (Threefold Tokens) to reserve grid capacity for your solution. This can be done by creating a testnet wallet account for you.
+- Claim __FreeTFTs__ to reserve Grid capacity for your solution. This can be done by creating a testnet wallet account for you.
 - Deploy your first network: to be able to connect to your 3Bot
 - Get a __Hosted 3Bot__: Host your 3Bot online.
 
@@ -11,7 +11,7 @@ Please see below for the high-level instructions.
 
 > _By using the services, deploying a network, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)_
 
-## Get Yourself a 3Bot Connect and ID
+## Get Yourself a 3Bot Connect App and 3BotID
 
 As the first step, you need to get yourself a **3Bot Connect** ID. This can be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
@@ -20,7 +20,7 @@ Please be aware that this ID is going to be used as your main digital identity o
  [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.3Botlogin&hl=en) <BR>
  [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
 
- ## Receive FreeTFT for Testing TF Grid 2.2 and Testnet Marketplace
+ ## Claim FreeTFT for Testing TF Grid 2.2 and Testnet Marketplace
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them  on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
 
@@ -30,15 +30,6 @@ There are two types of recommended testnet wallets that accepts FreeTFT; __Inter
 2. [Set up a Sollar Wallet (Testnet)](sollar_wallet.md)
 
 > _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
-
-
-### Buy TFT and TFTA
-
-Other than FreeTFT, There are multiple options available to get yourself TFT and TFTA, please head to the [Tokens](tokens.md) section to  learn more about the tokens. Follow this [get tokens tutorial](getting_started_get_tft.md) to get yourself some TFTs and store them into your wallet within the **3Bot Connect** app.
-
-
-!!!include:tft_not_speculative_note
-
 
 ## Deploy a network through the Marketplace
 

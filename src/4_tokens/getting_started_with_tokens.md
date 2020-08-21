@@ -23,7 +23,7 @@ And you can copy the address to receive tokens on it.
 
 ## Receiving TFT, FreeTFT or TFTA on a different Stellar based wallet
 
-To receive FreeTFT on other Stellar wallets you will need to meet a few prerequisites:
+To Claim FreeTFT on other Stellar wallets you will need to meet a few prerequisites:
 
 1. It needs to be funded with some XLM (activated)
 
