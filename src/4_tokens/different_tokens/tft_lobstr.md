@@ -30,7 +30,7 @@ You can create a TFT account doing the following steps :
 
 ![lobstr2](./img/lobstr2.jpeg)
 
-- Find TFT and FreeTFT by filling in the domain name threefold.io
+- Find TFT and FreeTFT by filling in the domain name Threefold.io
 
 ![lobstr1](./img/lobstr_assets_selection.jpg)
 

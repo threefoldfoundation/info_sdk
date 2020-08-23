@@ -180,16 +180,16 @@ ssh root@10.109.4.2
 # open the config file for editing
 vi /etc/prometheus.yml
 ```
-> You can instead download the file, modify it and upload it again. like `scp root@10.109.4.2:/etc/prometheus.yml prometheus.yml`, then upload it again like `scp prometheus.yml  root@10.109.4.2:/etc/prometheus.yml`
+> You can instead download the file, modify it and upload it again. like `scp root@10.109.4.2:/etc/prometheus.yml prometheus.yml`, then upload it again like `scp prometheus.yml root@10.109.4.2:/etc/prometheus.yml`
 
 Add this section at the end of the file. **NOTE** replace the IPs with the correct values you have for your `Master` and `Slave` nodes.
 > Make sure indentation is correct.
 ```yaml
-  - job_name: 'minio-job'
-    metrics_path: /minio/prometheus/metrics
-    scheme: http
-    static_configs:
-     - targets: ['10.109.5.2:9000', '10.109.3.2:9000']
+ - job_name: 'minio-job'
+ metrics_path: /minio/prometheus/metrics
+ scheme: http
+ static_configs:
+  - targets: ['10.109.5.2:9000', '10.109.3.2:9000']
 ```
 
 Make sure now to force `prometheus` to reload the config file as following
@@ -250,7 +250,7 @@ Choose proper wallet to pay
 Deployment in progress
 ![063](./img/063.jpeg)
 
-Take  note of the granfa IP.
+Take note of the granfa IP.
 ![064](./img/064.jpeg)
 
 You can now visit `http://10.109.3.3:3000` (please use the IP for your grafana solution instead). Use `admin/admin` to login then you can change the default password.
@@ -270,7 +270,7 @@ You can quickly go the `Explore` window (click the compass icon on the left)
 Clicking the metrics drop down you should see all the `metrics` that are know to prometheus (same ones from prometheus UI)
 ![069](./img/069.jpeg)
 
-Later you can add dashboards for `minio` that shows you all minio statistics. We might also later provide a pre-configured minio dashboard that also graph the new custom metrics in minio that were added by `threefold`
+Later you can add dashboards for `minio` that shows you all minio statistics. We might also later provide a pre-configured minio dashboard that also graph the new custom metrics in minio that were added by `Threefold`
 
 Later you can add dashboards for `minio` that shows you all minio statistics.
-Please import this [dashboard](https://raw.githubusercontent.com/threefoldtech/minio/master-rework/cmd/gateway/zerostor/grafana.json) in grafana which will give you the best overview for tall available metrics.
+Please import this [dashboard](https://raw.githubusercontent.com/Threefoldtech/minio/master-rework/cmd/gateway/zerostor/grafana.json) in grafana which will give you the best overview for tall available metrics.

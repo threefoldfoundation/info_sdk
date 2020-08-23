@@ -1,4 +1,4 @@
-# This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid 2.2 (js-ng 11.0.0.alpha1)
+# This document shows how to setup/migrate your Threefold Farm and 3Nodes to TF Grid 2.2 (js-ng 11.0.0.alpha1)
 
 **Summary**
 
@@ -6,17 +6,17 @@
 - [Create a new farm using the 3SDK GUI](#create-your-farm-using-the-3sdk-gui)
 - [Create a new farm using the 3SDK kosmos shell](#create-your-farm-using-the-3sdk-kosmos-shell)
 - [Generate a bootable 0-OS image](#create-a-bootable-image)
-- [Start your node with the generated 0-OS image](http://localhost:3000/docs/grid/tf_farming/v2_jsx_farmsetup.html#start-3node-with-bootable-image)
+- [Start your node with the generated 0-OS image](http://localhost:3000/docs/grid/tf_farming/v2_jsx_farmsetup.html#start-3Node-with-bootable-image)
 
 This guide is splitted in two parts. One will show to use the 3SDK GUI to create a farm, the second part is using the SDK python shell.
 
-If you need assistance contact ThreeFold support via the chat on www.threefold.io
+If you need assistance contact Threefold support via the chat on www.Threefold.io
 
-### Please make sure you read the  [V2 Networking Document](https://github.com/threefoldtech/zos/blob/master/docs/network/introduction.md) before you start migrating your farm/nodes. 
+### Please make sure you read the [V2 Networking Document](https://github.com/Threefoldtech/zos/blob/master/docs/network/introduction.md) before you start migrating your farm/nodes. 
 
 ## Prerequisite: Install 3SDK
 
-See the installation instruction to get yourself the 3SDK installed: [https://manual.threefold.io/#/3sdk_install](https://manual.threefold.io/#/3sdk_install)
+See the installation instruction to get yourself the 3SDK installed: [https://manual.Threefold.io/#/3sdk_install](https://manual.Threefold.io/#/3sdk_install)
 
 ## Create your farm using the 3SDK GUI
 
@@ -95,7 +95,7 @@ j.core.identity.set_default("identity_instance_name")
 Now you can create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
-from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
 
 # get a client to the explorer
 explorer = j.core.identity.me.explorer
@@ -110,7 +110,7 @@ farm.3Bot_id = j.me.tid
 farm.iyo_organization = 'my_super_farm_v1'
 
 # add your wallet address
-wallet_address = TfgridDirectoryWallet_address1()
+wallet_address = TF GridDirectoryWallet_address1()
 wallet_address.asset = 'TFT'
 wallet_address.address = 'GABONHE4AV6FFL57ZAYJXYSM7MHW5ONLYJE5F6O4ZADRUFGBFLHZWOGF'
 farm.wallet_addresses.append(wallet_address)
@@ -139,4 +139,4 @@ You are now ready to boot your nodes !
 
 ## Start 3Node with bootable image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

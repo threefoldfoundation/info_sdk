@@ -1,6 +1,6 @@
 # Capacity pool
 
-Deploying a workload on the tf grid happens in 2 steps:
+Deploying a workload on the TF Grid happens in 2 steps:
 
 1. Reserve a capacity pool, this is your actual capacity reservation.
 1. Deploy a workloads connected to this pool.
@@ -36,17 +36,17 @@ to reserve a capacity pool looks like this:
 
 ```go
 Reservation struct {
-	JSON              string
-	DataReservation   ReservationData
-	CustomerTid       int64
+	JSON    string
+	DataReservation ReservationData
+	CustomerTid  int64
 	CustomerSignature string
 }
 
 ReservationData struct {
-	PoolID     int64
-	CUs        uint64
-	SUs        uint64
-	NodeIDs    []string
+	PoolID  int64
+	CUs  uint64
+	SUs  uint64
+	NodeIDs []string
 	Currencies []string
 }
 ```

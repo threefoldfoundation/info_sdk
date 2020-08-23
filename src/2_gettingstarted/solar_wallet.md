@@ -46,13 +46,13 @@ After your key is securely backed up, you will be redirected to your first walle
 
 ![](./img/Solar/7_Solar_acclist.png)
 
-Press the __"<" back__  button next to your wallet name to go back to all your mainnet wallet accounts list
+Press the __"<" back__ button next to your wallet name to go back to all your mainnet wallet accounts list
 
 ### Activate 'Testnet' via Wallet Account List's Setting
 
 ![](./img/Solar/8_Solar_setting.png)
 
-On your mainnet wallet account list page, click on the __'setting'__  icon on the left corner of your page. 
+On your mainnet wallet account list page, click on the __'setting'__ icon on the left corner of your page. 
 
 ![](./img/Solar/9_Solar_showtestnet.png)
 
@@ -122,7 +122,7 @@ You will now be automatically redirected to your wallet address key. __Copy this
 
 ### Claim FreeTFT via Threefold 
 
-Now go back to your web browser and click on [getfreetft.testnet.threefold.io](https://getfreetft.testnet.threefold.io/#/) to claim your FreeTFT.
+Now go back to your web browser and click on [getfreetft.testnet.Threefold.io](https://getfreetft.testnet.Threefold.io/#/) to claim your FreeTFT.
 
 ![](./img/Solar/receive_login.png)
 
@@ -136,4 +136,4 @@ Insert your paste your Solar Testnet Wallet address on the given form and click 
 
 __Go back to your Solar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Testnet Marketplace__](marketplace.md)
 
-> If you have problem with adding FreeTFT, feel free to contact our [Support Helpdesk](https://threefoldfaq.crisp.help/en/).
+> If you have problem with adding FreeTFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).

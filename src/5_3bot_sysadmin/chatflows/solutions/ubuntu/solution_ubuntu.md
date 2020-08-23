@@ -24,7 +24,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 
 - Register user 3Bot on explorer ```kosmos "j.me.configure()"```
 
-    Note: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
+ Note: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
 - Install [wireguard](https://www.wireguard.com/install/)
 
 After the deployment of the Ubuntu is complete, a url will be returned that can be used to access the container through web browser (corex) after up your wireguard configuration.

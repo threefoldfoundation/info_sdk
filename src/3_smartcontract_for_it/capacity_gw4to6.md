@@ -16,9 +16,9 @@ The idea behind this primitive is to try to allow everyone to access the grid, w
 zos = j.sals.zos
 
 workload = zos.gateway.gateway_4to6(reservation=r,
-                         node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                         public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=",
-                         pool_id=12)
+       node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
+       public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=",
+       pool_id=12)
 
 # deploy the workload
 id = zos.workloads.deploy(workload)

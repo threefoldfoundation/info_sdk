@@ -5,7 +5,7 @@
 
 ![](edge_cloud.png)
 
-TODO:  use case Autonomous, Edge, Grid Computing, high level
+TODO: use case Autonomous, Edge, Grid Computing, high level
 
 ## BCDB: Secure, Scalable, Distributed Storage Workloads
 

@@ -66,7 +66,7 @@ fields are used for. You can find a full definition of the types in [provisiond.
 #### [Reservation](provisiond.md#reservation)
 
 The [reservation object](provisiond.md#reservation) is the high level object for
-dealing with a reservation on the threefold grid. It is composed of the
+dealing with a reservation on the Threefold grid. It is composed of the
 [reservation.data](#reservationdata), which holds all data for the workload
 covered by this reservation (and is immutable after it is created), and additional
 info for the reservation state.
@@ -82,32 +82,32 @@ deleted.
 Given the [enum values](provisiond.mdNextActionEnum), we can roughly describe a
 reservation life cycle as follows:
 
-  - user create the reservation, initial status is `created`
-  - user sends the reservation to the explorer, status goes from `create` to `sign`
-  - user sign the reservation, status goes from `sign` to `pay`
-  - as a result of registering the reservation on the explorer, the user got a
-  list of transaction to do in other to pay the farmer involved in to the reservation.
-  Once the user has actually executed the transactions, the explorer checks the
-  token have actually arrived, the status goes from `pay` to `deploy`. Check the
-  [payment documentation](reservation_payment.md) for more detail information on
-  how to pay for a reservation.
-  - when a reservation is has a state `deploy`, the node can now pick it up and
-  provision the workloads.
+ - user create the reservation, initial status is `created`
+ - user sends the reservation to the explorer, status goes from `create` to `sign`
+ - user sign the reservation, status goes from `sign` to `pay`
+ - as a result of registering the reservation on the explorer, the user got a
+ list of transaction to do in other to pay the farmer involved in to the reservation.
+ Once the user has actually executed the transactions, the explorer checks the
+ token have actually arrived, the status goes from `pay` to `deploy`. Check the
+ [payment documentation](reservation_payment.md) for more detail information on
+ how to pay for a reservation.
+ - when a reservation is has a state `deploy`, the node can now pick it up and
+ provision the workloads.
 
-  From here there are 2 possibility:
+ From here there are 2 possibility:
 
-  - the reservation expires, it's state goes from `deploy` to `delete`.
-  - Or the user decide to delete the reservation before it expires. It validate
-  the condition defined in `SignaturesDelete` field. the state does from `deploy`
-  to `delete`
-  - when a reservation is has a state `delete`. The node decommission the workloads,
-  and reports the workloads to be deleted, and once all workloads have been marked
-  as deleted, the reservation state goes from `delete` to `deleted` and the reservation
-  life cycle is ended.
+ - the reservation expires, it's state goes from `deploy` to `delete`.
+ - Or the user decide to delete the reservation before it expires. It validate
+ the condition defined in `SignaturesDelete` field. the state does from `deploy`
+ to `delete`
+ - when a reservation is has a state `delete`. The node decommission the workloads,
+ and reports the workloads to be deleted, and once all workloads have been marked
+ as deleted, the reservation state goes from `delete` to `deleted` and the reservation
+ life cycle is ended.
 
 - `SignaturesProvision`: A list of `signatures` needed to start the provisioning
 (deploy) step. i.e. after enough valid signatures are provided here, the nodes
-can start to deploy the workloads defined. Validity of signatures and  amount of
+can start to deploy the workloads defined. Validity of signatures and amount of
 valid signatures required is defined by the `SigningRequestProvision` field.
 
 ~~- `SignatureFarmer`: the [signatures](#signingsignature) of the farmer threebot,
@@ -133,11 +133,11 @@ after creating the reservation, all of these fields are immutable after being cr
 - description: Description of the reservation/workloads.
 
 Depending on the specific workload, here are links to the available fields:
-- container: https://github.com/threefoldtech/zosv2/blob/master/docs/provision/provision.md
-- volume: https://github.com/threefoldtech/zosv2/blob/master/docs/provision/provision.md
-- zdb: https://github.com/threefoldtech/zosv2/blob/master/docs/provision/provision.md
-- network: https://github.com/threefoldtech/zosv2/blob/master/docs/provision/provision.md
-- k8s: https://github.com/threefoldtech/zosv2/blob/master/docs/provision/provision.md
+- container: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
+- volume: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
+- zdb: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
+- network: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
+- k8s: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
 
 - signing_request_provision: The list of threebots which can sign for the provisioning
 to happen, and the minimum amount of signatures required to do so, as described
@@ -171,7 +171,7 @@ in the company), the signature will not be valid, as he is not listed in the
 `signers` field, and therefore he is not able to deploy the workload.
 
 Note that `quorum_min` is a _minimum_ and as such, it is possible, and legal,
-for more than 1 of the listed persons to sign.   I.e. if both `threebot_a` and
+for more than 1 of the listed persons to sign. I.e. if both `threebot_a` and
 `threebot_b` sign, the request is still fulfilled.
 
 #### [SigningSignature](provisiond.me#SigningSignature)
@@ -221,7 +221,7 @@ responsible to set the price of its node capacity.
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain
 using ThreefoldToken (TFT).
-- **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid
+- **Node**: Hardware running 0-OS and responsible to provide capacity to the TF Grid
 
 
 

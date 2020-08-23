@@ -26,16 +26,16 @@ multiple assets for both testing and production.
 
 ## Supported assets
 
-Network         | Asset Code    | Asset Issuer |
+Network   | Asset Code | Asset Issuer |
 | ------------- | ------------- | ------------- |
-| Production    | TFT           | GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47 |
-| Testnet       | TFT           | GA47YZA3PKFUZMPLQ3B5F2E3CJIB57TGGU7SPCQT2WAEYKN766PWIMB3 |
-| Production    | TFTA          | GBUT4GP5GJ6B3XW5PXENHQA7TXJI5GOPW3NF4W3ZIW6OOO4ISY6WNLN2 |
-| Testnet       | TFTA          | GB55A4RR4G2MIORJTQA4L6FENZU7K4W7ATGY6YOT2CW47M5SZYGYKSCT |
-| Production    | FreeTFT       | GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT |
-| Testnet       | FreeTFT       | GBLDUINEFYTF7XEE7YNWA3JQS4K2VD37YU7I2YAE7R5AHZDKQXSS2J6R |
+| Production | TFT   | GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47 |
+| Testnet  | TFT   | GA47YZA3PKFUZMPLQ3B5F2E3CJIB57TGGU7SPCQT2WAEYKN766PWIMB3 |
+| Production | TFTA   | GBUT4GP5GJ6B3XW5PXENHQA7TXJI5GOPW3NF4W3ZIW6OOO4ISY6WNLN2 |
+| Testnet  | TFTA   | GB55A4RR4G2MIORJTQA4L6FENZU7K4W7ATGY6YOT2CW47M5SZYGYKSCT |
+| Production | FreeTFT  | GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT |
+| Testnet  | FreeTFT  | GBLDUINEFYTF7XEE7YNWA3JQS4K2VD37YU7I2YAE7R5AHZDKQXSS2J6R |
 
-For More information: [https://github.com/threefoldfoundation/tft-stellar](https://github.com/threefoldfoundation/tft-stellar)
+For More information: [https://github.com/Threefoldfoundation/tft-stellar](https://github.com/Threefoldfoundation/tft-stellar)
 
 ## Prerequisites
 
@@ -48,7 +48,7 @@ A Stellar wallet is ought to have funds of one of the supported assets and the
 native currency XLM. The reason the wallet needs these XLM is because transaction
 created on the stellar network require a fee paid in the native currency XLM.
 
-Currently we support Stellar wallets in Jumpscale: [https://github.com/threefoldtech/jumpscaleX_libs/tree/unstable/JumpscaleLibs/clients/stellar](https://github.com/threefoldtech/jumpscaleX_libs/tree/unstable/JumpscaleLibs/clients/stellar).
+Currently we support Stellar wallets in Jumpscale: [https://github.com/Threefoldtech/jumpscaleX_libs/tree/unstable/JumpscaleLibs/clients/stellar](https://github.com/Threefoldtech/jumpscaleX_libs/tree/unstable/JumpscaleLibs/clients/stellar).
 
 ## Stellar Trustlines
 

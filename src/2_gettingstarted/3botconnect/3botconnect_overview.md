@@ -1,24 +1,24 @@
-<!--- original content: https://github.com/threefoldfoundation/info_threefold/tree/development/src/docs/token/apps_wallets --->
+<!--- original content: https://github.com/Threefoldfoundation/info_Threefold/tree/development/src/docs/token/apps_wallets --->
 # 3Bot Connect App
 
 ![](./img/3Bot_intro.png)
 
 ## Home Page
 
-This is the Home Page of your 3Bot Connect App. It offers a gateway to your digital life. From here you can open  [FreeFlow Pages](https://freeflowpages.com/), an open source social network hosted on ThreeFold decentralized capacity. 
+This is the Home Page of your 3Bot Connect App. It offers a gateway to your digital life. From here you can open [FreeFlow Pages](https://freeflowpages.com/), an open source social network hosted on Threefold decentralized capacity. 
 
 ![](./img/3Bot_home_page.png )
 
 ## Wallet
 
-In this tab you can check your ThreeFold Tokens wallets and balances. You can copy your wallet address using the green "Copy" buttons for each specific wallet. Using the button in the bottom right side you can send or generate QR code to receive ThreeFold Tokens:
+In this tab you can check your Threefold Tokens wallets and balances. You can copy your wallet address using the green "Copy" buttons for each specific wallet. Using the button in the bottom right side you can send or generate QR code to receive Threefold Tokens:
 
 ![](./img/3Bot_wallet_1.png )
 
 
-### Generate QR Code to receive ThreeFold Tokens
+### Generate QR Code to receive Threefold Tokens
 
-To receive your ThreeFold Tokens you can copy your button or you have to fill next fields:
+To receive your Threefold Tokens you can copy your button or you have to fill next fields:
 
 
 ![](./img/3Bot_wallet_2.png)

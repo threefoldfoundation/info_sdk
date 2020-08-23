@@ -26,8 +26,8 @@ $ cd ressources/storage/simple-localpath/
 $ kubectl create -f pvc.yaml
 $ kubectl create -f pod.yaml
 $ kubectl get pods -n default
-NAME                         READY   STATUS    RESTARTS   AGE
-volume-test                  1/1     Running   0          2m
+NAME       READY STATUS RESTARTS AGE
+volume-test     1/1  Running 0   2m
 
 ```
 
@@ -62,10 +62,10 @@ we need to initiate a connection from the cluster to an external machine with a 
 
 ```
 $ kubectl get svc -n kube-system
-NAME             TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                                     AGE
-kube-dns         ClusterIP      10.43.0.10      <none>        53/UDP,53/TCP,9153/TCP                      6d5h
-metrics-server   ClusterIP      10.43.36.33     <none>        443/TCP                                     6d5h
-traefik          LoadBalancer   10.43.178.254   172.31.1.50   80:32015/TCP,443:32432/TCP,8080:30137/TCP   6d5h
+NAME    TYPE   CLUSTER-IP  EXTERNAL-IP PORT(S)          AGE
+kube-dns   ClusterIP  10.43.0.10  <none>  53/UDP,53/TCP,9153/TCP      6d5h
+metrics-server ClusterIP  10.43.36.33  <none>  443/TCP          6d5h
+traefik   LoadBalancer 10.43.178.254 172.31.1.50 80:32015/TCP,443:32432/TCP,8080:30137/TCP 6d5h
 ```
 
 We tried with [inlets](https://github.com/inlets/inlets).
@@ -73,7 +73,7 @@ We tried with [inlets](https://github.com/inlets/inlets).
 Follow the guide and you will end up executing this kind of command on your master node.
 
 ```
-inlets client  --remote "mydomain.be:8080"  --upstream "http://172.30.1.50:80"  --token "${AUTHTOKEN}"
+inlets client --remote "mydomain.be:8080" --upstream "http://172.30.1.50:80" --token "${AUTHTOKEN}"
 ```
 
 If you have deployed the drupal-mysql example which contains an ingress ressources you can modify the ingress to the domain name here it is mydomain.be so that now when you hit http://mydomain.be you are redirected to the drupal website

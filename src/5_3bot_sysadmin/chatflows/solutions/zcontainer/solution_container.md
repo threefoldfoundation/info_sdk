@@ -84,7 +84,7 @@ We select the wallet that we will pay with to proceed with the payment for the s
 
 ### Accessing corex of the deployed container
 
-Accessing a deployed solution using an flist with the link  `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with ubuntu started.
+Accessing a deployed solution using an flist with the link `https://hub.grid.tf/tf-bootable/ubuntu:18.04` to have a container with ubuntu started.
 
 ![](./img/2.png)
 

@@ -66,7 +66,7 @@ Choosing a currency that will be used for the payment. Three currencies are curr
 #### Choosing how to reach the entry point node
 
 Here, the wizard asks to configure an `entrypoint` into your network so you can actually access your network from your device (laptop/PC/mobile). An `entrypoint` is responsible to route the traffic coming from your device to all the other nodes of the network.
-The nodes running on the TFGrid all communicate over IPv6. While this is very convenient for the nodes, not everyone has access to IPv6 already. For this reason we allow people to configure `entrypoint` using IPv4 address.
+The nodes running on the TF Grid all communicate over IPv6. While this is very convenient for the nodes, not everyone has access to IPv6 already. For this reason we allow people to configure `entrypoint` using IPv4 address.
 
 
 You can choose between IPv6 or IPv4 for your `entrypoint`. If you are not sure what to choose, pick IPv4.
@@ -74,7 +74,7 @@ You can choose between IPv6 or IPv4 for your `entrypoint`. If you are not sure w
 #### Wireguard install
 
 ![Step6](./img/network_8.png)
-Just asks you to make sure you have Wireguard installed, the in-built protocol to configure your network.  
+Just asks you to make sure you have Wireguard installed, the in-built protocol to configure your network. 
 The grid is built around IPv6, Wireguard will make the connection to the network you just created.
 
 #### Configuring your machine

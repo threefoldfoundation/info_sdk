@@ -2,7 +2,7 @@
 
 A flist is the container deployed on zero-OS. 
 It can be converted from Docker or customized on the [Zero-OS Hub](https://hub.grid.tf/).
-The result can be uploaded and made available in the flist repository, where it is available for usage.  
+The result can be uploaded and made available in the flist repository, where it is available for usage. 
 
 ## Deployment of a flist through the chatflow
 

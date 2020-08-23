@@ -4,23 +4,23 @@
 
 3Bot is the intelligent virtual avatar that manages everything in our digital life, or the digital life of our company. To create this 3Bot we had no choice other than to start from scratch and re-invent a lot because existing IT components are too centralized and often too inefficient (e.g. memory hungry).
 
-The 3Bot makes it possible to run workloads in a fully autonomous manner. Your Digital Avatar (the 3Bot) has been designed to be as efficient as possible. The current memory footprint is less than 200MB yet still it is a wiki system, database, blockchain, web server, indexing & search machine, e-commerce system, wallet, decentralized exchange, and more. It can manage millions of objects and is the center of your company or your digital life. By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency (ThreeFold Token or TFT) which the 3Bot can use to reserve raw storage and compute resources on the grid.
+The 3Bot makes it possible to run workloads in a fully autonomous manner. Your Digital Avatar (the 3Bot) has been designed to be as efficient as possible. The current memory footprint is less than 200MB yet still it is a wiki system, database, blockchain, web server, indexing & search machine, e-commerce system, wallet, decentralized exchange, and more. It can manage millions of objects and is the center of your company or your digital life. By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency (Threefold Token or TFT) which the 3Bot can use to reserve raw storage and compute resources on the grid.
 
-## 3Bot Features                                          [picture of 3Bot]
+## 3Bot Features           [picture of 3Bot]
 
 
 
-The ThreeFold system uses dispersed storage algorithms and is very different.In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
+The Threefold system uses dispersed storage algorithms and is very different.In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
 
 In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
 
 ## How is this “Space Algorithm” used by the 3Bot
 
-By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency (ThreeFold Token or TFT) which the 3Bot can use to reserve raw storage and compute resources on the grid.
+By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency (Threefold Token or TFT) which the 3Bot can use to reserve raw storage and compute resources on the grid.
 
-![](https://github.com/threefoldfoundation/3Bot/blob/master/docs/img/3Bot%20ecosystem.jpg)
+![](https://github.com/Threefoldfoundation/3Bot/blob/master/docs/img/3Bot%20ecosystem.jpg)
 
-Each 3Bot has a unique capability to use this CPU and storage capacity from the different TFNodes in the TF Grid in a safely and reliably. Data cannot be lost because of the above described dispersed storage algorithm. A 3Bot can store a petabyte of information as long as enough TFTs are available so the required resource can be reserved on the individual TFNodes. 3Bot is the only entity that has the required information and keys to make retrieval of the distributed data possible.
+Each 3Bot has a unique capability to use this CPU and storage capacity from the different TFNodes in the TF Grid in a safely and reliably. Data could not be lost because of the above described dispersed storage algorithm. A 3Bot can store a petabyte of information as long as enough TFTs are available so the required resource can be reserved on the individual TFNodes. 3Bot is the only entity that has the required information and keys to make retrieval of the distributed data possible.
 
 ## Jumpscale: The automation platform which makes the 3Bot possible
 
@@ -32,7 +32,7 @@ Jumpscale is the foundation of the autonomous layer. To get to autonomous operat
 
 This is a highly-capable database (scalable, secure, etc.) incorporating all the features of modern blockchain technology.
 
-![](https://github.com/threefoldfoundation/3Bot/blob/master/docs/img/bcdb.png)
+![](https://github.com/Threefoldfoundation/3Bot/blob/master/docs/img/bcdb.png)
 
 The blockchain database (BCDB) is a super-efficient database that uses blockchain technology to securely store and retrieve data. Blockchain principles like “always append” and “store data in an immutable manner” are key aspects of this database technology. The blockchain database is used in the autonomous layer for storing information of users, farmers, the digital representatives (3Bots), IT Architecture descriptions, and the state information of these running applications. This database technology provides distributed storage of key information of the autonomous layer.
 
@@ -74,7 +74,7 @@ BCDB has the following features:
 - For invalidation (like delete, but data never really goes away – just becomes invalid)
 - Supported interfaces: WebDav, Redis, REST
 
-![](https://github.com/threefoldfoundation/3Bot/blob/master/docs/img/3Bot-storage.png)
+![](https://github.com/Threefoldfoundation/3Bot/blob/master/docs/img/3Bot-storage.png)
 
 Information can be a movie, for example, or a single piece of information like your email address. Each digital avatar is responsible for retrieving & reconstructing the information from the underlying IT capacity network (the nodes on a decentralized internet). This happens in a very secure way and the digital avatar is the only digital entity capable of re-assembling the information in such a way it makes sense again. This leads to very strong security.
 
@@ -120,6 +120,6 @@ This system is super scalable because aggregator sites by themselves are limited
 ## This leads to endless scalability
 The above-suggested architecture scales endlessly. Millions of 3Bots = digital avatars can work with millions of nodes. The nodes provide the capacity, the digital avatars are the brain. There is no bottleneck in this architecture.
 
-![](https://github.com/threefoldfoundation/3Bot/blob/master/docs/img/multiple%203Bots%20-%20scales%20unlimited.png)
+![](https://github.com/Threefoldfoundation/3Bot/blob/master/docs/img/multiple%203Bots%20-%20scales%20unlimited.png)
 
 To find further information about 3Bot and technologies you can visit our whitepaper on [https://docs.google.com/document/d/1qEaAqYxL0v9ZnwcMtud61SJUvDcz6DS_wRqPykPh1Y8/edit?usp=sharing] 

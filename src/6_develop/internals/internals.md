@@ -8,7 +8,7 @@ Jumpscale is the foundation of the autonomous layer. To get to autonomous operat
 
 This is a section for jumpscale experts its under heavy construction and will have information how to work with Jumpscale in more detail.
 
-Jumpscale is the framework used inside the TFGrid SDK.
+Jumpscale is the framework used inside the TF Grid SDK.
 
 - [3Bot server](3bot_server.md)
 - [Actors](actors.md)

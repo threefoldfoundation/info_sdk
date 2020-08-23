@@ -9,7 +9,7 @@ In this section of our wiki, you find everything you need to know about:
 - Managing Your Farm & Nodes: see [farm_setup](farm_setup)
 - Manage your wallet: see [configure_wallet](configure_wallet)
 
-If you have any questions head to your [Farming Section on the Forum](https://forum.threefold.io/c/threefold-grid-support/farmer-discussion)
+If you have any questions head to your [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion)
 
 
 

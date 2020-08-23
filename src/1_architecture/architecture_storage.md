@@ -19,9 +19,9 @@ All of the above concepts were invented when datasets were small(er) and could s
 
 ![](./img/classic_storage.png)
 
-#### ThreeFold Space Algorithm (dispersed storage)
+#### Threefold Space Algorithm (dispersed storage)
 
-Today we produce more data than ever before (in the last two years we produced more data than in the history of mankind, and this is accelerating exponentially). We cannot continue to make full copies of data to make sure it is stored reliably. This will simply not scale. We need to move from securing the whole dataset to securing all the objects that make up a dataset.
+Today we produce more data than ever before (in the last two years we produced more data than in the history of mankind, and this is accelerating exponentially). We could not continue to make full copies of data to make sure it is stored reliably. This will simply not scale. We need to move from securing the whole dataset to securing all the objects that make up a dataset.
 
 Dispersed storage is using space technology to store data(fragments) over multiple devices (physical storage devices in 3Nodes). The solution does not distribute and store parts of an object (file, photo, movie etc.) but describes the part of an object. This can be visualized by thinking of it as equations.
 
@@ -33,7 +33,7 @@ a=1
 b=2
 c=3
 ```
-(and for reference that part of real-world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`).  With these numbers we can create endless amounts of equations:
+(and for reference that part of real-world objects is not a simple number like `1` but a unique digital number describing the part, like the binary code for it `110101011101011101010111101110111100001010101111011.....`). With these numbers we can create endless amounts of equations:
 ```
 1: a+b+c=6
 2: c-b-a=0
@@ -54,7 +54,7 @@ And this is a mathematical system we can solve:
 - Second: `2b+a-c=2 -> c=2b+a-2 -> c=2(c-a)+a-2 -> c=2c-2a+a-2 -> c=a+2`
 - Third: `5c-b-a=12 -> 5(a+2)-(c-a)-a=12 -> 5a+10-(a+2)+a-a=12 -> 5a-a-2=2 -> 4a=4 -> a=1`
 
-Now that we know `a=1` we can solve the rest `c=a+2=3` and `b=c-a=2`.  And we have from 3 random equations regenerated the original fragments and can now recreate the original object.  
+Now that we know `a=1` we can solve the rest `c=a+2=3` and `b=c-a=2`. And we have from 3 random equations regenerated the original fragments and can now recreate the original object. 
 
 The redundancy and reliability in such a system comes in the form of creating (more than needed) equations and storing them. As shown these equations in any random order can recreate the original fragments and therefore
 redundancy comes in at a much lower overhead.
@@ -68,7 +68,7 @@ The overhead in this example is 4 out of 20 which is a mere **20%** instead of (
 
 Dispersed storage is a very important building block for our autonomous grid, we store all data (blockchain databases included) by using this method. This underlying storage method will be presented in many different forms for developers and end-user protocols.
 
-Available today is an S3 interface based on the [min.io](https://min.io/) S3 interface.  With the dispersed storage layer available you can build fast, robust and reliable storage and archiving solutions. Some example code and deployment schedules are shared in this manual
+Available today is an S3 interface based on the [min.io](https://min.io/) S3 interface. With the dispersed storage layer available you can build fast, robust and reliable storage and archiving solutions. Some example code and deployment schedules are shared in this manual
 
 
 ![](./img/storage_architecture_0.png)

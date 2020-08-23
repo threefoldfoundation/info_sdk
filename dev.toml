@@ -8,9 +8,9 @@ port = 3000
 #unique name for the wiki
 name = "sdk"
 #http or git url
-# url = "github.com/threefoldfoundation/info_gridmanual"
+# url = "github.com/Threefoldfoundation/info_gridmanual"
 #if empty will be auto created
-path = "/home/zaibon/dev/gig/code/github/threefoldfoundation/info_gridmanual"
+path = "/home/zaibon/dev/gig/code/github/Threefoldfoundation/info_gridmanual"
 #commit automatically when there is new info, only works when ssh used
 autocommit = false
 #branch name, of "" then will be the default or what is found on the FS

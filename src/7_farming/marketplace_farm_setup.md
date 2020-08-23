@@ -1,6 +1,6 @@
-# This document shows how to setup/migrate your ThreeFold Farm and 3Nodes using the marketplace
+# This document shows how to setup/migrate your Threefold Farm and 3Nodes using the marketplace
 
-Once you have created your 3bot using the marketplace,  you can use it also to set up a farm and manage it. 
+Once you have created your 3bot using the marketplace, you can use it also to set up a farm and manage it. 
 Go to the generated domain name and login using your 3Bot connect app. 
 
 ### 1. Choose your network using identities
@@ -76,7 +76,7 @@ j.core.identity.set_default("identity_instance_name")
 Now you can create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
-from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
 
 # get a client to the explorer
 explorer = j.core.identity.me.explorer
@@ -91,7 +91,7 @@ farm.threebot_id = j.me.tid
 farm.iyo_organization = 'my_super_farm_v1'
 
 # add your wallet address
-wallet_address = TfgridDirectoryWallet_address1()
+wallet_address = TF GridDirectoryWallet_address1()
 wallet_address.asset = 'TFT'
 wallet_address.address = 'GABONHE4AV6FFL57ZAYJXYSM7MHW5ONLYJE5F6O4ZADRUFGBFLHZWOGF'
 farm.wallet_addresses.append(wallet_address)
@@ -120,4 +120,4 @@ You are now ready to boot your nodes !
 
 ## Start 3Node with bootable image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

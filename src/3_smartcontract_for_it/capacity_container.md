@@ -19,20 +19,20 @@ is usually used to configure the application running in the container
 of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
 for more detail
 - **Volumes**: this is where you define which volume to mount inside the container
-  - **VolumeID**: the ID of the volume
-  - **Mountpoint**: the path into the container filesystem where to mount the volume
+ - **VolumeID**: the ID of the volume
+ - **Mountpoint**: the path into the container filesystem where to mount the volume
 - **Capacity**:
-  - **CPU**: the amount of virtual CPU to allocate to the container
-  - **Memory**: the amount memory in MiB to allocate to the container
-  - **DiskSize**: the size in MiB of the root filesystem of the container
-  - **DiskType**: the type of disk to use for the root filesystem of the container.
-  Valid value are 'HDD' or 'SSD'.
+ - **CPU**: the amount of virtual CPU to allocate to the container
+ - **Memory**: the amount memory in MiB to allocate to the container
+ - **DiskSize**: the size in MiB of the root filesystem of the container
+ - **DiskType**: the type of disk to use for the root filesystem of the container.
+ Valid value are 'HDD' or 'SSD'.
 - **NetworkConnection**: this is where you define the network of the container
-  - **NetworkId**: the name of the network created using a [network](network.md)
-  primitive
-  - **Ipaddress**: net.IP: The IP address to give to the container
-  with a Public IPv6 address. This is useful when you want to expose service directly
-  to the public internet and out of your private overlay network
+ - **NetworkId**: the name of the network created using a [network](network.md)
+ primitive
+ - **Ipaddress**: net.IP: The IP address to give to the container
+ with a Public IPv6 address. This is useful when you want to expose service directly
+ to the public internet and out of your private overlay network
 - **Logs**: a redis backend where you can send stdout and stderr output
 - **StatsAggregator**: a list of redis backends where you can send periodic statistics
 - **Statistics**: a redis backend where you can send periodic statistics
@@ -63,20 +63,20 @@ You can even specify multiple endpoint. For now only redis is supported but this
 In the reservation payload, there is a `logs` field where you can specify your endpoints:
 
 ```
-    ...
-    "entrypoint": "",
-    "interactive": true,
-    ...
-    "logs": [
-        {
-            "type": "redis",
-            "data": {
-                "stdout": "redis://1.2.3.4:6379/container-stdout",
-                 "stderr": "redis://1.2.3.4:6379/container-stderr"
-            }
-        }
-    ],
-    ...
+ ...
+ "entrypoint": "",
+ "interactive": true,
+ ...
+ "logs": [
+  {
+   "type": "redis",
+   "data": {
+    "stdout": "redis://1.2.3.4:6379/container-stdout",
+     "stderr": "redis://1.2.3.4:6379/container-stderr"
+   }
+  }
+ ],
+ ...
 ```
 
 Fields `stdout` and `stderr` wants uri like: `redis://host:port/channel`.
@@ -89,29 +89,29 @@ Like logs, you can send statistics to a (only for now) redis channel. Container 
 the specified channel:
 ```
 {
-    "timestamp": 1586221435,
-    "memory_usage": 561152,
-    "memory_limit": 315621376,
-    "memory_cache": 36864,
-    "cpu_usage": 12129887,
-    "pids_current": 1
+ "timestamp": 1586221435,
+ "memory_usage": 561152,
+ "memory_limit": 315621376,
+ "memory_cache": 36864,
+ "cpu_usage": 12129887,
+ "pids_current": 1
 }
 ```
 
 To set your remote endpoint, you can specify in the reservation:
 ```
-    ...
-    "interactive": true,
-    "logs": null,
-    "stats_aggregator": [
-        {
-            "type": "redis",
-            "data": {
-                "endpoint": "redis://1.2.3.4:6379/container-stats"
-            }
-        }
-    ],
-    ...
+ ...
+ "interactive": true,
+ "logs": null,
+ "stats_aggregator": [
+  {
+   "type": "redis",
+   "data": {
+    "endpoint": "redis://1.2.3.4:6379/container-stats"
+   }
+  }
+ ],
+ ...
 ```
 
 Fields `endpoint` wants uri like: `redis://host:port/channel`
@@ -126,15 +126,15 @@ zos = j.sal.zos
 
 # add container reservation into the reservation
 container = zos.container.create(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
-                    network_name='<network_name>', # this assumes that this network is already provisioned on the node
-                    ip_address='172.24.1.10', # part of ip_range you reserved for your network xxx.xxx.1.10
-                    flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # flist of the container you want to install,
-                    capacity_pool_id=12, # capacity pool ID
-                    disk_size=2048, # request a 2GiB of storage for the root disk for the container
-                    disk_type='SSD' # use an SSD for the root disk of the container
-                  # interactive=True,  # True only if corex_connect required, default false
-                    env={"KEY":"VAL"},
-                    entrypoint='/sbin/my_init') #
+     network_name='<network_name>', # this assumes that this network is already provisioned on the node
+     ip_address='172.24.1.10', # part of ip_range you reserved for your network xxx.xxx.1.10
+     flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # flist of the container you want to install,
+     capacity_pool_id=12, # capacity pool ID
+     disk_size=2048, # request a 2GiB of storage for the root disk for the container
+     disk_type='SSD' # use an SSD for the root disk of the container
+     # interactive=True, # True only if corex_connect required, default false
+     env={"KEY":"VAL"},
+     entrypoint='/sbin/my_init') #
 
 # deploy the workload
 id = zos.workloads.deploy(container)

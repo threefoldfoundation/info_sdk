@@ -21,7 +21,7 @@ This hub can be reset anytime, don't put sensitive or production code there.
 
 ## Command line tool
 
-If you want to use command line tools, you can use [0-flist](https://github.com/threefoldtech/0-flist/tree/development-v2)
+If you want to use command line tools, you can use [0-flist](https://github.com/Threefoldtech/0-flist/tree/development-v2)
 
 Here is a simple example how to upload a complete directory:
 
@@ -37,7 +37,7 @@ zflist hub upload /tmp/ubuntu-18.04.flist
 ```
 
 Note: token is itsyou.online API key, you can't use 3Bot login for now.
-An open issue to allow it is in progress at [threefoldtech/0-hub/issues/28](https://github.com/threefoldtech/0-hub/issues/28)
+An open issue to allow it is in progress at [Threefoldtech/0-hub/issues/28](https://github.com/Threefoldtech/0-hub/issues/28)
 
 
 ## Upload an image
@@ -57,7 +57,7 @@ readme. You can use this readme to add documentation about your flist if other p
 ## GitHub Action
 
 If you want to use the hub as default target when you work on your project, you can build an flist
-easily via GitHub Action using [publish-flist action](https://github.com/threefoldtech/publish-flist)
+easily via GitHub Action using [publish-flist action](https://github.com/Threefoldtech/publish-flist)
 
 # Internals
 

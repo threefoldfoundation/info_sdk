@@ -2,7 +2,7 @@
 
 To make your solution available to the internet we provide an option to expose your solution.
 
-This will create a container inside your network which will connect to one of your gateways using [tcprouter](https://github.com/threefoldtech/tcprouter/) 
+This will create a container inside your network which will connect to one of your gateways using [tcprouter](https://github.com/Threefoldtech/tcprouter/) 
 
 Depending on which kind of solution you are trying to expose you might be offered to choose which http port to expose.
 

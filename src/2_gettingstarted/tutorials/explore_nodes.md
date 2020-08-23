@@ -8,9 +8,9 @@ The Grid explorers gather all the statistics of the nodes and is your source of 
 Explorer address for each network:
 
 - Mainnet: [https://explorer.grid.tf/](https://explorer.grid.tf/) 
-  - Main production network, this is usually what you want to use.
+ - Main production network, this is usually what you want to use.
 - Testnet: [https://explorer.testnet.grid.tf/](https://explorer.testnet.grid.tf/)
-  - Test network where new feature of 0-OS are tested. No stability warranty.
+ - Test network where new feature of 0-OS are tested. No stability warranty.
 
 You can also access the explorer from the Admin panel by clicking on the `Capacity` tab in the left menu. ![capacity_menu.png](capacity_menu.png)
 
@@ -26,7 +26,7 @@ The total amount of resource units this node has to offer. Combine this with the
 
 `Available Capacity = Total Capacity - Reserved capacity`
 
-At the moment only CRU and MRU can be over provisioned on the node. HRU and SRU are strict and cannot be over provisioned.
+At the moment only CRU and MRU can be over provisioned on the node. HRU and SRU are strict and could not be over provisioned.
 
 ### Reserved capacity
 

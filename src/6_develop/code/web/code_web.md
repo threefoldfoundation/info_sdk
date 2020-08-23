@@ -25,13 +25,13 @@ pool = j.sals.zos.pools.get(1)
 # select a gateway available in your pool
 gateway = None
 for gid, g in gateway_ids.items():
-    if gid in pool.node_ids:
-        if not g.dns_nameserver:
-            continue
-        gateway = g
-        break
+ if gid in pool.node_ids:
+  if not g.dns_nameserver:
+   continue
+  gateway = g
+  break
 if not gateway:
-    raise j.exceptions.Input(f"pool {pool.pool_id} doesn't include any gateway")
+ raise j.exceptions.Input(f"pool {pool.pool_id} doesn't include any gateway")
 ```
 
 #### Delegate your domain to the gateway
@@ -52,7 +52,7 @@ got to your dns manager and create an `ns` record pointing to the gateway name `
 SUBDOMAIN = "srv1.waleed.grid.tf"
 gateway_ips = []
 for ns in gateway.dns_nameserver:
-    gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
+ gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
 subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, SUBDOMAIN, gateway_ips, pool.pool_id)
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
@@ -93,13 +93,13 @@ FLIST_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist"
 CONTAINER_IP_ADDRESS = "10.212.2.10"
 secret_env = {"TRC_SECRET": j.sals.zos.container.encrypt_secret(NODE_ID, SECRET)}
 container = j.sals.zos.container.create(
-    node_id=NODE_ID,
-    network_name=NETWORK,
-    ip_address=CONTAINER_IP_ADDRESS,
-    flist=FLIST_URL,
-    capacity_pool_id=pool.pool_id,
-    entrypoint=entrypoint,
-    secret_env=secret_env,
+ node_id=NODE_ID,
+ network_name=NETWORK,
+ ip_address=CONTAINER_IP_ADDRESS,
+ flist=FLIST_URL,
+ capacity_pool_id=pool.pool_id,
+ entrypoint=entrypoint,
+ secret_env=secret_env,
 )
 wid = j.sals.zos.workloads.deploy(container)
 ```
@@ -154,7 +154,7 @@ Endpoint = {{peer.endpoint}}
 {% endfor %}
 """
 config = j.tools.jinja2.render_template(
-    template_text=wgconfigtemplate, cfg=cfg, privatekey=private_key.decode()
+ template_text=wgconfigtemplate, cfg=cfg, privatekey=private_key.decode()
 )
 
 # save your config

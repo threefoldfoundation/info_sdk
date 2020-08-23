@@ -33,19 +33,19 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 
 - After setting capabilities for nginx, we can just do
 
-  ```bash
-  3Bot start
-  ```
+ ```bash
+ 3Bot start
+ ```
 
 - This will take you to configure your identity, It will ask you about the network you want to use, 3Bot name, email, and words.
 
 - Then it will start 3Bot server where you will see some thing like that
 
-  ![configure](identity_new.png)
+ ![configure](identity_new.png)
 
 - After success you can visit the admin dashboard at http://localhost and start creating reservations
 
-  ![configure](success.png)
+ ![configure](success.png)
 
 ## Stopping 3Bot
 You can stop 3Bot using `3Bot stop`

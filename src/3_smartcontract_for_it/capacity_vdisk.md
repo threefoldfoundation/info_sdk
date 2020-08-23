@@ -27,9 +27,9 @@ nodes = zos.nodes_finder.nodes_search(sru=10)
 
 # reserve a volume of 10 GiB on a SSD disk
 volume = zos.volume.create(reservation=r,
-                           node_id=nodes[0].node_id,
-                           size=10,
-                           type='SSD')
+       node_id=nodes[0].node_id,
+       size=10,
+       type='SSD')
 
 # deploy the workload
 id = zos.workloads.deploy(volume)

@@ -19,12 +19,12 @@ Here is the schema used to define a container reservation:
 zos = j.sals.zos
 
 proxy = zos.gateway.sub_domain(
-                            node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                            domain='solution1.tfgrid.zaibon.be',
-                            addr='2a02:2788:864:1314:9eb6:d0ff:fe97:764b',
-                            port=8080,
-                            port_tls=4080,
-                            pool_id=12)
+       node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
+       domain='solution1.TF Grid.zaibon.be',
+       addr='2a02:2788:864:1314:9eb6:d0ff:fe97:764b',
+       port=8080,
+       port_tls=4080,
+       pool_id=12)
 
 # deploy the workload
 id = zos.workloads.deploy(proxy)

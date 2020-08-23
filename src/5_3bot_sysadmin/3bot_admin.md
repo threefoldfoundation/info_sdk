@@ -2,7 +2,7 @@
 
 ![](./img/admin_start.png)
 
-The 3Bot admin panel is a versatile tool to administrate and control processes and activities of the TFGrid SDK.
+The 3Bot admin panel is a versatile tool to administrate and control processes and activities of the TF Grid SDK.
 
 ### Home
 
@@ -44,7 +44,7 @@ You can view the dashboard by navigating to `http://<host>/admin`.
 
 #### Login
 
-The dashboard is protected by 3Bot connect. To access it in the first place, the user should have started 3Bot server using their saved identity  or their 3Bot name was added by the initial user giving them access to the dashboard.
+The dashboard is protected by 3Bot connect. To access it in the first place, the user should have started 3Bot server using their saved identity or their 3Bot name was added by the initial user giving them access to the dashboard.
 
 Giving admin access to other users can be done from `Settings` or admins can be added to `j.tools.3Bot.me.default.admins` via `jsng` shell:
 

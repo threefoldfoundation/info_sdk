@@ -1,7 +1,7 @@
 
 # Set up a farm
 
-This document shows how to set up/migrate your ThreeFold Farm and 3Nodes. 
+This document shows how to set up/migrate your Threefold Farm and 3Nodes. 
 
 First your 3Bot should be up and running, either on the marketplace or on your local machine. In the 3Bot admin panel there is tooling available to set up a farm and manage it. 
 Go to the generated domain name that hosts your 3Bot, and login using your 3Bot connect app. 
@@ -67,4 +67,4 @@ You are now ready to boot your nodes!
 
 ## Start 3Node with Bootable Image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

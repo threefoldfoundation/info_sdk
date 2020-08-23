@@ -8,13 +8,13 @@ When adding packages to a server, they should first be defined, then added to th
 Content:
 
 - [3Bot Server](#3Bot-server)
-  - [Staring 3Bot](#staring-3Bot)
-    - [Using 3Bot command](#using-3Bot-command)
-    - [Manual start](#manual-start)
-    - [Nginx and privileged ports](#nginx-and-privileged-ports)
-  - [APIs](#apis)
-  - [Packages](#packages)
-  - [ssl](#ssl)
+ - [Staring 3Bot](#staring-3Bot)
+ - [Using 3Bot command](#using-3Bot-command)
+ - [Manual start](#manual-start)
+ - [Nginx and privileged ports](#nginx-and-privileged-ports)
+ - [APIs](#apis)
+ - [Packages](#packages)
+ - [ssl](#ssl)
 
 ## Staring 3Bot
 

@@ -1,7 +1,7 @@
 
 ![logo](./img/interstellar_logo.png )
 
-*The Current setup of the ThreeFold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
+*The Current setup of the Threefold Cloud Project does not require payments, but this will be the case in the future so we already have included some information on ways to buy TFT*
 
 # Buying Tokens on Interstellar
 
@@ -30,9 +30,9 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 
 * Choose If you want a Generate a Random or Custom wallet adress (we are going for a random one in this case.
 
-* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully.  Losing your key will most likely result in a loss of your funds. ThreeFold or Interstellar can’t help anyone restore accounts or the funds attached to them in any case!
+* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully. Losing your key will most likely result in a loss of your funds. Threefold or Interstellar can’t help anyone restore accounts or the funds attached to them in any case!
 
-* You’re account is now created and you will have to send funds (digital currencies that run on the Stellar Blocklchain only  only) to one of the wallets attached to your account.
+* You’re account is now created and you will have to send funds (digital currencies that run on the Stellar Blocklchain only only) to one of the wallets attached to your account.
 
 * We have funded our wallet with $408 or 10.000 XLMs for this manual as you can see these are now shown in the account overview.
 
@@ -67,7 +67,7 @@ Now that the account is set up and funded and you have the TFT asset listed in y
 
 ![](./img/interstellar_trade_xlm_tft.png )
 
-* You can now choose to fullfill a sell order from the order book, do a partial buy of an order,  or create you own buy order by stating the amount of TFT you would like to buy and at what price.
+* You can now choose to fullfill a sell order from the order book, do a partial buy of an order, or create you own buy order by stating the amount of TFT you would like to buy and at what price.
 
 ![](./img/interstellar_trade_1.png )
 

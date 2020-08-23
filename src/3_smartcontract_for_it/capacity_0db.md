@@ -2,7 +2,7 @@
 
 ![](0db_head.png)
 
-This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/threefoldtech/0-DB), a low level key-value store that uses the RESP (redis) protocol.
+This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/Threefoldtech/0-DB), a low level key-value store that uses the RESP (redis) protocol.
 
 0-DB is responsible to get the best write and read speed out of the disk or SSD exposed underneath.
 
@@ -13,7 +13,7 @@ When a user reserves a 0-DB namespace, a portion of a disk is reserved for the u
 Here is the schema used to define a 0-DB namespace reservation:
 
 - **Size**: the size of the namespace in GiB
-- **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/threefoldtech/0-db#running-modes. Valid values for this fields are `seq` and `user`.
+- **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/Threefoldtech/0-db#running-modes. Valid values for this fields are `seq` and `user`.
 - **Password**: the password of the namespace. When creating the workload, you need to encrypt this value with the public key of the node
 - **DiskType**: the type of disk to use. value can be `HDD` or `SSD`
 - **Public**: whether this 0-db namespace should be publicly accessible
@@ -25,7 +25,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 ## Useful links and extra documentation
 
-If you want to dive in more about 0-DB itself, head to the official repository: [0-DB](https://github.com/threefoldtech/0-DB)
+If you want to dive in more about 0-DB itself, head to the official repository: [0-DB](https://github.com/Threefoldtech/0-DB)
 
 ## Example
 
@@ -37,12 +37,12 @@ nodes = zos.nodes_finder.nodes_search(sru=10)
 
 # create a 0-DB namespace workload of 10 GiB on a SSD disk.
 zdb = zos.zdb.create(
-    node_id=nodes[0].node_id,
-    size=10,
-    mode='seq',
-    password='supersecret',
-    pool_id=12,
-    disk_type="SSD")
+ node_id=nodes[0].node_id,
+ size=10,
+ mode='seq',
+ password='supersecret',
+ pool_id=12,
+ disk_type="SSD")
 
 # deploy the workload and retrieve its ID
 id = zos.workloads.deploy(zdb)
@@ -58,10 +58,10 @@ print(result) # show the result of the reservation
 
 # create a client to the 0-DB namespace and connect to it
 zdb = j.clients.zdb.new(name='demo',
-                  addr="2a02:1802:5e:1102:e85a:41ff:fedb:2c65",
-                  port=9900,
-                  secret='supersecret',
-                  nsname='60-3',mode='seq')
+     addr="2a02:1802:5e:1102:e85a:41ff:fedb:2c65",
+     port=9900,
+     secret='supersecret',
+     nsname='60-3',mode='seq')
 
 id = zdb.set('Hello')
 zdb.get(id)

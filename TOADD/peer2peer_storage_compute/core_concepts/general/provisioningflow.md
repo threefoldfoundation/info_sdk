@@ -15,4 +15,4 @@ In case of an error in the provision flow :
 - Reporting of the error
 - Refund to the user
 
-![grid_provisioning2](https://raw.githubusercontent.com/threefoldtech/zos/master/assets/grid_provisioning2.png)
+![grid_provisioning2](https://raw.githubusercontent.com/Threefoldtech/zos/master/assets/grid_provisioning2.png)

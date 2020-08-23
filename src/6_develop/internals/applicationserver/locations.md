@@ -63,7 +63,7 @@ type = "custom"
 name = "<location_name>"
 custom_config = """
 location / {
-   rewrite ^/(.*)/path$ /path/$1;
+ rewrite ^/(.*)/path$ /path/$1;
 }
 """
 ```

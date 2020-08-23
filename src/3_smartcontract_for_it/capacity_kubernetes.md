@@ -44,23 +44,23 @@ network_name = 'demo_network'
 sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2N9XH3pVbb7ex']
 
 master = zos.kubernetes.add_master(
-    node_id=master_node,
-    network_name=network_name,
-    cluster_secret=cluster_secret,
-    ip_address='172.24.1.20',
-    size=size,
-    ssh_keys=sshkeys,
-    pool_id=12)
+ node_id=master_node,
+ network_name=network_name,
+ cluster_secret=cluster_secret,
+ ip_address='172.24.1.20',
+ size=size,
+ ssh_keys=sshkeys,
+ pool_id=12)
 
 worker = zos.kubernetes.add_worker(
-    node_id=worker_node,
-    network_name=network_name,
-    cluster_secret=cluster_secret,
-    ip_address='172.24.2.20',
-    size=size,
-    master_ip=master.ipaddress,
-    ssh_keys=sshkeys,
-    pool_id=12)
+ node_id=worker_node,
+ network_name=network_name,
+ cluster_secret=cluster_secret,
+ ip_address='172.24.2.20',
+ size=size,
+ master_ip=master.ipaddress,
+ ssh_keys=sshkeys,
+ pool_id=12)
 
 # deploy both master and worker
 zos.workloads.deploy(master)
@@ -89,7 +89,7 @@ Welcome to k3OS!
 Refer to https://github.com/rancher/k3os for README and issues
 
 By default mode of k3OS is to run a single node cluster. Use "kubectl"
-to access it.  The node token in /var/lib/rancher/k3s/server/node-token
+to access it. The node token in /var/lib/rancher/k3s/server/node-token
 can be used to join agents to this server.
 
 k3os-15956 [~]$
@@ -99,10 +99,10 @@ Let's get all nodes of the cluster
 
 ``` shell
 k3os-15956 [~]$ k3s kubectl get nodes
-NAME         STATUS   ROLES    AGE     VERSION
-k3os-15956   Ready    master   3m46s   v1.16.3-k3s.2
-k3os-15957   Ready    <none>   2m26s   v1.16.3-k3s.2
-k3os-15958   Ready    <none>   1m42s   v1.16.3-k3s.2
+NAME   STATUS ROLES AGE  VERSION
+k3os-15956 Ready master 3m46s v1.16.3-k3s.2
+k3os-15957 Ready <none> 2m26s v1.16.3-k3s.2
+k3os-15958 Ready <none> 1m42s v1.16.3-k3s.2
 ```
 
 Copy the config so that we can use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
@@ -128,16 +128,16 @@ clusters:
 
 * cluster:
 
-    certificate-authority-data: LS0tLS1CRUdLKjhdDGhjDHKHKhDBJWakNCL3FBREFnRUNBZ0VBTUFvR0NDcUdTTTQ5QkFNQ01DTXhJVEFmQmdOVkJBTU1HR3N6Y3kxelpYSjIKWlhJdFkyRkFNVFU0TURjME9EQXhOakFlRncweU1EQXlNRE14TmpRd01UWmFGdzB6TURBeE16RXhOalF3TVRaYQpNQ014SVRBZkJnTlZCQU1NR0dzemN5MXpaWEoyWlhJdFkyRkFNVFU0TURjME9EQXhOakPPOIHjkDHDJHGkFnRUddaW9tdVR1MXQ1aVRlZDhHaVFrQ2FrdnRWL2xpRGJ3MUlxSS94dEkKWmUya2Y3Tm1mL0txR3IrMzN5SVZ5Q0tkaEdlelBCbEsvanNUSkZVSWpzdWpJekFoTUE0R0ExVWREd0DezdzedzenTlZIUk1CQWY4RUJUQURBUUgvTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUJFNTYzcUttY2xiClVQWHc2UXJCbWxQUmlrbWdCVnY0VHlkMVZ0TWNXY3JYQWlCVlJPY3RjMTF1TXFrOGJWVHJOVFNiN0lFS3ZkRjAKelluMzhwME41MdLUVORCBDRVJUSUZJQ0FURS0D=
-    server: https://172.30.1.2:6443
-  name: k3s
+ certificate-authority-data: LS0tLS1CRUdLKjhdDGhjDHKHKhDBJWakNCL3FBREFnRUNBZ0VBTUFvR0NDcUdTTTQ5QkFNQ01DTXhJVEFmQmdOVkJBTU1HR3N6Y3kxelpYSjIKWlhJdFkyRkFNVFU0TURjME9EQXhOakFlRncweU1EQXlNRE14TmpRd01UWmFGdzB6TURBeE16RXhOalF3TVRaYQpNQ014SVRBZkJnTlZCQU1NR0dzemN5MXpaWEoyWlhJdFkyRkFNVFU0TURjME9EQXhOakPPOIHjkDHDJHGkFnRUddaW9tdVR1MXQ1aVRlZDhHaVFrQ2FrdnRWL2xpRGJ3MUlxSS94dEkKWmUya2Y3Tm1mL0txR3IrMzN5SVZ5Q0tkaEdlelBCbEsvanNUSkZVSWpzdWpJekFoTUE0R0ExVWREd0DezdzedzenTlZIUk1CQWY4RUJUQURBUUgvTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUJFNTYzcUttY2xiClVQWHc2UXJCbWxQUmlrbWdCVnY0VHlkMVZ0TWNXY3JYQWlCVlJPY3RjMTF1TXFrOGJWVHJOVFNiN0lFS3ZkRjAKelluMzhwME41MdLUVORCBDRVJUSUZJQ0FURS0D=
+ server: https://172.30.1.2:6443
+ name: k3s
 
 * context:
 
-    cluster: k3s
-    namespace: default
-    user: k3s
-  name: k3s
+ cluster: k3s
+ namespace: default
+ user: k3s
+ name: k3s
 current-context: k3s
 kind: Config
 preferences: {}
@@ -145,9 +145,9 @@ users:
 
 * name: k3s
 
-  user:
-    password: 8719c8d71457366ecaff927cf784
-    username: admin
+ user:
+ password: 8719c8d71457366ecaff927cf784
+ username: admin
 ```
 
 or leverage the KUBECONFIG environment variable

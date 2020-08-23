@@ -1,6 +1,6 @@
-# Release notes TFGrid 2.0.6 beta
+# Release notes TF Grid 2.0.6 beta
 
-TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability improvement.
+TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability improvement.
 
 ## Change log
 
@@ -27,8 +27,8 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 #### Chatflows improvements
 
 - Stateful chatflows:
-  - Pick up where a chatflow was last left
-  - Go back and forth within a chatflow
+ - Pick up where a chatflow was last left
+ - Go back and forth within a chatflow
 - Gitea solution chatflow
 - Split-up of bill about what is to be paid
 - Expose solution with custom domains
@@ -56,7 +56,7 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 - 3Bot restart issues
 - Delete specific schema and remove it from cache
 - Resetting name error
-- The total amount deducted is exactly as  paid to  farmer
+- The total amount deducted is exactly as paid to farmer
 - 3sdk to only kill ssh-agent of current user
 - Adding administrators from admin panel
 - Admin panel not showing all of deployed solutions
@@ -76,22 +76,22 @@ TFGrid 2.0.6 beta is a minor release which is focus on bug fixing and stability 
 ## Component versions
 
 - Jumpscale/SDK: `10.6`
-  - [Github project](https://github.com/orgs/threefoldtech/projects/88)
-  - [Jumpscale release notes](https://github.com/threefoldtech/jumpscaleX_core/releases/tag/v10.6)
+ - [Github project](https://github.com/orgs/Threefoldtech/projects/88)
+ - [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.6)
 - 0-OS v2:`0.3.3`:
-  - [Github project](https://github.com/orgs/threefoldtech/projects/89)
-  - [0-OS release notes](https://github.com/threefoldtech/zos/releases/tag/v0.3.3)
-  - [tfexplorer release notes](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.3.1)
+ - [Github project](https://github.com/orgs/Threefoldtech/projects/89)
+ - [0-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
+ - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
 
 ### 3SDK binaries
 
-- Linux: [3sdk_v10.6_linux_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_linux_x86_64)
-- MacOS: [3sdk_v10.6_darwin_x86_64](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_darwin_x86_64)
-- Windows: [3sdk_v10.6_windows](https://github.com/threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_windows.exe)
+- Linux: [3sdk_v10.6_linux_x86_64](https://github.com/Threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_linux_x86_64)
+- MacOS: [3sdk_v10.6_darwin_x86_64](https://github.com/Threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_darwin_x86_64)
+- Windows: [3sdk_v10.6_windows](https://github.com/Threefoldtech/jumpscaleX_core/releases/download/v10.6/3sdk_v10.6_windows.exe)
 
 ## Known issues
 
-- Impossible to extend or modify a reservation. Will be resolved in 2.1 which releases later this month. You can checkout the specification at https://github.com/threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md
+- Impossible to extend or modify a reservation. Will be resolved in 2.1 which releases later this month. You can checkout the specification at https://github.com/Threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md
 - Improve installer experience
 
 ## Roadmap see

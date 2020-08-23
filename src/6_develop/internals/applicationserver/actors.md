@@ -12,17 +12,17 @@ from jumpscale.servers.gedis.baseactor import BaseActor, actor_method
 from jumpscale.loader import j
 
 class Hello(BaseActor):
-    def __init__(self):
-        pass
+ def __init__(self):
+  pass
 
-    @actor_method
-    def get_hello(self):
-        return "hello from foo's actor"
-    
-    @actor_method
-    def add_name(self,name: str) -> str:
-        print(name)
-        return j.data.serializers.json.dumps({"data": f"Hello {name}"})
+ @actor_method
+ def get_hello(self):
+  return "hello from foo's actor"
+ 
+ @actor_method
+ def add_name(self,name: str) -> str:
+  print(name)
+  return j.data.serializers.json.dumps({"data": f"Hello {name}"})
 
 Actor = Hello
 
@@ -33,21 +33,21 @@ Actor = Hello
 ## Invoke actors
 
 - The actors of your registered packages are exposed on http endpoint `{PACKAGE_NAME}/actors/{ACTOR_NAME}/{ACTOR_METHOD}`where 
-    - **PACKAGE_NAME** is the name of the package added in the `package.toml` 
-    - **ACTOR_NAME** is the name of the actor
-    - **ACTOR_METHOD** is the name of the function being called, in the previous example could be `hello` or `add_name`
+ - **PACKAGE_NAME** is the name of the package added in the `package.toml` 
+ - **ACTOR_NAME** is the name of the actor
+ - **ACTOR_METHOD** is the name of the function being called, in the previous example could be `hello` or `add_name`
 
 - or if you want to use pure http client, here's an example in javascript
-    ```javascript
-    import axios from 'axios'
+ ```javascript
+ import axios from 'axios'
 
-    export function getPaste(pasteId) {
-        return (axios.post("/pastebin/actors/pastebin/get_paste", { "args": { "paste_id": pasteId } }))
-    }
+ export function getPaste(pasteId) {
+  return (axios.post("/pastebin/actors/pastebin/get_paste", { "args": { "paste_id": pasteId } }))
+ }
 
-    export function newPaste(code) {
-        return (axios.post("/pastebin/actors/pastebin/new_paste", { "args": { "code": code } }))
-    }
-    ```
+ export function newPaste(code) {
+  return (axios.post("/pastebin/actors/pastebin/new_paste", { "args": { "code": code } }))
+ }
+ ```
 
 

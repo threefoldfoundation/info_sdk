@@ -1,6 +1,6 @@
 ## Publisher
 
-Publisher is a web [publishing platform](https://github.com/threefoldfoundation/publishingtools) can be used to host wikis, websites, and blogs (you can find examples of deploymentns on manual.threefold.io)
+Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) can be used to host wikis, websites, and blogs (you can find examples of deploymentns on manual.Threefold.io)
 
 ### Accessing the solution
 

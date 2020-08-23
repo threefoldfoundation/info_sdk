@@ -1,4 +1,4 @@
-<!--- original content https://github.com/threefoldfoundation/info_threefold/blob/development/src/docs/token/how_to_buy/stellarx.md --->
+<!--- original content https://github.com/Threefoldfoundation/info_Threefold/blob/development/src/docs/token/how_to_buy/stellarx.md --->
 # StellarX
 
 ![](stellarx_logo.png)
@@ -7,7 +7,7 @@ StellarX is a free peer2peer marketplace available on the Stellar network. It of
 
 ## Buy
 
-If you would like to start playing with the TF Grid today, you can purchase ThreeFold Tokens (TFT) through StellarX. 
+If you would like to start playing with the TF Grid today, you can purchase Threefold Tokens (TFT) through StellarX. 
 
 ## How?
 

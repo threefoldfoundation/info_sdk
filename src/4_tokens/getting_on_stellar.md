@@ -39,7 +39,7 @@ FreeTFT is a separate token with :
 - AssetCode: `FreeTFT`
 - Issuer: `GCBGS5TFE2BPPUVY55ZPEMWWGR6CLQ7T6P46SOFGHXEBJ34MSP6HVEUT`
 
-TFT, TFTA and FreeTFT are registered on this blockchain, under the domain `threefold.io` . Some wallets don't require you to introduce asset code and issuer, but need this domain name to find back the tokens on the Stellar network.
+TFT, TFTA and FreeTFT are registered on this blockchain, under the domain `Threefold.io` . Some wallets don't require you to introduce asset code and issuer, but need this domain name to find back the tokens on the Stellar network.
 
 ## How to buy TFTs
 
@@ -69,12 +69,12 @@ Two tokens can be used :
 
 There is a possibility to connect to us, for useful projects that want to explore the grid, an amount of 1000 FreeTFT per 3Bot can be obtained, available to pay capacity on the Threefold Grid. 
 
-To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.threefold.io) and fill in the application form.
+To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.Threefold.io) and fill in the application form.
 
 ![appl_form](./img/getfreetft_application_form.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
-https://testnet.threefold.io/threefoldfoundation/stellar_faucet --->
+https://testnet.Threefold.io/Threefoldfoundation/stellar_faucet --->
 
 <b/> Remark: </b> 
 

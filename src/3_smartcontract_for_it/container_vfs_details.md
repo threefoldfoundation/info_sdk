@@ -54,38 +54,38 @@ In short, 0-fs is without a doubt, the best thing since sliced bread, period.
 
 Draw me like one of your french ASCII
 ```
-  flist archive                                   0-db backend
-+-------------------+                          +----------------+
-| metadata file1    |                          | chunk1         |
-|   - chunk1,2,3    |                          | chunk2         |
-| metadata file2    |                          | chunk3         |
-|   - chunk4,5      |                          | chunk4         |
-| metadata file3    |                          | chunk5         |
-|   - chunk1,5,6    |                          | chunk6         |
-| ...               |                          | ...            |
-+-------------------+                          +----------------+
-                ||                                ||
-              =======================================
-                         0-fs fuse layer
-     =========================================================
-     ==                                                     == 
-     == /vmlinuz                                            ==
-     == /initrd.img                                         ==
-     == /var/run                                            ==
-     == /var/lock                                           ==
-     == /var/lib/apt/extended_states                        ==
-     == /var/lib/apt/lists/lock                             ==
-     == /var/tmp                                            ==
-     == /var/opt                                            ==
-     == /var/mail                                           ==
-     == /var                                                ==
-     == /bin/bash                                           ==
-     == /bin/cat                                            ==
-     == /bin/chgrp                                          ==
-     == /bin/chmod                                          ==
-     == ...                                                 ==
-     =========================================================
-```    
+ flist archive         0-db backend
++-------------------+       +----------------+
+| metadata file1 |       | chunk1   |
+| - chunk1,2,3 |       | chunk2   |
+| metadata file2 |       | chunk3   |
+| - chunk4,5  |       | chunk4   |
+| metadata file3 |       | chunk5   |
+| - chunk1,5,6 |       | chunk6   |
+| ...    |       | ...   |
++-------------------+       +----------------+
+    ||        ||
+    =======================================
+       0-fs fuse layer
+  =========================================================
+  ==              == 
+  == /vmlinuz           ==
+  == /initrd.img           ==
+  == /var/run           ==
+  == /var/lock           ==
+  == /var/lib/apt/extended_states      ==
+  == /var/lib/apt/lists/lock        ==
+  == /var/tmp           ==
+  == /var/opt           ==
+  == /var/mail           ==
+  == /var            ==
+  == /bin/bash           ==
+  == /bin/cat           ==
+  == /bin/chgrp           ==
+  == /bin/chmod           ==
+  == ...             ==
+  =========================================================
+``` 
 ## Convert docker image into flist
 
 If you already have some docker images of your application, you can convert them directly into flist: https://hub.grid.tf/docker-convert

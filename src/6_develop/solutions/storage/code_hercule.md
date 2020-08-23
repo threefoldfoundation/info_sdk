@@ -3,7 +3,7 @@ Please check [specifications](https://docs.google.com/document/d/1HzyElPiy3NTELS
 
 The basic idea is to provide a reliable storage solution that leverage on the current grid functionality.
 
-> NOTE: We are discussing a modified version of minio that has be officially released by threefold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `threefold` version. You can find the source code [here](https://github.com/threefoldtech/minio)
+> NOTE: We are discussing a modified version of minio that has be officially released by Threefold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `Threefold` version. You can find the source code [here](https://github.com/Threefoldtech/minio)
 
 ## Installation tutorial
 Please check a full installation tutorial [here](chatflow_hercule.md)
@@ -15,7 +15,7 @@ Please check a full installation tutorial [here](chatflow_hercule.md)
 ![Minio Master/Slave](./img/minio_master_slave.png)
 
 # Data flow
-We have a modified version of minio so it can work against our zdb instances. It has been modified to use [0-stor](https://github.com/threefoldtech/0-stor). `0-stor` can do `replication or distribution` out of the box. Hence files uploaded to this version of minio are split into separate smaller chunks, and distributed across separate instances of `0-db`. The distribution is done according to the configuration (discussed later).
+We have a modified version of minio so it can work against our zdb instances. It has been modified to use [0-stor](https://github.com/Threefoldtech/0-stor). `0-stor` can do `replication or distribution` out of the box. Hence files uploaded to this version of minio are split into separate smaller chunks, and distributed across separate instances of `0-db`. The distribution is done according to the configuration (discussed later).
 
 Once files are uploaded, we can afford losing multiple `0-db` instances (below certain threshold) and still able to retrieve the files un-intact. (later we can heal the setup to make sure files are distributed again in an optimal manner)
 
@@ -68,9 +68,9 @@ Please refer to the [tutorial](tutorial.md) for a full walk through to deploy a 
 ## Programmatically
 Please make sure you understand the graphical method first. Since it explains the generic main steps that you need to build a solution from scratch.
 
-In [this document](https://github.com/threefoldtech/jumpscaleX_libs/blob/development/JumpscaleLibs/sal/zosv2/readme.md) it explains building "simple" solutions using the API (jumpscale API), including a single node `minio` setup.
+In [this document](https://github.com/Threefoldtech/jumpscaleX_libs/blob/development/JumpscaleLibs/sal/zosv2/readme.md) it explains building "simple" solutions using the API (jumpscale API), including a single node `minio` setup.
 
-For a more complex flow (master/slave) setup please check the [chat flow](https://github.com/threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/tfgrid_solutions/tfgrid_solutions/chatflows/minio_deploy.py) code, where it uses the jumpscale API to build a complete minio setup from scratch.
+For a more complex flow (master/slave) setup please check the [chat flow](https://github.com/Threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/TF Grid_solutions/TF Grid_solutions/chatflows/minio_deploy.py) code, where it uses the jumpscale API to build a complete minio setup from scratch.
 
 # Disaster recovery
 ## Monitoring
@@ -86,7 +86,7 @@ Reinstalling any of the minio instances (the master or the slave) with exactly s
 This healing routines make sure that the data distribution is ideal on all the configured zdb nodes. Based on your setup, make sure to run the healer jobs regularly.
 
 Minio provides a `healer` api where you can kick start healing jobs.
-The API  can be used to run a full check on all the objects, or a full bucket, or a single object.
+The API can be used to run a full check on all the objects, or a full bucket, or a single object.
 The API provide options so you can do a check without fixing, or check and fix (default). The check or check and fix jobs can either run in the foreground
 or in the background
 
@@ -101,7 +101,7 @@ POST /repair
 POST /repair/{bucket}
 POST /repair/{bucket}/{object}
 
-GET    /jobs
+GET /jobs
 DELETE /jobs/{id}
 ```
 

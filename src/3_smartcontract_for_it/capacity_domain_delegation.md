@@ -18,8 +18,8 @@ zos = j.sals.zos
 
 # add domain delegation reservation into the reservation
 delegated = zos.gateway.delegate_domain(gateway_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                                        domain='tfgrid.zaibon.be',
-                                        pool_id=12)
+          domain='TF Grid.zaibon.be',
+          pool_id=12)
 
 # deploy the workload
 id = zos.workloads.deploy(delegated)

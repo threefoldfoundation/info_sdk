@@ -3,7 +3,7 @@
 ![](./img/smartcontract_intro.png)
 
 The TF Grid is orchestrated using a very unique approach.
-Each workload gets registered on the TFGrid smartcontract database.
+Each workload gets registered on the TF Grid smartcontract database.
 
 ### workload definitions
 
@@ -19,7 +19,7 @@ Each workload gets registered on the TFGrid smartcontract database.
 
 ![](./img/smart_contract_it_arch.png)
 
-#### STEP 1: educate 3Bot = TFGrid SDK
+#### STEP 1: educate 3Bot = TF Grid SDK
 
 IT Experts: Give knowledge to the 3Bots (it's like god defining our DNA of our cells)
 
@@ -31,7 +31,7 @@ IT Experts: Give knowledge to the 3Bots (it's like god defining our DNA of our c
 
 #### STEP 3: The 3Bot: Creates & Registers the “IT” smart contract 
 
-The 3Bot: Creates & Registers the “IT” smart contract in the BCDB (Blockchain Database) (note: this cannot be done by humans, it's too complicated)
+The 3Bot: Creates & Registers the “IT” smart contract in the BCDB (Blockchain Database) (note: this could not be done by humans, it's too complicated)
 
 #### STEP 4: Business IT Workload Stakeholders Consensus
 

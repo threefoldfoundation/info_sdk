@@ -1,9 +1,9 @@
 # Farm setup using Jumpscale code
 
-This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid, not through chatflows but through Jumpscale code.
+This document shows how to setup/migrate your Threefold Farm and 3Nodes to TF Grid, not through chatflows but through Jumpscale code.
 It is for people that have their 3Bot running on their local machine, by having set up the Jumpscale SDK, in the shell, and want to have more personalized DIY tooling for their farm than is available on the chatflow. 
 
-If you need assistance contact ThreeFold support via the chat on www.threefold.io .
+If you need assistance contact Threefold support via the chat on www.Threefold.io .
 
 ## Create your farm using the JS-SDK poetry shell
 
@@ -27,7 +27,7 @@ j.core.identity.set_default("identity_instance_name")
 Now you can create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
-from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
 
 # get a client to the explorer
 explorer = j.core.identity.me.explorer
@@ -42,7 +42,7 @@ farm.3Bot_id = j.me.tid
 farm.iyo_organization = 'my_super_farm_v1'
 
 # add your wallet address
-wallet_address = TfgridDirectoryWallet_address1()
+wallet_address = TF GridDirectoryWallet_address1()
 wallet_address.asset = 'TFT'
 wallet_address.address = 'GABONHE4AV6FFL57ZAYJXYSM7MHW5ONLYJE5F6O4ZADRUFGBFLHZWOGF'
 farm.wallet_addresses.append(wallet_address)
@@ -71,4 +71,4 @@ You are now ready to boot your nodes !
 
 ## Start 3Node with bootable image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

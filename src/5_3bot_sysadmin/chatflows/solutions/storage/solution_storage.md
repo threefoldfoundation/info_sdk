@@ -21,7 +21,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 - `IP Address` : choose the ip address for your MinIO machine.
 
 
-After the deployment of MinIO is complete,  a url will be returned that can be used to access it.
+After the deployment of MinIO is complete, a url will be returned that can be used to access it.
 
 ### Deploying MinIO
 
