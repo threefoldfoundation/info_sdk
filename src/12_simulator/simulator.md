@@ -6,5 +6,5 @@ The Threefold Grid and Token Simulator allows you to simulate the future behavio
 
 It allows you to simulate hardware and see how the hardware could potentially behave inside the TF Grid.
 
-You can access the simulator [here](https://wiki.Threefold.io/#/simulator_configure).
+You could access the simulator [here](https://wiki.Threefold.io/#/simulator_configure).
 

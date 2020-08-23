@@ -31,7 +31,7 @@ PS: we have a new tool how to serve the wiki, its easier to use and has more sup
 
 #### Get the documents (content)
 
-The documentation is online but can also be downloaded for reading purposes and or updating/editing. 
+The documentation is online but could also be downloaded for reading purposes and or updating/editing. 
 
 ```bash
 mkdir -p ~/code/github/Threefoldfoundation

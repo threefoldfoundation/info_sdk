@@ -5,7 +5,7 @@
  - [Network](architecture_network.md)
  - [Web gateway](architecture_webgateway.md)
  - [Boot 3Node](architecture_boot.md)
- - [Flist](architecture_flist.md)
+ - [Flist](architecture_Flist.md)
 - [IT Capacity Types](capacity_types.md)
  - [container](capacity_container.md)
  - [overlay network](capacity_network.md)

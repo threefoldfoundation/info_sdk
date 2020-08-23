@@ -1,6 +1,6 @@
 ## How to query the available node?
 
-Capacity nodes can be found, with their status, on the explorer websites : 
+Capacity nodes could be found, with their status, on the explorer websites : 
 
 The [testnet explorer](https://explorer.grid.tf) 
 

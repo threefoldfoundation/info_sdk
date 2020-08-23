@@ -1,7 +1,7 @@
 # Locations
 As you already figured out we use `openresty` for running applications, serving content and proxying requests based on the URL pattern:
 
-Inside a package, you can define one of the following location types:
+Inside a package, you could define one of the following location types:
 
 - [Static:](#static)
 - [Single page apps (SPA)](#single-page-apps-spa)
@@ -55,7 +55,7 @@ proxy_buffer_size = "256k"
 ```
 
 ## Custom
-You can add there whatever configurations you want. Simply by adding the following to the `package.toml` with the type as *custom*.
+You could add there whatever configurations you want. Simply by adding the following to the `package.toml` with the type as *custom*.
 
 ```bash
 [[servers.locations]]

@@ -1,6 +1,6 @@
 # Packages
 
-Packages are the way to write extensions and applications to your 3Bot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
+Packages are the way to write extensions and applications to your 3Bot server and it could be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
 
 Content:
 - [Structure](#structure)
@@ -43,7 +43,7 @@ Some components will be defined by default based on the parent package classes i
  path_location = "frontend"
  ```
 
- We can also define bottle server to start in the toml file like in the following example
+ We could also define bottle server to start in the toml file like in the following example
 
  ```
  [[bottle_servers]]
@@ -55,7 +55,7 @@ Some components will be defined by default based on the parent package classes i
  port = 8552
  ```
 
- Other servers locations can also be defined, for example using codeserver
+ Other servers locations could also be defined, for example using codeserver
  ```
  [[servers.locations]]
  type = "proxy"
@@ -66,7 +66,7 @@ Some components will be defined by default based on the parent package classes i
  path_dest = "/"
  websocket = true
  ```
- *Detailed types of `nginx` locations that can be defined inside `package.toml` are documented [here](locations.md).
+ *Detailed types of `nginx` locations that could be defined inside `package.toml` are documented [here](locations.md).
 
 - **__init__.py** could include the docs that will summarize the use of the package where they are added in the beging of the file in docstrings.
 
@@ -74,8 +74,8 @@ Some components will be defined by default based on the parent package classes i
 
 - **package.py** manages the lifecycle of the package.
  - By default, main functionalities are used to start,stop,install..etc the packages.
- - If additional functionalities want to be added during install,uninstall,start of the package in 3Bot server they can be redifined in this file.
- - The basic functions that you can add are included here
+ - If additional functionalities want to be added during install,uninstall,start of the package in 3Bot server they could be redifined in this file.
+ - The basic functions that you could add are included here
   ```python
   from jumpscale.loader import j
 
@@ -111,13 +111,13 @@ Some components will be defined by default based on the parent package classes i
     pass
   ```
 
-  If any method is not needed you can omit it. 
+  If any method is not needed you could omit it. 
 
 
 
 - **actors**
  - actors directory contains the logic defined by the package and will be exposed as an API.
- - actor methods can be accessed through `<HOST>/{PACKAGE_NAME}/actors/{ACTOR_NAME}/{ACTOR_METHOD}`.
+ - actor methods could be accessed through `<HOST>/{PACKAGE_NAME}/actors/{ACTOR_NAME}/{ACTOR_METHOD}`.
  - Parent class : `from jumpscale.servers.gedis.baseactor import BaseActor`
  - decorator for actor methods: ``from jumpscale.servers.gedis.baseactor import actor_method`
  <br />
@@ -141,7 +141,7 @@ Some components will be defined by default based on the parent package classes i
 
 - **chats**
  - chats (chatflows) are interactive communication tools implemented as chatbots where interactive question structures are defined in the parent class
- - chatflows can be accessed through `<HOST>/{PACKAGE_NAME}/chats/{CHATFLOW_NAME}`.
+ - chatflows could be accessed through `<HOST>/{PACKAGE_NAME}/chats/{CHATFLOW_NAME}`.
  - Parent class : `from jumpscale.sals.chatflows.chatflows import GedisChatBot`
  - decorator for chatflow methods `from jumpscale.sals.chatflows.chatflows import chatflow_step`
  <br />
@@ -173,7 +173,7 @@ Some components will be defined by default based on the parent package classes i
 
 Configuration is done in `package.toml`, where you configure servers, bottle apps, chatflows and more.
 
-Manual configuration can be done also on package objects directly in the shell, but it's not recommended.
+Manual configuration could be done also on package objects directly in the shell, but it's not recommended.
 
 Example configuration:
 
@@ -216,8 +216,8 @@ Basic Package functionalities and properties
 
 
 ## Package manager
-- `Packages` is an actor on 3Bot under the `admin` package, any user with admin rights can call this actor to remotely instruct the 3Bot to install/remove/start/stop a package from 3Bot server
-- A package can be identified by means of git_url or its local path
+- `Packages` is an actor on 3Bot under the `admin` package, any user with admin rights could call this actor to remotely instruct the 3Bot to install/remove/start/stop a package from 3Bot server
+- A package could be identified by means of git_url or its local path
 - The actor methods in the packages actor include:
 
 ```python
@@ -250,12 +250,12 @@ def delete_package(self, name: str) -> str:
 
 
 ## Adding new packages
-Adding a package can easily be done either through the 3Bot server directly or using the package manager actor mentioned earlier
+Adding a package could easily be done either through the 3Bot server directly or using the package manager actor mentioned earlier
 
 
 ### Add the package to the 3Bot server
 
-A package can be added directly to the 3Bot server as follows
+A package could be added directly to the 3Bot server as follows
 ```python
 3Bot_server = j.servers.3Bot.get("<instance_name>") 
 3Bot_server.packages.add(<path or giturl>)
@@ -271,7 +271,7 @@ This also applies to deleting and installing packages directly using the 3Bot se
 
 ### Add the package using package manager actor
 
-After starting the server with the recommended way, the package created can be added using the packages actors which calls the package manager of the 3Bot server. The actor can be called as follows:
+After starting the server with the recommended way, the package created could be added using the packages actors which calls the package manager of the 3Bot server. The actor could be called as follows:
 
 ```
 j.clients.gedis.3Bot.actors.admin_packages.add_package("<path_to_package>")

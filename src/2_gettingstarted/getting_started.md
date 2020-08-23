@@ -3,7 +3,7 @@
 
 To deploy a network on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
 - Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
-- Claim __FreeTFTs__ to reserve Grid capacity for your solution. This can be done by creating a testnet wallet account for you.
+- Claim __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
 - Deploy your first network: to be able to connect to your 3Bot
 - Get a __Hosted 3Bot__: Host your 3Bot online.
 
@@ -13,7 +13,7 @@ Please see below for the high-level instructions.
 
 ## Get Yourself a 3Bot Connect App and 3BotID
 
-As the first step, you need to get yourself a **3Bot Connect** ID. This can be done by downloading the app on your smartphone and create your own 3Bot Identity. 
+As the first step, you need to get yourself a **3Bot Connect** ID. This could be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
 Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 

@@ -27,7 +27,7 @@ The seed phrase allows you to access and recover your 3Bot connect on any device
  - It is your personal responsibility to keep your 24-word private key in a safe place.
 - **Do not share your private key with anyone, it is strictly personal.** 
 - **Losing your private key means losing access to your wallet and all your Threefold Tokens.**
-- **Anybody with access to your private key can take ownership of your 3Bot Connect wallet and Threefold Tokens.**
+- **Anybody with access to your private key could take ownership of your 3Bot Connect wallet and Threefold Tokens.**
 - **To access your wallet from another wallet (on another phone or online) you will need your private key (seed).**
  - without this private key your account could not be recovered on another device or online wallet.
 

@@ -1,6 +1,6 @@
 # Ubuntu
 A free and open-source Linux distribution based on Debian.
-Ubuntu is officially released in three editions: Desktop, Server, and Core(for internet of things devices and robots). This package is used to deploy a Ubuntu container from an official flist on the grid using a chatflow.
+Ubuntu is officially released in three editions: Desktop, Server, and Core(for internet of things devices and robots). This package is used to deploy a Ubuntu container from an official Flist on the grid using a chatflow.
 
 ## Accessing the solution
 
@@ -12,10 +12,10 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 ## Inputs
 
 - `container name` a name of your container to help you to get it again with reservation id.
-- `Ubuntu version`: choose Ubuntu version flist for your container
+- `Ubuntu version`: choose Ubuntu version Flist for your container
 - `cpu needed` : Number of cpu needed
 - `memory size` : Memory size needed example 2048
-- `ssh key` : add your public ssh key `~/.ssh/id_rsa.pub`, if your flist supports using the ssh key from the env variables provided to allow future ssh access
+- `ssh key` : add your public ssh key `~/.ssh/id_rsa.pub`, if your Flist supports using the ssh key from the env variables provided to allow future ssh access
 - `environment variables`: set environment variables on your deployed container, enter comma-separated variable=value For example: var1=value1, var2=value2. Leave empty if not needed
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
 - `IP Address`: choose the IP address for your Ubuntu machine.
@@ -27,7 +27,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
  Note: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
 - Install [wireguard](https://www.wireguard.com/install/)
 
-After the deployment of the Ubuntu is complete, a url will be returned that can be used to access the container through web browser (corex) after up your wireguard configuration.
+After the deployment of the Ubuntu is complete, a url will be returned that could be used to access the container through web browser (corex) after up your wireguard configuration.
 
 ## Deploying Ubuntu Container
 
@@ -66,13 +66,13 @@ Now we need to tell the grid how long we want our solution to stay alive on the 
 
 ![step7](./img/ubuntu7.png)
 
-Here we can provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
+Here we could provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
 
 ### Choose a farm to deploy on
 
 ![step8](./img/ubuntu8.png)
 
-If the nodeid is left empty, we can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+If the nodeid is left empty, we could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 ### Choosing IP for the solution
 

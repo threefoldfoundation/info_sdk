@@ -1,6 +1,6 @@
-# Generic flist solution
+# Generic Flist solution
 
-This Solution helps to spawn a container using specific flist provided by the user in the chatflow.
+This Solution helps to spawn a container using specific Flist provided by the user in the chatflow.
 
 ### Accessing the solution
 
@@ -14,7 +14,7 @@ This Solution helps to spawn a container using specific flist provided by the us
 The solution takes some configurations from the user, we will list them and explain their meaning
 
 - `container name` : a name of your conatiner to help you to get it again with reservation id.
-- `Flist link` : the link of your flist to be deployed. For example: https://hub.grid.tf/usr/example.flist
+- `Flist link` : the link of your Flist to be deployed. For example: https://hub.grid.tf/usr/example.Flist
 - `environment variables`: set environment variables on your deployed container, enter comma-separated variable=value For example: var1=value1, var2=value2. Leave empty if not needed
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
 - `Inetractive`: choose whether you prefer to access to your container through the web browser (coreX) or not.
@@ -22,9 +22,9 @@ The solution takes some configurations from the user, we will list them and expl
 
 
 
-After the deployment of the flist is complete, a url will be returned that can be used to access the container through web browser (corex) or by ssh if your flist support this after up your wireguard configuration.
+After the deployment of the Flist is complete, a url will be returned that could be used to access the container through web browser (corex) or by ssh if your Flist support this after up your wireguard configuration.
 
-### Deploying a Container with a custom flist
+### Deploying a Container with a custom Flist
 
 ![generic_1](././img/generic_1.png)
 
@@ -43,7 +43,7 @@ Choosing the network to be used from a list of existing networks created by the 
 #### Flist link
 
 ![generic_5](./img/generic_5.png)
-The flist link added is used to create the container from it. The link is from the flist uploaded on the hub
+The Flist link added is used to create the container from it. The link is from the Flist uploaded on the hub
 
 #### Choosing the number of CPU cores and memory size
 
@@ -52,7 +52,7 @@ Specify the number of CPU cores and the size of the memory to be used by the con
 
 #### Using corex
 ![generic_7](./img/generic_7.png)
-The corex option allows the user to access the container through corex. If disable the user can access the container using ssh
+The corex option allows the user to access the container through corex. If disable the user could access the container using ssh
 
 
 #### Choosing environment variables
@@ -69,7 +69,7 @@ Choosing the expiration time for the solution on the grid
 
 ![generic_10](./img/generic_10.png)
 
-We can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+We could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on them. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 #### Choosing the private IP address of the container
 

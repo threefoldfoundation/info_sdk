@@ -68,7 +68,7 @@ def chat(bot):
 
 #### Validation
 
-Some validations can be applied on the input taken from the user so that they are warned. This is helpful to validate certain restrictions before processing the data itself in the server. Here's an example of validations required for a string input
+Some validations could be applied on the input taken from the user so that they are warned. This is helpful to validate certain restrictions before processing the data itself in the server. Here's an example of validations required for a string input
 
 ```python
  email = bot.string_ask("Enter email", validate={"required": True, "email": True}).strip()
@@ -93,7 +93,7 @@ Some validations can be applied on the input taken from the user so that they ar
   """
   image = ImageCaptcha()
   captcha = j.data.idgenerator.generateXCharID(4)
-  # this log is for development purposes so we can use the redis client
+  # this log is for development purposes so we could use the redis client
   self._log_info("generated captcha:%s" % captcha)
   data = image.generate(captcha)
   self.q_out.put(
@@ -175,4 +175,4 @@ Here's an example for asking for a password
 ```
 - cat: used in frontend `bot_client.js` to generate the suitable slide
 - msg: question message
-- kwargs can be used for validations or any extra options to your content renderer function
+- kwargs could be used for validations or any extra options to your content renderer function

@@ -24,7 +24,7 @@ Follow the steps decribed to [deploy your network](getting_started_network.md)
 
 ### Deploy a Ubuntu container and connect to it
 
-Now that you have a network in place. We can deploy containers and connect it to the network. To do so we will use the Ubuntu Chat flow
+Now that you have a network in place. We could deploy containers and connect it to the network. To do so we will use the Ubuntu Chat flow
 
 To start the wizard click the left menu on Solutions then Ubuntu
 
@@ -58,11 +58,11 @@ To start the wizard click the left menu on Solutions then Ubuntu
 
  ![Choose node](./img/ubuntu_nodeid.png)
 
-8. If you left the nodeid empty, you can then choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. You can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+8. If you left the nodeid empty, you could then choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on. You could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
  ![Choose farms](./img/ubuntu_farms2.png)
 
-9. You can now choose an IP address that will be given to your Ubuntu container in your network. This is the IP address you will be using to access the container.
+9. You could now choose an IP address that will be given to your Ubuntu container in your network. This is the IP address you will be using to access the container.
 
  ![Choose IP](./img/ubuntu_ip.png)
 
@@ -78,7 +78,7 @@ To start the wizard click the left menu on Solutions then Ubuntu
 
  ![Deployment Success](./img/ubuntu_success.png)
 
-13. You can now simply access the deployed Ubuntu container by the following command
+13. You could now simply access the deployed Ubuntu container by the following command
 
  ```bash
  ssh root@IP_ADDRESS
@@ -86,5 +86,5 @@ To start the wizard click the left menu on Solutions then Ubuntu
 
  where the IP address is the one you chose in the chatflow earlier and is shown in the previous success message.
 
-You can view _all_ your deployed solutions that haven't expired such as the network and the Ubuntu container you created by clicking the left menu on **Deployed Solutions**.
+You could view _all_ your deployed solutions that haven't expired such as the network and the Ubuntu container you created by clicking the left menu on **Deployed Solutions**.
 ![Deployed solutions](./img/deployed_solutions.png)

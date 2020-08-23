@@ -19,7 +19,7 @@ This will open up the configuration page of the farm
 Click the big green button `Add wallet address` at the bottom of the form. This will create a new wallet address.
 A wallet address is composed of 2 things, the address itself and the asset code. The asset code is used to identify the currency on the stellar blockchain.
 
-Fill in the wallet address with your address and the correct asset. You can add as many addresses as you want. But only one per supported asset you want to accept is required.
+Fill in the wallet address with your address and the correct asset. You could add as many addresses as you want. But only one per supported asset you want to accept is required.
 
 ![](freefarm_wallet_assets.png)
 

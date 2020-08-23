@@ -8,7 +8,7 @@ A 3Bot on your local machine requires the installation of an SDK. Please find th
 #### System requirements for installation on the host
 
 - Ubuntu 18.04 or higher, MacOS 10.9 or higher
-- Windows 10, version 2004 can run using [wsl2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index) using ubuntu 20.04 or later
+- Windows 10, version 2004 could run using [wsl2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index) using ubuntu 20.04 or later
 - The SDK uses [python3](python.org), python3-pip, [git](https://git-scm.com), poetry, [nginx](https://www.nginx.com), [redis](https://redis.io), [mkcert](https://github.com/FiloSottile/mkcert) is needed to trust the self signed certificates when used in local development environment.
 - Browser (we recommend using Google chrome)
 
@@ -64,7 +64,7 @@ After the installation steps you should have an executable `threebot`
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-3Bot server can run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
+3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](running_3bot.md) for nginx binary (in case of linux) or install as root in case of OSX.
 
  ```bash
  3Bot start --local
@@ -76,6 +76,6 @@ After the installation steps you should have an executable `threebot`
 
  ![configure](./img/identity_new.png)
 
-- After success you can visit the admin dashboard at https://localhost:8443/admin and start creating reservations
+- After success you could visit the admin dashboard at https://localhost:8443/admin and start creating reservations
 
  ![configure](./img/success.png)

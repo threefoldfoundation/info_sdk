@@ -9,7 +9,7 @@ some capacity on a node by reserving a `pool` on said node. This pool contains
 an amount of capacity. After the pool is created and paid, the capacity is available
 for use by any of the users workloads. Once an actual workload is deployed,
 the available capacity in a pool will start decreasing. If the pool is empty,
-all workloads added to this pool will be deleted. At any time, new capacity can
+all workloads added to this pool will be deleted. At any time, new capacity could
 be added to an existing pool, extending the duration of the attached workloads
 in the process. If at any time a workload returns an error state, pool resources
 will no longer decrease (unless there are other healthy workloads).
@@ -66,11 +66,11 @@ JSX> wallet = j.clients.stellar.new('my_wallet', network='STD', secret='S.....')
 JSX> wallet.add_trustline('TFT','GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47')
 ```
 
-After setting the trustline you can receive `TFT` from issuer `GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47`. 
+After setting the trustline you could receive `TFT` from issuer `GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47`. 
 
 # Making a reservation
 
-Now that we have a wallet with funds and trustlines we can create a reservation.
+Now that we have a wallet with funds and trustlines we could create a reservation.
 We will use the ZosV2 sal in Jumpscale to create and pay for a reservation.
 
 Example: 

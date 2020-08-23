@@ -1,6 +1,6 @@
 ## Publisher
 
-Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) can be used to host wikis, websites, and blogs (you can find examples of deploymentns on manual.Threefold.io)
+Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) could be used to host wikis, websites, and blogs (you could find examples of deploymentns on manual.Threefold.io)
 
 ### Accessing the solution
 
@@ -24,7 +24,7 @@ Here we upload the keys to the deployed container
 
 ### Choosing a farm to deploy on
 ![](./img/publisher_6.png)
-We can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+We could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on them. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 
 #### Choosing the private IP address of the container

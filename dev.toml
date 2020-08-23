@@ -1,4 +1,4 @@
-#can be many wiki & many www sites
+#could be many wiki & many www sites
 
 [server]
 addr = "0.0.0.0"

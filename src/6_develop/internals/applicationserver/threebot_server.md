@@ -1,8 +1,8 @@
 # 3Bot Server
 
-3Bot server is an application server based on nginx and [gedis](rpc.md). It can further be extended using packages.
+3Bot server is an application server based on nginx and [gedis](rpc.md). It could further be extended using packages.
 
-When adding packages to a server, they should first be defined, then added to the 3Bot server then the server can be started.
+When adding packages to a server, they should first be defined, then added to the 3Bot server then the server could be started.
 
 
 Content:
@@ -19,9 +19,9 @@ Content:
 ## Staring 3Bot
 
 ### Using 3Bot command
-`3Bot` command can be used to start/stop 3Bot and to check for current running 3Bot status. This will give you a ready shell in the same process where you can interact with your 3Bot:
+`3Bot` command could be used to start/stop 3Bot and to check for current running 3Bot status. This will give you a ready shell in the same process where you could interact with your 3Bot:
 
-It can be used to start a 3Bot server on standard ports (http and https).
+It could be used to start a 3Bot server on standard ports (http and https).
 
 ```
 3Bot start
@@ -33,7 +33,7 @@ In case you need to start a local 3Bot, ny passing `--local` option will, it wil
 3Bot start --local
 ```
 
-You can then access its admin on https://localhost/admin
+You could then access its admin on https://localhost/admin
 
 ### Manual start
 
@@ -47,7 +47,7 @@ JS-NG> 3Bot_server.save()
 JS-NG> 3Bot_server.start()
 ```
 
-It should start nginx for you too, if it's not stared, you can start it manually:
+It should start nginx for you too, if it's not stared, you could start it manually:
 
 ```
 sudo nginx -c ~/sandbox/cfg/nginx/main/nginx.conf
@@ -64,18 +64,18 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
 
 ## APIs
-APIs can be added as actors to your package, which are exposed directly and can be accessed via http or using our `gedis` clients for python or javascript.
+APIs could be added as actors to your package, which are exposed directly and could be accessed via http or using our `gedis` clients for python or javascript.
 
 *Actors in more detail are documented [here](actors.md).
 
 ## Packages
-Packages are the way to write extensions and applications to your 3Bot server and it can be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
+Packages are the way to write extensions and applications to your 3Bot server and it could be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
 
 *Packages in more detail are documented [here](packages.md).
 
 ## ssl
 
-- If you to generate certificates to your website/package you can specify it in the package.toml explicitly.
+- If you to generate certificates to your website/package you could specify it in the package.toml explicitly.
 
 for example
 

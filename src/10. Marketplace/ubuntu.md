@@ -1,6 +1,6 @@
 # Ubuntu
 A free and open-source Linux distribution based on Debian.
-Ubuntu is officially released in three editions: Desktop, Server, and Core(for internet of things devices and robots). This package is used to deploy a Ubuntu container from an official flist on the grid using a chatflow.
+Ubuntu is officially released in three editions: Desktop, Server, and Core(for internet of things devices and robots). This package is used to deploy a Ubuntu container from an official Flist on the grid using a chatflow.
 
 
 ![](./img/ubuntu_1.png)
@@ -22,13 +22,13 @@ Here we specify the CPU and Memory resources allocated for the container
 
 ![](./img/ubuntu_4.png)
 
-Here we can provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
+Here we could provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
 
 
 ### Select farm or leave it empty
 
 ![](./img/ubuntu_5.png)
-If the nodeid is left empty, we can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+If the nodeid is left empty, we could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 ### Choose solution name
 

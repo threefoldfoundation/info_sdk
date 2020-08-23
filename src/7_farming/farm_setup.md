@@ -15,7 +15,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -42,11 +42,11 @@ Fill the form with your values.
 
 **Make sure you add a valid TFT stellar address. This is required in order for user to be able to reserve capacity from your farm.**
 
-Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
+Copy the address of the Stellar account from your 3Bot Connect app, where you could copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
 ![detail_3Bot](./img/detail_3Bot_connect.png)
 
-A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
+A wallet also could be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 
 
 ![wallet_in_jsng](./img/wallet_in_jsng.png)

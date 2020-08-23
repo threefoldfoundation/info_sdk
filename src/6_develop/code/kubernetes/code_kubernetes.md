@@ -13,7 +13,7 @@ The aim is to create a simple Kubernetes cluster where we need to follow a few s
 
 #### Create an overlay network of identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md)
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md)
 
 
 
@@ -26,7 +26,7 @@ demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we can now create the Kubernetes solution. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
+When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we could now create the Kubernetes solution. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
 
 | Nr. | Location | Node ID. | IPV4 network | Function. |
 |--------|---|---|---|---|
@@ -40,7 +40,7 @@ When you executed the reservation it also provided you with data on the order nu
 
 #### Reserve and deploy the master and worker nodes
 
-A Kubernetes cluster is built from master and worker nodes. Based on the network that we have build we can build and deploy nodes in Vienna and Salzburg,
+A Kubernetes cluster is built from master and worker nodes. Based on the network that we have build we could build and deploy nodes in Vienna and Salzburg,
 
 
 ```python
@@ -67,8 +67,8 @@ Create master node reservations. The function add the nodes to the reservation s
 cluster = []
 
 master = zos.kubernetes.add_master(
- node_id={string},   # node_id to make the capacity reservation on and deploy the flist
- network_name={string},  # network_name deployed on the node (node can have multiple private networks)
+ node_id={string},   # node_id to make the capacity reservation on and deploy the Flist
+ network_name={string},  # network_name deployed on the node (node could have multiple private networks)
  cluster_secret={string}, # cluster pasword
  ip_address={string},  # IP address the network range defined by network_name on the node
  size={integer},   # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
@@ -77,7 +77,7 @@ master = zos.kubernetes.add_master(
 cluster.append(master)
 ```
 
-Now that we have defined the master node, let us deploy worker nodes. Worker nodes can exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna
+Now that we have defined the master node, let us deploy worker nodes. Worker nodes could exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna
 
 
 ```python

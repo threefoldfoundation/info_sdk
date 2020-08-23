@@ -8,5 +8,5 @@
 - [Storage](architecture_storage.md)
 - [Network](architecture_network.md)
 - [Web Gateway](architecture_webgateway.md)
-- [0-Container virtual FS](architecture_flist.md)
+- [0-Container virtual FS](architecture_Flist.md)
 <!-- - [Boot Architecture](architecture_boot.md) -->

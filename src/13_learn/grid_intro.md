@@ -4,13 +4,13 @@
 
 The Internet is growing at an accelerated rate. To service this demand a few large companies (Google, Amazon, Alibaba, Facebook, etc.) have built and continue to build supersized, power-hungry and centralized data centers. These data centers make up the majority of all Internet capacity available today. 
 
-However, the Internet is expanding much faster than datacenters and the planet can cope with. 
+However, the Internet is expanding much faster than datacenters and the planet could cope with. 
 
 The solution is to have the Internet be more **distributed**, **cost**-**effective**, **neutral,** and **sustainable**. Threefold has developed such a new technology, the Threefold Grid (Grid) and a token which enables all this to happen.
 
 ![](./img/tf_principle_banner.png)
 
-> And you can become a part of this solution by becoming a farmer and add more decentralized capacity to the Threefold Grid.
+> And you could become a part of this solution by becoming a farmer and add more decentralized capacity to the Threefold Grid.
 
 ## details
 
@@ -37,11 +37,11 @@ TF Grid is the largest peer-to-peer network of Internet (compute, storage and ne
 
 The system is not distributed enough yet, there are only 50-60 locations, more farmers are needed to grow the grid to its full potential.
 
-The Threefold Grid needs computers (servers) to function. Servers of all shapes and sizes can be added to the Threefold Grid, by anyone, anywhere in the world. Zero-OS is an opensource operating system which needs to be run on the servers to make them extend the grid. People who add these computers to the grid are called farmers. This is a fully decentralized process, farmers downloads the Zero-OS operating system and boot their servers (3Nodes). The 3Nodes will register themselves in a database called TFDirectory and TF Grid users can then find the capacity they need to run their applications.
+The Threefold Grid needs computers (servers) to function. Servers of all shapes and sizes could be added to the Threefold Grid, by anyone, anywhere in the world. Zero-OS is an opensource operating system which needs to be run on the servers to make them extend the grid. People who add these computers to the grid are called farmers. This is a fully decentralized process, farmers downloads the Zero-OS operating system and boot their servers (3Nodes). The 3Nodes will register themselves in a database called TFDirectory and TF Grid users could then find the capacity they need to run their applications.
 
 ## How mature is the TF Grid?
 
 - Our Zero-OS is beta quality and is at 2nd major release.
-- The workloads can be registered using json format for our smart contract for IT layer.
-- Experts can use any development language to use the grid as is by using this smart contract for IT layer.
-- We can use some help to improve the documentation though.
+- The workloads could be registered using json format for our smart contract for IT layer.
+- Experts could use any development language to use the grid as is by using this smart contract for IT layer.
+- We could use some help to improve the documentation though.

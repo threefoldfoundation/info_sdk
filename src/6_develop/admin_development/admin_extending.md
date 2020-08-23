@@ -5,7 +5,7 @@ Admin dashboard UI based on [vue.js](https://vuejs.org/).
 
 ## Development
 
-While development, 3Bot needs to be started with this package installed,then you can go to `http://<host>/admin`.
+While development, 3Bot needs to be started with this package installed,then you could go to `http://<host>/admin`.
 
 
 ## Structure
@@ -91,7 +91,7 @@ The component consists mainly of 2 items, the template itself and the script whe
 
 - Script
 
- Other components can also be included here from the script such as the single `Alert.vue` and the `Delete.vue`.
+ Other components could also be included here from the script such as the single `Alert.vue` and the `Delete.vue`.
  ```javascript
  <script>
  module.exports = {
@@ -174,7 +174,7 @@ The component consists mainly of 2 items, the template itself and the script whe
 
 
 ### Add actor calls to api client
-Add the methods being called in the component to retrieve/post data to the api endpoint of the actor. This can be done by adding it to the apiclient in `api.js`
+Add the methods being called in the component to retrieve/post data to the api endpoint of the actor. This could be done by adding it to the apiclient in `api.js`
 ```javascript
 alerts: {
 listAlerts: () => {

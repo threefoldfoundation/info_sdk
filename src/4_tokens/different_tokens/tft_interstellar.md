@@ -30,11 +30,11 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 
 * Choose If you want a Generate a Random or Custom wallet adress (we are going for a random one in this case.
 
-* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully. Losing your key will most likely result in a loss of your funds. Threefold or Interstellar can’t help anyone restore accounts or the funds attached to them in any case!
+* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully. Losing your key will most likely result in a loss of your funds. Threefold or Interstellar could’t help anyone restore accounts or the funds attached to them in any case!
 
 * You’re account is now created and you will have to send funds (digital currencies that run on the Stellar Blocklchain only only) to one of the wallets attached to your account.
 
-* We have funded our wallet with $408 or 10.000 XLMs for this manual as you can see these are now shown in the account overview.
+* We have funded our wallet with $408 or 10.000 XLMs for this manual as you could see these are now shown in the account overview.
 
 ![](./img/interstellar_account_overview_1.png )
 
@@ -49,7 +49,7 @@ Asset Code: TFT
 Asset Issuer: GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47!
 ![/image alt text](./img/interstellar_add_asset.png)
 
-* The Asset is now added to your account, to trade the asset however you will have to create a trustline, you can do this by clicking on the "Trust Asset" Button.
+* The Asset is now added to your account, to trade the asset however you will have to create a trustline, you could do this by clicking on the "Trust Asset" Button.
 
 ![](./img/interstellar_trust_asset.png )
 
@@ -59,7 +59,7 @@ Asset Issuer: GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47!
 
 ## Part 4: Trading Digital Currencies for TFT
 
-Now that the account is set up and funded and you have the TFT asset listed in your account with a trustline you can now start trading TFT.
+Now that the account is set up and funded and you have the TFT asset listed in your account with a trustline you could now start trading TFT.
 
 * Click Trading in the left sidebar
 
@@ -67,7 +67,7 @@ Now that the account is set up and funded and you have the TFT asset listed in y
 
 ![](./img/interstellar_trade_xlm_tft.png )
 
-* You can now choose to fullfill a sell order from the order book, do a partial buy of an order, or create you own buy order by stating the amount of TFT you would like to buy and at what price.
+* You could now choose to fullfill a sell order from the order book, do a partial buy of an order, or create you own buy order by stating the amount of TFT you would like to buy and at what price.
 
 ![](./img/interstellar_trade_1.png )
 

@@ -14,7 +14,7 @@ This wizard enables you to access your solutions running over HTTP/HTTPS using a
 
 
 #### Select the Domain you want to use
-In this step you can choose one of three domain types:
+In this step you could choose one of three domain types:
 
 1- Managed: these are domains managed by the gateway. when you use it to expose a solution, the gateway will create an `A` record for your solution you don't have to do anything.
 

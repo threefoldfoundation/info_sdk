@@ -8,7 +8,7 @@ The aim is to delegate your domain to the gateway, access your running web appli
 - delegate your domain to that gateway.
 - create subdomains using that domain.
 - create a tcp reverse proxy on the gateway.
-- use `trc` flist to expose your running containers.
+- use `trc` Flist to expose your running containers.
 - managed domain example
 
 Also show how to use the gateway4to6 workloads for users with IPv4 only networks to get IPv6 connectivity through the gateway
@@ -43,7 +43,7 @@ domain_delegate = j.sals.zos.gateway.delegate_domain(gateway.node_id, DOMAIN, po
 wid = j.sals.zos.workloads.deploy(domain_delegate)
 ```
 
-got to your dns manager and create an `ns` record pointing to the gateway name `gateway.dns_nameserver[0]` then you can create subdomains of that domain and the gateway will create A records for it.
+got to your dns manager and create an `ns` record pointing to the gateway name `gateway.dns_nameserver[0]` then you could create subdomains of that domain and the gateway will create A records for it.
 
 #### Create subdomains
 
@@ -57,7 +57,7 @@ subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, SUBDOMAIN, gateway_ip
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
-now you can actually see that your subdomain is resorvable.
+now you could actually see that your subdomain is resorvable.
 ![domain_lookup](./img/01-web-gateway.png)
 
 #### Create tcp reverse proxy
@@ -89,14 +89,14 @@ entrypoint = f"/bin/trc -local {SOLUTION_IP_ADDRESS}:{SOLUTION_PORT} -local-tls 
 # trc container deployment
 NODE_ID = "2m3nHPSAMyZFSeg5HPozic2NGBMtrXrBkhtNcVmd5Ss6"
 NETWORK = "demo_net"
-FLIST_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist"
+Flist_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.Flist"
 CONTAINER_IP_ADDRESS = "10.212.2.10"
 secret_env = {"TRC_SECRET": j.sals.zos.container.encrypt_secret(NODE_ID, SECRET)}
 container = j.sals.zos.container.create(
  node_id=NODE_ID,
  network_name=NETWORK,
  ip_address=CONTAINER_IP_ADDRESS,
- flist=FLIST_URL,
+ Flist=Flist_URL,
  capacity_pool_id=pool.pool_id,
  entrypoint=entrypoint,
  secret_env=secret_env,
@@ -104,12 +104,12 @@ container = j.sals.zos.container.create(
 wid = j.sals.zos.workloads.deploy(container)
 ```
 
-now you can access your server using the gateway
+now you could access your server using the gateway
 ![http_access](./img/02-web-gateway.png)
 
 #### Managed domains example
 
-- gateways can have managed domains that you can use to create subdomains directly without the need of delegating domains or having a domain in the first place.
+- gateways could have managed domains that you could use to create subdomains directly without the need of delegating domains or having a domain in the first place.
 
 ```python
 gateway.managed_domains # list of the managed domains
@@ -120,7 +120,7 @@ subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gat
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
-now you can use that subdomain in your tcp reverse proxy as above
+now you could use that subdomain in your tcp reverse proxy as above
 
 ## Gateway4to6
 
@@ -128,7 +128,7 @@ This workload gives you a connection to IPv6 networks using a wireguard tunnel.
 
 ```python
 # first you need a keypair to be used for your wireguard cofiguration.
-# you can use existing ones or generate a pair like this
+# you could use existing ones or generate a pair like this
 private_key, public_key = j.tools.wireguard.generate_key_pair()
 
 # create gateway4to6 workload
@@ -163,5 +163,5 @@ j.sals.fs.touch(f"/home/maged/{filename}")
 j.sals.fs.write_file(f"/home/maged/{filename}", config)
 ```
 
-now you can start your wiregaurd config and access IPv6 addresses
+now you could start your wiregaurd config and access IPv6 addresses
 ![ipv6_access](./img/03-web-gateway.png)

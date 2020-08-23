@@ -11,20 +11,20 @@ To enter kosmos shell just type `poetry shell` in your SDK terminal
 
 ### 1. Choose your network using identity
 
-First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You can do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
+First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You could do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
 
 ![identity_buttons](./img/identity_buttons.png)
 
-You can also set the default identity to be used from the js-ng shell
+You could also set the default identity to be used from the js-ng shell
 
 ```python
 j.core.identity.set_default("identity_instance_name")
-# This identity can now be accessed using j.core.identity.me
+# This identity could now be accessed using j.core.identity.me
 ```
 
 ### 2. Create a TF Farm
 
-Now you can create a farm. To do so, we will use the Threefold Explorer client:
+Now you could create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
 from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
@@ -58,7 +58,7 @@ farm.save()
 print(farm_id)
 ```
 
-If the register function succeeded, your farm is now created and you can save it and proceed.
+If the register function succeeded, your farm is now created and you could save it and proceed.
 If you go to the explorer web UI you should be able to see your farm in "All farms" dropdown list.
 
 ## Create a bootable image

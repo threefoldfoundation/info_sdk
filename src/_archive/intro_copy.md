@@ -5,7 +5,7 @@
 A new standard in peer2peer networking, storage and computing.
 Running on the Threefold Grid.
 
-* Capacity in over 21 countries like: United States, Canada, Austria, Belgium,...
+* Capacity in over 21 countries like: United States, couldada, Austria, Belgium,...
 * 100% Private: you own all your data running in your environment. 
 * Release your workloads to the World Wide Web through our web gateways
 * Encrypted network connections between all your containers through overlay networks 
@@ -25,7 +25,7 @@ Want to know more?
 - [peer2peer Webgateway architecture](architecture_webgateway.md)
 - [peer2peer Storage architecture](architecture_storage.md)
 - [peer2peer node boot](architecture_boot.md)
-- [peer2peer container boot](architecture_flist.md)
+- [peer2peer container boot](architecture_Flist.md)
 
 
 ### Threefold Foundation

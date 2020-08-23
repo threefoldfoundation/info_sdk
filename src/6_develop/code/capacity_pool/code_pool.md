@@ -22,7 +22,7 @@ wallet = j.clients.stellar.get('my_wallet')
 # it returns the hash of the stellar transaction created
 txs = zos.billing.payout_farmers(wallet, payment_detail)
 
-# once the transaction is sent, it can take up to 2 minutes to see the pool populated with the cloud units.
+# once the transaction is sent, it could take up to 2 minutes to see the pool populated with the cloud units.
 
 # get the pool detail
 pool = zos.pools.get(payment_detail.reservation_id)
@@ -32,7 +32,7 @@ print("storage units available:", pool.sus)
 
 ### Extend a capacity pool
 
-A capacity pool (in our example with id 62) can also be extended with new capacity. The instruction is similar to the creation of the pool, difference is the `pool_id` that needs to specified. 
+A capacity pool (in our example with id 62) could also be extended with new capacity. The instruction is similar to the creation of the pool, difference is the `pool_id` that needs to specified. 
 
 ```bash
 # get a reference to the 0-OS SAL
@@ -51,7 +51,7 @@ wallet = j.clients.stellar.get('my_wallet')
 # it returns the hash of the stellar transaction created
 txs = zos.billing.payout_farmers(wallet, payment_detail)
 
-# once the transaction is sent, it can take up to 2 minutes to see the pool populated with the cloud units.
+# once the transaction is sent, it could take up to 2 minutes to see the pool populated with the cloud units.
 
 # get the updated pool detail
 pool = zos.pools.get(payment_detail.reservation_id)

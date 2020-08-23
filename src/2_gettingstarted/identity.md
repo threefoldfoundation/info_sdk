@@ -14,12 +14,12 @@
  
  ![configure](./img/identity_new.png)
 
-- Then it will start 3Bot server with an identity setup that can be accessed via `j.core.identity.me`
+- Then it will start 3Bot server with an identity setup that could be accessed via `j.core.identity.me`
 
 
 ### Manual configuration of identity
 
-Further identities can also be added from the jsng shell as follows
+Further identities could also be added from the jsng shell as follows
 - Create a new identity instance
 ```
 identity = j.core.identity.new(name="INSTANCE_NAME",tname="3Bot_NAME.3Bot", email="3Bot_EMAIL", words="WORDS",explorer_url="https://explorer.testnet.grid.tf/explorer")
@@ -28,7 +28,7 @@ where
  - **INSTANCE_NAME**: is the instance name of the identity that will be configured
  - **3Bot_NAME**: 3Bot name registered from 3Bot connect app (should be in the form `NAME.3Bot`)
  - **3Bot_EMAIL**: corresponding email for the 3Bot name from 3Bot connect app 
- - **WORDS**: words that can be retrieved from the 3Bot connect app settings
+ - **WORDS**: words that could be retrieved from the 3Bot connect app settings
  - **explorer_url**: explorer grid url that is to be used. Should be one of the following:
  - Mainnet: `https://explorer.grid.tf/explorer`
  - Testnet: `https://explorer.testnet.grid.tf/explorer`
@@ -46,7 +46,7 @@ identity.save()
 
 ### Using admin dashboard
 
-New identities can be added through the admin dashboard once 3Bot server is started.
+New identities could be added through the admin dashboard once 3Bot server is started.
 - Access settings of `https://<host>/admin` and click on the `ADD` button on the identities
 ![identity_list](./img/identity_list.png)
 
@@ -56,7 +56,7 @@ New identities can be added through the admin dashboard once 3Bot server is star
 
 ## Change default identity
 
-When you have multiple identities setup and want to switch the usage between them, this can simply be done using 
+When you have multiple identities setup and want to switch the usage between them, this could simply be done using 
 - jsng shell
 ```
 j.core.identity.set_default("INSTANCE_NAME") 

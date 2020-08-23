@@ -1,7 +1,7 @@
 # Chatflows
 
 
-Chatflows are an interactive communication bot that can be used to interactively ask the user some questions then perform actions based on the user's choices. Think of serving a customer, handling invoices, buying items or in our case provisioning workloads on the grid.
+Chatflows are an interactive communication bot that could be used to interactively ask the user some questions then perform actions based on the user's choices. Think of serving a customer, handling invoices, buying items or in our case provisioning workloads on the grid.
 
 ## Create a new Chatflow
 
@@ -12,13 +12,13 @@ Each chatflow should include these :
 - `steps` list:
  It includes the names of the functions of the chatflow steps in the chatflow that will be appearing.
 - `chatflow_step` decorator:
- Every step function included in the steps list should have this decorator imported using `from jumpscale.sals.chatflows.chatflows import chatflow_step`. If a custom name is to be added for a step, it can be given as a parameter to the decorator function.
+ Every step function included in the steps list should have this decorator imported using `from jumpscale.sals.chatflows.chatflows import chatflow_step`. If a custom name is to be added for a step, it could be given as a parameter to the decorator function.
 - Title:
  `title ` (optional) parameter will display a custom title for the chatflow.
 
 ### Custom Features
 
-A chatflow can include some custom features which are optional. These features can be activated by providing the corresponding parameter to the `chatflow_step` decorator that is added for each chatflow step
+A chatflow could include some custom features which are optional. These features could be activated by providing the corresponding parameter to the `chatflow_step` decorator that is added for each chatflow step
 
 - disable_previous:
  If set to **True**, the previous button is deactivated and going to any previous step is no longer possible
@@ -80,7 +80,7 @@ class FoodChat(GedisChatBot):
 
  @chatflow_step("Main Dish")
  def restaurant_main_dish(self):
-  # display the main dishes of the selected restaurant so the user can choose only one dish
+  # display the main dishes of the selected restaurant so the user could choose only one dish
   self.main_dish = self.single_choice("Please Select your main dish", self.menus[self.restaurant_name]["main"])
 
   # ask about the mount (this accepts any integer)
@@ -88,15 +88,15 @@ class FoodChat(GedisChatBot):
 
  @chatflow_step("Side Dish")
  def restaurant_side_dish(self):
-  # ask about the side dishes (the user can choose multible side dishes)
+  # ask about the side dishes (the user could choose multible side dishes)
   self.side_dish = self.multi_choice(
    "what do you want with your order", self.menus[self.restaurant_name]["sides"]
   )
 
  @chatflow_step(title="Confirmation", disable_previous=True, final_step=True)
  def confirmation(self):
-  # Now you can add any logic you want here to send the order to the restaurant
-  # Then we can show a report to the user about his order using md format
+  # Now you could add any logic you want here to send the order to the restaurant
+  # Then we could show a report to the user about his order using md format
   report = f"""# Hello {self.client_name}
 ## Your order has been confirmed \n\n<br>\n
 ### You have ordered : {self.amount} {self.main_dish} with {self.side_dish}

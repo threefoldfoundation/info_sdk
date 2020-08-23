@@ -3,7 +3,7 @@
 **Experts and scripters only**
 
 - the current release is not intended for an end user audience, there is no easy to use interface
-- the sdk which you can run on your computer or in the grid itself allows you to develop solutions on top of the grid.
+- the sdk which you could run on your computer or in the grid itself allows you to develop solutions on top of the grid.
 
 ## Component versions
 
@@ -20,7 +20,7 @@
 - 3sdk installer windows support is early beta quality level, it did not receive enough exposure yet
 - documentation is not good enough yet, we will be adding lots of content over next weeks
 - the 3sdk installer needs to improve (less verbose errors, more support for user edge cases, ...)
-- python notebooks and visual codeserver can use a lot of memory (these are 3e party components we use and we could not resolve this)
+- python notebooks and visual codeserver could use a lot of memory (these are 3e party components we use and we could not resolve this)
 
 ## Roadmap see
 

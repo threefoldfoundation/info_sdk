@@ -14,7 +14,7 @@
 
 ## Configuring Docker
 
-- We need to configure docker to use linux containers during installation and we need to enable file sharing “C” in Docker desktop, It can ask you about in the first time automatically you can allow it directly
+- We need to configure docker to use linux containers during installation and we need to enable file sharing “C” in Docker desktop, It could ask you about in the first time automatically you could allow it directly
 
 ![windows_docker_ask](docker_windows1.png)
 
@@ -24,7 +24,7 @@
 
 ## Installation
 
-- Make sure docker daemon is running, you can find its icon next to the clock in taskbar
+- Make sure docker daemon is running, you could find its icon next to the clock in taskbar
 
 - Download the latest binary release from this page [jumpscaleX releases](https://github.com/Threefoldtech/jumpscaleX_core/releases)
 
@@ -53,7 +53,7 @@ git config --global core.eol lf
 
 ### Configuring SSH and SSH-AGENT
 
-- You may have `ssh-agent` not working on windows you can start it from the windows task manager, head to `services` right click then `start`
+- You may have `ssh-agent` not working on windows you could start it from the windows task manager, head to `services` right click then `start`
 as showed in the following
  ![sshagent](sshagent.png)
 
@@ -69,7 +69,7 @@ and don't add a passcode, just enter, then
 ssh-add
 ```
 
-To make sure the key is loaded you can see it via
+To make sure the key is loaded you could see it via
 
 ```
 ssh-add -L

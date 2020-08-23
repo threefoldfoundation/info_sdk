@@ -12,8 +12,8 @@ A persistent volume (PV) is a piece of storage in the Kubernetes cluster, while 
 
 PV has three access modes
 
-- RWO: Read Write Once. It can only be read/write on one node at any given time
-- RWX: Read Write Many. It can only be read/write on multiple node at the same time
+- RWO: Read Write Once. It could only be read/write on one node at any given time
+- RWX: Read Write Many. It could only be read/write on multiple node at the same time
 - ROX: Read Only Many
 
 K3s comes with Rancher’s Local Path Provisioner and this enables the ability to create persistent volume claims out of the box using local storage on the respective node.
@@ -37,12 +37,12 @@ volume-test     1/1  Running 0   2m
 
 K3s comes with [klipper](https://github.com/rancher/klipper-lb). It assigns the IP of the node to the loadBalancer service. This works by using a host port for each service load balancer and setting up iptables to forward the request to the cluster IP.
 
-This means that klipper can't provision other IP for that we need metalLB
+This means that klipper could't provision other IP for that we need metalLB
 
 #### Metal LB
 
-The idea is to have a fix IP to connect to that can handle load balancing between the pods. We use metallb to provision IP on demand for LoadBalancer services.
-We can apply the first two files in the metallb folder
+The idea is to have a fix IP to connect to that could handle load balancing between the pods. We use metallb to provision IP on demand for LoadBalancer services.
+We could apply the first two files in the metallb folder
 
 ```
 $ cd ressources/metallb
@@ -76,11 +76,11 @@ Follow the guide and you will end up executing this kind of command on your mast
 inlets client --remote "mydomain.be:8080" --upstream "http://172.30.1.50:80" --token "${AUTHTOKEN}"
 ```
 
-If you have deployed the drupal-mysql example which contains an ingress ressources you can modify the ingress to the domain name here it is mydomain.be so that now when you hit http://mydomain.be you are redirected to the drupal website
+If you have deployed the drupal-mysql example which contains an ingress ressources you could modify the ingress to the domain name here it is mydomain.be so that now when you hit http://mydomain.be you are redirected to the drupal website
 
 ## CNI
 
-Container networking is the mechanism through which containers can optionally connect to other containers, the host, and outside networks like the internet.
+Container networking is the mechanism through which containers could optionally connect to other containers, the host, and outside networks like the internet.
 The idea behind the CNI initiative is to create a framework for dynamically configuring the appropriate network configuration and resources when containers are provisioned or destroyed.
 
 ### Benchmark
@@ -104,7 +104,7 @@ It is one of the most mature examples of networking fabric for container orchest
 From an administrative perspective, it offers a simple networking model that sets up an environment that’s suitable for most use cases when you only need the basics.
 
 By default, K3s will run with flannel as the CNI.
-The default backend for flannel is VXLAN. We can enable encryption by passing the IPSec (Internet Protocol Security) or WireGuard options .
+The default backend for flannel is VXLAN. We could enable encryption by passing the IPSec (Internet Protocol Security) or WireGuard options .
 
 ### Calico
 
@@ -122,9 +122,9 @@ calico kernel requirement
 - ipt_REJECT
 - ipip (if using Calico networking)
 
-Unlike Flannel, Calico does not use an overlay network. Instead, Calico configures a layer 3 network that uses the BGP routing protocol to route packets between hosts. This means that packets do not need to be wrapped in an extra layer of encapsulation when moving between hosts. The BGP routing mechanism can direct packets natively without an extra step of wrapping traffic in an additional layer of traffic.
+Unlike Flannel, Calico does not use an overlay network. Instead, Calico configures a layer 3 network that uses the BGP routing protocol to route packets between hosts. This means that packets do not need to be wrapped in an extra layer of encapsulation when moving between hosts. The BGP routing mechanism could direct packets natively without an extra step of wrapping traffic in an additional layer of traffic.
 
-In addition to networking connectivity, Calico is well-known for its advanced network features. Network policy is one of its most sought after capabilities. In addition, Calico can also integrate with Istio, a service mesh, to interpret and enforce policy for workloads within the cluster both at the service mesh layer and the network infrastructure layer. This means that you can configure powerful rules describing how pods should be able to send and accept traffic, improving security and control over your networking environment.
+In addition to networking connectivity, Calico is well-known for its advanced network features. Network policy is one of its most sought after capabilities. In addition, Calico could also integrate with Istio, a service mesh, to interpret and enforce policy for workloads within the cluster both at the service mesh layer and the network infrastructure layer. This means that you could configure powerful rules describing how pods should be able to send and accept traffic, improving security and control over your networking environment.
 
 Run K3s with --flannel-backend=none
 ./k3s server --flannel-backend=none &

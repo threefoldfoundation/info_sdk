@@ -1,6 +1,6 @@
 # This document shows how to setup/migrate your Threefold Farm and 3Nodes using the marketplace
 
-Once you have created your 3bot using the marketplace, you can use it also to set up a farm and manage it. 
+Once you have created your 3bot using the marketplace, you could use it also to set up a farm and manage it. 
 Go to the generated domain name and login using your 3Bot connect app. 
 
 ### 1. Choose your network using identities
@@ -12,7 +12,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -39,11 +39,11 @@ Fill the form with your values.
 
 **Make sure you add a valid TFT stellar address. This is required in order for user to be able to reserve capacity from your farm.**
 
-Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
+Copy the address of the Stellar account from your 3Bot Connect app, where you could copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
 ![detail_3bot](./img/detail_3bot_connect.png)
 
-A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
+A wallet also could be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 
 
 ![wallet_in_jsng](./img/wallet_in_jsng.png)
@@ -60,20 +60,20 @@ To enter kosmos shell just type `kosmos` in your 3SDK terminal
 
 ### 1. Choose your network using identity
 
-First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You can do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
+First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You could do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
 
 ![identity_buttons](./img/identity_buttons.png)
 
-You can also set the default identity to be used from the js-ng shell
+You could also set the default identity to be used from the js-ng shell
 
 ```python
 j.core.identity.set_default("identity_instance_name")
-# This identity can now be accessed using j.core.identity.me
+# This identity could now be accessed using j.core.identity.me
 ```
 
 ### 2. Create a TF Farm
 
-Now you can create a farm. To do so, we will use the Threefold Explorer client:
+Now you could create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
 from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
@@ -107,7 +107,7 @@ farm.save()
 print(farm_id)
 ```
 
-If the register function succeeded, your farm is now created and you can save it and proceed.
+If the register function succeeded, your farm is now created and you could save it and proceed.
 If you go to the explorer web UI you should be able to see your farm in "All farms" dropdown list.
 
 ## Create a bootable image

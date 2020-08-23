@@ -1,6 +1,6 @@
 # Actors
 
-Actors are our solution to interact with the backend, and it's very simple to write and extend APIs. So, actor is like a service that exposes a certain set of functionality and can be invoked using gedis client, or over http
+Actors are our solution to interact with the backend, and it's very simple to write and extend APIs. So, actor is like a service that exposes a certain set of functionality and could be invoked using gedis client, or over http
 
 ## Adding new actors
 - Adding new actors should be in the `actors/` directory of the package created
@@ -28,7 +28,7 @@ Actor = Hello
 
 ````
 
-- all actors methods should be decorated with `actor_method` so you can access it directly from 3Bot shell. The actor method can be imported using `from jumpscale.servers.gedis.baseactor import actor_method`
+- all actors methods should be decorated with `actor_method` so you could access it directly from 3Bot shell. The actor method could be imported using `from jumpscale.servers.gedis.baseactor import actor_method`
 
 ## Invoke actors
 

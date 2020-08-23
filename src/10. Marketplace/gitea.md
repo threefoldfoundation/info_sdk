@@ -30,11 +30,11 @@ Here we specify the CPU and Memory resources allocated for the container
 
 ### Container node id
 ![](./img/gitea_9.png)
-Here we can provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
+Here we could provide a node id corresponding to a current node on the grid to deploy the container on. If there is no specific node to be used then it is left empty.
 
 ### Selecting farm
 ![](./img/gitea_10.png)
-If the nodeid is left empty, we can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+If the nodeid is left empty, we could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 ### Selecting solution IP
 ![](./img/gitea_11.png)

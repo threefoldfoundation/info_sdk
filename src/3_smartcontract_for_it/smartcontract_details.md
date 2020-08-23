@@ -17,7 +17,7 @@ this will be updated continuously by both the customer 3Bot and the farmer 3Bot
 ### Reservation data
 
 The reservation data is composed of the individual workload to be deployed, information
-about who can sign for the actual deployment and deletion of the workload, and the
+about who could sign for the actual deployment and deletion of the workload, and the
 id of the capacity pool to use for the reservation. All fields in the data object
 are immutable after the reservation is created (i.e. the customer signs the data).
 Modifications afterward will cause the customer signature to become invalid.
@@ -34,14 +34,14 @@ A valid signature is a signature for the reservation data, with a private key
 owned by one of the 3Bots listed in the reservation data (in the `signatures_provision`
 and `signatures_delete` fields). These fields also define the minimum amount of
 signatures required. For example, a signature request for provisioning might list
-3 3Bot ids which can sign, but only specify a `quorum_min` of 2. As such, only 2
+3 3Bot ids which could sign, but only specify a `quorum_min` of 2. As such, only 2
 out of the 3 listed 3Bot ids would need to sign before the node is allowed to
 deploy the workloads.
 
 #### Signature validity
 
 A signature is created by signing a piece of data using a private key. Afterwards,
-the corresponding public key can be used to check if the signature is valid. A
+the corresponding public key could be used to check if the signature is valid. A
 [signature field](#signingsignature) is valid if it meets the following conditions:
 
 - It contains at least the minimum amount of signatures required, as defined in
@@ -61,7 +61,7 @@ possibly other fields).
 ### Data model
 
 The following is an overview of the types used, their fields, and what these
-fields are used for. You can find a full definition of the types in [provisiond.md](provision.md).
+fields are used for. You could find a full definition of the types in [provisiond.md](provision.md).
 
 #### [Reservation](provisiond.md#reservation)
 
@@ -79,7 +79,7 @@ workload will take resources from the pool until it is empty, or the workload is
 deleted.
 
 - `NextAction`: This field describes what action should be performed next.
-Given the [enum values](provisiond.mdNextActionEnum), we can roughly describe a
+Given the [enum values](provisiond.mdNextActionEnum), we could roughly describe a
 reservation life cycle as follows:
 
  - user create the reservation, initial status is `created`
@@ -91,7 +91,7 @@ reservation life cycle as follows:
  token have actually arrived, the status goes from `pay` to `deploy`. Check the
  [payment documentation](reservation_payment.md) for more detail information on
  how to pay for a reservation.
- - when a reservation is has a state `deploy`, the node can now pick it up and
+ - when a reservation is has a state `deploy`, the node could now pick it up and
  provision the workloads.
 
  From here there are 2 possibility:
@@ -107,7 +107,7 @@ reservation life cycle as follows:
 
 - `SignaturesProvision`: A list of `signatures` needed to start the provisioning
 (deploy) step. i.e. after enough valid signatures are provided here, the nodes
-can start to deploy the workloads defined. Validity of signatures and amount of
+could start to deploy the workloads defined. Validity of signatures and amount of
 valid signatures required is defined by the `SigningRequestProvision` field.
 
 ~~- `SignatureFarmer`: the [signatures](#signingsignature) of the farmer threebot,
@@ -126,7 +126,7 @@ for individual workloads.
 #### [Reservation.Data](provisiond.md#reservation-data)
 
 The reservation data contains all required info for the workload to be deployed,
-as well as info about who can sign to start the provisioning and deletion, and
+as well as info about who could sign to start the provisioning and deletion, and
 the expiry dates for the reservation. As the workload is signed by the customer
 after creating the reservation, all of these fields are immutable after being created.
 
@@ -139,21 +139,21 @@ Depending on the specific workload, here are links to the available fields:
 - network: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
 - k8s: https://github.com/Threefoldtech/zosv2/blob/master/docs/provision/provision.md
 
-- signing_request_provision: The list of threebots which can sign for the provisioning
+- signing_request_provision: The list of threebots which could sign for the provisioning
 to happen, and the minimum amount of signatures required to do so, as described
 in [signing request](#siginingrequest).
-- signing_request_delete: The list of threebots which can sign for the early
+- signing_request_delete: The list of threebots which could sign for the early
 deletion of the workloads to happen, and the minimum amount of signatures required
 to do so, as described in [signing request](#signingrequest).
 
 #### [SigningRequest](provisiond.md#SigningRequest)
 
-A signing request defines who (which threebots) can sign for a particular action,
+A signing request defines who (which threebots) could sign for a particular action,
 and the minimum amount of required signatures. The minimum amount of people needed
-can be anything between 1 and the number of signers.
+could be anything between 1 and the number of signers.
 
-- `Signers`: A list of threebot ids who can sign. To verify the signature, the public
-key of the threebot can be loaded, and then used to verify the signature.
+- `Signers`: A list of threebot ids who could sign. To verify the signature, the public
+key of the threebot could be loaded, and then used to verify the signature.
 - `QuorumMin`: The minimum amount of requested signatures. At least this amount
 of threebots need to sign before the signature request is considered fulfilled.
 
@@ -163,9 +163,9 @@ signing request:
 - `Signers`: [threebot_a, threebot_b, threebot_c]
 - `QuorumMin`: 1
 
-This means that any of the 3 listed threebots can sign the data, and the request
+This means that any of the 3 listed threebots could sign the data, and the request
 is fulfilled as soon as anyone signs. For instance, a workload for testing is
-used by 3 developers, and any of those can choose to have the workload deployed
+used by 3 developers, and any of those could choose to have the workload deployed
 or deleted. If however another person signs (perhaps a 4th developer who is new
 in the company), the signature will not be valid, as he is not listed in the
 `signers` field, and therefore he is not able to deploy the workload.
@@ -188,12 +188,12 @@ Additionally, the time of signing is also recorded.
 #### [Reservation.Result](provisiond.md#Result)
 
 A result is used by a 0-OS node to add a response to a reservation. This result
-can inform users if an error occurred, or more commonly, it can relay back vital
+could inform users if an error occurred, or more commonly, it could relay back vital
 information such as the IP address of a container after it is started.
 
 The result object has a `WorkloadId` field, which is used to map the result to
-the actual workload. With the workload request, the `NodeId` can be inspected,
-to get the nodes public key. The key can then be used to verify the signature of
+the actual workload. With the workload request, the `NodeId` could be inspected,
+to get the nodes public key. The key could then be used to verify the signature of
 the data, proving that it is indeed this node which created the reply, and that
 the `DataJSON` (TODO:remove this field) has not been tampered with after it was created.
 

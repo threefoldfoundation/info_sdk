@@ -7,7 +7,7 @@
 ![4to6gw_1](./img/4to6gw_1.png)
 
 #### Set Public Key (Optional)
-You can leave it empty in which case a keypair will be automatically generated.
+You could leave it empty in which case a keypair will be automatically generated.
 
 ![4to6gw_2](./img/4to6gw_2.png)
 

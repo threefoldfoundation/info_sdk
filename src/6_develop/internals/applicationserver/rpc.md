@@ -130,7 +130,7 @@ JS-NG> cl.actors.system.register_actor("test_actor", ACTOR_PATH)
 True
 
 ```
-At this point we can do `cl.reload` to add `test_actor` into the client domain
+At this point we could do `cl.reload` to add `test_actor` into the client domain
 
 ```
 JS-NG> cl.reload()

@@ -16,7 +16,7 @@ The aim is to create a simple S3 archive solution by following a few steps:
 
 #### Create an overlay network or use the identity of a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md)
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md)
 
 
 #### Design the S3 simple storage solution
@@ -29,7 +29,7 @@ demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
 
-When you deployed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we can now create a storage solution. For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes. Using the output of the network reservation notebook to describe the high-level design of the storage solution:
+When you deployed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we could now create a storage solution. For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes. Using the output of the network reservation notebook to describe the high-level design of the storage solution:
 
 | Nr. | Location | Node ID. | IPV4 network | Function. |
 |--------|---|---|---|---|
@@ -43,7 +43,7 @@ When you deployed the network workload it also provided you with data on the ord
 
 #### Reserve and deploy the low level ZeroDB storage nodes
 
-First let's deploy low-level storage capacity manager (Zero-DB, more info [here](https://github.com/Threefoldtech/0-db)). In the next piece of code we do the following:
+First let's deploy low-level storage capacity manager (Zero-DB, more info [here](https://github.com/Threefoldtech/0-DB)). In the next piece of code we do the following:
 - select and set the node to container the S3 software
 - select and load the nodes in a list to push them in the zero-DB reservation structure
 
@@ -65,7 +65,7 @@ password = "supersecret"
 
 # ----------------------------------------------------------------------------------
 # Select and create a reservation for nodes to deploy a ZDB
-# first find the node where to reserve 0-db namespaces. Select all the salzburg nodes
+# first find the node where to reserve 0-DB namespaces. Select all the salzburg nodes
 # ----------------------------------------------------------------------------------
 
 nodes_salzburg = zos.nodes_finder.nodes_search(farm_id=12775) # (IPv6 nodes)
@@ -117,7 +117,7 @@ With the low level zero-DB reservations done and stored the `results` variable (
 
 ```python
 # ----------------------------------------------------------------------------------
-# Read the IP address of the 0-db namespaces after they are deployed
+# Read the IP address of the 0-DB namespaces after they are deployed
 # we will need these IPs when creating the minio container
 # ----------------------------------------------------------------------------------
 namespace_config = []
@@ -141,7 +141,7 @@ print(namespace_config)
 ['9012-4:supersecret@[2a04:7700:1003:1:54f0:edff:fe87:2c48]:9900', '9012-1:supersecret@[2a02:16a8:1000:0:5c2f:ddff:fe5a:1a70]:9900', '9012-2:supersecret@[2a02:16a8:1000:0:1083:59ff:fe38:ce71]:9900', '9012-7:supersecret@[2003:d6:2f32:8500:dc78:d6ff:fe04:7368]:9900', '9012-3:supersecret@[2a02:16a8:1000:0:fc7c:4aff:fec8:baf]:9900', '9012-5:supersecret@[2a04:7700:1003:1:acc0:2ff:fed3:1692]:9900', '9012-6:supersecret@[2a04:7700:1003:1:ac9d:f3ff:fe6a:47a9]:9900']
 ```
 
-The last step is to design the redundancy policy for the storage solution. We have 6 low-level devices available (over 6 nodes, in 2 different datacenters and cities). So we can build any of the following configurations:
+The last step is to design the redundancy policy for the storage solution. We have 6 low-level devices available (over 6 nodes, in 2 different datacenters and cities). So we could build any of the following configurations:
 
 | Option | data storage devices | parity storage devices | total devices | overhead |
 |--------|---|---|---|---|
@@ -163,7 +163,7 @@ Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
 
 ```python
 # ----------------------------------------------------------------------------------
-# With the low level disk managers done and the IP adresses discovered we can now build
+# With the low level disk managers done and the IP adresses discovered we could now build
 # the reservation for the min.io S3 interface.
 # ----------------------------------------------------------------------------------
 
@@ -178,7 +178,7 @@ minio_container=zos.container.create(
  node_id=minio_node_id,
  network_name=demo_network_name,
  ip_address=minio_node_ip,
- flist='https://hub.grid.tf/tf-official-apps/minio:latest.flist',
+ Flist='https://hub.grid.tf/tf-official-apps/minio:latest.Flist',
  capacity_pool_id=minio_pool_id,
  interactive=False, 
  entrypoint='',

@@ -72,7 +72,7 @@ The total number of ZDB instances (2+1 in this case = 3 ZDB instances), with a `
 
 ![017](./img/017.jpeg)
 
-Optional step (but is very recommended) is to upload your public ssh key so you can access both the minio nodes over SSH in case of trouble for debugging purpose. Please use `rsa` key format or any other format supported by `dropbear`.
+Optional step (but is very recommended) is to upload your public ssh key so you could access both the minio nodes over SSH in case of trouble for debugging purpose. Please use `rsa` key format or any other format supported by `dropbear`.
 ![018](./img/018.jpeg)
 
 Expiration date for the solution.
@@ -81,7 +81,7 @@ Expiration date for the solution.
 Where the ZDB instances are going to deploy. Choose the farm of your choice or leave empty for random farm allocation. A better way to choose which farm is to check the [explorer.grid.tf](https://explorer.grid.tf/) for a farm in your area for the best access speed.
 ![020](./img/020.jpeg)
 
-Where the minio instances are going to deploy. This still can be in a different location than your ZDB instances (selected in the previous step), but for best speed, please choose the same farm as your ZDBs, unless you have a good reason not to.
+Where the minio instances are going to deploy. This still could be in a different location than your ZDB instances (selected in the previous step), but for best speed, please choose the same farm as your ZDBs, unless you have a good reason not to.
 ![021](./img/021.jpeg)
 
 Select IP for your Master minio instance.
@@ -116,21 +116,21 @@ Deploying
 Confirmations with links to your `minio` master and slave instances. Open both in new tabs.
 ![031](./img/031.jpeg)
 #### Checkpoint
-You should already have a fully working minio solution now. You can start creating buckets and uploading files to your `Master` instance. Changes to Master instance will auto reflect to the slave instance. The slave instance can be used to download files only.
+You should already have a fully working minio solution now. You could start creating buckets and uploading files to your `Master` instance. Changes to Master instance will auto reflect to the slave instance. The slave instance could be used to download files only.
 
 ### Installing Monitoring (optional)
-Next we going to install a monitoring solution for the nodes. This includes a generic `prometheus` setup where you can customize to monitor this solution (and may be other solutions that you install on the same network in the future)
+Next we going to install a monitoring solution for the nodes. This includes a generic `prometheus` setup where you could customize to monitor this solution (and may be other solutions that you install on the same network in the future)
 
-In you `control panel` please select `Solutions > Generic flist`. Press `Next` to start
+In you `control panel` please select `Solutions > Generic Flist`. Press `Next` to start
 ![032](./img/032.jpeg)
 
 Select same network where your minio solution is deployed
 ![033](./img/033.jpeg)
 
-Give it a name you can just call it `prometheus`.
+Give it a name you could just call it `prometheus`.
 ![034](./img/034.jpeg)
 
-Use this flist for your deployment `https://hub.grid.tf/tf-official-apps/prometheus:latest.flist`. and press next
+Use this Flist for your deployment `https://hub.grid.tf/tf-official-apps/prometheus:latest.Flist`. and press next
 ![035](./img/035.jpeg)
 
 Choose HDD storage again, and accept other default values.
@@ -173,14 +173,14 @@ Take a note of the IP. we need that later to configure prometheus
 ![048](./img/048.jpeg)
 
 #### Configuring prometheus to monitor minio
-Since you used your SSH public key you can ssh to the prometheus node to configure it. Please do the following (please use the IP of your prometheus setup)
+Since you used your SSH public key you could ssh to the prometheus node to configure it. Please do the following (please use the IP of your prometheus setup)
 ```bash
 ssh root@10.109.4.2
 
 # open the config file for editing
 vi /etc/prometheus.yml
 ```
-> You can instead download the file, modify it and upload it again. like `scp root@10.109.4.2:/etc/prometheus.yml prometheus.yml`, then upload it again like `scp prometheus.yml root@10.109.4.2:/etc/prometheus.yml`
+> You could instead download the file, modify it and upload it again. like `scp root@10.109.4.2:/etc/prometheus.yml prometheus.yml`, then upload it again like `scp prometheus.yml root@10.109.4.2:/etc/prometheus.yml`
 
 Add this section at the end of the file. **NOTE** replace the IPs with the correct values you have for your `Master` and `Slave` nodes.
 > Make sure indentation is correct.
@@ -196,16 +196,16 @@ Make sure now to force `prometheus` to reload the config file as following
 ```bash
 zinit kill prometheus SIGHUP
 
-# then you can check prometheus logs to make sure there were no configuration errors by doing
+# then you could check prometheus logs to make sure there were no configuration errors by doing
 zinit log prometheus
 ```
 
-You can now visit `http://10.109.4.2:9090/graph` (please use the IP of your prometheus setup) to access the built in prometheus UI. You can then check the available metrics in the UI.
+You could now visit `http://10.109.4.2:9090/graph` (please use the IP of your prometheus setup) to access the built in prometheus UI. You could then check the available metrics in the UI.
 
 ### Installing grafana (optional)
-You can totally run grafana locally on your PC and configure it to use the prometheus instance running in the grid. But for the completion of the tutorial we will also show you have to install a generic grafana solution on the grid.
+You could totally run grafana locally on your PC and configure it to use the prometheus instance running in the grid. But for the completion of the tutorial we will also show you have to install a generic grafana solution on the grid.
 
-We have to create a new `Generic flist` solution.
+We have to create a new `Generic Flist` solution.
 ![049](./img/049.jpeg)
 
 Select the proper network
@@ -214,7 +214,7 @@ Select the proper network
 Give your deployment a name
 ![051](./img/051.jpeg)
 
-Use this flist for a generic grafana solution `https://hub.grid.tf/azmy.3Bot/grafana-grafana-latest.flist`
+Use this Flist for a generic grafana solution `https://hub.grid.tf/azmy.3Bot/grafana-grafana-latest.Flist`
 ![052](./img/052.jpeg)
 
 Accept the default settings, but make sure to use HDD storage.
@@ -253,7 +253,7 @@ Deployment in progress
 Take note of the granfa IP.
 ![064](./img/064.jpeg)
 
-You can now visit `http://10.109.3.3:3000` (please use the IP for your grafana solution instead). Use `admin/admin` to login then you can change the default password.
+You could now visit `http://10.109.3.3:3000` (please use the IP for your grafana solution instead). Use `admin/admin` to login then you could change the default password.
 
 Go to the settings window, and Press `Add data source`
 ![065](./img/065.jpeg)
@@ -264,13 +264,13 @@ Choose `Prometheus` data source
 In the URL please enter your valid prometheus address (it's `http://10.109.4.2:9090` in this example). Once you click `Save & Test` everything should be green as in the example below.
 ![067](./img/067.jpeg)
 
-You can quickly go the `Explore` window (click the compass icon on the left)
+You could quickly go the `Explore` window (click the compass icon on the left)
 ![068](./img/068.jpeg)
 
 Clicking the metrics drop down you should see all the `metrics` that are know to prometheus (same ones from prometheus UI)
 ![069](./img/069.jpeg)
 
-Later you can add dashboards for `minio` that shows you all minio statistics. We might also later provide a pre-configured minio dashboard that also graph the new custom metrics in minio that were added by `Threefold`
+Later you could add dashboards for `minio` that shows you all minio statistics. We might also later provide a pre-configured minio dashboard that also graph the new custom metrics in minio that were added by `Threefold`
 
-Later you can add dashboards for `minio` that shows you all minio statistics.
+Later you could add dashboards for `minio` that shows you all minio statistics.
 Please import this [dashboard](https://raw.githubusercontent.com/Threefoldtech/minio/master-rework/cmd/gateway/zerostor/grafana.json) in grafana which will give you the best overview for tall available metrics.

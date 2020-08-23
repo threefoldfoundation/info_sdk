@@ -30,7 +30,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 - `ssh keys` : ssh keys which will be used to allow access for the ssh key holders to the deployed cluster. They should be in a file where each ssh key is on a seperate line
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
 - `cluster secret` : the secret that will be used to access the cluster deployed. Please keep it safe.
-- `IP range` : Configure network manually by choosing an IP range to use or the deployer can choose for you and generate an IP range automatically
+- `IP range` : Configure network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically
 - `Network name` : a name for the network to deploy on, if left empty it will be a generated name
 
 ## Deploying Kubernetes:
@@ -55,7 +55,7 @@ Here we specify the size of the nodes that will be selected for deployment. We a
 
 ![step4](./img/k8s5.png)
 
-We can choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions can be deployed on. We can either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
+We could choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions could be deployed on. We could either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
 
 ### Uploading your public Key
 
@@ -120,7 +120,7 @@ log into your VM
 ```
 $ ping 172.30.1.2
 $ ssh rancher@172.30.1.2
-The authenticity of host '172.30.1.2 (172.30.1.2)' can't be established.
+The authenticity of host '172.30.1.2 (172.30.1.2)' could't be established.
 ECDSA key fingerprint is SHA256:Q4kQ94B8QaSbo1EsyI8dQrgBkZyk/USda72c8nwVwIE.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '172.30.1.2' (ECDSA) to the list of known hosts.
@@ -130,7 +130,7 @@ Refer to https://github.com/rancher/k3os for README and issues
 
 By default mode of k3OS is to run a single node cluster. Use "kubectl"
 to access it. The node token in /var/lib/rancher/k3s/server/node-token
-can be used to join agents to this server.
+could be used to join agents to this server.
 
 k3os-15956 [~]$
 ```
@@ -145,7 +145,7 @@ k3os-15957 Ready <none> 2m26s v1.16.3-k3s.2
 k3os-15958 Ready <none> 1m42s v1.16.3-k3s.2
 ```
 
-Copy the config so that we can use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
+Copy the config so that we could use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
 
 Execute this command on your local machine not in a remote shell
 
@@ -158,7 +158,7 @@ $ scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml ./k3s.yaml
 ```
 
 If you already have a kube config file usually located in `~/.kube/config`
-you can edit it and add the new cluster with the informations written on k3s.yaml
+you could edit it and add the new cluster with the informations written on k3s.yaml
 
 here is an example of `~/.kube/config`
 
@@ -201,7 +201,7 @@ helm --kubeconfig ./k3s.yaml ls --all-namespaces
 
 ### Delete a Provision
 
-You can delete a provision based on its ID which is returned by `tfuser live`
+You could delete a provision based on its ID which is returned by `tfuser live`
 
 ```
 $ ./tfuser live --seed user.seed --end 3000
@@ -255,7 +255,7 @@ $ kubectl get -o jsonpath="{.spec.ports[0].nodePort}" services wordpress
 31004
 ```
 
-We can browse any nodes url on port 31004 to find the wordpress website e.g. [http://172.30.3.2:31004/](http://172.30.3.2:31004/)
+We could browse any nodes url on port 31004 to find the wordpress website e.g. [http://172.30.3.2:31004/](http://172.30.3.2:31004/)
 and after some setup screens you will access your articles
 
 ![wordpress first article](wordpress.png)
@@ -293,9 +293,9 @@ Forwarding from 127.0.0.1:8888 -> 3000
 Forwarding from [::1]:8888 -> 3000
 ```
 
-We can browse localhost on port 8888 to find the grafana UI e.g. [http://localhost:8888/](http://localhost:8888/)
+We could browse localhost on port 8888 to find the grafana UI e.g. [http://localhost:8888/](http://localhost:8888/)
 The username is `admin` and the default admin password to log into the grafana UI is `prom-operator`
-Then you can for instance import a dashboard and use the ID 8588 and don't forget to select the prometheus data source
+Then you could for instance import a dashboard and use the ID 8588 and don't forget to select the prometheus data source
 ![kubernetes-deployment-statefulset-daemonset-metrics dashboard](grafana1.png)
 or the dashboard ID 6879
 ![analysis-by-pod](grafana2.png)

@@ -23,7 +23,7 @@ Here is the list of the current deployed solutions available on the TF Grid Mark
 - [4to6 Gateway](4to6gateway.md)
 - [Monitoring](monitoring.md)
 
-With your help and with the help of our community, we aim to become the biggest reference for open source project directory. We are open for collaborations, and we are actively looking for early adopters and curious minds to contribute to the growth of the project by [deploying your own network](#getting_started_network.md), [developing your own solutions](getting_started_first_solution.md), or simply by becoming one of TF Grid Marketplace alpha testers! Join __Threefold Grid Marketplace [telegram channel](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w)__ to find out about how you can participate and support the project.
+With your help and with the help of our community, we aim to become the biggest reference for open source project directory. We are open for collaborations, and we are actively looking for early adopters and curious minds to contribute to the growth of the project by [deploying your own network](#getting_started_network.md), [developing your own solutions](getting_started_first_solution.md), or simply by becoming one of TF Grid Marketplace alpha testers! Join __Threefold Grid Marketplace [telegram channel](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w)__ to find out about how you could participate and support the project.
 
 
 > By using this marketplace or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](#legals.md) for more.

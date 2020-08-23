@@ -81,15 +81,15 @@
 │    │   ├── sdk_examples.md
 │    │   └── ubuntu-chat.md
 │    └── use_cases
-│     ├── compute-flist.md
+│     ├── compute-Flist.md
 │     ├── compute.md
 │     ├── examples
 │     │   ├── README.md
 │     │   ├── jupyter
 │     │   │   ├── README.md
-│     │   │   ├── flist
-│     │   │   │   ├── flist.ipynb
-│     │   │   │   └── flist.md
+│     │   │   ├── Flist
+│     │   │   │   ├── Flist.ipynb
+│     │   │   │   └── Flist.md
 │     │   │   ├── kubernetes_cluster
 │     │   │   │   ├── kubernetes_cluster.ipynb
 │     │   │   │   └── kubernetes_cluster.md
@@ -100,11 +100,11 @@
 │     │   │    ├── s3_storage.ipynb
 │     │   │    └── s3_storage.md
 │     │   └── python
-│     │    ├── flist.md
+│     │    ├── Flist.md
 │     │    ├── kubernetes_cluster.md
 │     │    ├── overlay_network.md
 │     │    └── s3_storage.md
-│     ├── generic-flist.md
+│     ├── generic-Flist.md
 │     ├── images
 │     │   ├── Chatflow_Ubuntu1.png
 │     │   ├── Chatflow_Ubuntu10.png
@@ -122,26 +122,26 @@
 │     │   ├── Chatflow_Ubuntu7.png
 │     │   ├── Chatflow_Ubuntu8.png
 │     │   ├── Chatflow_Ubuntu9.png
-│     │   ├── Chatflow_flist0.png
-│     │   ├── Chatflow_flist1.png
-│     │   ├── Chatflow_flist10.png
-│     │   ├── Chatflow_flist11.png
-│     │   ├── Chatflow_flist12.png
-│     │   ├── Chatflow_flist13.png
-│     │   ├── Chatflow_flist14.png
-│     │   ├── Chatflow_flist15.png
-│     │   ├── Chatflow_flist16.png
-│     │   ├── Chatflow_flist17.png
-│     │   ├── Chatflow_flist18.png
-│     │   ├── Chatflow_flist19.png
-│     │   ├── Chatflow_flist2.png
-│     │   ├── Chatflow_flist3.png
-│     │   ├── Chatflow_flist4.png
-│     │   ├── Chatflow_flist5.png
-│     │   ├── Chatflow_flist6.png
-│     │   ├── Chatflow_flist7.png
-│     │   ├── Chatflow_flist8.png
-│     │   ├── Generic_flist1.png
+│     │   ├── Chatflow_Flist0.png
+│     │   ├── Chatflow_Flist1.png
+│     │   ├── Chatflow_Flist10.png
+│     │   ├── Chatflow_Flist11.png
+│     │   ├── Chatflow_Flist12.png
+│     │   ├── Chatflow_Flist13.png
+│     │   ├── Chatflow_Flist14.png
+│     │   ├── Chatflow_Flist15.png
+│     │   ├── Chatflow_Flist16.png
+│     │   ├── Chatflow_Flist17.png
+│     │   ├── Chatflow_Flist18.png
+│     │   ├── Chatflow_Flist19.png
+│     │   ├── Chatflow_Flist2.png
+│     │   ├── Chatflow_Flist3.png
+│     │   ├── Chatflow_Flist4.png
+│     │   ├── Chatflow_Flist5.png
+│     │   ├── Chatflow_Flist6.png
+│     │   ├── Chatflow_Flist7.png
+│     │   ├── Chatflow_Flist8.png
+│     │   ├── Generic_Flist1.png
 │     │   ├── Kubernetes_chatflow1.png
 │     │   ├── Kubernetes_chatflow2.png
 │     │   ├── Kubernetes_chatflow3.png
@@ -166,7 +166,7 @@
 │     │   ├── Minio_chatflow6.png
 │     │   ├── Minio_chatflow7.png
 │     │   ├── Minio_chatflow8.png
-│     │   ├── generic_flist0.png
+│     │   ├── generic_Flist0.png
 │     │   ├── kubernetes_chatflow10.png
 │     │   ├── kubernetes_chatflow11.png
 │     │   ├── kubernetes_chatflow12.png
@@ -185,12 +185,12 @@
  ├── README.md
  ├── compute
  │   ├── compute.md
- │   ├── flist.md
+ │   ├── Flist.md
  │   └── kubernetes_cluster.md
  ├── generic_usecases.md
  ├── jupyter
- │   ├── flist
- │   │   └── flist.ipynb
+ │   ├── Flist
+ │   │   └── Flist.ipynb
  │   ├── kubernetes_cluster
  │   │   └── kubernetes_cluster.ipynb
  │   ├── network

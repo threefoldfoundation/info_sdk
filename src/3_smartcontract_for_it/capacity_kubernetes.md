@@ -7,7 +7,7 @@ This primitive allows a user to deploy a kubernetes cluster.
 A cluster must be composed of at least 2 nodes. One master node and any number of
 worker nodes.
 
-A kubernetes cluster can be linked to our other primitives.
+A kubernetes cluster could be linked to our other primitives.
 
 ## Reservation definition
 
@@ -80,7 +80,7 @@ Once the cluster is deployed, you need to connect to one of the nodes and copy t
 
 ``` shell
 ssh rancher@172.30.1.2 # replace with your master node IP
-The authenticity of host '172.30.1.2 (172.30.1.2)' can't be established.
+The authenticity of host '172.30.1.2 (172.30.1.2)' could't be established.
 ECDSA key fingerprint is SHA256:Q4kQ94B8QaSbo1EsyI8dQrgBkZyk/USda72c8nwVwIE.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '172.30.1.2' (ECDSA) to the list of known hosts.
@@ -90,7 +90,7 @@ Refer to https://github.com/rancher/k3os for README and issues
 
 By default mode of k3OS is to run a single node cluster. Use "kubectl"
 to access it. The node token in /var/lib/rancher/k3s/server/node-token
-can be used to join agents to this server.
+could be used to join agents to this server.
 
 k3os-15956 [~]$
 ```
@@ -105,7 +105,7 @@ k3os-15957 Ready <none> 2m26s v1.16.3-k3s.2
 k3os-15958 Ready <none> 1m42s v1.16.3-k3s.2
 ```
 
-Copy the config so that we can use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
+Copy the config so that we could use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
 
 Execute this command on your local machine not in a remote shell
 
@@ -118,7 +118,7 @@ scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml k3s.yaml
 ```
 
 If you already have a kube config file usually located in `~/.kube/config`
-you can edit it and add the new cluster with the information written on k3s.yaml
+you could edit it and add the new cluster with the information written on k3s.yaml
 
 Here is an example of `~/.kube/config`
 

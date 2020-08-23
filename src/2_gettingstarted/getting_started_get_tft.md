@@ -11,4 +11,4 @@ There are two types of recommended testnet wallets that accepts FreeTFT; __Inter
 
 ## Advance Users Tutorial
 
-You can also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)
+You could also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)

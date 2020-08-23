@@ -2,12 +2,12 @@
 
 ## Receiving tokens in the 3SDK Wallets
 
-You can apply for FreeTFT here: [GetFreeTFT.Threefold.io](https://www.getfreetft.Threefold.io)
+You could apply for FreeTFT here: [GetFreeTFT.Threefold.io](https://www.getfreetft.Threefold.io)
 But before you do please make sure you create a wallet that has a trustlin to receive the tokens in.
 
 **Important note: SDK Wallets automatically have a trustline for the TFT, FreeTFT & TFTA assets.**
 
-In the SDK you can easily set up Stellar based wallets for both TFT, FreeTFT and TFTA
+In the SDK you could easily set up Stellar based wallets for both TFT, FreeTFT and TFTA
 
 In the left Menu click Wallets Manager.
 
@@ -19,7 +19,7 @@ Click Create Wallet and give it a name
 
 Your wallet has now been created and should show up in your list
 
-And you can copy the address to receive tokens on it.
+And you could copy the address to receive tokens on it.
 
 ## Receiving TFT, FreeTFT or TFTA on a different Stellar based wallet
 
@@ -57,7 +57,7 @@ Click "Trust Asset"
 
 ![image alt text](./img/trustasset_2.png)
 
-Upon completing this successfully you have a trustline for FreeTFTs setup and we can now send them your way!
+Upon completing this successfully you have a trustline for FreeTFTs setup and we could now send them your way!
 
 ### Step 5: Fill the faucet form
 
@@ -65,7 +65,7 @@ Go to the [FreeTFT Faucet form](https://www.getfreetft.Threefold.io/) and fill i
 
 ## Importing Wallets into the 3SDK
 
-You can also choose to import an already existing wallet (like an interstellar wallet) into the SDK.
+You could also choose to import an already existing wallet (like an interstellar wallet) into the SDK.
 
 We’re using Interstellar as an example again, but any Stellar wallet will be possible.
 

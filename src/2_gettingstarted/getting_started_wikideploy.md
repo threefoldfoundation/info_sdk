@@ -22,7 +22,7 @@ Follow the steps decribed to [deploy your network](getting_started_network.md)
 
 ### Publish Wiki
 
-Now that you have a network in place. We can now publish our wiki. To do so we will use the `Publisher` Chat flow
+Now that you have a network in place. We could now publish our wiki. To do so we will use the `Publisher` Chat flow
 
 
 To start the wizard click the left menu Publisher

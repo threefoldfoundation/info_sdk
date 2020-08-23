@@ -29,7 +29,7 @@ The solution takes some configurations from the user, we will list them and expl
 - `Payment currency`: the currency that will be used for the payment.
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M) is how long you want that solution to live on the grid.
 - `IP version` : (IPv4 or IPv6) Version of the entrypoint node.
-- `IP range` : Configure your network manually by choosing an IP range to use or the deployer can choose for you and generate an IP range automatically.
+- `IP range` : Configure your network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically.
 
 ### Chatflow steps
 
@@ -50,13 +50,13 @@ As the marketplace is meant to get you a flavour of what the grid is capable to 
 #### Select the farm you want to deploy on
 
 ![Step4](./img/network_4.png)
-You can explicitly ask for 1 or more farms to choose from. If none is selected, farms are chosen randomly. 
+You could explicitly ask for 1 or more farms to choose from. If none is selected, farms are chosen randomly. 
 
 #### The network IP Range
 
 ![Step5](./img/network_5.png)
 
-The IP range the network and all of the other solutions connected on it will operate on can be self-selected or randomly chosen. 
+The IP range the network and all of the other solutions connected on it will operate on could be self-selected or randomly chosen. 
 
 #### Payment currency
 
@@ -65,11 +65,11 @@ Choosing a currency that will be used for the payment. Three currencies are curr
 
 #### Choosing how to reach the entry point node
 
-Here, the wizard asks to configure an `entrypoint` into your network so you can actually access your network from your device (laptop/PC/mobile). An `entrypoint` is responsible to route the traffic coming from your device to all the other nodes of the network.
+Here, the wizard asks to configure an `entrypoint` into your network so you could actually access your network from your device (laptop/PC/mobile). An `entrypoint` is responsible to route the traffic coming from your device to all the other nodes of the network.
 The nodes running on the TF Grid all communicate over IPv6. While this is very convenient for the nodes, not everyone has access to IPv6 already. For this reason we allow people to configure `entrypoint` using IPv4 address.
 
 
-You can choose between IPv6 or IPv4 for your `entrypoint`. If you are not sure what to choose, pick IPv4.
+You could choose between IPv6 or IPv4 for your `entrypoint`. If you are not sure what to choose, pick IPv4.
 
 #### Wireguard install
 
@@ -83,12 +83,12 @@ The grid is built around IPv6, Wireguard will make the connection to the network
 You need to configure your machine to access the network by applying the wireguard configurations.
 This screen shows you the configuration you need to download in order to configure your device. Just click the download button and save the configuration locally and configure you device.
 
-Depending on your local system the configuration of Wireguard can have a different look. But for all, the information required is shown in the configuration you have downloaded.
+Depending on your local system the configuration of Wireguard could have a different look. But for all, the information required is shown in the configuration you have downloaded.
 
 
 #### On Linux system
 
-you can just use the `wg-quick` command directly with the file sent from the chatflow, like so:
+you could just use the `wg-quick` command directly with the file sent from the chatflow, like so:
 
 ```
 wg-quick up my_first_network.conf
@@ -112,6 +112,6 @@ The process is very similar. Open the wireguard application and click on the plu
 
 ### Access solution info from the main screen
 
-Once you have done the configuration of your network, you can still find the details by clicking on the chosen network name. 
+Once you have done the configuration of your network, you could still find the details by clicking on the chosen network name. 
 
 ![Step5](./img/network_9.png)

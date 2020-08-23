@@ -58,7 +58,7 @@ webix.ui({
      { view:"checkbox", labelRight:"I agree with the terms of <b>Privacy Policy</b>", labelWidth:0, value:0 },
      { cols:[
      {},
-     { view:"button", css:"webix_danger", value:"Cancel", width:150 },
+     { view:"button", css:"webix_danger", value:"couldcel", width:150 },
      { view:"button", css:"webix_primary", value:"Submit", width:150 }
      ]}
     ]

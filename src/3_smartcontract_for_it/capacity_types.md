@@ -2,7 +2,7 @@
 
 The lowest layer of the ThreefoldGrid is its capacity layer. Raw internet capacity is exposed to the grid through nodes running the [0-OS operating system](https://github.com/Threefoldtech/zos).
 
-0-OS provides 5 primitives that can be combined together to build full applications.
+0-OS provides 5 primitives that could be combined together to build full applications.
 
 The 5 primitives available at the moment are:
 
@@ -16,7 +16,7 @@ The second entity running on the grid are the [TFGateway](https://github.com/Thr
 
 The 5 primitives provided by the TFGateways are:
 
-- [Domain delegation](capacity_domain_delegation.md): Allow to delegate all or a part of your own domain to the TFGateway. So you can create sub-domain directly from the TFGateway.
+- [Domain delegation](capacity_domain_delegation.md): Allow to delegate all or a part of your own domain to the TFGateway. So you could create sub-domain directly from the TFGateway.
 - [Subdomain](capacity_subdomain.md): Allow to create A or AAAA DNS record on a domain managed by the TFGateway
 - [TCP proxy](capacity_tcp_proxy.md): Generic TCP proxy service. Allows you to forward traffic coming to the TFGateway and forward it to another IP address.
 - [Reverse tunnel TCP proxy](capacity_reverse_tcp_proxy.md): Another mode for TCP proxy: https://github.com/Threefoldtech/tcprouter#reverse-tunneling

@@ -16,7 +16,7 @@ Keep in mind it will also be the subdomain.
 ![](./img/3Bot_2.png)
 
 Select the backup & restore password.
-Your solution has backup and restore you can access them through the dashboard.
+Your solution has backup and restore you could access them through the dashboard.
 
 ![](./img/3Bot_3.png)
 
@@ -64,7 +64,7 @@ This step will initalize your 3Bot container to be ready to use.
 
 ![](./img/3Bot_14.png)
 
-Deployment successful, you can access your 3Bot now using the domain name or the ip address.
+Deployment successful, you could access your 3Bot now using the domain name or the ip address.
 
 ![](./img/3Bot_15.png)
 
@@ -76,7 +76,7 @@ You will find your admin dashboard and initial backup has been already made.
 
 ![](./img/3Bot_17.png)
 
-You can now access codeserver, notebooks, farm management or any package.
+You could now access codeserver, notebooks, farm management or any package.
 
 ![](./img/3Bot_18.png)
 

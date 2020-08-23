@@ -39,12 +39,12 @@ Need to give consensus to check the “IT smart contract” and give their appro
 
 #### STEP 5: The 3 Nodes execute the workload.
 
-- thousands of 3 nodes can work together to execute the “IT Smart Contract” (if required)
+- thousands of 3 nodes could work together to execute the “IT Smart Contract” (if required)
 - verify if consensus was reached between the business stakeholders
 - verify the validity of the smart contract and download the “IT workload definition”
 - download the right files to execute the smart contract and each file gets verified (signature)
 - run the required processes and again signatures are checked to make sure the workload is pure.
-0 ensures that no person (hacker or IT person) can ever gain access or influence on the execution process.
+0 ensures that no person (hacker or IT person) could ever gain access or influence on the execution process.
 
 ### details how the smart contract layer works
 

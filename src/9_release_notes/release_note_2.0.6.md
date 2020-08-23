@@ -34,13 +34,13 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 - Expose solution with custom domains
 - Added showing loading of payment and deployment with the remaining Time until it expires
 - Show error on payment or deployment failure
-- Cancel deployments if payment or deployments expire
+- couldcel deployments if payment or deployments expire
 - Give summary of all components that will be deployed for a Solution
 - Ensure dates in chatflows start from present
 - Pressing enter goes to next action instead of restarting chatflow
 - Ensure non-duplicate network names
 - More informative error messages
-- Port is shown in 'deployed solutions' after flist reservation
+- Port is shown in 'deployed solutions' after Flist reservation
 
 #### Package management streamlining
 
@@ -61,17 +61,17 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 - Adding administrators from admin panel
 - Admin panel not showing all of deployed solutions
 - Flist deploy uses hru instead of mru
-- Secret can contain any special characters
+- Secret could contain any special characters
 
 ### 0-OS
 
-- You can now configure the size and type of the root filesystem of the containers
+- You could now configure the size and type of the root filesystem of the containers
 - Better report of the node health
 - Report of the network configuration of a node to the farmer
 
 ### TFExplorer
 
-- The node marked as free to use can now also be paid in other currencies. This should help resorbed the split in the network created by the different currencies to be used to reserve capacity.
+- The node marked as free to use could now also be paid in other currencies. This should help resorbed the split in the network created by the different currencies to be used to reserve capacity.
 
 ## Component versions
 
@@ -91,7 +91,7 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 
 ## Known issues
 
-- Impossible to extend or modify a reservation. Will be resolved in 2.1 which releases later this month. You can checkout the specification at https://github.com/Threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md
+- Impossible to extend or modify a reservation. Will be resolved in 2.1 which releases later this month. You could checkout the specification at https://github.com/Threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md
 - Improve installer experience
 
 ## Roadmap see

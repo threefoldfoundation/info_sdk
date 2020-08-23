@@ -17,7 +17,7 @@ The solution takes some configurations from the user, we will list them and expl
 - `Payment currency`: a currency that will be used for the payment
 - `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M) is how long you want that solution to live on the grid
 - `IP version` : (IPv4 or IPv6) Version of the entrypoint node.
-- `IP range` : Configure network manually by choosing an IP range to use or the deployer can choose for you and generate an IP range automatically
+- `IP range` : Configure network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically
 
 ## Chatflow steps
 
@@ -50,7 +50,7 @@ Choosing a currency that will be used for the payment
 
 ### Choosing how to reach the entry point node
 
-To reach your solution on the grid you can use IP v6, problem is some countries don't have that infrastructure so we provide them access with an IP v4 entry point.
+To reach your solution on the grid you could use IP v6, problem is some countries don't have that infrastructure so we provide them access with an IP v4 entry point.
 
 ### Wireguard install
 

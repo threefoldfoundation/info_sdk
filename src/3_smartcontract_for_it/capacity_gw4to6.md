@@ -1,6 +1,6 @@
 # VPN 4To6 Gateway
 
-This primitives allows any user that has not access to the IPv6 network to get a wireguard configuration that he can use to enable him to access IPv6.
+This primitives allows any user that has not access to the IPv6 network to get a wireguard configuration that he could use to enable him to access IPv6.
 
 The idea behind this primitive is to try to allow everyone to access the grid, which runs primarily on IPv6.
 
