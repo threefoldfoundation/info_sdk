@@ -17,7 +17,7 @@ TF Network Characteristics:
 - All traffic is encrypted
 - High performance
 - The shortest path between two end-points, multi-homed containers
-- Could span large geographical areas and create virtual datacenters
+- Could span large geographical areas and create virtual data centers
 - All created and made operational **without** public access from the internet
 
 ### Networking possibilities 

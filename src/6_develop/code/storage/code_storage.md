@@ -141,7 +141,7 @@ print(namespace_config)
 ['9012-4:supersecret@[2a04:7700:1003:1:54f0:edff:fe87:2c48]:9900', '9012-1:supersecret@[2a02:16a8:1000:0:5c2f:ddff:fe5a:1a70]:9900', '9012-2:supersecret@[2a02:16a8:1000:0:1083:59ff:fe38:ce71]:9900', '9012-7:supersecret@[2003:d6:2f32:8500:dc78:d6ff:fe04:7368]:9900', '9012-3:supersecret@[2a02:16a8:1000:0:fc7c:4aff:fec8:baf]:9900', '9012-5:supersecret@[2a04:7700:1003:1:acc0:2ff:fed3:1692]:9900', '9012-6:supersecret@[2a04:7700:1003:1:ac9d:f3ff:fe6a:47a9]:9900']
 ```
 
-The last step is to design the redundancy policy for the storage solution. We have 6 low-level devices available (over 6 nodes, in 2 different datacenters and cities). So we could build any of the following configurations:
+The last step is to design the redundancy policy for the storage solution. We have 6 low-level devices available (over 6 nodes, in 2 different data centers and cities). So we could build any of the following configurations:
 
 | Option | data storage devices | parity storage devices | total devices | overhead |
 |--------|---|---|---|---|

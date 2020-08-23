@@ -4,7 +4,7 @@
 
 The Internet is growing at an accelerated rate. To service this demand a few large companies (Google, Amazon, Alibaba, Facebook, etc.) have built and continue to build supersized, power-hungry and centralized data centers. These data centers make up the majority of all Internet capacity available today. 
 
-However, the Internet is expanding much faster than datacenters and the planet could cope with. 
+However, the Internet is expanding much faster than data centers and the planet could cope with. 
 
 The solution is to have the Internet be more **distributed**, **cost**-**effective**, **neutral,** and **sustainable**. Threefold has developed such a new technology, the Threefold Grid (Grid) and a token which enables all this to happen.
 

@@ -22,7 +22,7 @@ The peer2peer cloud provides compute, storage and networking services as a world
 Want to know more?
 - [Generic architecture](architecture.md)
 - [peer2peer Network architecture](architecture_network.md)
-- [peer2peer Webgateway architecture](architecture_webgateway.md)
+- [peer2peer Web Gateway architecture](architecture_Web Gateway.md)
 - [peer2peer Storage architecture](architecture_storage.md)
 - [peer2peer node boot](architecture_boot.md)
 - [peer2peer container boot](architecture_Flist.md)

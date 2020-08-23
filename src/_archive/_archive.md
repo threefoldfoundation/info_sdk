@@ -3,7 +3,7 @@
  - [Smart contract for IT](smart_contract.md)
  - [Storage](architecture_storage.md)
  - [Network](architecture_network.md)
- - [Web Gateway](architecture_webgateway.md)
+ - [Web Gateway](architecture_Web Gateway.md)
  - [Boot 3Node](architecture_boot.md)
  - [Flist](architecture_Flist.md)
 - [IT Capacity Types](capacity_types.md)
