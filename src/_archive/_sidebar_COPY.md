@@ -3,7 +3,7 @@
  - [Node](architecture_3Node.md)
  - [Storage](architecture_storage.md)
  - [Network](architecture_network.md)
- - [Web gateway](architecture_webgateway.md)
+ - [Web Gateway](architecture_webgateway.md)
  - [0-Container virtual FS](architecture_Flist.md)
 - [Release notes](releasenotes.md)
  - [2.0.4 beta](release_note_2.0.4.md)

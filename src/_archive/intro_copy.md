@@ -7,7 +7,7 @@ Running on the Threefold Grid.
 
 * Capacity in over 21 countries like: United States, couldada, Austria, Belgium,...
 * 100% Private: you own all your data running in your environment. 
-* Release your workloads to the World Wide Web through our web gateways
+* Release your workloads to the World Wide Web through our Web Gateways
 * Encrypted network connections between all your containers through overlay networks 
 
 This Wiki is meant to provide you with all the information you need to get started on the peer2peer cloud. There is an easy to use SDK that is being made available for this and it will provide you with a number of different ways to use and operate this peer2peer cloud.

@@ -9,6 +9,6 @@
 Other terms we use:
 - peer2peer (technical) or peer-to-peer (non-technical) 
 - point-to-point
-- web gateway
+- Web Gateway
 
 

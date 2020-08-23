@@ -13,7 +13,7 @@ The tutorial will also use the example "chat flows" to deploy the solution. The 
 1. [Prepare website content and server](#Prepare-website-content-and-server)
 2. [Create Flist with website content](#Create-Flist-with-website-content)
 3. [Deploy container](#Deploy-a-container)
-4. [Expose website by configuring web gateway](#Expose-website-by-configuring-web-gateway)
+4. [Expose website by configuring Web Gateway](#Expose-website-by-configuring-web-gateway)
 
 ### Prepare website content and server
 
@@ -158,9 +158,9 @@ This could be accessed using the \<IP:1313\> when wireguard is configured on you
 
 ![my first website access ip](./img/my_first_website_access_ip.png)
 
-In the following section we will configure the web gateway to expose the website to be able to access it with a domain name instead.
+In the following section we will configure the Web Gateway to expose the website to be able to access it with a domain name instead.
 
-### Expose website by configuring web gateway
+### Expose website by configuring Web Gateway
 Now that the website is ready and deployed. We will need to expose it to be accessible without wireguard. We could do this by simply using the Solution expose wizard in the dashboard.
 To start the wizard click the left menu on Solutions then Solution expose
 
