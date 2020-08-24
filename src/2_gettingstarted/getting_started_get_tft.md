@@ -9,6 +9,6 @@ There are two types of recommended testnet wallets that accepts FreeTFT; __Inter
 
 > _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
-## Advance Users Tutorial
+## Advanced Users Tutorial
 
 You could also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)

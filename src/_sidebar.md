@@ -59,7 +59,7 @@
   - [TCP Proxy](capacity_tcp_proxy.md)
   - [Reverse Tunnel TCP Proxy](capacity_reverse_tcp_proxy.md)
   - [IPv4 to IPv6 Gateway](capacity_gw4to6.md)
-- [Advance Development](develop.md)
+- [Advanced Development](develop.md)
  - [Provisioning Code](code.md)
   - [Capacity Pools](code_pool.md)
   - [Network](code_network.md)

@@ -1,7 +1,7 @@
 
 Here we'll help you get started with using our Grid on testnet.
 
-This tutorial is for end-users. if you're interested in more advanced technical documentation, check out [Advance Development](develop.md)
+This tutorial is for end-users. if you're interested in more advanced technical documentation, check out [Advanced Development](develop.md)
 
 
 # Pre-requisites
