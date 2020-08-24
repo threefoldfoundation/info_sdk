@@ -35,7 +35,7 @@ Currently TF Grid Marketplace 2.1 is released on Mainnet. Our next release - __T
 
 ## Navigate Your Way on the Manual
 
-The Manual is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [Introduction](learn.md) section. To start deploying a network, head over to the [Getting Started](#getting_started.md) section of the Manual. If you're interested in more advanced technical hand-outs on deployment, check out our [Advance Development](develop.md) section. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure. Feel free to check all available solutions and easy deployment on [Threefold Grid Marketplace](marketplace.md) section.
+The Manual is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [Introduction](learn.md) section. For end-user walkthroughs, head over to the [Getting Started](#getting_started.md) section of the Manual. If you're interested in more advanced technical hand-outs on deployment, check out our [Advanced Development](develop.md) section. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure. Feel free to check all available solutions and easy deployment on [Threefold Grid Marketplace](marketplace.md) section.
 
 If you're looking for an introduction to Threefold in general, please go to our main [Threefold Wiki](wiki.Threefold.io) 
 

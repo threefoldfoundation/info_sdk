@@ -1,7 +1,12 @@
 
+Here we'll help you get started with using our Grid on testnet.
+
+This tutorial is for end-users. if you're interested in more advanced technical documentation, check out [Advanced Development](develop.md)
+
+
 # Pre-requisites
 
-To deploy a network on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
+To provision any workload on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
 - Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
 - Claim __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
 - Deploy your first network: to be able to connect to your 3Bot
@@ -9,7 +14,7 @@ To deploy a network on top of the Threefold Grid, there are 4 pre-requisites tha
 
 Please see below for the high-level instructions.
 
-> _By using the services, deploying a network, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)_
+> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)_
 
 ## Get Yourself a 3Bot Connect App and 3BotID
 
