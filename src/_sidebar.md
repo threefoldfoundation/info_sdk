@@ -18,6 +18,7 @@
 - [End-User Walkthroughs](end_user.md)
  - [Reserve IT Capacity](getting_started_reserve_capacity.md)
  - [Your First Network](getting_started_network.md)
+ - [Your Hosted 3Bot](3Bot.md)
 - [Testnet Marketplace](marketplace.md)
  - [Network](network.md)
  - [Capacity Pools](getting_started_reserve_capacity.md)
