@@ -30,7 +30,7 @@
  - [Monitoring](./monitoring.md)
 - [Beginner Tutorials](tutorials.md)
  - [How to Select a Node](explore_nodes.md)
-- [Advance Tutorials](tutorials_advanced.md) 
+- [Advanced Tutorials](tutorials_advanced.md) 
  - [Advanced: deploy Hugo Website](huge_website_advanced)
  - [How to Connect to Your Network](net_connect_client.md)
  - [How to connect to Your Container](ssh_connect.md)

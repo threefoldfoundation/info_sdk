@@ -1,16 +1,9 @@
-
-Here we'll help you get started with using our Grid on testnet.
-
-This tutorial is for end-users. if you're interested in more advanced technical documentation, check out [Advanced Development](develop.md)
-
-
 # Pre-requisites
 
-To provision any workload on top of the Threefold Grid, there are 4 pre-requisites that need to be done:
+To provision any workload on top of the Threefold Grid, there are 3 pre-requisites that need to be done:
 - Get A __3Bot Connect App__ and __3Bot ID__: your system administrator and digital identity on top of the Threefold Grid.
 - Claim __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
 - Deploy your first network: to be able to connect to your 3Bot
-- Get a __Hosted 3Bot__: Host your 3Bot online.
 
 Please see below for the high-level instructions.
 
@@ -36,12 +29,6 @@ There are two types of recommended testnet wallets that accepts FreeTFT; __Inter
 
 > _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
-## Deploy a network through the Marketplace
 
- Once you set up your 3Bot identity and get your tfts, follow this doc on how to deploy your [first network](getting_started_network.md)
-
-
-## Get yourself a **hosted 3Bot** from the Marketplace
-
-Once you're ready, follow this doc on how to get your own [hosted 3Bot](3bot.md) 
-
+Follow the next section on how to get your own 3bot.
+Follow [End User walkthroughs](end_user.md) to get your __hosted 3Bot__. if you're interested in more advanced technical documentation, check out [Advanced Developemnent](develop.md) docs 
