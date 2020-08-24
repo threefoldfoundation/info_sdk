@@ -15,8 +15,6 @@
  - [Claim FreeTFT](getting_started_get_tft.md)
     - [Interstellar Wallet](interstellar_wallet.md)
     - [Solar Wallet](Solar_wallet.md)
-- [End-User Walkthroughs](end_user.md)
- - [Your Hosted 3Bot](3Bot.md)
 - [Testnet Marketplace](marketplace.md)
  - [Network](network.md)
  - [Capacity Pools](getting_started_reserve_capacity.md)
