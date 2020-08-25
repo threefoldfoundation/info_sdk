@@ -68,4 +68,6 @@ Go back to the beginning of the walkthrough to see the list of your existing cap
 
 ### Click on 'Pool Number' to check on your New Capacity Pool's Workload
 
+![](./img/IT_CAPACITY10.png)
+
  Each capacity pool is named after few digits of auto generated numbers and is always listed on the first page of your __Pools__ submenu. Click on __'Pool Number'__ to See the details of each __capacity pool's workload__. It will take a few minutes after your successful reservation transaction for the details of the active cloud units and active storage units to be properly updated. Please [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for any help and assistance in managing your capacity poola.
