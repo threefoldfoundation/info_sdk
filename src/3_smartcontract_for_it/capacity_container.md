@@ -8,35 +8,48 @@ This primitive allows a user to run its application into a container on a node.
 
 Here is the schema used to define a container reservation:
 
-- **Flist**: the URL of the [Flist](#Flist). This URL needs to be reachable by
+* **Flist**: the URL of the [Flist](#Flist). This URL needs to be reachable by
+
 the node. This is usually a URL to https://hub.grid.tf/
-- **HubUrl**: the URL of the hub to use, if not using the default hub.grid.tf
-- **Environment**: the environment variables to set inside the container. This
+
+* **HubUrl**: the URL of the hub to use, if not using the default hub.grid.tf
+* **Environment**: the environment variables to set inside the container. This
+
 is usually used to configure the application running in the container
-- **SecretEnvironment**: it is the same as `Environment` but these values are encrypted
-- **Entrypoint**: it is the program to start when the container is created
-- **Interactive**: if set to true, coreX is started in the container and the value
+
+* **SecretEnvironment**: it is the same as `Environment` but these values are encrypted
+* **Entrypoint**: it is the program to start when the container is created
+* **Interactive**: if set to true, coreX is started in the container and the value
+
 of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
 for more detail
-- **Volumes**: this is where you define which volume to mount inside the container
+
+* **Volumes**: this is where you define which volume to mount inside the container
+
  - **VolumeID**: the ID of the volume
  - **Mountpoint**: the path into the container filesystem where to mount the volume
-- **Capacity**:
+
+* **Capacity**:
+
  - **CPU**: the amount of virtual CPU to allocate to the container
  - **Memory**: the amount memory in MiB to allocate to the container
  - **DiskSize**: the size in MiB of the root filesystem of the container
  - **DiskType**: the type of disk to use for the root filesystem of the container.
  Valid value are 'HDD' or 'SSD'.
-- **NetworkConnection**: this is where you define the network of the container
+
+* **NetworkConnection**: this is where you define the network of the container
+
  - **NetworkId**: the name of the network created using a [network](network.md)
  primitive
- - **Ipaddress**: net.IP: The IP address to give to the container
- with a Public IPv6 address. This is useful when you want to expose service directly
- to the public internet and out of your private overlay network
-- **Logs**: a redis backend where you could send stdout and stderr output
-- **StatsAggregator**: a list of redis backends where you could send periodic statistics
-- **Statistics**: a redis backend where you could send periodic statistics
-- **pool_id**: the capacity pool ID to use to provision the workload
+ - **Ipaddress**: net. IP: The IP address to give to the container
+ - **public_ipv6**: if true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly
+ to the public internet and out of your private overlay network.
+ - **yggdrasil_ip**: If true, allocated an yggdrasil IP address to the container. This will make the container directly accesible over the yggdrasil network.
+
+* **Logs**: a redis backend where you could send stdout and stderr output
+* **StatsAggregator**: a list of redis backends where you could send periodic statistics
+* **Statistics**: a redis backend where you could send periodic statistics
+* **pool_id**: the capacity pool ID to use to provision the workload
 
 ## Flist
 
@@ -44,9 +57,9 @@ More information about Flist at [Flist documentation](architecture_Flist.md)
 
 ## CoreX - The 0-OS container process manager
 
-When running a container, if you want an interactive way to use it, the easiest solution is enabling `CoreX`.
+When running a container, if you want an interactive way to use it, the easiest solution is enabling `CoreX` .
 
-When CoreX runs in your container, you'll get web access to your container (`container-ip:7681`) via a web browser.
+When CoreX runs in your container, you'll get web access to your container ( `container-ip:7681` ) via a web browser.
 On this web page, you could track processes you run and attach them to get a remote console within your web browser.
 
 It's like ssh over web page.
@@ -62,7 +75,7 @@ You could even specify multiple endpoint. For now only redis is supported but th
 
 In the reservation payload, there is a `logs` field where you could specify your endpoints:
 
-```
+``` 
  ...
  "entrypoint": "",
  "interactive": true,
@@ -79,7 +92,7 @@ In the reservation payload, there is a `logs` field where you could specify your
  ...
 ```
 
-Fields `stdout` and `stderr` wants uri like: `redis://host:port/channel`.
+Fields `stdout` and `stderr` wants uri like: `redis://host:port/channel` .
 
 You could read them via redis using `SUBSCRIBE container-stdout container-stderr` for example.
 
@@ -87,7 +100,8 @@ You could read them via redis using `SUBSCRIBE container-stdout container-stderr
 
 Like logs, you could send statistics to a (only for now) redis channel. Container will send each 2 seconds a statistic info into
 the specified channel:
-```
+
+``` 
 {
  "timestamp": 1586221435,
  "memory_usage": 561152,
@@ -99,7 +113,8 @@ the specified channel:
 ```
 
 To set your remote endpoint, you could specify in the reservation:
-```
+
+``` 
  ...
  "interactive": true,
  "logs": null,
@@ -115,14 +130,12 @@ To set your remote endpoint, you could specify in the reservation:
 ```
 
 Fields `endpoint` wants uri like: `redis://host:port/channel`
-
 You could read them via redis using `SUBSCRIBE container-stats` for example.
 
 ## Example using sdk
 
-```python
+``` python
 zos = j.sal.zos
-
 
 # add container reservation into the reservation
 container = zos.container.create(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
