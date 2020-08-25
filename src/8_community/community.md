@@ -8,7 +8,7 @@ The Threefold Community is expanding every day. If you want to engage with the c
 - [Threefold News Telegram](https://t.me/Threefoldnews): Get Threefold's latest updates via telegram channel.
 - [Threefold Grid Website](www.Threefold.io/): Learn more about Threefold Grid.
 - [Threefold Github](https://github.com/Threefoldfoundation/): Contribute to our open-source projects and wikis.
-- [Threefold Helpdesk](https://github.com/Threefoldfoundation/): read FAQ and Chat with our support team.
+- [Threefold Helpdesk](https://threefoldfaq.crisp.help/en/): read FAQ and Chat with our support team.
 
 ## Technical
 - [0-OS Chatroom](https://t.me/zero_os_tech): Technical discussion about 0-OS via telegram chat.

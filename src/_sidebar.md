@@ -17,7 +17,7 @@
     - [Solar Wallet](Solar_wallet.md)
 - [Testnet Marketplace](marketplace.md)
  - [Network](network.md)
- - [Capacity Pools](getting_started_reserve_capacity.md)
+ - [Capacity Pools](IT_capacity.md)
  - [Ubuntu](ubuntu.md)
  - [Generic Container](./generic_container.md)
  - [K8S](k8s.md)
