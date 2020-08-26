@@ -35,6 +35,6 @@ Once succeeded, you will be shown above notification on your mobile phone and yo
 
 Congratulations! you're now able to access the Marketplace and you are ready to move onto the next step: [Deploy your first Network](getting_started_network.md)
 
-> Next: [Deploy your first Network](getting_started_network.md)
+> Next: [Claim your FreeTFT](getting_started_get_tft.md)
 
 
