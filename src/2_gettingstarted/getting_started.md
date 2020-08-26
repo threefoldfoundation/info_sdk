@@ -1,16 +1,18 @@
-# Pre-requisites
+# TF Grid Onboarding User Flow
 
 ![](./img/grid_flow.png)
+
+## Pre-requisites
 
 To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
 - Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the Threefold Grid.
 - Get A __Stellar Wallet__. Get a wallet that are aceppt Threefold Tokens transactions (FreeTFT, TFT or TFTA)
 - Claim your __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
-- Log in onto the Marketplace 2.2 Testnet by using your 3Bot ID to access the solution deployment dashboard.
+- Log in onto __the TF Grid Marketplace 2.2__ Testnet by using your 3Bot ID to access the solution deployment dashboard.
 - Create a __Capacity Pool__ and reserve some IT capacity for your first workload on top of the TF Grid.
 - Deploy your first __Network__ to be able to connect to your __3Bot Server__.
 - Install __Wireguard__ and set up a __Wireguard Connection__; a VPN for running embedded interfaces on top of the grid.
-- Get a __3Bot Sys-Ad__. 3Bot system administrator panel is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+- Get a __3Bot  Server__. 3Bot server comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
 
 Please see below for the high-level instructions.
 
@@ -44,6 +46,5 @@ There are two types of recommended testnet wallets that accepts FreeTFT; __Inter
  
 ### Log in onto the Marketplace 2.2
 ### Create a __Capacity Pool__ 
-### Deploy your first __Network__
-### Install __Wireguard__ 
-### Get a __3Bot Sys-Ad__
+### Deploy your first __Network & Install Wireguard__
+### Get a __3Bot Server__
