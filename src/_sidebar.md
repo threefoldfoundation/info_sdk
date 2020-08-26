@@ -12,6 +12,7 @@
 - [Getting Started](getting_started.md)
  - [3Bot Connect App](3Botconnect_install.md)
  - [Sign up for a 3Bot ID](getting_started_3bot.md)
+ - [Marketplace Login](getting_started_marketplace.md)
  - [Claim FreeTFT](getting_started_get_tft.md)
     - [Interstellar Wallet](interstellar_wallet.md)
     - [Solar Wallet](Solar_wallet.md)
