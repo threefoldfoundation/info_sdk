@@ -17,7 +17,7 @@
     - [Solar Wallet](Solar_wallet.md)
  - [Create a Capacity Pool](IT_capacity.md)
  - [Deploy Your First Network](getting_started_network.md)
- - [Get a 3Bot Server](getting_started_3bot.md))
+ - [Get a 3Bot Server](getting_started_3bot.md)
 - [Testnet Marketplace](marketplace.md)
  - [Network](network.md)
  - [Capacity Pools](IT_capacity.md)
