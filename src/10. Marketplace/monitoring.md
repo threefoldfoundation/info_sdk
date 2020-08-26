@@ -4,7 +4,7 @@ Deploy monitoring solution with graphana and prometheus and redis
 
 ## Accessing the solution
 
-Go to the marketplace https://marketplace.grid.tf/marketplace and click on Monitoring
+Go to [TF Grid Marketplace Testnet 2.2](https://marketplace-testnet.grid.tf/) and click on Monitoring
 
 ## Steps
 

@@ -3,7 +3,7 @@
 
 ![](./img/Homepagelaptop.png)
 
-Threefold Foundation is proud to announce that [TF Grid Marketplace](www.marketplace.grid.tf) is currently live on an alpha version (July 2020). The Threefold Grid Marketplace is an inventory platform of open source solutions that are built on top of Threefold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. Go to [3Bot Connect](3botconnect.md) section to learn more about using 3Bot ID to connect to the Marketplace.
+Threefold Foundation is proud to announce that [TF Grid Marketplace 2.2](www.marketplace-testnet.grid.tf) is currently live on the testnet environment an alpha version (July 2020). The Threefold Grid Marketplace is an inventory platform of open source solutions that are built on top of Threefold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. Go to [3Bot Connect](3botconnect.md) section to learn more about using 3Bot ID to connect to the Marketplace.
 
 ![](./img/3Bot_launch.png)
 
