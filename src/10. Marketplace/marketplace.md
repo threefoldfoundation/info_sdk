@@ -32,7 +32,7 @@ On its alpha version on Testnet, there are already several open-source solutions
 - [4to6 Gateway](4to6gateway.md): Provides access to IPv6 addresses for users with IPv4 networks only through a Wireguard tunnel.
 
 
-## End-user Solutions
+### End-user Solutions
 
 Say goodbye to centralized cloud hosting. Of whether you need a P2P alternative to a website, a forum, or a video platform for your project; by connecting your 3Bot ID to the Marketplace 2.2 (testnet) dashboard, you could now become your own server and deploy these open-source solutions on TF Grid:
 
