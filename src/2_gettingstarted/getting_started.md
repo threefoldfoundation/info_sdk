@@ -32,19 +32,37 @@ Please be aware that this ID is going to be used as your main digital identity o
  [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
 
 
- ### Get a Stellar Wallet and Claim your FreeTFT 
+ ### Claim your FreeTFT 
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
 
 You need to first set up a __testnet wallet__, and a testnet wallet address, so that we could send you some FreeTFT.
-There are two types of recommended testnet wallets that accepts FreeTFT; __Interstellar Wallet__ and __Solar Wallet__.You could choose to set up either one of them based on your personal preferences. Click on the link below for further tutorial on how to set up the wallet and receive the FreeTFT.
-1. [Set up an Interstellar Wallet (Testnet)](interstellar_wallet.md)
-2. [Set up a Solar Wallet (Testnet)](Solar_wallet.md)
+Please go to [Claim Your FreeTFT Tutorial](getting_started_get_tft.md) to see the detailed instruction on how to create a stellar wallet and claim your FreeTFT.
 
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
  
- 
+
 ### Log in onto the Marketplace 2.2
-### Create a __Capacity Pool__ 
+
+Log into [TF Grid Marketplace Testnet 2.2](https://marketplace-testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
+Please go to [TF Grid Marketplace 2.2 Testnet Log in Tutorial](getting_started_marketplace.md) to see the detailed instruction on how to log into the Marketplace.
+
+
+### Create a Capacity Pool
+
+To deploy a solution on top of the Grid, you would need to purchase some capacity. You need to first create a 'Capacity Pool' in order to reserve / order IT capacity from the available farms.
+
+Please go to [Capacity Pool Tutorial](it_capacity.md) to see the detailed introduction on the Capacity Pools and the instruction on how to create one for your solutions.
+
 ### Deploy your first __Network & Install Wireguard__
+
+Any solution you choose to deploy on top of the TF Grid will need the prior provisioning of an overlay network in order to reach a successful deployment. 
+
+Please go to [First Network Deployment Tutorial](getting_started_marketplace.md) to see the detailed instruction on how to create your first overlay network on top of the Threefold Grid.
+
+
 ### Get a __3Bot Server__
+
+At last but not least, you will need to get a 3Bot Server to start deploying your solutions on top of th TF Grid. 3Bot server comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+
+Please go to [Hosted 3Bot Tutorial](getting_started_3bot.md) to see the detailed instruction on how to get a 3Bot Server and launch your own 3Bot System Administrator Panel.
