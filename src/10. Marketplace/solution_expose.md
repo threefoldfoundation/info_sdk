@@ -3,17 +3,17 @@ This wizard enables you to access your solutions running over HTTP/HTTPS using a
 
 ## Steps
 
-#### Select Solution Type
+### Select Solution Type
 ![solution_expose_1](./img/solution_expose_1.png)
 
-#### Select you Container/Solution
+### Select you Container/Solution
 ![solution_expose_2](./img/solution_expose_2.png)
 
-#### Select the Ports of your Solution
+### Select the Ports of your Solution
 ![solution_expose_3](./img/solution_expose_3.png)
 
 
-#### Select the Domain you want to use
+### Select the Domain you want to use
 In this step you could choose one of three domain types:
 
 1- Managed: these are domains managed by the gateway. when you use it to expose a solution, the gateway will create an `A` record for your solution you don't have to do anything.
@@ -24,18 +24,14 @@ In this step you could choose one of three domain types:
 
 ![solution_expose_4](./img/solution_expose_4.png)
 
-#### Create the Subomain
+### Create the Subomain
 ![solution_expose_5](./img/solution_expose_5.png)
 
+### Confirmation
+![solution_expose_7](./img/solution_expose_6.png)
 
-#### Confirmation
-![solution_expose_7](./img/solution_expose_7.png)
+### Deploying your solution
+![](./img/solution_expose_7.png)
 
-#### Payment
-![solution_expose_8](./img/solution_expose_8.png)
-
-#### Access your Solution
-![solution_expose_10](./img/solution_expose_10.png)
-
-#### Access your Solution
-![solution_expose_11](./img/solution_expose_11.png)
+### Access your Solution
+![solution_expose_10](./img/solution_expose_8.png)
