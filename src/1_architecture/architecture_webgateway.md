@@ -1,8 +1,6 @@
 
 ## Web Gateway Architecture
 
-![](./img/gateway.png)
-
 ### Introduction
 __The Web Gateway__ is an important component that exposes anything deployed on the TF Grid to the open internet. TF Grid works natively with IPv6 (and IPv4 in locations where IPv6 is not available), and is by default not exposing any of the reservered overlay networks to the open internet and the private overlay network (please find more information on the [network](architecture_network.md). 
 
@@ -13,12 +11,9 @@ Beyond these differences there will be another one: the number of usable IP addr
 
 Network farmers are farmers that have access to a location where there is good network connectivity and a large(r) amount of IP addresses. This large(r) amount of IP addresses and good upstream connectivity make these sites ideal to create Ingress/Egress points for private overlay networks.
 
-![](./img/Web Gateway_topo.png)
-
 This architecture allows total freedom to choose where to process and store data to happen. When the data or content is ready to be exposed to the rest of the world, the Web Gateway provides the total freedom to select the best possible location for that to happen. True peer2peer in every aspect.
 
 ### Scale-out Architecture
-![](./img/Web Gateway_scale.png)
 
 The independence of network and location created by the Web Gateway allows this architecture to scale endlessly. There is no limit to the amount of 3Nodes that could be added to the TF Grid to create more universal substrates, and the number of Ingress and Egress points scale independently from that. This results in a true Peer2Peer and scale-out architecture.
 

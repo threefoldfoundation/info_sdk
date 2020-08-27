@@ -1,7 +1,5 @@
 ## Network Architecture
 
-![](./img/network_funny.png)
-
 ### Introduction
 True peer2peer is a principle that exists everywhere within Threefold's technology stack, especially on its Network Architecture. Farmers produce IT capacity by connecting hardwares to the network and installing Zero-OS. The peer2peer network of devices forms the TF Grid. This TF Grid is a universal substrate of which a large variety of IT workloads exist and run.
 
