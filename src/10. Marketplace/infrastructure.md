@@ -5,7 +5,7 @@ The TF Grid Marketplace gives you the possibility of deploying advanced open-sou
 
 
 - [__Network__](network.md): Deploy a network on the grid and to connect your solutions together.
-- [__Capacity Pools__][it_capacity.md]: The most exciting development from 2.1 version- A feature to reserve capacity on the grid to deploy the solutions on.
+- [__Capacity Pools__](it_capacity.md): The most exciting development from 2.1 version- A feature to reserve capacity on the grid to deploy the solutions on.
 - [__3Bot__](3bot.md): Your 3Bot server and system administrator panel - you can now easily deploy your 3Bot Server on a container.
 - [__Ubuntu__](ubuntu.md): A free and open-source Linux distribution based on Debian. This package is used to deploy an ubuntu container from an official flist on the grid using a chatflow.
 - [__Generic Container__](generic_container.md): Spawn a container using specific flist provided by the user in the chatflow.
