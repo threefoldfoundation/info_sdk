@@ -22,13 +22,13 @@ The Flist solves that issue by facilitating container images to be made availabl
 
 The Flist represents a very efficient way to distribute a de-duped container image with a bandwidth optimized transfer process and increased security by signed files. For (a lot) more details please go here:
 
- * generic description [here](https://github.com/Threefoldtech/0-Flist/blob/development/doc/Flist.md)
+ * generic description [here](https://github.com/Threefoldtech/0-Flist/blob/development/doc/flist.md)
  * GitHub repository [here](https://github.com/Threefoldtech/0-Flist)
  * FreeFlow pages [article](http://freeflowpages.com/content/perma?id=9396)
  
 On the public hub there is import functionality to import Docker images and create Flists out of them. Another way to create your own tar archives and upload these to transform into Flists. More information with regards to creating, managing and using Flists could be found [here](https://hub.grid.tf/)
 
-You could find more information about Flist and hub usage [here](Flist.md)
+You could find more information about Flist and hub usage [here](flist.md)
 
 #### Select which Flist to deploy?
 

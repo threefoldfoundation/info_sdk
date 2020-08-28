@@ -5,7 +5,7 @@ __FreeTFT__ is a token especially created to allow developers and early adopters
 You need to first set up a __testnet wallet__, and a testnet wallet address, so that we could send you some FreeTFT.
 There are two types of recommended testnet wallets that accepts FreeTFT; __Interstellar Wallet__ and __Solar Wallet__.You could choose to set up either one of them based on your personal preferences. Click on the link below for further tutorial on how to set up the wallet and receive the FreeTFT.
 1. [Set up an Interstellar Wallet (Testnet)](interstellar_wallet.md)
-2. [Set up a Solar Wallet (Testnet)](Solar_wallet.md)
+2. [Set up a Solar Wallet (Testnet)](solar_wallet.md)
 
 > _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 

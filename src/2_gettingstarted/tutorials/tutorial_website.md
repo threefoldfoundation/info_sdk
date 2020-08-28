@@ -79,12 +79,12 @@ tar -czvf my_website_Flist.tar.gz -C hugo_Flist .
 
 and then upload it to the [hub](https://hub.grid.tf/upload) once you log in with your 3Bot app successfully
 
-![my website Flist upload](my_website_Flist_upload.png)
+![my website Flist upload](my_website_flist_upload.png)
 
 Once the upload is complete we now have an Flist ready to be used. The Flist url we will be need is the source which is usually in the following format
  `https://hub.grid.tf/YOUR_3Bot_NAME.3Bot/my_website_Flist.Flist`
 
-![my website Flist upload success](my_website_Flist_upload_success.png)
+![my website Flist upload success](my_website_flist_upload_success.png)
 
 ### Deploy a container
 
@@ -109,7 +109,7 @@ To start the wizard click the left menu on Solutions then Generic Flist
 
 3. You then need to enter the link of the Flist you created and uploaded on the hub earlier to be provided in the deployment.
 
- ![Flist link](my_first_website_Flist_link.png)
+ ![Flist link](my_first_website_flist_link.png)
 
 4. Then choose how much CPU and Memory resources you want allocated for the container. You could stick to the default values provided.
 
@@ -168,7 +168,7 @@ To start the wizard click the left menu on Solutions then Solution expose
 
 1. First we will choose the type of the solution that we want exposed. Since we used a custom Flist and used the Flist deploy wizard then we will choose Flist
 
- ![solution expose type](solution_expose_Flist.png)
+ ![solution expose type](solution_expose_flist.png)
 
 2. Second step we need to choose the solution deployed that we want exposed. In our case we named it _my_first_solution_ so we could simply choose that.
 

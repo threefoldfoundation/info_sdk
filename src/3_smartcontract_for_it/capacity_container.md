@@ -53,7 +53,7 @@ for more detail
 
 ## Flist
 
-More information about Flist at [Flist documentation](architecture_Flist.md)
+More information about Flist at [Flist documentation](architecture_flist.md)
 
 ## CoreX - The 0-OS container process manager
 
