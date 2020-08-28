@@ -1,14 +1,3 @@
-# Summary
-
-- Smart contract for IT
-  - Contract
-    - ID
-    - Node ID
-    - ...
-  - State
-    -
-
-
 # Smart contract for IT Detail Explanation
 
 ![](./img/smart_contract_detail_header.png)
@@ -36,8 +25,8 @@ The following fields are available on the contract:
 - `node_id`: node id of where the workload will be deployed. Must be one of the pool nodes
 - `pool_id`: Pool of the funds for that workload contract
 - `customer_tid`: Owner of the contract.
-- `signing_request_provision`: of type [SigningRequest](#SigningRequest). Required signatures for this contract to be deployed
-- `signing_request_delete`:  of type [SigningRequest](#SigningRequest). Required signatures for this contract to be deleted
+- `signing_request_provision`: of type [SigningRequest](#signingrequest). Required signatures for this contract to be deployed
+- `signing_request_delete`:  of type [SigningRequest](#signingrequest). Required signatures for this contract to be deleted
 - `workload_type`: type for workload, based on this type, more parameters will be needed to full fill the workload.
 - `epoch`: creation date
 - `description`: description of the contract
