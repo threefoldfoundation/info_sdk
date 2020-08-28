@@ -1,20 +1,15 @@
-#could be many wiki & many www sites
+#can be many wiki & many www sites
 
 [server]
-addr = "0.0.0.0"
 port = 3000
+addr = "0.0.0.0"
 
 [[wiki]]
 #unique name for the wiki
 name = "sdk"
-#http or git url
-# url = "github.com/Threefoldfoundation/info_gridmanual"
-#if empty will be auto created
-path = "/home/zaibon/dev/gig/code/github/Threefoldfoundation/info_gridmanual"
+path = "."
 #commit automatically when there is new info, only works when ssh used
 autocommit = false
-#branch name, of "" then will be the default or what is found on the FS
-branch = "development_capacitypool"
 #switch branch automatically if the name given above and its different on FS
 branchswitch = false
 #path in the repo where the info is, std "src"
