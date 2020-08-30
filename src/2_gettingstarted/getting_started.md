@@ -25,7 +25,7 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 Please see below for the high-level instructions.
 
-> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [__Disclaimer__](#disclaimer) and [__Terms & Conditions__](terms_conditions.md)
+> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [__Disclaimer__](disclaimer.md) and [__Terms & Conditions__](terms_conditions.md)
 
 
 ## High-level Instructions to Get Started
