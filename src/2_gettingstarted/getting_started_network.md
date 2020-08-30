@@ -16,7 +16,7 @@ The below chatflow is used to deploy a network on the grid and to connect to and
 
 ### Accessing the Solution
 
-Go to [TF Grid Marketplace Testnet 2.2](https://marketplace-testnet.grid.tf/) and click on Network
+Go to [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) and click on Network
 
 ![solutions menu](./img/network_landing_page.png)
 

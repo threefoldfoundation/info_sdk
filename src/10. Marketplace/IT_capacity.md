@@ -6,7 +6,7 @@ By doing just a few clicks, you will be able to reserve IT Capacity for your pro
 
 You could directly order the capacity from your chosen farms, simply by putting the amount of Storage Unit (SU) and Capacity Unit (CU) you need, and conduct a direct payment via your stellar wallet for your reservation. You will be able to also extend your current capacity pool to a larger quote once it’s activated.
 
-You could now already try to reserve IT Capacity by using FreeTFT on TF Grid Marketplace 2.2 (Testnet).
+You could now already try to reserve IT Capacity by using FreeTFT on TF Grid Demo 2.2 (Testnet).
 
 
 ## How to Reserve IT Capacity

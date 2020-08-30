@@ -5,7 +5,7 @@
 
 3Bot is your digital twin; a representative of yourself on top of the Threefold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 
 
-3Bot Connect is your main touch point to the 3Bot and other TF Grid solutions, including the TF Grid Marketplace. It is a user-friendly mobile interface that serves as an authenticator of your 3Bot identity on top of the Threefold Grid. It also includes a digital wallet where you can store your TFT, TFTA and FreeTFT.
+3Bot Connect is your main touch point to the 3Bot and other TF Grid solutions, including the TF Grid Demo. It is a user-friendly mobile interface that serves as an authenticator of your 3Bot identity on top of the Threefold Grid. It also includes a digital wallet where you can store your TFT, TFTA and FreeTFT.
 
 
 ## 3Bot Connect and 3Bot ID Set Up

@@ -8,7 +8,7 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 - Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the Threefold Grid.
 - Get A __Stellar Wallet__. Get a wallet that are aceppt Threefold Tokens transactions (FreeTFT, TFT or TFTA)
 - Claim your __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
-- Log in onto __the TF Grid Marketplace 2.2__ Testnet by using your 3Bot ID to access the solution deployment dashboard.
+- Log in onto __the TF Grid Demo 2.2__ Testnet by using your 3Bot ID to access the solution deployment dashboard.
 - Create a __Capacity Pool__ and reserve some IT capacity for your first workload on top of the TF Grid.
 - Deploy your first __Network__ to be able to connect to your __3Bot Server__.
 - Install __Wireguard__ and set up a __Wireguard Connection__; a VPN for running embedded interfaces on top of the grid.
@@ -44,7 +44,7 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 
 ### Log in onto the Marketplace 2.2
 
-Log into [TF Grid Marketplace Testnet 2.2](https://marketplace-testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
+Log into [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
 Please go to [**Marketplace Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the Marketplace.
 
 
