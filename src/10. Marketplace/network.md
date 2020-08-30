@@ -22,7 +22,6 @@ The solution takes some configurations from the user, we will list them and expl
 ![Step2](./img/network_2.png)
 
 ### Choosing how to reach the entry point node
-
 To reach your solution on the grid you could use IP v6, problem is some countries don't have that infrastructure so we provide them access with an IP v4 entry point.
 ![Step3](./img/network_3.png)
 

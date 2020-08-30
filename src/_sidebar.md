@@ -33,7 +33,7 @@
     - [Network](network.md)
     - [Capacity Pools](IT_capacity.md)
     - [Ubuntu](ubuntu.md)
-    - [Generic Container](./generic_container.md)
+    - [Generic Container](generic_container.md)
     - [K8S](k8s.md)
     - [MinIO](minio.md)
     - [Publisher](publisher.md)

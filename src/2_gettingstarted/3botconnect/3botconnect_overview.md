@@ -20,7 +20,6 @@ In this tab you could check your Threefold Tokens wallets and balances. You coul
 
 To receive your Threefold Tokens you could copy your button or you have to fill next fields:
 
-
 ![](./img/3Bot_wallet_2.png)
 
 1) `To` : choose the wallet that receives the transaction
