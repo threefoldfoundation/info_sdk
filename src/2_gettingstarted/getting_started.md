@@ -1,22 +1,31 @@
 # TF Grid Onboarding User Flow
 
-![](./img/grid_flow.png)
+![](./img/userflow.png)
 
-## Pre-requisites
+## Basic Pre-requisites
 
 To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
 - Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the Threefold Grid.
 - Get A __Stellar Wallet__. Get a wallet that are aceppt Threefold Tokens transactions (FreeTFT, TFT or TFTA)
 - Claim your __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
-- Log in onto __the TF Grid Demo 2.2__ Testnet by using your 3Bot ID to access the solution deployment dashboard.
+
+## After Basics: Try TF Grid Demo
+
+- Log in onto [__the TF Grid Demo__](demo.grid.tf) Testnet by using your 3Bot ID to access the solution deployment dashboard.
+- Try to deploy any solution you would like by clicking on one of them and starting the solution wizard.
+- Your solution will be deployed automatically after payment is successfuly made. For every solution deployed, a network and capacity pool reservation will be automatically created.
+
+## After Basics: Deploy a 3Bot
+
+- Get a [__3Bot__](deploy3bot.grid.tf). 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
 - Create a __Capacity Pool__ and reserve some IT capacity for your first workload on top of the TF Grid.
-- Deploy your first __Network__ to be able to connect to your __3Bot Server__.
+- Deploy your first __Network__ to be able to connect to your __3Bot__.
 - Install __Wireguard__ and set up a __Wireguard Connection__; a VPN for running embedded interfaces on top of the grid.
-- Get a __3Bot  Server__. 3Bot server comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+
 
 Please see below for the high-level instructions.
 
-> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [Disclaimer](#disclaimer) and [Terms & Conditions](terms_conditions.md)_
+> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [__Disclaimer__](#disclaimer) and [__Terms & Conditions__](terms_conditions.md)
 
 
 ## High-level Instructions to Get Started
@@ -42,27 +51,15 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
  
 
-### Log in onto the Marketplace 2.2
+### Log in onto TF Grid Demo
 
-Log into [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
-Please go to [**Marketplace Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the Marketplace.
-
-
-### Create a Capacity Pool
-
-To deploy a solution on top of the Grid, you would need to purchase some capacity. You need to first create a 'Capacity Pool' in order to reserve / order IT capacity from the available farms.
-
-Please go to [**Capacity Pool Tutorial**](it_capacity.md) to see the detailed introduction on the Capacity Pools and the instruction on how to create one for your solutions.
-
-### Deploy your first __Network & Install Wireguard__
-
-Any solution you choose to deploy on top of the TF Grid will need the prior provisioning of an overlay network in order to reach a successful deployment. 
-
-Please go to [**First Network Deployment Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to create your first overlay network on top of the Threefold Grid.
+Log into [TF Grid Demo](https://demo.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
+Please go to [**TF Grid Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the Marketplace.
 
 
-### Get a __3Bot Server__
 
-At last but not least, you will need to get a 3Bot Server to start deploying your solutions on top of th TF Grid. 3Bot server comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+### Get a __3Bot__
 
-Please go to [**Hosted 3Bot Tutorial**](getting_started_3bot.md) to see the detailed instruction on how to get a 3Bot Server and launch your own 3Bot System Administrator Panel.
+If you would like to deploy your own cloud infrastructure instead, you will need to get a 3Bot to start deploying your solutions on top of th TF Grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+
+Please go to [**3Bot Tutorial**](getting_started_3bot.md) to see the detailed instruction on how to get a 3Bot Server and launch your own 3Bot System Administrator Panel.
