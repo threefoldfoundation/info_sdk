@@ -15,5 +15,5 @@ The TF Grid Marketplace gives you the possibility of deploying advanced open-sou
 - [__Publisher__](publisher.md):
 - [__Gitea__](gitea.md): Self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab.
 - [Solution Expose](exposed.md): Expose a deployed solution using the web gateway
-- [__Domain Delegation__](domain_delegation.md): Point your domain to a capacity pool / gateway.
+- [__Domain Delegation__](delegated_domain.md): Point your domain to a capacity pool / gateway.
 - [__4to6 Gateway__](4to6gw.md): Provides access to IPv6 addresses for users with IPv4 networks only through a Wireguard tunnel.

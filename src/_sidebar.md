@@ -38,7 +38,7 @@
     - [MinIO](minio.md)
     - [Publisher](publisher.md)
     - [Solution Expose](exposed.md)
-    - [Domain Delegation](domain_delegation.md)
+    - [Domain Delegation](delegated_domain.md)
     - [4to6 Gateway](4to6gw.md)
     - [Monitoring](monitoring.md)
 - [3Bot Admin](3Bot_admin.md)

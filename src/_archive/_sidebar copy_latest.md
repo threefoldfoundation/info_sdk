@@ -25,7 +25,7 @@
  - [Publisher](./publisher.md)
  - [3Bot](./3Bot.md)
  - [Solution Expose](./exposed.md)
- - [Domain Delegation](./domain_delegation.md)
+ - [Domain Delegation](./delegated_domain.md)
  - [4to6 Gateway](./4to6gw.md)
  - [Monitoring](./monitoring.md)
 - [Beginner Tutorials](tutorials.md)
