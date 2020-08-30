@@ -2,7 +2,7 @@
 
 ### Overview
 
-The aim is to delegate your domain to the gateway, access your running web applications using subdomains of your domain or any managed domains where we need to follow a few steps:
+The aim is to delegate your domain to the gateway, access your running web applications using custom domains, subdomains of your delegated domain or any managed domains where we need to follow a few steps:
 
 - choose a gateway
 - delegate your domain to that gateway.
@@ -10,8 +10,25 @@ The aim is to delegate your domain to the gateway, access your running web appli
 - create a tcp reverse proxy on the gateway.
 - use `trc` Flist to expose your running containers.
 - managed domain example
+- custom domain example
 
 Also show how to use the gateway4to6 workloads for users with IPv4 only networks to get IPv6 connectivity through the gateway
+
+#### What is solution expose?
+
+When deploying a container on the grid you can access it over public IPv6 (if specified) which you can bind an `AAAA` record to it or over your wireguard connection to the network. But if you have a web app running inside your container and you need to access it over a FQDN bound to an IPv4 address you can expose that container using a `TF Gateway`.
+
+#### Expose options
+
+When you decide to expose your workload using a `TF Gateway`, there are different approaches to achieve that.
+
+1- Using a `Delegated Domain`: in this case you first delegate your domain to a gateway using a `domain delegation workload` and add an `NS` record in your dns manager of that domain pointing to the gateway dns server. then you can create `subdomain` of your delegated domain and use them in `tcp reverse proxy` worklooads.
+
+2- Using a `Managed Domain`: most gateways offer some domain names that you can create a `subdomain` of them without having to delegate your domain to the gateway. and later you can use these subdomains in your `tcp reverse proxy` workloads.
+
+3- Using a `Custom Domain`: in this case you create a `tcp reverse proxy` on a gateway and bind it to a domain name. But you'll have to create an `A` record of this domain name pointing to the gateway IP address yourself.
+
+#### Note: that the only option you can use if want to access a container using a FQDN like `mydomain.com` without any additions (ie: `mysite.mydomain.com`) is using a `Custom Domain` approach where you create an `A` record of `mydomain.com` pointing to the IP address of the gateway.
 
 #### Choose a gateway
 
@@ -87,16 +104,16 @@ GATEWAY_IP = gateway_ips[0]
 entrypoint = f"/bin/trc -local {SOLUTION_IP_ADDRESS}:{SOLUTION_PORT} -local-tls {SOLUTION_IP_ADDRESS}:{SOLUTION_TLS_PORT}" f" -remote {GATEWAY_IP}:{gateway.tcp_router_port}"
 
 # trc container deployment
-NODE_ID = "2m3nHPSAMyZFSeg5HPozic2NGBMtrXrBkhtNcVmd5Ss6"
+NODE_ID = "72CP8QPhMSpF7MbSvNR1TYZFbTnbRiuyvq5xwcoRNAib"
 NETWORK = "demo_net"
-Flist_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.Flist"
+FLIST_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist"
 CONTAINER_IP_ADDRESS = "10.212.2.10"
 secret_env = {"TRC_SECRET": j.sals.zos.container.encrypt_secret(NODE_ID, SECRET)}
 container = j.sals.zos.container.create(
  node_id=NODE_ID,
  network_name=NETWORK,
  ip_address=CONTAINER_IP_ADDRESS,
- Flist=Flist_URL,
+ flist=FLIST_URL,
  capacity_pool_id=pool.pool_id,
  entrypoint=entrypoint,
  secret_env=secret_env,
@@ -105,6 +122,7 @@ wid = j.sals.zos.workloads.deploy(container)
 ```
 
 now you could access your server using the gateway
+
 ![http_access](./img/02-web-gateway.png)
 
 #### Managed domains example
@@ -120,7 +138,38 @@ subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gat
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
-now you could use that subdomain in your tcp reverse proxy as above
+now you can use that subdomain in your tcp reverse proxy as above
+
+#### Custom domain example
+
+This is really simple. you first create a `tcp reverse proxy` workload with your domain as below
+
+```python
+# you need to have a secret for your reverse proxy which will be used by trc container to connect to the gateway. the format is {tid}:{arbitary_value}
+import uuid
+SECRET = f"{j.core.identity.me.tid}:{uuid.uuid4().hex}"
+DOMAIN = "refit.earth"
+
+# create your tcp reverse proxy
+reverse_proxy = j.sals.zos.gateway.tcp_proxy_reverse(gateway.node_id, DOMAIN, SECRET, pool.pool_id)
+wid = j.sals.zos.workloads.deploy(reverse_proxy)
+```
+
+Then create an `A` record pointing to the gateway IP address.
+```python
+# to get the gateway IP Addresses
+gateway_ips = []
+for ns in gateway.dns_nameserver:
+ gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
+```
+
+in my case
+
+![custom_domain](./img/04-web-gateway.png)
+
+now you can run your `tcprouter` container to expose your workload same as above.
+
+![custom_domain](./img/05-web-gateway.png)
 
 ## Gateway4to6
 
