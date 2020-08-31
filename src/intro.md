@@ -34,6 +34,7 @@ Release Stats (Aug 2020)
 
 - 0-OS
  - Current: 0-OS V0.3.3
+ - Next: 0-OS V.0.4.0
 ```
 
 In brief, the Threefold Grid is composed of three different types of networks environments; Mainnet (production), Testnet (Staging), and Dev (Development). 
