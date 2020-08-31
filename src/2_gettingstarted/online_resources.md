@@ -25,7 +25,7 @@ On a per-node level, node specific details are available. Opening a specific nod
 <!-- ![](./img/explorer_node_details.png) -->
 
 ### Find or create Flists 
-The Flist principle is explained in the introduction architecture section ([here](architecture_Flist.md).
+The Flist principle is explained in the introduction architecture section ([here](architecture_flist.md).
 <!-- ![](./img/hub_startpage.png) -->
 
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">

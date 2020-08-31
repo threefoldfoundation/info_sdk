@@ -1,6 +1,23 @@
-## IT capacity provisioning flow 
+# Reservation object
 
-Reservation of capacity happens according a standard process : 
+```json
+reservation = {
+    // NOTE: state is not accepted in user requests. The state is completely managed by
+    // the network. hence creating a reservation does not accept any values assigned to the
+    // state object.
+    // it's part of the reservation object thought because the API will always return a valid
+    // state object.
+    // Some changes to the state are accepted from the user, but only via the defined API
+    // end points
+    "state": [state object],
+    "contract": [contract object],
+
+    ...: [reservation params]
+}
+```
+## IT capacity provisioning flow
+
+Reservation of capacity happens according a standard process :
 - Farmer sets a price
 - User searches capacity
 - User requests reservation
