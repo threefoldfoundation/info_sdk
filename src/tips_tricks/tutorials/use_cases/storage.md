@@ -2,13 +2,13 @@
 ## Deployment of S3 Storage Capacity through the chatflow
 
 Within the 3Bot Admin console, a chatflow has been created to reserve S3 storage capacity. 
-This storage can be dispersed over different nodes. 
+This storage could be dispersed over different nodes. 
 
 ![](./img/minio_chatflow1.png)
 
 Through this chatflow, S3 storage is reserved and configured simply by collection of a number of parameters : 
 - IPv4 vs. IPv6
-- Password to be used for the 0-db storage
+- Password to be used for the 0-DB storage
 - Disk type : SSD or HDD
 - Mode : user or sequential
 - Minio login key
@@ -32,7 +32,7 @@ For Ubuntu machines, you get command line instruction:
 ![](./img/./img/minio_chatflow17.png)
 
 
-On MacOS, the Wireguard configuration can be set up through the Wireguard application : 
+On MacOS, the Wireguard configuration could be set up through the Wireguard application : 
 - Download the configuration into a file
 ![](./img/minio_chatflow19.png)
 
@@ -45,7 +45,7 @@ Finally, the location of the workload is shown :
 
 
 ## How to set up S3 Storage using the Jupyter Notebooks?
-In the Navbar you will find the section "NEED THE NAME" that has pre-made notebooks. These will guide you through all the steps you need to take to setup a network, but do not limit you when it comes to parameter as you can edit the scripts as you go.
+In the Navbar you will find the section "NEED THE NAME" that has pre-made notebooks. These will guide you through all the steps you need to take to setup a network, but do not limit you when it comes to parameter as you could edit the scripts as you go.
 
 ## How to set up S3 Storage using the CodeServer?
 Within the SDK you'll find the CodeServer in the left hand navbar.

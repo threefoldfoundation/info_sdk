@@ -1,17 +1,17 @@
-# Deploying a flist
+# Deploying a Flist
 
-A flist is the container deployed on zero-OS. 
-It can be converted from Docker or customized on the [Zero-OS Hub](https://hub.grid.tf/).
-The result can be uploaded and made available in the flist repository, where it is available for usage.  
+A Flist is the container deployed on zero-OS. 
+It could be converted from Docker or customized on the [Zero-OS Hub](https://hub.grid.tf/).
+The result could be uploaded and made available in the Flist repository, where it is available for usage. 
 
-## Deployment of a flist through the chatflow
+## Deployment of a Flist through the chatflow
 
-Within the 3Bot Admin console, a chatflow has been created to deploy a generic flist. 
+Within the 3Bot Admin console, a chatflow has been created to deploy a generic Flist. 
 
-![](./img/chatflow_flist0.png)
+![](./img/chatflow_Flist0.png)
 
-Through this chatflow, the flist is deployed into your local 3Bot in a few simple steps : 
-- Select the flist to be deployed
+Through this chatflow, the Flist is deployed into your local 3Bot in a few simple steps : 
+- Select the Flist to be deployed
 - Indicate public ssh key allowing to access the container through ssh
 - Set environment variables (if needed) 
 - Indicate whether the container needs to be accessible using a web browser

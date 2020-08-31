@@ -1,6 +1,6 @@
 # Reverse tunnel TCP proxy
 
-This primitives provided by the TFGateway allow a user to forward traffic from the public internet to a hidden service that has not public address at all. 
+This primitives provided by the TFGateway allow a user to forward traffic from the public internet to a hidden service that has not public address at all.
 
 The way it works is on the hidden client side, a small client runs and opens a connection to the tcp router server. The client sends a secret during an handshake with the server to authenticate the connection.
 
@@ -12,29 +12,30 @@ The server then keeps the connection opens and is able to forward incoming publi
 
 Here is the schema used to define a container reservation:
 
-- **NodeId**: the gateway ID on which to delegate the domain
 - **domain**: The domain to forward traffic from
+- **pool_id**: the capacity pool ID to use to provision the workload
 - **secret**: The secret used by the TCP router client when initiating the connection to the Gateway. 
-The secret needs to have a specific format: `<3Bot_id>:<random>`.  
+
+The secret needs to have a specific format: `<3Bot_id>:<random>`. 
 If my 3Bot_id is `123`, a valid secret would be `123:chieb7roi9oongah9shukuupeiChaeph`.
 
 ## Example using sdk
 
-```python
-zos = j.sal.zosv2
+``` python
+zos = j.sals.zos
 
-# create a reservation
-r = zos.reservation_create()
+zos.gateway.tcp_proxy_reverse(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
+        domain='solution1.TF Grid.zaibon.be',
+        secret='123:chieb7roi9oongah9shukuupeiChaeph',
+        pool_id=12)
 
-zos.gateway.tcp_proxy_reverse(reservation=r,
-                            node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-                            domain='solution1.tfgrid.zaibon.be',
-                            secret='123:chieb7roi9oongah9shukuupeiChaeph')
+# deploy the workload
+id = zos.workloads.deploy(workload)
 ```
 
 ## Remark
 
-To use this primitive you need to make sure that the container you run have the [TCP Router client](https://github.com/threefoldtech/tcprouter/tree/master/cmds/client) available.
+To use this primitive you need to make sure that the container you run have the [TCP Router client](https://github.com/Threefoldtech/tcprouter/tree/master/cmds/client) available.
 
-There is an flist with the TCP router client included ready to use at https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist.md
-You can merge this flist into yours to have a complete solution.
+There is an Flist with the TCP router client included ready to use at https://hub.grid.tf/tf-official-apps/tcprouter:latest.Flist.md
+You could merge this Flist into yours to have a complete solution.

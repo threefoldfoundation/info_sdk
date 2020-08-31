@@ -1,6 +1,6 @@
 # Deploy your first wiki
 
-In this section we will guide you trough publishing your first wiki on the TFGrid.
+In this section we will guide you trough publishing your first wiki on the TF Grid.
 
 This tutorial will use the example "chat flows" to deploy the solution. The chat flows are wizards that guide you through different steps asking you questions to help you generate a reservation understandable by the grid.
 
@@ -14,7 +14,7 @@ If you are looking for some example how to do this programmatically, head to the
 
 ### Deploy your private overlay network
 
-You are now all set to start deploying workloads on the TFGrid. Yeah!
+You are now all set to start deploying workloads on the TF Grid. Yeah!
 
 
 Follow the steps decribed to [deploy your network](getting_started_network.md)
@@ -22,7 +22,7 @@ Follow the steps decribed to [deploy your network](getting_started_network.md)
 
 ### Publish Wiki
 
-Now that you have a network in place. We can now publish our wiki. To do so we will use the `Publisher` Chat flow
+Now that you have a network in place. We could now publish our wiki. To do so we will use the `Publisher` Chat flow
 
 
 To start the wizard click the left menu Publisher

@@ -1,4 +1,4 @@
-# This document shows how to setup/migrate your ThreeFold Farm and 3Nodes to TF Grid 2.2 (js-ng 11.0.0.alpha1)
+# This document shows how to setup/migrate your Threefold Farm and 3Nodes to TF Grid 2.2 (js-ng 11.0.0.alpha1)
 
 **Summary**
 
@@ -6,17 +6,17 @@
 - [Create a new farm using the 3SDK GUI](#create-your-farm-using-the-3sdk-gui)
 - [Create a new farm using the 3SDK kosmos shell](#create-your-farm-using-the-3sdk-kosmos-shell)
 - [Generate a bootable 0-OS image](#create-a-bootable-image)
-- [Start your node with the generated 0-OS image](http://localhost:3000/docs/grid/tf_farming/v2_jsx_farmsetup.html#start-3node-with-bootable-image)
+- [Start your node with the generated 0-OS image](http://localhost:3000/docs/grid/tf_farming/v2_jsx_farmsetup.html#start-3Node-with-bootable-image)
 
 This guide is splitted in two parts. One will show to use the 3SDK GUI to create a farm, the second part is using the SDK python shell.
 
-If you need assistance contact ThreeFold support via the chat on www.threefold.io
+If you need assistance contact Threefold support via the chat on www.Threefold.io
 
-### Please make sure you read the  [V2 Networking Document](https://github.com/threefoldtech/zos/blob/master/docs/network/introduction.md) before you start migrating your farm/nodes. 
+### Please make sure you read the [V2 Networking Document](https://github.com/Threefoldtech/zos/blob/master/docs/network/introduction.md) before you start migrating your farm/nodes. 
 
 ## Prerequisite: Install 3SDK
 
-See the installation instruction to get yourself the 3SDK installed: [https://manual.threefold.io/#/3sdk_install](https://manual.threefold.io/#/3sdk_install)
+See the installation instruction to get yourself the 3SDK installed: [https://manual.Threefold.io/#/3sdk_install](https://manual.Threefold.io/#/3sdk_install)
 
 ## Create your farm using the 3SDK GUI
 
@@ -31,7 +31,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -58,11 +58,11 @@ Fill the form with your values.
 
 **Make sure you add a valid TFT stellar address. This is required in order for user to be able to reserve capacity from your farm.**
 
-Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
+Copy the address of the Stellar account from your 3Bot Connect app, where you could copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
 ![detail_3Bot](./img/detail_3Bot_connect.png)
 
-A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
+A wallet also could be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 
 
 ![wallet_in_jsng](./img/wallet_in_jsng.png)
@@ -79,23 +79,23 @@ To enter kosmos shell just type `kosmos` in your 3SDK terminal
 
 ### 1. Choose your network using identity
 
-First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You can do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
+First things is to select the identity containing the network you want to create your farm on. Most probably you want to use `mainnet`. You could do that by clicking on the `SET DEFAULT` button on the form showing the identity details in the `Settings`
 
 ![identity_buttons](./img/identity_buttons.png)
 
-You can also set the default identity to be used from the js-ng shell
+You could also set the default identity to be used from the js-ng shell
 
 ```python
 j.core.identity.set_default("identity_instance_name")
-# This identity can now be accessed using j.core.identity.me
+# This identity could now be accessed using j.core.identity.me
 ```
 
 ### 2. Create a TF Farm
 
-Now you can create a farm. To do so, we will use the Threefold Explorer client:
+Now you could create a farm. To do so, we will use the Threefold Explorer client:
 
 ```python
-from jumpscale.clients.explorer.models import TfgridDirectoryWallet_address1                       
+from jumpscale.clients.explorer.models import TF GridDirectoryWallet_address1      
 
 # get a client to the explorer
 explorer = j.core.identity.me.explorer
@@ -110,7 +110,7 @@ farm.3Bot_id = j.me.tid
 farm.iyo_organization = 'my_super_farm_v1'
 
 # add your wallet address
-wallet_address = TfgridDirectoryWallet_address1()
+wallet_address = TF GridDirectoryWallet_address1()
 wallet_address.asset = 'TFT'
 wallet_address.address = 'GABONHE4AV6FFL57ZAYJXYSM7MHW5ONLYJE5F6O4ZADRUFGBFLHZWOGF'
 farm.wallet_addresses.append(wallet_address)
@@ -126,7 +126,7 @@ farm.save()
 print(farm_id)
 ```
 
-If the register function succeeded, your farm is now created and you can save it and proceed.
+If the register function succeeded, your farm is now created and you could save it and proceed.
 If you go to the explorer web UI you should be able to see your farm in "All farms" dropdown list.
 
 ## Create a bootable image
@@ -139,4 +139,4 @@ You are now ready to boot your nodes !
 
 ## Start 3Node with bootable image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

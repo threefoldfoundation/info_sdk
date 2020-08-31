@@ -21,7 +21,7 @@ Go to your admin dashboard `https://localhost/admin` and click on Network
 - `IP Address` : choose the ip address for your MinIO machine.
 
 
-After the deployment of MinIO is complete,  a url will be returned that can be used to access it.
+After the deployment of MinIO is complete, a url will be returned that could be used to access it.
 
 ### Deploying MinIO
 
@@ -69,7 +69,7 @@ Now we define the expiration time for the solution on the grid.
 
 ![](./img/minio_farms_container.png)
 
-We can choose the farms on which the container can be deployed on. The farms are basically a group of nodes where multiple solutions can be deployed on them. We can either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
+We could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on them. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
 
 #### Choosing IP for the solution
 
@@ -100,7 +100,7 @@ Once accessing the url the following is shown once redirected to MinIO login(acc
 
 #### MinIO UI
 
-Once logged in using the previous page, you can upload and use the browser to navigate through all your items
+Once logged in using the previous page, you could upload and use the browser to navigate through all your items
 ![](./img/upload.png)
 
 

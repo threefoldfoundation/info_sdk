@@ -3,14 +3,14 @@
 ![](./img/smartcontract_intro.png)
 
 The TF Grid is orchestrated using a very unique approach.
-Each workload gets registered on the TFGrid smartcontract database.
+Each workload gets registered on the TF Grid smartcontract database.
 
 ### workload definitions
 
 - [capacity definition for 0-Containers](capacity_container.md) (our own optimized form of containers)
 - [smartcontract details](smartcontract_details.md)
 - [overlay network](capacity_network.md)
-- [web gateway](capacity_webgateway.md)
+- [Web Gateway](capacity_Web Gateway.md)
 - [kubernetes](capacity_kubernetes.md)
 - [0-DB storage](capacity_0db.md)
 - [virtual disk](capacity_vdisk.md)
@@ -19,7 +19,7 @@ Each workload gets registered on the TFGrid smartcontract database.
 
 ![](./img/smart_contract_it_arch.png)
 
-#### STEP 1: educate 3Bot = TFGrid SDK
+#### STEP 1: educate 3Bot = TF Grid SDK
 
 IT Experts: Give knowledge to the 3Bots (it's like god defining our DNA of our cells)
 
@@ -31,7 +31,7 @@ IT Experts: Give knowledge to the 3Bots (it's like god defining our DNA of our c
 
 #### STEP 3: The 3Bot: Creates & Registers the “IT” smart contract 
 
-The 3Bot: Creates & Registers the “IT” smart contract in the BCDB (Blockchain Database) (note: this cannot be done by humans, it's too complicated)
+The 3Bot: Creates & Registers the “IT” smart contract in the BCDB (Blockchain Database) (note: this could not be done by humans, it's too complicated)
 
 #### STEP 4: Business IT Workload Stakeholders Consensus
 
@@ -39,12 +39,12 @@ Need to give consensus to check the “IT smart contract” and give their appro
 
 #### STEP 5: The 3 Nodes execute the workload.
 
-- thousands of 3 nodes can work together to execute the “IT Smart Contract” (if required)
+- thousands of 3 nodes could work together to execute the “IT Smart Contract” (if required)
 - verify if consensus was reached between the business stakeholders
 - verify the validity of the smart contract and download the “IT workload definition”
 - download the right files to execute the smart contract and each file gets verified (signature)
 - run the required processes and again signatures are checked to make sure the workload is pure.
-0 ensures that no person (hacker or IT person) can ever gain access or influence on the execution process.
+0 ensures that no person (hacker or IT person) could ever gain access or influence on the execution process.
 
 ### details how the smart contract layer works
 

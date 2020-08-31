@@ -1,7 +1,7 @@
 
 # Set up a farm
 
-This document shows how to set up/migrate your ThreeFold Farm and 3Nodes. 
+This document shows how to set up/migrate your Threefold Farm and 3Nodes. 
 
 First your 3Bot should be up and running, either on the marketplace or on your local machine. In the 3Bot admin panel there is tooling available to set up a farm and manage it. 
 Go to the generated domain name that hosts your 3Bot, and login using your 3Bot connect app. 
@@ -15,7 +15,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you can create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you can choose the explorer type corresponding to the network you need. For `mainnet` you can choose `Main network`.
+If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3Bot connect app to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 
@@ -42,11 +42,11 @@ Fill the form with your values.
 
 **Make sure you add a valid TFT stellar address. This is required in order for user to be able to reserve capacity from your farm.**
 
-Copy the address of the Stellar account from your 3Bot Connect app, where you can copy it from the wallet in the info tab on the detail screen of your farmer wallet.
+Copy the address of the Stellar account from your 3Bot Connect app, where you could copy it from the wallet in the info tab on the detail screen of your farmer wallet.
 
 ![detail_3Bot](./img/detail_3Bot_connect.png)
 
-A wallet also can be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
+A wallet also could be created or imported from your 3Bot Connect app in `Wallet Manager` in the sdk admin. Handy for having all at hand, required for reserving capacity. 
 
 
 ![wallet_in_jsng](./img/wallet_in_jsng.png)
@@ -67,4 +67,4 @@ You are now ready to boot your nodes!
 
 ## Start 3Node with Bootable Image
 
-After booting your 3Node it is visible on: [the tfgrid explorer](https://explorer.grid.tf)
+After booting your 3Node it is visible on: [the TF Grid explorer](https://explorer.grid.tf)

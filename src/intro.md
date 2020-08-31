@@ -1,13 +1,52 @@
-# Threefold Grid 2.1 Manual
+# Threefold Grid 2.2 (Tesnet) Manual
 
 ![](./img/storage_compute.png)
 
-Hi! Welcome to the __TF Grid Manual wiki__, a knowledge base for those interested in learning more about the Threefold Grid Ecosystem, deploying a network, and developing solutions on top of the TF Grid. Here you will be able to find the most up-to-date information on the status of the development tools as well as comprehensive Grid manuals and tutorials.
+Hi! Welcome to the __TF Grid 2.2 (Testnet) Manual__, a knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid 2.2 Testnet Environment__ via [__TF Grid Demo__](demo.grid.tf) And [__3Bot__](deploy3bot.grid.tf) . 
 
-The wiki is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [Introduction](learn.md) section. To start deploying a network, head over to the [Getting Started](#getting_started.md) section of the Manual. If you're a developer who is interested in more advanced technical hand-outs on deployment, check out our [Advance Development](develop.md) section. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure. Feel free to check all available solutions and easy deployment on [Threefold Grid Marketplace](marketplace.md) section.
+## Navigate Your Way on the Manual
 
-If you're looking for an introduction to Threefold in general, please go to our main [Threefold Wiki](wiki.threefold.io) 
+- [__Introduction__](learn.md)
+- [__Getting Started__](getting_started.md)
+- [__TF Grid Demo__](marketplace.md)
+- [__3Bot__](develop.md)
 
 
+The Manual is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [__Introduction__](learn.md) section. To learn all the basics you would need to deploy a solution on top of the TF Grid, head over to the [__Getting Started__](getting_started.md) section of the Manual. Feel free to check all available TF Grid solutions (demo) and easy deployment manuals via [__TF Grid Demo__](marketplace.md) section. If you're interested in more advanced technical hand-outs on cloud solution deployment using 3Bot, check out our [__3Bot__](develop.md) section. It will guide you from scratch to deploying your first cloud solution on the grid in a step by step procedure using provisioning codes and primitives.
 
-If you want to learn more about Grid 2.2 which is currently on testnet, please visit the [testnet manual](https://manual-testnet.threefold.io/)
+If you're looking for an introduction to Threefold in general, please go to our main [Threefold Wiki](wiki.Threefold.io) 
+
+
+## TF Grid: Where Are We Now?
+
+![](./img/environment.png)
+
+```
+Release Stats (Aug 2020)
+
+- Threefold Grid 
+ - Current: TF Grid 2.1.0
+ - Next: TF Grid 2.2.0
+
+- TF Grid Demo
+ - Mainnet (2.1) - Production
+ - Testnet (2.2) - Staging
+
+- 0-OS
+ - Current: 0-OS V0.3.3
+ - Next: 0-OS V.0.4.0
+```
+
+In brief, the Threefold Grid is composed of three different types of networks environments; Mainnet (production), Testnet (Staging), and Dev (Development). 
+
+The latest versions of 0-OS (TF Grid’s operating system) and their associated new features are first deployed for testing to the ‘Devnet’ and ‘Testnet’, before being released on the ‘Mainnet’ grid. Any farmer and partner will be able to choose to run their node on any of the 3 networks, by configuring their 0-OS boot process accordingly.
+
+We’ve been working hard to make it even easier for projects to deploy solutions on top of the grid with the new __TF Grid Demo__; enabling projects to deploy solutions on a hosted environment. 
+
+Currently TF Grid Demo 2.1 is released on Mainnet. Our next release - __TF Grid 2.2__ - will include certain exciting features like the Capacity Pools- where you could order IT capacity on the dashboard for your project directly from the farms. This feature is currently only available on the [__3Bot System Administrator Panel__](deploy3bot.grid.tf). this is where we hope you could contribute as a __Testnet alpha tester__ and try to build your cloud solutions on. This manual is aimed to serve as your how-to on  easy solution deployment by using [__TF Grid Demo__](demo.grid.tf) (testnet).
+
+## Testnet vs MainNet
+
+Below is a diagram that will help you understand the difference in between the testnet version and the mainnet version of the TF Grid. 
+
+![](./img/testnet_mainnet.png)

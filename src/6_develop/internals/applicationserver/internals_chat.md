@@ -11,15 +11,15 @@ Chat now is a part of webinterface package.
 
 ### Getting available chatflows
 
-[chatbot actor](https://github.com/threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/zerobot/webinterface/actors/chatbot.py) is available as part of base actors
+[chatbot actor](https://github.com/Threefoldtech/jumpscaleX_3Bot/blob/development/3BotPackages/zerobot/webinterface/actors/chatbot.py) is available as part of base actors
 
 ```python
 
 
 def _get_chatflows():
-    gedis_client = j.clients.gedis.get("chat", port=8901, package_name="zerobot.webinterface")
-    chatflows = gedis_client.actors.chatbot.chatflows_list()
-    return [chatflow.decode() for chatflow in chatflows]
+ gedis_client = j.clients.gedis.get("chat", port=8901, package_name="zerobot.webinterface")
+ chatflows = gedis_client.actors.chatbot.chatflows_list()
+ return [chatflow.decode() for chatflow in chatflows]
 ```
 
 
@@ -47,31 +47,31 @@ Example for chatflow:
 
 ```python
 def chat(bot):
-    res = {}
+ res = {}
 
-    country = bot.drop_down_country("where do you want to eat?")
-    food = bot.string_ask("What do you need to eat?")
-    amount = bot.int_ask("Enter the amount you need to eat from %s in grams:" % food)
-    sides = bot.multi_choice("Choose your side dishes: ", ["rice", "fries", "saute", "mashed potato"])
-    drink = bot.single_choice("Choose your Drink: ", ["tea", "coffee", "lemon"])
+ country = bot.drop_down_country("where do you want to eat?")
+ food = bot.string_ask("What do you need to eat?")
+ amount = bot.int_ask("Enter the amount you need to eat from %s in grams:" % food)
+ sides = bot.multi_choice("Choose your side dishes: ", ["rice", "fries", "saute", "mashed potato"])
+ drink = bot.single_choice("Choose your Drink: ", ["tea", "coffee", "lemon"])
 
-    res = """
-    # country {{country}}
+ res = """
+ # country {{country}}
 
-    # You have ordered:
-    - {{amount}} grams,sides {{sides}} and {{drink}} drink
-    ### Click next
-    for the final step which will redirect you to threefold.me
-    """
-    bot.template_render(res, **locals())
+ # You have ordered:
+ - {{amount}} grams,sides {{sides}} and {{drink}} drink
+ ### Click next
+ for the final step which will redirect you to Threefold.me
+ """
+ bot.template_render(res, **locals())
 ```
 
 #### Validation
 
-Some validations can be applied on the input taken from the user so that they are warned. This is helpful to validate certain restrictions before processing the data itself in the server. Here's an example of validations required for a string input
+Some validations could be applied on the input taken from the user so that they are warned. This is helpful to validate certain restrictions before processing the data itself in the server. Here's an example of validations required for a string input
 
 ```python
-    email = bot.string_ask("Enter email", validate={"required": True, "email": True}).strip()
+ email = bot.string_ask("Enter email", validate={"required": True, "email": True}).strip()
 ```
 
 ### Implementing another question type
@@ -85,27 +85,27 @@ Some validations can be applied on the input taken from the user so that they ar
 ##### Step 1 : Updating GedisChatBot.py
 
 ```python
-    def captcha_ask(self, error=False, **kwargs):
-        """
-        helper method to generate a captcha and verify that the user entered the right answer.
-        :param error: if True indicates that the previous captcha attempt failed
-        :return: a bool indicating if the user entered the right answer or not
-        """
-        image = ImageCaptcha()
-        captcha = j.data.idgenerator.generateXCharID(4)
-        # this log is for development purposes so we can use the redis client
-        self._log_info("generated captcha:%s" % captcha)
-        data = image.generate(captcha)
-        self.q_out.put(
-            {
-                "cat": "captcha_ask",
-                "captcha": base64.b64encode(data.read()).decode(),
-                "msg": "Are you human?",
-                "label": "Please enter a valid captcha" if error else "",
-                "kwargs": kwargs,
-            }
-        )
-        return self.q_in.get() == captcha
+ def captcha_ask(self, error=False, **kwargs):
+  """
+  helper method to generate a captcha and verify that the user entered the right answer.
+  :param error: if True indicates that the previous captcha attempt failed
+  :return: a bool indicating if the user entered the right answer or not
+  """
+  image = ImageCaptcha()
+  captcha = j.data.idgenerator.generateXCharID(4)
+  # this log is for development purposes so we could use the redis client
+  self._log_info("generated captcha:%s" % captcha)
+  data = image.generate(captcha)
+  self.q_out.put(
+   {
+    "cat": "captcha_ask",
+    "captcha": base64.b64encode(data.read()).decode(),
+    "msg": "Are you human?",
+    "label": "Please enter a valid captcha" if error else "",
+    "kwargs": kwargs,
+   }
+  )
+  return self.q_in.get() == captcha
 ```
 
 #### Step 2: Write Content Generator Function
@@ -115,13 +115,13 @@ Now that when we get the `captcha question dict` from the previous step we would
 ```javascript
 
 var captchaContentGenerate = function (message, captcha, label, kwargs) {
-    return `
-    <h4>${message}</h4>
-    <img src="data:image/png;base64,${captcha}"/>
-    <div class="form-group">
-        <input type="text" placeholder="Captcha" class="form-control" id="value">
-    </div>
-    <label class="captcha-error">${label}</label>`
+ return `
+ <h4>${message}</h4>
+ <img src="data:image/png;base64,${captcha}"/>
+ <div class="form-group">
+  <input type="text" placeholder="Captcha" class="form-control" id="value">
+ </div>
+ <label class="captcha-error">${label}</label>`
 }
 ```
 
@@ -131,13 +131,13 @@ in the last step we will have to render the incoming question dict using our con
 ```javascript
 
 var generateSlide = function (res) {
-    // CODE OMITTED...
-    let contents = "";
-    switch (res['cat']) {
-        // CODE OMITTED
-        case "captcha_ask":
-            contents = captchaContentGenerate(res['msg'], res['captcha'], res['label'], res['kwargs']);
-            break;
+ // CODE OMITTED...
+ let contents = "";
+ switch (res['cat']) {
+  // CODE OMITTED
+  case "captcha_ask":
+   contents = captchaContentGenerate(res['msg'], res['captcha'], res['label'], res['kwargs']);
+   break;
 
 ```
 
@@ -145,7 +145,7 @@ var generateSlide = function (res) {
 
 ## How GedisChatBot Works
 
-[GedisChatBot](https://github.com/threefoldtech/jumpscaleX_core/blob/development/JumpscaleCore/servers/gedis/GedisChatBot.py) is the one responsible for creating sessions and keeping track of them and of the loaded chatflows, and also for getting questions to a certain session by `session_id` `session_work_get` and receiving user's answer and giving it to a certain session by `session_id`
+[GedisChatBot](https://github.com/Threefoldtech/jumpscaleX_core/blob/development/JumpscaleCore/servers/gedis/GedisChatBot.py) is the one responsible for creating sessions and keeping track of them and of the loaded chatflows, and also for getting questions to a certain session by `session_id` `session_work_get` and receiving user's answer and giving it to a certain session by `session_id`
 
 ### Session
 
@@ -161,18 +161,18 @@ Also, session contains helpers to properly format `question dict` to be pushed i
 Here's an example for asking for a password
 
 ```python
-    def secret_ask(self, msg, **kwargs):
-        """
-        helper method to generate a question that expects a password answer.
-        html generated in the client side will use `<input type="password"/>`
-        :param msg: the question message
-        :param kwargs: dict of possible extra options like (validate, reset, ...etc)
-        :return: the user answer for the question
-        """
-        self.q_out.put({"cat": "secret_ask", "msg": msg, "kwargs": kwargs})
-        return self.q_in.get()
+ def secret_ask(self, msg, **kwargs):
+  """
+  helper method to generate a question that expects a password answer.
+  html generated in the client side will use `<input type="password"/>`
+  :param msg: the question message
+  :param kwargs: dict of possible extra options like (validate, reset, ...etc)
+  :return: the user answer for the question
+  """
+  self.q_out.put({"cat": "secret_ask", "msg": msg, "kwargs": kwargs})
+  return self.q_in.get()
 
 ```
 - cat: used in frontend `bot_client.js` to generate the suitable slide
 - msg: question message
-- kwargs can be used for validations or any extra options to your content renderer function
+- kwargs could be used for validations or any extra options to your content renderer function

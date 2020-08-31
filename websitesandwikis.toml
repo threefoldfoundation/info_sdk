@@ -1,4 +1,4 @@
-#can be many wiki & many www sites
+#could be many wiki & many www sites
 
 [server]
 port = 3000
@@ -9,7 +9,7 @@ addr = "0.0.0.0"
 name = "manual"
 title = "Grid Manual"
 #http or git url
-url = "github.com/threefoldfoundation/info_gridmanual"
+url = "github.com/Threefoldfoundation/info_gridmanual"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used
@@ -20,15 +20,15 @@ branch = "development"
 branchswitch = false
 #path in the repo where the info is, std "src"
 srcdir = "src"
-#environment name (for example:  production, staging, testing)
+#environment name (for example: production, staging, testing)
 environment = ""
 
 [[wiki]]
 #unique name for the wiki
 name = "wiki"
-title = "ThreeFold Wiki"
+title = "Threefold Wiki"
 #http or git url
-url = "https://github.com/threefoldfoundation/info_foundation"
+url = "https://github.com/Threefoldfoundation/info_foundation"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used
@@ -39,5 +39,5 @@ branch = "development"
 branchswitch = false
 #path in the repo where the info is, std "src"
 srcdir = "src"
-#environment name (for example:  production, staging, testing)
+#environment name (for example: production, staging, testing)
 environment = ""

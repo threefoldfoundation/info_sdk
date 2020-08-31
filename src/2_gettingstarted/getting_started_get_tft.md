@@ -1,59 +1,14 @@
-# Adding tokens to a stellar wallet
+# Claim FreeTFT for Testing TF Grid 2.2 and Testnet Marketplace
 
-## Tokens available
+__FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to claim their FreeTFT to start developing your solutions on top of the TF Grid. 
 
-At the time of writting, there are three types of tokens available:
+You need to first set up a __testnet wallet__, and a testnet wallet address, so that we could send you some FreeTFT.
+There are two types of recommended testnet wallets that accepts FreeTFT; __Interstellar Wallet__ and __Solar Wallet__.You could choose to set up either one of them based on your personal preferences. Click on the link below for further tutorial on how to set up the wallet and receive the FreeTFT.
+1. [Set up an Interstellar Wallet (Testnet)](interstellar_wallet.md)
+2. [Set up a Solar Wallet (Testnet)](solar_wallet.md)
 
-- [FreeTFT](https://github.com/threefoldfoundation/tft-stellar/#freetft)
-- [TFT](https://github.com/threefoldfoundation/tft-stellar/#tft)
-- [TFTA](https://github.com/threefoldfoundation/tft-stellar/#tfta)
+> _Please note that FreeTFT is only used for testnet, does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
 
+## Advanced Users Tutorial
 
-## Purchasing TFT and TFTA
-
-To purchase TFT and TFTA on testnet network, you can follow the following steps where you create a wallet and configure it:
-
-## From the admin dashboard
-  
-From your 3Bot you can go to wallet manager and create a new wallet (will be test if you are using identity against testnet) and it will add the trustlines and activate using friendbot
-![admin walletmanager](./img/walletmanager.jpg)
-
-and after creating a new wallet it will be funded with 10000 XLM
-![admin walletdetails](./img/walletdetails.jpg)
-
-
-- To get TFTs we can sell from the XLM tokens in the wallet in exchange for TFTs by following the next steps:
-    - Access [https://testnet.interstellar.exchange/app](https://testnet.interstellar.exchange/app) and proceed with the steps until you can **Enter Account**.
-
-        ![start](./img/interstellar_start.png)
-
-    - Enter a password for your current session. **Please keep it saved safely**
-    ![new_session](./img/interstellar_new_session.png)
-
-    - Click on Import your wallet
-    ![import_wallet_button](./img/interstellar_import_wallet_button.png)
-
-    - Enter the wallet secret you obtained from the wallet instance you created in the jsng shell
-    ![import_wallet](./img/interstellar_import_wallet.png)
-
-    - Click on **trading** from the sidebar
-    ![home](./img/interstellar_home.png)
-
-    - Click on the last item on the right from the top bar then choose the exchange tokens to be from XLM to TFT. If it is not shown click on my assets in the pop up menu to choose TFT from the assets you have setup in the wallet
-    ![trading_assets](./img/interstellar_trading_assets.png)
-
-    - Choose the from the available the XLM you will be selling then click on the number or percentage from the amount wanted and click on **SELL XLM**
-    ![sell_xlm](./img/interstellar_sell_xlm.png)
-
-    - Enter the session secret you chose earlier and submit the sell request.
-    ![sign_transaction](./img/interstellar_sign_transaction.png)
-
-
-You are now ready with a new wallet with the required TFT and FreeTFT
-
-
-
-### for advanced users
-
-
-You can also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)
+You could also watch a quick video on how to [Create wallet and exchange in JS-NG](https://www.youtube.com/watch?v=HGkB7bunbTw&feature=youtu.be)

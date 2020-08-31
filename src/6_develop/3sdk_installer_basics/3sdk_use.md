@@ -6,7 +6,7 @@ You will be asked the mnemonic words from your 3Bot connect app during installat
 
 - From 3Botconnect application go to settings, then show phrase to get your mnemonics
 - Take a note of the 3Bot name and your email
-- When registering for the first time you can use these private words in your configurations
+- When registering for the first time you could use these private words in your configurations
 - These words are needed, they are your private key.
 
 
@@ -21,7 +21,7 @@ After the [installation](3sdk_install.md) steps you should have an executable `3
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-3Bot server can run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
+3Bot server could run using `3Bot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
 
 ### Setting capabilities for nginx
 To be able to run as a normal user, you don't need it if you are root.
@@ -31,21 +31,21 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
 ### Starting 3Bot
 
-- After setting capabilities for nginx, we can just do
+- After setting capabilities for nginx, we could just do
 
-  ```bash
-  3Bot start
-  ```
+ ```bash
+ 3Bot start
+ ```
 
 - This will take you to configure your identity, It will ask you about the network you want to use, 3Bot name, email, and words.
 
 - Then it will start 3Bot server where you will see some thing like that
 
-  ![configure](identity_new.png)
+ ![configure](identity_new.png)
 
-- After success you can visit the admin dashboard at http://localhost and start creating reservations
+- After success you could visit the admin dashboard at http://localhost and start creating reservations
 
-  ![configure](success.png)
+ ![configure](success.png)
 
 ## Stopping 3Bot
-You can stop 3Bot using `3Bot stop`
+You could stop 3Bot using `3Bot stop`

@@ -16,4 +16,4 @@
 ## how to get support
 
 - use chat on any of our websites
-- use the support section in our forum at https://forum.threefold.io/
+- use the support section in our forum at https://forum.Threefold.io/

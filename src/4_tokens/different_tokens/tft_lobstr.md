@@ -16,7 +16,7 @@ In the app, there is a way to buy cryptocurrencies of any kind, using a credit c
 
 ## Configure your TFT account
 
-You can create a TFT account doing the following steps : 
+You could create a TFT account doing the following steps : 
 
 - Go to Assets
 
@@ -30,7 +30,7 @@ You can create a TFT account doing the following steps :
 
 ![lobstr2](./img/lobstr2.jpeg)
 
-- Find TFT and FreeTFT by filling in the domain name threefold.io
+- Find TFT and FreeTFT by filling in the domain name Threefold.io
 
 ![lobstr1](./img/lobstr_assets_selection.jpg)
 
@@ -40,7 +40,7 @@ You can create a TFT account doing the following steps :
 
 - Select Trade in the main menu
 - Find the order book and buy TFT (in this case with XLM)
-- When done, the result can be found in the history, and the amount of tokens is added to the balance of the account
+- When done, the result could be found in the history, and the amount of tokens is added to the balance of the account
 
 ![lobstr_order_book](./img/lobstr_orderbook.jpg)
 

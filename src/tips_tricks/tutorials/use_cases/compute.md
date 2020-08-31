@@ -23,13 +23,13 @@ If you choose to define a new network, this needs to be activated using Wireguar
 ![](./img/kubernetes_chatflow13.png)
 
 
-Once this is done you can ssh into the virtual machine from your account that you used the ssh key from. 
+Once this is done you could ssh into the virtual machine from your account that you used the ssh key from. 
 
 ![](./img/kubernetes_chatflow14.png)
 ![](./img/kubernetes_chatflow15.png)
 
 ## How to deploy a Kubernetes Cluster using the Jupyter Notebooks?
-In the Navbar you will find the section "NEED THE NAME" that has pre-made notebooks. These will guide you through all the steps you need to take to setup a network, but do not limit you when it comes to parameter as you can edit the scripts as you go.
+In the Navbar you will find the section "NEED THE NAME" that has pre-made notebooks. These will guide you through all the steps you need to take to setup a network, but do not limit you when it comes to parameter as you could edit the scripts as you go.
 
 ## How to deploy a Kubernetes Cluster using the CodeServer?
 Within the SDK you'll find the CodeServer in the left hand navbar.

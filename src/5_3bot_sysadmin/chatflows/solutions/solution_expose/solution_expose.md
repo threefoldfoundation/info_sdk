@@ -2,7 +2,7 @@
 
 To make your solution available to the internet we provide an option to expose your solution.
 
-This will create a container inside your network which will connect to one of your gateways using [tcprouter](https://github.com/threefoldtech/tcprouter/) 
+This will create a container inside your network which will connect to one of your gateways using [tcprouter](https://github.com/Threefoldtech/tcprouter/) 
 
 Depending on which kind of solution you are trying to expose you might be offered to choose which http port to expose.
 
@@ -20,7 +20,7 @@ You will to choose which solution of the previous selected kind you want to expo
 
 ![Choose port](./img/solution_expose_choose_port.png)
 
-4. Next you can choose on which domain you would like to expose your solution this can be a subdomain of either one of your own delegated domains or a subdomain of a gateway provider, it's also possible to enter a custom domain which will required you to make a `cname` dns record towards the nameserver of the gateway
+4. Next you could choose on which domain you would like to expose your solution this could be a subdomain of either one of your own delegated domains or a subdomain of a gateway provider, it's also possible to enter a custom domain which will required you to make a `cname` dns record towards the nameserver of the gateway
 
 ![Choose domain](./img/solution_expose_choose_domain.png)
 
