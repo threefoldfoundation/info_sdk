@@ -18,6 +18,7 @@ Before contributing to this repo, one should understand that this repo reflects 
   
   To contribute to TF Grid 2.2 Manual, please create a pull request by comparing your working branch to 'development_testnet' for edits approval.
 
+
 ### Creating Issues
 When creating a new issue, please identify if it's an issue from TF Grid Manual 2.1 or TF Grid Manual 2.2.
 Title example:
