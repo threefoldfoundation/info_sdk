@@ -225,7 +225,3 @@ Visiting the Site, sending us emails, and completing online forms constitute ele
 
  
 
- 
-
-
-<!-- Docs to Markdown version 1.0β22 -->
