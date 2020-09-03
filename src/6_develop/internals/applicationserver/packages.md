@@ -15,6 +15,10 @@ Content:
  - [Add the package using package manager actor](#add-the-package-using-package-manager-actor)
 
 
+> example package:https://github.com/ranatrk/demo_package/tree/master <BR>
+> can just be installed in your hosted 3bot
+
+
 ## Structure
 A package is a self contained code where you define the configurations, the API endpoints, and your database models. It should have the same structure that we will go through in the upcoming sections
 ```

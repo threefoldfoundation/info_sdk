@@ -15,9 +15,9 @@ A 3Bot on your local machine requires the installation of an SDK. Please find th
 ##### Mac OSX
 For Mac OSX 
 
-Install packages (git, nginx, redis-server, tmux, python3) on MacOS
+Install packages (git, nginx, redis, tmux, python3, mkcert) on MacOS
  ```
- brew install nginx redis tmux git python3
+ brew install nginx redis tmux git python3 mkcert
  ```
 
 
@@ -57,6 +57,7 @@ This version of the SDK tries to be isolated as possible in case of developers o
 #### Running your 3Bot
 
 ##### using mkcert
+
 [mkcert](https://github.com/FiloSottile/mkcert) is optionally needed to trust the self signed certificates when used in local development environment. All you need to do is install it in your system under the name `mkcert` and do `mkcert -install`
 
 After the installation steps you should have an executable `threebot`
