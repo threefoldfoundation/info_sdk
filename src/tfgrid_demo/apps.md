@@ -9,4 +9,4 @@ Say goodbye to centralized, cloud-hosted applications. Of whether you need a P2P
 - [__Discourse__](discourse.md): an open source forum built to educate members about civil community engagement. 
 - [__Mattermost__](mattermost.md): an open source Slack-alternative messaging platform that enables secure team collaboration
 - [__Cryptpad__](cryptpad.md): a fully-secured, encrypted alternative to popular office tools and cloud services. 
-- [Blog] is a P2P alternative to Tumblr or Blogspot. 
+- [Blog](blog.md) is a P2P alternative to Tumblr or Blogspot. 

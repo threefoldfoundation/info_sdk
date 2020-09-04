@@ -16,7 +16,7 @@
     - [Solar Wallet](Solar_wallet.md)
  - [Try TF Grid Demo](getting_started_marketplace.md)
  - [Get a 3Bot](getting_started_3bot.md)
-- [TF Grid Demo](apps.md)
+- [TF Grid Demo](marketplace.md)
  - [Wiki](wiki.md)
  - [Website](website.md)
  - [Blog](blog.md)
