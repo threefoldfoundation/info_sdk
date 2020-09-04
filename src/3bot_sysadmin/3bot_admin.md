@@ -1,7 +1,5 @@
 # Admin panel overview
 
-![](./img/admin_start.png)
-
 The 3Bot admin panel is a versatile tool to administrate and control processes and activities of the TF Grid SDK.
 
 ### Home
@@ -9,6 +7,18 @@ The 3Bot admin panel is a versatile tool to administrate and control processes a
 Shows system versions, network, processes status, memory consumptions and some health checks
 
 ![./img/dashboard.png](./img/dashboard.png)
+
+
+### Wallets
+Your 3Bot comes in handy with a built-in [__3Bot Wallets__](3bot_wallet.md), listing all your existing 3Bot wallets, with the option to create a new wallet or import an existing ones. 
+
+Please go to [__3Bot Wallets__](3bot_wallet.md) to learn more.
+
+
+### Capacity Pools
+Your 3Bot comes in handy with a built-in [__Capacity Pools__](3bot_capacity_pools.md) reservation; a feature to reserve capacity on the grid to deploy your solutions on.
+
+Please go to [__Capacity Pools__](3bot_capacity_pools.md) to learn more.
 
 ### Logs
 Allows seeing logs per application
