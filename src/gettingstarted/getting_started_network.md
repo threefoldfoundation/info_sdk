@@ -16,7 +16,7 @@ The below chatflow is used to deploy a network on the grid and to connect to and
 
 ### Accessing the Solution
 
-Go to [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) and click on Network
+Go to your deployed hosted 3Bot's admin panel, and click on __Network__.
 
 ![solutions menu](./img/network_landing_page.png)
 
@@ -44,7 +44,7 @@ The solution takes some configurations from the user, we will list them and expl
 ![Step3](./img/network_3.png)
 
 Choose the expiration time of your reservation. Each capacity reservation made on the grid is always bound to an expiration date. Once the date is reached, the capacity is released back to the grid and your workloads deleted.
-As the marketplace is meant to get you a flavour of what the grid is capable to do, it only allows to reserve for a limited period. In the sdk, of course, there are no limits to the expiration date. 
+As the demo version is meant to get you a flavour of what the grid is capable to do, it only allows to reserve for a limited period. In the sdk, of course, there are no limits to the expiration date. 
 
 
 #### Select the Farm You Want to Deploy on

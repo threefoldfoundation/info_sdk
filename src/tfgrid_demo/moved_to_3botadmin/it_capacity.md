@@ -53,7 +53,7 @@ Open your stellar wallet and send the FreeTFT total amount to the IT Capacity re
 
 ![](./img/IT_CAPACITY6.png)
 
-Go back to the Marketplace page, click __next__ on the previous payment page to check if you have successfuly made the payment via your wallet. The screen would show the above instruction once the payment is successfully made. Please resend the payment via wallet if you did not do it successfully, or [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for payment assistance.
+Go back to the admin panel page, click __next__ on the previous payment page to check if you have successfuly made the payment via your wallet. The screen would show the above instruction once the payment is successfully made. Please resend the payment via wallet if you did not do it successfully, or [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for payment assistance.
 
 ### Click on 'Restart' to go back to the main 'Pool' Page
 

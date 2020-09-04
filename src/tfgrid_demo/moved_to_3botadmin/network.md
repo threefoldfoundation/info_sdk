@@ -2,7 +2,7 @@
 
 This chatflow is used to deploy a network on the grid and to connect your solutions together.
 
-To access it, go to [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) and select Network
+To access it, go to your hosted 3Bot Admin Panel, and select __Network__.
 
 ## Inputs
 

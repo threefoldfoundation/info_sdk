@@ -12,7 +12,8 @@ Before contributing to this repo, one should understand that this repo reflects 
   
   TF Grid 2.1 Manual, please create a pull request by comparing your working branch to 'development' for edits approval.
  
-2. [TF Grid 2.2 Testnet manual](manual-testnet.Threefold.io) - the manual for the [Marketplace (Testnet)](marketplace-testnet.grid.tf)
+2. [TF Grid 2.2 Testnet manual](manual-testnet.Threefold.io) - the manual for the [TF Grid Demo](demo.grid.tf) and [Hosted 3Bot (via 3Bot Deployer)](deploy3bot.grid.tf) on Testnet.
+
 
   __Production Branch: Development_testnet__
   

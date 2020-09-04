@@ -134,6 +134,6 @@ Insert your paste your Solar Testnet Wallet address on the given form and click 
 
 ![](./img/Solar/testnet_success.png)
 
-__Go back to your Solar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Testnet Marketplace__](marketplace.md)
+__Go back to your Solar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Demo__](marketplace.md)
 
 > If you have problem with adding FreeTFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).

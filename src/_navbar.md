@@ -6,6 +6,7 @@
  * [Conscious Internet Alliance](https://www.consciousinternet.org/index.html)
  * [Freeflow Nation](https://www.freeflownation.org/)
 * TF Grid Demo
- * [Testnet Grid Marketplace](http://marketplace-testnet.grid.tf/)
- * [Testnet Manual](http://manual-testnet.Threefold.io/)
+ * [TF Grid Demo](http://demo.grid.tf/)
+ * [3Bot Deployer](http://deploy3bot.grid.tf/)
+ * [TF Grid Manual](http://manual.Threefold.io/)
  * [TF Grid Simulator](simulator_configure.md)

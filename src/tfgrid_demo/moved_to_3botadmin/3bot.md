@@ -4,7 +4,7 @@ Deploy your 3Bot online. The 3Bot admin panel is a versatile tool to administrat
 
 ## Accessing the solution
 
-Go to [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf) and click on 3Bot
+Go to [TF Grid Demo 2.2](https://demo.grid.tf) and click on 3Bot
 
 ## Steps
 

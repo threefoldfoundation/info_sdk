@@ -54,7 +54,7 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 ### Log in onto TF Grid Demo
 
 Log into [TF Grid Demo](https://demo.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
-Please go to [**TF Grid Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the Marketplace.
+Please go to [**TF Grid Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the TF Grid Demo.
 
 
 

@@ -1,6 +1,6 @@
-# This document shows how to setup/migrate your Threefold Farm and 3Nodes using the marketplace
+# This document shows how to setup/migrate your Threefold Farm and 3Nodes using the hosted 3Bot
 
-Once you have created your 3bot using the marketplace, you could use it also to set up a farm and manage it. 
+Once you have created your hosted 3bot, you could use it also to set up a farm and manage it. 
 Go to the generated domain name and login using your 3Bot connect app. 
 
 ### 1. Choose your network using identities

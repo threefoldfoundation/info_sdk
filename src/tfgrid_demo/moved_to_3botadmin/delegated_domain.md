@@ -4,7 +4,7 @@ Delegate your domain to one of the TF gateways.
 
 ## Accessing the solution
 
-Go to [TF Grid Demo 2.2 Testnet](https://marketplace-testnet.grid.tf) and click on `Domain Delegation`.
+Go to your __hosted 3Bot__'s Admin Panel, and click on `Domain Delegation`.
 
 ## Steps
 

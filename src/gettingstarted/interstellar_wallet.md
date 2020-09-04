@@ -26,6 +26,6 @@ Go back to your dashboard, click on __"FreeTFT"__ , and click on __"receive"__ o
 
 Paste your wallet address, and the FreeTFT will be sent to your Stellar Wallet.
 
-__Go back to your Interstellar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Testnet Marketplace__](marketplace.md)
+__Go back to your Interstellar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Testnet Demo__](marketplace.md)
 
 > If you have problem with adding FreeTFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).

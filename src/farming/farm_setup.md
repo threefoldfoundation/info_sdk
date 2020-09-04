@@ -3,7 +3,7 @@
 
 This document shows how to set up/migrate your Threefold Farm and 3Nodes. 
 
-First your 3Bot should be up and running, either on the marketplace or on your local machine. In the 3Bot admin panel there is tooling available to set up a farm and manage it. 
+First your 3Bot should be up and running, either a hosted one, or the one manually installed on your local machine. On the 3Bot admin panel, there is tooling available to set up a farm and manage it. 
 Go to the generated domain name that hosts your 3Bot, and login using your 3Bot connect app. 
 
 ## Choose Your Network Using Identities
