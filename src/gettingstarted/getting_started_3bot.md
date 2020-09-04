@@ -6,5 +6,5 @@ __3Bot__ is your digital twin; a representative of yourself on top of the Threef
 
 There are 2 ways you could run a 3Bot on your computer: you could either run a __Hosted 3Bot__ online via your web browser, or for more advanced users, you could install and run a __Local 3Bot__ manually on your local machine.
 
-- Easy Set Up: [Create a hosted 3Bot](threebot.md)
+- Easy Set Up: [Create a hosted 3Bot](3bot_admin.md)
 - Advanced Set Up: [Create a 3Bot on your local machine](local_3bot.md)
