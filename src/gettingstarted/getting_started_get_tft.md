@@ -1,4 +1,4 @@
-# Claim FreeTFT for Testing TF Grid 2.2 (Demo)
+# Claim Your FreeTFT
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to claim their FreeTFT to start developing your solutions on top of the TF Grid. 
 

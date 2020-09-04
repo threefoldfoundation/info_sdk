@@ -1,6 +1,6 @@
 # TF Grid Demo 2.2 Testnet Log in Tutorial
 
-On this tutorial we will guide you on how to access the Marketplace by using your 3Bot ID as your username, and 3Bot Connect App as your authenticator.
+On this tutorial we will guide you on how to access the TF Grid DEMO 2.2 Platform by using your 3Bot ID as your username, and 3Bot Connect App on your mobile phone as your authenticator.
 
 
 ## Go to the Marketplace Homepage

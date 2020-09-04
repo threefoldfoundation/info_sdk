@@ -1,36 +1,41 @@
 ## Wiki Publisher
 
-Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) could be used to host wikis, websites, and blogs (you could find examples of deploymentns on manual.Threefold.io)
+Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) than aims to host an online encyclopedia-like platform on a P2P network environment. With a wiki, everyone can be their own publisher on top of the Threefold Grid and build a censor-free knowledge base platform for topics they are passionated about.
 
-### Steps to publish wiki
+### How to Publish a Wiki
 
-#### Add the solution name. Keep in mind it will also be the subdomain.
-Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
+#### Choose a Name for Your New Wiki
+Choose a name for your new Wiki. This will allow you to later on view and access your Wiki information on your 3Bot dashboard'S deployed solutions lists.
 ![](./img/wiki_1.png)
 
-#### Enter your wiki title, repo url and branch
+#### Enter your wiki Title, Repo, URL, and Branch
+
+> to do, explain why users need this?
+
 ![](./img/wiki_2.png)
 
-### Choose the expiration time
+### Choose the Expiration Time
 ![](./img/wiki_3.png)
 
-### Select the payment currency
+### Select the Payment Currency
 ![](./img/wiki_4.png)
 
-### Payment step for the container using 3Bot staging app.
+### Payment using 3Bot App (Staging)
 ![](./img/wiki_5.png)
 
-### Now your solution resources are being prepared
+### Preparing Your Wiki...
 ![](./img/wiki_6.png)
 
-### Summary of your deployment information
+### Wiki Deployment Confirmation
 ![](./img/wiki_7.png)
 
-### Deploying your solution.
+### Deploying Your Wiki...
 ![](./img/wiki_8.png)
 
-### Deployment successful, you could access your wiki now using the domain name.
+### Deployment Succeeded!
 ![](./img/wiki_9.png)
 
-### Accessing the solution
+### How to Access Your New Wiki
 ![](./img/wiki_10.png)
+You can access your new wiki by typinh your wiki's 'domain name' onto your web browser.
+

@@ -51,14 +51,14 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 > _Please note that FreeTFT does not hold any commercial value and is not meant to be used for a trading cryptocurrency._
  
 
-### Log in onto TF Grid Demo
+### TF Grid Demo Log In
 
-Log into [TF Grid Demo](https://demo.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
+Log into [**TF Grid Demo**](https://demo.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
 Please go to [**TF Grid Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the TF Grid Demo.
 
 
 
-### Get a __3Bot__
+### Get a 3Bot
 
 If you would like to deploy your own cloud infrastructure instead, you will need to get a 3Bot to start deploying your solutions on top of th TF Grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
 

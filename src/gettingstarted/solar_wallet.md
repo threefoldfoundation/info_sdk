@@ -1,10 +1,10 @@
-# How to Set up a Solar Wallet (Testnet)
+# Set up a Solar Wallet (Testnet)
 
 We will divide this tutorial into two sections:
-- Set up your Testnet Solar Wallet
+- Solar Wallet Sign Up
 - Add FreeFTT to your Testnet Solar Wallet
 
-## Set up your Testnet Solar Wallet
+## Solar Wallet Sign Up
 
 ![](./img/Solar/0_Solar_home.png)
 
