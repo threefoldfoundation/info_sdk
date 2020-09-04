@@ -25,7 +25,7 @@
  - [Discourse](discourse.md)
  - [Cryptpad](cryptpad.md)
  - [Taiga](taiga.md)
-- 3Bot (Hosted)(3bot.md)
+- [3Bot](Hosted)(3bot.md)
  - [3Bot Deployer](3Bot_deployer.md)
  - [Dashboard](3bot_admin.md)
  - [Wallets](3bot_wallet.md)
