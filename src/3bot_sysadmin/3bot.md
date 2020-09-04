@@ -1,1 +1,1 @@
-!!!include:gettingstarted:getting_started_3bot
+!!!include:getting started:getting_started_3bot
