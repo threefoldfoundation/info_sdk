@@ -1,1 +1,1 @@
-!!!include("/getting_started/getting_started_3bot.md")
+!!!include("threefoldfoundation:info_gridmanual:src/gettingstarted/getting_started_3bot.md")
