@@ -208,7 +208,7 @@ To start the wizard click the left menu on Solutions then Solution expose
 
 Congratulations!
 
-Once the payment is complete you have your website ready!!
+Once the payment is complete, you have your website ready.
 
 ![my first website full domain](my_first_website_full_domain.png)
 

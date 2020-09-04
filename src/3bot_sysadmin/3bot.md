@@ -1,1 +1,1 @@
-!!!include:getting started:getting_started_3bot
+!!!include:"getting_started/getting_started_3bot.md"
