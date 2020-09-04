@@ -9,12 +9,21 @@ Hi! Welcome to the __TF Grid 2.2 (Testnet) Manual__, a knowledge base for those 
 - [__Introduction__](learn.md)
 - [__Getting Started__](getting_started.md)
 - [__TF Grid Demo__](marketplace.md)
-- [__3Bot__](develop.md)
+- [__3Bot__](3bot.md)
+- [__Advance Development__](develop.md)
 
 
-The Manual is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [__Introduction__](learn.md) section. To learn all the basics you would need to deploy a solution on top of the TF Grid, head over to the [__Getting Started__](getting_started.md) section of the Manual. Feel free to check all available TF Grid solutions (demo) and easy deployment manuals via [__TF Grid Demo__](marketplace.md) section. If you're interested in more advanced technical hand-outs on cloud solution deployment using 3Bot, check out our [__3Bot__](develop.md) section. It will guide you from scratch to deploying your first cloud solution on the grid in a step by step procedure using provisioning codes and primitives.
+The Manual is sectioned into 5 major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [__Introduction__](learn.md) section.
 
-If you're looking for an introduction to Threefold in general, please go to our main [Threefold Wiki](wiki.Threefold.io) 
+To learn all the basics you would need to complete before deploying a solution on top of the TF Grid, head over to the [__Getting Started__](getting_started.md) section of the Manual. 
+
+Feel free to try deploying all available built-in TF Grid solutions (demo) and easy deployment manuals via [__TF Grid Demo__](marketplace.md) section. 
+
+If you're interested in deploying a cloud solution project on top of TF Grid (testnet), you would need to firstly run a 3Bot locally or online on a hosted environment. Feel free to check [__3Bot__](3bot.md) section to deploy a hosted 3Bot. 
+
+If you're interested in more advanced technical hand-outs on cloud solution deployment by using a 3Bot that is installed on a local machine, check out our [__Advance Development__](develop.md) guide section. It will guide you from scratch on how to run your local 3Bot and deploy first cloud solution on the grid by using a step-by-step procedure and primitives.
+
+If you're looking for an introduction to Threefold in general, please go to our main [__Threefold Wiki__](wiki.Threefold.io) 
 
 
 ## TF Grid: Where Are We Now?
