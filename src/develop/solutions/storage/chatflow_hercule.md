@@ -214,7 +214,7 @@ Select the proper network
 Give your deployment a name
 ![051](./img/051.jpeg)
 
-Use this Flist for a generic grafana solution `https://hub.grid.tf/azmy.3Bot/grafana-grafana-latest.Flist`
+Use this Flist for a generic grafana solution `https://hub.grid.tf/azmy.3bot/grafana-grafana-latest.Flist`
 ![052](./img/052.jpeg)
 
 Accept the default settings, but make sure to use HDD storage.

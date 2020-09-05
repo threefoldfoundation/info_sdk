@@ -37,8 +37,8 @@ As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. 
 
 Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 
- [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.3Botlogin&hl=en) <BR>
- [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
+[Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
+ [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
 
 
  ### Claim your FreeTFT 

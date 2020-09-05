@@ -16,15 +16,14 @@ Follow the steps below to set up your own 3Bot Connect and 3Bot ID (username):
  
 To use the 3Bot Connect App, you need to download it from __Apple Store__ or __Google Play Store__. 
 
- [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.3Botlogin&hl=en) <BR>
- [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3Bot-connect/id1459845885)
-
+ [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
+ [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
 
 ### Store Your Seed Phrase in a Safe Place
 
 In the future, these seed phrases are required to restore your wallet in case of lost devices or lost access to your 3Bot Connect App.
 
-![3Bot](./img/3Bot_seed_phrase.jpg ':size=400')
+![3Bot](./img/3bot_seed_phrase.jpg ':size=400')
 
 The seed phrase allows you to access and recover your 3Bot connect on any device. We highly recommend to write down your seed phrase on a paper and store it safely offline. The seed phrase is your only "key" to your 3Bot and 3Bot assets (not only digital currency but also all of the reservations, deployments and data storage on the peer2peer cloud). Threefold staff will not be able to assist you to recover your account on any case of forgotten password or seed phrase because we do not have any acess to your 3Bot account or private data.
 

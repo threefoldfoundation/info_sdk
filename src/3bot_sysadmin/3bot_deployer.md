@@ -1,6 +1,6 @@
-# Online / hosted 3Bot solution
+# Get a Hosted 3Bot
 
-Deploy your 3Bot online. The 3Bot admin panel is a versatile tool to administrate and control processes and activities of the TF Grid SDK.
+Simplifying the developer experience in the cloud has been a priority for Threefold since we launched the SDK in 2018. Deploy your 3Bot online. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on the Threefold Grid.
 
 ## Accessing the solution
 

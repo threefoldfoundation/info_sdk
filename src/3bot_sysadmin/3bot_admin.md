@@ -1,10 +1,11 @@
-# Admin panel overview
+# 3Bot Admin Panel Overview
 
-The 3Bot admin panel is a versatile tool to administrate and control processes and activities of the TF Grid SDK.
+The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on the Threefold Grid. As the features and capabilities of our product are expanding, we're taking great measure to make sure that your experience of running projects and solutions on top of the Threefold Grid is as intuitive and frictionless as possible.
 
-### Home
 
-Shows system versions, network, processes status, memory consumptions and some health checks
+### Dashboard
+
+ It provides “at-a-glance” visibility into active resources, Shows system versions, network, processes status, memory consumptions and some health checks
 
 ![./img/dashboard.png](./img/dashboard.png)
 
@@ -56,7 +57,7 @@ You could view the dashboard by navigating to `http://<host>/admin`.
 
 The dashboard is protected by 3Bot connect. To access it in the first place, the user should have started 3Bot server using their saved identity or their 3Bot name was added by the initial user giving them access to the dashboard.
 
-Giving admin access to other users could be done from `Settings` or admins could be added to `j.tools.3Bot.me.default.admins` via `jsng` shell:
+Giving admin access to other users could be done from `Settings` or admins could be added to `j.tools.threebot.me.default.admins` via `jsng` shell:
 
 ```python3
 j.core.identity.me.admins.append("ahmed.3Bot")

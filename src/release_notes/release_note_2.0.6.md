@@ -11,7 +11,7 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 - `--version` subcommand to see currently installed version
 - `update` subcommand to update to latest codebase
 - Building locally builds with current version
-- `3sdk container` simplified in non-expert mode to `3sdk 3Bot` and `3sdk simulator`
+- `3sdk container` simplified in non-expert mode to `3sdk threebot` and `3sdk simulator`
 - Show progress when starting a container
 - Simulator browser starting
 - 3sdk specify branch

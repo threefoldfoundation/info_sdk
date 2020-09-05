@@ -36,7 +36,7 @@ farm = explorer.farms.new()
 # name your farm
 farm.name = 'my_super_farm'
 # link the farm with your identity
-farm.3Bot_id = j.me.tid
+farm.threebot_id = j.me.tid
 # Instruction below is only for farms which already exist in version 1.x and need to be migrated to version 2.0 !
 # Specify the ItsYouOnline organization link to the farm
 farm.iyo_organization = 'my_super_farm_v1'

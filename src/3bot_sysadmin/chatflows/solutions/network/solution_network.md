@@ -22,7 +22,7 @@ The solution takes some configurations from the user, we will list them and expl
 
 ## User setup
 
-- register user 3Bot on explorer `kosmos "j.tools.3Bot.init_my_3Bot(name=3Bot_NAME,email=EMAIL)"` **Note**: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
+- register user 3Bot on explorer `kosmos "j.tools.threebot.init_my_3Bot(name=3Bot_NAME,email=EMAIL)"` **Note**: name of 3Bot is (your 3Bot name).3Bot , email is your 3Bot email
 - Install [wireguard](https://www.wireguard.com/install/)
 
 
