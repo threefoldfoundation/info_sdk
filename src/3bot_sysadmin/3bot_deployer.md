@@ -6,7 +6,6 @@ Simplifying the deployment experience on top of the Threefold Grid has been a pr
 
 Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
 
-## Steps
 
 ### Name Your 3Bot
 
@@ -14,7 +13,7 @@ This name will be used to identify this 3Bot. Keep in mind that this name would 
 
 ![](./img/threebot_1.png)
 
-### Select the branch of the SDK You Would Need to Use it With.
+### Select the branch of the SDK You Would Need to Use it With
 ![](./img/threebot_2.png)
 
 ### Select the Back Up & Restore Password
