@@ -13,7 +13,7 @@ This name will be used to identify this 3Bot. Keep in mind that this name would 
 
 ![](./img/threebot_1.png)
 
-### Select the branch of the SDK You Would Need to Use it With
+### Select the Branch of the SDK You Would Need to Use it With
 ![](./img/threebot_2.png)
 
 ### Select the Back Up & Restore Password
