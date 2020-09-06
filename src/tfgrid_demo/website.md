@@ -1,17 +1,17 @@
-## Website Publisher
+# Website Publisher
 
-Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the Threefold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress.
+Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the Threefold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own website by using the Website Publisher.
 
-### Publish a Website on Top of the Threefold Grid
+## Publish a Website on Top of the Threefold Grid
 
-#### Name Your Website Project
+### Name Your Website Project
 
-This name will be used to identify this website on your deployed websites' list on the 3Bot Admin Panel Dashboard.
+This name will be used to identify this website on your deployed websites' list on the 3Bot Admin Panel Dashboard. Keep in mind that this name would also be used as your website's subdomain (a part of your website's address).
 
 ![](./img/website_1.png)
 
 
-#### Add a Website Title, Repo URL and Branch
+### Add a Website Title, Repo URL and Branch
 
 ![](./img/website_2.png)
 
@@ -21,9 +21,10 @@ The expiration time determines how long you would want to keep this website aliv
 
 ![](./img/website_3.png)
 
-### Select the Payment Currency
+### Select Your Payment Currency
 
-Choose how you would like to pay for the internet capacity you're going to use to deploy your website
+Choose how you would like to pay for the internet capacity you're going to use to deploy your website.
+
 ![](./img/website_4.png)
 
 ### Pay for Your Capacity by using a Stellar Wallet
@@ -44,13 +45,13 @@ You will be shown a payment details as below. Send the required amount to the me
 
 ![](./img/website_8.png)
 
-### Final Deployment of You Website
+### Final Deployment of Your Website
 
 ### Congratulations, Your Website is Successfully Deployed!
 You could now access your new website by entering the website address mentioned below onto your web browser.
 ![](./img/website_10.png)
 
 
-The sample of the deployed website:
+An example of a successfully deployed website:
 
 ![](./img/website_11.png)
