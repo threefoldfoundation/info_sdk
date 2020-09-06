@@ -1,55 +1,72 @@
 # Get a Hosted 3Bot
 
-Simplifying the developer experience in the cloud has been a priority for Threefold since we launched the SDK in 2018. Deploy your 3Bot online. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on the Threefold Grid.
+Simplifying the deployment experience on top of the Threefold Grid has been a priority for Threefold since we launched the 3Bot SDK. We are now creating an even better, more user-friendly experience by allowing users to deploy their 3Bot online on a hosted environment. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on top of the Threefold Grid.
 
-## Accessing the solution
+## How to Deploy a Hosted 3Bot
 
-Go to [TF Grid Demo 2.2](https://demo.grid.tf) and click on 3Bot
+Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
 
 ## Steps
 
-Add the solution name.
-Keep in mind it will also be the subdomain.
+### Name Your 3Bot
+
+This name will be used to identify this 3Bot. Keep in mind that this name would also be used as your 3Bot's subdomain (a part of your 3bot's web address that will be used to access it).
+
 ![](./img/threebot_1.png)
 
-Select the branch of the sdk you need your solution with.
+### Select the branch of the SDK You Would Need to Use it With.
 ![](./img/threebot_2.png)
 
-Select the backup & restore password.
-Your solution has backup and restore you could access them through the dashboard.
+### Select the Back Up & Restore Password
+Your solution has a backup and restore feature accessible via 'dashboard'.
+
 ![](./img/threebot_3.png)
 
-Select the container expiration time.
+### Choose the 3Bot's Expiration Time
+
+The expiration time determines your preference on how long you would want to keep this 3Bot alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep the 3Bot online. No worries, you could always extend your 3Bot's living span by extending your capacity. 
+
 ![](./img/threebot_4.png)
 
-Select the payment currency
+### Select Your Payment Currency
+
+Choose how you would like to pay for the internet capacity you're going to use to deploy your 3Bot.
+
 ![](./img/threebot_5.png)
 
-Payment step for the container using 3Bot staging app.
+### Pay for Your Capacity by using a Stellar Wallet
+
+You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
+
 ![](./img/threebot_6.png)
 
-Wait until your payment transaction is finished
+### Wait Until Your Payment is Succeeded
+
 ![](./img/threebot_7.png)
 
-Now your solution resources are being prepared
+### Preparing Your Blog's Resources
+
 ![](./img/threebot_8.png)
 
-Summary of your deployment information
+### Summary of Your Deployment
 ![](./img/threebot_9.png)
 
-Deploying your online solution.
+### Final Deployment of Your 3Bot
 ![](./img/threebot_10.png)
 
-Deployment successful, you could access your 3Bot now using the domain name or the ip address.
+### Congratulations, Your 3Bot is Now Live!
+Congratulations, Your 3Bot has been successfully deployed. You could access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
 ![](./img/threebot_11.png)
 
-Go to the domain and sign in using 3Bot connect with the 3Bot identity you deployed your solution with.
-![](./img/threebot_12.png)
+Go to the web address mentioned and initialize your 3Bot by using the 3Bot Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
 
-You will find your admin dashboard and initial backup has been already made.
+### Access Your Dashboard
+You will be redirected to your main 3Bot Dashboard where your first initial backup is automatically made.
 ![](./img/threebot_13.png)
 
-You could now access codeserver, notebooks, farm management or any package.
+### Explore the 3Bot Admin Panel's Features
+You could now access all the features of your 3Bot, such as the Code Server, Python Notebooks, Farm Management, and many more. Feel free to click on [3bot Dashboard](3bot_dashboard.md) section to learn more about your hosted 3Bot features.
+
 ![](./img/threebot_14.png)
 
 ![](./img/threebot_15.png)
