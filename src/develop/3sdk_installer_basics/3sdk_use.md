@@ -2,9 +2,9 @@
 
 ## Get your 3Bot words
 
-You will be asked the mnemonic words from your 3Bot connect app during installation. Here is how to find them in the app:
+You will be asked the mnemonic words from your 3Bot Connect App during installation. Here is how to find them in the app:
 
-- From 3Botconnect application go to settings, then show phrase to get your mnemonics
+- From 3Bot Connect Application go to settings, then show phrase to get your mnemonics
 - Take a note of the 3Bot name and your email
 - When registering for the first time you could use these private words in your configurations
 - These words are needed, they are your private key.

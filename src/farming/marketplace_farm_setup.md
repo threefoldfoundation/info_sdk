@@ -12,7 +12,7 @@ Testnet url refers to `https://explorer.testnet.grid.tf`, mainnet url refers to 
 ![identity_list](./img/identity_list.png)
 ![identity_details](./img/identity_details.png)
 
-If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot connect app to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
+If you want to switch to a different identity you could create a new one from the `ADD` button on the identities tab where you need to provide the secret words from your 3bot Connect App to get a registered identity and you could choose the explorer type corresponding to the network you need. For `mainnet` you could choose `Main network`.
 
 ![new_identity_form](./img/new_identity_form.png)
 

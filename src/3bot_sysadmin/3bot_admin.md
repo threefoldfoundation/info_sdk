@@ -66,7 +66,7 @@ j.core.identity.me.save()
 ![admin_list](./img/admin_list.png)
 
 
-The user could also choose to use between multiple identities as long as that identity is registered from the 3Bot connect app. This could be done in the `Settings`as well.
+The user could also choose to use between multiple identities as long as that identity is registered from the 3Bot Connect App. This could be done in the `Settings`as well.
 ![identity_list](./img/identity_list.png)
 
 
