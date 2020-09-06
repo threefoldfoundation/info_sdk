@@ -2,7 +2,7 @@
 
 ![](./img/storage_compute.png)
 
-Hi! Welcome to the __TF Grid 2.2 (Testnet) Manual__, a knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid 2.2 Testnet Environment__ via [__TF Grid Demo__](demo.grid.tf) And [__3Bot__](deploy3bot.grid.tf) . 
+Hi! Welcome to the __TF Grid 2.2 (Testnet) Manual__, a knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid 2.2 Testnet Environment__ via [__TF Grid Demo__](https://demo.grid.tf/) And [__3Bot__](https://deploy3bot.grid.tf/) . 
 
 ## Navigate Your Way on the Manual
 
@@ -52,7 +52,7 @@ The latest versions of 0-OS (TF Grid’s operating system) and their associated 
 
 We’ve been working hard to make it even easier for projects to deploy solutions on top of the grid with the new __TF Grid Demo__; enabling projects to deploy solutions on a hosted environment. 
 
-Currently TF Grid Demo 2.1 is released on Mainnet. Our next release - __TF Grid 2.2__ - will include certain exciting features like the Capacity Pools- where you could order IT capacity on the dashboard for your project directly from the farms. This feature is currently only available on the [__3Bot System Administrator Panel__](deploy3bot.grid.tf). this is where we hope you could contribute as a __Testnet alpha tester__ and try to build your cloud solutions on. This manual is aimed to serve as your how-to on  easy solution deployment by using [__TF Grid Demo__](demo.grid.tf) (testnet).
+Currently TF Grid Demo 2.1 is released on Mainnet. Our next release - __TF Grid 2.2__ - will include certain exciting features like the Capacity Pools- where you could order IT capacity on the dashboard for your project directly from the farms. This feature is currently only available on the [__3Bot System Administrator Panel__](https://deploy3bot.grid.tf/). this is where we hope you could contribute as a __Testnet alpha tester__ and try to build your cloud solutions on. This manual is aimed to serve as your how-to on  easy solution deployment by using [__TF Grid Demo__](https://demo.grid.tf/) (testnet).
 
 ## Testnet vs MainNet
 

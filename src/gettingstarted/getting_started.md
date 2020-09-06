@@ -11,13 +11,13 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 ## After Basics: Try TF Grid Demo
 
-- Log in onto [__the TF Grid Demo__](demo.grid.tf) Testnet by using your 3Bot ID to access the solution deployment dashboard.
+- Log in onto [__the TF Grid Demo__](https://demo.grid.tf/) Testnet by using your 3Bot ID to access the solution deployment dashboard.
 - Try to deploy any solution you would like by clicking on one of them and starting the solution wizard.
 - Your solution will be deployed automatically after payment is successfuly made. For every solution deployed, a network and capacity pool reservation will be automatically created.
 
 ## After Basics: Deploy a 3Bot
 
-- Get a [__3Bot__](deploy3bot.grid.tf). 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+- Get a [__3Bot__](https://deploy3bot.grid.tf/). 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
 - Create a __Capacity Pool__ and reserve some IT capacity for your first workload on top of the TF Grid.
 - Deploy your first __Network__ to be able to connect to your __3Bot__.
 - Install __Wireguard__ and set up a __Wireguard Connection__; a VPN for running embedded interfaces on top of the grid.
