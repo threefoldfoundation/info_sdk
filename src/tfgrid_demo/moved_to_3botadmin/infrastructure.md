@@ -1,7 +1,7 @@
 
 # Infrastructure Solutions
 
-The hosted 3Bot gives you the possibility of deploying advanced open-source infrastructure components with the ease and simplicity like no other. Here are some of the open-source infrastructure components for computer applications, scaling, and management now made available for deployment via the hosted 3Bot, easily deployed online via the [3Bot Deployer](deploy3bot.grid.tf):
+The hosted 3Bot gives you the possibility of deploying advanced open-source infrastructure components with the ease and simplicity like no other. Here are some of the open-source infrastructure components for computer applications, scaling, and management now made available for deployment via the hosted 3Bot, easily deployed online via the [3Bot Deployer](https://deploy3bot.grid.tf/):
 
 
 - [__Network__](network.md): Deploy a network on the grid and to connect your solutions together.
