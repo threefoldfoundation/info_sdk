@@ -9,13 +9,13 @@ Simply click on each __alert message__ to see the detail of the issue report.
 
 ![](./img/alert_details.png)
 
-# The Alert Filtering Explained:
+## The Alert Filtering Explained:
 
-- ID: the unique ID Number for each issue report
-- Application: The original application or solution deployment process where the issue occured
-- Last Occurence: The last time when the particular issue was documented to occur
-- Type: The type of issue (system, operator, monitor, bug or question)
-- Category: Internal or External Error
-- Status: New, Open, Closed, or Reopened
-- Count: The frequency of issue occurence
-- Messages: The details of the issue.
+- __ID__: the unique ID Number for each issue report
+- __Application__: The original application or solution deployment process where the issue occured
+- __Last Occurence__: The last time when the particular issue was documented to occur
+- __Type__: The type of issue (system, operator, monitor, bug or question)
+- __Category__: Internal or External Error
+- __Status__: New, Open, Closed, or Reopened
+- __Count__: The frequency of issue occurence
+- __Messages__: The details of the issue.
