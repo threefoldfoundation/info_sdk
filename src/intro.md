@@ -64,36 +64,36 @@ We’ve been working hard to make it even easier for projects to deploy cloud in
 
 Since __hosted 3Bot__ is a newly-released feature at Threefold, this is where we hope you could contribute as a __TF Grid Alpha Tester__ and try to build your cloud infrastructure solutions on. This manual also aims to serve as your how-to guide on easy eopen-source solution deployment by using __TF Grid Demo__.
 
-## MainNet and Testnet Product Components
+## Mainnet and Testnet Product Components
 
 Below are the links of __TF Grid Product Components__ on both mainnet and testnet environments:
 
 ### MAINNET
 
 __TF Grid Demo__
-    - [demo.grid.tf](demo.grid.tf)
-    - [demo.grid.tf](demo2.grid.tf) (staging)
+- [demo.grid.tf](demo.grid.tf)
+- [demo.grid.tf](demo2.grid.tf) (staging)
 
 __3Bot Deployer__ (resulting on a 3Bot hosted on Main Net)
-    - [deploy3bot.grid.tf](deploy3bot.grid.tf)
-    - [deploy3bot2.grid.tf](deploy3bot2.grid.tf)
+- [deploy3bot.grid.tf](deploy3bot.grid.tf)
+- [deploy3bot2.grid.tf](deploy3bot2.grid.tf)
 
 __TF Capacity Explorer__
-    - [explorer.grid.tf](explorer.grid.tf)
+- [explorer.grid.tf](explorer.grid.tf)
 
 __Get FreeTFT__
-    - [getfreetft.threefold.io](getfreetft.threefold.io)
+- [getfreetft.threefold.io](getfreetft.threefold.io)
 
 ### TESTNET
 
 __TF Grid Demo__
-    -  [demo.testnet.grid.tf](demo.testnet.grid.tf)
+-  [demo.testnet.grid.tf](demo.testnet.grid.tf)
 
 __3Bot Deployer__ (resulting on a 3Bot hosted on Main Net)
-    - [deploy3bot.testnet.grid.tf](deploy3bot.testnet.grid.tf)
+- [deploy3bot.testnet.grid.tf](deploy3bot.testnet.grid.tf)
 
 __TF Capacity Explorer__
-    - [explorer.testnet.grid.tf](explorer.testnet.grid.tf)
+- [explorer.testnet.grid.tf](explorer.testnet.grid.tf)
 
 __Get FreeTFT__
-    - [getfreetft.testnet.threefold.io](getfreetft.testnet.threefold.io)
+- [getfreetft.testnet.threefold.io](getfreetft.testnet.threefold.io)
