@@ -1,29 +1,22 @@
 * [Home](intro.md)
 * [Introduction](learn.md)
-
  - [Cloud Intro](cloud_intro.md)
  - [Grid Intro](grid_intro.md)
  - [Farming Intro](farming_intro.md)
  - [Architecture](architecture.md)
-
     - [Node](architecture_3Node.md)
     - [Storage](architecture_storage.md)
     - [Network](architecture_network.md)
     - [Web Gateway](architecture_Webgateway.md)
     - [0-Container Virtual FS](architecture_Flist.md)
 * [Getting Started](getting_started.md)
-
  - [3Bot Connect App](3botconnect_install.md)
  - [Claim FreeTFT](getting_started_get_tft.md)
-
     - [Interstellar Wallet](interstellar_wallet.md)
     - [Solar Wallet](Solar_wallet.md)
-
  - [TF Grid Demo](getting_started_marketplace.md)
  - [Get a 3Bot](getting_started_3bot.md)
-
 * [TF Grid Demo](marketplace.md)
-
  - [Wiki](wiki.md)
  - [Website](website.md)
  - [Blog](blog.md)
@@ -32,23 +25,16 @@
  - [Discourse](discourse.md)
  - [Cryptpad](cryptpad.md)
  - [Taiga](taiga.md)
-
 * [3Bot](3bot.md)
-
  - [3Bot Deployer](3bot_deployer.md)
  - [Dashboard](3bot_admin.md)
  - [Wallets](3bot_wallet.md)
  - [Capacity Pools](3bot_capacity_pools.md)
-
     - [Create a Capacity Pool](3bot_capacity_new.md)
     - [Extend a Capacity Pool](3bot_capacity_extend.md)
-
  - [Solutions](solution_chatflows.md)
-
     - [Network](network.md)
-
          - [Deploy Your First Network](getting_started_network.md)
-
     - [Generic Container](solution_container.md)
     - [Kubernetes](solution_kubernetes.md)
     - [S3 Storage](solution_storage.md)
@@ -57,7 +43,6 @@
     - [Solution Expose](solution_expose.md)
     - [4 to 6 Gateway](four_to_six_gateway.md)
     - [Monitoring](monitoring.md)
-
  - [Deployed Workloads](3bot_deployed_workloads.md)
  - [Back Up](3bot_backup.md)
  - [Capacity Explorer](3bot_capacity_explorer.md)
@@ -69,9 +54,7 @@
  - [Logs](3bot_logs.md)
  - [Alerts](3bot_alerts.md)
  - [Settings](3bot_settings.md)
-
 * [Smart Contract For IT](smart_contract.md)
-
  - [Smart Contract Details](smartcontract_details.md)
  - [Container](capacity_container.md)
  - [Overlay Network](capacity_network.md)
@@ -84,9 +67,7 @@
  - [TCP Proxy](capacity_tcp_proxy.md)
  - [Reverse Tunnel TCP Proxy](capacity_reverse_tcp_proxy.md)
  - [IPv4 to IPv6 Gateway](capacity_gw4to6.md)
-
 * [Advanced Development](develop.md)
-
  - [Provisioning Code](code.md)
  - [Capacity Pools](code_pool.md)
  - [Network](code_network.md)
@@ -99,18 +80,14 @@
  - [Jumpscale](internals.md)
  - [ChatFlow](develop_chatflow.md)
  - [Flist](Flist.md)
-
 * [Farming Setup](farm_setup_management.md)
 * [Community Channels](community.md)
 * [Collaboration](collab.md)
 * [Release Notes](releasenotes.md)
-
  - [2.0.4 beta](release_note_2.0.4.md)
  - [2.0.5 beta](release_note_2.0.5.md)
  - [2.0.6 beta](release_note_2.0.6.md)
  - [2.1.0 beta](release_note_2.1.0.md)
-
 * [Legals](legal.md)
-
  - [Disclaimer](disclaimer.md)
  - [Terms & Conditions](terms_conditions.md)
