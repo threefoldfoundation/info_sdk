@@ -75,13 +75,30 @@ If you are not sure what to use, select Production.
 
 ![boostrap network selection](./img/bootstap_network.png)
 
-Lastly download the generated image. There are multiple format of image available. Pick the one most appropriate for your setup.
+Lastly download the generated image. There are multiple format of image available. Pick the one most appropriate for your setup (if you know what you are doing).
+
+We going to explain here the EFI method. So please click the `EFI Kernel` button
+
+![efi kernel](./img/select_image_format.png)
+
+Once the image is download, get a free usb flash disk. and prepare it as follows:
+
+* Make one primary partition
+* Make sure the partition is formatted as `FAT32` file system
+* Make sure both flags `boot` and `esp` are set on that partition.
+* Mount the usb stick on your PC and then copy the downloaded image to
+
+ `EFI/BOOT/BOOTX64.EFI`
+* Safely unplug your stick.
 
 You are now ready to boot your nodes!
 
 ### Start 3Node with Bootable Image
 
-After booting your 3Node, you should see something similar to 
+* Plug the USB stick to your node, make sure the BIOS is configured to boot from the USB stick
+* Power on your node.
+
+After booting your 3Node, you should see something similar to
 
 ![0-OS console interface](./img/zui.png)
 
