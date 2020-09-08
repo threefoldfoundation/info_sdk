@@ -32,7 +32,7 @@ Once the package is installed, the page will reload the `farm management` UI wil
 ### Create a TF Farm
 
 **Important**:
-Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. If you want to learn more about the difference and how to configure your 3Bot to use one or the other, have a look at [Grid Networks]() TODO the section of the manual.
+Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. If you want to learn more about the difference and how to configure your 3Bot to use one or the other, have a look at [3Bot settings](3bot_settings.md#manage-identities) the section of the manual.
 
 Now that your 3Bot is properly configured, you are ready to create your farm. To create a new farm, click the little plus button on the top left corner:
 
