@@ -3,7 +3,7 @@
 - [Definitions](definitions.md)
 - [Disclaimer](disclaimer.md)
 - [Privacy Policy](privacypolicy.md)
-- [Terms & Conditions Grid](termsconditions.md): needs work
+- [Terms & Conditions Grid](terms_conditions.md)
 
 Our single source of truth for our legal docs is on https://github.com/threefoldfoundation/legal/tree/master/src
 
