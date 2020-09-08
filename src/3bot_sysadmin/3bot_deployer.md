@@ -11,24 +11,24 @@ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
 
 This name will be used to identify this 3Bot. Keep in mind that this name would also be used as your 3Bot's subdomain (a part of your 3bot's web address that will be used to access it).
 
-![](./img/threebot_getname.png)
+![](./img/threebot_1_getname.png)
 
 ### Select the Back Up & Restore Password
 Your solution has a backup and restore feature accessible via 'dashboard'.
 
-![](./img/threebot_recovery_secret_key.png)
+![](./img/threebot_1a_recovery_secret_key.png)
 
 ### Choose the 3Bot's Expiration Time
 
 The expiration time determines your preference on how long you would want to keep this 3Bot alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep the 3Bot online. No worries, you could always extend your 3Bot's living span by extending your capacity. 
 
-![](./img/threebot_choose_expiry.png)
+![](./img/threebot_2_expiry.png)
 
 ### Select Your Payment Currency
 
 Choose how you would like to pay for the internet capacity you're going to use to deploy your 3Bot.
 
-![](./img/threebot_select_currency.png)
+![](./img/threebot_3_select_currency.png)
 
 ### Pay for Your Capacity by using a Stellar Wallet
 
@@ -37,21 +37,21 @@ You will be shown a payment details as below. Send the required amount to the me
 If you are working on the mainnet of the Threefold grid, TFT are to be used for payment on the Stellar mainnet. 
 The testnet of the TFGrid is connected to the Stellar testnet, so also testnet tokens are to be used. 
 
-![](./img/threebot_pay.png)
+![](./img/threebot_4_pay.png)
 
 ### Wait Until Your Payment is Succeeded
 
-![](./img/threebot_process_payment.png)
+![](./img/threebot_5_process_payment.png)
 
 ### After payment, the 3Bot creation, deployment and initialization process starts
 
-![](./img/threebot_deploy.png)
-![](./img/threebot_deploy.png)
-![](./img/threebot_deploy.png)
+![](./img/threebot_6_3bot_setup.png)
+![](./img/threebot_7_3bot_deploy.png)
+![](./img/threebot_8_3bot_init.png)
 
 ### Congratulations, Your 3Bot is Now Live!
 Congratulations, Your 3Bot has been successfully deployed. You could access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
-![](./img/threebot_deploy_success.png)
+![](./img/threebot_9_deploy_success.png)
 
 Go to the web address mentioned and initialize your 3Bot by using the 3Bot Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
 
