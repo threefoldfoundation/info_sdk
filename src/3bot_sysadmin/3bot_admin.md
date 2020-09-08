@@ -2,12 +2,17 @@
 
 The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on the Threefold Grid. As the features and capabilities of our product are expanding, we're taking great measure to make sure that your experience of running projects and solutions on top of the Threefold Grid is as intuitive and frictionless as possible.
 
+The admin panel has 2 viewing options, light and dark mode. You can switch between both using the slider on the top bar. 
+
+### Sidebar
+
+The sidebar allows to navigate between the different features offered within this admin panel. 
 
 ### Dashboard
 
  It provides “at-a-glance” visibility into active resources, Shows system versions, network, processes status, memory consumptions and some health checks
 
-![./img/dashboard.png](./img/dashboard.png)
+![./img/threebot_admin_dashboard.png](./img/threebot_admin_dashboard.png)
 
 
 ### Wallets
