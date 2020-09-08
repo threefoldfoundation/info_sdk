@@ -32,9 +32,9 @@ Easy way to install/stop packages available on the filesystem or from a trusted 
 
 ### CodeServer code editor
 
-If you want to edit code from the dashboard directly you could do so using CodeServer package
+If you want to edit code from the dashboard directly you could do so using CodeServer package.
 
-![codeserver](./img/codeserverterminal.png)
+![codeserver](./img/3bot_admin_codeserver.png)
 
 ### Logs
 Allows seeing logs per application.
