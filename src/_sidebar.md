@@ -9,7 +9,7 @@
     - [Network](architecture_network.md)
     - [Web Gateway](architecture_Webgateway.md)
     - [0-Container Virtual FS](architecture_Flist.md)
-* [Getting Started](getting_started.md)
+* [Getting Started](getting_started_all.md)
  - [Start on MainNet](getting_started_mainnet.md)
     - [Get 3Bot Connect](mainnet_3botconnect.md)
     - [Get a Stellar Wallet](mainnet_stellar.md)
