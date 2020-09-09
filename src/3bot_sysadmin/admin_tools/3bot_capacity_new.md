@@ -21,6 +21,9 @@ More precisely, 1 CU corresponds to 1 core and 4 GB of RAM.
 
 Feel free to go to [__Grid Concept__](https://wiki.threefold.io/#/grid_concepts?id=some-examples-of-cu-and-su-in-detail) section of TF Grid Wiki to learn more about Cloud Units.
 
+Specify also the __Pools Time-to-live__. 
+Remark: this is a theoretical value. It assumes that the fully reserved capacity is depleted after the indicated number of units and under the condition that the capacity is fully used. In practice, only the capacity that is consumed by deployed IT workloads reduces the counter. 
+
 After you specified your workload demand, choose the token you intend to pay with.
 
 Remark: FreeTFT are free tokens, but also only give access to the nodes that can be paid with this token. So it gives access to only a subset of the grid. In the [TF Grid explorer](https://explorer.grid.tf) there is an indication of which nodes can be paid with FreeTFT. 
@@ -31,7 +34,7 @@ Remark: FreeTFT are free tokens, but also only give access to the nodes that can
 
 ![](./img/3bot_capacity_new_select_farm.png)
 
-Please keep in mind that on testnet we only listed one 'demo farm' as a farm to reserve testnet IT Capacity from. On a mainnet environment there would be more than one farm available to choose from, you would eventually be able to choose to reserve IT Capacity from one of your preferred farms.
+Please keep in mind that capacity on testnet is limited. We only listed one 'demo farm' as a farm to reserve testnet IT Capacity from. On a mainnet environment there are many farms available to choose from, you would eventually be able to choose to reserve IT capacity from one of your preferred farms.
 
 ### Prepare to Pay for the Reserved IT Capacity
 
