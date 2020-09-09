@@ -8,6 +8,8 @@ The admin panel has 2 viewing options, light and dark mode. You can switch betwe
 
 The sidebar allows to navigate easily between the different features offered within this admin panel. Each of the features is shortly explained below and in this wiki. 
 
+![](./img/3bot_admin_sidebar.png)
+
 ### Dashboard
 
  It provides “at-a-glance” visibility into active resources, shows system versions, network (testnet, mainnet), processes status, memory consumptions, pools and some health checks. 
@@ -32,9 +34,9 @@ Easy way to install/stop packages available on the filesystem or from a trusted 
 
 ### CodeServer code editor
 
-If you want to edit code from the dashboard directly you could do so using CodeServer package
+If you want to edit code from the dashboard directly you could do so using CodeServer package.
 
-![codeserver](./img/codeserverterminal.png)
+![codeserver](./img/3bot_admin_codeserver.png)
 
 ### Logs
 Allows seeing logs per application.

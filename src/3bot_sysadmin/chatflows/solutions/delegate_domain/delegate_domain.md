@@ -1,14 +1,14 @@
 # Delegate Domain
 
 Our grid provides functionality to delegate subdomains of your domains allowing us to create subdomain for your solutions [see](exposed.md).
-Todo this you will need to configure your dns manager. In your dns manager you will need to add a `ns` record pointing to the dns_server of the chosen gateway.
-The chatflow will also instruct you todo so.
+To do this you will need to configure your dns manager. In your dns manager you will need to add a `ns` record pointing to the dns_server of the chosen gateway.
+The chatflow will also instruct you to do so.
 
-First you will be instructed to provide your domain name and the gateway you wish to delgate your domain on
+First you will be instructed to provide your domain name and the gateway you wish to delegate your domain on
 
 ![Choose Domain](./img/choose_domain.png)
 
-Next you will be asked to choose for how long you want to delgate your domain
+Next you will be asked to choose for how long you want to delegate your domain
 
 ![Expiration](./img/reservation_domain_delegation.png)
 
