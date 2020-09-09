@@ -99,11 +99,15 @@ You are now ready to boot your nodes!
 - Plug the USB stick to your node, make sure the BIOS is configured to boot from the USB stick
 - Power on your node.
 
+When the 3Node is booting you should see something like this:
+
+![0-OS during boot](./img/zos-during-boot.png)
+
 After booting your 3Node, you should see something similar to:
 
 ![0-OS console interface](./img/zui.png)
 
-Note: if you have an AMD gpu you will probabaly not see something like in the image above. Instead there will be a black screen with white text about drivers etc. This is a known issue and does not affect your node's status. You can assume your node is up and running when you see this.
+> Note: if you have an AMD gpu you will probabaly not see something like in the image above. Instead you will something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
 
 If you go back to your farm management page, you should also see your nodes being part of your farm.
 
