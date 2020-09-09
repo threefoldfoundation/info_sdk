@@ -8,7 +8,7 @@ The admin panel has 2 viewing options, light and dark mode. You can switch betwe
 
 The sidebar allows to navigate easily between the different features offered within this admin panel. Each of the features is shortly explained below and in this wiki. 
 
-![](./img/threebot_admin_sidebar.png)
+![](./img/3bot_admin_sidebar.png)
 
 ### Dashboard
 
