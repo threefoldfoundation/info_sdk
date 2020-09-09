@@ -79,14 +79,14 @@ If you are not sure what to use, select Production.
 
 Lastly download the generated image. There are multiple formats of images available. Pick the one most appropriate for your setup (if you know what you are doing).
 
-We going to explain here the EFI Usb method. So please click the `USB Image` button
+We going to explain here the EFI Usb method. So please click the `USB Image` button on the `EFI USB` section
 
 ![efi usb](./img/efi-usb-option.png)
 
 Once the image is download, get a free usb flash disk and prepare it as follows:
 
-* Remove all existing partitions from the usb.
-* Execute: `dd if=/path/to/image of=/path/to/usb`
+* Remove all existing partitions from the usb (it could be optional)
+* Execute: `dd if=/path/to/image of=/path/to/usb conv=sync` (eg: `dd if=uefimg-prod.img of=/dev/sdb1 conv=sync` )
 * Plug out the USB drive when it's done copying.
 
 ### Start 3Node with Bootable Image
