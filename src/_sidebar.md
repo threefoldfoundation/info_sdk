@@ -13,7 +13,7 @@
  - [Start on MainNet](getting_started_mainnet.md)
     - [Get 3Bot Connect](mainnet_3botconnect.md)
     - [Get a Stellar Wallet](mainnet_stellar.md)
-         - [3Bot Wallet](mainnet_wallet.md)
+         - [3Bot Wallet](mainnet_3bot_wallet.md)
          - [Interstellar Wallet](mainnet_interstellar.md)
          - [Solar Wallet](mainnet_Solar.md)
    - [Claim Your FreeTFT](mainnet_freetft.md)
