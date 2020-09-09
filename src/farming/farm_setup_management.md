@@ -81,25 +81,29 @@ If you are not sure what to use, select Production.
 
 Lastly download the generated image. There are multiple formats of images available. Pick the one most appropriate for your setup (if you know what you are doing).
 
-We going to explain here the EFI method. So please click the `EFI Kernel` button
-![efi kernel](./img/select_image_format.png)
+We going to explain here the EFI Usb method. So please click the `USB Image` button
+![efi usb](./img/efi-usb-option.png)
 
 Once the image is download, get a free usb flash disk and prepare it as follows:
-- Make one primary partition.
-- Make sure the partition is formatted as `FAT32` file system.
-- Make sure both flags `boot` and `esp` are set on that partition.
-- Mount the usb stick on your PC and then copy the downloaded image to
-`EFI/BOOT/BOOTX64.EFI`.
-- Safely unplug your stick.
-
-
-You are now ready to boot your nodes!
+- Remove all existing partitions from the usb.
+- Execute: `dd if=/path/to/image of=/path/to/usb`
+- Plug out the USB drive when it's done copying.
 
 ### Start 3Node with Bootable Image
-- Plug the USB stick to your node, make sure the BIOS is configured to boot from the USB stick
+- Plug the USB stick into your node.
 - Power on your node.
+- Get into the BIOS and select the USB as boot option #1.
 
-When the 3Node is booting you should see something like this:
+In this example we flashed the image to `Generic flash disk 8.07`. We select this option.
+![0-OS during boot](./img/bios-setting-zos.jpg)
+
+Close the BIOS with `Save & Exit`
+
+When the reset happens you should see the following. When your 3Node is successfully connected to the internet it will start downloading the Zero-Os image.
+
+![0-OS before boot](./img/zos-before-boot.jpg)
+
+When the 3Node has downloaded the Zero-OS image it will start booting and you should see something like this:
 
 ![0-OS during boot](./img/zos-during-boot.png)
 
