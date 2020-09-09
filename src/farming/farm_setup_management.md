@@ -14,8 +14,6 @@ If you have any questions head to your [Farming Section on the Forum](https://fo
 
 ## Set up a farm
 
-This document shows how to set up your Threefold Farm and 3Nodes. 
-
 ### Prerequisite
 
 This document assume you have a 3Bot up and running. If you don't have one yet, head to the [Get a 3Bot section](getting_started_3bot.md) of this manual before continuing.
@@ -29,7 +27,7 @@ Then click `Install required packages` button
 
 Once the package is installed, the page will reload the `farm management` UI will appear.
 
-### Create a TF Farm
+### Create a Farm
 
 **Important**:
 Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. If you want to learn more about the difference and how to configure your 3Bot to use one or the other, have a look at [3Bot settings](3bot_settings.md#manage-identities) the section of the manual.
