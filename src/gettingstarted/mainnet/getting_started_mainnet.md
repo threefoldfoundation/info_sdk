@@ -7,7 +7,7 @@
 
 To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
 - Get [__3Bot Connect App__](mainnet_3botconnect.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the Threefold Grid.
-- Get a hosted __3Bot__via [__3Bot Deployer__](mainnet_3bot.md).
+- Get a hosted __3Bot__ via [__3Bot Deployer__](mainnet_3bot.md).
 - Log in to your __3Bot__.
 - Get some [__TFT__](mainnet_gettft.md) to reserve IT Capacity and pay for your workload on top of the TF Grid
 
