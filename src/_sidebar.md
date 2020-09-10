@@ -22,7 +22,7 @@
          - [Interstellar Wallet](interstellar_wallet.md)
          - [Solar Wallet](Solar_wallet.md)
     - [Get 3Bot Testnet](getting_started_3bot.md)
-    - [Get TFT Testnet](getting_started_gettft.md)
+    - [Get TFT Testnet](get_tft_testnet.md)
     - [Try TF Grid Demo](getting_started_marketplace.md)
 * [TF Grid Demo](marketplace.md)
  - [Wiki](wiki.md)
