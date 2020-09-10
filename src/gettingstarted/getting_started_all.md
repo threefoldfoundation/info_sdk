@@ -1,8 +1,8 @@
 # Getting Started
 
-To get started and deploy a solution on top of the TF Grid, you would need to first figure out of whether you would like to build on top of the __TF Grid Testnet__ or __TF Grid Mainnet__. In brief, The TF Grid mainnet is the product we're launching for widescale use, and the testnet is the network used to test all the functionality of the mainnet. 
+To get started and deploy a solution on top of the TF Grid, you would need to first figure out of whether you would like to build on top of the __TF Grid Testnet__ or __TF Grid Mainnet__. In brief, The TF Grid Mainnet is the product we're launching for widescale use, and the Testnet is the network used to test all the functionality of the Msainnet. 
 
-please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now)section on the homepage to learn more in depth about TF Grid's current state of releases and the difference in between TF Grid Mainnet and Testnet.
+please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now) section on the homepage to learn more in depth about TF Grid's current state of releases and the difference in between TF Grid Mainnet and Testnet.
 
 With that in mind, we have prepared a detailed guidance for the two separate cases.
 
