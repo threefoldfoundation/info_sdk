@@ -5,8 +5,8 @@
  * [TF Blogs](https://blog.Threefold.io/)
  * [Conscious Internet Alliance](https://www.consciousinternet.org/index.html)
  * [Freeflow Nation](https://www.freeflownation.org/)
-* TF Grid Demo
- * [TF Grid Demo](http://demo.grid.tf/)
+* TF Grid
  * [3Bot Deployer](http://deploy3bot.grid.tf/)
+ * [TF Grid Demo](http://demo.testnet.grid.tf/)
  * [TF Grid Manual](http://manual.Threefold.io/)
  * [TF Grid Simulator](simulator_configure.md)
