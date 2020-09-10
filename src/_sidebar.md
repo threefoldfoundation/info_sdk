@@ -16,7 +16,7 @@
          - [3Bot Wallet](mainnet_3bot_wallet.md)
          - [Interstellar Wallet](mainnet_interstellar.md)
     - [Get 3Bot](mainnet_3bot.md)
-    - [Get TFT](mainnet_gettft.md)
+    - [Get and Store TFT](mainnet_gettft.md)
  - [Start on TestNet](getting_started_testnet.md)
     - [Get 3Bot Connect](3botconnect_install.md)
     - [Get Stellar Wallet](testnet_stellar.md)
