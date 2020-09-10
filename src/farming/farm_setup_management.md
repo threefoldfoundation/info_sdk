@@ -58,6 +58,10 @@ Notice the first column of the table: ID. This is your farm ID, write this down 
 
 ![farm table](./img/farm_table.png)
 
+You can also check with an API call if your farm is successfully created.
+- Mainnet: https://explorer.grid.tf/explorer#api-Farms-getFarm
+- Testnet: https://explorer.testnet.grid.tf/explorer#api-Farms-getFarm
+
 ### Create a Bootable Image
 
 At this point you should have created your farm and noted its ID. The next step is to generate a bootable image of 0-OS to boot your nodes.
