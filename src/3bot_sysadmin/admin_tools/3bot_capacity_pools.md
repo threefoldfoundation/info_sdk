@@ -8,4 +8,4 @@ You could directly order the capacity from your chosen farms, simply by putting 
 
 Basically, the capacity pool is a pre-allocation of hardware capacity to run your workloads on afterwards. You pay for this capacity during reservation but you 'consume' the capacity only after deployment of workloads. This way, you only pay for the capacity that is really consumed. 
 
-In the admin panel you can [create](./3bot_capacity_new.md) a new capacity pool or [extend](./3bot_capacity_extend) an existing one.
+In the admin panel you can [create](3bot_capacity_new.md) a new capacity pool or [extend](./3bot_capacity_extend) an existing one.
