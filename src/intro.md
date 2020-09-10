@@ -2,7 +2,7 @@
 
 ![](./img/storage_compute.png)
 
-Hi! Welcome to the __TF Grid Manual__, a knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid__ via [__TF Grid Demo__](https://demo.grid.tf/), [__Hosted 3Bot__](https://deploy3bot.grid.tf/) or a [__Local 3Bot__](local_3bot.md). 
+Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid__ via [__TF Grid Demo__](https://demo.testnet.grid.tf/), [__Hosted 3Bot__](https://deploy3bot.grid.tf/) or a [__Local 3Bot__](local_3bot.md). 
 
 ## Navigate Your Way on the Manual
 
@@ -70,10 +70,6 @@ Below are the links of __TF Grid Product Components__ on both mainnet and testne
 
 ### MAINNET
 
-__TF Grid Demo__
-- [demo.grid.tf](demo.grid.tf)
-- [demo.grid.tf](demo2.grid.tf) (staging)
-
 __3Bot Deployer__ (resulting on a 3Bot hosted on Main Net)
 - [deploy3bot.grid.tf](deploy3bot.grid.tf)
 - [deploy3bot2.grid.tf](deploy3bot2.grid.tf)
@@ -95,5 +91,5 @@ __3Bot Deployer__ (resulting on a 3Bot hosted on Main Net)
 __TF Capacity Explorer__
 - [explorer.testnet.grid.tf](explorer.testnet.grid.tf)
 
-__Get FreeTFT__
-- [getfreetft.testnet.threefold.io](getfreetft.testnet.threefold.io)
+__Get TFT__
+- [gettft.testnet.threefold.io](gettft.testnet.threefold.io)
