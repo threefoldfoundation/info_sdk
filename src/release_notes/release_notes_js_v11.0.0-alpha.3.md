@@ -47,7 +47,6 @@
     - stellar stats
     - tfgrid solutions
     - weblibs
-
  - auto backup/restore of 3Bots
  - over provisioning & test cert to be configured from settings page
  - sanity checks on deployments
@@ -61,8 +60,7 @@
  - much documentation
 
 
-
-and fixes:
+#### and fixes:
  - refund failed deployments
  - ipv6 broken configs
  - solutions listing
