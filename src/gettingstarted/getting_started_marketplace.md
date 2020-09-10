@@ -6,7 +6,7 @@ On this tutorial we will guide you on how to access the TF Grid DEMO 2.2 Platfor
 ## Go to the Marketplace Homepage
 
 ![](./img/login_authenticate.png)
-Go to [TF Grid Demo Testnet 2.2](https://marketplace-testnet.grid.tf/) and click on __'Sign in with 3Bot Connect'__ and follow further instruction below.
+Go to [TF Grid Demo Testnet 2.2](https://demo.testnet.grid.tf/) and click on __'Sign in with 3Bot Connect'__ and follow further instruction below.
 
 
 ## Sign in using your 3Bot ID (Username)
@@ -31,10 +31,8 @@ Open 3Bot Connect App on your mobile phone and click on the matching icon as sho
 
 Once succeeded, you will be shown above notification on your mobile phone and you will be automatically redirected to the TF Grid Demo 2.2 Testnet Dashboard.
 
-![](./img/login_authenticate3.png)
+![](./img/demo_marketplace_homepage.png)
 
-Congratulations! you're now able to access the Marketplace and you are ready to move onto the next step: [Deploy your first Network](getting_started_network.md)
-
-> Next: [Claim your FreeTFT](getting_started_get_tft.md)
+Congratulations! you're now able to access the demo Marketplace
 
 
