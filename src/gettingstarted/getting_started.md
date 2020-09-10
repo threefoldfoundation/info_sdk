@@ -6,7 +6,7 @@
 
 To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
 - Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the Threefold Grid.
-- Get A __Stellar Wallet__. Get a wallet that are aceppt Threefold Tokens transactions (FreeTFT, TFT or TFTA)
+- Get A __Stellar Wallet__. Get a wallet that accepts Threefold Tokens (TFT, FreeTFT or TFTA)
 - Claim your __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
 
 ## After Basics: Try TF Grid Demo
