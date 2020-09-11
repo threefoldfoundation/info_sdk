@@ -80,3 +80,8 @@ After the installation steps you should have an executable `threebot`
 - After success you could visit the admin dashboard at https://localhost:8443/admin and start creating reservations
 
  ![configure](./img/success.png)
+
+#### Cleaning up Data from previous installations
+
+- Data is stored in `~/.config/jumpscale/secureconfig/jumpscale`. if you want to start over, you can remove that directory using `rm ~/.config/jumpscale/secureconfig/jumpscale`
+- There're also some configurations that gets generated e.g (nginx configurations), logs and binaries when copied in `~/sandbox` directory 
