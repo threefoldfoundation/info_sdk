@@ -4,9 +4,10 @@ __3Bot__ is your digital twin; a representative of yourself on top of the Threef
 
 ![](./img/hosted3bot.png)
 
-There are 2 ways you could run a 3Bot on mainnet network on your computer: you could either run a __Mainnet Hosted 3Bot__ online via your web browser, or for more advanced users, you could install and run a __Mainnet Local 3Bot__ manually on your local machine.
+There are 2 ways you could run a 3Bot on Mainnet network: you could either run a __Mainnet Hosted 3Bot__ online via your web browser, or for more advanced users, you could install and run a __Mainnet Local 3Bot__ manually on your local machine.
 
-To deploy a mainnet hosted 3Bot online, you would need to follow a deployment tutorial and go to the Mainnet 3Bot deployer website. To deplpy a mainnet local 3Bot on your computer, you would need to follow a tutorial on setting up a local 3Bot locally on main network.
+To deploy a mainnet hosted 3Bot online, you would need to follow a deployment tutorial and go to the __Mainnet 3Bot Deployer__ website. To deploy a Mainnet Local 3Bot on your computer, you would need to follow a tutorial on setting up a local 3Bot locally on main network.
 
-- Easy Set Up: Get __a Mainnet Hosted 3Bot__ using [3bot Deployer](3bot_deployer.md)
-- Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](local_3bot.md)
+> Easy Set Up: [Get __a Mainnet Hosted 3Bot__ using __3bot Deployer__](3bot_deployer.md)
+
+> Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](local_3bot.md)
