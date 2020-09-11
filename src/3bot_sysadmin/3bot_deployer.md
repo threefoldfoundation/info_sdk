@@ -4,15 +4,23 @@ Simplifying the deployment experience on top of the Threefold Grid has been a pr
 
 ## How to Deploy a Hosted 3Bot
 
-- For mainnet hosted 3Bot Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
-- For testnet hosted 3Bot Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf)
+- For __Mainnet hosted 3Bot__ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
+- For __Testnet hosted 3Bot__ Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf)
+
+> IMPORTANT: Please keep in mind that the Mainnet 3Bot and Testnet 3Bot live on two different networks. The 3Bot you would need would depend on your network preference (testnet or mainnet). The two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet.
 
 ### Difference between 3Bot on Mainnet and 3Bot on Testnet
-- Testnet 3Bot is meant for testing and playing around. uses no real value token (Testnet TFT) and limited by the resources of testnet network and mainly used for testing things out)
-- Mainnet 3Bot is using real tokens with value on TFGrid 
 
-You get the same experience, but your 3bot will object to limitation on testnet network.
+In brief, The TF 3Bot Mainnet is the 3Bot that is living on our main network, launched for commercially widescale use where users reserve capacity with TFT. Meanwhile the Testnet 3bot is the 3Bot living in a test network, created to test all the functionality of the Mainnet, where IT Capacity reservation transactions are done using testnet TFT that does not hold any commercial value and made for testing purposes only. 
 
+As a user, you would get the same taste of 3Bot experience on both networks, but your 3Bot will object to limitation of testing environment and testing mode on testnet network.
+
+> please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now) section on the homepage to learn more in depth about TF Grid's current state of releases and the difference in between TF Grid Mainnet and Testnet.
+
+
+ ## Deploy a Hosted 3Bot
+
+ After choosing your network preference for the 3Bot deployer, you are now ready to start deploying a 3Bot by followinng these steps below.
 
 ### Name Your 3Bot
 
