@@ -1,6 +1,6 @@
 # Application Solutions
 
-Say goodbye to centralized, cloud-hosted applications. Of whether you need a P2P alternative to a website, a forum, or a video platform for your project; by connecting your 3Bot ID to the [TF Grid Demo 2.2](httpsd://demo.grid.tf/), you could now deploy these open-source solutions below, on top of the TF Grid within just a few clicks.
+Say goodbye to centralized, cloud-hosted applications. Of whether you need a P2P alternative to a website, a forum, or a video platform for your project; by connecting your 3Bot ID to the [TF Grid Demo 2.2](httpsd://demo.testnet.grid.tf/), you could now deploy these open-source solutions below, on top of the TF Grid within just a few clicks.
 
 - [__3Bot__](3bot.md): a versatile tool to administrate and control processes and activities of your solutions on top of the TF Grid.
 - [__Wiki__](wiki.md): an online encyclopedia accessible via an IP and a public domain.

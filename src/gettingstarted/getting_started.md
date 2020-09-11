@@ -11,7 +11,7 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 ## After Basics: Try TF Grid Demo
 
-- Log in onto [__the TF Grid Demo__](https://demo.grid.tf/) Testnet by using your 3Bot ID to access the solution deployment dashboard.
+- Log in onto [__the TF Grid Demo__](https://demo.testnet.grid.tf/) Testnet by using your 3Bot ID to access the solution deployment dashboard.
 - Try to deploy any solution you would like by clicking on one of them and starting the solution wizard.
 - Your solution will be deployed automatically after payment is successfuly made. For every solution deployed, a network and capacity pool reservation will be automatically created.
 
@@ -53,7 +53,7 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 
 ### TF Grid Demo Log In
 
-Log into [**TF Grid Demo**](https://demo.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
+Log into [**TF Grid Demo**](https://demo.testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
 Please go to [**TF Grid Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the TF Grid Demo.
 
 

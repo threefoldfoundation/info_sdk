@@ -3,13 +3,15 @@
 
 ![](./img/Homepagelaptop.png)
 
-[__The Threefold Grid Demo__](https://demo.grid.tf/) is an inventory platform (on a demo mode) of open source solutions that are built on top of Threefold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. 
+[__The Threefold Grid Demo__](https://demo.testnet.grid.tf/) is an inventory platform (on a demo mode) of open source solutions that are built on top of Threefold Grid, accessible by connecting your 3Bot (virtual system administrator) to the platform. 
 
 Its main goal is to enable a simplified solution-deployment on top of the TF Grid’s peer-to-peer cloud, without the necessity of knowledge on rails or Linux shell or any other advance development skills. Via TF Grid Demo, anyone should be able to deploy their solutions and projects on top of the TF Grid.
 
+> Go to [__TF Grid Demo Onboarding manual__](getting_started_marketplace.md) to start developing your end user solution demo on top of the TF Grid.
+
 ## TF Grid Demo Current State
 
-Threefold Foundation is proud to announce that [__TF Grid Demo 2.2__](https://demo.grid.tf/) is currently live on the testnet environment an alpha version (Aug 2020). 
+Threefold Foundation is proud to announce that [__TF Grid Demo 2.2__](https://demo.testnet.grid.tf/) is currently live on the testnet environment an alpha version (Aug 2020). 
 
 ![](./img/3botdemo_home.png)
 
@@ -17,7 +19,7 @@ On its alpha version on Testnet, there are already open-source solutions deploye
 
 ## Application Solutions
 
-Say goodbye to cloud-hosted applications. Of whether you need a P2P alternative to a website, a forum, or a video platform for your project; by connecting your 3Bot ID to the [__TF Grid Demo 2.2__](https://demo.grid.tf/), you could now deploy these open-source solutions below, on top of the TF Grid within just a few clicks.
+Say goodbye to cloud-hosted applications. Of whether you need a P2P alternative to a website, a forum, or a video platform for your project; by connecting your 3Bot ID to the [__TF Grid Demo 2.2__](https://demo.testnet.grid.tf/), you could now deploy these open-source solutions below, on top of the TF Grid within just a few clicks.
 
 - [__3Bot__](3bot.md): a versatile tool to administrate and control processes and activities of your solutions on top of the TF Grid.
 - [__Wiki__](wiki.md): an online encyclopedia accessible via an IP and a public domain.
