@@ -1,4 +1,4 @@
-# Getting Started on TF Grid Mainnet
+# Getting Started on TF Grid Testnet
 
 ![](grid_flow.png)
 
