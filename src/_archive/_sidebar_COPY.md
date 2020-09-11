@@ -64,7 +64,7 @@
   - [Hecule](code_hercule.md)
    - [Hecule Chatflow](chatflow_hercule.md)
 - [Simulator](simulator.md)
-- [Farm Setup & Management](farm_setup_management.md)
+- [Farm Setup & Management](farm_index.md)
  - [Farm Setup](v2_jsx_farmsetup.md)
  - [Configure Wallet](configure_wallet.md)
 - [Community](community.md)

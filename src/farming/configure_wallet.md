@@ -2,11 +2,9 @@
 
 In order for users to reserve capacity from your farm and pay for it. The users needs to know the wallet address where to send the tokens for the reservation.
 
-At the time of writing, 3 currencies are supported, [TFT](https://github.com/Threefoldfoundation/tft-stellar/#tft), [FreeTFT](https://github.com/Threefoldfoundation/tft-stellar/#freetft) and [TFTA](https://github.com/Threefoldfoundation/tft-stellar/#tfta).
-
 ## Configure your farm wallet addresses from the 3SDK GUI
 
-The easiest method to configure the wallet addresses of your farm is to do it from the Farm management page from the [3SDK]([http://wiki.cloud.Threefold.io/gettingstarted/sdk_install.html](http://wiki.cloud.Threefold.io/gettingstarted/sdk_install.html).
+The easiest method to configure the wallet addresses of your farm is to do it from the Farm management page from the [3Bot Dashboard](3bot_farm_mgmt.md)
 
 1. Click on the little gear in the `Actions` colum of the farm tables
 
