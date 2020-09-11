@@ -91,7 +91,7 @@
  - [Farm Setup](v2_jsx_farmsetup.md)
  - [Configure Wallet](configure_wallet.md)
  - [Migrate a farm to an hosted 3bot](farm_migration.md)
- - [Managing Your Farm & Nodes](#3bot_farm_mgmt.md)
+ - [Managing Your Farm & Nodes](3bot_farm_mgmt.md)
 * [Community Channels](community.md)
 * [Collaboration](collab.md)
 * [Release Notes](releasenotes.md)
