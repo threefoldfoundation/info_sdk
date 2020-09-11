@@ -1,17 +1,3 @@
-![alt](./img/cap2layer.png)
-
-# Farm Management & Setup
-
-In this section, we will help you get started with your farm:
-
-* Setting up a Farm
-* Creating a 0-OS Bootable Image
-* Booting Your 3Node
-* Managing Your Farm & Nodes
-* Manage your farm wallet
-
-If you have any questions head to the [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion)
-
 ## Setting up a farm
 
 ### Prerequisite
