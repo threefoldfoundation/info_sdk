@@ -3,7 +3,7 @@
 
 ### Get an Interstellar Wallet (testnet) 
 
-Click [here]( https://testnet.interstellar.exchange/app) to set up an Interstellar Wallet.
+Click [__here__]( https://testnet.interstellar.exchange/app) to go to the Interstellar Wallet website and set up a testnet Interstellar Wallet.
 
 ![](stellar_dashboard.png)
 
@@ -15,11 +15,13 @@ Click on __+Add token__ on your home screen, and look for 'TFT'.
 
 ![](interstellar_tft2.png)
 
-Click on the TFT icon, and 
+Click on the TFT icon, and click __'Trust Asset'__.
 
 ![](interstellar_tft3.png)
 
-click __'Trust Asset'__.
+Testnet TFT will be successfully added to your token list and a TFT Trustline will be automatically added for your wallet.
+
+> Please keep in mind that the testnet and mainnet networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet.
 
 ### Claim FreeTFT on Your Wallet Address
 
