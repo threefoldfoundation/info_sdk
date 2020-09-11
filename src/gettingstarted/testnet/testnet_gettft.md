@@ -5,10 +5,13 @@ On testnet hosted 3Bot environment, there are a few options on how to get and st
 
 ## Get Testnet TFT
 
+### Via hosted 3Bot Wallet
+
 ![](testnet_gettft.png)
 
 Once you're logged in to your 3Bot for the first time, a __pre-configured 3Bot wallet__ will be created for you on your hosted 3bot, with an initial balance of __1000 TFT Testnet__, for you to be able to reserve IT Capacity to test and try deploying your workload on top of the TF Grid Testnet.
 
+### Request for 1000 Testnet TFT 
 
 ![](testnet_tft.png)
 
