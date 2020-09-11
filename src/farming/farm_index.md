@@ -11,4 +11,4 @@ In this section, we will help you get started with your farm:
 * [Manage your farm wallet](configure_wallet.md)
 * [Migrate a farm to an hosted 3bot](farm_migration.md)
 
-If you have any questions, please feel free to reach us on in the [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion).
+If you have any questions, please feel free to reach us on the [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion).
