@@ -7,6 +7,6 @@ please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.
 With that in mind, we have prepared a detailed guidance for the two separate cases.
 
 - Go to [__Start on Mainnet__](getting_started_mainnet.md) to read the manual on how to get started on using TF Grid's mainnet
-- Go to [__Start on Testnet__](getting_started_mainnet.md) to read the manual on how to get started on using TF Grid's testnet
+- Go to [__Start on Testnet__](getting_started_testnet.md) to read the manual on how to get started on using TF Grid's testnet
 
 > Please keep in mind that the two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet.
