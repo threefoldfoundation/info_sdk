@@ -4,7 +4,14 @@ Simplifying the deployment experience on top of the Threefold Grid has been a pr
 
 ## How to Deploy a Hosted 3Bot
 
-Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
+- For mainnet hosted 3Bot Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
+- For testnet hosted 3Bot Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf)
+
+### Difference between 3Bot on Mainnet and 3Bot on Testnet
+- Testnet 3Bot is meant for testing and playing around. uses no real value token (Testnet TFT) and limited by the resources of testnet network and mainly used for testing things out)
+- Mainnet 3Bot is using real tokens with value on TFGrid 
+
+You get the same experience, but your 3bot will object to limitation on testnet network.
 
 
 ### Name Your 3Bot
