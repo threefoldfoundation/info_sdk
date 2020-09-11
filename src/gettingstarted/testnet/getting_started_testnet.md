@@ -46,6 +46,6 @@ Once you’ve signed up and deployed a hosted 3Bot successfully, you will be giv
 
 ## Get and Store Testnet TFT to Reserve for Your IT Capacity on Testnet
 
-On testnet hosted 3Bot environment, there are a few options on how to get and store Testnet TFT for your workload. Once you're logged in to your 3Bot for the first time, a pre-configured wallet will be created for you, with an initial balance of 1000 TFT Testnet, for you to be able to reserve IT Capacity to test and try deploying your workload on top of the TF Grid Testnet. You could also use third-party testnet stellar wallet to store your TFT Testnet, request for additional TFT testnet for deployment testing, or trade your stellar tokens into TFT via testnet stellar exchangers.
+On testnet hosted 3Bot environment, there are a few options on how to get and store Testnet TFT for your workload. Once you're logged in to your 3Bot for the first time, a __pre-configured 3Bot wallet__ will be created for you on your hosted 3bot, with an initial balance of __1000 TFT Testnet__, for you to be able to reserve IT Capacity to test and try deploying your workload on top of the TF Grid Testnet. You could also use __third-party testnet stellar wallets__ to store your TFT Testnet. If there is no Testnet TFT was added on your hosted 3Bot Wallet, you could also request for Testnet TFT once for deployment testing via __Request Testnet TFT faucet__. You could also __trade other stellar tokens into TFT__ via testnet stellar exchangers to get more Testnet TFT .
 
-> Manual: [__Get and Store TFT__ on Testnet](mainnet_gettft.md)
+> Manual: [__Get and Store TFT__ on Testnet](testnet_gettft.md)

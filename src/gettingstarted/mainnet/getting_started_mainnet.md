@@ -46,6 +46,6 @@ Once you’ve signed up and deployed a hosted 3Bot successfully, you will be giv
 
 ## Get and Store TFT to Reserve for Your IT Capacity
 
-To reserve IT Capacity and pay for your workload on top of the TF Grid, you would need to purchase some TFT and store it on one of your wallets. You could use the __3Bot Wallet__ on your 3Bot Connect App, a third-party stellar wallet, or the pre-configured wallet on your hosted 3Bot. You could get TFT from one of the supporting exchangers or directly from the farms.
+To reserve IT Capacity and pay for your workload on top of the TF Grid, you would need to purchase some TFT and store it on one of your wallets. To store your TFT, you could use the __3Bot Wallet__ on your 3Bot Connect App, a __third-party stellar wallet__, or the __pre-configured 3Bot wallet__ on your hosted 3Bot. To get more TFT, you could __buy or trade other tokens__ into TFT from one of the supporting exchangers, or purchase TFT directly from the farms.
 
 > Manual: [__Get and Store TFT__ on Mainnet](mainnet_gettft.md)

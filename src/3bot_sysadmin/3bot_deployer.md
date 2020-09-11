@@ -18,7 +18,7 @@ As a user, you would get the same taste of 3Bot experience on both networks, but
 > please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now) section on the homepage to learn more in depth about TF Grid's current state of releases and the difference in between TF Grid Mainnet and Testnet.
 
 
- ## Deploy a Hosted 3Bot
+# Deploy a Hosted 3Bot
 
  After choosing your network preference for the 3Bot deployer, you are now ready to start deploying a 3Bot by followinng these steps below.
 
@@ -64,7 +64,7 @@ The testnet of the TFGrid is connected to the Stellar testnet, so also testnet t
 ![](./img/threebot_7_3bot_deploy.png)
 ![](./img/threebot_8_3bot_init.png)
 
-### Congratulations, Your 3Bot is Now Live!
+### Congratulations, Your Hosted 3Bot is Now Live!
 Congratulations, Your 3Bot has been successfully deployed. You could access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
 ![](./img/threebot_9_deploy_success.png)
 
@@ -75,4 +75,4 @@ After agreement on the Terms and Conditions and an explanation on prerequisites,
 ![](./img/threebot_dashboard.png)
 
 ### Explore the 3Bot Admin Panel's Features
-You could now access all the features of your 3Bot, such as the Code Server, Python Notebooks, Farm Management, and many more. Feel free to click on [3bot Dashboard](3bot_dashboard.md) section to learn more about your hosted 3Bot features.
+You could now access all the features of your 3Bot, such as the Code Server, Python Notebooks, Farm Management, and many more. Feel free to click on [3bot Dashboard](3bot_admin.md) section to learn more about your hosted 3Bot features.
