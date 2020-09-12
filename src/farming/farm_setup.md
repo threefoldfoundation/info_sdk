@@ -1,26 +1,12 @@
-![alt](./img/cap2layer.png)
-
-# Farm Management & Setup
-
-In this section, we will help you get started with your farm:
-
-* Setting up a Farm
-* Creating a 0-OS Bootable Image
-* Booting Your 3Node
-* Managing Your Farm & Nodes
-* Manage your farm wallet
-
-If you have any questions head to the [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion)
-
-## Setting up a farm
+# Setting up a farm
 
 This document shows how to set up your Threefold Farm and 3Nodes.
 
-### Prerequisite
+## Prerequisite
 
-This document assume you have a 3Bot up and running. If you don't have one yet, head to the [Get a 3Bot section](getting_started_3bot.md) of this manual before continuing.
+This document assume you have a 3Bot up and running. If you don't have one yet, head to the [Get a 3Bot section](3bot.md) of this manual before continuing.
 
-### Install the Farm Management Application
+## Install the Farm Management Application
 
 Next step is to install the farm management application. To do so, click the `Farm Management` tab on the left side menu.
 Then click `Install required packages` button
@@ -29,7 +15,7 @@ Then click `Install required packages` button
 
 Once the package is installed, the page will reload and the `farm management` UI will appear.
 
-### Create a Farm
+## Create a Farm
 
 **Important**:
 Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. If you want to learn more about the difference and how to configure your 3Bot to use one or the other, have a look at [3Bot settings](3bot_settings.md#manage-identities) the section of the manual.
@@ -62,7 +48,7 @@ You can also check with an API call if your farm is successfully created.
 - Mainnet: https://explorer.grid.tf/explorer#api-Farms-getFarm
 - Testnet: https://explorer.testnet.grid.tf/explorer#api-Farms-getFarm
 
-### Create a Bootable Image
+## Create a Bootable Image
 
 At this point you should have created your farm and noted its ID. The next step is to generate a bootable image of 0-OS to boot your nodes.
 
@@ -93,7 +79,7 @@ Once the image is download, get a free usb flash disk and prepare it as follows:
 - Execute: `dd if=/path/to/image of=/path/to/usb conv=sync` (eg: `dd if=uefimg-prod.img of=/dev/sdb1 conv=sync`)
 - Plug out the USB drive when it's done copying.
 
-### Start 3Node with Bootable Image
+## Start 3Node with Bootable Image
 - Plug the USB stick into your node.
 - Power on your node.
 - Get into the BIOS and select the USB as boot option #1.
@@ -115,7 +101,7 @@ After booting your 3Node, you should see something similar to:
 
 ![0-OS console interface](./img/zui.png)
 
-> Note: if you have an AMD gpu you will probabaly not see something like in the image above. Instead you will something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
+> Note: if you have an AMD gpu you will probably not see something like in the image above. Instead you will something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
 
 If you go back to your farm management page, you should also see your nodes being part of your farm.
 
