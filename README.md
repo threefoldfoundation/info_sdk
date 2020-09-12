@@ -5,14 +5,14 @@
 Welcome to __Grid Manual__.
 Before contributing to this repo, one should understand that this repo reflects on three different manuals for 2 different versions of the TF Grid, and the content is clustered within 3 different branches.
 
-1. [TF Grid 2.1 manual](manual.Threefold.io) - the manual for the [Marketplace (Mainnet)](marketplace.grid.tf)
+1. [TF Grid 2.1 manual](https://manual.threefold.io) - the manual for the [Marketplace (Mainnet)](https://marketplace.grid.tf)
   
  __Production Branch: Master__
  __Staging branch: Development__
   
   TF Grid 2.1 Manual, please create a pull request by comparing your working branch to 'development' for edits approval.
  
-2. [TF Grid 2.2 Testnet manual](manual-testnet.Threefold.io) - the manual for the [TF Grid Demo](demo.grid.tf) and [Hosted 3Bot (via 3Bot Deployer)](deploy3bot.grid.tf) on Testnet.
+2. [TF Grid 2.2 Testnet manual](https://manual2.threefold.io) - the manual for the [TF Grid Demo](https://demo.grid.tf) and [Hosted 3Bot (via 3Bot Deployer)](https://deploy3bot.grid.tf) on Testnet.
 
 
   __Production Branch: Development_testnet__
