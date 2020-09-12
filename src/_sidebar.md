@@ -85,7 +85,7 @@
  - [ChatFlow](develop_chatflow.md)
  - [Flist](Flist.md)
 * [Farming](farm_index.md)
- - [Farm Setup](v2_jsx_farmsetup.md)
+ - [Farm Setup](farm_setup.md)
  - [Configure Wallet](configure_wallet.md)
  - [Migrate a farm to an hosted 3bot](farm_migration.md)
  - [Managing Your Farm & Nodes](3bot_farm_mgmt.md)
