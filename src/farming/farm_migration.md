@@ -1,4 +1,4 @@
-# Migrate your local farm to a hosted 3Bot farm
+# Migrate your local farm to a hosted 3Bot
 
 The following options are available to migrate your farm to another 3Bot:
 
