@@ -3,7 +3,7 @@
 
 <!--- original content: https://github.com/Threefoldfoundation/info_Threefold/tree/development/src/docs/token/apps_wallets --->
 
-3Bot is your digital twin; a representative of yourself on top of the Threefold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 
+__3Bot__ is your digital twin; a representative of yourself on top of the Threefold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 
 
 3Bot Connect is your main touch point to the 3Bot and other TF Grid solutions, including the TF Grid Demo. It is a user-friendly mobile interface that serves as an authenticator of your 3Bot identity on top of the Threefold Grid. It also includes a digital wallet where you can store your TFT, TFTA and FreeTFT.
 
@@ -30,9 +30,9 @@ The seed phrase allows you to access and recover your 3Bot connect on any device
 ### IMPORTANT NOTES
 
 - Threefold or any related party does not have any access to or maintain records of your private key or seed phrase.
- - It is your personal responsibility to keep your 24-word private key in a safe place.
+- It is your personal responsibility to keep your 24-word private key in a safe place.
 - Do not share your seed phrase with anyone, it is strictly personal.
 - Losing your seed phrase means losing access to your wallet and all your Threefold Tokens.
 - Anybody with access to your private key could take ownership of your 3Bot Connect wallet and Threefold Tokens.
 - To access your wallet from another wallet (on another phone or online) you will need your seed phrase.
- - without this seed phrase your account could not be recovered on another device or online wallet.
+- without this seed phrase your account could not be recovered on another device or online wallet.

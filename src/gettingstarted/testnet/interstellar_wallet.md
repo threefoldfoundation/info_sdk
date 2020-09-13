@@ -3,7 +3,7 @@
 
 ### Get an Interstellar Wallet (testnet) 
 
-Click [__here__]( https://testnet.interstellar.exchange/app) to go to the Interstellar Wallet website and set up a testnet Interstellar Wallet.
+Click [__here__]( https://testnet.interstellar.exchange/app) to go to the Interstellar Wallet website and set up a Testnet Interstellar Wallet.
 
 ![](stellar_dashboard.png)
 
@@ -23,12 +23,14 @@ Testnet TFT will be successfully added to your token list and a TFT Trustline wi
 
 > Please keep in mind that the testnet and mainnet networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet.
 
-### Claim FreeTFT on Your Wallet Address
+### Claim Testnet TFT on Your Wallet Address
 
 ![](testnet_tft.png)
 
-Copy your wallet address. And now go to this website: [__Claim your FreeTFT!__](https://gettft.testnet.grid.tf)  to claim your freeTFT, paste your testnet interstellar wallet address, and the FreeTFT will be sent to your Stellar Wallet.
+If you are using a third-party stellar wallet like interstellar, you could manually add 1000 Testnet TFT for free by copying your wallet address. And now go to this website: [__Claim your Testnet TFT!__](https://gettft.testnet.grid.tf). Verify your 3Bot ID via 3Bot Connect App to log in and access the website. Paste your testnet interstellar wallet address on the given form shown as above on the website's landing page, click enter, and the Testnet TFT will be sent to your Stellar Wallet within a few minutes.
 
-__Go back to your Interstellar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with testing on deploying your solutions via [__3Bot__](testnet_3bot.md)
+__Go back to your Interstellar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your TFT to get started with testing on deploying your solutions via [__3Bot__](testnet_3bot.md). Please keep in mind that each 3Bot ID could only request the Testnet TFT one time.
+
+> [__Claim your Testnet TFT!__](https://gettft.testnet.grid.tf)
 
 > go back to [__Get and Store TFT on Testnet__](testnet_gettft.md)
