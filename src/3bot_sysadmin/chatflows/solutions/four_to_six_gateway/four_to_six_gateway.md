@@ -14,14 +14,6 @@ Our grid uses IPv6 internally, the problem is not everyone in the world has acce
 
 ![Choose public key](./img/four_to_six_confirmation.png)
 
-4. The reservation will be deployed, the wizard will inform you how to install wireguard
+4. The reservation will be deployed, the wizard will inform you how to install wireguard and wireguard configuration will be offered for download.
 
-![Install wireguard](./img/four_to_six_choose_wg_info.png)
-
-5. The wireguard configuration will be offered for download.
-
-![Download config](./img/four_to_six_choose_wg_config_download.png)
-
-6. The wizard will tell you how to start your wireguard connection
-
-![Start Wireguard](./img/four_to_six_success.png)
+![Install wireguard](./img/four_to_six_success.png)
