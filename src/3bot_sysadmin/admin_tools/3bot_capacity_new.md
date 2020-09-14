@@ -11,8 +11,7 @@ Select __'Create'__ if you have not created any capacity pool before, or if you 
 
 ### Specify the Amount of CU and SU You Want to Add to the New Capacity Pool
 
-![](./img/3bot_capacity_new_resource_1.png)
-![](./img/3bot_capacity_new_resource_2.png)
+![](./img/3bot_capacity_new_resource.png)
 
 __CU__ stands for __Compute Unit__; it is the amount of data processing power specified as the number of virtual CPU cores (logical CPUs) and RAM (Random Access Memory). __SU__ stands for __Storage Unit__; it is the size of data storage capacity. CU and SU are components of __TF's Cloud units__; the components that account for farmed and used capacity. Cloud units are the compute, storage and network equivalent to kWh - kilowatt-hour - the unit of energy. 
 
@@ -24,17 +23,12 @@ Feel free to go to [__Grid Concept__](https://wiki.threefold.io/#/grid_concepts?
 Specify also the __Pools Time-to-live__. 
 Remark: this is a theoretical value. It assumes that the fully reserved capacity is depleted after the indicated number of units and under the condition that the capacity is fully used. In practice, only the capacity that is consumed by deployed IT workloads reduces the counter. 
 
-After you specified your workload demand, choose the token you intend to pay with.
-
-Remark: FreeTFT are free tokens, but also only give access to the nodes that can be paid with this token. So it gives access to only a subset of the grid. In the [TF Grid explorer](https://explorer.grid.tf) there is an indication of which nodes can be paid with FreeTFT. 
-
-![](./img/3bot_capacity_new_freetouse.png)
 
 ### Choose Your Farm Preference to reserve IT Capacity From
 
 ![](./img/3bot_capacity_new_select_farm.png)
 
-Please keep in mind that capacity on testnet is limited. We only listed one 'demo farm' as a farm to reserve testnet IT Capacity from. On a mainnet environment there are many farms available to choose from, you would eventually be able to choose to reserve IT capacity from one of your preferred farms.
+Please keep in mind that capacity on testnet is limited. We only listed one 'demo farm' as a farm to reserve testnet IT Capacity from so please make sure to allow over provisioning from the settings tab in dashboard and for more info visit [over provisioning page](https://manual2.threefold.io/#/3bot_settings?id=developers-options). On a mainnet environment there are many farms available to choose from, you would eventually be able to choose to reserve IT capacity from one of your preferred farms.
 
 ### Prepare to Pay for the Reserved IT Capacity
 
@@ -50,9 +44,7 @@ Once payment is signed for, the payment process starts.
 
 ![](./img/3bot_capacity_new_payment_process.png)
 
-### Confirm Your Payment
 
-![](./img/3bot_capacity_new_success.png)
 
 Go back to the admin panel page, click __next__ on the previous payment page to check if you have successfuly made the payment via your wallet. The screen would show the above instruction once the payment is successfully made. Please resend the payment via wallet if you did not do it successfully, or [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for payment assistance.
 
