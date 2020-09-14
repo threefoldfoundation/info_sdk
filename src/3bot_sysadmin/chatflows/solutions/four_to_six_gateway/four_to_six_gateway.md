@@ -12,7 +12,7 @@ Our grid uses IPv6 internally, the problem is not everyone in the world has acce
 
 3. You'll be asked to confirm before starting the reservation
 
-![Choose public key](./img/four_six_confirmation.png)
+![Choose public key](./img/four_to_six_confirmation.png)
 
 4. The reservation will be deployed, the wizard will inform you how to install wireguard
 
@@ -24,4 +24,4 @@ Our grid uses IPv6 internally, the problem is not everyone in the world has acce
 
 6. The wizard will tell you how to start your wireguard connection
 
-![Start Wireguard](./img/four_six_success.png)
+![Start Wireguard](./img/four_to_six_success.png)
