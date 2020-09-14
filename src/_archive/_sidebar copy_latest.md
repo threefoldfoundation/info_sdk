@@ -9,7 +9,7 @@
   - [Web Gateway](architecture_Web Gateway.md)
   - [0-Container Virtual FS](architecture_Flist.md)
  - [Technologies Intro](tech_intro.md)
- - [Farming Intro](farming_intro.md)
+ - [Farming Intro](farming_getting_started.md)
 - [Getting Started](gettingstarted.md)
  - [3Bot Connect Installation](3botconnect_install.md)
  - [Get Tokens](getting_started_get_tft.md)
