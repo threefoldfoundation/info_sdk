@@ -51,6 +51,12 @@ if not gateway:
  raise j.exceptions.Input(f"pool {pool.pool_id} doesn't include any gateway")
 ```
 
+You can view the location of the gateway by printing the `location` property of the gateway object. For example, to view the location of _6RZfnjuXVLFdtZh218hn4BLzsoKkTVpweqWECk5YUKud_ after executing the previous script, you'd write:
+
+```python
+print(gateway_ids['6RZfnjuXVLFdtZh218hn4BLzsoKkTVpweqWECk5YUKud'].location)
+```
+
 #### Delegate your domain to the gateway
 
 ```python
