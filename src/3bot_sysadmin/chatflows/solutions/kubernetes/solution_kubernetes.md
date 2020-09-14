@@ -2,7 +2,6 @@
 
 This solution is used to deploy a Kubernetes cluster with zdb using a chatflow.
 
-
 In this guide we will walk you through the provisioning of a full-blown kubernetes cluster
 on the TF Grid.
 
@@ -15,81 +14,51 @@ A [Kubernetes](https://kubernetes.io) cluster is a set of node machines for runn
 
 Optionally (if you want to deploy the charts);
 - helm (v3) ([install instructions](https://helm.sh/docs/intro/install))
+
 ## Accessing the solution
 
-Go to your admin dashboard `https://localhost/admin` and click on Network
-
-![solutions menu](adminmenu.png)
-
-
-## Inputs
-
-- `container name` a name of your container to help you to get it again with reservation id.
-- `number of mater` : number of worker nodes to be deployed
-- `number of workers` : number of worker nodes to be deployed, the cluster size will then be the number of workers nodes + number of master nodes
-- `ssh keys` : ssh keys which will be used to allow access for the ssh key holders to the deployed cluster. They should be in a file where each ssh key is on a seperate line
-- `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
-- `cluster secret` : the secret that will be used to access the cluster deployed. Please keep it safe.
-- `IP range` : Configure network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically
-- `Network name` : a name for the network to deploy on, if left empty it will be a generated name
+Go to your admin dashboard `https://localhost/admin` and select the solutions tab from the navbar then click on Kubernetes
 
 ## Deploying Kubernetes:
 
-### Choosing the network
-
-![Step1](./img/k8s2.png)
-Here we choose which network we connect our kubernetes cluster to
-
-### Choosing deployment name
-
-![Step2](./img/k8s3.png)
-
+### Choosing solution name
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
+![k8s_1](./img/k8s_1.png)
 
-### Choosing the nodes specification
-
-![Step2](./img/k8s4.png)
+### Choosing the nodes flavors
 Here we specify the size of the nodes that will be selected for deployment. We also specify the number of master nodes and worker nodes that will be in the cluster
+![k8s_2](./img/k8s_2.png)
 
-### Choose a farm to deploy on
+### Select the pools for your nodes
+![k8s_3](./img/k8s_3.png)
 
-![step4](./img/k8s5.png)
-
-We could choose the farms on which to deploy on. The farms are basically a group of nodes where multiple solutions could be deployed on. We could either choose farm names from the drop down list or leave it empty to randomly choose from any farms.
+### Choosing network
+Here we choose which network we connect our kubernetes cluster to
+![k8s_4](./img/k8s_4.png)
 
 ### Uploading your public Key
-
-![Step5](./img/k8s6.png)
 This step is necessary to access the kubernetes machine and authorize you to be able to SSH into it
-
-### Expiration time
-
-![Step6](./img/k8s8.png)
-Here we specify for how long you want to reserve kubernetes cluster on our grid
+![k8s_5](./img/k8s_5.png)
 
 ### Choosing a secret for the cluster
-
-![Step7](./img/k8s7.png)
 Now it's time to choose the secret for your kubernetes cluster, make sure you don't forget it.
+![k8s_6](./img/k8s_6.png)
 
 ### Set the IP Addresses for the solution master nodes
-
-![Step8](./img/k8s9.png)
 We select IP addresses equal to the number of master nodes we entered earlier.
+![k8s_7](./img/k8s_7.png)
 
 ### Set the IP Addresses for the solution worker nodes
-
-![Step9](./img/k8s10.png)
-
 We then select IP addresses equal to the number of worker nodes we entered earlier
-### Confirm your reservation
-![step10](./img/k8s11.png)
-Here we confirm the specifications we entered in the chatflow
-### Payment
+![k8s_8](./img/k8s_8.png)
 
-![step11](./img/k8s12.png)
+### Deploying your solution
+![k8s_9](./img/k8s_9.png)
 
-Finally we select the wallet that we will pay with to proceed with the payment for the solution that will be deployed.
+### Successfully deployed. You can access the cluster
+![k8s_10](./img/k8s_10.png)
+![k8s_11](./img/k8s_11.png)
+
 
 After the deployment of the Kubernetes cluster is complete, the user with the ssh keys will have access to the deployed cluster.
 

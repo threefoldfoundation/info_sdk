@@ -2,99 +2,73 @@
 
 MinIO is a high performance object storage. With the assist of the chatflow the user will deploy a machine with MinIO along with the number of zdbs needed for storage.
 
-### Accessing the solution
+## Accessing the solution
 
-Go to your admin dashboard `https://localhost/admin` and click on Network
-
-![solutions menu](adminmenu.png)
-
-
-### Inputs
-
-- `container name` a name of your conatiner to help you to get it again with reservation id.
-- `disk type for storage` : (SSD or HDD) disk type to be used by zdb databases where storage will take place
-- `access key & secret` : access key and secret pair that will be used to access MinIO deployed. This should be kept safely as it will provide access to the deployed infrastructure.
-- `cpu needed` : Number of cpu needed
-- `memory size` : Memory size needed example 2048
-- `number of locations needed and locations allowed to fail` : number of drives needed and hence the number of zdbs to be created. Take care of the ratio between the number of locations needed (data drives) and the number of locations allowed to fail (parity drives) ([more info about drives](https://docs.min.io/docs/minio-erasure-code-quickstart-guide.html))
-- `Expiration time`: a network expiration time (minutes=m ,hour=h, day=d, week=w, month=M)
-- `IP Address` : choose the ip address for your MinIO machine.
-
+Go to your admin dashboard `https://localhost/admin` and select the solutions tab from the navbar then click on S3 Storage
 
 After the deployment of MinIO is complete, a url will be returned that could be used to access it.
 
-### Deploying MinIO
+## Deploying MinIO
 
+#### Choose Name
+![minio_1](./img/minio_1.png)
 
-#### Choosing the network name
+#### Setup Type
+![minio_2](./img/minio_2.png)
 
-![Step2](./img/minio2.png)
-Choosing the network to be used from a list of existing networks created by the user
+#### Choose Storage Type
+![minio_3](./img/minio_3.png)
 
-#### Choosing the solution name
+#### Set Container Resources
+![minio_4](./img/minio_4.png)
 
+#### Specify Number of Shards
+![minio_5](./img/minio_5.png)
 
-![Step3](./img/minio3.png)
-Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
+#### Select pool you wish to distribute ZDB workloads on
+![minio_6](./img/minio_6.png)
 
-#### Choosing the Disk Type for zdb
+#### Select pool for Primary
+![minio_7](./img/minio_7.png)
 
-![Step5](./img/minio5.png)
-Now time to choose your disk type either SSD or HDD.
+#### Select node for Primary. You can choose to be selected automatically
+![minio_8](./img/minio_8.png)
 
+#### Choose Network
+![minio_9](./img/minio_9.png)
 
-#### User credentials
+#### Set Credentials (AK/SK)
+![minio_10](./img/minio_10.png)
 
-![Step6](./img/minio6.png)
-Here we ask for the key and secret to access minio. Let's make sure we never lose them
+#### Optional Container Logs
+![minio_11](./img/minio_11.png)
 
-#### Resources for Minio
+#### Add you SSH Key
+![minio_12](./img/minio_12.png)
 
-![Step8](./img/minio9.png)
-Here we define the CPU and memory resources we need
+### Deploying your solution
+![minio_13](./img/minio_13.png)
 
-#### Locations
+#### Select IP
+![minio_14](./img/minio_14.png)
 
-![Step11](./img/minio11.png)
-Here we choose the number of locations we want to save data on and number of locations we allow to fail.
+### Choose whether you want to assign a global Ipv6 address for your container or not
+![minio_15](./img/minio_15.png)
 
-#### Expiration time
+#### Confirmation
+![minio_16](./img/minio_16.png)
 
-![Step12](./img/minio13.png)
-Now we define the expiration time for the solution on the grid.
+#### ZDB Reservation
+The solution does two reservations, one for ZDB which will be used as backend for Minio and the next for Minio containers.
+![minio_17](./img/minio_17.png)
 
-#### Choose a farm to deploy on
+#### Success
+![minio_18](./img/minio_18.png)
 
-![step8](./img/minio_farms_zdb.png)
-
-![](./img/minio_farms_container.png)
-
-We could choose the farms on which the container could be deployed on. The farms are basically a group of nodes where multiple solutions could be deployed on them. We could either choose the farm name from the drop down list or leave it empty to randomly choose any farm.
-
-#### Choosing IP for the solution
-
-![step9](./img/minio14.png)
-Here we choose the IP to access the solution
-
-#### Confirming
-
-![Step14](./img/minio15.png)
-The user should confirm his reservation details
-
-#### Payment
-
-![step10](./img/minio_payment_zdb.png)
-
-![](./img/minio_payment_container.png)
-
-We select the wallet that we will pay with to proceed with the payment for the solution that will be deployed. There are two payments to be done, one for the zdb used for the cluster and the other one for the container that will have minio deployed on.
-
-#### Access information
-![Step15](./img/minio16.png)
-You will get a message indicating the success of your reservation or error in case of error for any reason.
+#### Access your Solution
+![minio_19](./img/minio_19.png)
 
 #### Login Page
-
 Once accessing the url the following is shown once redirected to MinIO login(access key and secret are to be used here)
 ![](./img/login.png)
 
