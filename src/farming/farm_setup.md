@@ -79,6 +79,18 @@ Once the image is download, get a free usb flash disk and prepare it as follows:
 - Execute: `dd if=/path/to/image of=/path/to/usb conv=sync` (eg: `dd if=uefimg-prod.img of=/dev/sdb1 conv=sync`)
 - Plug out the USB drive when it's done copying.
 
+## Check your 3Node disk configuration
+
+We strongly recommend you first check your node's disk configuration.
+How a disk should look like for it to be picked up by Zero OS:
+- No labels
+- No partitions
+- No filesystems
+
+You can use this command to remove all data from a drive:
+
+`dd if=/dev/zero of=/dev/sdX bs=512 count=1`
+
 ## Start 3Node with Bootable Image
 - Plug the USB stick into your node.
 - Power on your node.
