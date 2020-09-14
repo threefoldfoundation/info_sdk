@@ -6,7 +6,7 @@ As as result of this observation, a new concept has been introduced: The capacit
 
 * Instantaneous provisioning of workloads. Since there is no more need to wait for blockchain transaction worklaods can be deployed in seconds
 * No more expiration of workloads. As long as user keeps its capacity pool filled, all attached workloads will continue to live forever
-* Ability to cancel a workload without "loosing" tokens used to deploy it.
+* Ability to cancel a workload without "losing" tokens used to deploy it.
 * Easier capacity planning and organization of the capacity reserved
 
 For a complete detail and rational about this new feature, head to the [specification document](https://github.com/threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md).
@@ -21,6 +21,8 @@ Some other new features also introduces in this version:
 * A new networking option is available for your container. You can now ask a container to have an extra interface that is connected to  the [Yggdrasil network](https://yggdrasil-network.github.io). This allow you to seamlessly expose service on Yggdrasil
 
 ### Jumpscale
+* all new js-ng, light-weight with built in schema parser, pluggable and highly modular.
+* much improved Admin Panel and all new marketplace
 
 ### Component versions
 
