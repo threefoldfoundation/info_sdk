@@ -1,6 +1,6 @@
 # how to create a simple user interface
 
-The follwowing example shows you how easy it is to create a user interface in notebook.
+The following example shows you how easy it is to create a user interface in notebook.
 
 ```python
 import ipywidgets as w
@@ -70,7 +70,7 @@ button_clear.on_click(clear)
 mainbox
 ```
 
-when running the above code in a notebook you should see something like:
+When running the above code in a notebook you should see something like:
 
 ![](example_ui.png)
 

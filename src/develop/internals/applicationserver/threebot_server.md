@@ -7,9 +7,9 @@ When adding packages to a server, they should first be defined, then added to th
 
 Content:
 
-- [3Bot Server](#3Bot-server)
- - [Staring 3Bot](#staring-3Bot)
- - [Using 3Bot command](#using-3Bot-command)
+- [Threebot Server](#threebot-server)
+ - [Staring Threebot](#staring-threebot)
+ - [Using Threebot command](#using-threebot-command)
  - [Manual start](#manual-start)
  - [Nginx and privileged ports](#nginx-and-privileged-ports)
  - [APIs](#apis)
@@ -18,19 +18,19 @@ Content:
 
 ## Staring 3Bot
 
-### Using 3Bot command
-`3Bot` command could be used to start/stop 3Bot and to check for current running 3Bot status. This will give you a ready shell in the same process where you could interact with your 3Bot:
+### Using threebot command
+`threebot` command could be used to start/stop 3Bot and to check for current running 3Bot status. This will give you a ready shell in the same process where you could interact with your 3Bot:
 
 It could be used to start a 3Bot server on standard ports (http and https).
 
 ```
-3Bot start
+`threebot` start
 ```
 
 In case you need to start a local 3Bot, ny passing `--local` option will, it will search for free port on `80xx` range and starts 3Bot on this port.
 
 ```
-3Bot start --local
+threebot start --local
 ```
 
 You could then access its admin on https://localhost/admin
@@ -42,9 +42,9 @@ Start 3Bot server from `jsng` shell:
 ```python
 jsng
 
-JS-NG> 3Bot_server = j.servers.3Bot.get(domain="<optional><your-3Botdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
-JS-NG> 3Bot_server.save()
-JS-NG> 3Bot_server.start()
+JS-NG> threebot_server = j.servers.threebot.get(domain="<optional><your-threebotdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
+JS-NG> threebot_server.save()
+JS-NG> threebot_server.start()
 ```
 
 It should start nginx for you too, if it's not stared, you could start it manually:
@@ -109,8 +109,8 @@ path_dest = "/admin/"
 - If you want to have default domain for your 3Bot, define it in the 3Bot start
 
 ```python
-3Bot_server = j.servers.3Bot.get(domain="<optional><your-3Botdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
-3Bot_server.start()
+threebot_server = j.servers.threebot.get(domain="<optional><your-threebotdomain>", email="<your email><required if you want to use domain and ssl for certbot>")
+threebot_server.start()
 ```
 
 This will use certbot to generate a certificate for your domain

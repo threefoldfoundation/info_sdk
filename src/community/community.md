@@ -6,16 +6,16 @@ The Threefold Community is expanding every day. If you want to engage with the c
 
 ## General
 
-* [Threefold Forum](forum. Threefold.io/): General room for talk about Threefold.
-* [Threefold News Telegram](https://t.me/Threefoldnews): Get Threefold's latest updates via telegram channel.
-* [Threefold Grid Website](www. Threefold.io/): Learn more about Threefold Grid.
+* [Threefold Forum](https://forum.threefold.io): General room for talk about Threefold.
+* [Threefold News Telegram](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w): Get Threefold's latest updates via telegram channel.
+* [Threefold Grid Website](https://www.threefold.io): Learn more about Threefold Grid.
 * [Threefold Github](https://github.com/Threefoldfoundation/): Contribute to our open-source projects and wikis.
 * [Threefold Helpdesk](https://threefoldfaq.crisp.help/en/): read FAQ and Chat with our support team.
 
 ## Technical
 
 * Technical discussion about 0-OS:
-  + [Telegram](https://t.me/zero_os_tech)
+  + [0-OS Telegram](https://t.me/zero_os_tech)
   + [#zero-os:matrix.org](https://app.element.io/#/room/#zero-os:matrix.org)
 
 ## Social

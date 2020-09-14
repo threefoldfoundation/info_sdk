@@ -16,8 +16,8 @@ Here is the schema used to define a container reservation:
 - **pool_id**: the capacity pool ID to use to provision the workload
 - **secret**: The secret used by the TCP router client when initiating the connection to the Gateway. 
 
-The secret needs to have a specific format: `<3Bot_id>:<random>`. 
-If my 3Bot_id is `123`, a valid secret would be `123:chieb7roi9oongah9shukuupeiChaeph`.
+The secret needs to have a specific format: `<threebot_id>:<random>`. 
+If my threebot_id is `123`, a valid secret would be `123:chieb7roi9oongah9shukuupeiChaeph`.
 
 ## Example using sdk
 

@@ -1,39 +1,57 @@
-## Website Publisher
+# Website Publisher
 
-Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) could be used to host wikis, websites, and blogs (you could find examples of deploymentns on manual.Threefold.io)
+Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the Threefold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own website by using the Website Publisher.
 
-### Steps to publish website
+## Publish a Website on Top of the Threefold Grid
 
-#### Add the solution name. Keep in mind it will also be the subdomain.
-Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
+### Name Your Website Project
+
+This name will be used to identify this website on your deployed websites' list on the 3Bot Admin Panel Dashboard. Keep in mind that this name would also be used as your website's subdomain (a part of your website's address).
+
 ![](./img/website_1.png)
 
-#### Enter your website title, repo url and branch
+
+### Add a Website Title, Repo URL and Branch
+
 ![](./img/website_2.png)
 
-### Choose the expiration time
+### Choose the Expiration Time
+
+The expiration time determines how long you would want to keep this website alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep it online. No worries, you could always extend your website's living span by extending your capacity. 
+
 ![](./img/website_3.png)
 
-### Select the payment currency
+### Select Your Payment Currency
+
+Choose how you would like to pay for the internet capacity you're going to use to deploy your website.
+
 ![](./img/website_4.png)
 
-### Payment step for the container using 3Bot staging app.
+### Pay for Your Capacity by using a Stellar Wallet
+
+You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
+
 ![](./img/website_5.png)
 
-### Wait until your payment transaction is finished
+### Wait Until Your Payment is Succeeded
+
 ![](./img/website_6.png)
 
-### Now your solution resources are being prepared
+### Preparing Your Website's Resources
+
 ![](./img/website_7.png)
 
-### Summary of your deployment information
+### Summary of Your Deployment
+
 ![](./img/website_8.png)
 
-### Deploying your solution.
-![](./img/website_9.png)
+### Final Deployment of Your Website
 
-### Deployment successful, you could access your website now using the domain name.
+### Congratulations, Your Website is Successfully Deployed!
+You could now access your new website by entering the website address mentioned below onto your web browser.
 ![](./img/website_10.png)
 
-### Accessing the solution
+
+An example of a successfully deployed website:
+
 ![](./img/website_11.png)

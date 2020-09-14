@@ -11,7 +11,7 @@ Content:
 - [More about packages](#more-about-packages)
 - [Package manager](#package-manager)
 - [Adding new packages](#adding-new-packages)
- - [Add the package to the 3Bot server](#add-the-package-to-the-3Bot-server)
+ - [Add the package to the threebot server](#add-the-package-to-the-threebot-server)
  - [Add the package using package manager actor](#add-the-package-using-package-manager-actor)
 
 
@@ -100,17 +100,17 @@ Some components will be defined by default based on the parent package classes i
     pass
 
    def uninstall(self):
-    """Called when package is deletedand is no longer needed and will be removed from the 3Bot
+    """Called when package is deletedand is no longer needed and will be removed from the threebot
     """
     pass
 
    def start(self):
-    """Called when 3Bot is started
+    """Called when threebot is started
     """
     pass
 
    def stop(self):
-    """Called when 3Bot stops
+    """Called when 3bot stops
     """
     pass
   ```
@@ -231,11 +231,11 @@ def get_package_status(self, names: list) -> str:
 
 @actor_method
 def list_packages(self) -> str:
- return j.data.serializers.json.dumps({"data": self.3Bot.packages.get_packages()})
+ return j.data.serializers.json.dumps({"data": self.threebot.packages.get_packages()})
 
 @actor_method
 def packages_names(self) -> str:
- return j.data.serializers.json.dumps({"data": list(self.3Bot.packages.list_all())})
+ return j.data.serializers.json.dumps({"data": list(self.threebot.packages.list_all())})
 
 @actor_method
 def add_package(self, path: str = "", giturl: str = "", extras=None) -> str:
@@ -244,11 +244,11 @@ def add_package(self, path: str = "", giturl: str = "", extras=None) -> str:
   path = path.strip()
  if giturl:
   giturl = giturl.strip()
- return j.data.serializers.json.dumps({"data": self.3Bot.packages.add(path=path, giturl=giturl, **extras)})
+ return j.data.serializers.json.dumps({"data": self.threebot.packages.add(path=path, giturl=giturl, **extras)})
 
 @actor_method
 def delete_package(self, name: str) -> str:
- return j.data.serializers.json.dumps({"data": self.3Bot.packages.delete(name)})
+ return j.data.serializers.json.dumps({"data": self.threebot.packages.delete(name)})
 
 ```
 
@@ -261,13 +261,13 @@ Adding a package could easily be done either through the 3Bot server directly or
 
 A package could be added directly to the 3Bot server as follows
 ```python
-3Bot_server = j.servers.3Bot.get("<instance_name>") 
-3Bot_server.packages.add(<path or giturl>)
-3Bot_server.packages.add(path="/home/xmonader/wspace/Threefoldtech/js-ng/jumpscale/packages/hello")
+threebot_server = j.servers.threebot.get("<instance_name>") 
+threebot_server.packages.add(<path or giturl>)
+threebot_server.packages.add(path="/home/xmonader/wspace/Threefoldtech/js-ng/jumpscale/packages/hello")
 ```
 
 ```python
-➜ js-ng git:(development_3Bot) ✗ curl -XPOST localhost:80/hello/actors/helloActor/hello
+➜ js-ng git:(development_threebot) ✗ curl -XPOST localhost:80/hello/actors/helloActor/hello
 "hello from foo's actor"%
 ```
 
@@ -278,7 +278,7 @@ This also applies to deleting and installing packages directly using the 3Bot se
 After starting the server with the recommended way, the package created could be added using the packages actors which calls the package manager of the 3Bot server. The actor could be called as follows:
 
 ```
-j.clients.gedis.3Bot.actors.admin_packages.add_package("<path_to_package>")
+j.clients.gedis.threebot.actors.admin_packages.add_package("<path_to_package>")
 ```
 where 3Bot is the gedis instance name for the 3Bot started
 

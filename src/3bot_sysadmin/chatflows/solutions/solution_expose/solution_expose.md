@@ -29,14 +29,6 @@ Note: Currently only direct subdomains are supported no nested domains
 
 ![Choose subdomain](./img/solution_expose_choose_subdomain.png)
 
-6. Select the duration of the exposure.
-
-![Choose duration](./img/solution_expose_duration.png)
-
-7. Solution expose payment
-
-![Payment](./img/solution_expose_payment_overview.png)
-
-8. Solution expose result
+6. Solution expose result
 
 ![Result](./img/solution_expose_result.png)

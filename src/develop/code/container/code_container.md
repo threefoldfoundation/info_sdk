@@ -32,7 +32,7 @@ You could find more information about Flist and hub usage [here](flist.md)
 
 #### Select which Flist to deploy?
 
-For this example we selected the code-server Flist in a public hub. The code-server Flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode. Its visual studio code providing a very feature-rich coding and code management environment. The Flist could be found [here](https://hub.grid.tf/weynandkuijpers.3Bot/codercom-code-server-latest.Flist).
+For this example we selected the code-server Flist in a public hub. The code-server Flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode. Its visual studio code providing a very feature-rich coding and code management environment. The Flist could be found [here](https://hub.grid.tf/weynandkuijpers.3bot/codercom-code-server-latest.Flist).
 
 #### Node selection and parameters.
 You have created a network in the network creation [tutorial](code_network.md) with the following details:
