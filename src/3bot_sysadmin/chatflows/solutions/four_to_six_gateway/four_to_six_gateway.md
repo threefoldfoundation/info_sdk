@@ -6,13 +6,13 @@ Our grid uses IPv6 internally, the problem is not everyone in the world has acce
 
 ![Choose gateway](./img/four_to_six_choose_gateway.png)
 
-2. Enter the duration of your gateway
-
-![Choose duration](./img/four_to_six_choose_duration.png)
-
-3. Optionally enter the public key of your wireguard (if left empty one will be generated for you)
+2. Optionally enter the public key of your wireguard (if left empty one will be generated for you)
 
 ![Choose public key](./img/four_to_six_choose_wg_public_key.png)
+
+3. You'll be asked to confirm before starting the reservation
+
+![Choose public key](./img/four_six_confirmation.png)
 
 4. The reservation will be deployed, the wizard will inform you how to install wireguard
 
@@ -21,3 +21,7 @@ Our grid uses IPv6 internally, the problem is not everyone in the world has acce
 5. The wireguard configuration will be offered for download.
 
 ![Download config](./img/four_to_six_choose_wg_config_download.png)
+
+6. The wizard will tell you how to start your wireguard connection
+
+![Start Wireguard](./img/four_six_success.png)
