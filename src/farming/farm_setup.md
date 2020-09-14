@@ -87,10 +87,6 @@ How a disk should look like for it to be picked up by Zero OS:
 - No partitions
 - No filesystems
 
-You can use this command to remove all data from a drive:
-
-`dd if=/dev/zero of=/dev/sdX bs=512 count=1`
-
 ## Start 3Node with Bootable Image
 - Plug the USB stick into your node.
 - Power on your node.
