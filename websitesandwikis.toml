@@ -9,7 +9,7 @@ addr = "0.0.0.0"
 name = "manual"
 title = "Grid Manual"
 #http or git url
-url = "github.com/Threefoldfoundation/info_gridmanual"
+url = "github.com/threefoldfoundation/info_gridmanual"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used
@@ -28,7 +28,7 @@ environment = ""
 name = "wiki"
 title = "Threefold Wiki"
 #http or git url
-url = "https://github.com/Threefoldfoundation/info_foundation"
+url = "https://github.com/threefoldfoundation/info_foundation"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used
