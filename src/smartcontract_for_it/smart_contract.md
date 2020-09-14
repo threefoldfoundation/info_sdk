@@ -7,8 +7,8 @@ Each workload gets registered on the TF Grid smartcontract database.
 
 ### workload definitions
 
-- [capacity definition for 0-Containers](capacity_container.md) (our own optimized form of containers)
 - [smartcontract details](smartcontract_details.md)
+- [capacity definition for 0-Containers](capacity_container.md)
 - [overlay network](capacity_network.md)
 - [Web Gateway](capacity_webgateway.md)
 - [kubernetes](capacity_kubernetes.md)
