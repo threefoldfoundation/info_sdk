@@ -60,6 +60,7 @@
  - [Taiga](taiga.md)
 * [Smart Contract For IT](smart_contract.md)
  - [Smart Contract Details](smartcontract_details.md)
+ - [Capacity pool concept](capacity_pool.md)
  - [Container](capacity_container.md)
  - [Overlay Network](capacity_network.md)
  - [Kubernetes](capacity_kubernetes.md)

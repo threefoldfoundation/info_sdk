@@ -1,7 +1,7 @@
 # Capacity pool
 
 The capacity pool has been introduced to solve some issues related to the way
-payments work on the TF Grid. Specifically, because we payment is done for the
+payments work on the TF Grid. Specifically, because payment is done for the
 entirety of the reservation, and forwarded immediately to the farmer, there is no
 way to cleanly recover funds in case something goes wrong post deployment. Although
 the capacity pool was originally conceived as a way to extend a reservation, we
