@@ -21,6 +21,7 @@ Some other new features also introduces in this version:
 * A new networking option is available for your container. You can now ask a container to have an extra interface that is connected to  the [Yggdrasil network](https://yggdrasil-network.github.io). This allow you to seamlessly expose service on Yggdrasil
 
 ### Jumpscale
+
 * all new js-ng, light-weight with built in schema parser, pluggable and highly modular.
 * much improved Admin Panel and all new marketplace
 
