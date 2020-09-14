@@ -44,10 +44,10 @@ for more detail
  - **Ipaddress**: net. IP: The IP address to give to the container
  - **public_ipv6**: if true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly
  to the public internet and out of your private overlay network.
- - **yggdrasil_ip**: If true, allocated an yggdrasil IP address to the container. This will make the container directly accesible over the yggdrasil network.
+ - **yggdrasil_ip**: If true, allocated an yggdrasil IP address to the container. This will make the container directly accessible over the yggdrasil network.
 
 * **Logs**: a redis backend where you could send stdout and stderr output
-* **StatsAggregator**: a list of redis backends where you could send periodic statistics
+* **StatsAggregator**: a list of redis backend where you could send periodic statistics
 * **Statistics**: a redis backend where you could send periodic statistics
 * **pool_id**: the capacity pool ID to use to provision the workload
 
