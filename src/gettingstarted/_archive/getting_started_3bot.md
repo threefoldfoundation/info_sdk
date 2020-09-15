@@ -8,4 +8,4 @@ There are 2 ways you could run a 3Bot on testnet and get a 3Bot admin panel on y
 
 > Easy Set Up: Get [a Testnet Hosted 3Bot](3bot_admin.md) using [Testnet Threebot Deployer](3bot_deployer.md)
 
-> Advanced Set Up: [Create a Testnet 3Bot on your local machine](local_3bot.md)
+> Advanced Set Up: [Create a Testnet 3Bot on your local machine](3bot_local_install.md)

@@ -1,6 +1,6 @@
 # 3Bot Wallets
 
-![](./img/3bot_wallet.png)
+<!-- <img src="img/3bot_wallet.png" width="300" alt=""> -->
 
 Your 3Bot comes in handy with a built-in __Stellar wallets__, listing all your existing Stellar wallets, with the option to create a new wallet or import an existing one. This feature was especially made with the aim to make it easier and faster for you to reserve and pay for your IT Capacity. 
 
@@ -10,9 +10,6 @@ A testnet wallet can only send and receive transactions within the test network,
 ## Creating a New Wallet
 
 Can be created from the create button in Wallets page
-
-![wallets](./img/3bot_wallet.png)
-
 
 ## Import an Existing Wallet 
 

@@ -6,7 +6,7 @@
 ## Basic Pre-requisites
 
 To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
-- Get [__3Bot Connect App__](mainnet_3botconnect.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the Threefold Grid.
+- Get [__3Bot Connect App__](3botconnect_install.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the Threefold Grid.
 - Get a [__Mainnet 3Bot__](mainnet_3bot.md). You have the option to either get a mainnet hosted 3Bot or mainnet local 3Bot.
 - Log in to your __mainnet hosted 3Bot__, if you deployed a hosted 3Bot instead of a local 3Bot.
 - Get and store [__TFT__ on Mainnet](mainnet_gettft.md) to reserve IT Capacity and pay for your workload on top of the TF Grid
@@ -21,7 +21,7 @@ As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. 
 
 Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 
-> Manual: [Get __3Bot Connect App__](mainnet_3botconnect.md)
+> Manual: [Get __3Bot Connect App__](3botconnect_install.md)
 
 
 ## Get a 3Bot on Mainnet
@@ -36,7 +36,7 @@ To deploy a mainnet hosted 3Bot online, you would need to follow an easy set up 
 
 > Easy Set Up: [Get a __Mainnet Hosted 3Bot__ using 3bot Deployer](3bot_deployer.md)
 
-> Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](local_3bot.md)
+> Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](3bot_local_install.md)
 
 
 ## Launch and Log in to Your New Hosted 3Bot

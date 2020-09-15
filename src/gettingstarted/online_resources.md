@@ -8,7 +8,7 @@ Anyone could creates 3Nodes. The process is very simple and requires you to put 
 <!-- TODO #63 Look at the farming pages and see if the description of getting a farm_id and more is cleary documented enough -->
 
 <!-- ![](./img/bootstrap.png) -->
-<img src="img/bootstrap.png" width="600" alt="Homemade">
+<img src="img/bootstrap.png" width="600" alt="">
 
 ### Find 3Nodes to deploy workloads on
 

@@ -43,14 +43,14 @@ Where the node is located in the world. This information is gather using the IP 
 ### Farm
 
 To which farm this node belongs to.
-
+<!-- 
 ### Free to use
 
 Specify if this node capacity could be reserved with `FreeTFT` or not.
 
 If the node is marked as free to use. Only `FreeTFT` could be used to pay the reserved capacity.
 
-The currency used to reserve capacity is important to take into account. Because a reservation must be paid in a single transaction, all the nodes used in a reservation must all be free to use or not. Mixing both is not possible.
+The currency used to reserve capacity is important to take into account. Because a reservation must be paid in a single transaction, all the nodes used in a reservation must all be free to use or not. Mixing both is not possible. -->
 
 ### Last heartbeat
 

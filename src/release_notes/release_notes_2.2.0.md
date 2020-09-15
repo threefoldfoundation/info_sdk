@@ -23,7 +23,7 @@ Some other new features also introduces in this version:
 ### Jumpscale
 
 * all new js-ng, light-weight with built in schema parser, pluggable and highly modular.
-* much improved Admin Panel and all new marketplace
+* much improved Admin Panel and all new threefold_now
 
 ### Component versions
 

@@ -56,7 +56,7 @@
   - [kubernetes](code_kubernetes.md)
   - [storage](code_storage.md)
   - [web](code_web.md)
- - [Admin Panel](admin_extending.md)
+ - [Admin Panel](3bot_adminpanel_extend.md)
  - [Jumpscale](internals.md)
  - [ChatFlow](develop_chatflow.md)
  - [Flist](Flist.md)

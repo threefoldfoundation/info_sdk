@@ -1,4 +1,4 @@
-![legal](./img/legal_header.jpg)
+# legal
 
 - [Definitions](definitions.md)
 - [Disclaimer](disclaimer.md)

@@ -6,12 +6,6 @@ This tutorial will use the example "chat flows" to deploy the solution. The chat
 
 If you are looking for some example how to do this programmatically, head to the [Develop](code.md) section.
 
-## Index
-1. [Deploy your private overlay network](#Deploy-your-private-overlay-network)
-2. [publish your wiki](#publish-your-wiki)
-
-
-
 ### Deploy your private overlay network
 
 You are now all set to start deploying workloads on the TF Grid. Yeah!

@@ -25,11 +25,12 @@ Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wal
 
 ### Store your TFT on your __3Bot Wallet on 3Bot Connect App__
 
-![](3bot_wallet.png)
+<img src="img/3bot_wallet.png" width="300" alt="image missing 3bot_wallet.png">
+
 
 Your 3Bot Connect App comes with an inclusive 3Bot Wallet that you could access within the app on your mobile phone. After installing the __3Bot Connect App__  on your mobile phone, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Simply click on the big __'transaction' icon__ on the bottom right corner of your screen to see your wallet address, and start sending or receiving TFT.
 
-> Please go back to [__3Bot Connect App__ Installation Manual](mainnet_3botconnect.md) if you have not installed a 3Bot Connect App on your mobile phone.
+> Please go back to [__3Bot Connect App__ Installation Manual](3botconnect_install.md) if you have not installed a 3Bot Connect App on your mobile phone.
 
 ### Store your TFT on your third-party testnet Stellar Wallet
 

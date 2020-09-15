@@ -2,7 +2,7 @@
 
 TF Grid 2.1.0 describes the current setup on the grid.
 
-It introduces the marketplace https://manual.Threefold.io/#/marketplace running on js-ng
+It introduces the threefold_now https://manual.Threefold.io/#/threefold_now running on js-ng
 
 
 ## Component versions

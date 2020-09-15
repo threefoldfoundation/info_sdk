@@ -97,7 +97,7 @@ Now that we have our Flist ready, we are prepared to deploy a container on the g
 - You have a deployed network
 - You have to create/extend a capacity pool
 
-If any of the previous items is not satisfied you could make sure of them by checking [our docs](https://manual2.threefold.io/#/3bot). Once you have your network and pool ready we could move on to deploying your container using the generic container solution.
+If any of the previous items is not satisfied you could make sure of them by checking [our docs](getting_started_all). Once you have your network and pool ready we could move on to deploying your container using the generic container solution.
 
 To start the wizard click the left menu on Solutions then Generic Container
 

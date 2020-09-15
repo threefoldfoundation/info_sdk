@@ -3,7 +3,7 @@
 
 ![](stellarx_logo.png)
 
-StellarX is a free peer2peer marketplace available on the Stellar network. It offers trading for a range of assets, using stellar lumens (XLM) as the base currency. 
+StellarX is a free peer2peer threefold_now available on the Stellar network. It offers trading for a range of assets, using stellar lumens (XLM) as the base currency. 
 
 ## Buy
 

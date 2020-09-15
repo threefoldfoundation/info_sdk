@@ -10,4 +10,4 @@ To deploy a Testnet hosted 3Bot online, you would need to follow a deployment tu
 
 > Easy Set Up: [Get __a Testnet Hosted 3Bot__ using __3bot Deployer__](3bot_deployer.md)
 
-> Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](local_3bot.md)
+> Advanced Set Up: [Create a __Mainnet Local 3Bot__ on your local machine](3bot_local_install.md)

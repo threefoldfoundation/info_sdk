@@ -20,7 +20,7 @@ As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. 
 
 Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 
-> Manual: [Get __3Bot Connect App__](mainnet_3botconnect.md)
+> Manual: [Get __3Bot Connect App__](3botconnect_install.md)
 
 ### Get a 3Bot via 3Bot Deployer
 

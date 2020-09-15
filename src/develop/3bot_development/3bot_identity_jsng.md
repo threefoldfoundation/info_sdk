@@ -1,6 +1,6 @@
 # Identities
 
-## Creating/registering new identities using the sdk
+## Creating/registering new identities using the jsng shell
 
 ### When starting 3Bot for the first time
 
@@ -46,13 +46,7 @@ identity.save()
 
 ### Using admin dashboard
 
-New identities could be added through the admin dashboard once 3Bot server is started.
-- Access settings of `https://<host>/admin` and click on the `ADD` button on the identities
-![identity_list](./img/identity_list.png)
-
-- Add the 3Bot name, email, words and explorer type in the window prompted then click on `Add` to create and register the identity instance
-![new identity](./img/new_identity_form.png)
-
+see [3bot_identity_configure](3bot_identity_configure)
 
 ## Change default identity
 
@@ -61,13 +55,10 @@ When you have multiple identities setup and want to switch the usage between the
 ```
 j.core.identity.set_default("INSTANCE_NAME") 
 ```
+
 where
- - **INSTANCE_NAME**: is the instance name of the identity previously created and registered
 
-- Admin dashboard
+- **INSTANCE_NAME**: is the instance name of the identity previously created and registered
 
- When clicking on the identity instance then the `SET DEFAULT` button, that instance will be the current default instance used
-
- ![set default identity](./img/identity_buttons.png)
 
 

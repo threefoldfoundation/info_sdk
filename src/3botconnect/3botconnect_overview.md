@@ -5,7 +5,7 @@
 
 ## Home Page
 
-This is the Home Page of your 3Bot Connect App. It offers a gateway to your digital life. From here you could open [FreeFlow Pages](https://freeflowpages.com/), an open source social network hosted on Threefold decentralized capacity. 
+This is the Home Page of your 3Bot Connect App. It offers a gateway to your digital life. 
 
 ![](./img/3bot_home_page.png )
 

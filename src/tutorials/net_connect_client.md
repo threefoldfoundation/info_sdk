@@ -5,4 +5,4 @@ To achieve this, the overlay network solution implemented in Zero-OS is based on
 
 Make sure you have [Wireguard installed](https://www.wireguard.com/install/) if you intend to deploy workload that runs on different nodes.
 
-The usage of Wireguard is explained in the info about deployment of solutions. 
+> PLEASE CONTRIBUTE & COMPLETE THIS DOC

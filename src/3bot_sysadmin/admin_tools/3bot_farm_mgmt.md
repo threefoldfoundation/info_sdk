@@ -2,21 +2,17 @@
 
 This section of your 3Bot let you create, manage and monitor your farms. 
 
-In this section we will go over the different feature offered by this app:
-
-* [Creating a new farm](#creating-a-new-farm)
-* [Editing farm detail](#Edit-a-Farm)
-* [Monitoring the nodes health and usage](inspecting-an-existing-farm)
+<!-- * [Monitoring the nodes health and usage](inspecting-an-existing-farm) -->
 
 ## Creating a new farm
 
 To create a new farm, click the little plus button on the top left corner:
 
-![add farm](add_farm.png)
+<img src="img/add_farm.png" width="160" alt="missing immage">
 
 It will open up a form to create a new Farm:
 
-![new farm](new_farm.png)
+<img src="img/new_farm.png" width="600" alt="missing immage">
 
 Fill the form and click the `Save` button to create the farm.
 

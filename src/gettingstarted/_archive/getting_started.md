@@ -38,10 +38,10 @@ As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. 
 Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
 
 [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
- [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
+[Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
 
 
- ### Claim your FreeTFT 
+### Claim your FreeTFT 
 
 __FreeTFT__ is a token especially created to allow developers and early adopters to play with the TF Grid (testnet) for free, by "spending" them on testing environment to purchase capacities provided by certain farmers. Everyone is eligible to get 1000 FreeTFT to start developing your solutions on top of the TF Grid. 
 
@@ -54,7 +54,7 @@ Please go to [**Claim Your FreeTFT Tutorial**](getting_started_get_tft.md) to se
 ### ThreeFold Now Demo Log In
 
 Log into [**TF Grid Demo**](https://demo.testnet.grid.tf/) by using your 3Bot ID, via 3Bot connect app.
-Please go to [**ThreeFold Now Demo Log in Tutorial**](getting_started_marketplace.md) to see the detailed instruction on how to log into the TF Grid Demo.
+Please go to [**ThreeFold Now Demo Log in Tutorial**](getting_started_threefold_now.md) to see the detailed instruction on how to log into the TF Grid Demo.
 
 
 

@@ -2,13 +2,13 @@
 
 ![](./img/storage_compute.png)
 
-Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid__ via [__TF Grid Demo__](https://demo.testnet.grid.tf/), [__Hosted 3Bot__](https://deploy3bot.grid.tf/) or a [__Local 3Bot__](local_3bot.md). 
+Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested in learning more about deploying a network and solutions on top of the __TF Grid__ via [__TF Grid Demo__](https://demo.testnet.grid.tf/), [__Hosted 3Bot__](https://deploy3bot.grid.tf/) or a [__Local 3Bot__](3bot_local_install.md). 
 
 ## Navigate Your Way on the Manual
 
 - [__Introduction__](learn.md)
 - [__Getting Started__](getting_started.md)
-- [__TF Grid Demo__](marketplace.md)
+- [__TF Grid Demo__](threefold_now.md)
 - [__3Bot__](3bot.md)
 - [__Advance Development__](develop.md)
 
@@ -17,7 +17,7 @@ The Manual is sectioned into 5 major sections to cater to each of these differen
 
 To learn all the basics you would need to complete before deploying a solution on top of the TF Grid, head over to the [__Getting Started__](getting_started.md) section of the Manual. 
 
-Feel free to try deploying all available built-in TF Grid solutions (demo) on testnet and easy deployment manuals via [__TF Grid Demo__](marketplace.md) section. 
+Feel free to try deploying all available built-in TF Grid solutions (demo) on testnet and easy deployment manuals via [__TF Grid Demo__](threefold_now.md) section. 
 
 If you're interested in deploying a cloud solution project on top of TF Grid (both on mainnet or testnet), you would need to firstly run a 3Bot locally (local 3Bot) or online on a hosted environment (hosted 3Bot). Feel free to check [__3Bot__](3bot.md) section to read more about 3Bot. 
 
@@ -58,7 +58,7 @@ The latest versions of 0-OS (TF Grid’s operating system) and their associated 
 ![](./img/testnet_mainnet.png)
 
 
-We’ve been working hard to make it even easier for projects to deploy cloud infrastructure solutions on top of the TF Grid with the new [__Hosted 3Bot__](3bot.md); by enabling solution deployments on a hosted environment, as well as providing a demo platform where end-users can easily deploy open-source solutions on top of the TF Grid via [__TF Grid Demo__](marketplace.md). The ThreeFold Now Demo is currently only available for testing on testnet.
+We’ve been working hard to make it even easier for projects to deploy cloud infrastructure solutions on top of the TF Grid with the new [__Hosted 3Bot__](3bot.md); by enabling solution deployments on a hosted environment, as well as providing a demo platform where end-users can easily deploy open-source solutions on top of the TF Grid via [__TF Grid Demo__](threefold_now.md). The ThreeFold Now Demo is currently only available for testing on testnet.
 
  __TF Grid 2.2.0__ is released for porduction on Mainnet and is also existing on testnet as a testing environment. This latest release of __TF Grid 2.2.0__ includes certain exciting features like the Capacity Pools- where you could order IT capacity for your project directly from the farms via 3Bot Admin Panel dashboard. This feature is currently available as a part of your hosted 3Bot that you could deploy online from [the 3Bot Deployer](https://deploy3bot.grid.tf/). 
 

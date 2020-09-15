@@ -2,7 +2,7 @@
 
 #### This release features:
  - personal 3bot on the grid
- - demo marketplace
+ - demo threefold_now
  - 3Bot server
  - 3Bot admin panel
  - chat framework
@@ -43,7 +43,7 @@
     - auth
     - backup
     - farmmanagement
-    - marketplace
+    - threefold_now
     - stellar stats
     - tfgrid solutions
     - weblibs
