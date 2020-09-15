@@ -31,7 +31,7 @@
     - [Create a Capacity Pool](3bot_capacity_new.md)
     - [Extend a Capacity Pool](3bot_capacity_extend.md)
  - [Solutions](solution_chatflows.md)
-    - [Network](network.md)
+    - [Network](solution_network.md)
          - [Deploy Your First Network](getting_started_network.md)
     - [Generic Container](solution_container.md)
     - [Kubernetes](solution_kubernetes.md)
