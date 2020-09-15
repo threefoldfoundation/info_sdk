@@ -128,7 +128,7 @@ A signature has the actual `signature` bytes, as well as the id of the 3Bot whic
 
 #### Result
 
-A result is used by a 0-OS node to add a response to a reservation. This result can inform users if an error occurred, or more commonly, it can relay back vital information such as the IP address of a container after it is started.
+A result is used by a Zero-OS node to add a response to a reservation. This result can inform users if an error occurred, or more commonly, it can relay back vital information such as the IP address of a container after it is started.
 The result object has a `WorkloadId` field, which is used to map the result to the actual workload. With the workload request, the `NodeId` can be inspected, to get the nodes public key. The key can then be used to verify the signature of the data, proving that it is indeed this node which created the reply, and that the `DataJSON` (TODO:remove this field) has not been tampered with after it was created.
 
 - `category`: The type of workload for which the reply is
@@ -149,4 +149,4 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - **Farmer**: a digital avatar of a farmer. It owns some node in the grid and is responsible to set the price of its node capacity.
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain using ThreefoldToken (TFT).
-- **Node**: Hardware running 0-OS and responsible to provide capacity to the TFGrid
+- **Node**: Hardware running Zero-OS and responsible to provide capacity to the TFGrid

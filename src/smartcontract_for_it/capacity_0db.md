@@ -21,7 +21,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 ## Network consideration
 
-0-DB server is running on 0-OS node and exposed on the 0-OS nodes over public IPv6 addresses. The address of a specific 0-DB remains constant over time. This means even in the event a node reboots, the 0-DB will automatically start and have the same IP address.
+0-DB server is running on Zero-OS node and exposed on the Zero-OS nodes over public IPv6 addresses. The address of a specific 0-DB remains constant over time. This means even in the event a node reboots, the 0-DB will automatically start and have the same IP address.
 
 ## Useful links and extra documentation
 

@@ -1,8 +1,8 @@
 ## Create a Bootable Image
 
-At this point you should have created your farm and noted its ID. The next step is to generate a bootable image of 0-OS to boot your nodes.
+At this point you should have created your farm and noted its ID. The next step is to generate a bootable image of Zero-OS to boot your nodes.
 
-The bootstrap service: https://bootstrap.grid.tf is there for you to generate your 0-OS images.
+The bootstrap service: https://bootstrap.grid.tf is there for you to generate your Zero-OS images.
 In the bootstrap wizard, enter your farm ID:
 
 ![boostrap farmer ID](./img/bootstap_farmid.png)

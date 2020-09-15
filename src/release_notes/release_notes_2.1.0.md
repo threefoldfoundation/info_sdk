@@ -9,9 +9,9 @@ It introduces the threefold_now https://manual.Threefold.io/#/threefold_now runn
 
 - Jumpscale/SDK: `js-ng 11.0.0-alpha.2`
  - [Github project](https://github.com/orgs/Threefoldtech/projects/104)
-- 0-OS v2:`0.3.3`:
+- Zero-OS v2:`0.3.3`:
  - [Github project](https://github.com/orgs/Threefoldtech/projects/89)
- - [0-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
+ - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
  - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
 
 

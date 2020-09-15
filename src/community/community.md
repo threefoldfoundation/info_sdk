@@ -16,9 +16,9 @@ The Threefold Community is expanding every day. If you want to engage with the c
 
 * [Threefold Tech Github](https://github.com/Threefoldtech/): Contribute to our open-source projects and wikis.
 * [Telegram Group For Testing On TFGrid 2.2](https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w): Get Threefold's latest updates via telegram channel.
-* Technical discussion about 0-OS:
-  + [0-OS Telegram](https://t.me/zero_os_tech)
-  + [#zero-os:matrix.org](https://app.element.io/#/room/#zero-os:matrix.org)
+* Technical discussion about Zero-OS:
+  + [Zero-OS Telegram](https://t.me/zero_os_tech)
+  + [#Zero-OS:matrix.org](https://app.element.io/#/room/#zero-os:matrix.org)
 
 ## Social
 

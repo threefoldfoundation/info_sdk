@@ -38,9 +38,9 @@ Release Stats (Sept 2020)
  - Current: TF Grid 2.2.0
  - Next: TF Grid 2.2.X
 
-- 0-OS
- - Current: 0-OS V0.4.0
- - Next: 0-OS V.0.4.
+- Zero-OS
+ - Current: Zero-OS V0.4.0
+ - Next: Zero-OS V.0.4.
 
 - TF Grid Demo
  - Mainnet (2.2) - Production
@@ -53,7 +53,7 @@ In brief, the Threefold Grid is composed of two different types of public networ
 ![](./img/environment.png)
 
 
-The latest versions of 0-OS (TF Grid’s operating system) and their associated new features are first deployed to the  ‘Testnet’ for testing, before eventually being released on the ‘Mainnet’ grid. Any farmer and partner will be able to choose to run their node on any of the 3 networks, by configuring their 0-OS boot process accordingly.
+The latest versions of Zero-OS (TF Grid’s operating system) and their associated new features are first deployed to the  ‘Testnet’ for testing, before eventually being released on the ‘Mainnet’ grid. Any farmer and partner will be able to choose to run their node on any of the 3 networks, by configuring their Zero-OS boot process accordingly.
 
 ![](./img/testnet_mainnet.png)
 

@@ -63,7 +63,7 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 - Flist deploy uses hru instead of mru
 - Secret could contain any special characters
 
-### 0-OS
+### Zero-OS
 
 - You could now configure the size and type of the root filesystem of the containers
 - Better report of the node health
@@ -78,9 +78,9 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 - Jumpscale/SDK: `10.6`
  - [Github project](https://github.com/orgs/Threefoldtech/projects/88)
  - [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.6)
-- 0-OS v2:`0.3.3`:
+- Zero-OS v2:`0.3.3`:
  - [Github project](https://github.com/orgs/Threefoldtech/projects/89)
- - [0-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
+ - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
  - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
 
 ### 3SDK binaries

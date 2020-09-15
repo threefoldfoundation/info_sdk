@@ -15,7 +15,7 @@ For a complete detail and rational about this new feature, head to the [specific
 
 Some other new features also introduces in this version:
 
-### 0-OS
+### Zero-OS
 
 * Hard drive disk are now automatically shutdown when not used. This feature should greatly improve the power consumption of servers with a lot of disks but few actual usage.
 * A new networking option is available for your container. You can now ask a container to have an extra interface that is connected to  the [Yggdrasil network](https://yggdrasil-network.github.io). This allow you to seamlessly expose service on Yggdrasil
@@ -31,7 +31,7 @@ Some other new features also introduces in this version:
   + [Github project](https://github.com/orgs/Threefoldtech/projects/104)
   + [Release notes](https://github.com/threefoldtech/js-sdk/releases/tag/v11.0.0-a3)
 
-* 0-OS v2: `0.4.0`
+* Zero-OS v2: `0.4.0`
   + [Github project](https://github.com/orgs/threefoldtech/projects/72)
   + [Release notes](https://github.com/threefoldtech/zos/releases/tag/v0.4.0)
 
