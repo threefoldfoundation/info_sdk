@@ -55,8 +55,8 @@ ReservationData struct {
 
 - **JSON**: json representation of the `ReservationData` object
 - **DataReservation**: the actual data, signed and immutable. For more info
-- **CustomerTid**: The threebot id of the customer creating this reservation,
-this will also become the owner of the pool. Only the owner of this threebot
+- **CustomerTid**: The 3Bot id of the customer creating this reservation,
+this will also become the owner of the pool. Only the owner of this 3Bot
 could then deploy workloads on the pool.
 - **CustomerSignature**: The hex encoded signature of the JSON data.
 
