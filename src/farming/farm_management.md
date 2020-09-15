@@ -6,7 +6,7 @@ In this section, we will help you get started with your farm:
 
 * [pre-requisites for farming setup](farming_setup_requirements)
 * [Configuring a Farm](farm_init)
-* [Prepare a 3Node](threenode_prepare) = requirements
+* [Prepare a 3Node]3node_prepare) = requirements
 * [Booting a 3Node Over USB](boot_3node_usb)
 * [Managing Your Farm & Nodes](3bot_farm_mgmt.md)
 * [Manage your farm wallet](configure_wallet.md)
