@@ -91,7 +91,7 @@
 * [Farming](farm_management.md)
    * [pre-requisites for farming setup](farming_setup_requirements)
    * [Configuring a Farm](farm_init)
-   * [Prepare a 3Node]3node_prepare)
+   * [Prepare a 3Node](3node_prepare)
    * [Booting a 3Node Over USB](boot_3node_usb)
    * [Managing Your Farm & Nodes](3bot_farm_mgmt_.md)
    * [Manage your farm wallet](configure_wallet.md)
