@@ -24,7 +24,7 @@
    - [See Nodes On The TFGrid](explore_nodes.md)      
    <!-- - [Your First Solution (wiki example)](getting_started_wikideploy.md) -->
 - [3Bot](3bot.md)
- - [threebot Deployer](3Bot_deployer.md)
+ - [3Bot Deployer](3Bot_deployer.md)
  - [Dashboard](3bot_admin.md)
  - [Wallets](3bot_wallet.md)
  - [Capacity Pools](3bot_capacity_pools.md)
