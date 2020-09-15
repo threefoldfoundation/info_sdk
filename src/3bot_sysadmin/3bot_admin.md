@@ -1,6 +1,6 @@
 # 3Bot Admin Panel Overview
 
-The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on the ThreeFold Grid. As the features and capabilities of our product are expanding, we're taking great measure to make sure that your experience of running projects and solutions on top of the ThreeFold Grid is as intuitive and frictionless as possible.
+The 3Bot Admin Panel is a versatile platform to administrate, monitor and control processes and activities on the ThreeFold Grid. As the features and capabilities of our product are expanding, we're taking great measure to make sure that your experience of running projects and solutions on top of the ThreeFold Grid is as intuitive and frictionless as possible.
 
 The admin panel has 2 viewing options, light and dark mode. You can switch between both using the slider on the top bar. 
 
@@ -18,7 +18,7 @@ The sidebar allows to navigate easily between the different features offered wit
 
 ### Wallets
 
-Your 3Bot comes in handy with a built-in [__3Bot Wallets__](3bot_wallet.md), listing all your existing 3Bot wallets, with the option to create a new wallet or import an existing one from the Stellar network (mainnet or testnet, aligned with the network that hosts your 3Bot). 
+Your 3Bot comes in handy with built-in [__3Bot Wallets__](3bot_wallet.md), listing all your existing 3Bot wallets, with the option to create a new wallet or import an existing one from the Stellar network (mainnet or testnet, aligned with the network that hosts your 3Bot). 
 
 Please go to [__3Bot Wallets__](3bot_wallet.md) to learn more.
 
