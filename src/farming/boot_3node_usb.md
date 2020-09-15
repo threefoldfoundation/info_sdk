@@ -1,4 +1,4 @@
-# Boot Your ThreeNode
+# Boot Your 3Node
 
 ## Using a USB Boot Disk
 
