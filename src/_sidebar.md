@@ -20,7 +20,8 @@
       - [Get 3Bot Testnet](testnet_3bot_get_hosted.md)
       - [Get TFT (Tokens)](testnet_gettft.md)
    - [Your First Network](getting_started_network.md)
-   - [Your First Solution (Ubuntu container)](getting_started_first_solution)
+   - [Your first Capacity Pool](./3bot_sysadmin/admin_tools/3bot_capacity_new.md)
+   - [Your First Solution (Hugo website)](./tutorials/tutorial_hugo_website_advanced.md)
    - [See Nodes On The TFGrid](explore_nodes.md)      
    <!-- - [Your First Solution (wiki example)](getting_started_wikideploy.md) -->
 - [3Bot](3bot.md)
