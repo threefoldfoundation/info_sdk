@@ -22,7 +22,7 @@ You can use a pre-configured hosted 3Bot wallet to store your Testnet TFT. 3Bot 
 
 ![](testnet_tft3.png)
 
-Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wallet list. Click on one a wallet to see the details of the wallet, including the wallet address and the amount of TFT balance you have in that wallet.
+Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wallet list. Click on a wallet to see the details, including the wallet address and the amount of TFT balance you have in that wallet.
 
 > Please go to [__Hosted 3Bot Wallet__](3bot_wallet.md) to read more about the 3Bot Wallet feature on your hosted 3Bot.
 
