@@ -12,7 +12,7 @@ Explorer address for each network:
 - Testnet: [https://explorer.testnet.grid.tf/](https://explorer.testnet.grid.tf/)
  - Test network where new feature of 0-OS are tested. No stability warranty.
 
-You could also access the explorer from the Admin panel by clicking on the `Capacity` tab in the left menu. ![./img/capacity_menu.png](./img/capacity_menu.png)
+You could also access the explorer from the Admin panel by clicking on the `Capacity` tab in the left menu.
 
 ## Information reported by the nodes to the Explorer
 

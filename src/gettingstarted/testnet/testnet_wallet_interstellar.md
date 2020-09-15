@@ -1,5 +1,4 @@
 # How to Set up a Testnet Interstellar Wallet 
-![](interstellar_start.png)
 
 ### Get an Interstellar Wallet (testnet) 
 
