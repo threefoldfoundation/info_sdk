@@ -47,7 +47,7 @@ Once you're logged in to your hosted 3Bot for the first time, a __pre-configured
 
 ![](testnet_tft.png)
 
-You could also request for Testnet TFT once for deployment testing via [__Request Testnet TFT faucet__](gettft.testnet.grid.tf). Simply put on your __stellar wallet testnet address__ on the provided box below, and request for 1000 TFT to be sent to the wallet.
+You could also request for Testnet TFT once for deployment testing via [__Request Testnet TFT faucet__](https://gettft.testnet.grid.tf). Simply put on your __stellar wallet testnet address__ on the provided box below, and request for 1000 TFT to be sent to the wallet.
 
 
 ![](testnet_tft2.png)
