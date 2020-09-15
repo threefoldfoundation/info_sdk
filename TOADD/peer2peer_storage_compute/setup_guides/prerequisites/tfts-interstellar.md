@@ -26,7 +26,7 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 
 * Choose If you want a Generate a Random or Custom wallet adress (we are going for a random one in this case.
 
-* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully. Losing your key will most likely result in a loss of your funds. Threefold or Interstellar could’t help anyone restore accounts or the funds attached to them in any case!
+* ! DANGERZONE ! You are now presented with your Secret Key. Please follow all steps and read the procedures carefully. Losing your key will most likely result in a loss of your funds. ThreeFold or Interstellar could’t help anyone restore accounts or the funds attached to them in any case!
 
 * You’re account is now created and you will have to send funds (digital currencies that run on the Stellar Blocklchain only only) to one of the wallets attached to your account.
 

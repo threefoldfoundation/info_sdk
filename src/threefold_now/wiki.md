@@ -1,6 +1,6 @@
 ## Wiki Publisher
 
-Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) than aims to host an online encyclopedia-like platform on a P2P network environment. With a wiki, everyone can be their own publisher on top of the Threefold Grid and build a censor-free knowledge base platform for topics they are passionated about.
+Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) than aims to host an online encyclopedia-like platform on a P2P network environment. With a wiki, everyone can be their own publisher on top of the ThreeFold Grid and build a censor-free knowledge base platform for topics they are passionated about.
 
 ### How to Publish a Wiki
 

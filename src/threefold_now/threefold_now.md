@@ -1,14 +1,14 @@
 ![](./img/3botdemo_home.png)
 
-# Introducing: Threefold Now (Demo)
+# Introducing: ThreeFold Now (Demo)
 
-[__The Threefold Now Demo__](https://demo.testnet.grid.tf/) is a marketplace for (in demo mode) open source peer2peer solutions that are built on top of Threefold Grid.
+[__The ThreeFold Now Demo__](https://demo.testnet.grid.tf/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 
 Its main goal is to enable a simplified solution-deployment on top of the TF Grid without the necessity of technical system administration knowledge. 
 
 > See [__Getting Started Manual__](threefold_now_getting_started.md).
 
-On its alpha version on Testnet, there are already open-source solutions deployed on top of the Threefold Grid, covering various fields from P2P video platform, online publisher, and many more to come. 
+On its alpha version on Testnet, there are already open-source solutions deployed on top of the ThreeFold Grid, covering various fields from P2P video platform, online publisher, and many more to come. 
 
 For an overview of the apps which will come see http://info-now.threefold.io/ . 
 

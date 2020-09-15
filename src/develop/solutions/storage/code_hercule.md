@@ -3,7 +3,7 @@ Please check [specifications](https://docs.google.com/document/d/1HzyElPiy3NTELS
 
 The basic idea is to provide a reliable storage solution that leverage on the current grid functionality.
 
-> NOTE: We are discussing a modified version of minio that has be officially released by Threefold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `Threefold` version. You could find the source code [here](https://github.com/Threefoldtech/minio)
+> NOTE: We are discussing a modified version of minio that has be officially released by ThreeFold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `Threefold` version. You could find the source code [here](https://github.com/Threefoldtech/minio)
 
 ## Installation tutorial
 Please check a full installation tutorial [here](chatflow_hercule.md)

@@ -14,7 +14,7 @@ Once the package is installed, the page will reload and the `farm management` UI
 
 ## Create a Farm
 
-> **Important**: Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. 
+> **Important**: Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The ThreeFold Grid has 2 different networks, Mainnet and Testnet. 
 
 To create a new farm, click the little plus button on the top left corner:
 
@@ -36,7 +36,7 @@ Let's go over each field an explain what they are:
 
 Once the farm is created you should see a new entry in the top table.
 
-Notice the first column of the table: ID. This is your farm ID, write this down because you will need to use it when generating the 0-OS image for your nodes of your farm.
+Notice the first column of the table: ID. This is your farm ID, write this down because you will need to use it when generating the Zero-OS image for your nodes of your farm.
 
 ![farm table](./img/farm_table.png)
 

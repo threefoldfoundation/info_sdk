@@ -5,8 +5,8 @@
 
 ## Basic Pre-requisites
 
-To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
-- Get [__3Bot Connect App__](3botconnect_install.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the Threefold Grid.
+To provision any workload on top of the __ThreeFold Grid__, there are some pre-requisites that need to be done:
+- Get [__3Bot Connect App__](3botconnect_install.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the ThreeFold Grid.
 - Get a [__Mainnet 3Bot__](mainnet_3bot.md). You have the option to either get a mainnet hosted 3Bot or mainnet local 3Bot.
 - Log in to your __mainnet hosted 3Bot__, if you deployed a hosted 3Bot instead of a local 3Bot.
 - Get and store [__TFT__ on Mainnet](mainnet_gettft.md) to reserve IT Capacity and pay for your workload on top of the TF Grid
@@ -19,14 +19,14 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. This could be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
-Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
+Please be aware that this ID is going to be used as your main digital identity on the ThreeFold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your ThreeFold Tokens.
 
 > Manual: [Get __3Bot Connect App__](3botconnect_install.md)
 
 
 ## Get a 3Bot on Mainnet
 
-[__3Bot__](mainnet_3bot.md) is your digital twin; a representative of yourself on top of the Threefold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+[__3Bot__](mainnet_3bot.md) is your digital twin; a representative of yourself on top of the ThreeFold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 
 ![](./img/hosted3bot.png)
 

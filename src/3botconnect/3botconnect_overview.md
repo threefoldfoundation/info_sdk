@@ -11,14 +11,14 @@ This is the Home Page of your 3Bot Connect App. It offers a gateway to your digi
 
 ## Wallet
 
-In this tab you could check your Threefold Tokens wallets and balances. You could copy your wallet address using the green "Copy" buttons for each specific wallet. Using the button in the bottom right side you could send or generate QR code to receive Threefold Tokens:
+In this tab you could check your ThreeFold Tokens wallets and balances. You could copy your wallet address using the green "Copy" buttons for each specific wallet. Using the button in the bottom right side you could send or generate QR code to receive ThreeFold Tokens:
 
 ![](./img/3bot_wallet_1.png )
 
 
-### Generate QR Code to receive Threefold Tokens
+### Generate QR Code to receive ThreeFold Tokens
 
-To receive your Threefold Tokens you could copy your button or you have to fill next fields:
+To receive your ThreeFold Tokens you could copy your button or you have to fill next fields:
 
 ![](./img/3bot_wallet_2.png)
 

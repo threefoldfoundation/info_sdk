@@ -8,8 +8,8 @@ For identification and fund handling you will have install the 3Bot Connect App.
 
 [Installing the 3Bot Connect App](3bot_connect_app.md)
 
-## Installing The Threefold SDK
-The Threefold SDK is the interface where you get acces to all different options to spinning up storage or compute capacity.
+## Installing The ThreeFold SDK
+The ThreeFold SDK is the interface where you get acces to all different options to spinning up storage or compute capacity.
 * The Chatflows
 * Jupyter Notebooks
 * Codeserver

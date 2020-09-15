@@ -10,7 +10,7 @@ Explorer address for each network:
 - Mainnet: [https://explorer.grid.tf/](https://explorer.grid.tf/) 
  - Main production network, this is usually what you want to use.
 - Testnet: [https://explorer.testnet.grid.tf/](https://explorer.testnet.grid.tf/)
- - Test network where new feature of 0-OS are tested. No stability warranty.
+ - Test network where new feature of Zero-OS are tested. No stability warranty.
 
 You could also access the explorer from the Admin panel by clicking on the `Capacity` tab in the left menu.
 

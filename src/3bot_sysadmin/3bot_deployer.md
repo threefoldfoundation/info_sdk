@@ -1,6 +1,6 @@
 # Get a Hosted 3Bot
 
-Simplifying the deployment experience on top of the Threefold Grid has been a priority for Threefold since we launched the 3Bot SDK. We are now creating an even better, more user-friendly experience by allowing users to deploy their 3Bot online on a hosted environment. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on top of the Threefold Grid.
+Simplifying the deployment experience on top of the ThreeFold Grid has been a priority for ThreeFold since we launched the 3Bot SDK. We are now creating an even better, more user-friendly experience by allowing users to deploy their 3Bot online on a hosted environment. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on top of the ThreeFold Grid.
 
 ## How to Deploy a Hosted 3Bot
 
@@ -49,7 +49,7 @@ Choose how you would like to pay for the internet capacity you're going to use t
 
 You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
 ##### Remark: 
-If you are working on the mainnet of the Threefold grid, TFT are to be used for payment on the Stellar mainnet. 
+If you are working on the mainnet of the ThreeFold grid, TFT are to be used for payment on the Stellar mainnet. 
 The testnet of the TFGrid is connected to the Stellar testnet, so also testnet tokens are to be used. 
 
 ![](./img/threebot_4_pay.png)

@@ -1,8 +1,8 @@
-# Threefold Grid Demo, 3Bot, and Testnet Disclaimer
+# ThreeFold Grid Demo, 3Bot, and Testnet Disclaimer
 
 ## DISCLAIMER
 
-Threefold Grid is currently running on a demo version, here referred to as __Demo__, __TF Grid Demo__, or __Threefold Grid Demo__, as well as __3Bot Admin Panel__, __3Bot Sys-Admin__, __3Bot__, to demonstrate the capabilities of our new threefold_now and deployable solutions.
+ ThreeFold Grid is currently running on a demo version, here referred to as __Demo__, __TF Grid Demo__, or __ThreeFold Grid Demo__, as well as __3Bot Admin Panel__, __3Bot Sys-Admin__, __3Bot__, to demonstrate the capabilities of our new threefold_now and deployable solutions.
 This version of ThreeFold Grid is running on Testnet, which is not suited for production, therefore there would be no guarantees whatsoever provided to users including but not limited to uptime, or data availability.
 
 By using this early version of __Demo__, __3Bot__ on Testnet, you (the User) agree to __Threefold's__ [__Terms & Conditions__](https://wiki.threefold.io/#/termsconditions).

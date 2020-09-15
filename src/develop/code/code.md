@@ -8,7 +8,7 @@ In order to be able to deploy anything on the grid, you will have to have the fo
  
  Identity could be verified by checking `j.core.identity.me`
 - Install wireguard software. Instructions to how to get his installed on your platform could be found [here](https://www.wireguard.com/install/)
-- capacity reservation are not free so you will need to have some Threefold Tokens (TFT) to play around with. Instructions to get tokens to your stellar wallet could be found [here](tokens.md
+- capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with. Instructions to get tokens to your stellar wallet could be found [here](tokens.md
 
 Once the previously mentioned requirements are met, you are ready to deploy on the grid. This is mainly done using the `zos` client. Some examples are further explained below
 
