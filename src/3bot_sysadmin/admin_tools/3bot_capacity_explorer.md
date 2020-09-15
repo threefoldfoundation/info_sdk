@@ -2,7 +2,7 @@
 
 ![capacity explorer](./img/capacity_explorer.png)
 
-This page let you explorer the TFGrid. It shows some statistics about the overall usage of the grid and the detail about all the nodes and gateways currently active.
+This page let you explorer the TF Grid. It shows some statistics about the overall usage of the grid and the detail about all the nodes and gateways currently active.
 
 Using the `Capacity finder` panel, you can filter out the nodes based on their farm and resource units.
 

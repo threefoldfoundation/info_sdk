@@ -44,7 +44,7 @@ The expiration time determines your preference on how long you would want to kee
 You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
 ##### Remark: 
 If you are working on the mainnet of the ThreeFold grid, TFT are to be used for payment on the Stellar mainnet. 
-The testnet of the TFGrid is connected to the Stellar testnet, so also testnet tokens are to be used. 
+The testnet of the TF Grid is connected to the Stellar testnet, so also testnet tokens are to be used. 
 
 ![](./img/threebot_4_pay.png)
 

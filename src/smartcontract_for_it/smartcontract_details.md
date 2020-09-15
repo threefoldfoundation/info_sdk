@@ -149,4 +149,4 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - **Farmer**: a digital avatar of a farmer. It owns some node in the grid and is responsible to set the price of its node capacity.
 - **TF Explorer**: Public directory listing all the nodes/farmers in the grid
 - **Blockchain**: money blockchain, money transaction are executed on this chain using ThreefoldToken (TFT).
-- **Node**: Hardware running Zero-OS and responsible to provide capacity to the TFGrid
+- **Node**: Hardware running Zero-OS and responsible to provide capacity to the TF Grid
