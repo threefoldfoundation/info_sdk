@@ -15,10 +15,10 @@
       - [Get 3Bot](mainnet_3bot.md)
       - [Get and Store TFT](mainnet_gettft.md) -->
    - [Get Your 3Bot On Testnet](testnet_getting_started.md)
-      - [Testnet get Started](testnet_getting_started.md)
+      - [Testnet - Get Started](testnet_getting_started.md)
       - [Get 3Bot Connect](3botconnect_install.md)
-      - [Get 3Bot Testnet](testnet_3bot_get_hosted.md)
       - [Get TFT (Tokens)](testnet_gettft.md)
+      - [Get 3Bot Testnet](testnet_3bot_get_hosted.md)
    - [Your First Network](getting_started_network.md)
    - [Your First Solution (Ubuntu container)](getting_started_first_solution)
    - [See Nodes On The TFGrid](explore_nodes.md)      
