@@ -1,6 +1,6 @@
 # Quick Overview
 
-## What is Threefold
+## What is ThreeFold
 
 The Internet is growing at an accelerated rate. To service this demand, a few large companies (Google, Amazon, Alibaba, Facebook, and more) have built and continue to grow supersized, power-hungry, and centralized data centers. These data centers make up the majority of all Internet capacity available today. However, the Internet is expanding much faster than data centers, and the planet could't cope with it. The solution is to have a more distributed, cost-effective, neutral, and sustainable Internet. __Threefold__ (as an ecosystem) has developed this technology; creating the ThreeFold Grid (Grid) and a token (TFT), which enable this to happen.
 
