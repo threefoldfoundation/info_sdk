@@ -1,12 +1,12 @@
 # 3Bot Server
 
-The Threefold system uses dispersed storage algorithms and is very different. In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
+The ThreeFold system uses dispersed storage algorithms and is very different. In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
 
 In a dispersed storage system the data gets dispersed in such a way that data will always be available even if 4 sites of the 20 (in this case) would not be available. Redundancy is the same as in the above example but the overhead is 20x less. It also has clear benefits from a security and efficiency perspective. This has been originally invented for communication in space.
 
 ## How is this “Space Algorithm” used by the 3Bot
 
-By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency (Threefold Token or TFT) which the 3Bot could use to reserve raw storage and compute resources on the grid.
+By nature, a 3Bot is stateless (has no data storage of its own). A 3Bot owns digital currency ( ThreeFold Token or TFT) which the 3Bot could use to reserve raw storage and compute resources on the grid.
 
 ![](https://github.com/Threefoldfoundation/3bot/blob/master/docs/img/3bot%20ecosystem.jpg)
 

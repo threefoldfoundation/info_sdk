@@ -14,7 +14,7 @@ Once the package is installed, the page will reload and the `farm management` UI
 
 ## Create a Farm
 
-> **Important**: Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The Threefold Grid has 2 different networks, Mainnet and Testnet. 
+> **Important**: Before creating farm, makes sure your 3Bot is configure to use the network you want to use. The ThreeFold Grid has 2 different networks, Mainnet and Testnet. 
 
 To create a new farm, click the little plus button on the top left corner:
 

@@ -5,8 +5,8 @@
 
 ## Basic Pre-requisites
 
-To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
-- Get [__3Bot Connect App__](testnet_3botconnect.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the Threefold Grid.
+To provision any workload on top of the __ThreeFold Grid__, there are some pre-requisites that need to be done:
+- Get [__3Bot Connect App__](testnet_3botconnect.md): 3Bot Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the ThreeFold Grid.
 - Get a hosted __3Bot__ via [__3Bot Deployer__](testnet_3bot.md).
 - Log in to your __3Bot__.
 - Get some [__TFT__](testnet_gettft.md) to reserve IT Capacity and pay for your workload on top of the TF Grid
@@ -18,14 +18,14 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. This could be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
-Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
+Please be aware that this ID is going to be used as your main digital identity on the ThreeFold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your ThreeFold Tokens.
 
 > Manual: [Get __3Bot Connect App__](3botconnect_install.md)
 
 ### Get a 3Bot via 3Bot Deployer
 
 3Bot is the system administrator that helps you to maintain project deployments and activities on top of the TF Grid.
-You would need to sign up for a new 3Bot to be able to deploy a workload on top of the grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+You would need to sign up for a new 3Bot to be able to deploy a workload on top of the grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 
 Please go to [**Get a 3Bot on Testnet Tutorial**](getting_started_3bot.md) to see the detailed instruction on how to get a 3Bot Server and launch your own 3Bot System Administrator Panel on TF Grid Mainnet.
 

@@ -1,7 +1,7 @@
 # 3Bot on Mainnet
 
 
-As your digital presence on the TF Grid, 3Bot plays a crucial role in creating, monitoring, maintaining activities on top of the TF Grid. Therefore, __3Bot__ comes with a system administrator panel; a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+As your digital presence on the TF Grid, 3Bot plays a crucial role in creating, monitoring, maintaining activities on top of the TF Grid. Therefore, __3Bot__ comes with a system administrator panel; a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 
 ![](./img/hosted3bot.png)
 

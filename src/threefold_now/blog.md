@@ -1,8 +1,8 @@
 # Blog Publisher
 
-Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the Threefold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own Blog by using the Blog Publisher.
+Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the ThreeFold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own Blog by using the Blog Publisher.
 
-## Publish a Blog on Top if the Threefold Grid
+## Publish a Blog on Top if the ThreeFold Grid
 
 ### Name Your Blog Project
 

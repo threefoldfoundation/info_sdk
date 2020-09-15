@@ -1,4 +1,4 @@
-# Threefold Grid Manual
+# ThreeFold Grid Manual
 
 ![](./img/storage_compute.png)
 
@@ -13,7 +13,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 - [__Advance Development__](develop.md)
 
 
-The Manual is sectioned into 5 major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [__Introduction__](learn.md) section.
+The Manual is sectioned into 5 major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the ThreeFold Ecosystem, see the [__Introduction__](learn.md) section.
 
 To learn all the basics you would need to complete before deploying a solution on top of the TF Grid, head over to the [__Getting Started__](getting_started.md) section of the Manual. 
 
@@ -23,7 +23,7 @@ If you're interested in deploying a cloud solution project on top of TF Grid (bo
 
 If you're interested in more advanced technical hand-outs on cloud infrastructure solution deployment, please check out our [__Advance Development__](develop.md) guide section. It will guide you from scratch on how to deploy your first cloud infrasturcture solution on the grid by using primitives on step-by-step procedures.
 
-If you're looking for an introduction to Threefold in general, please go to our main [__Threefold Wiki__](wiki.Threefold.io) 
+If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](wiki.Threefold.io) 
 
 
 ## TF Grid: Where Are We Now?
@@ -34,7 +34,7 @@ If you're looking for an introduction to Threefold in general, please go to our 
 ```
 Release Stats (Sept 2020)
 
-- Threefold Grid 
+- ThreeFold Grid 
  - Current: TF Grid 2.2.0
  - Next: TF Grid 2.2.X
 
@@ -48,7 +48,7 @@ Release Stats (Sept 2020)
 
 ```
 
-In brief, the Threefold Grid is composed of two different types of public networks environments; Mainnet (production), Testnet (Staging). 
+In brief, the ThreeFold Grid is composed of two different types of public networks environments; Mainnet (production), Testnet (Staging). 
 
 ![](./img/environment.png)
 

@@ -1,4 +1,4 @@
-# Threefold Overlay Network
+# ThreeFold Overlay Network
 
 ![](./img/network_wireguard_logo.png)
 

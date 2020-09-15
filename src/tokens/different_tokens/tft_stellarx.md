@@ -7,7 +7,7 @@ StellarX is a free peer2peer threefold_now available on the Stellar network. It 
 
 ## Buy
 
-If you would like to start playing with the TF Grid today, you could purchase Threefold Tokens (TFT) through StellarX. 
+If you would like to start playing with the TF Grid today, you could purchase ThreeFold Tokens (TFT) through StellarX. 
 
 ## How?
 
@@ -17,7 +17,7 @@ You could buy TFT only through Stellar Lumens (XLM), for now.
 - The price defined at the start is expressed in XLM but represents a value of 0.15 USD during the first month of the TLE. 
 - This will allow people to buy real TFT on Stellar with their own wallets.
 - On the stellar exchange, people could buy TFT using different cryptoassets, the exchange mechanism allows to find a match with TFT, even if the trading pair is different than TFT/XLM. To do that, it combines trades between different pairs, up to 6 levels. 
-- Stellar TFT are provided by the Threefold Foundation, who could be recognized by the mentioned issuer code. 
+- Stellar TFT are provided by the ThreeFold Foundation, who could be recognized by the mentioned issuer code. 
 
 ## Trading? 
 

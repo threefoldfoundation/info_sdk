@@ -5,7 +5,7 @@
  * Prerequisites
   * [Installing 3Bot Connect App](3bot-connect-app.md)
   * Install the SDK
-   * [Linux Threefold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-linux.md)
-   * [MacOS Threefold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-macos.md)
+   * [Linux ThreeFold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-linux.md)
+   * [MacOS ThreeFold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-macos.md)
    * Windows (soon) 
 * [Level Up](/grid/peer2peer_storage_compute/README.md)

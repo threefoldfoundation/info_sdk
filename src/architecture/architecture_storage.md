@@ -19,7 +19,7 @@ All of the above concepts were invented when datasets were small(er) and could s
 
 ![](./img/classic_storage.png)
 
-#### Threefold Space Algorithm (Dispersed Storage)
+#### ThreeFold Space Algorithm (Dispersed Storage)
 
 Today we produce more data than ever before. We could not continue to make full copies of data to make sure it is stored reliably. This will simply not scale. We need to move from securing the whole dataset to securing all the objects that make up a dataset.
 

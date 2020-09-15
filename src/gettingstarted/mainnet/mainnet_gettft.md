@@ -40,7 +40,7 @@ You could use any [__third-party testnet stellar wallet__](https://www.stellar.o
 
 > [__Get a third party Stellar Wallet__](https://www.stellar.org/lumens/wallets)
 
-> Please go to [__How to Store Your TFT__](https://wiki.threefold.io/#/storing_tft) Section on Threefold Wiki for more detailed information on purchasing TFT.
+> Please go to [__How to Store Your TFT__](https://wiki.threefold.io/#/storing_tft) Section on ThreeFold Wiki for more detailed information on purchasing TFT.
 
 ## Get TFT
 
@@ -58,4 +58,4 @@ You have three options for getting / purchasing TFT
 
 _Keep in mind buying digital currencies through exchanges does involve some steps and time, but in the end this is because there is an exchange of money happening – so security, verification of identity, and related procedures are quite important._
 
-> Please go to [__How to Buy TFT__](https://wiki.threefold.io/#/how_to_buy_and_sell) Section on Threefold Wiki for more detailed information on purchasing TFT.
+> Please go to [__How to Buy TFT__](https://wiki.threefold.io/#/how_to_buy_and_sell) Section on ThreeFold Wiki for more detailed information on purchasing TFT.
