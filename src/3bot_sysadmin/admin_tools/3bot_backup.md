@@ -1,1 +1,4 @@
-todo
+- what does backup mean? backup from where to where???
+- what can i back up, what i cannot backup?
+- example: how to do backup for ____: create one example; Minio. etc
+- can i transfer my backup to another account ? computer? from testnet to mainnet?
