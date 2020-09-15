@@ -41,7 +41,7 @@
     - [4 to 6 Gateway](four_to_six_gateway.md)
     - [Monitoring](monitoring.md)
  - [Deployed Workloads](3bot_deployed_workloads.md)
- - [Back Up](3bot_backup.md)
+ - [Backup](3bot_backup.md)
  - [Capacity Explorer](3bot_capacity_explorer.md)
  - [Farm Management](3bot_farm_mgmt.md)
  - [Wikis](3bot_wikis.md)
