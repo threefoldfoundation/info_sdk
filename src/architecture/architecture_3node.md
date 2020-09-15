@@ -3,7 +3,7 @@
 Hardwares are the low-level provider for digital capabilities. Hardwares provide components that enable software to create, process, transmit and store data. Nodes run an operating system to expose all embedded components in such a way that applications could use these components. Operating systems come in many different types, kinds, sizes and purposes. None of the existing operating systems have the characteristics of what the TF Grid needs:
 - **Autonomy**: TF Grid needs to create compute, storage and networking capacity everywhere. We could not rely on a remote (or a local) maintenance of the operating system by owners or operating system administrators.
 - **Simplicity**: An operating system should be simple, able to exist anywhere, for anyone, good for the planet.
-- **Stateless**. In a grid (peer2peer) set up, the sum of the components is providing a stable basis for single elements to fail and not bring the whole system down. Therefore, it is necessary for single elements to be stateless, and the state needs to be stored within the grid.
+- **Stateless**. In a grid (peer-to-peer) set up, the sum of the components is providing a stable basis for single elements to fail and not bring the whole system down. Therefore, it is necessary for single elements to be stateless, and the state needs to be stored within the grid.
 
 With these particular design constrains, ThreeFold invented an efficient, simple stateless operating system called [Zero-OS](https://github.com/Threefoldtech/zos)
 

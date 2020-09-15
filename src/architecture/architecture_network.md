@@ -1,7 +1,7 @@
 ## Network Architecture
 
 ### Introduction
-True peer2peer is a principle that exists everywhere within Threefold's technology stack, especially on its Network Architecture. Farmers produce IT capacity by connecting hardwares to the network and installing Zero-OS. The peer2peer network of devices forms the TF Grid. This TF Grid is a universal substrate of which a large variety of IT workloads exist and run.
+True peer-to-peer is a principle that exists everywhere within Threefold's technology stack, especially on its Network Architecture. Farmers produce IT capacity by connecting hardwares to the network and installing Zero-OS. The peer-to-peer network of devices forms the TF Grid. This TF Grid is a universal substrate of which a large variety of IT workloads exist and run.
 
 ### Peer-to-peer networking
 The TF Grid is built by 3Nodes (hardware + Zero-OS) that are connected to the internet by using the IPv6 protocol. To future-proof this grid, IPv6 has been chosen as ThreeFold Grid's native networking technology. The TF Grid operates on IPv6 (where available) and creates peer-to-peer network connections between all the containers (and other primitives). Please find more about Zero-OS primitives [here](https://manual-testnet.threefold.io/#/code) 

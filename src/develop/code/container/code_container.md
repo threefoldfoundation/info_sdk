@@ -42,7 +42,7 @@ demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you executed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we could now launch the Flist. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
+When you executed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer-to-peer with a wireguard tunnel. On these nodes we could now launch the Flist. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
 
 | Nr. | Location | Node ID. | IPV4 network | Function. |
 |--------|---|---|---|---|
