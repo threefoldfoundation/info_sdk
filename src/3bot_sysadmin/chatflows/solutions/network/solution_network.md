@@ -8,9 +8,9 @@ To access it, go to your hosted 3Bot Admin Panel, and select __Network__.
 
 The solution takes some configurations from the user, we will list them and explain their meaning
 
-- `Network name` : a name for the network to deploy on and also to reference in the reservation manager.
+- `Network name` : A name for the network to deploy on and also to reference in the reservation manager.
 - `IP version` : (IPv4 or IPv6) Version of the entrypoint node.
-- `IP range` : Configure network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically
+- `IP range` : Configure network manually by choosing an IP range to use or the deployer could choose for you and generate an IP range automatically.
 
 ## Chatflow steps
 
