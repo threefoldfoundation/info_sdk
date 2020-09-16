@@ -12,10 +12,10 @@ Simply click on each __alert message__ to see the detail of the issue report.
 ## The Alert Filtering Explained:
 
 - __ID__: The unique ID Number for each issue report.
-- __Application__: The original application or solution deployment process where the issue occured.
+- __Application__: The original application or solution deployment process where the issue occurred.
 - __Last Occurence__: The last time when the particular issue was documented to occur.
 - __Type__: The type of issue (system, operator, monitor, bug or question).
 - __Category__: Internal or External Error.
 - __Status__: New, Open, Closed, or Reopened.
-- __Count__: The frequency of issue occurence.
+- __Count__: The frequency of issue occurrence.
 - __Messages__: The details of the issue.
