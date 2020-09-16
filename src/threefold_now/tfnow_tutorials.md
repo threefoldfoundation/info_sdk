@@ -1,6 +1,6 @@
-# Threefold NOW Tutorials
+# ThreeFold NOW Tutorials
 
-Welcome to Threefold NOW Tutorials! On this page you will find the directory of all the available step-by-step guidelines of TF NOW solution Deployment.
+Welcome to ThreeFold NOW Tutorials! On this page you will find the directory of all the available step-by-step guidelines of TF NOW solution Deployment.
 
 ## Build Your First TF NOW Solutions
 
