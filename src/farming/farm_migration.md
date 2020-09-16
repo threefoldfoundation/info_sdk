@@ -26,7 +26,7 @@ In this example we have a Testnet Network farm so we take note of the **test** 3
 Go to your local 3Bot dashboard and navigate to the `Farm Management` page. You should see your farm. Click on the cogwheel (settings icon) to edit your farm.
 ![migration](./img/save_farm.png)
 
-For the migration to happen you have to take the threebot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
+For the migration to happen you have to take the 3Bot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
 
 In our example we took note of the identity with name **test** and it's 3Bot ID `860`. We fill in `860` in the **3Bot ID** field.
 
@@ -51,11 +51,11 @@ Click the plus button to create a new Identity
 ![new id](./img/new_identity_hosted_3bot.png)
 
 #### 1.2
-Fill in the information based on your **threebot connect** identity (which will be the case for your existing farm) and the network your farm lives on. In this example we call our Identity **John** and we have a farm on the **Test Network**.
+Fill in the information based on your **3Bot connect** identity (which will be the case for your existing farm) and the network your farm lives on. In this example we call our Identity **John** and we have a farm on the **Test Network**.
 
 > **WARNING**: make sure you browser sessions is encrypted with HTTPS. Someone might be eavesdropping.
 
-> **INFO**: If you do not want to fill in your seed words in the browser please migrate your farm from your local threebot dashboard.
+> **INFO**: If you do not want to fill in your seed words in the browser please migrate your farm from your local 3Bot dashboard.
 
 Now that you created your identity you should now see a list of 3 identities. In this example we see this:
 - test 
@@ -73,7 +73,7 @@ In this example we have a Testnet Network farm so we take note of the **test** 3
 
 ### Step 2
 
-Now click on your **newly created identity** and make it your default! This will make the dashboard load in your identity from your threebot connect app. In this example we click on **John** and make it our default.
+Now click on your **newly created identity** and make it your default! This will make the dashboard load in your identity from your 3Bot connect app. In this example we click on **John** and make it our default.
 
 ![new id](./img/new_set_default.png)
 
@@ -82,7 +82,7 @@ Now go to `Farm Management` page. You should see your farm. Click on the cogwhee
 
 ![migration](./img/save_farm.png)
 
-For the migration to happen you have to take the threebot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
+For the migration to happen you have to take the 3Bot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
 
 In our example we took note of the identity with name **test** and it's 3Bot ID `860`. We fill in `860` in the **3Bot ID** field.
 Click `Save`.
