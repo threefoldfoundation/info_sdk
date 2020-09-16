@@ -1,57 +1,22 @@
-# Website Publisher
+## Website
 
-Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the ThreeFold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own website by using the Website Publisher.
+### How to Publish a Website
 
-## Publish a Website on Top of the ThreeFold Grid
+There are a few things to know when you want to publish a website:
+- Title: Is the title shown up on your published content.
+- Repository URL: is a valid git repository URL where your content lives
+- Branch: is the deployment branch that exists on your git repository to be used as the version of your content to publish.
 
-### Name Your Website Project
+Example of a Website repository:
 
-This name will be used to identify this website on your deployed websites' list on the 3Bot Admin Panel Dashboard. Keep in mind that this name would also be used as your website's subdomain (a part of your website's address).
+The folder file structure should look like this:
 
-![](./img/website_1.png)
-
-
-### Add a Website Title, Repo URL and Branch
-
-![](./img/website_2.png)
-
-### Choose the Expiration Time
-
-The expiration time determines how long you would want to keep this website alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep it online. No worries, you could always extend your website's living span by extending your capacity. 
-
-![](./img/website_3.png)
-
-### Select Your Payment Currency
-
-Choose how you would like to pay for the internet capacity you're going to use to deploy your website.
-
-![](./img/website_4.png)
-
-### Pay for Your Capacity by using a Stellar Wallet
-
-You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
-
-![](./img/website_5.png)
-
-### Wait Until Your Payment is Succeeded
-
-![](./img/website_6.png)
-
-### Preparing Your Website's Resources
-
-![](./img/website_7.png)
-
-### Summary of Your Deployment
-
-![](./img/website_8.png)
-
-### Final Deployment of Your Website
-
-### Congratulations, Your Website is Successfully Deployed!
-You could now access your new website by entering the website address mentioned below onto your web browser.
-![](./img/website_10.png)
-
-
-An example of a successfully deployed website:
-
-![](./img/website_11.png)
+```
+- src
+    - index.html
+    - css
+        - somecssfile.css
+    js
+        - ..
+    ..
+```
