@@ -10,11 +10,11 @@ Follow this detailed guide to [create a farm](../../farming/farm_init.md)
 
 ## Edit a Farm
 
-If you want to change any of the detail about your farm, you can click on the gear icon at the right side of the farm table under the actions colum. This will open a popup containing a form that let you edit any of the farm's information.
+If you want to change any of the detail about your farm, you can click on the gear icon at the right side of the farm table under the actions column. This will open a popup containing a form that let you edit any of the farm's information.
 
 ### Changing the owner of a farm
 
-If you want to change the owner of a farm, you can do so by opening the edit popup and then change the `3Bot ID` field. Be careful when doing so because once a farm has changed owner, there is no way to get it back unless the new owner agree to do so.
+If you want to change the owner of a farm, you can do so by opening the edit popup and then change the `3Bot ID` field. Be careful when doing so because once a farm has changed owner, there is no way to get it back unless the new owner agrees to do so.
 
 ## Inspecting an existing farm
 
@@ -28,4 +28,4 @@ You can click the eye icon in the action column to open the listing of the nodes
 
 ### Deleting a dead node
 
-It can happen that one or more of your nodes dies due to hardware failures. If you want to clean it up and remove it from the farm, you can click the trash bin icon on the right side in the nodes tables.
+One or more of your nodes may die due to hardware failures. If you want to clean it up and remove it from the farm, you can click the trash bin icon on the right side in the nodes tables.
