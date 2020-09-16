@@ -28,4 +28,4 @@ You can click the eye icon in the action column to open the listing of the nodes
 
 ### Deleting a dead node
 
-It can happen that one or more of your nodes die (hardware failure). If you want to clean it up and remove it from the farm, you can click the trash bin icon on the right side in the nodes tables.
+It can happen that one or more of your nodes dies due to hardware failures. If you want to clean it up and remove it from the farm, you can click the trash bin icon on the right side in the nodes tables.

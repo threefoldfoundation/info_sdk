@@ -16,7 +16,7 @@ Is a package that makes it possible to deploy solution in a user friendly manner
 
 ### Admin
 
-The admin package of the 3Bot makes it possible for a user to give access to other users.
+The Admin package of the 3Bot makes it possible for a user to give access to other users.
 
 ### Weblibs
 
@@ -44,17 +44,17 @@ Installed Packages are the packages you have manually installed as additional pa
 
 Available Packages are the available packages you can install for your 3Bot.
 
-### Farm management
+### Farm Management
 
-The farmmanagement package help your create and manage a TF Grid Farm.
+The Farm Management package helps your create and manage a TF Grid Farm.
 
-### Marketplace
+### The Marketplace
 
-Is a package that will host the marketplace on your 3Bot. The marketplace consists of extra solutions that you can deploy within a few clicks!
+Is a package that will host the Marketplace on your 3Bot. The Marketplace consists of extra solutions that you can deploy within a few clicks!
 
-More information about the [marketplace](../../threefold_now/threefold_now.md).
+More information about the [Marketplace](../../threefold_now/threefold_now.md).
 
-### Threebot deployer
+### 3Bot deployer
 
 This package hosts the 3Bot deployer on your 3Bot! This may sound confusing but this can be really usefull if you want to give multiple people access to a private deployer url.
 
@@ -67,12 +67,12 @@ Notebooks package is a Jupyter notebook for you to do some scripting, datascienc
 Polls package powers polls21.threefold.me
 It has no added value for your 3Bot.
 
-### Stellar stats
+### Stellar Stats
 
-Stellar stats package powers https://statsdata.threefoldtoken.com/
+Stellar Stats package powers https://statsdata.threefoldtoken.com/
 It has no added value for your 3Bot.
 
 
 ### Codeserver
 
-This package will host Visual Studio Code in the browser! Here you can interact with the 3Bot source code and edit it!
+This package will host Visual Studio Code in the browser! Here you can interact with the 3Bot source code and edit it online, directly on your hosted 3Bot!

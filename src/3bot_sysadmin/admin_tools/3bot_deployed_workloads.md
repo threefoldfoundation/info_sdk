@@ -6,8 +6,8 @@ This page let you inspect all the workloads you ever deployed on the grid.
 The table let you filter workloads based on:
 
 * **workload ID**: The unique identifier of the workload.
-* **Workload type**: Only show the workload of a certain type.
-* **Capacity pool**: Only show workload linked to a certain capacity pool.
+* **Workload Type**: Only show the workload of a certain type.
+* **Capacity Pools**: Only show workload linked to a certain capacity pool.
 * **Next Action**: Only show workload that are in a certain state.
 
 By clicking on a workload, you open the detail view:

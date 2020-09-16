@@ -1,6 +1,6 @@
 # 3Bot Settings
 
-The settings section of the 3Bot allows you to manage who can access the 3Bot, the identities that the 3Bot can use and some developer oriented settings.
+The settings section of the 3Bot allows you to manage who can access the 3Bot, the identities that the 3Bot can use and some developer-oriented settings.
 
 ![settings](./img/settings.png)
 
@@ -20,7 +20,7 @@ In the 3Bot, the identity is composed of multiple fields:
 
 * **Instance name**: This is just a name for you to remember what this identity represent. It doesn't impact anything.
 * **3Bot ID**: This is the unique identifier of your identity.
-* **3Bot name**: This is the unique name associated with your identity (this must be the same as in the 3Bot connect application).
+* **3Bot Name**: This is the unique name associated with your identity (this must be the same as in the 3Bot connect application).
 * **Email**: The email address linked to your identity. This is used to verify user identity.
 * **Explorer URL**: The explorer URL to use when the identity is selected. This field is interesting cause it allow your 3Bot to works against the different TF Grid network (mainnet or testnet).
 
@@ -38,7 +38,7 @@ One identity could be linked to mainnet and one could be linked to testnet. By s
 
 ## Developers options
 
-These options are targeted to developers that want to alter the behavior of the 3Bot to allow easier development experience.
+These options are targeted to developers who want to alter the behavior of the 3Bot to allow an easier development experience.
 
 It contains 2 switches:
 
