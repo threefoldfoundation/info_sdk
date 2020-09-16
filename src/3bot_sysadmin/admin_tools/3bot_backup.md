@@ -1,17 +1,25 @@
 # 3Bot Backup
 
 
-The 3Bot backup is a service that backs up the data of your 3Bot, with this backup you can recover your 3Bot. The first backup is made when you initialize your hosted 3Bot.
+The 3Bot backup is a service that backs up the data of your 3Bot, with this backup you can recover your 3Bot. 
 
 ## Backing up
 
-The backup service has 2 options:
+The backup service has 2 options for hosted 3Bots:
 - Marketplace
 - Minio
 
+> The first backup is created when a hosted 3Bot is initialized.
+
+> Backups of a hosted 3Bot will be stored by the 3Bot deployer service.
+
+The backup service only has one option for local 3Bot backups which is __Minio__.
+
+You can also select to make automatic backups every 24 hours or you can initiate a backup with a custom tag.
+
 ### Marketplace backup
 
-The marketplace backup is a service that is installed by default when you initialize a hosted 3Bot. It takes a snapshot of your data the moment your hosted 3Bot is live. If you want you can select to make automatic backups that occur every 24hours.
+The marketplace backup is a service that is installed by default when you initialize a 3Bot. It takes a snapshot of your data the moment your 3Bot is live.
 
 ![Backup](./img/3bot_marketplace_backup.png)
 
@@ -25,7 +33,6 @@ If you wish to run minio backups you can enable it by clicking on __Minio__ -> _
 
 Following is required to make minio backups:
 
-![miniobackup](./img/3bot_miniobackup.png)
 - Minio url
 - Access key
 - Secret key
@@ -36,7 +43,7 @@ Following is required to make minio backups:
 
 ## Recovering with marketplace backup
 
-For a backup to be recovered you need to have:
+For a backup to be recovered you need to have following information:
 - The 3Bot name
 - The password associated with it.
 
@@ -50,8 +57,8 @@ Select __Deploy a new 3Bot__ -> __Recover__
 Follow the steps in the chatflow and you should be able to recover your 3Bot.
 
 ## Recovering with minio backup
-Working with the backups with minio requires some manual work. It backs up the configuration in `~/.config/jumpscale`, and if autobackup is enabled it'll do so every 24 hours.
 
+Recovering a backup with minio requires some manual work. It backs up the configuration in `~/.config/jumpscale` and if autobackup is enabled it'll do so every 24 hours.
 
 - right now visiting https://localhost/backup/actors/minio/restore will restore the last snapshot available
 - if you want to restore the latest snapshot from shell
