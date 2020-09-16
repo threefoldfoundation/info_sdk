@@ -1,17 +1,9 @@
 
 ![](src/img/intro.png)
 
-<<<<<<< HEAD
 ## Threefold peer2peer Cloud
 
 A new standard in peer2peer networking, storage and computing.
-
-Running on the Threefold Grid.
-=======
-## ThreeFold peer-to-peer Cloud
-A new standard in peer-to-peer networking, storage and computing.
-Running on the ThreeFold Grid.
->>>>>>> 43a205fd91a5b72b5897823a146f9758cc7ae0a8
 
 * Capacity in over 21 countries like: United States, couldada, Austria, Belgium,...
 * 100% Private: you own all your data running in your environment. 
