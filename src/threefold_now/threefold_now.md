@@ -1,11 +1,6 @@
-# Introducing: ThreeFold Now (Demo)
+# Introducing: ThreeFold NOW (Demo)
 
-TODO change link
-
-
-
-
-[__The ThreeFold Now Demo__](https://demo.testnet.grid.tf/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of TF Grid.
+[__The ThreeFold NOW Demo__](https://demo.testnet.grid.tf/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 
 Its main goal is to enable a simplified solution-deployment on top of the TF Grid without the necessity of technical system administration knowledge. 
 
@@ -14,8 +9,6 @@ Its main goal is to enable a simplified solution-deployment on top of the TF Gri
 On its alpha version on Testnet, there are already open-source solutions deployed on top of the TF Grid, covering various fields from a peer-to-peer video platform, online publisher and many more to come. 
 
 TODO change link
-
-
 
 For an overview of the apps which will come see http://info-now.threefold.io/ . 
 
@@ -32,7 +25,10 @@ For an overview of the apps which will come see http://info-now.threefold.io/ .
 - __Cryptpad__: A fully-secured, encrypted alternative to popular office tools and cloud services. 
 - __Taiga__: Taiga is a P2P alternative to centralized project management tool for multi-functional agile teams.
 
-> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
+### Threefold NOW Tutorials
 
+To get you started on Threefold NOW, please go to [Threefold NOW Tutorials](tfnow_tutorials.md) and learn how you could build some of your first solutions on top of the TF Grid.
+
+> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legals.md) for more.
 
 ![](./img/3botdemo_home.png)
