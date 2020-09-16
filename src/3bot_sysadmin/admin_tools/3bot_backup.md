@@ -15,7 +15,7 @@ The backup service has 2 options for hosted 3Bots:
 
 The backup service only has one option for local 3Bot backups which is __Minio__.
 
-You can also select to make automatic backups every 24 hours or you can initiate a backup with a custom tag.
+You can also select to make automatic backups every 24 hours, or you can initiate a backup with a custom tag.
 
 ### Marketplace backup
 
@@ -33,7 +33,7 @@ If you wish to run minio backups you can enable it by clicking on __Minio__ -> _
 
 Following is required to make minio backups:
 
-- Minio url
+- Minio URL
 - Access key
 - Secret key
 - Password 
@@ -43,7 +43,7 @@ Following is required to make minio backups:
 
 ## Recovering with marketplace backup
 
-For a backup to be recovered you need to have following information:
+For a backup to be recovered, you need to have the following information:
 - The 3Bot name
 - The password associated with it.
 
@@ -54,11 +54,11 @@ If you wish to recover your 3Bot you can use following deployers:
 
 Select __Deploy a new 3Bot__ -> __Recover__
 
-Follow the steps in the chatflow and you should be able to recover your 3Bot.
+Follow the steps in the chat flow, and you should be able to recover your 3Bot.
 
 ## Recovering with minio backup
 
-Recovering a backup with minio requires some manual work. It backs up the configuration in `~/.config/jumpscale` and if autobackup is enabled it'll do so every 24 hours.
+Recovering a backup with minio requires some manual work. It backs up the configuration in `~/.config/jumpscale`, and if auto-backup is enabled, it'll do so every 24 hours.
 
 - right now visiting https://localhost/backup/actors/minio/restore will restore the last snapshot available
 - if you want to restore the latest snapshot from shell
