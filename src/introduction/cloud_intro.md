@@ -2,7 +2,9 @@
 ![](src/img/intro.png)
 
 ## Threefold peer2peer Cloud
+
 A new standard in peer2peer networking, storage and computing.
+
 Running on the Threefold Grid.
 
 * Capacity in over 21 countries like: United States, couldada, Austria, Belgium,...
@@ -22,7 +24,7 @@ The peer2peer cloud provides compute, storage and networking services as a world
 Want to know more?
 - [Generic architecture](architecture.md)
 - [peer2peer Network architecture](architecture_network.md)
-- [peer2peer Web Gateway architecture](architecture_Web Gateway.md)
+- [peer2peer Web Gateway architecture](architecture_webgateway.md)
 - [peer2peer Storage architecture](architecture_storage.md)
 - [peer2peer node boot](architecture_boot.md)
 - [peer2peer container boot](architecture_flist.md)
