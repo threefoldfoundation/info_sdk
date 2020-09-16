@@ -17,7 +17,7 @@ Optionally (if you want to deploy the charts);
 
 ## Accessing the solution
 
-Go to your admin dashboard `https://localhost/admin` and select the solutions tab from the navbar then click on Kubernetes
+Go to your admin dashboard and select the solutions tab from the navbar then click on Kubernetes.
 
 ## Deploying Kubernetes:
 
@@ -33,11 +33,11 @@ Here we specify the size of the nodes that will be selected for deployment. We a
 ![k8s_3](./img/k8s_3.png)
 
 ### Choosing network
-Here we choose which network we connect our kubernetes cluster to
+Here we choose which network we connect our kubernetes cluster to.
 ![k8s_4](./img/k8s_4.png)
 
 ### Uploading your public Key
-This step is necessary to access the kubernetes machine and authorize you to be able to SSH into it
+This step is necessary to access the kubernetes machine through ssh.
 ![k8s_5](./img/k8s_5.png)
 
 ### Choosing a secret for the cluster
@@ -49,7 +49,7 @@ We select IP addresses equal to the number of master nodes we entered earlier.
 ![k8s_7](./img/k8s_7.png)
 
 ### Set the IP Addresses for the solution worker nodes
-We then select IP addresses equal to the number of worker nodes we entered earlier
+We then select IP addresses equal to the number of worker nodes we entered earlier.
 ![k8s_8](./img/k8s_8.png)
 
 ### Deploying your solution
@@ -60,7 +60,7 @@ We then select IP addresses equal to the number of worker nodes we entered earli
 ![k8s_11](./img/k8s_11.png)
 
 
-After the deployment of the Kubernetes cluster is complete, the user with the ssh keys will have access to the deployed cluster.
+After the deployment of the Kubernetes cluster is complete, you can access your cluster with ssh.
 
 ### Connect to the cluster
 
@@ -168,26 +168,12 @@ kubectl --kubeconfig ./k3s.yaml get pods --all-namespaces
 helm --kubeconfig ./k3s.yaml ls --all-namespaces
 ```
 
-### Delete a Provision
-
-You could delete a provision based on its ID which is returned by `tfuser live`
-
-```
-$ ./tfuser live --seed user.seed --end 3000
-ID:2587-1 Type: network expired at:05-Feb-2020 18:02:23state:  ok network ID:
-```
-
-```
-$ ./tfuser delete --id 2587-1
-Reservation 2587-1 marked as to be deleted
-```
-
 ## Workload deployment
 
 ### Wordpress example
 
 We will launch a wordpress deployment connected to a mysql database.
-Let's first create the mysql deployment including a service, a sceret for the DB password and a persistant volume. By default with k3s persistant volume storage class is [local-path](https://rancher.com/docs/k3s/latest/en/storage/)
+Let's first create the mysql deployment including a service, a sceret for the DB password and a persistent volume. By default with k3s persistent volume storage class is [local-path](https://rancher.com/docs/k3s/latest/en/storage/)
 
 ```
 $ cd ressources/wordpress
@@ -227,7 +213,8 @@ $ kubectl get -o jsonpath="{.spec.ports[0].nodePort}" services wordpress
 We could browse any nodes url on port 31004 to find the wordpress website e.g. [http://172.30.3.2:31004/](http://172.30.3.2:31004/)
 and after some setup screens you will access your articles
 
-![wordpress first article](wordpress.png)
+<!-- broken link? -->
+<!-- ![wordpress first article](wordpress.png) -->
 
 ### Helm charting
 
@@ -265,9 +252,11 @@ Forwarding from [::1]:8888 -> 3000
 We could browse localhost on port 8888 to find the grafana UI e.g. [http://localhost:8888/](http://localhost:8888/)
 The username is `admin` and the default admin password to log into the grafana UI is `prom-operator`
 Then you could for instance import a dashboard and use the ID 8588 and don't forget to select the prometheus data source
-![kubernetes-deployment-statefulset-daemonset-metrics dashboard](grafana1.png)
+<!-- broken link? -->
+<!-- ![kubernetes-deployment-statefulset-daemonset-metrics dashboard](grafana1.png) -->
 or the dashboard ID 6879
-![analysis-by-pod](grafana2.png)
+<!-- broken link? -->
+<!-- ![analysis-by-pod](grafana2.png) -->
 
 ## Want to know more ?
 

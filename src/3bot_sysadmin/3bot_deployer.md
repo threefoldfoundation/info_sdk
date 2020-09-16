@@ -1,6 +1,6 @@
 # Get a Hosted 3Bot
 
-Simplifying the deployment experience on top of the Threefold Grid has been a priority for Threefold since we launched the 3Bot SDK. We are now creating an even better, more user-friendly experience by allowing users to deploy their 3Bot online on a hosted environment. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on top of the Threefold Grid.
+Simplifying the deployment experience on top of the ThreeFold Grid has been a priority for ThreeFold since we launched the 3Bot SDK. We are now creating an even better, more user-friendly experience by allowing users to deploy their 3Bot online on a hosted environment. The 3Bot Admin Panel is a versatile platform to administrate, monitor, and control processes and activities on top of the ThreeFold Grid.
 
 ## How to Deploy a Hosted 3Bot
 
@@ -11,16 +11,15 @@ Simplifying the deployment experience on top of the Threefold Grid has been a pr
 
 ### Difference between 3Bot on Mainnet and 3Bot on Testnet
 
-In brief, The TF 3Bot Mainnet is the 3Bot that is living on our main network, launched for commercially widescale use where users reserve capacity with TFT. Meanwhile the Testnet 3bot is the 3Bot living in a test network, created to test all the functionality of the Mainnet, where IT Capacity reservation transactions are done using testnet TFT that does not hold any commercial value and made for testing purposes only. 
+In brief, the TF 3Bot Mainnet is the 3Bot that is living on our main network, launched for commercially widescale use where users reserve capacity with TFT. Meanwhile, the Testnet 3Bot lives on a test network created to test the functionalities of the mainnet. On testnet, IT Capacity reservation is done via Testnet TFT (no commercial value and made for testing purposes only). 
 
-As a user, you would get the same taste of 3Bot experience on both networks, but your 3Bot will object to limitation of testing environment and testing mode on testnet network.
+As a user, your 3Bot experience will be similar on both networks; however, your 3Bot will be limited to a testing environment and testing mode on testnet network.
 
-> please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now) section on the homepage to learn more in depth about TF Grid's current state of releases and the difference in between TF Grid Mainnet and Testnet.
-
+> Please go back to the [__TF Grid: Where Are We Now?__](https://manual.threefold.io/#/?id=tf-grid-where-are-we-now) section on the homepage to learn more in-depth about the TF Grid's current release state and the difference between TF Grid Mainnet and Testnet.
 
 # Deploy a Hosted 3Bot
 
- After choosing your network preference for the 3Bot deployer, you are now ready to start deploying a 3Bot by followinng these steps below.
+ After choosing your network preference for the 3Bot deployer, you are now ready to start deploying a 3Bot by following these steps below.
 
 ### Name Your 3Bot
 
@@ -29,28 +28,23 @@ This name will be used to identify this 3Bot. Keep in mind that this name would 
 ![](./img/threebot_1_getname.png)
 
 ### Select the Back Up & Restore Password
-Your solution has a backup and restore feature accessible via 'dashboard'.
+Your 3Bot has a backup and restore feature accessible on the dashboard.
 
 ![](./img/threebot_1a_recovery_secret_key.png)
 
 ### Choose the 3Bot's Expiration Time
 
-The expiration time determines your preference on how long you would want to keep this 3Bot alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep the 3Bot online. No worries, you could always extend your 3Bot's living span by extending your capacity. 
+The expiration time determines your preference on how long you would want to keep this 3Bot alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep the 3Bot online. No worries, you could always extend your 3Bot's life span by extending your capacity reservation. 
 
 ![](./img/threebot_2_expiry.png)
 
-### Select Your Payment Currency
-
-Choose how you would like to pay for the internet capacity you're going to use to deploy your 3Bot.
-
-![](./img/threebot_3_select_currency.png)
-
 ### Pay for Your Capacity by using a Stellar Wallet
 
-You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
+You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment, therefore sending a payment without a memo-text could result in a failed transaction.
+
 ##### Remark: 
-If you are working on the mainnet of the Threefold grid, TFT are to be used for payment on the Stellar mainnet. 
-The testnet of the TFGrid is connected to the Stellar testnet, so also testnet tokens are to be used. 
+If you are working on the mainnet of the ThreeFold grid, TFT is to be used for payment on the Stellar mainnet. 
+The testnet of the TF Grid is connected to the Stellar testnet, so also testnet tokens are to be used. 
 
 ![](./img/threebot_4_pay.png)
 

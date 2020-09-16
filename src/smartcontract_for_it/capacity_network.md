@@ -1,8 +1,8 @@
-# Threefold Overlay Network
+# ThreeFold Overlay Network
 
 ![](./img/network_wireguard_logo.png)
 
-The network primitive allows a user to define its own overlay network between any of the nodes running 0-OS. The technology we used to create the overlay network is [Wireguard](https://www.wireguard.com/). For setting it up on your local machine, please check the [Getting Started: Your First Network](getting_started_network.md) section. 
+The network primitive allows a user to define its own overlay network between any of the nodes running Zero-OS. The technology we used to create the overlay network is [Wireguard](https://www.wireguard.com/). For setting it up on your local machine, please check the [Getting Started: Your First Network](getting_started_network.md) section. 
 
 When you send a reservation that contains a network primitive, the overlay network will automatically get installed and started on all the nodes defined in your reservation.
 
@@ -36,7 +36,7 @@ to recap, to create a network you must:
 * pick a 16-bit block subnet
 * choose all the nodes to add to your network and assign them a 24-bit block out.
 
-### How do I access my overlay network from outside ?
+### How do I access my overlay network from outside?
 
 So far we only talked about how to interconnect all the nodes together. This is great but you as a user, also need to be able to access the network. Ether from your laptop or any part your existing infrastructure.
 
@@ -47,7 +47,7 @@ When creating such an `entrypoint` , the SDK returns you a wireguard configurati
 
 ### IPv4 versus IPv6
 
-0-OS is IPv6 first. ALl the communication between nodes goes over IPv6. This allows to greatly reduce the amount of work needed to achieve real peer2peer.
+Zero-OS is IPv6 first. ALl the communication between nodes goes over IPv6. This allows to greatly reduce the amount of work needed to achieve real peer2peer.
 But when it comes to `external access` IPv6 is maybe not the way to go since most of the world has not made the switch yet.
 
 If you are creating an `external access` to your network and you want to use IPv4 to access the network, it is possible and the SDK has all the tools for it.

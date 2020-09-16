@@ -1,6 +1,6 @@
 # 3Bot on Testnet
 
-__3Bot__ is your digital twin; a representative of yourself on top of the Threefold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+__3Bot__ is your digital twin; a representative of yourself on top of the ThreeFold Grid, that will execute your digital needs. It is an unprecedented leap in digital privacy and comes with all the functionalities you need to interact and exchange on the new Internet. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 
 ![](./img/hosted3bot.png)
 

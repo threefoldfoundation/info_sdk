@@ -120,7 +120,7 @@ Congratulations! Now you have successfully add Freetft as an asset on your testn
 
 You will now be automatically redirected to your wallet address key. __Copy this address__ as your receiving address for your FreeTFT Claim.
 
-### Claim FreeTFT via Threefold 
+### Claim FreeTFT via ThreeFold 
 
 Now go back to your web browser and click on [getfreetft.testnet.Threefold.io](https://getfreetft.testnet.Threefold.io/#/) to claim your FreeTFT.
 

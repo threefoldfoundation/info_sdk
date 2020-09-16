@@ -18,9 +18,9 @@ The billing of the reservation has been updated. The amount of token required to
 - Jumpscale/SDK: `10.5.3`
  - [Github project](https://github.com/orgs/Threefoldtech/projects/77)
  - [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.5.3)
-- 0-OS v2:`0.3.1`
+- Zero-OS v2:`0.3.1`
  - [Github project](https://github.com/orgs/Threefoldtech/projects/87)
- - [0-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.1)
+ - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.1)
  - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.0)
 
 ### 3SDK binaries

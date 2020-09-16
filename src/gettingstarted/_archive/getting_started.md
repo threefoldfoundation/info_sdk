@@ -4,9 +4,9 @@
 
 ## Basic Pre-requisites
 
-To provision any workload on top of the __Threefold Grid__, there are some pre-requisites that need to be done:
-- Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the Threefold Grid.
-- Get A __Stellar Wallet__. Get a wallet that accepts Threefold Tokens (TFT, FreeTFT or TFTA)
+To provision any workload on top of the __ThreeFold Grid__, there are some pre-requisites that need to be done:
+- Get __3Bot Connect App__ and __3Bot ID__: your digital identity and authenticator on top of the ThreeFold Grid.
+- Get A __Stellar Wallet__. Get a wallet that accepts ThreeFold Tokens (TFT, FreeTFT or TFTA)
 - Claim your __FreeTFTs__ to reserve Grid capacity for your solution. This could be done by creating a testnet wallet account for you.
 
 ## After Basics: Try TF Grid Demo
@@ -17,7 +17,7 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 ## After Basics: Deploy a 3Bot
 
-- Get a [__3Bot__](https://deploy3bot.grid.tf/). 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+- Get a [__3Bot__](https://deploy3bot.grid.tf/). 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 - Create a __Capacity Pool__ and reserve some IT capacity for your first workload on top of the TF Grid.
 - Deploy your first __Network__ to be able to connect to your __3Bot__.
 - Install __Wireguard__ and set up a __Wireguard Connection__; a VPN for running embedded interfaces on top of the grid.
@@ -25,7 +25,7 @@ To provision any workload on top of the __Threefold Grid__, there are some pre-r
 
 Please see below for the high-level instructions.
 
-> _By using the services, deploying workloads, and developing a solution on top of the Threefold Grid, you agree to Threefold's [__Disclaimer__](disclaimer.md) and [__Terms & Conditions__](terms_conditions.md)
+> _By using the services, deploying workloads, and developing a solution on top of the ThreeFold Grid, you agree to Threefold's [__Disclaimer__](disclaimer.md) and [__Terms & Conditions__](terms_conditions.md)
 
 
 ## High-level Instructions to Get Started
@@ -35,7 +35,7 @@ Please see below for the high-level instructions.
 
 As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. This could be done by downloading the app on your smartphone and create your own 3Bot Identity. 
 
-Please be aware that this ID is going to be used as your main digital identity on the Threefold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your Threefold Tokens.
+Please be aware that this ID is going to be used as your main digital identity on the ThreeFold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you could store your ThreeFold Tokens.
 
 [Download 3Bot Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
 [Download 3Bot Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
@@ -60,6 +60,6 @@ Please go to [**ThreeFold Now Demo Log in Tutorial**](getting_started_threefold_
 
 ### Get a 3Bot
 
-If you would like to deploy your own cloud infrastructure instead, you will need to get a 3Bot to start deploying your solutions on top of th TF Grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the Threefold Grid.
+If you would like to deploy your own cloud infrastructure instead, you will need to get a 3Bot to start deploying your solutions on top of th TF Grid. 3Bot comes with a system administrator panel, which is a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold Grid.
 
 Please go to [**3Bot Tutorial**](getting_started_3bot.md) to see the detailed instruction on how to get a 3Bot Server and launch your own 3Bot System Administrator Panel.

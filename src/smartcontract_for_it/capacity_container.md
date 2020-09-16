@@ -55,7 +55,7 @@ for more detail
 
 More information about Flist at [Flist documentation](architecture_flist.md)
 
-## CoreX - The 0-OS container process manager
+## CoreX - The Zero-OS container process manager
 
 When running a container, if you want an interactive way to use it, the easiest solution is enabling `CoreX` .
 

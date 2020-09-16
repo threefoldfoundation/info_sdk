@@ -22,14 +22,13 @@ For the definition of the 3 fields above (CU, SU, time-to-live), please check [C
 
 Indicate also the token you wish to pay with. It does not matter what was the token you paid with for previous capacity pool reservations. 
 
-![](./img/3bot_capacity_extend_resource_1.png)
-![](./img/3bot_capacity_extend_resource_2.png)
+![](./img/3bot_capacity_new_resource.png)
 
 Remark: The values to be introduced are about the extended volumes, not the resulting capacity after extension. 
 
 ### Prepare to Pay for the Reserved IT Capacity
 
-![](./img/3bot_capacity_extend_pay.png)
+![](./img/3bot_capacity_new_pay.png)
 
 ### Confirm Your Payment
 

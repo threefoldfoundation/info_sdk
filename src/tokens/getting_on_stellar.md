@@ -12,19 +12,19 @@ Trading on the StellarX DEX is not yet possible using 3Bot Connect App (under co
 
 ### How to get a Stellar account in the 3Bot Connect App
 
-In the wallet section of a 3Bot you could set up an account with a trustline to all Threefold tokens: TFT, FreeTFT and TFTA. 
+In the wallet section of a 3Bot you could set up an account with a trustline to all ThreeFold tokens: TFT, FreeTFT and TFTA. 
 Also by importing the seed keys of a wallet registered on the TFchain (Rivine technology), the conversion mechanism automatically sets up trust lines on the Stellar blockchain. 
 
 Once activation is done and trustlines are established, you could start sending and receiving tokens. 
 
 ### Getting other Stellar wallets to add a TFT or FreeTFT account
 
-All Threefold tokens are registered on Stellar. This implies that these tokens could also be kept on any Stellar wallet.
+All ThreeFold tokens are registered on Stellar. This implies that these tokens could also be kept on any Stellar wallet.
 A list of available Stellar wallets could be found [here](https://www.stellar.org/ecosystem/projects?tab=wallets#directory). 
 
 An account needs the below information keys to access the Stellar network. 
 
-Threefold token is registered under : 
+ThreeFold token is registered under : 
 
 - AssetCode: `TFT`
 - Issuer: `GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47`
@@ -58,7 +58,7 @@ More info could be found [here](tft_stellarx.md).
 
 ## Pay capacity
 
-Capacity on the Threefold Grid could only be bought using tokens. These tokens are registered on the Stellar network. 
+Capacity on the ThreeFold Grid could only be bought using tokens. These tokens are registered on the Stellar network. 
 
 Two tokens could be used : 
 
@@ -67,7 +67,7 @@ Two tokens could be used :
 
 ## How to get FreeTFTs
 
-There is a possibility to connect to us, for useful projects that want to explore the grid, an amount of 1000 FreeTFT per 3Bot could be obtained, available to pay capacity on the Threefold Grid. 
+There is a possibility to connect to us, for useful projects that want to explore the grid, an amount of 1000 FreeTFT per 3Bot could be obtained, available to pay capacity on the ThreeFold Grid. 
 
 To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.Threefold.io) and fill in the application form.
 
@@ -79,5 +79,5 @@ https://testnet.Threefold.io/Threefoldfoundation/stellar_faucet --->
 <b/> Remark: </b> 
 
 - max 1000 FreeTFTs are available per 3Bot. 
-- FreeTFTs are only available to explore the Threefold Grid, and have no long-term value. 
+- FreeTFTs are only available to explore the ThreeFold Grid, and have no long-term value. 
 

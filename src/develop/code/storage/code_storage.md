@@ -29,7 +29,7 @@ demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
 
-When you deployed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer2peer with a wireguard tunnel. On these nodes we could now create a storage solution. For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes. Using the output of the network reservation notebook to describe the high-level design of the storage solution:
+When you deployed the network workload it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer-to-peer with a wireguard tunnel. On these nodes we could now create a storage solution. For this solution we will using some of these nodes as raw storage provider nodes and others as the storage application nodes. Using the output of the network reservation notebook to describe the high-level design of the storage solution:
 
 | Nr. | Location | Node ID. | IPV4 network | Function. |
 |--------|---|---|---|---|

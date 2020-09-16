@@ -1,6 +1,6 @@
 # 4 to 6 Gateway
 
-Our grid uses IPv6 internally, the problem is not everyone in the world has access to IPv6, so to make easier for people to connect to our services we have created a gateway which make it possible to access IPv6 over IPv4
+Our grid uses IPv6 internally, the problem is not everyone in the world has access to IPv6, so to make easier for people to connect to our services we have created a gateway which make it possible to access IPv6 over IPv4.
 
 1. Select which gateway to use
 

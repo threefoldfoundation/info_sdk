@@ -52,7 +52,7 @@ Please store the list of nodes somewhere for you reference to deploy containers 
 
 #### 3. Setup wireguard configuration
 
-An important step is to create a wireguard configuration (file) providing you with secure access to you private peer2peer overlay network. Please copy / paste the configuration into a file and import to you local wireguard setup. At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium. With IPv6 available you could select any of the nodes in your network and build a secure tunnel to those. 
+An important step is to create a wireguard configuration (file) providing you with secure access to you private peer-to-peer overlay network. Please copy / paste the configuration into a file and import to you local wireguard setup. At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium. With IPv6 available you could select any of the nodes in your network and build a secure tunnel to those. 
 
 
 ```bash
