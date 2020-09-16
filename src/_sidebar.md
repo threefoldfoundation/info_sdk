@@ -53,7 +53,7 @@
  - [Logs](3bot_logs.md)
  - [Alerts](3bot_alerts.md)
  - [Settings](3bot_settings.md)
-* [ThreeFold Now](threefold_now.md)
+* [ThreeFold NOW](threefold_now.md)
  - [TF NOW Tutorials](tfnow_tutorials.md)
     - [Deploy a Wiki](wiki.md)
     - [Deploy a Website](website.md)
