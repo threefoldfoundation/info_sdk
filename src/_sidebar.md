@@ -59,10 +59,10 @@
     - [Deploy a Website](website.md)
     - [Deploy a Blog](blog.md)
 <!-- - [Mattermost](mattermost.md)
- - [Peertube](peertube.md)
- - [Discourse](discourse.md)
- - [Cryptpad](cryptpad.md)
- - [Taiga](taiga.md)-->
+      - [Peertube](peertube.md)
+      - [Discourse](discourse.md)
+      - [Cryptpad](cryptpad.md)
+      - [Taiga](taiga.md) -->
 * [Smart Contract For IT](smart_contract.md)
  - [Smart Contract Details](smartcontract_details.md)
  - [Capacity pool concept](capacity_pool.md)
