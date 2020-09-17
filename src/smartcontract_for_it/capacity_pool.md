@@ -2,7 +2,7 @@
 
 The capacity pool has been introduced to solve some issues related to the way
 payments work on the TF Grid. Specifically, because payment is done for the
-entirety of the reservation, and forwarded immediately to the farmer, there is no
+entirety of the reservation and forwarded immediately to the farmer, there is no
 way to cleanly recover funds in case something goes wrong post deployment. Although
 the capacity pool was originally conceived as a way to extend a reservation, we
 also used the opportunity provided by its introduction to solve some of these issues.
@@ -19,7 +19,7 @@ amount.
 
 To calculate how much a reservation actually costs, and how much each farmer
 receives, we sorted the workloads per farm, converted a workload into an amount
-of CU and SU it would consume, and with the CU and SU price, calculated the final
+of CU and SU it would consume. With the CU and SU price, calculated the final
 cost for the client. The important takeaway here, is that regardless of the exact
 workload, you actually pay for the resources which will be consumed by your reservation,
 and the time, for which your reservation would be alive.
