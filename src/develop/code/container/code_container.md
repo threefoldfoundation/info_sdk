@@ -14,9 +14,9 @@ The aim is to deploy a simple container using an Flist which is further describe
 Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md)
 
 
-#### What is a Flist? 
+#### What is a Flist?
 
-A Flist is a very special container image. One of the challenges with industry-leading technologies like Docker and Kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These could either be base images on which specific modifications need to be made or they are specific images downloaded from the docker hub or a private image repository (enterprise use cases). Having these images exists on many different nodes requires these to be downloaded and maintained for version control and bug fixes. This is wasteful (many times the same image required storage space) and time-consuming. 
+A Flist is a very special container image. One of the challenges with industry-leading technologies like Docker and Kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These could either be base images on which specific modifications need to be made or they are specific images downloaded from the docker hub or a private image repository (enterprise use cases). Having these images exists on many different nodes requires these to be downloaded and maintained for version control and bug fixes. This is wasteful (many times the same image required storage space) and time-consuming.
 
 The Flist solves that issue by facilitating container images to be made available on fly to nodes that needs the content of a container image over the network from a so-called hub. There is a public hub that serves images but the hub facility is open source and could be replicated for private or corporate usage. The hub could be found here: `http://hub.grid.tf`.
 
@@ -25,7 +25,7 @@ The Flist represents a very efficient way to distribute a de-duped container ima
  * generic description [here](https://github.com/Threefoldtech/0-Flist/blob/development/doc/flist.md)
  * GitHub repository [here](https://github.com/Threefoldtech/0-Flist)
  * FreeFlow pages [article](http://freeflowpages.com/content/perma?id=9396)
- 
+
 On the public hub there is import functionality to import Docker images and create Flists out of them. Another way to create your own tar archives and upload these to transform into Flists. More information with regards to creating, managing and using Flists could be found [here](https://hub.grid.tf/)
 
 You could find more information about Flist and hub usage [here](flist.md)
@@ -60,11 +60,11 @@ zos.container.create(node_id={string},    # node_id to deploy the Flist
      network_name={string},  # network_name deployed on the node (node could have multiple private networks)
      ip_address={string},   # one IP address in the range of the chosen network_name on the node
      Flist={string},    # Flist of the container you want to install, htttp hub location.
-     capacity_pool_id={integer}, # pool_id of where the capacity for container deployment is to be used from 
+     capacity_pool_id={integer}, # pool_id of where the capacity for container deployment is to be used from
      interactive={Bolean},   # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
      cpu={integer},    # number of logical cores
      memory={integer,   # number of mBs of memory
-     # env={},      # field for parameters like needed in the container environment 
+     # env={},      # field for parameters like needed in the container environment
      entrypoint={string})   # start command to get the software running in the container
 ```
 
@@ -93,6 +93,7 @@ container = zos.container.create(node_id='CrgLXq3w2Pavr7XrVA7HweH6LJvLWnKPwUbttc
      # env={},     # field for parameters like config
      entrypoint='/sbin/my_init')
 ```
+
 After creation, the container could be deployed.
 
 ```python
@@ -100,6 +101,7 @@ zos.workloads.deploy(container)
 
 # inspect the result of the reservation provisioning
 result = zos.workloads.get(workload_id)
+```
 
 The container workload deployment had the interactive flag set to True which means the container did not start the entrypoint container bootstrap command. It has created a secure web interface to the coreX process where we could now manually enter the container and start and stop processes. Access is provided through http (as the connection is an encrypted wireguard tunnel).
 
@@ -107,12 +109,12 @@ The container workload deployment had the interactive flag set to True which mea
 ```python
 # See the coreX interface (should be empty)
 https://172.20.30.11:7681/
-  
+
 # Start a bash shell through the coreX process manager
 https://172.20.30.11:7681/api/process/start?arg[]=/bin/bash
-  
+
 # See the list of processes in coreX
 https://172.20.30.11:7681/
-  
+
 # Click on the bash process to get shell access.
 ```
