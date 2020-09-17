@@ -9,7 +9,7 @@ Please check the [general requirements](code.md)
 
 #### 1. Load required libraries and create empty reservation structure
 
-To be able to make a reservation we need to create a [capacity pool](code_pool.md)
+To be able to make a reservation we need to create a [capacity pool](code_pool.md).
 
 #### 2. Select overlay network addressing scheme and select nodes
 
@@ -48,7 +48,7 @@ for i, node in enumerate(pool.node_ids):
   print("Node", node.node_id,"is not up")
 ```
 
-Please store the list of nodes somewhere for you reference to deploy containers and architectures, or you could write code to store this to a file. All nodes are connected with IPv6 to the internet. If you have IPv6 at home you could create a wireguard configuration to any of the nodes as they all speak IPv6 and any node could act as you private gateway into your overlay network. If you do not have IPv6 at home you need to identify a nodes that has IPv4 capabilities. In this example the nodes in Belgium have a dual-stack and could therefore be used to provide an IPv4 gateway into your overlay network.
+Please store the list of nodes somewhere for you reference to deploy containers and architectures, or you can write code to store this to a file. All nodes are connected with IPv6 to the internet. If you have IPv6 at home you can create a wireguard configuration to any of the nodes as they all speak IPv6 and any node can act as you private gateway into your overlay network. If you do not have IPv6 at home you need to identify a nodes that has IPv4 capabilities. In this example the nodes in Belgium have a dual-stack and can therefore be used to provide an IPv4 gateway into your overlay network.
 
 #### 3. Setup wireguard configuration
 

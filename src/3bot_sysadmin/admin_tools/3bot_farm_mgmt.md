@@ -1,12 +1,12 @@
 # 3bot Farm management
 
-This section of your 3Bot lets you create, manage and monitor your farms. 
+This section of your 3Bot lets you create, manage and monitor your farms.
 
 <!-- * [Monitoring the nodes health and usage](inspecting-an-existing-farm) -->
 
 ## Creating a new farm
 
-Follow this detailed guide to [create a farm](farm_init.md)
+Follow this detailed guide to [create a farm](farm_init.md).
 
 ## Edit a Farm
 

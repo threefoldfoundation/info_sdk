@@ -16,7 +16,7 @@ Each overlay network is private and contains private IP addresses. Each overlay 
 
 #### What is a Flist?
 
-A Flist is a very special container image. One of the challenges with industry-leading technologies like Docker and Kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These could either be base images on which specific modifications need to be made or they are specific images downloaded from the docker hub or a private image repository (enterprise use cases). Having these images exists on many different nodes requires these to be downloaded and maintained for version control and bug fixes. This is wasteful (many times the same image required storage space) and time-consuming.
+An Flist is a very special container image. One of the challenges with industry-leading technologies like Docker and Kubernetes is that every node involved in an IT architecture has to have local copies of all of the images it needs to run as containers. These could either be base images on which specific modifications need to be made or they are specific images downloaded from the docker hub or a private image repository (enterprise use cases). Having these images exists on many different nodes requires these to be downloaded and maintained for version control and bug fixes. This is wasteful (many times the same image required storage space) and time-consuming.
 
 The Flist solves that issue by facilitating container images to be made available on fly to nodes that needs the content of a container image over the network from a so-called hub. There is a public hub that serves images but the hub facility is open source and could be replicated for private or corporate usage. The hub could be found here: `http://hub.grid.tf`.
 
@@ -59,7 +59,7 @@ The reservation for a general-purpose Flist has the following structure
 zos.container.create(node_id={string},    # node_id to deploy the Flist
      network_name={string},  # network_name deployed on the node (node could have multiple private networks)
      ip_address={string},   # one IP address in the range of the chosen network_name on the node
-     Flist={string},    # Flist of the container you want to install, htttp hub location.
+     flist={string},    # Flist of the container you want to install, htttp hub location.
      capacity_pool_id={integer}, # pool_id of where the capacity for container deployment is to be used from
      interactive={Bolean},   # True of False. When True the entrypoint start commend is ignored and a web interface to the coreX process will de started instead
      cpu={integer},    # number of logical cores
