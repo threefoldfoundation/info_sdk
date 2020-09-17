@@ -6,13 +6,13 @@ Please check the [general requirements](code.md)
 
 ### Overview
 The aim is to create a simple S3 archive solution by following a few steps:
-- create and pay for capacity pools in which you reserve the capacity that your workloads will run on
-- create (or identify and use) an overlay network workload that spans all of the nodes needed in the solution (through the capacity pools)
-- identify which nodes are involved in the archive for storage and which nodes are running the storage software
-- create workloads on the storage nodes for low-level storage. Create and deploy zero-DB's
-- collect information of how to access and use the low-level storage devices to be passed on to the S3 storage software
-- design the architecture, data and parity disk design
-- deploy the S3 software in a container
+- Create and pay for capacity pools in which you reserve the capacity that your workloads will run on.
+- Create (or identify and use) an overlay network workload that spans all of the nodes needed in the solution (through the capacity pools).
+- Identify which nodes are involved in the archive for storage and which nodes are running the storage software.
+- Create workloads on the storage nodes for low-level storage. Create and deploy zero-DB's.
+- Collect information of how to access and use the low-level storage devices to be passed on to the S3 storage software.
+- Design the architecture, data and parity disk design.
+- Deploy the S3 software in a container.
 
 #### Create an overlay network or use the identity of a previously deployed overlay network
 
@@ -44,8 +44,8 @@ When you deployed the network workload it also provided you with data on the ord
 #### Reserve and deploy the low level ZeroDB storage nodes
 
 First let's deploy low-level storage capacity manager (Zero-DB, more info [here](https://github.com/Threefoldtech/0-DB)). In the next piece of code we do the following:
-- select and set the node to container the S3 software
-- select and load the nodes in a list to push them in the zero-DB reservation structure
+- Select and set the node to container the S3 software.
+- Select and load the nodes in a list to push them in the zero-DB reservation structure.
 
 
 ```python
@@ -58,7 +58,6 @@ minio_node_ip = '172.20.15.16'
 
 # use the pool
 pool = zos.pools.get(payment_detail.reservation_id)
-minio_pool_id = pool.pool_id
 
 # ----------------------------------------------------------------------------------
 password = "supersecret"
@@ -68,20 +67,8 @@ password = "supersecret"
 # first find the node where to reserve 0-DB namespaces. Select all the salzburg nodes
 # ----------------------------------------------------------------------------------
 
-nodes_salzburg = zos.nodes_finder.nodes_search(farm_id=12775) # (IPv6 nodes)
-nodes_vienna_1 = zos.nodes_finder.nodes_search(farm_id=82872) # (IPv6 nodes)
-
-# ----------------------------------------------------------------------------------
-# Definition of functional nodes
-# ----------------------------------------------------------------------------------
-nodes_all = nodes_salzburg[5:8] + nodes_vienna_1[5:8]
-
-# ----------------------------------------------------------------------------------
-# Create and deploy ZDB workloads for the selected nodes
-# ----------------------------------------------------------------------------------
-
 results = []
-for node in nodes_all:
+for node in pool.node_ids:
  w_zdb = zos.zdb.create(
   node_id=node.node_id,
   size=10,
@@ -91,28 +78,28 @@ for node in nodes_all:
   disk_type=1,#SSD=1, HDD=0
   public=False)
  id = zos.workloads.deploy(w_zdb)
- 
+
  result_workload = zos.workloads.get(id)
- 
+
  results.append(result_workload)
 ```
 
 #### Prepare and deploy the S3 software container
 
-The nodes that will run the storage solution needs some persistent storage. This will create a reservation for a volume on the same node as the software runs and attached this as a volume to the container that will run the storage software. For the reservation duration please set a period of time that allows for experimenting, in this case it is set for one day. 
+The nodes that will run the storage solution needs some persistent storage. This will create a reservation for a volume on the same node as the software runs and attached this as a volume to the container that will run the storage software. For the reservation duration please set a period of time that allows for experimenting, in this case it is set for one day.
 
 
 ```python
 
 # ----------------------------------------------------------------------------------
 # Attach persistant storage to container - for storing metadata
-# ---------------------------------------------------------------------------------- 
-w_volume = zos.volume.create(minio_node_id,pool_id,size=10,type='SSD')
+# ----------------------------------------------------------------------------------
+w_volume = zos.volume.create(minio_node_id, pool.pool_id,size=10,type='SSD')
 zos.workloads.deploy(w_volume)
 
 ```
 
-With the low level zero-DB reservations done and stored the `results` variable (these storage managers will get an IPv4 address assigned from the local `/24` node network, we need to store those addresses in `namespace_config` to pass it to the container running the storage software.
+With the low level zero-DB reservations done and stored the `results` variable. Each zdb result will have the IPv6 address of the instance and namespace name.
 
 
 ```python
@@ -132,7 +119,7 @@ for result in results:
    raise j.exceptions.RuntimeError("missing IP field in the 0-DB result")
   cfg = f"{data['Namespace']}:{password}@[{ip}]:{data['Port']}"
   namespace_config.append(cfg)
- 
+
 # All IP's for the zdb's are now known and stored in the namespace_config structure.
 print(namespace_config)
 ```
@@ -180,7 +167,7 @@ minio_container=zos.container.create(
  ip_address=minio_node_ip,
  Flist='https://hub.grid.tf/tf-official-apps/minio:latest.Flist',
  capacity_pool_id=minio_pool_id,
- interactive=False, 
+ interactive=False,
  entrypoint='',
  cpu=2,
  memory=2048,
@@ -190,12 +177,12 @@ minio_container=zos.container.create(
   "PARITY":"2",
   "ACCESS_KEY":"minio",
   "SECRET_KEY": secret,
-  "SSH_KEY": USER_ACCESS_KEY, # OPTIONAL to provide ssh access to the deployed container
+  "SSH_KEY": USER_ACCESS_KEY, # (your id_rsa.pub key) OPTIONAL to provide ssh access to the deployed container
   "MINIO_PROMETHEUS_AUTH_TYPE": "public"
   },
  secret_env=secret_env,
  )
- 
+
 zos.workloads.deploy(minio_container)
 
 ```
@@ -206,7 +193,7 @@ With the definition of the S3 container done we now need to attached persistent 
 ```python
 # ----------------------------------------------------------------------------------
 # Attach persistant storage to container - for storing metadata
-# ---------------------------------------------------------------------------------- 
+# ----------------------------------------------------------------------------------
 zos.volume.attach_existing(
  container=minio_container,
  volume_id=f'{volume_rid}-{volume.workload_id}',
