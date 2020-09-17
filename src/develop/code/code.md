@@ -1,15 +1,13 @@
 # Provisioning Code
 
 ## Prerequisites
-In order to be able to deploy anything on the grid, you will have to have the following components beforehand:
-
-- Install 3Bot Connect App to get an identity. More details could be found in [3Bot connect installation](3botconnect_install.md) and [3Bot connect setup](3botconnect_overview.md).
-- Installation of js-sdk. Getting started instructions to install the sdk could be found [here](3sdk_install.md). Identity could be verified by checking `j.core.identity.me`.
+In order to be able to deploy anything on the grid, you need to have following components beforehand:
+- Install 3Bot Connect App to get an identity. More details could be found in [3Bot connect installation](3botconnect_install.md) and [3Bot connect setup](3botconnect_overview.md),
+- Installation of [JS-SDK](3sdk_install.md).
 - Install wireguard software. Instructions to how to get his installed on your platform could be found [here](https://www.wireguard.com/install/).
-- Capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with. Instructions to get tokens to your stellar wallet could be found [here](tokens.md).
+- Capacity reservation are not free so you will need to have some ThreeFold Tokens (TFT) to play around with. Instructions to get tokens to your stellar wallet could be found [here](testnet_gettft.md)
 
-Once the previously mentioned requirements are met, you are ready to deploy on the grid. This is mainly done using the `zos` client. Some examples are further explained below
-
+Once the previously mentioned requirements are met, you are ready to deploy on the grid. This is mainly done using the `zos` client. Some examples are further explained below.
 
 ## Code Examples
 
