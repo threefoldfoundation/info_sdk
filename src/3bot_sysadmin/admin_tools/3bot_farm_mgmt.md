@@ -6,7 +6,7 @@ This section of your 3Bot lets you create, manage and monitor your farms.
 
 ## Creating a new farm
 
-Follow this detailed guide to [create a farm](../../farming/farm_init.md)
+Follow this detailed guide to [create a farm](farm_init.md)
 
 ## Edit a Farm
 

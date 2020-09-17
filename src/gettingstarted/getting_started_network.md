@@ -16,7 +16,7 @@ Go to your deployed hosted 3Bot admin panel, and click on __Solutions__ -> __Net
 
 ![solutions menu](./img/network_landing_page.png)
 
-Follow this detailed guide: [Create a network](../3bot_sysadmin/chatflows/solutions/network/solution_network.md)
+Follow this detailed guide: [Create a network](solution_network.md)
 
 ### Setting up wireguard
 

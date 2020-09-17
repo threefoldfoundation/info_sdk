@@ -9,11 +9,11 @@ Please check the [general requirements](code.md)
 
 #### 1. Load required libraries and create empty reservation structure
 
-To be able to made a reservation we need to local the System Abstraction Layer (SAL) and create a [capacity pool](code_pool.md)
+To be able to make a reservation we need to create a [capacity pool](code_pool.md)
 
 #### 2. Select overlay network addressing scheme and select nodes
 
-In this example we added all the nodes from Salzburg, Vienna, Lochristi and Munich are into one list. You could shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the wireguard tunnel to terminate. 
+In this example we added all nodes from Salzburg, Vienna, Lochristi and Munich are into one list. You could shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the wireguard tunnel to terminate.
 
 
 ```bash
@@ -48,11 +48,11 @@ for i, node in enumerate(pool.node_ids):
   print("Node", node.node_id,"is not up")
 ```
 
-Please store the list of nodes somewhere for you reference to deploy containers and architectures, or you could write code to store this to a file. All nodes are connected with IPv6 to the internet. If you have IPv6 at home you could create a wireguard configuration to any of the nodes as they all speak IPv6 and any node could act as you private gateway into your overlay network. If you fo not have IPv6 at home you need to identify a nodes that has IPv4 capabilities. In this example the nodes in Belgium have a dual-stack and could therefore be used to provide an IPv4 gateway into your overlay network.
+Please store the list of nodes somewhere for you reference to deploy containers and architectures, or you could write code to store this to a file. All nodes are connected with IPv6 to the internet. If you have IPv6 at home you could create a wireguard configuration to any of the nodes as they all speak IPv6 and any node could act as you private gateway into your overlay network. If you do not have IPv6 at home you need to identify a nodes that has IPv4 capabilities. In this example the nodes in Belgium have a dual-stack and could therefore be used to provide an IPv4 gateway into your overlay network.
 
 #### 3. Setup wireguard configuration
 
-An important step is to create a wireguard configuration (file) providing you with secure access to you private peer-to-peer overlay network. Please copy / paste the configuration into a file and import to you local wireguard setup. At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium. With IPv6 available you could select any of the nodes in your network and build a secure tunnel to those. 
+An important step is to create a wireguard configuration (file) providing you with secure access to you private peer-to-peer overlay network. Please copy / paste the configuration into a file and import to you local wireguard setup. At time of writing IPv4 was the only available stack and therefore this example has an IPv4 Wireguard configuration, based on one of the nodes in Belgium. With IPv6 available you could select any of the nodes in your network and build a secure tunnel to those.
 
 
 ```bash
@@ -66,7 +66,7 @@ print("------------------------")
 
 Copy the wireguard configuration to your local host on which the TF Grid SDK is running and bring the wireguard interface up. Instructions to do this are [here](https://www.wireguard.com/quickstart/)
 
-The network is now a workload that needs to be deployed. 
+The network is now a workload that needs to be deployed.
 
 #### 4. Deploy the network to the grid
 
@@ -82,7 +82,7 @@ zos.workloads.deploy(network)
 If the network is composed of different pools / different farmers, you simply loop over the different workloads :
 
 ```bash
-# Deploy the network 
+# Deploy the network
 r = zos.reservation_create()
 r.workloads.append(network)
 for nr in network.network_resources:
@@ -107,5 +107,4 @@ print("provisioning result")
 print(result)
 ```
 
-This will provide you with an overlay network. 
-
+This will provide you with an overlay network.
