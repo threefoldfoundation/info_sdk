@@ -1,6 +1,6 @@
-# Architecture Overview
-
 ![](./img/architecture_why_us.png)
+
+## Architecture Overview
 
 **More info:**
 
