@@ -13,10 +13,7 @@ Here is the schema used to define a container reservation:
 the node. This is usually a URL to https://hub.grid.tf/.
 
 * **HubUrl**: The URL of the hub to use, if not using the default hub.grid.tf.
-* **Environment**: The environment variables to set inside the container. This
-
-is usually used to configure the application running in the container.
-
+* **Environment**: The environment variables to set inside the container. This is usually used to configure the application running in the container.
 * **SecretEnvironment**: It is the same as `Environment` but these values are encrypted.
 * **Entrypoint**: It is the program to start when the container is created.
 * **Interactive**: If set to true, coreX is started in the container and the value.
@@ -71,7 +68,7 @@ You can use `j.clients.corex` to start, stop, list etc. process on your Core X.
 In order to get your container logs easily readable and accessible, without adding anything to your container code, you can
 provide some extra settings to get your logs (stdout and stderr) pushed remotely to a redis channel.
 
-You can even specify multiple endpoint. For now only redis is supported but this can be extended in the futur.
+You can even specify multiple endpoints. For now only redis is supported but this can be extended in the future.
 
 In the reservation payload, there is a `logs` field where you can specify your endpoints:
 

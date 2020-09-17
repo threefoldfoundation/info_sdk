@@ -4,7 +4,7 @@
 
 This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/Threefoldtech/0-DB), a low level key-value store that uses the RESP (redis) protocol.
 
-0-DB is responsible to get the best write and read speed out of the disk or SSD exposed underneath.
+0-DB is responsible to get the best write and read speed out of the HDD or SSD exposed underneath.
 
 When a user reserves a 0-DB namespace, a portion of a disk is reserved for the user. This portion of disk is called a namespace. A namespace is protected by a password and has a certain size.
 
@@ -12,12 +12,12 @@ When a user reserves a 0-DB namespace, a portion of a disk is reserved for the u
 
 Here is the schema used to define a 0-DB namespace reservation:
 
-- **Size**: the size of the namespace in GiB
+- **Size**: The size of the namespace in GiB.
 - **Mode**: 0-DB support different running mode. Check the 0-DB repository for more information about the possible running mode: https://github.com/Threefoldtech/0-DB#running-modes. Valid values for this fields are `seq` and `user`.
-- **Password**: the password of the namespace. When creating the workload, you need to encrypt this value with the public key of the node
-- **DiskType**: the type of disk to use. value could be `HDD` or `SSD`
-- **Public**: whether this 0-DB namespace should be publicly accessible
-- **pool_id**: the capacity pool ID to use to provision the workload
+- **Password**: The password of the namespace. When creating the workload, you need to encrypt this value with the public key of the node.
+- **DiskType**: The type of disk to use. value could be `HDD` or `SSD`.
+- **Public**: Whether this 0-DB namespace should be publicly accessible.
+- **pool_id**: The capacity pool ID to use to provision the workload.
 
 ## Network consideration
 
@@ -25,7 +25,7 @@ Here is the schema used to define a 0-DB namespace reservation:
 
 ## Useful links and extra documentation
 
-If you want to dive in more about 0-DB itself, head to the official repository: [0-DB](https://github.com/Threefoldtech/0-DB)
+If you want to dive in more about 0-DB itself, head to the official repository: [0-DB](https://github.com/Threefoldtech/0-DB).
 
 ## Example
 
