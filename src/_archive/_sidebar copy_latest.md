@@ -1,6 +1,6 @@
 - [Home](intro.md)
-- [Introduction](learn.md)
- - [Cloud Intro](cloud_intro.md)
+- [Introduction](peer2peer_cloud_intro)
+ - [Cloud Intro](peer2peer_cloud_intro.md)
  - [Grid Intro](grid_intro.md)
   - [Architecture](architecture.md)
   - [Node](architecture_3Node.md)

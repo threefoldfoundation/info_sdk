@@ -1,12 +1,14 @@
 
-# Ultra Efficient Virtual File System for Zero-OS
-
 ![](./img/vfs_intro2.png)
 
 
-## Flist Architecture
+# Ultra Efficient Virtual File System for Zero-OS
 
-There are times when you need to download particular files from an archive, but in order to do so, you would need to download a heavy-sized archive from the internet. For example, from a 4 GB compiled archive, you only actually need the 2 MB files inside, but you are not able to specifically download these files and need to download the whole 4 GB... You then realized thay you've wasted both your time and your internet bandwidth.
+## Virtual Filesystem Architecture
+
+There are times when you need to download particular files from an archive, but in order to do so, you would need to download a heavy-sized archive from the internet. 
+
+For example, from a 4 GB compiled archive, you only actually need the 2 MB files inside, but you are not able to specifically download these files and need to download the whole 4 GB... You then realized thay you've wasted both your time and your internet bandwidth.
 
 If you're living in a country with a decent internet providers and infrastructure, this would not be a massive problem, but for people who are not living in these regions, this download would cost them hours, expensive amount of bandwidth of their internet.
 
