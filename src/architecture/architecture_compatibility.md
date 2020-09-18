@@ -31,7 +31,7 @@ Choosing for IPv6 is future-proof and solves 2 problems :
    - it allows complex IP management between nodes in one and the same farm
    
 Each node in the grid must be able to connect to any other node, so having public IPv6 address everywhere made it very easy, solving all these pesky NAT and unreachable node problems.
-We realise however that IPv4 is still widespread. To make IPv4-only nodes reachable, ZOS has integrated Yggdrasil. 
+We realise however that IPv4 is still widespread. To make IPv4-only nodes reachable, Zero-OS has integrated Yggdrasil. 
 Yggdrasil is an implementation of a fully end-to-end encrypted IPv6 network where nodes are part of a globally-agreed spanning tree.
 It allows traffic to be forwarded between all nodes of the network.
 
