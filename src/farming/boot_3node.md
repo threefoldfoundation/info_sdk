@@ -7,7 +7,7 @@ After booting your 3Node, you should see something similar to:
 
 ![Zero-OS console interface](./img/zui.png)
 
-> Note: if you have an AMD gpu you will probably not see something like in the image above. Instead you will something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
+> Note: if you have an AMD gpu you will probably not see something like in the image above. Instead you will see something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
 
 If you go back to your farm management page, you should also see your nodes being part of your farm.
 

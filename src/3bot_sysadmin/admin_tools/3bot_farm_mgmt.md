@@ -6,11 +6,11 @@ This section of your 3Bot lets you create, manage and monitor your farms.
 
 ## Creating a new farm
 
-Follow this detailed guide to [create a farm](farm_init.md)
+Follow this detailed guide to [create a farm](farm_init.md).
 
 ## Edit a Farm
 
-If you want to change any of the detail about your farm, you can click on the gear icon at the right side of the farm table under the actions column. This will open a popup containing a form that let you edit any of the farm's information.
+If you want to change any of the details about your farm, you can click on the gear icon at the right side of the farm table in the actions column. This will open a popup containing a form that let you edit any of the farm's information.
 
 ### Changing the owner of a farm
 
