@@ -1,15 +1,15 @@
 # Domain delegation
 
-This primitives provided by the TFGateway allow a user to delegate the management of its domain the TFGateway itself.
-Delegating allow to create sub-domain directly from the TFGateway.
+This primitives provided by the TFGateway allow a user to delegate the management of its domain to the TFGateway itself.
+Delegating allows to create sub-domain directly from the TFGateway.
 
 ## Reservation definition
 
 Here is the schema used to define a container reservation:
 
-* **gateway_id**: the gateway ID on which to delegate the domain
-* **domain**: The domain you want to delegate
-* **pool_id**: the capacity pool ID to use to provision the workload
+* **gateway_id**: The gateway ID on which to delegate the domain.
+* **domain**: The domain you want to delegate.
+* **pool_id**: The capacity pool ID to use to provision the workload.
 
 ## Example using sdk
 
@@ -28,10 +28,10 @@ id = zos.workloads.deploy(delegated)
 One extra step to finalize the delegation of the domain is to configure your domain NS record so they point to the
 address of the TFGateway.
 
-Each Gateway reports the domain that needs to be use to configure the NS record of the delegated domain.
+Each Gateway reports the domain that needs to be used to configure the NS record of the delegated domain.
 
 ![gateway nameserve](./img/gateway_nameserver.png)
 
-Once you have found the TFGateway domain, go to your own domain management system and an NS record that points to the domain of the TFGateway like so:
+Once you have found the TFGateway domain, go to your own domain management system and add an NS record that points to the domain of the TFGateway like so:
 
 ![ns record](./img/ns_record.png)

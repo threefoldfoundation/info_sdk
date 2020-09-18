@@ -14,14 +14,14 @@ A kubernetes cluster could be linked to our other primitives.
 Schema used to define a kubernetes reservation:
 
 
-* **NodeId**: The node ID on which to Virtual machine will be created
-* **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes)
-* **NetworkId**: The name of the network created using a [network](network.md) primitive
-* **Ipaddress**: The IP address to give to the VM
-* **ClusterSecret**: The value of this field must be the same for all the members of a cluster
-* **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here
-* **SshKeys**: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all
-* **pool_id**: the capacity pool ID to use to provision the workload
+* **NodeId**: The node ID on which the Virtual machine will be created.
+* **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes).
+* **NetworkId**: The name of the network created using a [network](network.md) primitive.
+* **Ipaddress**: The IP address to give to the VM.
+* **ClusterSecret**: The value of this field must be the same for all the members of a cluster.
+* **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here.
+* **SshKeys**: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all.
+* **pool_id**: the capacity pool ID to use to provision the workload.
 
 ### VM Sizes
 
@@ -107,7 +107,7 @@ k3os-15958 Ready <none> 1m42s v1.16.3-k3s.2
 
 Copy the config so that we could use kubectl from our local machine. By default it is located in `/etc/rancher/k3s/k3s.yaml` on the master node.
 
-Execute this command on your local machine not in a remote shell
+Execute this command on your local machine not in a remote shell.
 
 ``` shell
 scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml k3s.yaml

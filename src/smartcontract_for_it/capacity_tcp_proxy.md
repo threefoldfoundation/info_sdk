@@ -1,17 +1,17 @@
 # TCP proxy
 
-This primitives provided by the TFGateway allow a user to forward traffic from the public internet inside their private overlay network until services running in container or kubernetes cluster.
+This primitives provided by the TFGateway allows a user to forward traffic from the public internet inside their private overlay network and services running in container or kubernetes cluster.
 
 ## Reservation definition
 
 Here is the schema used to define a container reservation:
 
-* **NodeId**: the gateway ID on which to delegate the domain
+* **NodeId**: The gateway ID on which to delegate the domain.
 * **domain**: The domain to forward traffic from.
 * **addr**: The destination address where to proxy the traffic to. This address needs to be reachable by the TFGateway.
-* **port**: The listening port of your service handling plain text traffic, usually HTTP
-* **port_tls**: The listening port of your service handling TLS traffic, usually HTTPS
-* **pool_id**: the capacity pool ID to use to provision the workload
+* **port**: The listening port of your service handling plain text traffic, usually HTTP.
+* **port_tls**: The listening port of your service handling TLS traffic, usually HTTPS.
+* **pool_id**: The capacity pool ID to use to provision the workload.
 
 ## Example using sdk
 
@@ -35,5 +35,5 @@ id = zos.workloads.deploy(proxy)
 The TFGateway uses 2 technics to identify the destination domain of incoming request:
 
 
-* for HTTP, it inspect the `Host` header value
-* for TLS traffic is uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication)
+* For HTTP, it inspect the `Host` header value.
+* For TLS traffic it uses [SNI](https://en.wikipedia.org/wiki/Server_Name_Indication).
