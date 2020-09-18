@@ -4,12 +4,12 @@ Threefold has built this revolutionary review of the internet infrastructure to 
 
 ## Hardware compatibility
 
-The ZOS operating system can be installed on any server hardware with secure boot capabilities. 
-This implies that a simple installation of the ZOS image converts the hardware into a 3Node. 
+The Zero-OS operating system can be installed on any server hardware with secure boot capabilities. 
+This implies that a simple installation of the Zero-OS image converts the hardware into a 3Node. 
 
 ## Compatibility with S3 standards for storage
 
-
+You can read in the [Peer2Peer Storage](./architecture_storage.md) section about how we organise and disperse storage. It can be set up based on the [min.io](https://min.io) S3 API interface. 
 
 ## Compatibility with container standards 
 
@@ -18,6 +18,9 @@ This implies that a simple installation of the ZOS image converts the hardware i
 The flist contains some major improvements compared to the container formats in the market, but we made it in a way that it is fully compatible with Docker, the best known container format available.
 Even more, it is really simple to convert your existing Docker file into a flist. The docker Hub Converter converts any existing Docker image into a flists, publishes it on the hub. Once converted the container is usable on the Threefold Grid, out of the box !
 
+Next to this, also Kubernetes, best known container orchestrator, runs on the Threefold grid and can be used to orchestrate Docker containers. 
+
+Containers can hold any object. As they are supported on the TF Grid, the complexity of installing any IT workload is reduced to simple container management. 
 
 ## Compatibility with network standards
 
