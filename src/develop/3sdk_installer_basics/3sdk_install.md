@@ -38,7 +38,7 @@ Just doing `python3 -m pip install js-sdk` is enough
 
 ### Installation for experts or developers
 
-This version of the SDK tries to be isolated as possible in case of developers or the endusers, and we are achieving that level of isolation using poetry for the whole development/publishing process
+This version of the SDK tries to be isolated as possible for developers or end-users, and we are achieving that level of isolation using poetry for the whole development/publishing process.
 
 - To install poetry `pip3 install poetry` or from [here](https://python-poetry.org/docs/#installation)
 - Clone the repository `git clone https://github.com/Threefoldtech/js-sdk`
