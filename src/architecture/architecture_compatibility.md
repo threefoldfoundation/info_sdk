@@ -1,4 +1,4 @@
-# 
+# A new architecture, compatible with IT standards 
 
 Threefold has built this revolutionary review of the internet infrastructure to become fully peer2peer and used by everyone. It's done however in full compatibility with the standards of the IT industry, in all its dimensions:
 
@@ -10,8 +10,13 @@ This implies that a simple installation of the ZOS image converts the hardware i
 ## Compatibility with S3 standards for storage
 
 
+
 ## Compatibility with container standards 
 
+[Zero-OS hub](https://hub.grid.tf) is the repository of publicly available flists, the Virtual File System for Containers and Virtual Machines. 
+
+The flist contains some major improvements compared to the container formats in the market, but we made it in a way that it is fully compatible with Docker, the best known container format available.
+Even more, it is really simple to convert your existing Docker file into a flist. The docker Hub Converter converts any existing Docker image into a flists, publishes it on the hub. Once converted the container is usable on the Threefold Grid, out of the box !
 
 
 ## Compatibility with network standards
