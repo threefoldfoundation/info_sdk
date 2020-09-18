@@ -16,7 +16,7 @@ The aim is to create a simple S3 archive solution by following a few steps:
 
 #### Create an overlay network or use the identity of a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md)
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md).
 
 
 #### Design the S3 simple storage solution
@@ -92,7 +92,7 @@ The nodes that will run the storage solution needs some persistent storage. This
 ```python
 
 # ----------------------------------------------------------------------------------
-# Attach persistant storage to container - for storing metadata
+# Attach persistant storage to container - for storing metadata.
 # ----------------------------------------------------------------------------------
 w_volume = zos.volume.create(minio_node_id, pool.pool_id,size=10,type='SSD')
 zos.workloads.deploy(w_volume)
@@ -104,8 +104,8 @@ With the low level zero-DB reservations done and stored the `results` variable. 
 
 ```python
 # ----------------------------------------------------------------------------------
-# Read the IP address of the 0-DB namespaces after they are deployed
-# we will need these IPs when creating the minio container
+# Read the IP address of the 0-DB namespaces after they are deployed.
+# We will need these IPs when creating the minio container.
 # ----------------------------------------------------------------------------------
 namespace_config = []
 for result in results:
@@ -142,8 +142,7 @@ Now in this example the real efficiency of this solution is not achieved, in a r
 |--------|---|---|---|---|
 | 4  | 16 | 4 | 20 | 20% |
 
-In that case it is highly unlikely that 4 distributed devices will fail at the same time, therefore this is a very robust storage solution
-
+In that case it is highly unlikely that 4 distributed devices will fail at the same time, therefore this is a very robust storage solution.
 
 Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
 
@@ -154,7 +153,7 @@ Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
 # the reservation for the min.io S3 interface.
 # ----------------------------------------------------------------------------------
 
-# Encrypt minio secret to pass as a secret env variable
+# Encrypt minio secret to pass as a secret env variable.
 secret = 'PASSWORD'
 minio_secret_encrypted = j.sals.zos.container.encrypt_secret(minio_node_id, secret)
 shards_encrypted = j.sals.zos.container.encrypt_secret(minio_node_id, ",".join(namespace_config))
@@ -177,7 +176,7 @@ minio_container=zos.container.create(
   "PARITY":"2",
   "ACCESS_KEY":"minio",
   "SECRET_KEY": secret,
-  "SSH_KEY": USER_ACCESS_KEY, # (your id_rsa.pub key) OPTIONAL to provide ssh access to the deployed container
+  "SSH_KEY": USER_ACCESS_KEY, # (your id_rsa.pub key) OPTIONAL to provide ssh access to the deployed container.
   "MINIO_PROMETHEUS_AUTH_TYPE": "public"
   },
  secret_env=secret_env,
