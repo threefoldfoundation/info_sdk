@@ -2,17 +2,18 @@
 
 ### Overview
 
-The aim is to delegate your domain to the gateway, access your running web applications using custom domains, subdomains of your delegated domain or any managed domains where we need to follow a few steps:
+The aim is to delegate your domain to the gateway, Accessing your running web applications using custom domains, subdomains of your delegated domain, or any managed domains. For this we need to do the following few steps:
 
-- choose a gateway
-- delegate your domain to that gateway.
-- create subdomains using that domain.
-- create a tcp reverse proxy on the gateway.
-- use `trc` Flist to expose your running containers.
-- managed domain example
-- custom domain example
+- Choose a gateway.
+- Delegate your domain to that gateway.
+- Create subdomains using that domain.
+- Create a tcp reverse proxy on the gateway.
+- Use `trc` Flist to expose your running containers.
+- Examples:
+  - Managed domain example.
+  - Custom domain example.
 
-Also show how to use the gateway4to6 workloads for users with IPv4 only networks to get IPv6 connectivity through the gateway
+Also show how to use the gateway4to6 workloads for users with IPv4 only networks to get IPv6 connectivity through the gateway.
 
 #### What is solution expose?
 
@@ -22,11 +23,11 @@ When deploying a container on the grid you can access it over public IPv6 (if sp
 
 When you decide to expose your workload using a `TF Gateway`, there are different approaches to achieve that.
 
-1- Using a `Delegated Domain`: in this case you first delegate your domain to a gateway using a `domain delegation workload` and add an `NS` record in your dns manager of that domain pointing to the gateway dns server. then you can create `subdomain` of your delegated domain and use them in `tcp reverse proxy` worklooads.
+- Using a `Delegated Domain`: in this case you first delegate your domain to a gateway using a `domain delegation workload` and add an `NS` record in your dns manager of that domain pointing to the gateway dns server. then you can create `subdomain` of your delegated domain and use them in `tcp reverse proxy` workloads.
 
-2- Using a `Managed Domain`: most gateways offer some domain names that you can create a `subdomain` of them without having to delegate your domain to the gateway. and later you can use these subdomains in your `tcp reverse proxy` workloads.
+- Using a `Managed Domain`: most gateways offer some domain names that you can create a `subdomain` of them without having to delegate your domain to the gateway. and later you can use these subdomains in your `tcp reverse proxy` workloads.
 
-3- Using a `Custom Domain`: in this case you create a `tcp reverse proxy` on a gateway and bind it to a domain name. But you'll have to create an `A` record of this domain name pointing to the gateway IP address yourself.
+- Using a `Custom Domain`: in this case you create a `tcp reverse proxy` on a gateway and bind it to a domain name. But you'll have to create an `A` record of this domain name pointing to the gateway IP address yourself.
 
 #### Note: that the only option you can use if want to access a container using a FQDN like `mydomain.com` without any additions (ie: `mysite.mydomain.com`) is using a `Custom Domain` approach where you create an `A` record of `mydomain.com` pointing to the IP address of the gateway.
 
@@ -66,7 +67,7 @@ domain_delegate = j.sals.zos.gateway.delegate_domain(gateway.node_id, DOMAIN, po
 wid = j.sals.zos.workloads.deploy(domain_delegate)
 ```
 
-got to your dns manager and create an `ns` record pointing to the gateway name `gateway.dns_nameserver[0]` then you could create subdomains of that domain and the gateway will create A records for it.
+Go to your dns manager and create an `ns` record pointing to the gateway name `gateway.dns_nameserver[0]` then you could create subdomains of that domain and the gateway will create A records for it.
 
 #### Create subdomains
 
@@ -75,13 +76,14 @@ got to your dns manager and create an `ns` record pointing to the gateway name `
 SUBDOMAIN = "srv1.waleed.grid.tf"
 gateway_ips = []
 for ns in gateway.dns_nameserver:
- gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
+  gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
 subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, SUBDOMAIN, gateway_ips, pool.pool_id)
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
-now you could actually see that your subdomain is resorvable.
-![domain_lookup](./img/01-web-gateway.png)
+now you could actually see that your subdomain is resolvable.
+
+![domain_lookup](./img/01_web_gateway.png)
 
 #### Create tcp reverse proxy
 
@@ -104,7 +106,7 @@ wid = j.sals.zos.workloads.deploy(reverse_proxy)
 SOLUTION_IP_ADDRESS = "10.212.2.2" # IP address of the workload you want to expose
 SOLUTION_PORT = 8000
 # I'm using an ubuntu container running python3 -m http.server to demonstrate so the below port will not be used
-SOLUTION_TLS_PORT = 8443 
+SOLUTION_TLS_PORT = 8443
 GATEWAY_IP = gateway_ips[0]
 
 entrypoint = f"/bin/trc -local {SOLUTION_IP_ADDRESS}:{SOLUTION_PORT} -local-tls {SOLUTION_IP_ADDRESS}:{SOLUTION_TLS_PORT}" f" -remote {GATEWAY_IP}:{gateway.tcp_router_port}"
@@ -129,11 +131,11 @@ wid = j.sals.zos.workloads.deploy(container)
 
 now you could access your server using the gateway
 
-![http_access](./img/02-web-gateway.png)
+![http_access](./img/02_web_gateway.png)
 
 #### Managed domains example
 
-- gateways could have managed domains that you could use to create subdomains directly without the need of delegating domains or having a domain in the first place.
+Gateways could have managed domains that you could use to create subdomains directly without the need of delegating domains or having a domain in the first place.
 
 ```python
 gateway.managed_domains # list of the managed domains
@@ -144,11 +146,11 @@ subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gat
 wid = j.sals.zos.workloads.deploy(subdomain)
 ```
 
-now you can use that subdomain in your tcp reverse proxy as above
+Now you can use that subdomain in your tcp reverse proxy as above.
 
 #### Custom domain example
 
-This is really simple. you first create a `tcp reverse proxy` workload with your domain as below
+This is really simple. You first create a `tcp reverse proxy` workload with your domain as below.
 
 ```python
 # you need to have a secret for your reverse proxy which will be used by trc container to connect to the gateway. the format is {tid}:{arbitary_value}
@@ -169,13 +171,13 @@ for ns in gateway.dns_nameserver:
  gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
 ```
 
-in my case
+In my case
 
-![custom_domain](./img/04-web-gateway.png)
+![custom_domain](./img/04_web_gateway.png)
 
-now you can run your `tcprouter` container to expose your workload same as above.
+Now you can run your `tcprouter` container to expose your workload same as above.
 
-![custom_domain](./img/05-web-gateway.png)
+![custom_domain](./img/05_web_gateway.png)
 
 ## Gateway4to6
 
@@ -219,4 +221,4 @@ j.sals.fs.write_file(f"/home/maged/{filename}", config)
 ```
 
 now you could start your wiregaurd config and access IPv6 addresses
-![ipv6_access](./img/03-web-gateway.png)
+![ipv6_access](./img/03_web_gateway.png)
