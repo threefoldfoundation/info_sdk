@@ -1,7 +1,7 @@
 # 3Bot Backup
 
 
-The 3Bot backup is a service that backs up the data of your 3Bot, with this backup you can recover your 3Bot. 
+The 3Bot backup is a service that backs up the data of your 3Bot. This backup can help recover your 3Bot. 
 
 ## Get Started on Backup
 
@@ -68,7 +68,7 @@ Recovering a backup with MinIO requires some manual work. It backs up the config
 JS-NG> restic = j.tools.restic.minio_backup 
 JS-NG> restic.restore("/")
 ```
-- You can also restore to a specific snapshot using  `restore(target_path, snapshot_id=None)`.
+- You can also restore a specific snapshot using  `restore(target_path, snapshot_id=None)`.
 And to get all the snapshots:
 ```
 JS-NG> restic.list_snapshots()
