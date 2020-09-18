@@ -1,6 +1,6 @@
-# A new architecture, compatible with IT standards 
+# A new architecture, compatible with existing IT standards 
 
-Threefold has built this revolutionary review of the internet infrastructure to become fully peer2peer and used by everyone. It's done however in full compatibility with the standards of the IT industry, in all its dimensions:
+Threefold has built this revolutionary review of the internet infrastructure to become fully peer2peer and used by everyone. It's done however in full compatibility with the standards of the IT industry, in many dimensions.
 
 ## Hardware compatibility
 
@@ -31,7 +31,4 @@ Each node in the grid must be able to connect to any other node, so having publi
 We realise however that IPv4 is still widespread. To make IPv4-only nodes reachable, ZOS has integrated Yggdrasil. 
 Yggdrasil is an implementation of a fully end-to-end encrypted IPv6 network where nodes are part of a globally-agreed spanning tree.
 It allows traffic to be forwarded between all nodes of the network.
-
-
-
 
