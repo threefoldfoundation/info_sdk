@@ -10,6 +10,7 @@
    - [Web Gateway](architecture_Webgateway.md)
    - [Planetary Lan](tf_lan.md)
    - [0-Container Virtual FS](architecture_Flist.md)
+   - [Compatibility with IT standards](architecture_compatibility.md)
 * [Getting Started](getting_started_all.md)
    <!-- - [Get Your 3Bot On Mainnet](mainnet_getting_started.md)
       - [Get 3Bot Connect](3botconnect_install.md)
