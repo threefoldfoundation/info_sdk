@@ -13,7 +13,7 @@ The aim is to create a simple Kubernetes cluster where we need to follow a few s
 
 #### Create an overlay network of identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that it has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md)
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that it has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md).
 
 
 
@@ -41,24 +41,24 @@ When you executed the reservation it also provided you with data on the order nu
 
 #### Reserve and deploy the master and worker nodes
 
-A Kubernetes cluster is built from master and worker nodes. Based on the network that we have build we could build and deploy nodes in Vienna and Salzburg,
+A Kubernetes cluster is built from master and worker nodes. Based on the network that we have build we could build and deploy nodes in Vienna and Salzburg.
 
 
 ```python
-# Load the zero-os sal and create an empty reservation instance
+# Load the zero-os sal and create an empty reservation instance.
 zos = j.sals.zos
 
 cluster_secret = 'supersecret'
 
 # At this point in time we have two sizes of virtual machines for Kubernetes clusters.
-# size 1 = 1 logical core and 2GB of memory
-# size 2 = 2 logical cores and 4GB of memory
+# Size 1 = 1 logical core and 2GB of memory.
+# Size 2 = 2 logical cores and 4GB of memory.
 size = 1
 
-# set in the example network deployment - please replace with your personal network name.
+# Set in the example network deployment - please replace with your personal network name.
 network_name = 'demo_network_name_01'
 
-# example public ssh key. This is used to log in two the cluster nodes - please replace with you own ssh-key.
+# Example public ssh key. This is used to log in two the cluster nodes - please replace with you own ssh-key.
 sshkeys = ['ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMtml/KgilrDqSeFDBRLImhoAfIqikR2N9XH3pVbb7ex zaibon@tesla']
 ```
 
@@ -68,12 +68,12 @@ Create master node reservations. The function add the nodes to the reservation s
 cluster = []
 
 master = zos.kubernetes.add_master(
- node_id={string},   # node_id to make the capacity reservation on and deploy the Flist
- network_name={string},  # network_name deployed on the node (node could have multiple private networks)
- cluster_secret={string}, # cluster pasword
- ip_address={string},  # IP address the network range defined by network_name on the node
- size={integer},   # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory)
- ssh_keys={string},   # ssh public key providing ssh access to master of worker vm's
+ node_id={string},   # Node_id to make the capacity reservation on and deploy the Flist.
+ network_name={string},  # Network_name deployed on the node (node could have multiple private networks).
+ cluster_secret={string}, # Cluster pasword.
+ ip_address={string},  # IP address the network range defined by network_name on the node.
+ size={integer},   # 1 (1 logical core, 2GB of memory) or 2 (2 logical cores and 4GB of memory).
+ ssh_keys={string},   # Ssh public key providing ssh access to master of worker vm's.
  pool_id={integer})
 cluster.append(master)
 ```
@@ -81,7 +81,7 @@ cluster.append(master)
 Now that we have defined the master node, let us deploy worker nodes.
 
 ```python
-# Repeat for worker nodes, or create a looped assignment
+# Repeat for worker nodes, or create a looped assignment.
 
 worker1 = zos.kubernetes.add_worker(
  node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
