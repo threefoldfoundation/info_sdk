@@ -1,6 +1,6 @@
 # A new architecture, compatible with existing IT standards 
 
-Threefold has built this revolutionary review of the internet infrastructure to become fully peer2peer and used by everyone. It's done however in full compatibility with the standards of the IT industry, in many dimensions.
+Threefold has built this revolutionary review of the internet infrastructure to become fully peer2peer and used by everyone. It's conceived however in full compatibility with the standards of the IT industry, in many dimensions.
 
 ## Hardware compatibility
 
