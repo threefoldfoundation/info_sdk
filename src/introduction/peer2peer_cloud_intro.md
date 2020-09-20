@@ -18,7 +18,8 @@ Today 90% of "the cloud" is owned by less than 20 companies in the world.
 
 We believe there is a requirement for an upgraded internet where all of us together deliver this new cloud.
 
-> Cloud is the IT capacity which empowers the internet. IT = Information Technology (applications, storage, compute, ...)
+> Cloud is the IT capacity which empowers the internet. IT = <BR>
+> Information Technology (applications, storage, compute, ...)
 
 ### Why peer2peer? 
 
