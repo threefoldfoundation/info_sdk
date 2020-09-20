@@ -2,7 +2,7 @@
 
 The settings section of the 3Bot allows you to manage who can access the 3Bot, the identities that the 3Bot can use and some developer-oriented settings.
 
-![settings](./img/settings.png)
+![settings](./img/3bot_settings.png)
 
 ## Manage admins
 
@@ -38,9 +38,13 @@ One identity could be linked to mainnet and one could be linked to testnet. By s
 
 ## Developers options
 
+![developer options](./img/3bot_settings_devoptions.png)
+
 These options are targeted to developers who want to alter the behavior of the 3Bot to allow an easier development experience.
 
 It contains 2 switches:
 
 * **Allow for staging SSL certificate**: When switched on, all the solutions chatflows that need to generate SSL certificate from let's Encrypt will use the staging environment from let's Encrypt to avoid hitting the rate limitation. This is mainly useful for developers of the solutions.
 * **Allow over provisioning**: When switched on, the capacity planning done by the solutions chat flows are relaxed and allow to over-provision nodes that have their capacity already reserved.
+
+And there's a shortcut to clear blocked nodes, *Blocked nodes* are nodes that 3Bot failed to deploy workload on, and they get blocked for 3 hours, then if deployments fail again, they get blocked for 6 hours, .. etc
