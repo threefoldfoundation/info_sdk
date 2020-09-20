@@ -39,7 +39,7 @@ Easy way to install/stop packages available on the filesystem or from a trusted 
 
 If you want to edit code from the dashboard directly you could do so using CodeServer package.
 
-![codeserver](./img/codeserver.png)
+![codeserver](3bot_admin_codeserver2.png.png)
 
 
 ### Access rights to the 3bot virtual system administrator
