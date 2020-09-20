@@ -2,10 +2,7 @@
 
 
 You can get a hosted 3Bot on testnet [here](https://deploy3bot.testnet.grid.tf). 
-Browse to the website and log in using your 3Bot Connect app. 
-
-- Make sure to have a [TFT funded stellar testnet wallet](testnet_wallet_interstellar.md), so you can extend the lifetime of your 3Bot once deployed.
-
+Browse to the website and log in using your 3Bot Connect app. Please, make sure to have a [TFT funded stellar testnet wallet](testnet_wallet_interstellar.md), so you can extend the lifetime of your 3Bot once deployed.
 
 ![](./img/hosted3bot_login.png)
 
