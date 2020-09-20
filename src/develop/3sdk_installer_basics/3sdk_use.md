@@ -24,11 +24,13 @@ After the [installation](3sdk_install.md) steps you should have an executable `3
 3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set capabilities for nginx binary (in case of linux) or install as root in case of OSX
 
 ### Setting capabilities for nginx
+
 To be able to run as a normal user, you don't need it if you are root.
 
 ```
 sudo setcap cap_net_bind_service=+ep `which nginx`
 ```
+
 ### Starting 3Bot
 
 - After setting capabilities for nginx, we could just do
@@ -41,11 +43,12 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 
 - Then it will start 3Bot server where you will see some thing like that
 
- ![configure](identity_new.png)
+ ![configure](./img/identity_new.png)
 
 - After success you could visit the admin dashboard at http://localhost and start creating reservations
 
- ![configure](success.png)
+ ![configure](./img/success.png)
 
 ## Stopping 3Bot
+
 You could stop 3Bot using `threebot stop`

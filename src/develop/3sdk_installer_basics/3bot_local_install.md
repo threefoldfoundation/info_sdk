@@ -1,7 +1,5 @@
 
-## Create a 3Bot on your local machine
-
-A 3Bot on your local machine requires the installation of an SDK. Please find the instructions below. 
+## Install a 3Bot on your local machine
 
 ### Quick Start with js-sdk
 

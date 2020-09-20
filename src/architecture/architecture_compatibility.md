@@ -9,7 +9,7 @@ This implies that a simple installation of the Zero-OS image converts the hardwa
 
 ## Compatibility with S3 standards for storage
 
-You can read in the [Peer2Peer Storage](./architecture_storage.md) section about how we organise and disperse storage. It can be set up based on the [min.io](https://min.io) S3 API interface. 
+You can read in the [Peer2Peer Storage](architecture_storage.md) section about how we organise and disperse storage. It can be set up based on the [min.io](https://min.io) S3 API interface. 
 
 ## Compatibility with container standards 
 
