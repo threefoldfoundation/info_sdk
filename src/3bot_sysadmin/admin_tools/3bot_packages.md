@@ -1,5 +1,7 @@
 # 3Bot Packages 
 
+![packages](./img/packages.png)
+
 A package is a module that can be added to your 3Bot to add additional options, features and functionality. On your 3Bot you could access the list of your 3Bot's system, installed and available packages by clicking on '__Packages__' on the sidebar menu.
 
 ## System Packages
@@ -8,7 +10,7 @@ System Packages are the packages that were automatically being pre-installed whe
 
 ### Auth
 
-Takes care of all the authorization features that are used in the 3Bot. This includes logging in, adding identities, ...
+Takes care of all the authorization features that are used in the 3Bot. This includes logging in, adding identities, ..etc
 
 ### Chatflows
 
