@@ -14,20 +14,9 @@ Choose a name for your new Wiki. This will allow you to later on view and access
 
 ![](./img/wiki_2.png)
 
-### Choose the Expiration Time
-![](./img/wiki_3.png)
-
-### Select the Payment Currency
-![](./img/wiki_4.png)
-
-### Payment using 3Bot App (Staging)
-![](./img/wiki_5.png)
 
 ### Preparing Your Wiki...
 ![](./img/wiki_6.png)
-
-### Wiki Deployment Confirmation
-![](./img/wiki_7.png)
 
 ### Deploying Your Wiki...
 ![](./img/wiki_8.png)

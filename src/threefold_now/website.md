@@ -15,27 +15,6 @@ This name will be used to identify this website on your deployed websites' list 
 
 ![](./img/website_2.png)
 
-### Choose the Expiration Time
-
-The expiration time determines how long you would want to keep this website alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep it online. No worries, you could always extend your website's living span by extending your capacity. 
-
-![](./img/website_3.png)
-
-### Select Your Payment Currency
-
-Choose how you would like to pay for the internet capacity you're going to use to deploy your website.
-
-![](./img/website_4.png)
-
-### Pay for Your Capacity by using a Stellar Wallet
-
-You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment. Sending a payment without a memo-text could result in a failed transaction.
-
-![](./img/website_5.png)
-
-### Wait Until Your Payment is Succeeded
-
-![](./img/website_6.png)
 
 ### Preparing Your Website's Resources
 
