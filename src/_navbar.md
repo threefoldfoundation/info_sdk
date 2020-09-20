@@ -1,7 +1,7 @@
 * Threefold
  * [TF Grid Website](http://www.Threefold.io/)
  * [TF Foundation Website](http://www.Threefold.io/)
- * [TF Wiki](http://wiki.Threefold.io/)
+ * [TF Wiki](http://wiki.threefold.io/)
  * [TF Blogs](https://blog.Threefold.io/)
  * [Conscious Internet Alliance](https://www.consciousinternet.org/index.html)
  * [Freeflow Nation](https://www.freeflownation.org/)
