@@ -3,7 +3,7 @@
 ## Prerequisites
 In order to be able to deploy anything on the grid, you will have to have the following components beforehand
 - Install 3Bot Connect App to get an identity. More details could be found in [3Bot connect installation](3botconnect_install.md) and [3Bot connect setup](3botconnect_overview.md)
-- Installation of js-sdk. Getting started instructions to install the sdk could be found [here](3sdk_install.md)
+- Installation of js-sdk. Getting started instructions to install the sdk could be found [here](3bot_local_install.md)
 - Setup 3Bot connect identity on the grid using the installed sdk. Further details could be found [here](identity.md)
  
  Identity could be verified by checking `j.core.identity.me`
