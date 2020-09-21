@@ -9,11 +9,11 @@ The aim is to create a simple Kubernetes cluster where we need to follow a few s
 - Create (or identify and use) an overlay network that spans all of the nodes needed in the solution.
 - Identify which nodes are involved in the Kubernetes cluster, master and worker nodes.
 - Deploy Kubernetes virtual machines.
-- Ceploy the Kubernetes cluster.
+- Deploy the Kubernetes cluster.
 
 #### Create an overlay network of identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network, a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network.md).
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that it has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md).
 
 
 
@@ -26,7 +26,8 @@ demo_ip_range="172.20.0.0/16"
 demo_port=8030
 demo_network_name="demo_network_name_01"
 ```
-When you provisioned the reservation it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer-to-peer with a wireguard tunnel. On these nodes we could now create the Kubernetes solution. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
+
+When you executed the reservation it also provided you with data on the order number, node ID and private network range on the node. All the nodes in the network are connected peer-to-peer with a wireguard tunnel. On these nodes we could now create the Kubernetes solution. For this solution we will be using some of these nodes as master nodes and others as worker nodes. Using the output of the network reservation notebook to describe the high-level design of the Kubernetes cluster:
 
 | Nr. | Location | Node ID. | IPV4 network | Function. |
 |--------|---|---|---|---|
@@ -50,8 +51,8 @@ zos = j.sals.zos
 cluster_secret = 'supersecret'
 
 # At this point in time we have two sizes of virtual machines for Kubernetes clusters.
-# size 1 = 1 logical core and 2GB of memory.
-# size 2 = 2 logical cores and 4GB of memory.
+# Size 1 = 1 logical core and 2GB of memory.
+# Size 2 = 2 logical cores and 4GB of memory.
 size = 1
 
 # Set in the example network deployment - please replace with your personal network name.
@@ -77,11 +78,10 @@ master = zos.kubernetes.add_master(
 cluster.append(master)
 ```
 
-Now that we have defined the master node, let us deploy worker nodes. Worker nodes could exists anywhere in the deployed network so here we create 2 in Salzburg and 2 in Vienna.
-
+Now that we have defined the master node, let us deploy worker nodes.
 
 ```python
-# Repeat for worker nodes, or create a looped assignment
+# Repeat for worker nodes, or create a looped assignment.
 
 worker1 = zos.kubernetes.add_worker(
  node_id='3h4TKp11bNWjb2UemgrVwayuPnYcs2M1bccXvi3jPR2Y',
@@ -92,6 +92,7 @@ worker1 = zos.kubernetes.add_worker(
  master_ip=master.ipaddress,
  ssh_keys=sshkeys,
  pool_id=62)
+
 cluster.append(worker1)
 
 worker2 = zos.kubernetes.add_worker(
@@ -115,14 +116,13 @@ worker3 = zos.kubernetes.add_worker(
  ssh_keys=sshkeys,
  pool_id=62)
 cluster.append(worker3)
-
 ```
 
-And finally deploy each of the K8S VMs (master and workers). 
+And finally deploy each of the K8S VMs (master and workers).
 
 ```bash
 for w in cluster:
  zos.workloads.deploy(w)
 ```
 
-You are now able to access your Kubernetes cluster on the assigned IP addresses. 
+You are now able to access your Kubernetes cluster on the assigned IP addresses.
