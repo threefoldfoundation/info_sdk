@@ -132,16 +132,16 @@ You can read them via redis using `SUBSCRIBE container-stats` for example.
 ## Example using sdk
 
 ``` python
-zos = j.sal.zos
+zos = j.sals.zos
+
 
 # add container reservation into the reservation
 container = zos.container.create(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
      network_name='<network_name>', # this assumes that this network is already provisioned on the node
      ip_address='172.24.1.10', # part of ip_range you reserved for your network xxx.xxx.1.10
-     Flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.Flist', # Flist of the container you want to install,
+     flist='https://hub.grid.tf/zaibon/zaibon-ubuntu-ssh-0.0.2.flist', # Flist of the container you want to install,
      capacity_pool_id=12, # capacity pool ID
      disk_size=2048, # request a 2GiB of storage for the root disk for the container
-     disk_type='SSD' # use an SSD for the root disk of the container
      # interactive=True, # True only if corex_connect required, default false
      env={"KEY":"VAL"},
      entrypoint='/sbin/my_init') #

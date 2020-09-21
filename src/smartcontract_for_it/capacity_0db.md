@@ -32,16 +32,25 @@ If you want to dive in more about 0-DB itself, head to the official repository: 
 ```python
 zos = j.sals.zos
 
+pool = zos.pools.get(12)
+
 # find some node that have 10 GiB of SSD disks
 nodes = zos.nodes_finder.nodes_search(sru=10)
 
+# pick a node available in the chosen pool
+node_id = None
+for node in nodes:
+     if node.node_id in pool.node_ids:
+          node_id = node.node_id
+          break
+
 # create a 0-DB namespace workload of 10 GiB on a SSD disk.
 zdb = zos.zdb.create(
- node_id=nodes[0].node_id,
+ node_id=node_id,
  size=10,
  mode='seq',
  password='supersecret',
- pool_id=12,
+ pool_id=pool.pool_id,
  disk_type="SSD")
 
 # deploy the workload and retrieve its ID
