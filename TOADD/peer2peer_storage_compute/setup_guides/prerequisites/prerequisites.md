@@ -14,5 +14,5 @@ The ThreeFold SDK is the interface where you get acces to all different options 
 * Jupyter Notebooks
 * Codeserver
 
-[Installing the SDK for Linux](/grid/peer2peer_storage_compute/prerequisites/threefold-sdk-linux.md)
-[Installing the SDK for MacOS](/grid/peer2peer_storage_compute/prerequisites/threefold-sdk-macos.md)
+[Installing the SDK for Linux](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-linux.md)
+[Installing the SDK for MacOS](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-macos.md)

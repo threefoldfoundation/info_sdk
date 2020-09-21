@@ -1,11 +1,10 @@
-##### peer2peer
+##### peer-to-peer
 
-hi
 
-#### p2p
 
-see peer2peer
+#### peer-to-peer
 
-#### TFGrid
+see peer-to-peer
 
-sss
+#### TF Grid
+

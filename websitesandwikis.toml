@@ -1,4 +1,4 @@
-#can be many wiki & many www sites
+#could be many wiki & many www sites
 
 [server]
 port = 3000
@@ -20,13 +20,13 @@ branch = "development"
 branchswitch = false
 #path in the repo where the info is, std "src"
 srcdir = "src"
-#environment name (for example:  production, staging, testing)
+#environment name (for example: production, staging, testing)
 environment = ""
 
 [[wiki]]
 #unique name for the wiki
 name = "wiki"
-title = "ThreeFold Wiki"
+title = "Threefold Wiki"
 #http or git url
 url = "https://github.com/threefoldfoundation/info_foundation"
 #if empty will be auto created
@@ -39,5 +39,5 @@ branch = "development"
 branchswitch = false
 #path in the repo where the info is, std "src"
 srcdir = "src"
-#environment name (for example:  production, staging, testing)
+#environment name (for example: production, staging, testing)
 environment = ""

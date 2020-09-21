@@ -1,8 +1,12 @@
-* ThreeFold
-    * [Website](http://www.threefold.io/)
-    * [Blogs](https://blog.threefold.io/)
-    * [KnowledgeBase](http://wiki.threefold.io/)
-    * [Grid Manual](http://manual.threefold.io/)
-    * [Conscious Internet Alliance](https://www.consciousinternet.org/index.html)
-    * [TFGrid Simulator](simulator_configure.md)
-* [TF Grid Marketplace](http://marketplace.grid.tf/)
+* Threefold
+ * [TF Grid Website](http://www.Threefold.io/)
+ * [TF Foundation Website](http://www.Threefold.io/)
+ * [TF Wiki](http://wiki.threefold.io/)
+ * [TF Blogs](https://blog.Threefold.io/)
+ * [Conscious Internet Alliance](https://www.consciousinternet.org/index.html)
+ * [Freeflow Nation](https://www.freeflownation.org/)
+* TF Grid
+ * [3Bot Deployer](http://deploy3bot.grid.tf/)
+ * [TF Grid Demo](http://demo.testnet.grid.tf/)
+ * [TF Grid Manual](http://manual.Threefold.io/)
+ * [TF Grid Simulator](simulator_configure.md)

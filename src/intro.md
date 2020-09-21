@@ -1,13 +1,34 @@
-# Threefold Grid 2.1 Manual
+# ThreeFold Grid Manual
 
 ![](./img/storage_compute.png)
 
-Hi! Welcome to the __TF Grid Manual wiki__, a knowledge base for those interested in learning more about the Threefold Grid Ecosystem, deploying a network, and developing solutions on top of the TF Grid. Here you will be able to find the most up-to-date information on the status of the development tools as well as comprehensive Grid manuals and tutorials.
+Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested in learning more about how to create and deploy IT Solutions on top of our Peer2Peer Cloud.
 
-The wiki is sectioned into three major sections to cater to each of these different actions in the TF Grid Ecosystem. If you're interested in learning about the Threefold Ecosystem, see the [Introduction](learn.md) section. To start deploying a network, head over to the [Getting Started](#getting_started.md) section of the Manual. If you're a developer who is interested in more advanced technical hand-outs on deployment, check out our [Advance Development](develop.md) section. It will guide you from scratch to deploying your first solution on the grid in a step by step procedure. Feel free to check all available solutions and easy deployment on [Threefold Grid Marketplace](marketplace.md) section.
+## Concepts
 
-If you're looking for an introduction to Threefold in general, please go to our main [Threefold Wiki](wiki.threefold.io) 
+- **Cloud** = the engine of the internet <BR>*all compute, storage & network capacity required for the internet to function.*
+- **Peer2Peer Cloud** = a cloud not owned by a few <BR>*A cloud created by all of us for everyone, usable by anyone.*
+- **ThreeFold Grid** = TFGrid = the biggest active Peer2Peer Cloud in the world.
+- **3Bot** = your virtual system administrator who helps you to develop, deploy and manage solutions on the ThreeFold Grid
+- **3Node** = the computer (server) which delivers the compute,storage and network capacity to the TFGrid
+- **ZOS** = Zero-OS the operating system which empowers the cloud and runs on top of the 3Node's.
+
+## Navigation
+
+- [__Introduction__: what is our peer2peer cloud](peer2peer_cloud_intro)
+  - [Grid Intro](grid_intro.md)
+  - [Farming Intro](farming_intro.md)
+- [Architecture](architecture.md)
+   - [3Node](architecture_3node.md)
+   - [Peer2Peer Storage](architecture_storage.md)
+   - [Overlay Network](architecture_network.md)
+   - [Web Gateway](architecture_webgateway.md)
+   - [Planetary Lan](tf_lan.md)
+   - [0-Container Virtual FS](architecture_flist.md)
+- [__Getting Started__](getting_started.md)
+- [__3Bot__ Your Virtual System Administrator](3bot.md)
+- [__Develop your own solutions__](develop.md)
 
 
+If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](wiki.threefold.io) 
 
-If you want to learn more about Grid 2.2 which is currently on testnet, please visit the [testnet manual](https://manual-testnet.threefold.io/)

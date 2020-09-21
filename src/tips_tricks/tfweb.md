@@ -46,7 +46,7 @@ https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
 ### remote include
 
 ```
-[remoteMarkdownUrl](https://raw.githubusercontent.com/threefoldfoundation/projects_website/master/README.md)
+[remoteMarkdownUrl](https://raw.githubusercontent.com/Threefoldfoundation/projects_website/master/README.md)
 ```
 
 the name in [] need to be like above, and use the raw representation of the content

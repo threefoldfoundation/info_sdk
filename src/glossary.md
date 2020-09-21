@@ -1,14 +1,14 @@
 - 3Bot
 - 3Node
-- TFGrid SDK
+- TF Grid SDK
 - ThreeFold Foundation
 - ThreeFold Tech
 - Zero-OS
 - ThreeFold Grid
 
 Other terms we use:
-- P2P (technical) or peer-to-peer (non-technical) 
+- peer-to-peer (technical) or peer-to-peer (non-technical) 
 - point-to-point
-- web gateway
+- Web Gateway
 
 
