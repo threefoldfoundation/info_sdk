@@ -1,8 +1,13 @@
-## Wiki Publisher
-
-Publisher is a web [publishing platform](https://github.com/Threefoldfoundation/publishingtools) than aims to host an online encyclopedia-like platform on a P2P network environment. With a wiki, everyone can be their own publisher on top of the ThreeFold Grid and build a censor-free knowledge base platform for topics they are passionated about.
+## Wiki
 
 ### How to Publish a Wiki
+
+There are a few things to know when you want to publish a wiki:
+- Title: Is the title shown up on your published content.
+- Repository URL: is a valid git repository URL where your content lives
+- Branch: is the deployment branch that exists on your git repository to be used as the version of your content to publish.
+
+Example of a Wiki repository: [https://github.com/threefoldfoundation/info_gridmanual](https://github.com/threefoldfoundation/info_gridmanual), please check [repository structure for more info](https://github.com/crystaluniverse/publishingtools/blob/development/docs/repo_layout.md)
 
 #### Choose a Name for Your New Wiki
 Choose a name for your new Wiki. This will allow you to later on view and access your Wiki information on your 3Bot dashboard'S deployed solutions lists.
@@ -24,7 +29,4 @@ Choose a name for your new Wiki. This will allow you to later on view and access
 ### Deployment Succeeded!
 ![](./img/wiki_9.png)
 
-### How to Access Your New Wiki
-![](./img/wiki_10.png)
-You can access your new wiki by typinh your wiki's 'domain name' onto your web browser.
 

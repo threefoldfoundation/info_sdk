@@ -1,10 +1,14 @@
-# Blog Publisher
+## Blog
 
-Publisher is an online decentralised publishing tool that could be used to host wikis, websites, and blogs on top of the ThreeFold Grid. By creating and hosting your own publishing platform, users will no longer need to depend on centralised, hosted online publishing tools like blogspot, or wordpress. On this section we will teach you how to build and host your own Blog by using the Blog Publisher.
+### How to Publish a Blog
 
-## Publish a Blog on Top if the ThreeFold Grid
+There are a few things you need to know when you want to publish a blog:
 
-### Name Your Blog Project
+- Title: Is the title shown on your published content.
+- Repository URL: is a valid git repository URL where your content lives.
+- Branch: is the deployment branch that exists on your git repository to be used as the version of your content to publish.
+
+Example of a Blog repository: [https://github.com/threefoldfoundation/www_tfblog](https://github.com/threefoldfoundation/www_tfblog)
 
 This name will be used to identify this blog on your 'deployed blogs list' on the 3Bot Admin Panel Dashboard. Keep in mind that this name would also be used as your blog's subdomain (a part of your blog's address).
 
