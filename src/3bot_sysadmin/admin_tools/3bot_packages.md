@@ -10,11 +10,11 @@ System Packages are the packages that were automatically being pre-installed whe
 
 ### Auth
 
-Takes care of all the authorization features that are used in the 3Bot. This includes logging in, adding identities, ..etc
+Takes care of all the authorization features that are used in the 3Bot. This includes logging in, adding identities, ...
 
 ### Chatflows
 
-Is a package that makes it possible to deploy solution in a user friendly manner. It asks you step by step information until it has a complete overview what it needs to deploy.
+Chatflows is a package that proposes a user-friendly way to deploy solutions. It asks you information, step by step until it has a complete overview of what it needs to deploy.
 
 ### Admin
 
@@ -22,7 +22,7 @@ The Admin package of the 3Bot makes it possible for a user to give access to oth
 
 ### Weblibs
 
-Makes it possible for assets (images, javascript, css) to be used across the 3Bot.
+Weblibs makes it possible for assets (images, javascript, css) to be used across the 3Bot.
 
 ### TF Grid solutions
 
@@ -36,7 +36,7 @@ For example:
 
 ### Backup
 
-Is a system package that takes care of backups for your 3Bot and it's data. 
+Backup is a system package that takes care of backups for your 3Bot and it's data. 
 
 ## Installed Packages
 
@@ -48,21 +48,21 @@ Available Packages are the available packages you can install for your 3Bot.
 
 ### Farm Management
 
-The Farm Management package helps your create and manage a TF Grid Farm.
+The Farm Management package helps you create and manage a TF Grid Farm.
 
 ### The Marketplace
 
-Is a package that will host the Marketplace on your 3Bot. The Marketplace consists of extra solutions that you can deploy within a few clicks!
+The Marketplace is a package that will host the Marketplace on your 3Bot. The Marketplace consists of extra solutions that you can deploy within a few clicks!
 
 More information about the [Marketplace](threefold_now.md).
 
 ### 3Bot deployer
 
-This package hosts the 3Bot deployer on your 3Bot! This may sound confusing but this can be really usefull if you want to give multiple people access to a private deployer url.
+This package hosts the 3Bot deployer on your 3Bot! This may sound confusing but this can be really useful if you want to give multiple people access to a private deployer url.
 
 ### Notebooks
 
-Notebooks package is a Jupyter notebook for you to do some scripting, datascience or other things.
+Notebooks package is a Jupyter notebook for you to do some scripting, data science or other things.
 
 ### Polls
 
