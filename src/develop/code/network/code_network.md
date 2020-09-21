@@ -1,6 +1,6 @@
 ## Create a private overlay network
 
-In this example we will create an overlay network over a number of nodes in the TF Grid. The nodes and locations could be researched on the explorer:
+In this example, we will create an overlay network over a number of nodes in the TF Grid. The nodes and locations could be researched on the explorer:
 
 - Mainnet: https://explorer.grid.tf
 - Testnet: https://explorer.testnet.grid.tf
@@ -11,11 +11,11 @@ Please check the [general requirements](code.md).
 
 #### 1. Load required libraries and create empty reservation structure.
 
-To be able to make a reservation we need to create a [capacity pool](code_pool.md).
+To be able to make a reservation, we need to create a [capacity pool](code_pool.md).
 
 #### 2. Select overlay network addressing scheme and select nodes.
 
-In this example we added all nodes from Salzburg, Vienna, Lochristi and Munich are into one list. You could shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the wireguard tunnel to terminate.
+In this example, we added all nodes from Salzburg, Vienna, Lochristi and Munich are into one list. You could shorten that list by selecting smaller sections of that list. For people that do not have IPv6 at home we need have at least one node on the network that has IPv4 access for the wireguard tunnel to terminate.
 
 
 ```bash
