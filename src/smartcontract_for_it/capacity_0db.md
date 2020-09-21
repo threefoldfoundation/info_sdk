@@ -37,7 +37,7 @@ pool = zos.pools.get(12)
 # find some node that have 10 GiB of SSD disks
 nodes = zos.nodes_finder.nodes_search(sru=10)
 
-# pick a node available in the sed pool
+# pick a node available in the chosen pool
 node_id = None
 for node in nodes:
      if node.node_id in pool.node_ids:
