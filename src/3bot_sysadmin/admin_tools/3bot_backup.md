@@ -1,7 +1,7 @@
 # 3Bot Backup
 
 
-The 3Bot backup is a service that backs up the data of your 3Bot, with this backup you can recover your 3Bot. 
+The 3Bot backup is a service that backs up the data of your 3Bot. This backup can help recover your 3Bot. 
 
 ## Get Started on Backup
 
@@ -68,12 +68,11 @@ Recovering a backup with MinIO requires some manual work. It backs up the config
 JS-NG> restic = j.tools.restic.minio_backup 
 JS-NG> restic.restore("/")
 ```
-- You can also restore to a specific snapshot using  `restore(target_path, snapshot_id=None)`.
+- You can also restore a specific snapshot using  `restore(target_path, snapshot_id=None)`.
 And to get all the snapshots:
 ```
 JS-NG> restic.list_snapshots()
 [{'time': '2020-09-15T21:33:46.03926206+02:00', 'tree': 'f30c8c50a623ff234cff9bf6d3fcdc1e724c216ec6b39e1bcdb', 'paths': ['/home/xmon/.config/jumpscale'], 'hostname': 'xmon-home', 'username': 'xmon', 'uid': 1000, 'gid': 1000, 'tags': ['first', '1600198426'], 'id': '803d3da00070faa727343f5f086e293569e8a8a87064824c30895c7842abe1e3', 'short_id': '803d3da0'}, {'time': '2020-09-15T21:36:07.942006235+02:00', 'parent': '803d3da00070faa727343f5f086e293569e8a8a87064824c30895c7842abe1e3', 'tree': 'fea100443018ce096f907c0f8fb7ab6cb35bb1fbd84283679b3d18de86dadd5d', 'paths': ['/home/xmon/.config/jumpscale'], 'hostname': 'xmon-home', 'username': 'xmon', 'uid': 1000, 'gid': 1000, 'tags': ['sec', '1600167'], 'id': '37023399988884c4e65407ffde8dab281d9d0376f1d73', 'short_id': '373399'}]
 ```
-
 
 
