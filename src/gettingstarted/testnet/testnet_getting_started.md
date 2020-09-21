@@ -18,7 +18,7 @@ Please be aware that this ID will be used as your main digital identity on the T
 
 ![](./img/hosted3bot.png)
 
-> Easy Set Up: [Get a __Testnet Hosted 3Bot__ using __3bot Deployer__](3bot_deployer.md)
+> Easy Set Up (recommended): [Get a __Testnet Hosted 3Bot__ using __3bot Deployer__](3bot_deployer.md) <BR>
 > Advanced Set Up: [Create a __Testnet Local 3Bot__ on your local machine](3bot_local_install.md)
 
 ## Launch and Log in to Your New Hosted 3Bot

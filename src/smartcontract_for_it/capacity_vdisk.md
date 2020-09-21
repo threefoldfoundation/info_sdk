@@ -10,12 +10,12 @@ This allows a user to create/update an existing container while keeping all the 
 
 ## Reservation definition
 
-Here is the schema used to define a 0-DB namespace reservation:
+Here is the schema used to define a volume reservation:
 
-* **NodeId**: the node ID on which to create the volume
-* **Size**: the size of the volume in GiB
-* **Type**: the type of disk to use. value could be `HDD` or `SSD`
-* **pool_id**: the capacity pool ID to use to provision the workload
+* **NodeId**: The node ID on which to create the volume.
+* **Size**: The size of the volume in GiB.
+* **Type**: The type of disk to use. value could be `HDD` or `SSD`.
+* **pool_id**: The capacity pool ID to use to provision the workload.
 
 ## Example using sdk
 

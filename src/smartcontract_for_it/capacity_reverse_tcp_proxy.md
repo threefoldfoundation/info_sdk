@@ -1,10 +1,10 @@
 # Reverse tunnel TCP proxy
 
-This primitives provided by the TFGateway allow a user to forward traffic from the public internet to a hidden service that has not public address at all.
+This primitives provided by the TFGateway allows a user to forward traffic from the public internet to a hidden service that has no public address at all.
 
 The way it works is on the hidden client side, a small client runs and opens a connection to the tcp router server. The client sends a secret during an handshake with the server to authenticate the connection.
 
-The server then keeps the connection opens and is able to forward incoming public traffic to the open connection. This is specially useful if there is no way for the tcp router server to open a connection to the backend. Usually because of NAT.
+The server then keeps the connection opens and is able to forward incoming public traffic to the open connection. This is especially useful if there is no way for the tcp router server to open a connection to the backend. Usually because of NAT.
 
 ![reverse_tunnel](./img/reverse_tunnel.png)
 
@@ -12,8 +12,8 @@ The server then keeps the connection opens and is able to forward incoming publi
 
 Here is the schema used to define a container reservation:
 
-- **domain**: The domain to forward traffic from
-- **pool_id**: the capacity pool ID to use to provision the workload
+- **domain**: The domain to forward traffic from.
+- **pool_id**: The capacity pool ID to use to provision the workload.
 - **secret**: The secret used by the TCP router client when initiating the connection to the Gateway. 
 
 The secret needs to have a specific format: `<threebot_id>:<random>`. 

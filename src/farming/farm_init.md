@@ -27,7 +27,7 @@ It will open up a form to create a new Farm:
 Let's go over each field an explain what they are:
 
 * **Farm name**: This is the name you want to give to your farm. The name can be changed at any time and is just there to make it easier for users to find your farm.
-* **Organization ID**: This field is only useful is you are migrating a farm from the TFGrid v1. If you are creating a new farm from scratch, you can ignore it.
+* **Organization ID**: This field is only useful is you are migrating a farm from the TF Grid v1. If you are creating a new farm from scratch, you can ignore it.
 * **Email address**: The email address that will be associated with the farm. This email address will be used for all communication to the farmer.
 * **Country**: This field is optional but usually you want users to know where the farm is located so they can select nodes that are closer to them.
 * **Wallet addresses**: This the address where rewards from farming and renting capacity will be received on. At the time of writing, there are 3 supported tokens: [TFT](https://wiki.threefold.io/#/terms_conditions_griduser?id=_5-use-of-threefold-tokens), [TFTA](https://wiki.threefold.io/#/terms_conditions_griduser?id=_5-use-of-threefold-tokens) and [FreeTFT](https://manual2.threefold.io/#/getting_started?id=claim-your-freetft). You can use any wallet to generate your addresses, you just need to make sure the right [trust line](https://www.stellar.org/developers/guides/concepts/assets.html) are created.

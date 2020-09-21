@@ -2,7 +2,7 @@
 
 - #TODO: put image in from wiki
 
-- see https://wiki.Threefold.io/#/grid_tech_intro
+- see https://wiki.threefold.io/#/grid_tech_intro
 
 
 

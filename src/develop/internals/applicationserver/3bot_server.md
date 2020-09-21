@@ -24,7 +24,7 @@ Content:
 It could be used to start a 3Bot server on standard ports (http and https).
 
 ```
-`threebot` start
+threebot start
 ```
 
 In case you need to start a local 3Bot, ny passing `--local` option will, it will search for free port on `80xx` range and starts 3Bot on this port.

@@ -11,7 +11,7 @@ These concerned have been addressed, documentation improved and 3sdk CLI tool si
 - customized views for solutions for easier management
 - step-by-step tutorials A new section has been created into the manual specially for this: [tutorials](getting_started_tutorials)
 
-The billing of the reservation has been updated. The amount of token required to make a reservation is now computed per hour. This allows to create very short living reservations. Detail of the new billing is documented in the [wiki](https://wiki.Threefold.io/#/capacity_pricing_start?id=Threefold-grid-capacity-pricing-promotion).
+The billing of the reservation has been updated. The amount of token required to make a reservation is now computed per hour. This allows to create very short living reservations. Detail of the new billing is documented in the [wiki](https://wiki.threefold.io/#/capacity_pricing_start?id=Threefold-grid-capacity-pricing-promotion).
 
 ## Component versions
 

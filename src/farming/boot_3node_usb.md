@@ -2,7 +2,7 @@
 
 ## Using a USB Boot Disk
 
-* [Creating a Zero-OS Bootable Image](bootable_image)
+* [Creating a Zero-OS Bootable Image](boot_image_create)
 
 ## Start 3Node with Bootable Image
 
