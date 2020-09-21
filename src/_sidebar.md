@@ -96,7 +96,7 @@
    - [Admin Panel](3bot_adminpanel_extend.md)
    - [Jumpscale](internals.md)
    - [ChatFlow](develop_chatflow.md)
-   - [Flist](Flist.md)
+   - [Flist](flist_intro.md)
 * [Community Channels](community.md)
 * [Collaboration](collab.md)
 * [Release Notes](releasenotes.md)

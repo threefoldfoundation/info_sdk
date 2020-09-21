@@ -79,6 +79,7 @@ for i, node in enumerate(nodes):
 
 # find a node that is public and has a ipv4 public IP
 node = list(filter(zos.nodes_finder.filter_public_ip4, nodes))[0]
+
 # create an 'external access' to the network for user laptop access using the public node as entrypoint
 # we store the result of this command cause this is the configuration the user has to use to connect to
 # the network from his laptop

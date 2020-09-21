@@ -66,6 +66,7 @@ worker = zos.kubernetes.add_worker(
 master_id = zos.workloads.deploy(master)
 worker_id = zos.workloads.deploy(worker)
 
+
 time.sleep(120)
 # inspect the result of the reservation provisioning
 master = zos.workloads.get(master_id)

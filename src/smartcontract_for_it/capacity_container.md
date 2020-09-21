@@ -134,6 +134,7 @@ You can read them via redis using `SUBSCRIBE container-stats` for example.
 ``` python
 zos = j.sals.zos
 
+
 # add container reservation into the reservation
 container = zos.container.create(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T', # one of the node_id s that is part of the network
      network_name='<network_name>', # this assumes that this network is already provisioned on the node
