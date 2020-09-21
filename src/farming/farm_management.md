@@ -2,18 +2,19 @@
 
 # ThreeFold Farm Management & Setup
 
+To create a Farm and manage it, you need a 3Bot. If you don't have one yet, head to the [Get a 3Bot section](3bot.md) of this manual before continuing.
+
 In this section, we will help you get started with your farm:
 
-* [pre-requisites for farming setup](farming_setup_requirements)
-* [Configuring a Farm](farm_init)
-* [Prepare a 3Node](3node_prepare) = requirements
-* [Booting a 3Node Over USB](boot_3node_usb)
-* [Managing Your Farm & Nodes](3bot_farm_mgmt.md)
-* [Manage your farm wallet](configure_wallet.md)
+* [Configuring a Farm](farm_init).
+* [Prepare a 3Node](3node_prepare).
+* [Booting a 3Node Over USB](boot_3node_usb).
+* [Managing your Farm & Nodes](3bot_farm_mgmt.md).
+* [Managing your Farm wallet](configure_wallet.md).
 
 If you have any questions, please feel free to reach us on the [Farming Section on the Forum](https://forum.Threefold.io/c/Threefold-grid-support/farmer-discussion).
 
 ### Experts
 
-* [Migrate a farm to an hosted 3bot](farm_migration.md)
+* [Migrate a farm to a hosted 3bot](farm_migration.md).
 
