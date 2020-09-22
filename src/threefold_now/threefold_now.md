@@ -8,7 +8,7 @@ Its main goal is to enable a simplified solution-deployment on top of the TF Gri
 
 On its alpha version on Testnet, there are already open-source solutions deployed on top of the TF Grid, covering various fields from a peer-to-peer video platform, online publisher and many more to come. 
 
-For an overview of the apps which will come see https://now.threefold.io/#/. 
+For an overview of the apps which will come see https://now.threefold.io/. 
 
 ### Some examples:
 
