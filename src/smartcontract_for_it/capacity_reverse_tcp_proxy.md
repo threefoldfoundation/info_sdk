@@ -37,5 +37,5 @@ id = zos.workloads.deploy(workload)
 
 To use this primitive you need to make sure that the container you run have the [TCP Router client](https://github.com/Threefoldtech/tcprouter/tree/master/cmds/client) available.
 
-There is an Flist with the TCP router client included ready to use at https://hub.grid.tf/tf-official-apps/tcprouter:latest.Flist.md
+There is an Flist with the TCP router client included ready to use at https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist.md
 You could merge this Flist into yours to have a complete solution.
