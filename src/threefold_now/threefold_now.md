@@ -29,6 +29,6 @@ For an overview of the apps which will come see http://info-now.threefold.io/ .
 
 To get you started on Threefold NOW, please go to [Threefold NOW Tutorials](tfnow_tutorials.md) and learn how you could build some of your first solutions on top of the TF Grid.
 
-> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legals.md) for more.
+> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
 
 ![](./img/3botdemo_home.png)
