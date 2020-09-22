@@ -7,7 +7,7 @@ On this tutorial we will guide you on how to access the ThreeFold Now Demo  Plat
 
 ![](./img/login_authenticate.png)
 
-Go to [ThreeFold Now Demo](https://demo.testnet.grid.tf/) and click on __'Sign in with 3Bot Connect'__ and follow further instruction below.
+Go to [ThreeFold Now Demo](https://marketplace.threefold.me/) and click on __'Sign in with 3Bot Connect'__ and follow further instruction below.
 
 
 ## Sign in using your 3Bot ID (Username)
