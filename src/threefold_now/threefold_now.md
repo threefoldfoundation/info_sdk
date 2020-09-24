@@ -2,6 +2,7 @@
 
 [The ThreeFold NOW Demo](https://marketplace.threefold.me/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 
+
 Its main goal is to enable a simplified solution-deployment on top of the TF Grid without the necessity of technical system administration knowledge. 
 
 <!-- > See [__Getting Started Manual__](threefold_now_getting_started.md). -->
@@ -27,6 +28,6 @@ For an overview of the apps which will come see https://now.threefold.io/.
 
 To get you started on Threefold NOW, please go to [Threefold NOW Tutorials](tfnow_tutorials.md) and learn how you could build some of your first solutions on top of the TF Grid.
 
-> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legals.md) for more.
+> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
 
 ![](./img/3botdemo_home.png)
