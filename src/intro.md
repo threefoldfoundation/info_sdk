@@ -30,5 +30,5 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 - [__Develop your own solutions__](develop.md)
 
 
-If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](wiki.threefold.io) 
+If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](https://wiki.threefold.io) 
 
