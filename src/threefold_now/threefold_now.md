@@ -1,6 +1,6 @@
 # Introducing: ThreeFold NOW (Demo)
 
-[The ThreeFold NOW Demo (https://marketplace.threefold.me/)](https://marketplace.threefold.me/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of ThreeFold Grid.
+[The ThreeFold NOW Demo](https://marketplace.threefold.me/) is a marketplace for (in demo mode) open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 
 Its main goal is to enable a simplified solution-deployment on top of the TF Grid without the necessity of technical system administration knowledge. 
 
