@@ -126,8 +126,36 @@ To set your remote endpoint, you can specify in the reservation:
  ...
 ```
 
+
+### Endpoint
+
 Fields `endpoint` wants uri like: `redis://host:port/channel`
 You can read them via redis using `SUBSCRIBE container-stats` for example.
+
+Since this uses `PUB/SUB` method, redis doesn't keep any logs, if there is no
+subscribers attached, when statistics are pushed, they are discarded.
+
+You need to get a subscribers attached to fetch statistics.
+
+### Values
+
+- `timestamp`: unix timestamp when stats were generated
+- `memory_usage`: effective memory usage in in bytes
+- `memory_limit`: maximum memory you can use, in bytes
+- `memory_cache`: cache usage (like when using `free` command) in bytes
+- `cpu_usage`: cpu time elapsed, in 10 microseconds
+- `pids_current`: amount of pids running
+
+Note: timestamp is in second (for now), which will be updated later to increase precision.
+
+In order to compute CPU usage in percentage, you need to substrace two statistics points and
+divide difference by `10000000`:
+```
+(usage - prev.usage) / ((timestamp - prev.timestamp) / 10000000)
+```
+
+There is a helper on the `sal` where you can get statistics just by providing a reservation url.
+**TODO**
 
 ## Example using sdk
 
