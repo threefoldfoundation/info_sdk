@@ -154,8 +154,28 @@ divide difference by `10000000`:
 (usage - prev.usage) / ((timestamp - prev.timestamp) / 10000000)
 ```
 
-There is a helper on the `sal` where you can get statistics just by providing a reservation url.
-**TODO**
+### SDK
+
+There is a helper on the `sal` where you can get container statistics.
+
+Via container object:
+```python
+# create your container
+container = zos.container.create(...)
+
+# attach your stats
+zos.container.add_stats(container, "redis://remote:6379/stats")
+
+# ... deploy your container ...
+
+# monitor statistics
+zos.container.monitor(container)
+```
+
+You can also monitor from an existing reservation:
+```
+zos.container.monitor_reservation('https://explorer/api/v1/reservations/workloads/103')
+```
 
 ## Example using sdk
 
