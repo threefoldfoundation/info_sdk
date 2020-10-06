@@ -4,7 +4,8 @@
 
 ### Choose 'Create' to Create a New Capacity Pool
 
-![](./img/3bot_capacity_new_create.png)
+<img src="./img/3bot_capacity_new_create.png" alt="3bot_capacity_new_create"
+  title="3bot_capacity_new_create" width="703" height="494" />
 
 Select __'Create'__ if you have not created any capacity pool before, or if you would like to create a new separate pool from your already existing one. Select __'Extend'__ if you would like to reserve more capacity on one of the pools you have created.
 
