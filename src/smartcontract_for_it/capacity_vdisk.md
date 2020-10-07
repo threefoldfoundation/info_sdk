@@ -20,7 +20,7 @@ Here is the schema used to define a volume reservation:
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # find some nodes that have 10 GiB of SSD disks
 nodes = zos.nodes_finder.nodes_search(sru=10)

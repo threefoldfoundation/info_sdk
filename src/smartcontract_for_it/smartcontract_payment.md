@@ -60,10 +60,10 @@ Example of setting a trustline to `Production TFT`
 
 ```python
 # valid types for network: STD and TEST, by default it is set to STD
-JSX> wallet = j.clients.stellar.new('my_wallet', network='STD', secret='S.....')
+JS-NG> wallet = j.clients.stellar.new('my_wallet', network='STD', secret='S.....')
 # available as `j.clients.stellar.my_wallet` from now on
 
-JSX> wallet.add_trustline('TFT','GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47')
+JS-NG> wallet.add_trustline('TFT','GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47')
 ```
 
 After setting the trustline you could receive `TFT` from issuer `GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47`. 
@@ -76,21 +76,21 @@ We will use the ZosV2 sal in Jumpscale to create and pay for a reservation.
 Example: 
 
 ```python
-JSX> wallet = j.clients.stellar.get(name="my_wallet", network="STD")
+JS-NG> wallet = j.clients.stellar.get(name="my_wallet", network="STD")
 
-JSX> import time
-JSX> zos = j.sals.zos
+JS-NG> import time
+JS-NG> zos = j.sals.zos.get()
 # create a reservation
-JSX> r = zos.reservation_create()
+JS-NG> r = zos.reservation_create()
 
-JSX> zos.volume.create(r, "72CP8QPhMSpF7MbSvNR1TYZFbTnbRiuyvq5xwcoRNAib", size=1, type='SSD')
-JSX> expiration = j.data.time.epoch + (3600 * 24 * 365)
+JS-NG> zos.volume.create(r, "72CP8QPhMSpF7MbSvNR1TYZFbTnbRiuyvq5xwcoRNAib", size=1, type='SSD')
+JS-NG> expiration = j.data.time.epoch + (3600 * 24 * 365)
 # deploy the workload
-JSX> registered_reservation = zos.reservation_register(r, expiration)
-JSX> time.sleep(5)
+JS-NG> registered_reservation = zos.reservation_register(r, expiration)
+JS-NG> time.sleep(5)
 # inspect the result of the reservation provisioning
-JSX> result = zos.reservation_result(registered_reservation.reservation_id)
-JSX> print(result)
+JS-NG> result = zos.reservation_result(registered_reservation.reservation_id)
+JS-NG> print(result)
 # payout farmer
-JSX> zos.billing.payout_farmers(wallet, registered_reservation)
+JS-NG> zos.billing.payout_farmers(wallet, registered_reservation)
 ```

@@ -9,7 +9,7 @@ Here is an example code snippet on how to create a capacity pool and the payment
 
 ```python
 # Get a reference to the 0-OS SAL
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # Create a capacity pool with 50 compute units and 50 storage units on the farm called "farm_name".
 # Currencies contains a list of currency you are willing to use to pay for the capacity.
@@ -38,7 +38,7 @@ A capacity pool (in our example with id 62) could also be extended with new capa
 
 ```bash
 # Get a reference to the 0-OS SAL
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # Extend a capacity pool with 50 compute units and 50 storage units on the farm called "farm_name".
 # Currencies contains a list of currency you are willing to use to pay for the capacity.

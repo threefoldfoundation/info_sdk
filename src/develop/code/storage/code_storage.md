@@ -50,7 +50,7 @@ First let's deploy low-level storage capacity manager (Zero-DB, more info [here]
 
 ```python
 # load the zero-os sal
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # Node: 5 ID: 9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx IPv4 address: 172.20.15.0/24
 minio_node_id = '9kcLeTuseybGHGWw2YXvdu4kk2jZzyZCaCHV9t6Axqqx'
@@ -155,8 +155,8 @@ Here we choose to deploy scenario 2 with 4 data disks and 2 parity disks.
 
 # Encrypt minio secret to pass as a secret env variable.
 secret = 'PASSWORD'
-minio_secret_encrypted = j.sals.zos.container.encrypt_secret(minio_node_id, secret)
-shards_encrypted = j.sals.zos.container.encrypt_secret(minio_node_id, ",".join(namespace_config))
+minio_secret_encrypted = j.sals.zos.get().container.encrypt_secret(minio_node_id, secret)
+shards_encrypted = j.sals.zos.get().container.encrypt_secret(minio_node_id, ",".join(namespace_config))
 secret_env = {"SHARDS": shards_encrypted, "SECRET_KEY": minio_secret_encrypted}
 
 # Make sure to adjust the node_id and network name to the appropriate in copy / paste mode :-)

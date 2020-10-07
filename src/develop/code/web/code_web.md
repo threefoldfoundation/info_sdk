@@ -35,10 +35,10 @@ When you decide to expose your workload using a `TF Gateway`, there are differen
 
 ```python
 # fetch all gateways
-gateway_ids = {g.node_id: g for g in j.sals.zos.gateways_finder.gateways_search() if j.sals.zos.nodes_finder.filter_is_up(g)}
+gateway_ids = {g.node_id: g for g in j.sals.zos.get().gateways_finder.gateways_search() if j.sals.zos.get().nodes_finder.filter_is_up(g)}
 
 # fetch your pool
-pool = j.sals.zos.pools.get(1)
+pool = j.sals.zos.get().pools.get(1)
 
 # select a gateway available in your pool
 gateway = None
@@ -63,8 +63,8 @@ print(gateway_ids['6RZfnjuXVLFdtZh218hn4BLzsoKkTVpweqWECk5YUKud'].location)
 ```python
 # delegate your domain
 DOMAIN = "waleed.grid.tf"
-domain_delegate = j.sals.zos.gateway.delegate_domain(gateway.node_id, DOMAIN, pool.pool_id)
-wid = j.sals.zos.workloads.deploy(domain_delegate)
+domain_delegate = j.sals.zos.get().gateway.delegate_domain(gateway.node_id, DOMAIN, pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(domain_delegate)
 ```
 
 Go to your dns manager and create an `ns` record pointing to the gateway name `gateway.dns_nameserver[0]` then you could create subdomains of that domain and the gateway will create A records for it.
@@ -77,8 +77,8 @@ SUBDOMAIN = "srv1.waleed.grid.tf"
 gateway_ips = []
 for ns in gateway.dns_nameserver:
   gateway_ips.append(j.sals.nettools.get_host_by_name(ns))
-subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, SUBDOMAIN, gateway_ips, pool.pool_id)
-wid = j.sals.zos.workloads.deploy(subdomain)
+subdomain = j.sals.zos.get().gateway.sub_domain(gateway.node_id, SUBDOMAIN, gateway_ips, pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(subdomain)
 ```
 
 now you could actually see that your subdomain is resolvable.
@@ -93,8 +93,8 @@ import uuid
 SECRET = f"{j.core.identity.me.tid}:{uuid.uuid4().hex}"
 
 # create your tcp reverse proxy
-reverse_proxy = j.sals.zos.gateway.tcp_proxy_reverse(gateway.node_id, SUBDOMAIN, SECRET, pool.pool_id)
-wid = j.sals.zos.workloads.deploy(reverse_proxy)
+reverse_proxy = j.sals.zos.get().gateway.tcp_proxy_reverse(gateway.node_id, SUBDOMAIN, SECRET, pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(reverse_proxy)
 ```
 
 #### create trc container to expose an already running workload
@@ -116,8 +116,8 @@ NODE_ID = "72CP8QPhMSpF7MbSvNR1TYZFbTnbRiuyvq5xwcoRNAib"
 NETWORK = "demo_net"
 FLIST_URL = "https://hub.grid.tf/tf-official-apps/tcprouter:latest.flist"
 CONTAINER_IP_ADDRESS = "10.212.2.10"
-secret_env = {"TRC_SECRET": j.sals.zos.container.encrypt_secret(NODE_ID, SECRET)}
-container = j.sals.zos.container.create(
+secret_env = {"TRC_SECRET": j.sals.zos.get().container.encrypt_secret(NODE_ID, SECRET)}
+container = j.sals.zos.get().container.create(
  node_id=NODE_ID,
  network_name=NETWORK,
  ip_address=CONTAINER_IP_ADDRESS,
@@ -126,7 +126,7 @@ container = j.sals.zos.container.create(
  entrypoint=entrypoint,
  secret_env=secret_env,
 )
-wid = j.sals.zos.workloads.deploy(container)
+wid = j.sals.zos.get().workloads.deploy(container)
 ```
 
 now you could access your server using the gateway
@@ -142,8 +142,8 @@ gateway.managed_domains # list of the managed domains
 domain = gateway.managed_domains[0] # the gateway I'm using is "tfgw-testnet-01.gateway.tf"
 
 # create a subdomain of a managed domain
-subdomain = j.sals.zos.gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gateway_ips, pool.pool_id)
-wid = j.sals.zos.workloads.deploy(subdomain)
+subdomain = j.sals.zos.get().gateway.sub_domain(gateway.node_id, f"srv3.{domain}", gateway_ips, pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(subdomain)
 ```
 
 Now you can use that subdomain in your tcp reverse proxy as above.
@@ -159,8 +159,8 @@ SECRET = f"{j.core.identity.me.tid}:{uuid.uuid4().hex}"
 DOMAIN = "refit.earth"
 
 # create your tcp reverse proxy
-reverse_proxy = j.sals.zos.gateway.tcp_proxy_reverse(gateway.node_id, DOMAIN, SECRET, pool.pool_id)
-wid = j.sals.zos.workloads.deploy(reverse_proxy)
+reverse_proxy = j.sals.zos.get().gateway.tcp_proxy_reverse(gateway.node_id, DOMAIN, SECRET, pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(reverse_proxy)
 ```
 
 Then create an `A` record pointing to the gateway IP address.
@@ -189,11 +189,11 @@ This workload gives you a connection to IPv6 networks using a wireguard tunnel.
 private_key, public_key = j.tools.wireguard.generate_key_pair()
 
 # create gateway4to6 workload
-gateway4to6 = j.sals.zos.gateway.gateway_4to6(gateway.node_id, public_key.decode(), pool.pool_id)
-wid = j.sals.zos.workloads.deploy(gateway4to6)
+gateway4to6 = j.sals.zos.get().gateway.gateway_4to6(gateway.node_id, public_key.decode(), pool.pool_id)
+wid = j.sals.zos.get().workloads.deploy(gateway4to6)
 
 # get result to build your wireguard config
-result = j.sals.zos.workloads.get(wid).info.result
+result = j.sals.zos.get().workloads.get(wid).info.result
 
 
 cfg = j.data.serializers.json.loads(result.data_json)
