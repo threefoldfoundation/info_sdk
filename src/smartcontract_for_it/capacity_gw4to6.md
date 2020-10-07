@@ -13,7 +13,7 @@ The idea behind this primitive is to try to allow everyone to access the grid, w
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 workload = zos.gateway.gateway_4to6(gateway_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
        public_key="Zzfi3yTPtHMPF0JtjQ3wKpmeEch7G86X1NC5Qwvx0Sc=",

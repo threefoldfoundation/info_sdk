@@ -33,7 +33,7 @@ Schema used to define a kubernetes reservation:
 ## Example
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # define the kubernetes cluster
 master_node = '2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T'
