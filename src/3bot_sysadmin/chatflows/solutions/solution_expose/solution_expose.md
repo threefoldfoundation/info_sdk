@@ -30,15 +30,15 @@ In case you selected `NGINX`, you will specify one port on which your solution l
 
 ![Choose port nginx](./img/solution_expose_nginx_upstream_port.png)
 
-4. Next you can choose on which domain you would like to expose your solution. This can be a subdomain of either one of your own delegated domains or a subdomain of a gateway provider. It is also possible to enter a custom domain which will required you to make a `cname` dns record towards the nameserver of the gateway.
+5. Next you can choose on which domain you would like to expose your solution. This can be a subdomain of either one of your own delegated domains or a subdomain of a gateway provider. It is also possible to enter a custom domain which will required you to make a `cname` dns record towards the nameserver of the gateway.
 
 ![Choose domain](./img/solution_expose_choose_domain.png)
 
-5. Choose subdomain or custom domain
+6. Choose subdomain or custom domain
 Note: currently only direct subdomains are supported no nested domains
 
 ![Choose subdomain](./img/solution_expose_choose_subdomain.png)
 
-6. Solution expose result
+7. Solution expose result
 
 ![Result](./img/solution_expose_result.png)
