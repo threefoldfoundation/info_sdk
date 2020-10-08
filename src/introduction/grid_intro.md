@@ -18,7 +18,7 @@ The TF Grid is a peer-to-peer and autonomous Internet grid that provides game-ch
 
 The TF Grid is:
 
-- **Peer-to-Peer**: no intermediaries anymore. On the ThreeFold Grid consumers go directly to the source. So for example if two friends call each other on a secure peer-to-peer application that lives on the TF Grid, only them will have data about the call, no one else, not even us!
+- **Peer2Peer**: no intermediaries anymore. On the ThreeFold Grid consumers go directly to the source. So for example if two friends call each other on a secure peer-to-peer application that lives on the TF Grid, only them will have data about the call, no one else, not even us!
 - **Decentralized**: The TF Grid's capacity is distributed across 20+ countries at launch. TF's decentralized. architecture brings many benefits such as security, cost efficiency, sustainability and much more. The expansion and reach to regions that need internet capacity the most will be incentivized and/pr sponsored by the Foundation.
 - **Autonomous**: Making use of self-sustainable and self-healing, the TF Grid is extremely resilient and enables data to be available even in the unlikely case a node on which data is stored goes down. First of tis kind, the TF Grid autnomous technology removes all the layers of complexity present in the current internet.
 - **Private & secure**: By removing the need for human intervention, it eliminates many backdoors present in current architecture. Combined with the peer-to-peer and autonomous approach, users benefit from an incredibly private digital life. 
@@ -26,7 +26,7 @@ The TF Grid is:
 - **Equal**: Internet access should be available to everyone. The TF Grid solutions position themselves as the most affordable on the market. The expansion of the TF Grid to remote regions of our world will be incentivized and/or sponsored by the Foundation.
 - **Sustainable**: The TF Grid is up-to 90% more sustainable than centralized alternatives on the market.
 
-## The ThreeFold grid is active
+## The ThreeFold Grid is active
 
 TF Grid today has:
 
