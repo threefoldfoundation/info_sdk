@@ -132,23 +132,23 @@ To set your remote endpoint, you can specify in the reservation:
 Fields `endpoint` wants uri like: `redis://host:port/channel`
 You can read them via redis using `SUBSCRIBE container-stats` for example.
 
-Since this uses `PUB/SUB` method, redis doesn't keep any logs, if there is no
-subscribers attached, when statistics are pushed, they are discarded.
+Since this uses `PUB/SUB` method, redis doesn't keep any logs. If there are no
+subscribers attached when statistics are pushed, they are discarded.
 
-You need to get a subscribers attached to fetch statistics.
+You need to get a subscriber attached to fetch statistics.
 
 ### Values
 
-- `timestamp`: unix timestamp when stats were generated
-- `memory_usage`: effective memory usage in in bytes
-- `memory_limit`: maximum memory you can use, in bytes
-- `memory_cache`: cache usage (like when using `free` command) in bytes
-- `cpu_usage`: cpu time elapsed, in 10 microseconds
-- `pids_current`: amount of pids running
+- `timestamp`: Unix timestamp when stats were generated.
+- `memory_usage`: Effective memory usage in in bytes.
+- `memory_limit`: Maximum memory you can use, in bytes.
+- `memory_cache`: Cache usage (like when using `free` command) in bytes.
+- `cpu_usage`: CPU time elapsed, in 10 microseconds.
+- `pids_current`: Amount of pids running.
 
 Note: timestamp is in second (for now), which will be updated later to increase precision.
 
-In order to compute CPU usage in percentage, you need to substrace two statistics points and
+In order to compute CPU usage in percentage, you need to substract two statistics points and
 divide difference by `10000000`:
 ```
 (usage - prev.usage) / ((timestamp - prev.timestamp) / 10000000)
@@ -160,6 +160,8 @@ There is a helper on the `sal` where you can get container statistics.
 
 Via container object:
 ```python
+zos = j.sals.zos
+
 # create your container
 container = zos.container.create(...)
 
