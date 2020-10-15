@@ -14,6 +14,8 @@ Please check a full installation tutorial [here](minio.md)
 ## Master/Slave setup
 ![Minio Master/Slave](./img/minio_master_slave.png)
 
+This is a `primart/readonly` setup where metadata is replicated to a slave (readonly) node where users can use to read/download objects. Upload is only possible via the primary node.
+
 # Data flow
 We have a modified version of minio so it could work against our zdb instances. It has been modified to use [0-stor](https://github.com/Threefoldtech/0-stor). `0-stor` could do `replication or distribution` out of the box. Hence files uploaded to this version of minio are split into separate smaller chunks, and distributed across separate instances of `0-DB`. The distribution is done according to the configuration (discussed later).
 
