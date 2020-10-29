@@ -52,7 +52,7 @@ The main focus is on improving the accuracy of the information reported by the n
 - [Gedis live reloading](https://github.com/threefoldtech/js-ng/pull/484)
 
 
-### [JS-SDK v11.0-a1](https://github.com/threefoldtech/js-sdk/releases/tag/untagged-14056cea521a03496a1f)
+### [JS-SDK v11.0-b11](https://github.com/threefoldtech/js-sdk/releases/tag/untagged-14056cea521a03496a1f)
 
 - [Added notification system](https://github.com/threefoldtech/js-sdk/issues/1335)
 - [Support different acmeservers other than letsencrypt](https://github.com/threefoldtech/js-sdk/pull/1362)
