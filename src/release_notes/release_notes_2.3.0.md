@@ -2,9 +2,8 @@
 
 ## High Level Brief Summary
 
-This release introduces an improvement in stability, secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Grid. We minimized the options into TFT to avoid complication. TFTA can be converted to TFT easily. With this release we also introduced solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions.
+This release introduces an improvement in stability, secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Grid. We minimized the options into TFT to avoid complication. TFTA can be converted to TFT easily. With this release we also introduced demo solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions, wih a new improved user interface providing category for each solutions.
 
-For a complete detail and rational about this new feature, head to the ​​​​​​​release document on github (link)
 
 ## Highlights
 
