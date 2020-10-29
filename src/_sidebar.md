@@ -100,6 +100,7 @@
 * [Community Channels](community.md)
 * [Collaboration](collab.md)
 * [Release Notes](releasenotes.md)
+ - [2.3.0](release_notes_2.3.0.md)
  - [2.2.0](release_notes_2.2.0.md)
 * [Legals](legal.md)
  - [Disclaimer](disclaimer.md)
