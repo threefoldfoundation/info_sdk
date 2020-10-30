@@ -4,7 +4,7 @@
 
 ## Current Version
 
-- [2.3.0](release_notes_2.3.0.md) 
+- [2.3.0 Testnet](release_notes_2.3.0_testnet.md) 
 
 ## Version History
 
