@@ -1,10 +1,10 @@
-# TF Grid 2.3.0 Release Note
+# TF Grid Testnet 2.3.0 Release Note
 
 ## High Level Brief Summary
 
-This release introduces an improvement in stability, secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Gridt. TFTA can be converted to TFT easily.
+This release introduces addition of testnet resource capacity and improvements in stability, including but not limited to: adding secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Grid. We minimized the options into TFT to avoid payment complication. TFTA can be converted to TFT easily by following this [TFTA - TFT guidance](https://wiki.threefold.io/#/tfta_to_tft). 
 
-With this release we also introduced demo solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions, with a new improved user interface providing categories for the solutions.
+With this release we also introduced demo solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions, with a new improved user interface providing solution categories for a better navigation experience.
 
 ## Highlights
 
@@ -12,7 +12,7 @@ Some other new features also introduced in this version:
 
 ### TF NOW Marketplace
 
-- UI improvements
+- UI improvement: new solution categorization for better navigational experience.
 - Video Chat solution is now available for deployment
 
 ### 3Bot
@@ -27,16 +27,18 @@ Some other new features also introduced in this version:
 
 ### 3Bot Deployer
 
-- deployment speed-up
+- Increase in Deployment speed
 - Improved deployment flow
-- Possibility to choose the 3bot deployment location (auto, by farm, by node)
+- Possibility to choose the 3Bot deployment location (auto, by farm, by node)
 
 ### [Zero-OS V0.4.5](https://github.com/threefoldtech/zos/releases/tag/v0.4.5-rc2)
 
 - Better resource management:
 The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing of unused resources
 
-### [JS-NG v11.0-b7](github.com/threefoldtech/js-ng/releases/tag/v11.0-b7)
+### [JS-NG v11.0-b7](github.com/threefoldtech/js-ng/releases/tag/v11.0-b7)|
+
+- Technical improvement: Fix string representation of base classes.
 
 ### [JS-SDK v11.0-b11](https://github.com/threefoldtech/js-sdk/releases/tag/untagged-14056cea521a03496a1f)
 
@@ -45,6 +47,9 @@ The main focus is on improving the accuracy of the information reported by the n
 - Support for test certificates
 
 ### [TF Explorer V0.4.1](github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
+
+ - Security improvement: added an authentication process for request creation
+ - Only allowing workload deletion if it is out of resource.
 
 ### [3Bot Connect V2.0](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
