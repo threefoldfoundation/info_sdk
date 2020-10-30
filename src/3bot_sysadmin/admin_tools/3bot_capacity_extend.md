@@ -7,11 +7,13 @@
 ![](./img/3bot_capacity_extend_overview.png)
 
 Select __'Extend'__ if you would like to reserve more capacity on one of the pools you have created.
-![](./img/3bot_capacity_extend_select.png)
+<img src="./img/3bot_capacity_extend_select.png" alt="3bot_capacity_extend_select"
+  title="3bot_capacity_extend_select" width="591" height="494" />
 
 ### Select the capacity pool you want to extend
 
-![](./img/3bot_capacity_extend_select_pool.png)
+<img src="./img/3bot_capacity_extend_select_pool.png" alt="3bot_capacity_extend_select_pool"
+  title="3bot_capacity_extend_select_pool" width="568" height="494" />
 
 The next steps are identical to the creation of a new pool. 
 
@@ -34,7 +36,8 @@ Remark: The values to be introduced are about the extended volumes, not the resu
 
 After payment, your extended capacity pool is prepared for usage. 
 
-![](./img/3bot_capacity_extend_success.png)
+<img src="./img/3bot_capacity_extend_success.png" alt="3bot_capacity_extend_success"
+  title="3bot_capacity_extend_success" width="695" height="494" />
 
 ### Find back your updated capacity pool in the capacity pool overview
 

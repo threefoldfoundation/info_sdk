@@ -61,7 +61,7 @@ The network creation tool provided by the SDK tries to create a full mesh networ
 The API provided by the SDK abstracts all the complex logic required to create such a mesh. The only thing you need to care of is the subnet of the network and which node to add into your network. 
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # create a network object with name <network_name>
 # the 16-bit block subnet chosen here is 172.24.0.0/16

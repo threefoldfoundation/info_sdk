@@ -80,7 +80,7 @@ Now repeat the same procedure as creating a mainnet wallet account by setting up
 
 You will be automatically redirected to your new wallet homepage. Congratulations, now you have officially set up a testnet Solar wallet!
 
-## Add FreeFTT to your Testnet Solar Wallet
+## Add Testnet FTT to your Testnet Solar Wallet
 
 ### Get some Testnet Lumens
 
@@ -88,11 +88,11 @@ You will be automatically redirected to your new wallet homepage. Congratulation
 
 By default, your could only set up another token asset (in this case, FreeTFT) in your testnet wallet once you have addes some testnet lumens (XLM) in your wallet. Simply click on __'Ask the Friendbot'__ to get some free Testnet Lumens.
 
-### Set up a New Asset (FreeTFT)
+### Set up a New Asset (TFT)
 
 ![](./img/solar/14_solar_assets.png)
 
-Once your testnet lumens fund is successfully added, click on the __'menu' button__ on the top left corner of your wallet homepage and click on __'Assets & Balance'__ to add FreeTFT as our new asset.
+Once your testnet lumens fund is successfully added, click on the __'menu' button__ on the top left corner of your wallet homepage and click on __'Assets & Balance'__ to add TFT as our new asset.
 
 ![](./img/solar/15_solar_add.png)
 
@@ -100,11 +100,11 @@ On the asset list page, click __'add asset to your account'__ button
 
 ![](./img/solar/16_solar_addtft.png)
 
-Find FreeTFT and click on __'add custom asset'__
+Find TFT and click on __'add custom asset'__
 
 ![](./img/solar/17_solar_freetft.png)
 
-Here you will find FreeTFT asset information. Set the asset up by clicking on __'add asset to your account'__ button.
+Here you will find TFT asset information. Set the asset up by clicking on __'add asset to your account'__ button.
 
 ![](./img/solar/18_confirmtft.png)
 
@@ -112,28 +112,28 @@ Confirm the FreeTFT addition by clicking on __'confirm'__ button.
 
 ![](./img/solar/19_solar_home.png)
 
-Congratulations! Now you have successfully add Freetft as an asset on your testnet Solar wallet. Now let's add some funds, go and __claim your FreeTFT!__ by clicking __'RECEIVE'__ on your wallet homepage.
+Congratulations! Now you have successfully add Freetft as an asset on your testnet Solar wallet. Now let's add some funds, go and __claim your TFT!__ by clicking __'RECEIVE'__ on your wallet homepage.
 
 ### Claim your FreeTFT
 
 ![](./img/solar/22_receive_address.png)
 
-You will now be automatically redirected to your wallet address key. __Copy this address__ as your receiving address for your FreeTFT Claim.
+You will now be automatically redirected to your wallet address key. __Copy this address__ as your receiving address for your TFT Claim.
 
 ### Claim FreeTFT via ThreeFold 
 
-Now go back to your web browser and click on [getfreetft.testnet.Threefold.io](https://getfreetft.testnet.Threefold.io/#/) to claim your FreeTFT.
+Now go to your web browser and go to [gettft.testnet.grid.tf](https://getfreetft.testnet.Threefold.io/#/) to claim your FreeTFT.
 
 ![](./img/solar/receive_login.png)
 
-__Connect your 3Bot ID__ via 3Bot Connect App to login to the FreeTFT Claim Page.
+__Connect your 3Bot ID__ via 3Bot Connect App to login to the TFT Claim Page.
 
 ![](./img/solar/24_receive_done.png)
 
-Insert your paste your Solar Testnet Wallet address on the given form and click _enter_ to receive your FreeTFT within minutes. 
+Insert your paste your testnet Stellar wallet address on the given form and click _enter_ to receive your TFT within minutes. 
 
 ![](./img/solar/testnet_success.png)
 
-__Go back to your Solar Testnet Wallet account__ and see if 1000 TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your FreeTFT to get started with deploying your solutions via [__TF Grid 2.2 Demo__](threefold_now.md)
+__Go back to your Testnet Wallet account__ and see if 1000 testnet TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your TFT to get started with deploying your solutions via [__3Bot__](3bot.md) or [__TF Grid 2.2 Demo__](threefold_now.md)
 
-> If you have problem with adding FreeTFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).
+> If you have problem with adding testnet TFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).

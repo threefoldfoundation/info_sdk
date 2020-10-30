@@ -46,7 +46,7 @@ A Kubernetes cluster is built from master and worker nodes. Based on the network
 
 ```python
 # Load the zero-os sal and create an empty reservation instance.
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 cluster_secret = 'supersecret'
 

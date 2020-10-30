@@ -25,7 +25,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
    - [Web Gateway](architecture_webgateway.md)
    - [Planetary Lan](tf_lan.md)
    - [0-Container Virtual FS](architecture_flist.md)
-- [__Getting Started__](getting_started.md)
+- [__Getting Started__](getting_started_all.md)
 - [__3Bot__ Your Virtual System Administrator](3bot.md)
 - [__Develop your own solutions__](develop.md)
 

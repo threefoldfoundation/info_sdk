@@ -22,7 +22,7 @@ If my threebot_id is `123`, a valid secret would be `123:chieb7roi9oongah9shukuu
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 zos.gateway.tcp_proxy_reverse(node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
         domain='solution1.TF Grid.zaibon.be',

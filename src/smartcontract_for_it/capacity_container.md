@@ -132,7 +132,7 @@ You can read them via redis using `SUBSCRIBE container-stats` for example.
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 
 # add container reservation into the reservation

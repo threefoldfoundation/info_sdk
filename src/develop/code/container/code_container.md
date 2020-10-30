@@ -74,7 +74,7 @@ Providing the correct details allows us to deploy the code-server container.
 
 
 ```python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # use the pool
 pool = zos.pools.get(payment_detail.reservation_id)

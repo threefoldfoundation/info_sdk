@@ -16,7 +16,7 @@ Here is the schema used to define a container reservation:
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 proxy = zos.gateway.sub_domain(
        node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',

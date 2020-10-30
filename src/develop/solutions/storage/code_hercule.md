@@ -14,6 +14,8 @@ Please check a full installation tutorial [here](minio.md)
 ## Master/Slave setup
 ![Minio Master/Slave](./img/minio_master_slave.png)
 
+This is a `primart/readonly` setup where metadata is replicated to a slave (readonly) node where users can use to read/download objects. Upload is only possible via the primary node.
+
 # Data flow
 We have a modified version of minio so it could work against our zdb instances. It has been modified to use [0-stor](https://github.com/Threefoldtech/0-stor). `0-stor` could do `replication or distribution` out of the box. Hence files uploaded to this version of minio are split into separate smaller chunks, and distributed across separate instances of `0-DB`. The distribution is done according to the configuration (discussed later).
 
@@ -103,6 +105,8 @@ POST /repair/{bucket}/{object}
 
 GET /jobs
 DELETE /jobs/{id}
+
+POST /config
 ```
 
 > All `repair` endpoints accepts optional query `dry-run` and `bg`
@@ -140,3 +144,34 @@ bucket: large
 Due to the streaming nature of the report, reports makes more sense if they are reading down up. Because we need to check all blobs of a single object before we could give statistics about the object. So blobs of an object comes before the object stats itself.
 
 Also directories are "fake" entries in minio. So they are also checked, while they have one blob that actually doesn't container any data. Hence directories blobs always have `blob: <empty>` and they are always `optimal`. so you could always skip these ones. Again notice that the blob also comes before the directory object.
+
+# Extending the zdb capacity
+An extra **data** capacity can be added to minio by simply reconfiguring it to use more zdb namespaces. After deploying the extra namespaces you can change minio config as follows:
+
+- You need access to minio private network (usually over wireguard)
+- You need to understand minio configuration as described [here](https://github.com/threefoldtech/minio/blob/master/cmd/gateway/zerostor/README.md#example-configuration)
+- First method:
+  - You ssh to minio container, and open the /data/minio.yaml file. edit as you see appropriate
+  - signal minio to reload its config by running the command `zinit kill minio SIGHUP`.
+- Second method:
+  - You still need to get a full copy of the current minio config.
+  - Edit the config file locally
+  - Send the config back to minio via the management (healer) API.
+  - the API exposes a `/config` endpoint where you can POST a full copy of your config
+  - minio will auto-reload config this way.
+
+> Its possible we add more endpoints to list, add, and remove. but so far was not needed.
+
+# Minio Life cycle.
+## Creation
+- Choose your data/parity ratio
+ - This represents the number of blocks created for each blob of data. A ratio 4/1 for example means that each chunk is split over 5 different zdb nodes. in a way that losing max of 1 node (any node) and we will still be able to retrieve the blob. losing more than 1 node and we will not be able to retrieve it back.
+ - Usually we try to minimize the total number of nodes (to avoid slowing down write operations) but also have a proper parity number to avoid losing data. So we usually go for something like 6/4
+ - A 6/4 setup requires then 10 zdb nodes to be configured in minio. But this doesn't mean we need exact 10, it's recommended we add even more lets say 15. a blob being written will be still only to 10 (randomly selected for each blob) nodes. This means a failure of one node will not affect all blobs.
+ - This also mean that, if a node fails we wills till be able to write objects to minio. since a write operation is only successful if the entire 10 chunks are being distributed. so if we have only 10 zdbs nodes in a 6/4 setup, and we lose one, all write operations will fail (but we will still be able to do read operation)
+## Healing
+- We assume we have a 15 nodes in a 6/4 setup.
+- If we lost one (or up to 4 nodes) we then can star start a healing process. the Healing process will then make sure affected blob are redistributed to only the working nodes. hence having 15 nodes actually is helpful because we already have 5 "spare" ones. Once the healing process is finished we sure that all blobs are distributed optimally over our nodes.
+- It's recommended then to replace the broken nodes (can be done even before start the healing job which is actually recommended)
+## Extending capacity
+- If our zdbs are start to run out of space we can just add ore zdb nodes to our configuration file, lets say 10 more nodes. A healing job is not required since older nodes are still reachable, and healing does not actually redistribute the blobs, only if they are not optimal.

@@ -30,7 +30,7 @@ If you want to dive in more about 0-DB itself, head to the official repository: 
 ## Example
 
 ```python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 pool = zos.pools.get(12)
 

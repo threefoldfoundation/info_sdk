@@ -14,7 +14,7 @@ Here is the schema used to define a container reservation:
 ## Example using sdk
 
 ``` python
-zos = j.sals.zos
+zos = j.sals.zos.get()
 
 # add domain delegation reservation into the reservation
 delegated = zos.gateway.delegate_domain(gateway_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
