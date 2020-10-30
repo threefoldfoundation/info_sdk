@@ -1,7 +1,5 @@
 # Introducing: ThreeFold Now (Demo Mode)
 
-*ThreeFold has created the largest active peer-to-peer cloud on the planet — but the Internet is more than just storage and capacity. To fully realize the vision of an Internet built for everyone, by everyone, we need easy-to-use and easy-to-deploy alternatives to the online tools and applications we use most.*
-
 - [ThreeFold Now](https://marketplace.threefold.io/) is a marketplace (in demo mode) of open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 - Its main goal is to enable simplified deployment of safe, secure, and private solutions that will decentralize our lives, without the necessity of technical system administration knowledge.
 - In its early stages on testnet, there are already offerings covering various fields from a peer-to-peer video sharing platform, to an online publisher, to office tools, and more.
