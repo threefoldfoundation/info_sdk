@@ -38,9 +38,6 @@ The main focus is on improving the accuracy of the information reported by the n
 
 ### [JS-NG v11.0-b7](github.com/threefoldtech/js-ng/releases/tag/v11.0-b7)
 
-- Fixed string representation of base classes
-- Added mkdirs alias (as makedirs)
-
 ### [JS-SDK v11.0-b11](https://github.com/threefoldtech/js-sdk/releases/tag/untagged-14056cea521a03496a1f)
 
 - Container statistics and easier monitoring
@@ -48,9 +45,6 @@ The main focus is on improving the accuracy of the information reported by the n
 - Support for test certificates
 
 ### [TF Explorer V0.4.1](github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
-
-- Not allowing user to update its public key
-- Added solid error type so client can check
 
 ### [3Bot Connect V2.0](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
