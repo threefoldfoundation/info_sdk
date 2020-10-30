@@ -2,7 +2,7 @@
 
 ## High Level Brief Summary
 
-This release introduces addition of testnet resource capacity and improvements in stability, including but not limited to: adding secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Grid. We minimized the options into TFT to avoid payment complication. TFTA can be converted to TFT easily by following this [TFTA - TFT guidance](https://wiki.threefold.io/#/tfta_to_tft). 
+This release introduces addition of testnet resource capacity- please go to [Testnet TF Explorer](https://explorer.testnet.grid.tf) for more details on the added resources. We have also added some improvements on stability, including but not limited to: adding secret container logs, workload messages security, as well as introducing TFT as the only token used for reserving capacity on the Grid. We minimized the options into TFT to avoid payment complication. TFTA can be converted to TFT easily by following this [TFTA - TFT guidance](https://wiki.threefold.io/#/tfta_to_tft). 
 
 With this release we also introduced demo solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions, with a new improved user interface providing solution categories for a better navigation experience.
 
