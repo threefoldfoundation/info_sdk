@@ -7,7 +7,7 @@ This release introduces an improvement in stability, secret container logs, wor
 
 ## Highlights
 
-Some other new features also introduces in this version:
+Some other new features also introduced in this version:
 
 
 ### TF NOW Marketplace
