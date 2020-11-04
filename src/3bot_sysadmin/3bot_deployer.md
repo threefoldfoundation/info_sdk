@@ -1,14 +1,14 @@
 # Get a Hosted 3Bot
 
-3Bot is your virtual system administrator which helps you to deploy solutions on top of the ThreeFold GRID.
+3Bot is your virtual system administrator which helps you to deploy solutions on top of the ThreeFold Grid.
 
 ## How to Deploy your 3Bot
 
-- For __Mainnet__ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf) : launches Monday 21 Sept 2020
+- For __Mainnet__ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf) : launched on Monday 21 Sept 2020
 - For __Testnet__ Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf) 
 
 > IMPORTANT: The two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet. <BR>
-> To learn more about the distinction between test & main net [see this doc](mainnet_testnet)
+> To learn more about the distinction between testnet & mainnet [see this doc](mainnet_testnet)
 
 ### Name Your 3Bot
 

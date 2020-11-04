@@ -1,5 +1,7 @@
 # Introducing: ThreeFold Now (Demo Mode)
 
+![](./img/now_marketplace.png)
+
 - [ThreeFold Now](https://marketplace.threefold.io/) is a marketplace (in demo mode) of open source peer-to-peer solutions that are built on top of ThreeFold Grid.
 - Its main goal is to enable simplified deployment of safe, secure, and private solutions that will decentralize our lives, without the necessity of technical system administration knowledge.
 - In its early stages on testnet, there are already offerings covering various fields from a peer-to-peer video sharing platform, to an online publisher, to office tools, and more.
@@ -20,6 +22,8 @@
 - __Project Management__: A P2P alternative to centralized project management tool for multi-functional agile teams.
 
 ### ThreeFold Now Information & Tutorials
+
+![](./img/now_wiki.png)
 
 - Please visit [the wiki](https://now.threefold.io) where you can find much more information.
 - All *live* solutions have brief deployment tutorials on their specific pages.
