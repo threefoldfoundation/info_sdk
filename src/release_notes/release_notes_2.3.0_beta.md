@@ -1,8 +1,8 @@
-# TF Grid Testnet 2.3.0 Release Note
+# TF Grid 2.3.0 Beta Release Note
 
 ## High Level Brief Summary
 
-This release introduces addition of testnet resource capacity- please go to [Testnet TF Explorer](https://explorer.testnet.grid.tf) for more details on the added resources. We have also added some improvements on stability, including but not limited to: adding secret container logs, workload messages security, as well as introducing TFT and Testnet TFT as the only tokens used for reserving capacity on the Grid. We minimized the options into TFT to avoid payment complication.
+This beta release introduces addition of testnet resource capacity- please go to [Testnet TF Explorer](https://explorer.testnet.grid.tf) for more details on the added resources. We have also added some improvements on stability, including but not limited to: adding secret container logs, workload messages security, as well as introducing TFT and Testnet TFT as the only tokens used for reserving capacity on the Grid. We minimized the options into TFT to avoid payment complication.
 
 With this release we also introduced demo solution integration with ThreeFold NOW Experiences. Each release will reveal new additions of TF NOW solutions, with a new improved user interface providing solution categories for a better navigation experience.
 
