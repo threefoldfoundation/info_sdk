@@ -40,13 +40,13 @@ The main focus is on improving the accuracy of the information reported by the n
 
 - Technical improvement: Fix string representation of base classes.
 
-### [JS-SDK v11.0-b11](https://github.com/threefoldtech/js-sdk/releases/tag/untagged-14056cea521a03496a1f)
+### [JS-SDK v11.0-b11](https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11)
 
 - Container statistics and easier monitoring
 - Improved container logs
 - Support for test certificates
 
-### [TF Explorer V0.4.1](github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
+### [TF Explorer V0.4.1](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
 
  - Security improvement: added an authentication process for request creation
  - Only allowing workload deletion if it is out of resource.
