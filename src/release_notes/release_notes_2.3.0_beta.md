@@ -36,7 +36,7 @@ Some other new features also introduced in this version:
 - Better resource management:
 The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing of unused resources
 
-### [JS-NG v11.0-b7](github.com/threefoldtech/js-ng/releases/tag/v11.0-b7)|
+### [JS-NG v11.0-b7](https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7)
 
 - Technical improvement: Fix string representation of base classes.
 
