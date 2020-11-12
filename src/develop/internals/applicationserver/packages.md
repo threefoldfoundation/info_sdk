@@ -27,6 +27,8 @@ hello
 │ └── helloActor.py
 ├── chats
 │ └── helloChatflow.py
+├── services
+│ └── helloService.py
 ├── package.py
 ├── package.toml
 └── __init__.py
@@ -192,6 +194,30 @@ index = "index.html"
 spa = true
 is_admin = true
 ```
+
+- **services** can be used to define periodic services to run at specific time on based on intervals
+  - services directory contains the background services that run with the package
+  - Parent class: `from jumpscale.tools.servicemanager.servicemanager import BackgroundService`
+
+    Example
+
+      ```python
+      from jumpscale.tools.servicemanager.servicemanager import BackgroundService
+
+      class TestService(BackgroundService):
+        def __init__(self, name="packagename_test", interval=20, *args, **kwargs):
+          """
+              Test service that runs every 1 hour
+          """
+          super().__init__(name, interval, *args, **kwargs)
+
+        def job(self):
+          print("[Packagename - Test Service] Done")
+
+      service = TestService()
+      ```
+
+
 
 ### Servers
 In a package, the server configurations will be mapped to nginx server configuration.
