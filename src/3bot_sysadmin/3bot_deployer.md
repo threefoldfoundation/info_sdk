@@ -34,8 +34,8 @@ You will be shown payment details as below. Send the required amount to the ment
 
 ##### Remark: 
 
-- If you are working on the mainnet of the TF Grid, production TFT is to be used for payment on the Stellar Mainnet (as is visible in your 3Bot Connect wallet). 
-- The testnet of the TF Grid is connected to the Stellar Testnet, so Testnet TFTs are to be used (you cannot use your 3Bot Connect wallet). 
+- If you are working on the mainnet of the TF Grid, production TFT is to be used for payment on the Stellar Mainnet (as is visible in your ThreeFold Connect wallet). 
+- The testnet of the TF Grid is connected to the Stellar Testnet, so Testnet TFTs are to be used (you cannot use your ThreeFold Connect wallet). 
 
 ![](./img/threebot_4_pay.png)
 
@@ -54,7 +54,7 @@ You will be shown payment details as below. Send the required amount to the ment
 Congratulations, Your 3Bot has been successfully deployed. You can access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
 ![](./img/threebot_9_deploy_success.png)
 
-Go to the web address mentioned and initialize your 3Bot by using the 3Bot Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
+Go to the web address mentioned and initialize your 3Bot by using the ThreeFold Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
 
 ### Access Your Dashboard
 

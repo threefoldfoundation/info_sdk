@@ -36,7 +36,7 @@ You can now go back to your hosted 3Bot dashboard and your farm should now appea
 
 # Export your local identity to the hosted 3Bot (not recommended)
 
-We do not recommend this method because it involves sending the private key that is linked to your 3Bot Connect application over internet. An hosted 3Bot comes with its own identity and its its own private key which are not linked to any wallet and thus are safer to use online.
+We do not recommend this method because it involves sending the private key that is linked to your ThreeFold Connect application over internet. An hosted 3Bot comes with its own identity and its its own private key which are not linked to any wallet and thus are safer to use online.
 
 ### Step 1
 When you have a hosted 3Bot dashboard, navigate to `settings`
@@ -51,7 +51,7 @@ Click the plus button to create a new Identity
 ![new id](./img/new_identity_hosted_3bot.png)
 
 #### 1.2
-Fill in the information based on your **3Bot connect** identity (which will be the case for your existing farm) and the network your farm lives on. In this example we call our Identity **John** and we have a farm on the **Test Network**.
+Fill in the information based on your **ThreeFold Connect** identity (which will be the case for your existing farm) and the network your farm lives on. In this example we call our Identity **John** and we have a farm on the **Test Network**.
 
 > **WARNING**: make sure you browser sessions is encrypted with HTTPS. Someone might be eavesdropping.
 
@@ -73,7 +73,7 @@ In this example we have a Testnet Network farm so we take note of the **test** 3
 
 ### Step 2
 
-Now click on your **newly created identity** and make it your default! This will make the dashboard load in your identity from your 3Bot connect app. In this example we click on **John** and make it our default.
+Now click on your **newly created identity** and make it your default! This will make the dashboard load in your identity from your ThreeFold Connect app. In this example we click on **John** and make it our default.
 
 ![new id](./img/new_set_default.png)
 

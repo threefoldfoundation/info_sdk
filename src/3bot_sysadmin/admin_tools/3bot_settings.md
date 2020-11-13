@@ -20,7 +20,7 @@ In the 3Bot, the identity is composed of multiple fields:
 
 * **Instance name**: This is just a name for you to remember what this identity represent. It doesn't impact anything.
 * **3Bot ID**: This is the unique identifier of your identity.
-* **3Bot Name**: This is the unique name associated with your identity (this must be the same as in the 3Bot connect application).
+* **3Bot Name**: This is the unique name associated with your identity (this must be the same as in the ThreeFold Connect application).
 * **Email**: The email address linked to your identity. This is used to verify user identity.
 * **Explorer URL**: The explorer URL to use when the identity is selected. This field is interesting cause it allow your 3Bot to works against the different TF Grid network (mainnet or testnet).
 

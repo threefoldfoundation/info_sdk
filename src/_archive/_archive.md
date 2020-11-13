@@ -36,7 +36,7 @@
   - [Codeserver](codeserver.md)
   - [Jupyter](jupyter.md)
   - [Settings](settings.md)
-- [3Bot Connect](3botconnect.md)
+- [ThreeFold Connect](3botconnect.md)
 - [Tokens](tokens.md)
  - [Stellar](getting_on_stellar.md)
  - [Buy TFT: StellarX](tft_stellarx.md)

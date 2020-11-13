@@ -4,13 +4,13 @@
 TODO Generic description to get yourself / your 3Bot.connect on the stellar network and get (free) TFT's
 -->
 
-### Getting your 3Bot connect to the Stellar network
+### Getting your ThreeFold Connect to the Stellar network
 
-The 3Bot Connect App has a wallet inside, accessed using either the seed keys of the 3Bot Connect App or an imported seed key. 
+The ThreeFold Connect App has a wallet inside, accessed using either the seed keys of the ThreeFold Connect App or an imported seed key. 
 The wallet allows you to show your balance in TFTs and FreeTFTs, as well as transferring (sending and receiving) tokens. 
-Trading on the StellarX DEX is not yet possible using 3Bot Connect App (under construction). This is why it could be useful to install other wallets, which are able to do trades on the Stellar DEX. 
+Trading on the StellarX DEX is not yet possible using ThreeFold Connect App (under construction). This is why it could be useful to install other wallets, which are able to do trades on the Stellar DEX. 
 
-### How to get a Stellar account in the 3Bot Connect App
+### How to get a Stellar account in the ThreeFold Connect App
 
 In the wallet section of a 3Bot you could set up an account with a trustline to all ThreeFold tokens: TFT, FreeTFT and TFTA. 
 Also by importing the seed keys of a wallet registered on the TFchain (Rivine technology), the conversion mechanism automatically sets up trust lines on the Stellar blockchain. 
@@ -43,7 +43,7 @@ TFT, TFTA and FreeTFT are registered on this blockchain, under the domain `Three
 
 ## How to buy TFTs
 
-Trading capabilities are not yet available in the 3Bot Connect App, but there is a growing number of options on how you could buy and sell TFTs:
+Trading capabilities are not yet available in the ThreeFold Connect App, but there is a growing number of options on how you could buy and sell TFTs:
 
 ### Centralized exchanges
 

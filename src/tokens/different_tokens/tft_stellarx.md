@@ -21,7 +21,7 @@ You could buy TFT only through Stellar Lumens (XLM), for now.
 
 ## Trading? 
 
-TFT as available on TFchain will be converted into Stellar TFTA, burned on TFChain with the conversion to the equivalent amount of TFTAs on Stellar. These TFTA could then be converted 1:1 into Stellar TFT, but only progressively and under price conditions, to allow a smooth transition and avoid heavy price fluctuations. The conversion mechanism between TFTA and TFT is available as from June 2020 until end of 2020 in the 3Bot connect app. 
+TFT as available on TFchain will be converted into Stellar TFTA, burned on TFChain with the conversion to the equivalent amount of TFTAs on Stellar. These TFTA could then be converted 1:1 into Stellar TFT, but only progressively and under price conditions, to allow a smooth transition and avoid heavy price fluctuations. The conversion mechanism between TFTA and TFT is available as from June 2020 until end of 2020 in the ThreeFold Connect app. 
 
 ## Get started?
 

@@ -21,10 +21,10 @@ __ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource 
  ThreeFold Explorer is the marketplace for the IT capacity where you could explore and purchase all the available nodes on both testnet and mainnet environment by using the smart contract for IT concept. You can also reserve the nodes you see on the explorer  by using the capacity pool feature in your hosted 3Bot. On this release, we have improved the security by adding an authentication process for the creation of node purchase request. From today on we will also only be allowing workload deletion if it is out of resource.
 
 
-### [3Bot Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
+### [ThreeFold Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
-- A lot of improvement on the signing in process have been made on this release. From today on, you could use your FaceID and TouchID to sign into your 3Bot Connect account. We have also improved your 3Bot recovery flow and fixed signin issues for people with an incorrect time on their mobile device. 
-- Performance and feature wise, we have increased the app’s speed and removed Freeflow Pages feature from 3Bot Connect app since it is no longer promoted for usage.
+- A lot of improvement on the signing in process have been made on this release. From today on, you could use your FaceID and TouchID to sign into your ThreeFold Connect account. We have also improved your 3Bot recovery flow and fixed signin issues for people with an incorrect time on their mobile device. 
+- Performance and feature wise, we have increased the app’s speed and removed Freeflow Pages feature from ThreeFold Connect app since it is no longer promoted for usage.
 
 
 ### 3Bot Deployer
