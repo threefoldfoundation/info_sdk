@@ -126,7 +126,7 @@ Now go to your web browser and go to [gettft.testnet.grid.tf](https://getfreetft
 
 ![](./img/solar/receive_login.png)
 
-__Connect your 3Bot ID__ via 3Bot Connect App to login to the TFT Claim Page.
+__Connect your 3Bot ID__ via ThreeFold Connect App to login to the TFT Claim Page.
 
 ![](./img/solar/24_receive_done.png)
 

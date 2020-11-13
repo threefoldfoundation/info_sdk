@@ -68,9 +68,9 @@ location / {
 """
 ```
 
-## 3Bot Connect
+## ThreeFold Connect
 
-- In case you need your locations authenticated by 3Bot connect which is the default you need to add to the `package.toml` the following
+- In case you need your locations authenticated by ThreeFold Connect which is the default you need to add to the `package.toml` the following
 ```
 is_auth=true
 ```

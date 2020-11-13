@@ -44,7 +44,7 @@ If you want to edit code from the dashboard directly you could do so using CodeS
 
 ### Access rights to the 3bot virtual system administrator
 
-The dashboard is protected by 3Bot connect. Therefore, to access it, users need to start a 3Bot server using their saved identity or the 3Bot name that was added by the initial user giving them access to the dashboard.
+The dashboard is protected by ThreeFold Connect. Therefore, to access it, users need to start a 3Bot server using their saved identity or the 3Bot name that was added by the initial user giving them access to the dashboard.
 
 
 #### Giving admin access to other users could be done from `Settings`.
@@ -53,7 +53,7 @@ The dashboard is protected by 3Bot connect. Therefore, to access it, users need 
 
 ### Change Identity
 
-The user can also choose to use multiple identities as long as these identities are registered on the 3Bot Connect App. This could be done in the `Settings` as well.
+The user can also choose to use multiple identities as long as these identities are registered on the ThreeFold Connect App. This could be done in the `Settings` as well.
 
 
 <img src="img/identity_list.png" width="500" alt="">

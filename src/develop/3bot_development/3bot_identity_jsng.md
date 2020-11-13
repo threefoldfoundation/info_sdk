@@ -26,9 +26,9 @@ identity = j.core.identity.new(name="INSTANCE_NAME",tname="THREEBOT_NAME.3bot", 
 ```
 where
  - **INSTANCE_NAME**: is the instance name of the identity that will be configured
- - **THREEBOT_NAME**: 3Bot name registered from 3Bot connect app (should be in the form `NAME.3bot`)
- - **THREEBOT_EMAIL**: corresponding email for the 3Bot name from 3Bot connect app 
- - **WORDS**: words that could be retrieved from the 3Bot connect app settings
+ - **THREEBOT_NAME**: 3Bot name registered from ThreeFold Connect app (should be in the form `NAME.3bot`)
+ - **THREEBOT_EMAIL**: corresponding email for the 3Bot name from ThreeFold Connect app 
+ - **WORDS**: words that could be retrieved from the ThreeFold Connect app settings
  - **explorer_url**: explorer grid url that is to be used. Should be one of the following:
  - Mainnet: `https://explorer.grid.tf/explorer`
  - Testnet: `https://explorer.testnet.grid.tf/explorer`

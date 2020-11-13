@@ -3,7 +3,7 @@
 * [peer2peer](/grid/peer2peer_storage_compute/README.md)
 * Setup Guides
  * Prerequisites
-  * [Installing 3Bot Connect App](3bot-connect-app.md)
+  * [Installing ThreeFold Connect App](3bot-connect-app.md)
   * Install the SDK
    * [Linux ThreeFold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-linux.md)
    * [MacOS ThreeFold SDK](/grid/peer2peer_storage_compute/prerequisites/Threefold-sdk-macos.md)

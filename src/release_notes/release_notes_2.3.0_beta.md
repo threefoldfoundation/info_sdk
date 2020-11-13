@@ -20,10 +20,10 @@ __ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource 
 
 On ThreeFold Explorer you could see node information and check all the available IT Capacity on both testnet and mainnet environment. On this release, we have improved the encryption scheme used to send sensitive information to workloads. The explorer also only cancel workloads that are actually consuming resources when a capacity pool is exhausted.
 
-### [3Bot Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
+### [ThreeFold Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
-- A lot of improvement on the signing in process have been made on this release. From today on, you could use your FaceID and TouchID to sign into your 3Bot Connect account. We have also improved your 3Bot recovery flow and fixed signin issues for people with an incorrect time on their mobile device. 
-- Performance and feature wise, we have increased the app’s speed and removed Freeflow Pages feature from 3Bot Connect app since it is no longer promoted for usage.
+- A lot of improvement on the signing in process have been made on this release. From today on, you could use your FaceID and TouchID to sign into your ThreeFold Connect account. We have also improved your 3Bot recovery flow and fixed signin issues for people with an incorrect time on their mobile device. 
+- Performance and feature wise, we have increased the app’s speed and removed Freeflow Pages feature from ThreeFold Connect app since it is no longer promoted for usage.
 
 
 ### 3Bot Deployer

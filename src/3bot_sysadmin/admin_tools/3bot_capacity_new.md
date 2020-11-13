@@ -34,7 +34,7 @@ Please keep in mind that capacity on testnet is limited. We only listed one 'dem
 ### Prepare to Pay for the Reserved IT Capacity
 
 ![](./img/3bot_capacity_new_pay.png)
-Pay for your capacity, either by selecting a preconfigured wallet in the Admin panel or by using a wallet that is configured in your 3Bot Connect app, by scanning the QR Code (not for testnet). A third option is to do it manually by copying the __Wallet Address__, __Reservation ID (Memo Text)__, and __Total Amount__ you would have to pay for your capacity. 
+Pay for your capacity, either by selecting a preconfigured wallet in the Admin panel or by using a wallet that is configured in your ThreeFold Connect app, by scanning the QR Code (not for testnet). A third option is to do it manually by copying the __Wallet Address__, __Reservation ID (Memo Text)__, and __Total Amount__ you would have to pay for your capacity. 
 Open your Stellar wallet and send the total amount of tokens to the IT Capacity reservation wallet address. This is an example of a payment page from a [Interstellar Wallet](interstellar_wallet.md) on testnet. You could also use a [Solar Wallet](solar_wallet.md), or any other existing Stellar wallet to pay for your capacity.
 
 Remark: check carefully on which network you are creating your capacity pool. On testnet (refreshed periodically) you need testnet tokens, on mainnet you need real tokens. 
