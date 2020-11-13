@@ -2,9 +2,9 @@
 
 ## High Level Summary
 
-[The ThreeFold Grid](https://wiki.threefold.io/#/grid_why) is a peer-to-peer and autonomous Internet grid that provides game-changing performance and empowers new possibilities. It sets the foundation for a better Internet, based on new principles: Peer-to-Peer, decentralized, autonomous, private, secure, and sustainable.
+[__The ThreeFold Grid__](https://wiki.threefold.io/#/grid_why) is a peer-to-peer and autonomous Internet grid that provides game-changing performance and empowers new possibilities. It sets the foundation for a better Internet, based on new principles: Peer-to-Peer, decentralized, autonomous, private, secure, and sustainable.
 
-ThreeFold Grid 2.3 Beta release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to 
+__ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to 
 [Testnet TF Explorer](https://explorer.testnet.grid.tf/) for more details. We have also added some improvements to the grid’s stability, new features, as well as introducing TFT and Testnet TFT as the only tokens used for reserving capacity on the Grid to avoid payment complications.
 
 
