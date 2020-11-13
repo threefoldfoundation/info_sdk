@@ -48,7 +48,7 @@ With this 2.3 Beta release, we are adding a lot of automation to the processes t
 Zero-OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity required by the solutions running on the TFGrid. With this Grid 2.3 release, we have improved the resource management on Zero-OS level. The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing of unused resources.
 
 
-### Jumpscale Framework ([JS-NG](https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7) and [JS-SDK](https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11)) v11.0-b7
+### Jumpscale Framework ([JS-NG](https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7) and [JS-SDK](https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11))
 
 Jumpscale is an automation framework and the foundation of the autonomous layer. It includes all the components involved in creating the IT architecture for autonomous operations, like a container running a webserver, a database server, and then all the required network paths in between. On this release we have created some component improvements and bugs fixes, such as adding statistics to container and making it easier for monitoring, as well as improved the logs of containers. We have also added support for test certificates.
 
