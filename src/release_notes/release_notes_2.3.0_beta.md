@@ -1,10 +1,10 @@
-# TF Grid 2.3.0 Beta Release Note
+# TF Grid 2.3.0 Release Note
 
 ## High Level Summary
 
 [__The ThreeFold Grid__](https://wiki.threefold.io/#/grid_why) is a peer-to-peer and autonomous Internet grid that provides game-changing performance and empowers new possibilities. It sets the foundation for a better Internet, based on new principles: Peer-to-Peer, decentralized, autonomous, private, secure, and sustainable.
 
-__ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to 
+__ThreeFold Grid 2.3__ release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to 
 [Testnet TF Explorer](https://explorer.testnet.grid.tf/) for more details. We have also added some improvements to the grid’s stability, new features, as well as introducing TFT and Testnet TFT as the only tokens used for reserving capacity on the Grid to avoid payment complications.
 
 
@@ -12,7 +12,7 @@ __ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource 
 
 ### ThreeFold NOW
 
-- With this 2.3 Beta release, we are introducing an improved user interface of [ThreeFold NOW Marketplace](marketplace.threefold.io), providing categories for a better navigation experience. 
+- With this 2.3 elease, we are introducing an improved user interface of [ThreeFold NOW Marketplace](marketplace.threefold.io), providing categories for a better navigation experience. 
 - Along with new categories, we are also introducing one new ThreeFold NOW solution: you can now try using a decentralized video calling solution deployable via ThreeFold NOW Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings). 
 
 
@@ -20,8 +20,9 @@ __ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource 
 
 On ThreeFold Explorer you could see node information and check all the available IT Capacity on both testnet and mainnet environment. On this release, we have improved the encryption scheme used to send sensitive information to workloads. The explorer also only cancel workloads that are actually consuming resources when a capacity pool is exhausted.
 
-### [ThreeFold Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
+### [ThreeFold Connect (Old: 3Bot Connect)](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
+- On this release, we renamed 3Bot Connect App into __ThreeFold Connect App__. ThreeFold Connect App is your main access point to the ThreeFold Grid.
 - A lot of improvement on the signing in process have been made on this release. From today on, you could use your FaceID and TouchID to sign into your ThreeFold Connect account. We have also improved your 3Bot recovery flow and fixed signin issues for people with an incorrect time on their mobile device. 
 - Performance and feature wise, we have increased the app’s speed and removed Freeflow Pages feature from ThreeFold Connect app since it is no longer promoted for usage.
 
