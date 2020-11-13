@@ -18,8 +18,7 @@ __ThreeFold Grid 2.3 Beta__ release introduces the addition of testnet resource 
 
 ### [ThreeFold Explorer](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
 
- ThreeFold Explorer is the marketplace for the IT capacity where you could explore and purchase all the available nodes on both testnet and mainnet environment by using the smart contract for IT concept. You can also reserve the nodes you see on the explorer  by using the capacity pool feature in your hosted 3Bot. On this release, we have improved the security by adding an authentication process for the creation of node purchase request. From today on we will also only be allowing workload deletion if it is out of resource.
-
+On ThreeFold Explorer you could see node information and check all the available IT Capacity on both testnet and mainnet environment. On this release, we have improved the encryption scheme used to send sensitive information to workloads. The explorer also only cancel workloads that are actually consuming resources when a capacity pool is exhausted.
 
 ### [3Bot Connect](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
