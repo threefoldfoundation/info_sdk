@@ -43,7 +43,7 @@ With this 2.3 Beta release, we are adding a lot of automation to the processes t
 
 
 
-### [Zero-OS](https://github.com/threefoldtech/zos/releases/tag/v0.4.5-rc2)
+### [Zero-OS](https://github.com/threefoldtech/zos/releases/tag/v0.4.6)
 
 Zero-OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity required by the solutions running on the TFGrid. With this Grid 2.3 release, we have improved the resource management on Zero-OS level. The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing of unused resources.
 
