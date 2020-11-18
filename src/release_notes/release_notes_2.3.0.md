@@ -5,14 +5,14 @@
 [__The ThreeFold Grid__](https://wiki.threefold.io/#/grid_why) is a peer-to-peer and autonomous Internet grid that provides game-changing performance and empowers new possibilities. It sets the foundation for a better Internet, based on new principles: Peer-to-Peer, decentralized, autonomous, private, secure, and sustainable.
 
 __ThreeFold Grid 2.3__ release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to 
-[Testnet TF Explorer](https://explorer.testnet.grid.tf/) for more details. We have also added some improvements to the grid’s stability, new features, as well as introducing TFT and Testnet TFT as the only tokens used for reserving capacity on the Grid to avoid payment complications.
+[Testnet TF Explorer](https://explorer.testnet.grid.tf/) for more details. We have also added some improvements to the grid’s stability, new features, as well as introducing TFT and TFT on testnet as the only tokens used for reserving capacity on the Grid to avoid payment complications.
 
 
 ## What’s New on ThreeFold Grid 2.3.0
 
 ### ThreeFold NOW
 
-- With this 2.3 elease, we are introducing an improved user interface of [ThreeFold NOW Marketplace](marketplace.threefold.io), providing categories for a better navigation experience. 
+- With this 2.3 release, we are introducing an improved user interface of [ThreeFold NOW Marketplace](marketplace.threefold.io), providing categories for a better navigation experience. 
 - Along with new categories, we are also introducing one new ThreeFold NOW solution: you can now try using a decentralized video calling solution deployable via ThreeFold NOW Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings). 
 
 
@@ -37,7 +37,7 @@ A 3Bot deployer should do what it was designed to do: deploy your virtual system
 With this 2.3 Beta release, we are adding a lot of automation to the processes to scale the effectiveness of 3Bot deployment and improve your user experience as described below: 
 
 - when you have successfully deployed a hosted 3Bot, a functional wallet would be added automatically. 
-- Automation is also added with the way how packages are added to your 3Bot. You are now able to directly add packages from subfolders in your github repos and the package sources will automatically reload itself. 
+- Automation is also added with the way how packages are added to your 3Bot. You are now able to directly add packages from subfolders in your github repos and the package code can be reloaded without the need to restart the 3Bot. 
 - You can now automatically extend your capacity pools when they are expiring, that way it will minimize workload downtime due to lacking resources. An escalation email would also be sent automatically as a reminder to extend your capacity pool.
 - we have also added SSH access capability, as well as a backup option for downloaded packages, .ssh, and code directories that improve your workload management and security.
 
