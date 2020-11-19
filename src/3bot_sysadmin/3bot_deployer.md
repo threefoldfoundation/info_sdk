@@ -44,7 +44,8 @@ Your 3Bot has a backup and restore feature accessible on the dashboard. A passwo
 
 ### Choose How You Wish to Select the Deployment Location
 
-Either you choose to have the location of your 3Bot be chosen automatically, on farm level or on node level. 
+Either you choose to have the location of your 3Bot be chosen automatically, on farm level or on node level.
+We assume that this choice will become more relevant over time, with a growing grid. It will allow you to have your 3Bot local, close to where you are residing, both for performance reasons (reduce latency) and for data ownership reasons (to keep your data close to you, e.g. in a jurisdiction that is yours).
 
 ![](./img/threebot_1e_location_policy.png)
 
