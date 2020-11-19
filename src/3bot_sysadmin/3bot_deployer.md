@@ -19,23 +19,26 @@ If you choose to create a new 3Bot, please go through following steps:
 
 ### Name Your 3Bot
 
-This name will be used to identify this 3Bot. Keep in mind that this name will also be used as your 3Bot's subdomain (a part of your 3Bot's web address
+This name will be used to identify this 3Bot. Keep in mind that this name will also be used as your 3Bot's subdomain (a part of your 3Bot's web address).
 
 ![](./img/threebot_1_getname.png)
 
 ### Choose the 3Bot Configuration
+
+The 3Bot comes in 3 sizes. Depending on the intensity you intend to use this hosted 3Bot, choose the flavour that best fits your needs. Example: people intending to develop within the 3Bot might need more resources available. The flavor can still be changed after deployment. 
 
 ![](./img/threebot_1b_deployer_info.png)
 
 ### Introduce a SSH key (optional)
 
 If you intend to ssh into your 3Bot container, the ssh key can be provided in the next step. 
+Evidently, please also keep this key securely on your local machine. If you loose it, you will loose the capability to ssh into the container. 
 
 ![](./img/threebot_1c_ssh_key.png)
 
 ### Select the Back Up & Restore Password
 
-Your 3Bot has a backup and restore feature accessible on the dashboard.
+Your 3Bot has a backup and restore feature accessible on the dashboard. A password protects these capabilities, please store it safely or remember it well. 
 
 ![](./img/threebot_1a_recovery_secret_key.png)
 
