@@ -109,3 +109,43 @@ print(result)
 ```
 
 This will provide you with an overlay network.
+
+
+## Listing networks
+
+### zos primitives
+
+```python
+from jumpscale.clients.explorer.models import WorkloadType                                        
+from collections import defaultdict  
+
+
+zos = j.sals.zos.get()           
+# fetch all deployed workloads                                                                 
+all_workloads = zos.workloads.list(j.core.identity.me.tid, "DEPLOY")                              
+
+# collect the workloads that makeup each network                                                             
+network_workloads = defaultdict(list)                                                             
+for workload in all_workloads: 
+    if workload.info.workload_type == WorkloadType.Network_resource: 
+        network_workloads[workload.name].append(workload)
+
+networks = []
+for network_name, resources in network_workloads.items(): 
+    # create zos network object with the network information
+    network = zos.network.create(resources[0].network_iprange, network_name) 
+    # add only latest resource deployed on each node to the network object
+    node_workloads = {}
+    for workload in resources:
+        node_workloads[workload.info.node_id] = workload
+    network.network_resources = list(node_workloads.values())
+    networks.append(network)
+```
+
+### reservation chatflow
+
+```python
+JS-NG> j.sals.reservation_chatflow.deployer.list_networks()                                                               
+{'myn1': <jumpscale.sals.reservation_chatflow.deployer.NetworkView object at 0x7fe89297ff40>, 'bz3': <jumpscale.sals.reservation_chatflow.deployer.NetworkView object at 0x7fe88c8bb040>, '17d03c275dda4bc7b0fb7d0afa7d889d': <jumpscale.sals.reservation_chatflow.deployer.NetworkView object at 0x7fe88ebde220>, 'ahmedthabet.3bot_apps': <jumpscale.sals.reservation_chatflow.deployer.NetworkView object at 0x7fe88f04fa30>}
+
+```

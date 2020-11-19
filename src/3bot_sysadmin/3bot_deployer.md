@@ -7,12 +7,12 @@
 - For __Mainnet__ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf) : launched on Monday 21 Sept 2020
 - For __Testnet__ Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf) 
 
-> IMPORTANT: The two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet. <BR>
+> IMPORTANT: The two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, you cannot purchase capacity on TF Grid Mainnet by using the Testnet TFT you have on your testnet wallet. <BR>
 > To learn more about the distinction between testnet & mainnet [see this doc](mainnet_testnet)
 
 ### Name Your 3Bot
 
-This name will be used to identify this 3Bot. Keep in mind that this name would also be used as your 3Bot's subdomain (a part of your 3bot's web address that will be used to access it).
+This name will be used to identify this 3Bot. Keep in mind that this name will also be used as your 3Bot's subdomain (a part of your 3Bot's web address
 
 ![](./img/threebot_1_getname.png)
 
@@ -24,22 +24,22 @@ Your 3Bot has a backup and restore feature accessible on the dashboard.
 
 ### Choose the 3Bot's Expiration Time
 
-The expiration time determines your preference on how long you would want to keep this 3Bot alive on top of the TF Grid. This will also calculate the amount of the internet capacity you would need to purchase to keep the 3Bot online. No worries, you could always extend your 3Bot's life span by extending your capacity reservation. 
+The expiration time determines your preference for how long you want to keep this 3Bot live. This will also calculate the amount of internet capacity you need to purchase in order to keep the 3Bot online. No worries, you can always extend your 3Bot's life span by extending your capacity reservation. 
 
 ![](./img/threebot_2_expiry.png)
 
 ### Pay for Your Capacity by using a Stellar Wallet
 
-You will be shown a payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment, therefore sending a payment without a memo-text could result in a failed transaction.
+You will be shown payment details as below. Send the required amount to the mentioned address on your screen by using a stellar wallet. Please do not forget to mention the reservation ID on the memo text section when you're sending your payment. The memo text is used to identify a payment, therefore sending a payment without a memo-text could result in a failed transaction.
 
 ##### Remark: 
 
-- If you are working on the mainnet of the ThreeFold grid, production TFT is to be used for payment on the Stellar mainnet (as visible in your 3bot connect wallet). 
-- The testnet of the TF Grid is connected to the Stellar testnet, so also TFT testnet tokens are to be used (cannot use your 3bot connect wallet). 
+- If you are working on the mainnet of the TF Grid, production TFT is to be used for payment on the Stellar Mainnet (as is visible in your ThreeFold Connect wallet). 
+- The testnet of the TF Grid is connected to the Stellar Testnet, so Testnet TFTs are to be used (you cannot use your ThreeFold Connect wallet). 
 
 ![](./img/threebot_4_pay.png)
 
-### Wait Until Your Payment is Succeeded
+### Wait Until Your Payment Has Succeeded
 
 ![](./img/threebot_5_process_payment.png)
 
@@ -51,10 +51,10 @@ You will be shown a payment details as below. Send the required amount to the me
 
 ### Congratulations, Your Hosted 3Bot is Now Live!
 
-Congratulations, Your 3Bot has been successfully deployed. You could access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
+Congratulations, Your 3Bot has been successfully deployed. You can access your 3Bot by entering the website address (IP Address) mentioned below onto your web browser.
 ![](./img/threebot_9_deploy_success.png)
 
-Go to the web address mentioned and initialize your 3Bot by using the 3Bot Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
+Go to the web address mentioned and initialize your 3Bot by using the ThreeFold Connect App on your mobile phone; connecting your 3Bot ID with your hosted 3Bot.
 
 ### Access Your Dashboard
 

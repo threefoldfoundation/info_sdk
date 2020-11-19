@@ -3,13 +3,13 @@
 ![](./img/get_started_testnet.png)
 
 
-## Get 3Bot Connect App and 3Bot ID
+## Get ThreeFold Connect App and 3Bot ID
 
-As the first step, you need to get yourself a **3Bot Connect** and **3Bot ID**. This can be done by downloading the app on your smartphone and creating your own 3Bot Identity. 
+As the first step, you need to get yourself a **ThreeFold Connect** and **3Bot ID**. This can be done by downloading the app on your smartphone and creating your own 3Bot Identity. 
 
-Please be aware that this ID will be used as your main digital identity on the Threefold Grid and holds the keys to access every service on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The 3Bot Connect App will also provide you with an access to your 3Bot Wallet where you can store your Threefold Tokens.
+Please be aware that this ID will be used as your main digital identity on the Threefold Grid and holds the keys to access every service on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The ThreeFold Connect App will also provide you with an access to your 3Bot Wallet where you can store your Threefold Tokens.
 
-> Manual: [Get __3Bot Connect App__](3botconnect_install.md)
+> Manual: [Get __ThreeFold Connect App__](3botconnect_install.md)
 
 
 ## Get a 3Bot on Testnet
@@ -25,7 +25,7 @@ Please be aware that this ID will be used as your main digital identity on the T
 
 Once you’ve signed up and deployed a hosted 3Bot successfully, you will be given a link to access your hosted 3Bot via a web browser. 
 
-Go to the provided link to launch your 3Bot and login to your new 3Bot admin dashboard by connecting it to your 3Bot ID. You can use the 3Bot Connect App on your mobile phone to verify your identity.
+Go to the provided link to launch your 3Bot and login to your new 3Bot admin dashboard by connecting it to your 3Bot ID. You can use the ThreeFold Connect App on your mobile phone to verify your identity.
 
 
 ## Get Testnet TFT (Tokens for IT Capacity)

@@ -1,13 +1,13 @@
 # ThreeFold Now Demo Getting Started
 
-On this tutorial we will guide you on how to access the ThreeFold Now Demo  Platform by using your 3Bot ID as your username, and 3Bot Connect App on your mobile phone as your authenticator.
+On this tutorial we will guide you on how to access the ThreeFold Now Demo  Platform by using your 3Bot ID as your username, and ThreeFold Connect App on your mobile phone as your authenticator.
 
 
 ## Go to the ThreeFold Now Demo Homepage
 
 ![](./img/login_authenticate.png)
 
-Go to [ThreeFold Now Demo](https://marketplace.threefold.me/) and click on __'Sign in with 3Bot Connect'__ and follow further instruction below.
+Go to [ThreeFold Now Demo](https://marketplace.threefold.me/) and click on __'Sign in with ThreeFold Connect'__ and follow further instruction below.
 
 
 ## Sign in using your 3Bot ID (Username)
@@ -19,11 +19,11 @@ Sign into the Marketplace by typing your 3Bot ID (Username) on the available for
 
 ## Verify your Identity
 
-You will be asked to verify your identity via 3Bot Connect App (mobile) by matching the emoji icon on both your desktop screen and your mobile as below:
+You will be asked to verify your identity via ThreeFold Connect App (mobile) by matching the emoji icon on both your desktop screen and your mobile as below:
 
 ![](./img/login_authenticate00.png)
 
-Open 3Bot Connect App on your mobile phone and click on the matching icon as shown on your desktop authenticator wizard.
+Open ThreeFold Connect App on your mobile phone and click on the matching icon as shown on your desktop authenticator wizard.
 
 <img src="img/login_authenticate1.png" width="300" alt="missing immage">
 

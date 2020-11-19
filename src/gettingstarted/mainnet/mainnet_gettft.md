@@ -1,6 +1,6 @@
 # Get and Store TFT 
 
-On Mainnet hosted 3Bot environment, there are a few options on how to get and store TFT to reserve IT Capacity for your workload deployment test.  You could use a __pre-configured hosted 3Bot wallet__, __3Bot wallet on your 3Bot Connect App__, or a __third-party stellar wallet__ to store your TFT. 
+On Mainnet hosted 3Bot environment, there are a few options on how to get and store TFT to reserve IT Capacity for your workload deployment test.  You could use a __pre-configured hosted 3Bot wallet__, __3Bot wallet on your ThreeFold Connect App__, or a __third-party stellar wallet__ to store your TFT. 
 
 You could purchase TFT by __buying or trading other stellar tokens into TFT__ via stellar-supported exchangers like Liquid or BTC-Alpha. You could also purchase TFT Directly from the farms. Please click this [__tutorial__ on how to buy and sell TFT](https://wiki.threefold.io/#/how_to_buy_and_sell)
 
@@ -9,7 +9,7 @@ You could purchase TFT by __buying or trading other stellar tokens into TFT__ vi
 
 There are a few options on how you could store your TFT:
 - Store your TFT on __Hosted 3Bot Wallet on your hosted 3Bot__
-- Store your TFT on your __3Bot Wallet on 3Bot Connect App__
+- Store your TFT on your __3Bot Wallet on ThreeFold Connect App__
 - Store your TFT on a __third party testnet stellar wallet__
 
 ### Store your TFT on your hosted 3Bot Wallet
@@ -23,14 +23,14 @@ Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wal
 > Please go to [__Hosted 3Bot Wallet__](3bot_wallet.md) to read more about the 3Bot Wallet feature on your hosted 3Bot.
 
 
-### Store your TFT on your __3Bot Wallet on 3Bot Connect App__
+### Store your TFT on your __3Bot Wallet on ThreeFold Connect App__
 
 <img src="img/3bot_wallet.png" width="300" alt="image missing 3bot_wallet.png">
 
 
-Your 3Bot Connect App comes with an inclusive 3Bot Wallet that you could access within the app on your mobile phone. After installing the __3Bot Connect App__  on your mobile phone, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Simply click on the big __'transaction' icon__ on the bottom right corner of your screen to see your wallet address, and start sending or receiving TFT.
+Your ThreeFold Connect App comes with an inclusive 3Bot Wallet that you could access within the app on your mobile phone. After installing the __ThreeFold Connect App__  on your mobile phone, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Simply click on the big __'transaction' icon__ on the bottom right corner of your screen to see your wallet address, and start sending or receiving TFT.
 
-> Please go back to [__3Bot Connect App__ Installation Manual](3botconnect_install.md) if you have not installed a 3Bot Connect App on your mobile phone.
+> Please go back to [__ThreeFold Connect App__ Installation Manual](3botconnect_install.md) if you have not installed a ThreeFold Connect App on your mobile phone.
 
 ### Store your TFT on your third-party testnet Stellar Wallet
 

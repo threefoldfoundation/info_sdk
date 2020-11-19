@@ -41,7 +41,7 @@ Following is required to make minio backups:
 ![snapshot](./img/3bot_miniosnapshot.png)
 
 
-## Recovering with Marketplace Nackup
+## Recovering with Marketplace Backup
 
 For a backup to be recovered, you need to have the following information:
 - The 3Bot name
