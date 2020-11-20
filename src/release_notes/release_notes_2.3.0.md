@@ -1,4 +1,4 @@
-# TF Grid 2.3.0 Release Note
+# TF Grid 2.3.0 Release Notes
 
 - 3Bot, your virtual system administrator
   - 3bot deployer got serious upgrade (faster, prefunded wallet, easier to use)
@@ -12,6 +12,7 @@
   - shows devnet, testnet and mainnet in 1 interface
 - TFGrid capabilities
   - Automatic SSL test certificates can be given out for web workloads
+  - More capacity on Testnet.
 - Demo for Marketplace
   - see https://marketplace.threefold.io
 
@@ -30,13 +31,12 @@ And of course lots of bugfixes and small improvements.
   - downloaded packages
   - .ssh directory (so your access key is remembered)
   - your personal code directories (to keep your code changes you made for your own 3Bot)
-
-
 ### 3Bot Deployer
 
 - simplifactions & faster
 - can select where to deploy your 3bot (more decentralization possibility)
 - pre-funded wallet during deployment makes it easier to get started (was 2 steps before)
+
 ### ThreeFold Explorer: 0.4.1
 
 On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. 
