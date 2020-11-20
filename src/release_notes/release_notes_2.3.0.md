@@ -11,7 +11,7 @@ __ThreeFold Grid 2.3__ release introduces the addition of Testnet resource capac
 
 ### ThreeFold NOW
 
-- This 2.3.0 release introduces an improved user interface of [ThreeFold NOW Marketplace](marketplace.threefold.io), providing categories for a better navigation experience. 
+- This 2.3.0 release introduces an improved user interface of [ThreeFold NOW Marketplace](https://marketplace.threefold.io/marketplace/#/), providing categories for a better navigation experience. 
 - Along with new categories, this release introduces a new ThreeFold NOW solution: you can now use a decentralized video calling solution deployable via ThreeFold NOW Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings). 
 
 
