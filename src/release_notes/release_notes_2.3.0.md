@@ -1,45 +1,71 @@
 # TF Grid 2.3.0 Release Note
 
-## High Level Summary
+- 3Bot, your virtual system administrator
+  - 3bot deployer got serious upgrade (faster, prefunded wallet, easier to use)
+  - more performance of deployment
+  - auto topup for capacity pools (if capacity pools run out of capacity, they can be autofunded)
+  - SSH access into the 3bot, advanced users can now SSH into their 3bot and have full functionality access from the root shell.
+- Zero-OS = expanded manageability on TFGrid
+  - integrated monitoring hooks for the grid workloads like containers, which can be consulted by means of our SDK inside the 3bot
+  - logging hooks, which can be consulted by means of our SDK inside the 3bot
+- Explorer
+  - shows devnet, testnet and mainnet in 1 interface
+- TFGrid capabilities
+  - Automatic SSL test certificates can be given out for web workloads
+- Demo for Marketplace
+  - see https://marketplace.threefold.io
 
-[__The ThreeFold Grid__](https://wiki.threefold.io/#/grid_why) is a peer-to-peer and autonomous Internet grid that provides game-changing performance and empowers new possibilities. It sets the foundation for a better Internet, based on new principles: peer-to-peer, decentralized, autonomous, private, secure, and sustainable.
+And of course lots of bugfixes and small improvements.
+## Details
+### 3Bot
 
-__ThreeFold Grid 2.3__ release introduces the addition of testnet resource capacity to make your testing experience more effective. Please go to [Testnet TF Explorer](https://explorer.threefold.io/testnet) for more details.
+- package management
+  - 3Bot Packages can be installed from a github repo directly.
+  - reload of packages without restart of 3bot
+- auto topup of capacity pools
+  - You can now automatically extend your capacity pools when they are expiring; that way it will minimize workload downtime due to lacking resources. 
+  - An escalation email will also be sent automatically as a reminder to extend your capacity pool.
+- SSH access capability is added
+- backup has been improved:
+  - downloaded packages
+  - .ssh directory (so your access key is remembered)
+  - your personal code directories (to keep your code changes you made for your own 3Bot)
 
-## What’s New on ThreeFold Grid 2.3.0
-
-### ThreeFold Now
-
-- This 2.3.0 release introduces an improved user interface of [ThreeFold Now Marketplace](https://marketplace.threefold.io/marketplace/#/), providing categories for a better navigation experience. 
-- Along with new categories, this release introduces a new ThreeFold Now solution: you can now use a decentralized video calling solution deployable via ThreeFold Now Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings). 
-
-### [ThreeFold Explorer](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
-
-On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. The encryption scheme used to send sensitive information to workloads is improved. The explorer also only cancels workloads that are actually consuming resources when a capacity pool is exhausted.
-
-### [ThreeFold Connect (rebranded from: 3Bot Connect)](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
-
-- On this release, 3Bot Connect App is rebranded to __ThreeFold Connect App__. The ThreeFold Connect App is your main access point to the ThreeFold Grid.
-- A lot of improvement on the sign in process has been made on this release. Now, you can use your FaceID and TouchID to sign into your ThreeFold Connect account. Your 3Bot recovery flow is now improved and sign in issues for incorrect setup time on their mobile device is fixed. 
-- Performance and feature-wise, the app’s speed is increased and FreeFlow Pages feature is removed from ThreeFold Connect app since it is no longer promoted for usage.
 
 ### 3Bot Deployer
 
-3Bot Deployer is there to deploy your virtual system administrator in a fast and easy manner. Deployment speed is increased and the deployment flow of 3Bot is simplified. The decentralization aspect of your 3Bot is also improved by making it possible for you to choose where you want your 3Bot to be hosted - be it on a specific location, farm, or even to a specific node that you prefer.
+- simplifactions & faster
+- can select where to deploy your 3bot (more decentralization possibility)
+- pre-funded wallet during deployment makes it easier to get started (was 2 steps before)
+### ThreeFold Explorer: 0.4.1
 
-### 3Bot
+On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. 
 
-With this 2.3.0 release, a lot of automation to the processes has been added to scale the effectiveness of 3Bot deployment and improve your user experience as described below:
+- release: https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1
 
-- When you have successfully deployed a hosted 3Bot, a functional wallet will be added automatically. 
-- Automation is also added to the way how packages are added to your 3Bot. You are now able to directly add packages from subfolders in your Github repos and the package code can be reloaded without the need to restart the 3Bot. 
-- You can now automatically extend your capacity pools when they are expiring; that way it will minimize workload downtime due to lacking resources. An escalation email will also be sent automatically as a reminder to extend your capacity pool.
-- SSH access capability is added, as well as a backup option for downloaded packages, .ssh, and code directories that improve your workload management and security.
+### ThreeFold Connect: 2.0.0 (authenticator, wallet, news app)
+
+- rebranded from 3Bot Connect
+- sign in process improvements: FaceID and TouchID support
+- removed freeflow pages
+- improved performance
+
+- release: https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0
+
 
 ### [Zero OS](https://github.com/threefoldtech/zos/releases/tag/v0.4.6)
 
 Zero OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity required by the solutions running on the TF Grid. With this Grid 2.3.0 release, the resource management on Zero OS level is improved. The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing up of unused resources.
 
-### Jumpscale Framework ([JS-NG](https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7) and [JS-SDK](https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11))
+### ThreeFold Now Demo
 
-Jumpscale is an automation framework and the foundation of the autonomous layer. It includes all the components involved in creating the IT architecture for autonomous operations, like a container running a webserver, a database server, and then all the required network paths in between. This release introduces a lot of component improvements and bugs fixes, such as adding statistics to containers and making it easier for monitoring, as well as improved the logs of containers. We have also added support for test certificates.
+- see [ThreeFold Now Marketplace](https://marketplace.threefold.io/marketplace/#/).
+<!-- - Along with new categories, this release introduces a new ThreeFold Now solution: you can now use a decentralized video calling solution deployable via ThreeFold Now Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings).  -->
+### Jumpscale Framework 
+
+We have a new version of our jumpscale framework which is our automation framework and the foundation of the autonomous layer.
+
+- release: 
+  - https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7
+  - https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11
+
