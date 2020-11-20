@@ -1,5 +1,7 @@
 # TF Grid 2.3.0 Release Notes
 
+New in this release:
+
 - 3Bot, your virtual system administrator
   - 3bot deployer got serious upgrade (faster, prefunded wallet, easier to use)
   - more performance of deployment
@@ -57,19 +59,23 @@ On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information 
 - release: https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0
 
 
-### [Zero OS](https://github.com/threefoldtech/zos/releases/tag/v0.4.6)
+### Zero OS
 
 Zero OS (ZOS) is the operating system which allows the 3Nodes to be used to provide IT capacity required by the solutions running on the TF Grid. With this Grid 2.3.0 release, the resource management on Zero OS level is improved. The main focus is on improving the accuracy of the information reported by the nodes to the explorer regarding the amount of reserved capacity and improving the freeing up of unused resources.
+
+- release: https://github.com/threefoldtech/zos/releases/tag/v0.4.6
 
 ### ThreeFold Now Demo
 
 - see [ThreeFold Now Marketplace](https://marketplace.threefold.io/marketplace/#/).
+
 <!-- - Along with new categories, this release introduces a new ThreeFold Now solution: you can now use a decentralized video calling solution deployable via ThreeFold Now Marketplace on [this link](https://marketplace.threefold.io/marketplace/#/solutions/meetings).  -->
+
 ### Jumpscale Framework 
 
 We have a new version of our jumpscale framework which is our automation framework and the foundation of the autonomous layer.
 
-- release: 
+- releases: 
   - https://github.com/threefoldtech/js-ng/releases/tag/v11.0-b7
   - https://github.com/threefoldtech/js-sdk/releases/tag/11.0-b11
 
