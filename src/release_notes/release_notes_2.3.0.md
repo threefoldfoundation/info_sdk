@@ -17,7 +17,9 @@
   - see https://marketplace.threefold.io
 
 And of course lots of bugfixes and small improvements.
+
 ## Details
+
 ### 3Bot
 
 - package management
@@ -31,6 +33,7 @@ And of course lots of bugfixes and small improvements.
   - downloaded packages
   - .ssh directory (so your access key is remembered)
   - your personal code directories (to keep your code changes you made for your own 3Bot)
+
 ### 3Bot Deployer
 
 - simplifactions & faster
