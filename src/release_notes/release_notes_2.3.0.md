@@ -37,6 +37,7 @@ And of course lots of bugfixes and small improvements.
 - can select where to deploy your 3bot (more decentralization possibility)
 - pre-funded wallet during deployment makes it easier to get started (was 2 steps before)
 
+
 ### ThreeFold Explorer: 0.4.1
 
 On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. 
