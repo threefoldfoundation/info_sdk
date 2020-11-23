@@ -77,7 +77,7 @@ This process can take a while.
 
 ![](./img/threebot_6_3bot_setup.png)
 ![](./img/threebot_7_3bot_deploy.png)
-![](./img/threebot_8_3bot_init.png)
+![](./img/threebot_8_3bot_init.png) 
 
 
 ### Choose the 3Bot's Expiration Time
