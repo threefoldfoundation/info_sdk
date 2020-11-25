@@ -16,10 +16,10 @@ Here is the schema used to define a container reservation:
 ``` python
 zos = j.sals.zos.get()
 
-# This will create an AAAA record that points solution1.TF Grid.zaibon.be to 2a02:2788:864:1314:9eb6:d0ff:fe97:764b
+# This will create an AAAA record that points solution1.gateway.tf to 2a02:2788:864:1314:9eb6:d0ff:fe97:764b
 subdomain = zos.gateway.sub_domain(
        node_id='2fi9ZZiBGW4G9pnrN656bMfW6x55RSoHDeMrd9pgSA8T',
-       domain='solution1.TF Grid.zaibon.be',
+       domain='solution1.gateway.tf',
        ips=['2a02:2788:864:1314:9eb6:d0ff:fe97:764b'],
        pool_id=12)
 
