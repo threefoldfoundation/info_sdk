@@ -15,7 +15,7 @@ __ThreeFold Grid 2.3__ release introduces the addition of testnet resource capac
 
 ### [ThreeFold Explorer](https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1)
 
-On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. The encryption scheme used to send sensitive information to workloads is improved. The explorer also only cancels workloads that are actually consuming resources when a capacity pool is exhausted.
+On [ThreeFold Explorer](explorer.threefold.io) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. The encryption scheme used to send sensitive information to workloads is improved. The explorer also only cancels workloads that are actually consuming resources when a capacity pool is exhausted.
 
 ### [ThreeFold Connect (rebranded from: 3Bot Connect)](https://github.com/threefoldtech/3Bot_connect/releases/tag/v2.0.0)
 
