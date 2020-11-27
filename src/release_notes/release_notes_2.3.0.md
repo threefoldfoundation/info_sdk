@@ -45,9 +45,10 @@ And of course lots of bugfixes and small improvements.
 
 ### ThreeFold Explorer: 0.4.1
 
-On [ThreeFold Explorer](https://explorer.grid.tf/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. 
+On [ThreeFold Explorer](https:/explorer.threefold.io/) you can see node information and check all the available IT Capacity on both Testnet and Mainnet. 
 
 - release: https://github.com/threefoldtech/tfexplorer/releases/tag/v0.4.1
+
 
 ### ThreeFold Connect: 2.0.0 (authenticator, wallet, news app)
 

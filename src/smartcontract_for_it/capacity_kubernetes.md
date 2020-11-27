@@ -13,7 +13,6 @@ A kubernetes cluster could be linked to our other primitives.
 
 Schema used to define a kubernetes reservation:
 
-
 * **NodeId**: The node ID on which the Virtual machine will be created.
 * **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes).
 * **NetworkId**: The name of the network created using a [network](network.md) primitive.
@@ -41,6 +40,9 @@ Schema used to define a kubernetes reservation:
 | 12 | 16 | 64 | 200 |
 | 13 | 16 | 64 | 400 |
 | 14 | 16 | 64 | 800 |
+| 15 | 1 | 2 | 25 |
+| 16 | 2 | 4 | 50 |
+| 17 | 4 | 8 | 50 |
 
 ## Example
 
@@ -77,7 +79,6 @@ worker = zos.kubernetes.add_worker(
 # deploy both master and worker
 master_id = zos.workloads.deploy(master)
 worker_id = zos.workloads.deploy(worker)
-
 
 time.sleep(120)
 # inspect the result of the reservation provisioning
@@ -131,6 +132,7 @@ scp rancher@172.30.1.2:/etc/rancher/k3s/k3s.yaml k3s.yaml
 ```
 
 If you already have a kube config file usually located in `~/.kube/config`
+
 you could edit it and add the new cluster with the information written on k3s.yaml
 
 Here is an example of `~/.kube/config`
