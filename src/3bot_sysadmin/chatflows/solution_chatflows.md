@@ -13,3 +13,4 @@ Simply click on the links below to learn more about the current existing cloud s
 - [Delegate Domain](delegate_domain.md)
 - [Solution Expose](exposed.md)
 - [4 to 6 Gateway](four_to_six_gateway.md)
+- [ETCD](solution_etcd.md)
