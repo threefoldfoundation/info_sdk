@@ -15,7 +15,6 @@ In this tab you could check your ThreeFold Tokens wallets and balances. You coul
 
 ![](./img/3bot_wallet_1.png )
 
-
 ### Generate QR Code to receive ThreeFold Tokens
 
 To receive your ThreeFold Tokens you could copy your button or you have to fill next fields:

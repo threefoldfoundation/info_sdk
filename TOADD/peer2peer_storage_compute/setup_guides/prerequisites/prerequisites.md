@@ -6,7 +6,7 @@ All of them are pretty straight forward and you should having your capacity rese
 ## ThreeFold Connect App
 For identification and fund handling you will have to install the ThreeFold Connect App.
 
-[Installing the ThreeFold Connect App](3bot_connect_app.md)
+[Installing the ThreeFold Connect App](threefold_connect_install.md)
 
 ## Installing The ThreeFold SDK
 The ThreeFold SDK is the interface where you get acces to all different options to spinning up storage or compute capacity.

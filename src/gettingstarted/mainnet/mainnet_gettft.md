@@ -30,7 +30,7 @@ Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wal
 
 Your ThreeFold Connect App comes with an inclusive 3Bot Wallet that you could access within the app on your mobile phone. After installing the __ThreeFold Connect App__  on your mobile phone, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Simply click on the big __'transaction' icon__ on the bottom right corner of your screen to see your wallet address, and start sending or receiving TFT.
 
-> Please go back to [__ThreeFold Connect App__ Installation Manual](3botconnect_install.md) if you have not installed a ThreeFold Connect App on your mobile phone.
+> Please go back to [__ThreeFold Connect App__ Installation Manual](threefold_connect_install.md) if you have not installed a ThreeFold Connect App on your mobile phone.
 
 ### Store your TFT on your third-party testnet Stellar Wallet
 
