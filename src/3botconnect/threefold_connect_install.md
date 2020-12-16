@@ -24,7 +24,7 @@ Seed phrases are required to restore your wallet in the unlikely case you loose 
 
 <img src="img/3bot_seed_phrase.jpg" width="300" alt="">
 
-The seed phrase allows you to access and recover your ThreeFold Connect on any device. We highly recommend to write down your seed phrase on a paper (offline) and store it safely. The seed phrase is your only "key" to your 3Bot and 3Bot assets (not only digital currency but also all of the reservations, deployments and data storage on the peer-to-peer cloud). The ThreeFold team won't be able to assist you in recovering your account as we do not have any acess to your 3Bot account or private data.
+The seed phrase allows you to access and recover your ThreeFold Connect on any device. We highly recommend to write down your seed phrase on a paper (offline) and store it safely. The seed phrase is your only "key" to your 3Bot and 3Bot assets (not only digital currency but also all of the reservations, deployments and data storage on the peer-to-peer cloud). The ThreeFold team won't be able to assist you in recovering your account as we do not have any access to your 3Bot account or private data.
 
 ### IMPORTANT NOTES
 
