@@ -11,7 +11,6 @@ Please be aware that this ID will be used as your main digital identity on the T
 
 > Manual: [Get __ThreeFold Connect App__](threefold_connect_install.md)
 
-
 ## Get a 3Bot on Testnet
 
 [__3Bot__](testnet_3bot.md) is your virtual system administrator.
