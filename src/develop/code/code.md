@@ -3,7 +3,7 @@
 
 ## Prerequisites
 In order to be able to deploy anything on the grid, you will have to have the following components beforehand
-- Install ThreeFold Connect App to get an identity. More details could be found in [ThreeFold Connect installation](3botconnect_install.md) and [ThreeFold Connect setup](3botconnect_overview.md)
+- Install ThreeFold Connect App to get an identity. More details could be found in [ThreeFold Connect installation](threefold_connect_install.md) and [ThreeFold Connect setup](threefold_connect_overview.md)
 - Installation of js-sdk. Getting started instructions to install the sdk could be found [here](3bot_local_install.md)
 - Setup ThreeFold Connect identity on the grid using the installed sdk. Further details could be found [here](identity.md)
  

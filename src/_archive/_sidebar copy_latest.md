@@ -11,7 +11,7 @@
  - [Technologies Intro](tech_intro.md)
  - [Farming Intro](farming_getting_started.md)
 - [Getting Started](gettingstarted.md)
- - [ThreeFold Connect Installation](3botconnect_install.md)
+ - [ThreeFold Connect Installation](threefold_connect_install.md)
  - [Get Tokens](getting_started_get_tft.md)
  - [Get Your 3Bot](getting_started_3bot.md)
  - [Your First Network](getting_started_network.md)

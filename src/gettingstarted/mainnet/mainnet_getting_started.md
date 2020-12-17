@@ -2,18 +2,15 @@
 
 ![](get_started_mainnet.png)
 
-
 ## Basic Pre-requisites
 
 To provision any workload on top of the __ThreeFold Grid__, there are some pre-requisites that need to be done:
-- Get [__ThreeFold Connect App__](3botconnect_install.md): ThreeFold Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the ThreeFold Grid.
+- Get [__ThreeFold Connect App__](threefold_connect_install.md): ThreeFold Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the ThreeFold Grid.
 - Get a [__Mainnet 3Bot__](mainnet_3bot.md). You have the option to either get a mainnet hosted 3Bot or mainnet local 3Bot.
 - Log in to your __mainnet hosted 3Bot__, if you deployed a hosted 3Bot instead of a local 3Bot.
 - Get and store [__TFT__ on Mainnet](mainnet_gettft.md) to reserve IT Capacity and pay for your workload on top of the TF Grid
 
-
 ## High-level Instruction to Get Started
-
 
 ### Get ThreeFold Connect App and 3Bot ID
 
@@ -21,8 +18,7 @@ As the first step, you need to get yourself a **ThreeFold Connect** and **3Bot I
 
 Please be aware that this ID is going to be used as your main digital identity on the ThreeFold Grid, and holds the keys to access every services on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The ThreeFold Connect App will also provide you with an access to your 3Bot Wallet where you could store your ThreeFold Tokens.
 
-> Manual: [Get __ThreeFold Connect App__](3botconnect_install.md)
-
+> Manual: [Get __ThreeFold Connect App__](threefold_connect_install.md)
 
 ## Get a 3Bot on Mainnet
 
@@ -35,7 +31,6 @@ Please be aware that this ID is going to be used as your main digital identity o
 ## Launch and Log in to Your New Hosted 3Bot
 
 Once you’ve signed up and deployed a hosted 3Bot successfully, you will be given a link to access your hosted 3Bot via web browser. Simply go to the provided link to launch your 3Bot and login to your new 3Bot admin dashboard by connecting it to your 3Bot ID and verifying your identity via the ThreeFold Connect App on your mobile phone.
-
 
 ## Get and Store TFT to Reserve for Your IT Capacity
 
