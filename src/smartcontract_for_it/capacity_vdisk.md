@@ -12,10 +12,8 @@ This allows a user to create/update an existing container while keeping all the 
 
 Here is the schema used to define a volume reservation:
 
-* **NodeId**: The node ID on which to create the volume.
-* **Size**: The size of the volume in GiB.
-* **Type**: The type of disk to use. value could be `HDD` or `SSD`.
-* **pool_id**: The capacity pool ID to use to provision the workload.
+* **size**: The size of the volume in GiB.
+* **type**: The type of disk to use. value could be `HDD` or `SSD`.
 
 ## Example using sdk
 

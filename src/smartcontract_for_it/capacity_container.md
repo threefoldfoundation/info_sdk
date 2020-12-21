@@ -8,45 +8,42 @@ This primitive allows a user to run its application into a container on a node.
 
 Here is the schema used to define a container reservation:
 
-* **Flist**: the URL of the [Flist](#Flist). This URL needs to be reachable by
+* `flist`: the URL of the [Flist](#Flist). This URL needs to be reachable by
 
 the node. This is usually a URL to https://hub.grid.tf/.
 
-* **HubUrl**: The URL of the hub to use, if not using the default hub.grid.tf.
-* **Environment**: The environment variables to set inside the container. This is usually used to configure the application running in the container.
-* **SecretEnvironment**: It is the same as `Environment` but these values are encrypted.
-* **Entrypoint**: It is the program to start when the container is created.
-* **Interactive**: If set to true, coreX is started in the container and the value.
+* `hub_url`: The URL of the hub to use, if not using the default hub.grid.tf.
+* `environment`: The environment variables to set inside the container. This is usually used to configure the application running in the container.
+* `secret_environment`: It is the same as `Environment` but these values are encrypted.
+* `entrypoint`: It is the program to start when the container is created.
+* `interactive`: If set to true, coreX is started in the container and the value.
 
 of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
 for more detail.
 
-* **Volumes**: This is where you define which volume to mount inside the container.
+* `volumes`: This is where you define which volume to mount inside the container.
+ - `volume_id`: The ID of the volume.
+ - `mountpoint`: The path into the container filesystem where to mount the volume.
 
- - **VolumeID**: The ID of the volume.
- - **Mountpoint**: The path into the container filesystem where to mount the volume.
+* `capacity`:
 
-* **Capacity**:
-
- - **CPU**: The amount of virtual CPU to allocate to the container.
- - **Memory**: The amount memory in MiB to allocate to the container.
- - **DiskSize**: The size in MiB of the root filesystem of the container.
- - **DiskType**: The type of disk to use for the root filesystem of the container.
+ - `cpu`: The amount of virtual CPU to allocate to the container.
+ - `memory`: The amount memory in MiB to allocate to the container.
+ - `disk_size`: The size in MiB of the root filesystem of the container.
+ - `disk_type`: The type of disk to use for the root filesystem of the container.
  Valid value are 'HDD' or 'SSD'.
 
-* **NetworkConnection**: This is where you define the network of the container
+* `network_connection`: This is where you define the network of the container
 
- - **NetworkId**: The name of the network created using a [network](network.md)
+ - `network_id`: The name of the network created using a [network](network.md)
  primitive.
- - **Ipaddress**: net. IP: The IP address to give to the container.
- - **public_ipv6**: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
+ - `ipaddress`: net. IP: The IP address to give to the container.
+ - `public_ipv6`: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
  to the public internet and out of your private overlay network.
- - **yggdrasil_ip**: If true, allocated an yggdrasil IP address to the container. This will make the container directly accessible over the yggdrasil network.
+ - `yggdrasil_ip`: If true, allocated an yggdrasil IP address to the container. This will make the container directly accessible over the yggdrasil network.
 
-* **Logs**: A redis backend where you can send stdout and stderr output.
-* **StatsAggregator**: A list of redis backend where you can send periodic statistics.
-* **Statistics**: A redis backend where you can send periodic statistics.
-* **pool_id**: The capacity pool ID to use to provision the workload.
+* `logs`: A redis backend where you can send stdout and stderr output.
+* `stats`: A list of redis backend where you can send periodic statistics.
 
 ## Flist
 
@@ -72,7 +69,7 @@ You can even specify multiple endpoints. For now only redis is supported but thi
 
 In the reservation payload, there is a `logs` field where you can specify your endpoints:
 
-``` 
+```
  ...
  "entrypoint": "",
  "interactive": true,
@@ -98,7 +95,7 @@ You can read them via redis using `SUBSCRIBE container-stdout container-stderr` 
 Like logs, you can send statistics to a (only for now) redis channel. Container will send each 2 seconds a statistic info into
 the specified channel:
 
-``` 
+```
 {
  "timestamp": 1586221435,
  "memory_usage": 561152,
@@ -111,7 +108,7 @@ the specified channel:
 
 To set your remote endpoint, you can specify in the reservation:
 
-``` 
+```
  ...
  "interactive": true,
  "logs": null,
