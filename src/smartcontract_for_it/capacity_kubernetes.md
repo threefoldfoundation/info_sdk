@@ -43,6 +43,7 @@ Schema used to define a kubernetes reservation:
 | 15 | 1 | 2 | 25 |
 | 16 | 2 | 4 | 50 |
 | 17 | 4 | 8 | 50 |
+| 18 | 1 | 1 | 25 |
 
 ## Example
 
