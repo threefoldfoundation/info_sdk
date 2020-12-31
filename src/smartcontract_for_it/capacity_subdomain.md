@@ -1,4 +1,4 @@
-# Sub domain 
+# Sub domain
 
 This primitives provided by the TFGateway allow a user to create a new sub-domain and make it point to their solution.
 
@@ -6,7 +6,7 @@ This primitives provided by the TFGateway allow a user to create a new sub-domai
 
 Here is the schema used to define a container reservation:
 
-* **NodeId**: The gateway ID on which to delegate the domain.
+* **node_id**: The gateway ID on which to delegate the domain.
 * **domain**: The full domain you want to create.
 * **ips**: A list of target IPs. Depending if the IP is an IPv4 or an IPv6, an A or AAAA record will be created accordingly.
 * **pool_id**: The capacity pool ID to use to provision the workload.

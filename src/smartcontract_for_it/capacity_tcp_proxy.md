@@ -6,7 +6,7 @@ This primitives provided by the TFGateway allows a user to forward traffic from 
 
 Here is the schema used to define a container reservation:
 
-* **NodeId**: The gateway ID on which to delegate the domain.
+* **node_id**: The gateway ID on which to delegate the domain.
 * **domain**: The domain to forward traffic from.
 * **addr**: The destination address where to proxy the traffic to. This address needs to be reachable by the TFGateway.
 * **port**: The listening port of your service handling plain text traffic, usually HTTP.
