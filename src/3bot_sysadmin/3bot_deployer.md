@@ -5,10 +5,6 @@
 ## How to Deploy your 3Bot
 
 - For __Mainnet__ Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
-- For __Testnet__ Go to [3Bot Deployer Website For Testnet](https://deploy3bot.testnet.grid.tf) 
-
-> IMPORTANT: The two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, you cannot purchase capacity on TF Grid Mainnet by using the Testnet TFT you have on your testnet wallet. <BR>
-> To learn more about the distinction between testnet & mainnet [see this doc](mainnet_testnet)
 
 ### Create a 3Bot
 

@@ -134,8 +134,9 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - `category`: The type of workload for which the reply is.
 - `workload_id`: The id of the workload for which the reply is. This will be the same as one of the `workload_id`s in the [reservation data](#reservationdata).
 - `signature`: The bytes of the signature. The signature is created by the node which creates the reply. The data signed is the `data_json` field. This proves the authenticity of the reply as well as the integrity of the response data.
+- `data_json`: actual result pay load (different per category)
 - `state`: Did the workload deploy ok ("ok") or not ("error").
-- `message`: Content of the message sent by the node.
+- `message`: Content of the message sent by the node (in case of error)
 - `epoch`: Time at which the result has been created.
 - `node_id`: The node ID of the node that deployed the workload.
 
