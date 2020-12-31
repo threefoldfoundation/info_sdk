@@ -123,8 +123,58 @@ To set your remote endpoint, you can specify in the reservation:
  ...
 ```
 
+
+### Endpoint
+
 Fields `endpoint` wants uri like: `redis://host:port/channel`
 You can read them via redis using `SUBSCRIBE container-stats` for example.
+
+Since this uses `PUB/SUB` method, redis doesn't keep any logs. If there are no
+subscribers attached when statistics are pushed, they are discarded.
+
+You need to get a subscriber attached to fetch statistics.
+
+### Values
+
+- `timestamp`: Unix timestamp when stats were generated.
+- `memory_usage`: Effective memory usage in in bytes.
+- `memory_limit`: Maximum memory you can use, in bytes.
+- `memory_cache`: Cache usage (like when using `free` command) in bytes.
+- `cpu_usage`: CPU time elapsed, in 10 microseconds.
+- `pids_current`: Amount of pids running.
+
+Note: timestamp is in second (for now), which will be updated later to increase precision.
+
+In order to compute CPU usage in percentage, you need to substract two statistics points and
+divide difference by `10000000`:
+```
+(usage - prev.usage) / ((timestamp - prev.timestamp) / 10000000)
+```
+
+### SDK
+
+There is a helper on the `sal` where you can get container statistics.
+
+Via container object:
+```python
+zos = j.sals.zos
+
+# create your container
+container = zos.container.create(...)
+
+# attach your stats
+zos.container.add_stats(container, "redis://remote:6379/stats")
+
+# ... deploy your container ...
+
+# monitor statistics
+zos.container.monitor(container)
+```
+
+You can also monitor from an existing reservation:
+```
+zos.container.monitor_reservation('https://explorer/api/v1/reservations/workloads/103')
+```
 
 ## Example using sdk
 
