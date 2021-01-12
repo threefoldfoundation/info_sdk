@@ -1,5 +1,6 @@
-# TF Grid 2.3.4 Release Notes
+# TF Grid 2.4.0 Release Note
 
+Live on testnet - Monday, January 11, 2021.
 
 ## New on this release
 
