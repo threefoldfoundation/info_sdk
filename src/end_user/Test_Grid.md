@@ -57,11 +57,12 @@ On the 'Select Test Suites and Cases' page, check 'Deploy a new eVDC' test suite
 
 You will then proceeds to the list of all created test runs from you and other users / testers in this project. Click on the test run you just created.
 
-![](./img/test_list.png)
+![](./img/my_test.png)
 
 You will be redirected to your own test run profile with the summary and list of the test suite(s) you will need to run.
 
-![](./img/my_test.png)
+![](./img/test_list.png)
+
 
 On the 'test suite' list shown, click on the 'Deploy eVDC' test suite, and click 'run test' to start testing.
 
@@ -73,7 +74,7 @@ Go to the eVDC Deployer and begin your test.
 
 Write your remark on the provided comment box, and click on 'pass' , 'fail' or 'skip' depending on the result of your test run to provide feedback to the QA Team of ThreeFold.
 
-![](./img/test_report.png)
+![](./img/report_test.png)
 
 Repeat the last step to finish all use cases test run to complete your test run.
 
