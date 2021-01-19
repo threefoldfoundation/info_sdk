@@ -13,3 +13,5 @@ If you have advices, suggestions on our product components or our manual, or if 
 > [Report an issue on __Threefold Tech Github__](https://github.com/threefoldtech/home/issues)
 
 > [Learn How to Create an Issue on Github](https://docs.github.com/en/enterprise/2.15/user/articles/creating-an-issue)
+
+> [Become a Grid Tester](test_grid.md)
