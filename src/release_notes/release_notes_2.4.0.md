@@ -6,9 +6,9 @@ Live on testnet - Monday, January 11, 2021.
 
 ### Introducing: edge Virtual DataCenter (eVDC) v0.1.0
   - Deploy containerized Unix IT applications on the grid via eVDC Deployer
-  - Set up Kubernetes clusters that are able to orchestrate and manage containers running on the TF Grid via eVDC admin panel.
-  - Easily extend your Kubernetes container capacity
-  - add orupgrade your eVDC plan by using the built-in wallet inside your eVDC admin panel.
+  - Set up Kubernetes clusters that are able to orchestrate and manage containers running on the Kubernetes cluster via eVDC admin panel.
+  - Easily extend your Kubernetes capacity
+  - add Kubernetes capacity by using the built-in wallet inside your eVDC admin panel.
   - Deployable using TFT (ThreeFold Tokens).
 
 
@@ -16,7 +16,7 @@ Live on testnet - Monday, January 11, 2021.
 - Easy-to-deploy decentralized applications deployment via eVDC
 - The first set of 13 deployable solutions: Discourse, Gitea, Mattermost, and many more.
 - NEW: Digibyte and Dash Blockchain Nodes now deployable via eVDC TFNOW marketplace.
-- Including ThreeFold’s own peer-to-peer solutions like TF Meet (VideoChat), Publishing Tools (Website and Blogging).
+- Including ThreeFold’s own peer-to-peer solutions like TF Meet (VideoChat), Publishing Tools (Website, Wiki, and Blogging).
 - Release Note: [TF NOW Marketplace v2.4.0](https://github.com/threefoldtech/vdc-solutions-charts/releases)
 
 
@@ -51,10 +51,9 @@ Live on testnet - Monday, January 11, 2021.
 - Show the monthly amount of CUs and SUs on 3Bot admin panel
 - Accept IPV4 connection to deploy 3Bot
 - Provide 3Bot information on the admin panel
-- Provide TF Explorer test coverage and further test coverage on js-sdk
-- Provide ssh access
-- 3Bot monitoring system made available
 - Auto-extend capacity pools is enabled by default
+- Improvements in network stability of the 3Bots
+- More hardening for stellar payments
 - Release Note: [JS-SDK 11.1](https://github.com/threefoldtech/js-sdk/releases)
 
 ### JS-NG 11.1
@@ -73,6 +72,7 @@ Live on testnet - Monday, January 11, 2021.
 - Release Note: [ZOS 4.0.8](https://github.com/threefoldtech/zos/releases/tag/v0.4.8)
 
 ### TF Explorer 0.4.8
+- Accepts TFT (ThreeFold Tokens) mainnet as the token used on our testing (testnet) environments.
 - Fixed account creation error by increasing the fees up to 5 times on retry.
 - Showcase the prices for IPV4 network on TF Explorer website
 - Support more Kubernetes sizes.
