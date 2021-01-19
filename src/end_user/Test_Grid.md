@@ -29,10 +29,10 @@ Inside the project, you would see a display of the project overview to see the c
 
 ![](./img/project_overview.png)
 
-__- Total Test Plans__: is the amount of test plans, or products being tested on this project.
-__- Total Requirement Docs__: is the amount of testing documentation provided for each test on this project.
-__- Total Test Suites__: is the amount of individual test use cases for every product being tested on this project. This is the test procedures you would be doing as a user / tester. 
-__- Total Test Runs__: is the amount of individual testing round of every user that has been created for this project. Each tester would have their own Test Run serving as a testing dashboard where you can report the result of every test. You would need to __create a Test Run__ with your name as the title to get started with testing the __TF Grid Test Suites__.
+- __Total Test Plans__: is the amount of test plans, or products being tested on this project.
+- __Total Requirement Docs__: is the amount of testing documentation provided for each test on this project.
+- __Total Test Suites__: is the amount of individual test use cases for every product being tested on this project. This is the test procedures you would be doing as a user / tester. 
+- __Total Test Runs__: is the amount of individual testing round of every user that has been created for this project. Each tester would have their own Test Run serving as a testing dashboard where you can report the result of every test. You would need to __create a Test Run__ with your name as the title to get started with testing the __TF Grid Test Suites__.
 
 ### Creating Your Own Personal Test Run 
 
