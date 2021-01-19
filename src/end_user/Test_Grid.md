@@ -2,7 +2,9 @@
 
 After each release of every newer grid version, we invite everyone within ThreeFold Community to test the grid's product components and give our engineering team constructive feedback on our product development. 
 
-We have chosen to use TestLodge as our QA and testinf platform. Testlodge is a platform that enable ThreeFold to manage our products' test plans, test cases & test runs with ease. By joining TestLodge as a user, you could then assist us in running test use cases and reporting issues found during our product deployment processes.
+![](./img/test_home.png)
+
+We have chosen to use TestLodge as our QA and testing platform. Testlodge is a platform that enable ThreeFold to manage our products' test plans, test cases & test runs with ease. By joining TestLodge as a user, you could then assist us in running test use cases and reporting issues found during our product deployment processes.
 
 ## Getting Started on TestLodge
 
