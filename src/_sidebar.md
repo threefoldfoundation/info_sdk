@@ -84,6 +84,7 @@
    - [ChatFlow](develop_chatflow.md)
    - [Flist](flist_intro.md)
 * [Community Channels](community.md)
+   - [Become a Grid Tester](test_grid.md)
 * [Collaboration](collab.md)
 * [Release Notes](releasenotes.md)
    - [2.3.0](release_notes_2.3.0.md)
