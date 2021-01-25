@@ -8,5 +8,7 @@
 * TF Grid
  * [3Bot Deployer](https://manual.threefold.io/#/3bot_deployer)
  * [TF Grid Demo](https://marketplace.threefold.io/)
- * [TF Grid Testnet Manual](https://manual-testnet.threefold.io/)
  * [TF Grid Simulator](https://wiki.threefold.io/#/simulator)
+
+
+<!--   * [TF Grid Testnet Manual](https://manual-testnet.threefold.io/) -->
