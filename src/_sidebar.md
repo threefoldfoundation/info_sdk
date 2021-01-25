@@ -87,6 +87,7 @@
 * [Collaboration](collab.md)
    - [Become a Grid Tester](test_grid.md)
 * [Release Notes](releasenotes.md)
+   - [2.4.0](release_notes_2.4.0.md)
    - [2.3.0](release_notes_2.3.0.md)
    - [2.2.0](release_notes_2.2.0.md)
    - [2.1.0 beta](release_notes_2.1.0.md)
