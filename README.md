@@ -5,16 +5,13 @@
 Welcome to __Grid Manual__.
 Before contributing to this repo, one should understand that this repo reflects on three different manuals for 2 different versions of the TF Grid, and the content is clustered within 2 different branches.
 
-1. [TF Grid 2.1 manual](https://manual.threefold.io) - the manual for the grid on 2.1 and documents [Marketplace (Mainnet)](https://threefold_now.grid.tf). The manual is developed on `master` branch
- 
-2. [TF Grid 2.2 Testnet manual](https://manual2.threefold.io) - the manual for the grid 2.2 and documents [TF Grid Demo](https://demo.grid.tf) and [Hosted 3Bot (via 3Bot Deployer)](https://deploy3bot.grid.tf) on Testnet, manual is developed on `development` branch
-
+1. [TF Grid 2.4 manual](https://manual.threefold.io) - the manual for the grid on 2.4.
 
 ### Creating Issues
 When creating a new issue, please identify if it's an issue from TF Grid Manual 2.1 or TF Grid Manual 2.2.
 Title example:
-MANUAL 2.1 - Create a tutorial on installing wireguard
-MANUAL 2.2 - Add placeholder for intro.md
+MANUAL 2.4 - Create a tutorial on installing wireguard
+MANUAL 2.3 - Add placeholder for intro.md
 
 ### Run the wiki yourself
 
