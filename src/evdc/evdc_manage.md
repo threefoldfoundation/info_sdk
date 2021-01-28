@@ -12,4 +12,4 @@ You can go to each eVDC's admin panel via the globe icon. You can also manage th
 
 On the same page, you can also start the setup of a new VDC.
 
-> Go to [__eVDC Admin Panel manual__](evdc_admin.md) to manage each VDC.
+> Go to [__eVDC Admin Panel__](evdc_admin.md) to explore and manage each individual VDC.

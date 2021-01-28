@@ -20,7 +20,7 @@
  - [eVDC Deployer](evdc_deployer)
       - [Deploy eVDC](evdc_deploy)
       - [Manage eVDC](evdc_manage)
- - [eVDC Dashboard](evdc_admin.md)
+ - [eVDC Admin Panel](evdc_admin.md)
       - [Upgrade Nodes](evdc_upgrade.md)
       - [Remove Nodes](evdc_remove.md)
       - [Manage Networks](evdc_network.md)
@@ -32,7 +32,7 @@
    <!-- - 3bot -->
 * [3Bot](3bot.md)
  - [3Bot Deployer](3Bot_deployer.md)
- - [3Bot Dashboard](3bot_admin.md)
+ - [3Bot Admin Panel](3bot_admin.md)
  - [Wallets](3bot_wallet.md)
  - [Capacity Pools](3bot_capacity_pools.md)
     - [Your First Capacity Pool](3bot_capacity_new.md)
