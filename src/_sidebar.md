@@ -12,7 +12,7 @@
    - [0-Container Virtual FS](architecture_Flist.md)
    - [Compatibility with IT standards](architecture_compatibility.md)
 * [Getting Started](getting_started_all.md)
-   - [Get Your 3Bot On Mainnet](mainnet_getting_started.md)
+   - [Get Your 3Bot On Mainnet](3Bot_getting_started.md)
       - [Get ThreeFold Connect](threefold_connect_install.md)
       - [Get 3Bot](mainnet_3bot.md)
       - [Get and Store TFT](mainnet_gettft.md)
