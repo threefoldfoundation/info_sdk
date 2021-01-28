@@ -17,7 +17,6 @@
    - [See Nodes On The TFGrid](explore_nodes.md)
  <!-- - vdc section -->   
 * [eVDC](evdc.md)
- - [eVDC Prerequisites](evdc_getting_started.md)
  - [eVDC Deployer](evdc_deployer)
       - [Deploy eVDC](evdc_deploy)
       - [Manage eVDC](evdc_manage)
