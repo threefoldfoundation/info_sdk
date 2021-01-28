@@ -12,11 +12,11 @@
    - [0-Container Virtual FS](architecture_Flist.md)
    - [Compatibility with IT standards](architecture_compatibility.md)
 * [Getting Started](all_getting_started.md)
-      - [Get ThreeFold Connect](threefold_connect_install.md)
-      - [Get and Store TFT](mainnet_gettft.md)
-      - [See Nodes On The TFGrid](explore_nodes.md)
+   - [Get ThreeFold Connect](threefold_connect_install.md)
+   - [Get and Store TFT](mainnet_gettft.md)
+   - [See Nodes On The TFGrid](explore_nodes.md)
  <!-- - vdc section -->   
-- [eVDC](evdc.md)
+* [eVDC](evdc.md)
  - [eVDC Prerequisites](evdc_getting_started.md)
  - [eVDC Deployer](evdc_deployer)
       - [Deploy eVDC](evdc_deploy)
@@ -30,8 +30,8 @@
          - [Deploy K8s Cluster](evdc_deploy_cluster.md)
          - [Upload Cluster Containers](evdc_upload_cluster_containers.md)
          - [Monitor K8s Clusters](evdc_monitor_cluster.md)
-   <!-- - [Your First Solution (wiki example)](getting_started_wikideploy.md) -->
-- [3Bot](3bot.md)
+   <!-- - 3bot -->
+* [3Bot](3bot.md)
  - [3Bot Deployer](3Bot_deployer.md)
  - [3Bot Dashboard](3bot_admin.md)
  - [Wallets](3bot_wallet.md)
