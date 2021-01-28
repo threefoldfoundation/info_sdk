@@ -1,7 +1,8 @@
 # Basic Pre-requisites to Get Started
 
 To provision any workload on top of the __ThreeFold Grid__, there are some pre-requisites that need to be done:
-- Get [__ThreeFold Connect App__](threefold_connect_install.md): ThreeFold Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID: your digital identity on top of the ThreeFold Grid.
+
+- Get [__ThreeFold Connect App__](threefold_connect_install.md); ThreeFold Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID; your digital identity on top of the ThreeFold Grid.
 - Get and store [__TFT__](mainnet_gettft.md) into your TF Connect Wallet to reserve IT Capacity and pay for your workload on top of the TF Grid.
 - Go to [__eVDC Manual__](evdc.md) if you would like to get started on TF Grid 2.4 (testnet) by using eVDC 
 - Go to [__3Bot Manual__](3bot.md) if you would like to get started by TF Grid 2.3 (mainnet) by using 3Bot SDK. 
