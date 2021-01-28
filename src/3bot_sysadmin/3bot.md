@@ -1,4 +1,3 @@
 # 3Bot
 
-Follow the instructions to install your 3bot which is your virtual system administrator.
-
+ Follow the instructions on [3Bot Deployer](3Bot_deployer.md) to install your 3Bot - your virtual system administrator.
