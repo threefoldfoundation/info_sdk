@@ -23,7 +23,7 @@
  - [eVDC Admin Panel](evdc_admin.md)
       - [Manage Compute Nodes](evdc_compute.md)
          - [Upgrade Nodes](evdc_upgrade.md)
-         - [Remove Nodes](evdc_remove.md)
+         - [Remove Nodes](evdc_downgrade.md)
       - [Manage Storage Nodes](evdc_storage.md)
       - [eVDC Wallet](evdc_wallet.md)
       - [Manage Networks](evdc_networks.md)

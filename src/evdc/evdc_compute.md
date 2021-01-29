@@ -16,4 +16,4 @@ You will be directed to the 'Compute Nodes' page within your eVDC Management pag
 
 > [Upgrade eVDC Capacity by Adding a Node](evdc_upgrade.md)
 
-> [Downgrade eVDC Capacity by Removing a Node](evdc_remove.md)
+> [Downgrade eVDC Capacity by Removing a Node](evdc_downgrade.md)
