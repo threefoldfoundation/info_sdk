@@ -20,17 +20,13 @@ On the payment page, you would be instructed to transfer some TFT to pay for you
 
 Scan the QR Code by using ThreeFold Connect app on your phone and confirm your payment. 
 
-![](scanqr.png)
+![](scanqr.jpeg)
 
 The payment screen will automatically reload itself if payment is successful and start to deploy the new node immidiately. The new node deployment will take a few minutes, please do not close this deployment window in the meantime.
 
 ![](extendnodeprocess.png)
 
-Once the new node deployment is finished, you will receive a note that your eVDC has been extended / upgraded successfuly. 
-
-![](extendnodeprocess.png)
-
-You can now go back to 'My VDC' page and see that a new worker node has been deployed successfully.
+Once the new node deployment is finished, you will be directed to the final screen that shows that your eVDC has been extended / upgraded successfuly. You can now go back to 'My VDC' page and see that a new worker node has been deployed successfully.
 
 ![](newnode.png)
 
