@@ -1,10 +1,3 @@
----
-description: ''
-sidebar: 'docs'
-prev: '/docs/start-pay/'
-next: '/docs/k8s-upload/'
----
-
 # Deploy K8s Cluster
 
 The Kubernetes cluster comes with the creation of your VDC. 
