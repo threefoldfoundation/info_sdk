@@ -1,6 +1,6 @@
 # Manage Compute Nodes in an eVDC
 
-Compute Nodes are the capacity inside your virtual machines. This capacity is used to deploy and maintain deployed workloads and inside your eVDC. 
+Compute Nodes are the capacity inside your kubernetes cluster. This capacity is used to deploy and maintain deployed workloads and inside your eVDC. 
 
 You can easily upgrade or downgrade capacity inside your eVDC by adding or removing worker nodes via the Compute Nodes page on your admin panel.
 
