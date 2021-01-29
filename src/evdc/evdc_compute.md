@@ -10,3 +10,8 @@ Once youre logged in the eVDC, click on __'My VDC'__ menu on the top right corne
 
 ![](./img/myvdc.png)
 
+You will be directed to the 'Compute Nodes' page within your eVDC Management page where you can add or remove nodes based on your necessity.
+
+> [Upgrade eVDC Capacity by Adding a Node](evdc_upgrade.md)
+
+> [Downgrade eVDC Capacity by Removing a Node](evdc_remove.md)
