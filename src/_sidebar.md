@@ -26,6 +26,8 @@
          - [Remove Nodes](evdc_downgrade.md)
       - [Manage Storage Nodes](evdc_storage.md)
       - [eVDC Wallet](evdc_wallet.md)
+         - [Wallet Access](evdc_wallet_access.md)
+         - [Wallet Top Up](evdc_wallet_topup.md)
       - [Manage Networks](evdc_networks.md)
       - [TFNOW Marketplace](evdc_tfnow.md)
       - [K8S Deployment](evdc_k8s.md)
