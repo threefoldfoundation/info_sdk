@@ -1,4 +1,4 @@
-# How to Upgrade eVDC Capacity by Adding a Node
+# How to Upgrade eVDC Capacity
 
 To upgrade eVDC Capacity, you can extend your kubernetes cluster by adding an additional worker node, simply through a few clicks.
 

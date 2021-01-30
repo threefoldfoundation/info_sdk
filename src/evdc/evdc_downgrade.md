@@ -1,4 +1,4 @@
-# How to Downgrade your eVDC Capacity by Removing a Worker Node
+# How to Downgrade your eVDC Capacity
 
 To downgrade your eVDC Capacity, you can simply remove a worker node from your kubernetes cluster through a few clicks.
 
