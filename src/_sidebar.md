@@ -71,7 +71,7 @@
    * [Booting a 3Node Over USB](boot_3node_usb)
    * [Managing Your Farm & Nodes](3bot_farm_mgmt_.md)
    * [Manage your farm wallet](configure_wallet.md) 
-* [ThreeFold Now](threefold_now.md)
+* [ThreeFold NOW](threefold_now.md)
 * [Smart Contract For IT](smart_contract.md)
  - [Smart Contract Details](smartcontract_details.md)
  - [Capacity pool concept](capacity_pool.md)

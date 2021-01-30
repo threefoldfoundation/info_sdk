@@ -1,1 +1,1 @@
-!!!include:legal:termsconditions
+!!!include:evdc:evdc_tfnow.md
