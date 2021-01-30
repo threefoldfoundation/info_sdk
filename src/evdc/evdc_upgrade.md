@@ -2,7 +2,7 @@
 
 To upgrade eVDC Capacity, you can extend your kubernetes cluster by adding an additional worker node, simply through a few clicks.
 
-On your__'Compute Nodes'__ page, click on __'Add Node' button on the top right corner of the page.
+On your __Compute Nodes__ page, click on __Add Node__ button on the top right corner of the page.
 
 ![](addnode.png)
 
