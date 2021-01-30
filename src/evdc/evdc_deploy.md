@@ -9,7 +9,7 @@ To provision any workload using TF eVDC, there are some pre-requisites that need
 
 ## How to Deploy eVDC 
 
-Go to [__eVDC Deployer__ website](https://vdc.testnet.grid.tf/vdc/#/) and login the eVDC platform by using your [TF Connect account](threefold_connect_install.md). Follow the instructions on your desktop screen and on your TF Connect mobile app to log into the eVDC Deployer.
+Go to [__eVDC Deployer website__](https://vdc.testnet.grid.tf/vdc/#/) and login the eVDC platform by using your [TF Connect account](threefold_connect_install.md). Follow the instructions on your desktop screen and on your TF Connect mobile app to log into the eVDC Deployer.
 
 ![](evdc_login.png)
 
@@ -35,13 +35,13 @@ The payment screen will automatically reload itself if payment is successful and
 
 You will be notified once the new eVDC deployment is finished. Click on Finish to access your deployed eVDCs list.
 
-![](newvdc.png)n
+![](newvdc.png)
 
 You can also access and manage your newly deployed eVDC on your 'List VDCs' page accessible via the evDC Deployer Homepage.
 
 ![](deployer.png)
 
-> Read more on [__How to Access and Managed Your Deployed eVDCs](evdc_manage.md)
+> Read more on [__How to Access and Managed Your Deployed eVDCs__](evdc_manage.md)
 
 ## Where to ask questions
 
