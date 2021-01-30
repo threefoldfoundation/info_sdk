@@ -6,4 +6,4 @@ You could also find the information about your network, your wallet key, wallet 
 
 > Read more on [__How to Access your eVDC Wallet__](evdc_wallet_access.md)
 
-> Read more on [__How to top up TFT on your eVDC Wallet__](evdc_wallet_topup.md)
+> Read more on [__How to top up TFT on your eVDC Wallet__](evdc_wallet_topup.m)
