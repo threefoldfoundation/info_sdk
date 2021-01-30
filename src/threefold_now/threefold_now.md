@@ -28,7 +28,7 @@
 - Please visit [the wiki](https://now.threefold.io) where you can find much more information.
 - All *live* solutions have brief deployment tutorials on their specific pages.
 
-![](./img/tfnowscreen.png)
+![](./img/tfnow_home.png)
 
 > By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
 
