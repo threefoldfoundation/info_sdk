@@ -1,22 +1,43 @@
-# How to deploy eVDC
+# Deploy a New eVDC
 
-## First, visit the eVDC Deployer 
+To provision any workload using TF eVDC, there are some pre-requisites that need to be done:
 
-[Mainnet vdc](https://vdc.grid.tf) (coming soon)
+- Get ThreeFold Connect App;ThreeFold Connect is a mobile app that facilitate you with your own 3Bot Wallet where and 3Bot ID; your digital identity on top of the ThreeFold Grid.
+- Get and store TFT into your TF Connect Wallet to reserve IT Capacity and pay for your workload on top of the TF Grid.
 
-[Testnet vdc](https://vdc.testnet.grid.tf)
+> Read more on the prerequisites on [__TF Getting Started Manual__](all_getting_started.md)
 
-- You'll see the option to create your Virtual Data Center.
-- Simply choose the option you want to launch from the menu.
-- You'll need to log in through Threefold Connect, an authenticator for the full ThreeFold ecosystem.
-- You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/threefold_connect_install).
+## How to Deploy eVDC 
 
-## Next, use the guided setup to create your private VDC
+Go to [__eVDC Deployer__ website](https://vdc.testnet.grid.tf/vdc/#/) and login the eVDC platform by using your [TF Connect account](threefold_connect_install.md). Follow the instructions on your desktop screen and on your TF Connect mobile app to log into the eVDC Deployer.
 
-- Options are there to reserve a new VDC in different sizes, delete it or extend with extra K8S clusters or in time.
-- VDC comes with options for monitoring (using Grafana and Prometheus tooling).
-- A wallet can be configured within the deployment website, enabling easy payment. 
-- If you're feeling lost, each live tool has a tutorial on its page here on the wiki.
+![](evdc_login.png)
+
+Once logged in, click on __Deploy a VDC__ button.
+
+![](evdc_deploy.png)
+
+Define the name and password of your new eVDC, as well as the size / plan of the new eVDC you would like to deploy. You can see more information by clicking on this [eVDC Pricings page on eVDC Wiki](https://vdc.threefold.io/docs/start-pay/) on a new tab. Click 'Next' when you have finished completing the new eVDC information page.
+
+![](evdc_signup.png)
+
+Depending on your selected eVDC size / dplan, you will now be redirected to the payment page consisting of the QR Code of the payment address and the ampunt of TFT you would need to pay to activate your new eVDC.
+
+![](evdc_payment.png)
+
+Scan the QR page using your TFT Wallet on your TF Connect Mobile App, send the TFT to the displayed wallet address and confirm your payment. 
+
+![](scanqr.jpeg)
+
+The payment screen will automatically reload itself if payment is successful and start to deploy the new eVDC immidiately. The new eVDC deployment will take a few minutes, please do not close this deployment window in the meantime until it succeeded.
+
+![](deploy_vdc.png)
+
+You will be notified once the new eVDC deployment is finished and you can access your newly deployed eVDC on your 'Deployed eVDC List' on the evDC Deployer Homepage.
+
+![](newvdc.png)
+
+> Read more on How to Access Your Deployed eVDC List
 
 ## Where to ask questions
 
