@@ -31,3 +31,5 @@
 ![](./img/tfnowscreen.png)
 
 > By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
+
+> Read More on [How to Deploy eVDC](evdc_deployer.md) to Access TFNOW Marketplace
