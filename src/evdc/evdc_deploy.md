@@ -33,11 +33,15 @@ The payment screen will automatically reload itself if payment is successful and
 
 ![](deploy_vdc.png)
 
-You will be notified once the new eVDC deployment is finished and you can access your newly deployed eVDC on your 'Deployed eVDC List' on the evDC Deployer Homepage.
+You will be notified once the new eVDC deployment is finished. Click on Finish to access your deployed eVDCs list.
 
-![](newvdc.png)
+![](newvdc.png)n
 
-> Read more on How to Access Your Deployed eVDC List
+You can also access and manage your newly deployed eVDC on your 'List VDCs' page accessible via the evDC Deployer Homepage.
+
+![](deployer.png)
+
+> Read more on [__How to Access and Managed Your Deployed eVDCs](evdc_manage.md)
 
 ## Where to ask questions
 
