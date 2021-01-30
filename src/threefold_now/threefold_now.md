@@ -1,8 +1,8 @@
-# Introducing: ThreeFold Now (Demo Mode)
+# Introducing: ThreeFold NOW Marketplace
 
 ![](./img/now_marketplace.png)
 
-- [ThreeFold Now](https://marketplace.threefold.io/) is a marketplace (in demo mode) of open source peer-to-peer solutions that are built on top of ThreeFold Grid.
+- __ThreeFold NOW Marketplace__ is a marketplace of open source peer-to-peer solutions that are built on top of ThreeFold Grid,  deployable via [eVDC Admin Panel](evdc.md).
 - Its main goal is to enable simplified deployment of safe, secure, and private solutions that will decentralize our lives, without the necessity of technical system administration knowledge.
 - In its early stages on testnet, there are already offerings covering various fields from a peer-to-peer video sharing platform, to an online publisher, to office tools, and more.
 
