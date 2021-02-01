@@ -25,10 +25,10 @@ With the button `Z-STOR CONFIG` you can download the configuration (in `.toml` f
 
 ![](./img/evdc-k8s-storage-zstor-config-button.png)
 
-Z-STOR stores data in multiple chunks on zdb backends, according to a given policy, retrieves said data, using just the path and the metadata store. 
+Z-STOR encrypts the data using a selected algorithm and then stores the result in multiple chunks on ZDB backends, according to a given policy, retrieves said data, using just the path and the metadata store.
 
 Zdbs can be removed, as long as sufficient are left to recover the data.
-Z-STOR also allows to rebuild the data, loading existing data (as long as sufficient zdbs are left), reencode it, and store it in (new) zdbs according to the current configuration. 
+Z-STOR also allows to rebuild the data, loading existing data (as long as sufficient zdbs are left), reencode it, and store it in (new) zdbs according to the current configuration.
 
 Ìn the below configuration, data is chunked into 3 pieces (each hosted on an available node with indicated IPv6 address), 2 of them being sufficient to recompose the data. 
 
