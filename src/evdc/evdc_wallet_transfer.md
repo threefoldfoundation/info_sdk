@@ -13,10 +13,10 @@ You can transfer your TFT onto a third party Stellar wallet; like Sollar Wallet 
 
 ## Prerequisites
 
-- An active eVDC on testnet, with some TFT funds on its [eVDC Wallet](evdc_wallet.md)
+- An active eVDC on testnet / mainnet, with some TFT funds on its [eVDC Wallet](evdc_wallet.md)
 - A [solar Wallet](solarwallet.io) app. Read more on how to get a Solar Wallet [here](solar_wallet.md) if you have not downloaded yet.
 
-## Import eVDC Wallet Testnet to Solar Wallet (Mainnet)
+## Import eVDC Wallet to Solar Wallet (Mainnet)
 
 ### Open your eVDC Wallet
 
