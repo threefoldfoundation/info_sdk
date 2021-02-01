@@ -9,8 +9,6 @@ __Please keep in mind that we would not be able to refund any TFT after each tes
 - You can transfer your TFT from eVDC mainnet or testnet, and import your wallet into a third party Stellar wallet (mainnet), like Sollar Wallet or Interstellar Wallet. 
 -  You should only import / transfer your TFT to __a mainnet stellar wallet__, regardless if it is currently on eVDC wallet testnet. Since we are only using mainnet TFT for testing purposes.
 
-# Transfer TFT from eVDC Wallet to Stellar Wallet Mainnet
-
 You can transfer your TFT onto a third party Stellar wallet; like Sollar Wallet or Interstellar Wallet. On this tutorial, we will be transfering TFT from eVDC Wallet to __Solar Wallet (mainnet)__ as an example.
 
 ## Prerequisites
@@ -18,7 +16,7 @@ You can transfer your TFT onto a third party Stellar wallet; like Sollar Wallet 
 - An active eVDC on testnet, with some TFT funds on its [eVDC Wallet](evdc_wallet.md)
 - A [solar Wallet](solarwallet.io) app. Read more on how to get a Solar Wallet [here](solar_wallet.md) if you have not downloaded yet.
 
-## How to transfer TFT from eVDC Wallet Testnet to Solar Wallet Testnet
+## Import eVDC Wallet Testnet to Solar Wallet (Mainnet)
 
 ### Open your eVDC Wallet
 
@@ -53,5 +51,5 @@ Paste the copied eVDC wallet secret key onto the form, add a password to your ne
 
 ![](import_account.png)
 
-You now have successfully imported your eVDC Wallet into Stellar wallet.
+Congratulations. You now have successfully imported your eVDC Wallet into Solar wallet.
 
