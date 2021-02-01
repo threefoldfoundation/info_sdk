@@ -1,17 +1,17 @@
-# Transfer TFT from eVDC Wallet
+# Import eVDC Wallet to External Wallet
 
-When you have successfully funded your eVDC Wallet with additional TFT, you could also transfer this balance to another eVDC Wallet, or any other stellar wallet. In order to transfer TFT from your eVDC to a stellar wallet, there are a few different wallet options you can transfer your TFT to. Read more about supported wallets information on [How get and store TFT tutorial](https://manual2.threefold.io/#/mainnet_gettft).
+When you have successfully funded your eVDC Wallet with additional TFT, you could also transfer this balance to another eVDC Wallet, or any other stellar wallet by importing your eVDC Wallet to external wallet. In order to do so, there are a few different wallet options you can import your eVDC Wallet to. Read more about supported wallets information on [How get and store TFT tutorial](https://manual2.threefold.io/#/mainnet_gettft).
 
-On testnet, a TFT transfer is recommended periodically. Since testnet is used for testing purposes, there will be times when a testnet reset is necessary to be done, thus resulting in evdc wallet, workloads, solutions and evdc accounts become deleted. Therefore, we always remind users to transfer their TFT Balance out of their active eVDC wallet before the reset takes place. 
+On testnet, a TFT transfer / wallet import is recommended periodically. Since testnet is used for testing purposes, there will be times when a testnet reset is necessary to be done, thus resulting in evdc wallet, workloads, solutions and evdc accounts become deleted. Therefore, we always remind users to import their testnet eVDC Wallet to an external wallet and transfer their TFT Balance out to another wallet before the reset takes place. 
 
-__Please keep in mind that we would not be able to refund any TFT after each testnet reset is done, if you fail to transfer the TFT out of your eVDC beforehand.__
+__Please keep in mind that we would not be able to refund any TFT after each testnet reset is done, if you fail to import your eVDC wallet transfer the TFT out of your eVDC beforehand.__
 
-- You can transfer your TFT from eVDC mainnet or testnet onto a third party Stellar wallet (mainnet), like Sollar Wallet or Interstellar Wallet. 
--  You should only transfer your TFT to __a mainnet stellar wallet__, regardless if it is currently on eVDC wallet testnet. Since we are only using mainnet TFT for testing purposes.
+- You can transfer your TFT from eVDC mainnet or testnet, and import your wallet into a third party Stellar wallet (mainnet), like Sollar Wallet or Interstellar Wallet. 
+-  You should only import / transfer your TFT to __a mainnet stellar wallet__, regardless if it is currently on eVDC wallet testnet. Since we are only using mainnet TFT for testing purposes.
 
 # Transfer TFT from eVDC Wallet to Stellar Wallet Mainnet
 
-You can transfer your TFT onto a third party testnet Stellar wallet; like Sollar Wallet or Interstellar Wallet. On this tutorial, we will be transfering TFT from eVDC Wallet to __Solar Wallet__ as an example.
+You can transfer your TFT onto a third party Stellar wallet; like Sollar Wallet or Interstellar Wallet. On this tutorial, we will be transfering TFT from eVDC Wallet to __Solar Wallet (mainnet)__ as an example.
 
 ## Prerequisites
 

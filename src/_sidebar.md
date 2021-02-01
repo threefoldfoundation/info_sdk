@@ -28,6 +28,7 @@
       - [eVDC Wallet](evdc_wallet.md)
          - [Wallet Access](evdc_wallet_access.md)
          - [Wallet Top Up](evdc_wallet_topup.md)
+         - [Wallet Import](evdc_wallet_transfer.md)
       - [Manage Networks](evdc_networks.md)
       - [TFNOW Marketplace](evdc_tfnow.md)
       - [K8S Deployment](evdc_k8s.md)
