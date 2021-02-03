@@ -9,19 +9,19 @@ The rule applied for this is the following: ZDBs grow based on the usage, once y
 
 ### ZDBS INFO
 
-![](./img/evdc-k8s-storage-zdbs-button.png)
+![](./img/evdc_k8s_storage_zdbs_button.png)
 
 The button `ZDBS INFO` has all of the infos of ZDBs set up for your needs. 
 
 It contains meta-information about the stored data in the following format: 
 
-![](./img/evdc-k8s-storage-zdb.png)
+![](./img/evdc_k8s_storage_zdb.png)
 
 With the button `Z-STOR CONFIG` you can download the configuration (in `.toml` format) of Z-STOR. It describes how data is split up into ZDB back end. 
 
 ### Z-STOR CONFIG 
 
-![](./img/evdc-k8s-storage-zstor-config-button.png)
+![](./img/evdc_k8s_storage_zstor_config_button.png)
 
 Z-STOR encrypts the data using a selected algorithm and then stores the result in multiple chunks on ZDB backends, according to a given policy, retrieves said data, using just the path and the metadata store.
 
@@ -30,4 +30,4 @@ Z-STOR also allows to rebuild the data, loading existing data (as long as suffic
 
 Ìn the below configuration, data is chunked into 3 pieces (each hosted on an available node with indicated IPv6 address), 2 of them being sufficient to recompose the data. 
 
-![](./img/evdc-k8s-storage-zstor-config2.png)
+![](./img/evdc_k8s_storage_zstor_config2.png)
