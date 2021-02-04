@@ -15,7 +15,7 @@ By using eVDC you can now deploy and host your own website on top of the ThreeFo
 
 Once youre logged in the eVDC, find the __Website__ marketplace widget on your admin panel and click on __Deploy__ button.
 
-![](website_start.png)
+![](./img/website_start.png)
 
 
 Create a name for your new website. This name will be used to identify your deployment on your 'Deployed Solutions' list.
