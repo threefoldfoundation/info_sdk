@@ -13,10 +13,10 @@ Give your solution a name.
 
 You can choose to create a url which is part of your domain, or have one auto-generated. 
 
-![](./img/evdc_mattermost_03_subdomain.png)
+![](./img/evdc_mattermost_03_chatflow_subdomain.png)
 
 Once this info is entered, wait for the solution to be deployed. 
-![](./img/evdc_mattermost_04_deploy.png)
+![](./img/evdc_mattermost_04_chatflow_deploy.png)
 
 The owner has access to the SQL database inside and can protect it with a password. 
 
