@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 # Host a Website on TF Grid via eVDC
 
 By using eVDC you can now deploy and host your own website on top of the ThreeFold Grid.
 
 ## Requirements
 
-- A github account.
-- A public github repository complete with folders containing your website codes and files. [Click here](https://github.com/threefoldfoundation/website_example) to see an example of a website repo that you can fork (copy to your own github).
-- Optional for custom domain: an active domain that assigns to a particular IP that will be given to you during deployment. Depending where you purchased y0our domain, each domain registery has its own procedure on how to assign an IP. Click [here](https://www.hostmysite.com/support/cpanel/dns/domain_point/) to read a general tutorial on how to assign an IP to your domain.
-- An active eVDC with sufficient capacity.
+- A __github account__.
+- A __public github repository__ complete with folders containing your website codes and files. [__Click here__](https://github.com/threefoldfoundation/website_example) to see an example of a website repo that you can fork (copy to your own github).
+- __Optional for custom domain__: an active domain that assigns to a particular IP that will be given to you during deployment. Depending where you purchased your domain, each domain registery has its own procedure on how to assign an IP. Click [__here__](https://www.hostmysite.com/support/cpanel/dns/domain_point/) to read a general tutorial on how to assign an IP to your domain.
+- An __active eVDC__ with sufficient capacity.
 
 ## Get Started
 
@@ -19,7 +18,6 @@ Once youre logged in the eVDC, find the __Website__ marketplace widget on your a
 Create a name for your new website. This name will be used to identify your deployment on your 'Deployed Solutions' list.
 
 ![](website_name.png)
-
 
 Select the domain type for your own website. For deployment with random subdomain, select 'Choose subdomain for me on a gateway',. For deployment with a particular available subdomain, select 'Choose a custom subdomain on a gateway. To host a website using your own domain, select 'choose a custom domain'.
 
@@ -66,6 +64,4 @@ Click on the website domain to open and preview your newly hosted website.
 ![](website_preview.png)
 
 Remember, you can always go back to your forked website template and customize your website content even after its deployed. Always remember which github repo you are using for the hosted website, and happy coding!
-=======
-Tutorial coming soon.
->>>>>>> 51a6827b8cc9fd022ec6f107f3de785a6c3750a2
+
