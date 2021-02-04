@@ -2,6 +2,8 @@
 
 By using eVDC you can now deploy and host your own website on top of the ThreeFold Grid.
 
+![](website_preview.png)
+
 ## Requirements
 
 - A __github account__.
