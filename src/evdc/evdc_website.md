@@ -17,6 +17,7 @@ Once youre logged in the eVDC, find the __Website__ marketplace widget on your a
 
 ![](website_start.png)
 
+
 Create a name for your new website. This name will be used to identify your deployment on your 'Deployed Solutions' list.
 
 ![](website_name.png)
