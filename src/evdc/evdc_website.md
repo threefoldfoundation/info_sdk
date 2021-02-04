@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Host a Website on TF Grid via eVDC
 
 By using eVDC you can now deploy and host your own website on top of the ThreeFold Grid.
@@ -65,3 +66,6 @@ Click on the website domain to open and preview your newly hosted website.
 ![](website_preview.png)
 
 Remember, you can always go back to your forked website template and customize your website content even after its deployed. Always remember which github repo you are using for the hosted website, and happy coding!
+=======
+Tutorial coming soon.
+>>>>>>> 51a6827b8cc9fd022ec6f107f3de785a6c3750a2
