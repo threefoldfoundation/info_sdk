@@ -51,5 +51,6 @@ Paste the copied eVDC wallet secret key onto the form, add a password to your ne
 
 ![](import_account.png)
 
-Congratulations. You now have successfully imported your eVDC Wallet into Solar wallet.
+Congratulations! You now have successfully imported your eVDC Wallet into Solar wallet.
 
+![](newwallet.png)

@@ -6,7 +6,7 @@ The health of the VDC you deploy can be monitored. A stack has been prepared tha
 
 The monitoring stack is available as a solution in the marketplace. 
 
-![](./img/evdc_k8s_monitoring_01_mktpl.png) 
+![](./img/evdc_k8s_monitoring_01_mktpl.png)
 
 Click `Deploy` and go through a simple chatflow to configure the monitoring on your cluster. 
 
