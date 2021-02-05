@@ -1,6 +1,6 @@
 # 3Bot Packages 
 
-![packages](./img/packages.png)
+![packages](img/packages.png)
 
 A package is a module that can be added to your 3Bot to add additional options, features and functionality. On your 3Bot you could access the list of your 3Bot's system, installed and available packages by clicking on '__Packages__' on the sidebar menu.
 
@@ -54,7 +54,7 @@ The Farm Management package helps you create and manage a TF Grid Farm.
 
 The Marketplace is a package that will host the Marketplace on your 3Bot. The Marketplace consists of extra solutions that you can deploy within a few clicks!
 
-More information about the [Marketplace](threefold_now.md).
+More information about the [Marketplace](threefold_now).
 
 ### 3Bot deployer
 

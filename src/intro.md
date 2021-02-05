@@ -1,6 +1,6 @@
 # ThreeFold Grid Manual
 
-![](./img/storage_compute.png)
+![](img/storage_compute.png)
 
 Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested in learning more about how to create and deploy IT Solutions on top of our Peer2Peer Cloud.
 
@@ -16,18 +16,18 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 ## Navigation
 
 - [__Introduction__: what is our peer2peer cloud](peer2peer_cloud_intro)
-  - [Grid Intro](grid_intro.md)
-  - [Farming Intro](farming_intro.md)
-- [Architecture](architecture.md)
-   - [3Node](architecture_3node.md)
-   - [Peer2Peer Storage](architecture_storage.md)
-   - [Overlay Network](architecture_network.md)
-   - [Web Gateway](architecture_webgateway.md)
-   - [Planetary Lan](tf_lan.md)
-   - [0-Container Virtual FS](architecture_flist.md)
-- [__Getting Started__](getting_started_all.md)
-- [__3Bot__ Your Virtual System Administrator](3bot.md)
-- [__Develop your own solutions__](develop.md)
+  - [Grid Intro](grid_intro)
+  - [Farming Intro](farming_intro)
+- [Architecture](architecture)
+   - [3Node](architecture_3node)
+   - [Peer2Peer Storage](architecture_storage)
+   - [Overlay Network](architecture_network)
+   - [Web Gateway](architecture_webgateway)
+   - [Planetary Lan](tf_lan)
+   - [0-Container Virtual FS](architecture_flist)
+- [__Getting Started__](getting_started_all)
+- [__3Bot__ Your Virtual System Administrator](3bot)
+- [__Develop your own solutions__](develop)
 
 
 If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](https://wiki.threefold.io) 

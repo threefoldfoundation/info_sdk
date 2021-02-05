@@ -47,7 +47,7 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 * Add the following data 
 Asset Code: TFT
 Asset Issuer: GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47!
-![/image alt text](./img/interstellar_add_asset.png)
+![/image alt text](img/interstellar_add_asset.png)
 
 * The Asset is now added to your account, to trade the asset however you will have to create a trustline, you could do this by clicking on the "Trust Asset" Button.
 

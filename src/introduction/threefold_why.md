@@ -1,4 +1,4 @@
-![](./img/storage_compute.png)
+![](img/storage_compute.png)
 
 ## Why ThreeFold
 

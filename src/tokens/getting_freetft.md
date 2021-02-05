@@ -1,4 +1,4 @@
-![image alt text](./img/logo.png)
+![image alt text](img/logo.png)
 
 ## Receiving tokens in the 3SDK Wallets
 
@@ -35,11 +35,11 @@ For this example, we will use interstellar.exchange to receive our FreeTFT’s b
 
 Click Add Token
 
-![image alt text](./img/selectasset.png)
+![image alt text](img/selectasset.png)
 
 ### Step 2: Go to "manual" and Use the following information
 
-![image alt text](./img/manual.png)
+![image alt text](img/manual.png)
 
 `Asset code` : FreeTFT
 
@@ -49,13 +49,13 @@ You have now added the asset. Now you need to set up a trustline.
 
 ### Step 3: Setting up the Trustline
 
-![image alt text](./img/trustasset_1.png)
+![image alt text](img/trustasset_1.png)
 
 Click "Trust Asset"
 
 ### Step 4: Confirm the trustline-transaction with your password
 
-![image alt text](./img/trustasset_2.png)
+![image alt text](img/trustasset_2.png)
 
 Upon completing this successfully you have a trustline for FreeTFTs setup and we could now send them your way!
 
@@ -73,7 +73,7 @@ Go to Interstellar and click security in the leftside menu.
 
 Scroll down and click `View Secret Keys`
 
-![image alt text](./img/interstellar_secret.png)
+![image alt text](img/interstellar_secret.png)
 
 In this section you will find the secret key / public key / wallet name. 
 

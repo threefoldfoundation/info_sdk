@@ -7,7 +7,7 @@
 
 This is the Home Page of your ThreeFold Connect App. It offers a gateway to your digital life. 
 
-![](./img/tc_home_page.png)
+![](img/tc_home_page.png)
 
 ## Wallet
 
@@ -19,7 +19,7 @@ In this tab you can check your ThreeFold wallets and balances. If you have multi
 
 To receive your ThreeFold Tokens you should fill in the following fields:
 
-![](./img/tc_receive.png)
+![](img/tc_receive.png)
 
 1) `To` : choose the wallet that receives the transaction
 2) `Amount` : amount of TFT to receive

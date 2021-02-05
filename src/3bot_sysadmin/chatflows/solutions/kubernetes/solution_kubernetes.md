@@ -23,41 +23,41 @@ Go to your admin dashboard and select the solutions tab from the navbar then cli
 
 ### Choosing solution name
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
-![k8s_1](./img/k8s_1.png)
+![k8s_1](img/k8s_1.png)
 
 ### Choosing the nodes flavors
 Here we specify the size of the nodes that will be selected for deployment. We also specify the number of master nodes and worker nodes that will be in the cluster
-![k8s_2](./img/k8s_2.png)
+![k8s_2](img/k8s_2.png)
 
 ### Select the pools for your nodes
-![k8s_3](./img/k8s_3.png)
+![k8s_3](img/k8s_3.png)
 
 ### Choosing network
 Here we choose which network we connect our kubernetes cluster to.
-![k8s_4](./img/k8s_4.png)
+![k8s_4](img/k8s_4.png)
 
 ### Uploading your public Key
 This step is necessary to access the kubernetes machine through ssh.
-![k8s_5](./img/k8s_5.png)
+![k8s_5](img/k8s_5.png)
 
 ### Choosing a secret for the cluster
 Now it's time to choose the secret for your kubernetes cluster, make sure you don't forget it.
-![k8s_6](./img/k8s_6.png)
+![k8s_6](img/k8s_6.png)
 
 ### Set the IP Addresses for the solution master nodes
 We select IP addresses equal to the number of master nodes we entered earlier.
-![k8s_7](./img/k8s_7.png)
+![k8s_7](img/k8s_7.png)
 
 ### Set the IP Addresses for the solution worker nodes
 We then select IP addresses equal to the number of worker nodes we entered earlier.
-![k8s_8](./img/k8s_8.png)
+![k8s_8](img/k8s_8.png)
 
 ### Deploying your solution
-![k8s_9](./img/k8s_9.png)
+![k8s_9](img/k8s_9.png)
 
 ### Successfully deployed. You can access the cluster
-![k8s_10](./img/k8s_10.png)
-![k8s_11](./img/k8s_11.png)
+![k8s_10](img/k8s_10.png)
+![k8s_11](img/k8s_11.png)
 
 
 After the deployment of the Kubernetes cluster is complete, you can access your cluster with ssh.
@@ -260,4 +260,4 @@ or the dashboard ID 6879
 
 ## Want to know more ?
 
-head toward our more [advanced documentation](advanced_k8s.md) about the features offered by our kubernetes cluster
+head toward our more [advanced documentation](advanced_k8s) about the features offered by our kubernetes cluster

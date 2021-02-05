@@ -6,7 +6,7 @@ The way it works is on the hidden client side, a small client runs and opens a c
 
 The server then keeps the connection opens and is able to forward incoming public traffic to the open connection. This is especially useful if there is no way for the tcp router server to open a connection to the backend. Usually because of NAT.
 
-![reverse_tunnel](./img/reverse_tunnel.png)
+![reverse_tunnel](img/reverse_tunnel.png)
 
 ## Reservation definition
 

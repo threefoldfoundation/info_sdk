@@ -16,4 +16,4 @@ The eVDC offers the tooling for:
 
 ## Deploy eVDC
 
-Follow the instructions on [eVDC Deployer](evdc_deployer.md) to deploy an eVDC; your private scalable cloud on the ThreeFold Grid.
+Follow the instructions on [eVDC Deployer](evdc_deployer) to deploy an eVDC; your private scalable cloud on the ThreeFold Grid.

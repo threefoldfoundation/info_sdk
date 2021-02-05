@@ -1,6 +1,6 @@
 # Container
 
-![](./img/containers_real.png)
+![](img/containers_real.png)
 
 This primitive allows a user to run its application into a container on a node.
 
@@ -35,7 +35,7 @@ for more detail.
 
 * `network_connection`: This is where you define the network of the container
 
- - `network_id`: The name of the network created using a [network](network.md)
+ - `network_id`: The name of the network created using a [network](network)
  primitive.
  - `ipaddress`: net. IP: The IP address to give to the container.
  - `public_ipv6`: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
@@ -47,7 +47,7 @@ for more detail.
 
 ## Flist
 
-More information about Flist at [Flist documentation](architecture_flist.md).
+More information about Flist at [Flist documentation](architecture_flist).
 
 ## CoreX - The Zero-OS container process manager
 

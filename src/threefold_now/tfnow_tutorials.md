@@ -4,6 +4,6 @@ Welcome to ThreeFold NOW Tutorials! On this page you will find the directory of 
 
 ## Build Your First TF NOW Solutions
 
-- [__Deploy Your First Website__](website.md)
-- [__Deploy Your First Wiki__](wiki.md)
-- [__Deploy Your First Blog__](blog.md)
+- [__Deploy Your First Website__](website)
+- [__Deploy Your First Wiki__](wiki)
+- [__Deploy Your First Blog__](blog)

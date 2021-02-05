@@ -1,6 +1,6 @@
 # Community
 
-![](./img/header.png)
+![](img/header.png)
 
 The ThreeFold Community is expanding every day. If you want to engage with the community, there are a couple of places you could go to do so. Below are the most essential links to the community channels.
 

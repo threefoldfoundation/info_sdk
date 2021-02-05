@@ -2,7 +2,7 @@
 
 The settings section of the 3Bot allows you to manage who can access the 3Bot, the identities that the 3Bot can use and some developer-oriented settings.
 
-![settings](./img/3bot_settings.png)
+![settings](img/3bot_settings.png)
 
 ## Manage admins
 
@@ -16,7 +16,7 @@ An identity is what authenticate a user on the TF Grid. Any action you make on t
 
 In the 3Bot, the identity is composed of multiple fields:
 
-![identity detail](./img/edit_identity.png)
+![identity detail](img/edit_identity.png)
 
 * **Instance name**: This is just a name for you to remember what this identity represent. It doesn't impact anything.
 * **3Bot ID**: This is the unique identifier of your identity.
@@ -38,15 +38,15 @@ One identity could be linked to mainnet and one could be linked to testnet. By s
 
 ## Configuring escalation emails
 
-![escalation emails](./img/escalation_emails.png) 
+![escalation emails](img/escalation_emails.png) 
 
 We use it to configure destination emails for escalations
-![escalation emails2](./img/escalation_emails2.png) 
+![escalation emails2](img/escalation_emails2.png) 
 
 
 ## SMTP configuration
 
-![smtp configuration](./img/smtp_configurations.png)
+![smtp configuration](img/smtp_configurations.png)
 We use it to configure the sender email
 
 - SMTP host: is the SMTP server address e.g smtp.google.com 
@@ -57,7 +57,7 @@ We use it to configure the sender email
 
 ## Developers options
 
-![developer options](./img/3bot_settings_developer_options.png)
+![developer options](img/3bot_settings_developer_options.png)
 
 These options are targeted to developers who want to alter the behavior of the 3Bot to allow an easier development experience.
 
@@ -79,4 +79,4 @@ And there're multiple buttons to:
 * **clear blocked nodes** clears blocked nodes, and *Blocked nodes* are nodes that 3Bot failed to deploy workload on, and they get blocked for 3 hours, then if deployments fail again, they get blocked for 6 hours, .. etc
 
 * **Show 3Bot Configurations** shows your 3bot configurations
-![3bot config](./img/3bot_show_configurations.png)
+![3bot config](img/3bot_show_configurations.png)

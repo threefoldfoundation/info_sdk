@@ -1,6 +1,6 @@
 # Introduction to Farming
 
-![](./img/whatisafarmer.png)
+![](img/whatisafarmer.png)
 
 ## Farming: Putting Capacity Online On The ThreeFold Grid
 
@@ -14,7 +14,7 @@ There are two types of ThreeFold Farmers
 - Certified Farmer: Buys certified hardware and signs a contract with ThreeFold Tech for support.
 - Do It Yourself (DIY) Farmer: Uses any hardware and in case of support uses online material only.
 
-![](./img/circular_tft.png)
+![](img/circular_tft.png)
 
 > Go to [Farming Setup](wiki:what_is_farming) for the step-by-step tutorials on how to become a farmer.
 > For more in-depth information on Farming concept, please check out [the Farming section on Threefold's Main Wiki](wiki:what_is_farming)

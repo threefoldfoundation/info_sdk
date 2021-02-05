@@ -7,7 +7,7 @@ This document explains how to register a farm on the TF Grid.
 Install the farm management application. To do so, click the `Farm Management` tab on the left side menu.
 Then click the `Install now` button
 
-![install_package](./img/install_packages.png)
+![install_package](img/install_packages.png)
 
 Once the package is installed, the page will reload and the `farm management` UI will appear.
 
@@ -37,7 +37,7 @@ Once the farm is created you should see a new entry in the top table.
 
 Notice the first column of the table: ID. This is your farm ID, write this down because you will need to use it when generating the Zero-OS image for your nodes of your farm.
 
-![farm table](./img/farm_table.png)
+![farm table](img/farm_table.png)
 
 ## Use API to check result of creation of farm
 

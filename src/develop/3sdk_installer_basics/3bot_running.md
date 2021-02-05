@@ -1,6 +1,6 @@
 ## Nginx capabilities and advanced running options
 
-After the [installation](3bot_local_install.md) steps you should have an executable `3Bot`
+After the [installation](3bot_local_install) steps you should have an executable `3Bot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
@@ -24,14 +24,14 @@ to be able to run as a normal user, you don't need it if you are root.
 
 - Then it will start 3Bot server you will see some thing like that
 
- ![configure](./img/identity_new.png)
+ ![configure](img/identity_new.png)
 
 - After success you could visit the admin dashboard at http://localhost and start creating reservations
 
 
 - After success you could visit the admin dashboard at http://localhost and start creating reservations
 
- ![configure](./img/success.png)
+ ![configure](img/success.png)
  
 ### Advanced running options 3Bot
 

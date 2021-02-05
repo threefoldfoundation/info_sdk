@@ -5,7 +5,7 @@ On this tutorial we will guide you on how to access the ThreeFold Now Demo  Plat
 
 ## Go to the ThreeFold Now Demo Homepage
 
-![](./img/login_authenticate.png)
+![](img/login_authenticate.png)
 
 Go to [ThreeFold Now Demo](https://marketplace.threefold.me/) and click on __'Sign in with ThreeFold Connect'__ and follow further instruction below.
 
@@ -21,7 +21,7 @@ Sign into the Marketplace by typing your 3Bot ID (Username) on the available for
 
 You will be asked to verify your identity via ThreeFold Connect App (mobile) by matching the emoji icon on both your desktop screen and your mobile as below:
 
-![](./img/login_authenticate00.png)
+![](img/login_authenticate00.png)
 
 Open ThreeFold Connect App on your mobile phone and click on the matching icon as shown on your desktop authenticator wizard.
 
@@ -35,4 +35,4 @@ Once succeeded, you will be shown above notification on your mobile phone and yo
 
 <!-- <img src="img/demo_threefold_now_homepage.png" width="300" alt="missing immage"> -->
 
-> Go Back to [__ThreeFold Now Demo Introduction__](threefold_now.md)
+> Go Back to [__ThreeFold Now Demo Introduction__](threefold_now)
