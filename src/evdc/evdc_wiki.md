@@ -46,4 +46,4 @@ You can directly visit the published wiki through the indicated url.
 ![](img/evdc_wiki_11_wiki_result.png)
 
 Remember, you can always go back to your forked wiki template and customize your wiki content even after its deployed. Add the command `/force_update` at the end in the url to push the latest content. 
-Always remember which github repo you are using for the hosted wiki, and happy coding!
+Always remember which github repo and branch you are using for the hosted wiki, and happy coding!
