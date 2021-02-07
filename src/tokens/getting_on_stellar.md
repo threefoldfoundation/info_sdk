@@ -54,7 +54,7 @@ Trading capabilities are not yet available in the ThreeFold Connect App, but the
 
 You could also exchange TFTs with other tokens in a decentralized way, using StellarX, the Stellar decentralized exchange. 
 
-More info could be found [here](tft_stellarx.md).
+More info could be found [here](tft_stellarx).
 
 ## Pay capacity
 

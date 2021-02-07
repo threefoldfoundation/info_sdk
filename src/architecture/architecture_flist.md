@@ -1,5 +1,5 @@
 
-![](./img/vfs_intro2.png)
+![](img/vfs_intro2.png)
 
 
 # Ultra Efficient Virtual File System for Zero-OS
@@ -39,5 +39,5 @@ With some tools like __0-FS__, you could even mount that Flist and use it like a
 
 ## More information 
 
-- [container virtual filesystem details](container_vfs_details.md)
-- [how to build and upload Flist](flist.md)
+- [container virtual filesystem details](container_vfs_details)
+- [how to build and upload Flist](flist)

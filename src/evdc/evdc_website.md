@@ -2,6 +2,8 @@
 
 By using eVDC you can now deploy and host your own website on top of the ThreeFold Grid.
 
+![](img/website_preview.png)
+
 ## Requirements
 
 - A __github account__.
@@ -13,24 +15,25 @@ By using eVDC you can now deploy and host your own website on top of the ThreeFo
 
 Once youre logged in the eVDC, find the __Website__ marketplace widget on your admin panel and click on __Deploy__ button.
 
-![](website_deploy.png)
+![](website_startnew.png)
+
 
 Create a name for your new website. This name will be used to identify your deployment on your 'Deployed Solutions' list.
 
-![](website_name.png)
+![](img/website_name.png)
 
 Select the domain type for your own website. For deployment with random subdomain, select 'Choose subdomain for me on a gateway',. For deployment with a particular available subdomain, select 'Choose a custom subdomain on a gateway. To host a website using your own domain, select 'choose a custom domain'.
 
-![](website_domain.png)
+![](img/website_domain.png)
 
 Select the vdc capacity plan for your website usage
 
-![](website_capacity.png)
+![](img/website_capacity.png)
 
 
 Add your website repository files to the deployment.
 
-![](website_identify.png)
+![](img/website_identify.png)
 
 - Repository url: the url address of your website's source codes on github
 - Branch: the main official working version of your project. Read more about github branch [here](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-branches)
@@ -38,11 +41,11 @@ Add your website repository files to the deployment.
 
 To create a website from a template website from ThreeFold, go to [Template Website](https://github.com/threefoldfoundation/website_example) on github and click on fork.
 
-![](website_fork.png)
+![](img/website_fork.png)
 
 Go to your newly forked github repository and copy the Repository url on your forked repository
 
-![](website_copy.png)
+![](img/website_copy.png)
 
 Paste the url to the chatflow 'Repository url' form.
 
@@ -50,18 +53,18 @@ Paste the url to the chatflow 'Repository url' form.
 
 Identify the main branch of your website, identify the main source folder of your website and click 'Next'
 
-![](website_identify.png)
+![](img/website_identify.png)
 
 Wait a few minutes while your new website is being deployed...
 
-![](website_deploy.png)
+![](img/website_deploy.png)
 
 Congratulations! you just successfully hosted a website on the ThreeFold Grid!
-![](website_success.png)
+![](img/website_success.png)
 
 Click on the website domain to open and preview your newly hosted website.
 
-![](website_preview.png)
+![](img/website_preview.png)
 
 Remember, you can always go back to your forked website template and customize your website content even after its deployed. Always remember which github repo you are using for the hosted website, and happy coding!
 

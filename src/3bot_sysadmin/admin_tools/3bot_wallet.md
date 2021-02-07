@@ -20,7 +20,7 @@ The Stellar secret is a string of characters, starting with a 'S' (unlike the pu
 
 Simply click on one of your existing wallet see the details of the wallet.
 
-![](./img/3bot_wallet_detail.png)
+![](img/3bot_wallet_detail.png)
 
 ### Your Wallet Details
 

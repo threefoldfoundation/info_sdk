@@ -10,8 +10,8 @@ This is a section for jumpscale experts its under heavy construction and will ha
 
 Jumpscale is the framework used inside the TF Grid SDK.
 
-- [3Bot server](3bot_server.md)
-- [Actors](actors.md)
-- [Packages](packages.md)
-- [Locations](locations.md)
-- [RPC framework](rpc.md)
+- [3Bot server](3bot_server)
+- [Actors](actors)
+- [Packages](packages)
+- [Locations](locations)
+- [RPC framework](rpc)

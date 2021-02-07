@@ -4,7 +4,7 @@ The Kubernetes cluster comes with the creation of your VDC.
 
 - This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS
 
-  ![](./img/evdck3slogo.png)
+  ![](img/evdck3slogo.png)
 - K3S is full conformant production-ready Kubernetes distribution with the following changes:   
    - It is packaged as a single binary
    - It adds support to sqlite3 as default storage. Etcd3, MySQL and Postgres are also supported

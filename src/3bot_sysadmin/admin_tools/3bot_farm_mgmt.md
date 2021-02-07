@@ -6,7 +6,7 @@ This section of your 3Bot lets you create, manage and monitor your farms.
 
 ## Creating a new farm
 
-Follow this detailed guide to [create a farm](farm_init.md).
+Follow this detailed guide to [create a farm](farm_init).
 
 ## Edit a Farm
 
@@ -20,11 +20,11 @@ If you want to change the owner of a farm, you can do so by opening the edit pop
 
 The top table shows all the farms that you own:
 
-![overview](./img/farm_management_overview.png)
+![overview](img/farm_management_overview.png)
 
 You can click the eye icon in the action column to open the listing of the nodes belonging to the farm in the bottom table. This will list all the nodes linked to the selected farm.
 
-![nodes listing](./img/farm_management_nodes.png)
+![nodes listing](img/farm_management_nodes.png)
 
 ### Deleting a dead node
 

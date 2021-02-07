@@ -1,7 +1,7 @@
 # Tokens
 
-![](./img/tokens_tf_header.png)
+![](img/tokens_tf_header.png)
 
-- [Buy TFT: StellarX](tft_stellarx.md)
-- [Buy TFT: Interstellar](tft_interstellar.md)
-- [Buy TFT: Lobstr Wallet](tft_lobstr.md)
+- [Buy TFT: StellarX](tft_stellarx)
+- [Buy TFT: Interstellar](tft_interstellar)
+- [Buy TFT: Lobstr Wallet](tft_lobstr)

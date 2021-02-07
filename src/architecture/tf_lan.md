@@ -1,4 +1,4 @@
-![](./img/planetary_lan.png)
+![](img/planetary_lan.png)
 
 # ThreeFold Planetary Lan
 

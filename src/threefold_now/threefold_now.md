@@ -1,8 +1,8 @@
 # Introducing: ThreeFold NOW Marketplace
 
-![](./img/tfnow_home.png)
+![](img/tfnow_home.png)
 
-- __ThreeFold NOW Marketplace__ is a marketplace of open source peer-to-peer solutions that are built on top of ThreeFold Grid,  deployable via [eVDC Admin Panel](evdc.md).
+- __ThreeFold NOW Marketplace__ is a marketplace of open source peer-to-peer solutions that are built on top of ThreeFold Grid,  deployable via [eVDC Admin Panel](evdc).
 - Its main goal is to enable simplified deployment of safe, secure, and private solutions that will decentralize our lives, without the necessity of technical system administration knowledge.
 - In its early stages on testnet, there are already offerings covering various fields from a peer-to-peer video sharing platform, to an online publisher, to office tools, and more.
 
@@ -23,13 +23,13 @@
 
 ### ThreeFold Now Information & Tutorials
 
-![](./img/now_wiki.png)
+![](img/now_wiki.png)
 
 - Please visit [the wiki](https://now.threefold.io) where you can find much more information.
 - All *live* solutions have brief deployment tutorials on their specific pages.
 
-![](./img/tfnow_home.png)
+![](img/tfnow_home.png)
 
-> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal.md) for more.
+> By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal) for more.
 
-> Read More on [How to Deploy eVDC](evdc_deploy.md) to Access TFNOW Marketplace
+> Read More on [How to Deploy eVDC](evdc_deploy) to Access TFNOW Marketplace

@@ -1,11 +1,11 @@
 
 ## Boot 3Node
 
-![Zero-OS during boot](./img/zos_during_boot.png)
+![Zero-OS during boot](img/zos_during_boot.png)
 
 After booting your 3Node, you should see something similar to:
 
-![Zero-OS console interface](./img/zui.png)
+![Zero-OS console interface](img/zui.png)
 
 > Note: if you have an AMD gpu you will probably not see something like in the image above. Instead you will see something similar to the picture where the 3Node is booting but the text will be frozen. This is a known issue and does not affect your 3Node's status. You can assume your 3Node is up and running when you see this.
 

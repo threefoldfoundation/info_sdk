@@ -83,7 +83,7 @@ wid = j.sals.zos.get().workloads.deploy(subdomain)
 
 now you could actually see that your subdomain is resolvable.
 
-![domain_lookup](./img/01_web_gateway.png)
+![domain_lookup](img/01_web_gateway.png)
 
 #### Create tcp reverse proxy
 
@@ -131,7 +131,7 @@ wid = j.sals.zos.get().workloads.deploy(container)
 
 now you could access your server using the gateway
 
-![http_access](./img/02_web_gateway.png)
+![http_access](img/02_web_gateway.png)
 
 #### Managed domains example
 
@@ -173,11 +173,11 @@ for ns in gateway.dns_nameserver:
 
 In my case
 
-![custom_domain](./img/04_web_gateway.png)
+![custom_domain](img/04_web_gateway.png)
 
 Now you can run your `tcprouter` container to expose your workload same as above.
 
-![custom_domain](./img/05_web_gateway.png)
+![custom_domain](img/05_web_gateway.png)
 
 ## Gateway4to6
 
@@ -221,4 +221,4 @@ j.sals.fs.write_file(f"/home/maged/{filename}", config)
 ```
 
 now you could start your wiregaurd config and access IPv6 addresses
-![ipv6_access](./img/03_web_gateway.png)
+![ipv6_access](img/03_web_gateway.png)

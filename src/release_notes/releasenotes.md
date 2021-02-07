@@ -1,6 +1,6 @@
 # TF Grid Versions
 
-![release dates picture](releasenotes.png)
+![release dates picture](img/releasenotes.png)
 
 ## Current Version
 
