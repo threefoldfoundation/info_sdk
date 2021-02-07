@@ -1,5 +1,5 @@
 
-![](src/img/intro.png)
+![](img/intro.png)
 
 
 A new standard in peer2peer cloud = networking, storage and computing capacity.
@@ -46,10 +46,10 @@ Solution providers create solutions on top of the ThreeFold grid. The ThreeFold 
 
 ## Want to know more (technical)?
 
-- [Generic architecture](architecture.md)
-- [Peer2peer Network architecture](architecture_network.md)
-- [Peer2peer Web Gateway architecture](architecture_webgateway.md)
-- [Peer2peer Storage architecture](architecture_storage.md)
+- [Generic architecture](architecture)
+- [Peer2peer Network architecture](architecture_network)
+- [Peer2peer Web Gateway architecture](architecture_webgateway)
+- [Peer2peer Storage architecture](architecture_storage)
 - [Peer2peer virtual filessystem ](architecture_flist.md)
 
 
@@ -57,6 +57,6 @@ Solution providers create solutions on top of the ThreeFold grid. The ThreeFold 
 ## ThreeFold Foundation
 
 The ThreeFold Foundation is realizing the vision to provide affordable, local digital services by anyone, for anyone. 
-![](./img/ses.png)
+![](img/ses.png)
 
 For more information on the Foundation, please check https://info.threefold.io, which is our generic knowledge base of ThreeFold Foundation.

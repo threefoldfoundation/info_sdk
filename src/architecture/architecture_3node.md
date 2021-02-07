@@ -1,4 +1,4 @@
-![](./img/3Node_nice.png)
+![](img/3node_nice.png)
 
 ## 3Node & Zero-OS 
 
@@ -35,7 +35,7 @@ They provide storage, compute & networking capacities. Together, 3Nodes make up 
 
 Today we have about thousands of 3Nodes across the grid see our https://explorer.grid.tf
 
-![](./img/tf_grid.png)
+![](img/tf_grid.png)
 
 ### Zero install
 
@@ -53,7 +53,7 @@ The actual bootloader is very small. It brings up the network interface of your 
 
 The operating system is not installed on any local storage medium (hard disk, ssd). Zero-OS is stateless.
 
-The mechanism to allow this to work in a safe and efficient manner is a ThreeFold innovation called our container virtual filesystem. This is explained in more detail [here](architecture_flist.md)
+The mechanism to allow this to work in a safe and efficient manner is a ThreeFold innovation called our container virtual filesystem. This is explained in more detail [here](architecture_flist)
 
 ### Properties of Zero-OS
 

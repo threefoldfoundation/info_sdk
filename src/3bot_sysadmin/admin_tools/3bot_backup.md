@@ -21,13 +21,13 @@ You can also select to make automatic backups every 24 hours, or you can initiat
 
 The marketplace backup is a service that is installed by default when you initialize a 3Bot. It automatically takes a snapshot of your data the moment your 3Bot is live.
 
-![Backup](./img/3bot_marketplace_backup.png)
+![Backup](img/3bot_marketplace_backup.png)
 
 ### Minio backup
 
 The minio backup is a service that is not installed by default. For it to make backups of your 3Bot, you need to run your own instance of minio.
 
-> Follow this detailed guide to deploy an instance of [minio](solution_storage.md)
+> Follow this detailed guide to deploy an instance of [minio](solution_storage)
 
 If you wish to run minio backups you can enable it by clicking on __Minio__ -> __Init Now__.
 
@@ -38,7 +38,7 @@ Following is required to make minio backups:
 - Secret key
 - Password 
 
-![snapshot](./img/3bot_miniosnapshot.png)
+![snapshot](img/3bot_miniosnapshot.png)
 
 
 ## Recovering with Marketplace Backup

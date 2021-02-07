@@ -1,6 +1,6 @@
 # 3Bot Server
 
-3Bot server is an application server based on nginx and [gedis](rpc.md). It could further be extended using packages.
+3Bot server is an application server based on nginx and [gedis](rpc). It could further be extended using packages.
 
 When adding packages to a server, they should first be defined, then added to the 3Bot server then the server could be started.
 
@@ -66,12 +66,12 @@ sudo setcap cap_net_bind_service=+ep `which nginx`
 ## APIs
 APIs could be added as actors to your package, which are exposed directly and could be accessed via http or using our `gedis` clients for python or javascript.
 
-*Actors in more detail are documented [here](actors.md).
+*Actors in more detail are documented [here](actors).
 
 ## Packages
 Packages are the way to write extensions and applications to your 3Bot server and it could be driven by an optional package.py file which controls the life cycle of the application including install, uninstall,start .. etc.
 
-*Packages in more detail are documented [here](packages.md).
+*Packages in more detail are documented [here](packages).
 
 ## ssl
 

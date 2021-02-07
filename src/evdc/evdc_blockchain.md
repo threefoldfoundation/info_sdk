@@ -9,4 +9,4 @@ This is a collection of tools for specific blockchains which allow their node op
 - More privacy and security. Protect your digital identity with the enhanced privacy provided by the 3Bot infrastructure. Ensure the integrity of the blockchain with the built-in security features of the ThreeFold Grid.
 Easier to use and quicker to deploy. Our solutions aim to add ease and efficiencies for blockchain community members including one-click deployment.
 
-> [Deploy Digibyte Node](evdc_digibyte.md) on the ThreeFold Grid!
+> [Deploy Digibyte Node](evdc_digibyte) on the ThreeFold Grid!

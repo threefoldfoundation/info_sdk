@@ -1,6 +1,6 @@
 # TF Grid Simulator
 
-![](./img/simulator_intro.png)
+![](img/simulator_intro.png)
 
 The ThreeFold Grid and Token Simulator allows you to simulate the future behavior of the grid.
 

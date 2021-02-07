@@ -29,8 +29,8 @@ address of the TFGateway.
 
 Each Gateway reports the domain that needs to be used to configure the NS record of the delegated domain.
 
-![gateway nameserve](./img/gateway_nameserver.png)
+![gateway nameserve](img/gateway_nameserver.png)
 
 Once you have found the TFGateway domain, go to your own domain management system and add an NS record that points to the domain of the TFGateway like so:
 
-![ns record](./img/ns_record.png)
+![ns record](img/ns_record.png)

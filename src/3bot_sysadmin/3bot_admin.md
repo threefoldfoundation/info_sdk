@@ -14,32 +14,32 @@ The sidebar allows easy navigation between the different features offered within
 
  It provides “at-a-glance” visibility into active resources, shows system versions, network (testnet, mainnet), processes status, memory consumptions, pools and some health checks. 
 
-![./img/threebot_admin_dashboard.png](./img/threebot_admin_dashboard.png)
+![img/threebot_admin_dashboard.png](img/threebot_admin_dashboard.png)
 
 ### Wallets
 
-Your 3Bot comes with a built-in [__3Bot Wallet__](3bot_wallet.md) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot). 
+Your 3Bot comes with a built-in [__3Bot Wallet__](3bot_wallet) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot). 
 
-Please go to [__3Bot Wallets__](3bot_wallet.md) to learn more.
+Please go to [__3Bot Wallets__](3bot_wallet) to learn more.
 
 ### Capacity Pools
 
-Your 3Bot comes in handy with a built-in [__Capacity Pools__](3bot_capacity_pools.md) reservation; a feature to reserve capacity on the grid to deploy your solutions on.
+Your 3Bot comes in handy with a built-in [__Capacity Pools__](3bot_capacity_pools) reservation; a feature to reserve capacity on the grid to deploy your solutions on.
 
-Please go to [__Capacity Pools__](3bot_capacity_pools.md) to learn more.
+Please go to [__Capacity Pools__](3bot_capacity_pools) to learn more.
 
 ### Package management system
 
 Easy way to install/stop packages available on the filesystem or from a trusted git repository
 
-![packagemanager](./img/packagemanager.png)
+![packagemanager](img/packagemanager.png)
 
 
 ### CodeServer code editor
 
 If you want to edit code from the dashboard directly you could do so using CodeServer package.
 
-![codeserver](3bot_admin_codeserver2.png)
+![codeserver](img/3bot_admin_codeserver2.png)
 
 
 ### Access rights to the 3bot virtual system administrator
@@ -49,7 +49,7 @@ The dashboard is protected by ThreeFold Connect. Therefore, to access it, users 
 
 #### Giving admin access to other users could be done from `Settings`.
 
-![admin_list](./img/admin_list.png)
+![admin_list](img/admin_list.png)
 
 ### Change Identity
 
@@ -61,10 +61,10 @@ The user can also choose to use multiple identities as long as these identities 
 ### Logs
 Allows seeing logs per application.
 
-![logs](./img/logs.png)
+![logs](img/logs.png)
 
 
 ### Alerts
 Advanced alerts system allow you to have a view of different alerts as reported (bugs, questions raised and events of different nature). 
 
-![alerts](./img/alerts.jpg)
+![alerts](img/alerts.jpg)

@@ -1,4 +1,4 @@
-![](./img/storage_architecture_0.png)
+![](img/storage_architecture_0.png)
 
 ## TFGrid Backend Storage architecture
 
@@ -27,7 +27,7 @@ Classic Storage designs reliability around (multiple) copies of the same data.
 
 To achieve the ability to loose 4 nodes, we will need 5 copies, this means 400% overhead and 5x the bandwidth to make the copies. This is not efficient. For certain blockchain workloads there can be more than 100 copies.
 
-![](./img/classic_storage.png) 
+![](img/classic_storage.png) 
 
 #### ThreeFold Space Algorithm (Dispersed Storage)
 
@@ -37,7 +37,7 @@ The storage system we invented is using ideas which were used in space, when sen
 
 Our algoritm does not not replicate parts of an object (file, photo, movie...) but relies on a very different algorithm which we will try to visualize as a set of equasions.
 
-![](./img/dispersed_storage.png)
+![](img/dispersed_storage.png)
 
 Let a,b,c,d.... be the parts of that original object. You could create endless unique equations using these parts. 
 
@@ -115,7 +115,7 @@ What is currently available is an __S3 interface__ based on the [min.io](https:/
 
 A typical master-slave setup would look like:
 
-![](./img/storage_architecture_1.png)
+![](img/storage_architecture_1.png)
 
 
 

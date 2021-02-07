@@ -19,54 +19,54 @@ After the deployment of the Flist is complete, a url will be returned that could
 
 #### Choosing the solution name
 Choosing the name of the solution to be deployed. This allows the user to view the solution's reservation info in the dashboard deployed solutions
-![generic_1](./img/generic_1.png)
+![generic_1](img/generic_1.png)
 
 #### Choosing the number of CPU cores and memory size
 Specify the number of CPU cores and the size of the memory to be used by the container.
-![generic_2](./img/generic_2.png)
+![generic_2](img/generic_2.png)
 
 #### Choose whether you want to attach a volume to the container or not
-![generic_3](./img/generic_3.png)
+![generic_3](img/generic_3.png)
 - If `Yes`, You need to choose the volume size and its mount point in the next step.
-![generic_3](./img/generic_31.png)
+![generic_3](img/generic_31.png)
 
 #### Select pool for your solution to be deployed on
-![generic_4](./img/generic_4.png)
+![generic_4](img/generic_4.png)
 
 #### Select network for your solution to be deployed on
-![generic_5](./img/generic_5.png)
+![generic_5](img/generic_5.png)
 
 #### Flist link
 The Flist link added is used to create the container from it. The link is from the Flist uploaded on the hub
-![generic_6](./img/generic_6.png)
+![generic_6](img/generic_6.png)
 
 #### Using corex
 The corex option allows the user to access the container through corex. If disable the user could access the container using ssh
-![generic_7](./img/generic_7.png)
+![generic_7](img/generic_7.png)
 
 #### Select node or leave it empty
 Here we could provide a node id corresponding to a node on the grid to deploy the container on. This node has to be part of your Capacity pool.
-![generic_8](./img/generic_8.png)
+![generic_8](img/generic_8.png)
 
 #### Choose whether you want to push the container logs onto an external redis channel or not
-![generic_9](./img/generic_9.png)
+![generic_9](img/generic_9.png)
 
 #### Choosing the private IP address of the container
 Choosing the private IP address that will be used to access or communicate with the deployed solution.
-![generic_11](./img/generic_11.png)
+![generic_11](img/generic_11.png)
 
 #### Choosing environment variables
 If the container needs any env variables on startup, they are passed through this option where they are in the format `variable=value` seperated by commas.
-![generic_12](./img/generic_12.png)
+![generic_12](img/generic_12.png)
 
 ### Choose whether you want to assign a global Ipv6 address for your container or not
-![generic_13](./img/generic_13.png)
+![generic_13](img/generic_13.png)
 
 ### Deploying your solution
-![generic_15](./img/generic_15.png)
+![generic_15](img/generic_15.png)
 
 #### Successfully deployed
-![generic_16](./img/generic_16.png)
+![generic_16](img/generic_16.png)
 
 #### Access solution info from the Generic Flist solution page
-![Step9](./img/generic_17.png)
+![Step9](img/generic_17.png)

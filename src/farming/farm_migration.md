@@ -12,7 +12,7 @@ Open your hosted 3Bot dashboard and navigate to `settings`
 
 You should already see the following identities:
 
-![new id](./img/identities_hosted_3bot.png)
+![new id](img/identities_hosted_3bot.png)
 
 Click on the identity with the name of either **main** or **test** and take note of it's **3Bot ID**. 
 
@@ -20,11 +20,11 @@ Click on the identity with the name of either **main** or **test** and take note
 
 In this example we have a Testnet Network farm so we take note of the **test** 3Bot ID which is `860`.
 
-![new id](./img/note_new_id.png)
+![new id](img/note_new_id.png)
 
 ### Step 2
 Go to your local 3Bot dashboard and navigate to the `Farm Management` page. You should see your farm. Click on the cogwheel (settings icon) to edit your farm.
-![migration](./img/save_farm.png)
+![migration](img/save_farm.png)
 
 For the migration to happen you have to take the 3Bot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
 
@@ -43,12 +43,12 @@ When you have a hosted 3Bot dashboard, navigate to `settings`
 
 You should already see the following identities:
 
-![new id](./img/identities_hosted_3bot.png)
+![new id](img/identities_hosted_3bot.png)
 
 #### 1.1
 Click the plus button to create a new Identity
 
-![new id](./img/new_identity_hosted_3bot.png)
+![new id](img/new_identity_hosted_3bot.png)
 
 #### 1.2
 Fill in the information based on your **ThreeFold Connect** identity (which will be the case for your existing farm) and the network your farm lives on. In this example we call our Identity **John** and we have a farm on the **Test Network**.
@@ -69,18 +69,18 @@ Click on the identity with the name of either **main** or **test** and take note
 
 In this example we have a Testnet Network farm so we take note of the **test** 3Bot ID which is `860`.
 
-![new id](./img/note_new_id.png)
+![new id](img/note_new_id.png)
 
 ### Step 2
 
 Now click on your **newly created identity** and make it your default! This will make the dashboard load in your identity from your ThreeFold Connect app. In this example we click on **John** and make it our default.
 
-![new id](./img/new_set_default.png)
+![new id](img/new_set_default.png)
 
 ### Step 3
 Now go to `Farm Management` page. You should see your farm. Click on the cogwheel (settings icon) to edit your farm.
 
-![migration](./img/save_farm.png)
+![migration](img/save_farm.png)
 
 For the migration to happen you have to take the 3Bot ID that you took note off and paste it in the field **3Bot ID**. This will change the owner of your farm to your hosted 3Bot identity! You farm name and other information can stay the same.
 

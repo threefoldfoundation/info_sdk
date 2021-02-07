@@ -1,36 +1,36 @@
 <!--- original content: https://github.com/Threefoldfoundation/info_Threefold/tree/development/src/docs/token/apps_wallets --->
 # ThreeFold Connect App
 
-![](./img/3bot_intro.png)
+![](img/3bot_intro.png)
 
 ## Home Page
 
 This is the Home Page of your ThreeFold Connect App. It offers a gateway to your digital life. 
 
-![](./img/tc_home_page.png)
+![](img/tc_home_page.png)
 
 ## Wallet
 
 In this tab you can check your ThreeFold wallets and balances. If you have multiple wallets, you can copy your wallet address using the green "Copy" button for each specific wallet. In single wallet view (wallet details), you can view your address by clicking on the tab with the "i" icon and copying from there. Using the button on the bottom right side you can send or receive ThreeFold Tokens.
 
-![](./img/tc_wallets.png )
+![](img/tc_wallets.png )
 
 ### Generate QR Code to receive ThreeFold Tokens
 
 To receive your ThreeFold Tokens you should fill in the following fields:
 
-![](./img/tc_receive.png)
+![](img/tc_receive.png)
 
 1) `To` : choose the wallet that receives the transaction
 2) `Amount` : amount of TFT to receive
 3) `Message` : message to transaction
 4) `Generate QR` : this button generates a QR code that holds all info, allowing an easy way to exchange the payment information. 
 
-![](./img/tc_receive_qr.png )
+![](img/tc_receive_qr.png )
 
 ### Send
 
-![](./img/tc_send.png )
+![](img/tc_send.png )
 
 1) `From` : choose your wallet with TFT to make transaction
 2) `To` : paste the receiver wallet address

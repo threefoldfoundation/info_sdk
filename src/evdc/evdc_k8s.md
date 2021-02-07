@@ -14,8 +14,8 @@ Kubeapps is a web-based UI for deploying and managing applications in Kubernetes
 
 In the marketplace, there is a widget available to deploy a kubeapps instance. 
 
-![](./img/evdc_k8s_kubeapps_widget.png)
+![](img/evdc_k8s_kubeapps_widget.png)
 
 A few chatflow clicks activates your instance of the application.
 
-![](./img/evdc_k8s_kubeapps_dashboard.png)
+![](img/evdc_k8s_kubeapps_dashboard.png)

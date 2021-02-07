@@ -115,22 +115,22 @@ chat = FoodChat
 Here's how the previously created chatflow will look like
 
 - Asking what the user's name is as string `string_ask`
-![Chat Flow1](./img/chat1.png)
+![Chat Flow1](img/chat1.png)
 
 - Asking what restaurant the user wants from a list of options using `drop_down_choice`
-![Chat Flow2](./img/chat2.png)
+![Chat Flow2](img/chat2.png)
 
 - Asking what main dish the user will be having from a list of options using `single_choice`
-![Chat Flow3](./img/chat3.png)
+![Chat Flow3](img/chat3.png)
 
 - Asking about the amount of the main dish to be ordered using `int_ask`
-![Chat Flow4](./img/chat4.png)
+![Chat Flow4](img/chat4.png)
 
 - Asking about one or more side dishes to be ordered with the main dish using `multi_choice`
-![Chat Flow5](./img/chat5.png)
+![Chat Flow5](img/chat5.png)
 
 - Showing final results using md_show
-![Chat Flow6](./img/chat6.png)
+![Chat Flow6](img/chat6.png)
 
 
 ## Example 2

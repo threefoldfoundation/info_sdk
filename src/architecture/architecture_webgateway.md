@@ -1,4 +1,4 @@
-![](./img/network_architecture4.png)
+![](img/network_architecture4.png)
 
 ## Web Gateway Architecture
 

@@ -2,7 +2,7 @@
 
 #### Requirements
 
-Please check the [general requirements](code.md)
+Please check the [general requirements](code)
 
 ### Overview
 The aim is to create a simple Kubernetes cluster where we need to follow a few steps:
@@ -13,13 +13,13 @@ The aim is to create a simple Kubernetes cluster where we need to follow a few s
 
 #### Create an overlay network of identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that it has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network.md).
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that it has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You can find instructions how to create a network [here](code_network).
 
 
 
 #### Design the Kubernetes cluster
 
-You have created a network in the network creation [tutorial](code_network.md) with the following details:
+You have created a network in the network creation [tutorial](code_network) with the following details:
 
 ```python
 demo_ip_range="172.20.0.0/16"

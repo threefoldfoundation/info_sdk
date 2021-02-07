@@ -64,7 +64,7 @@ After the installation steps you should have an executable `threebot`
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](3bot_running.md) for nginx binary (in case of linux) or install as root in case of OSX.
+3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](3bot_running) for nginx binary (in case of linux) or install as root in case of OSX.
 
  ```bash
  threebot start --local
@@ -74,11 +74,11 @@ After the installation steps you should have an executable `threebot`
 
 - Then it will start 3Bot server you will see some thing like that
 
- ![configure](./img/identity_new.png)
+ ![configure](img/identity_new.png)
 
 - After success you could visit the admin dashboard at https://localhost:8443/admin and start creating reservations
 
- ![configure](./img/success.png)
+ ![configure](img/success.png)
 
 #### Cleaning up Data from previous installations
 
