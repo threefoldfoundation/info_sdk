@@ -30,7 +30,7 @@
          - [Wallet Top Up](evdc_wallet_topup.md)
          - [Wallet Import](evdc_wallet_import.md)
             - [TF Connect Wallet](evdc_wallet_import_tf.md)
-            - [Solar Wallet](evdc_wallet_import_solar.md))
+            - [Solar Wallet](evdc_wallet_import_solar.md)
       - [Manage Networks](evdc_networks.md)
       - [TFNOW Marketplace](evdc_tfnow.md)
          - [Host a Website](evdc_website.md)

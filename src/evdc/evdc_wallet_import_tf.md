@@ -45,4 +45,4 @@ Name your wallet and paste the copied eVDC wallet secret key onto the form, add 
 
 Congratulations! You now have successfully imported your eVDC Wallet into TF Connect Wallet.
 
-![](newwallet.jpg)
+![](successimport.jpg)
