@@ -4,7 +4,7 @@
 
 ### Choose 'Create' to Create a New Capacity Pool
 
-<img src="./img/3bot_capacity_new_create.png" alt="3bot_capacity_new_create"
+<img src="img/3bot_capacity_new_create.png" alt="3bot_capacity_new_create"
   title="3bot_capacity_new_create" width="703" height="494" />
 
 Select __'Create'__ if you have not created any capacity pool before, or if you would like to create a new separate pool from your already existing one. Select __'Extend'__ if you would like to reserve more capacity on one of the pools you have created.
@@ -55,4 +55,4 @@ Once payment is confirmed, the reserved capacity is added to the list, indicatin
 
  Each capacity pool is named after few digits of auto generated numbers and is always listed on the first page of your __Pools__ submenu. Click on __'Pool Number'__ to see the details of each __capacity pool's workload__. It will take a few minutes after your successful reservation transaction for the details of the active cloud units and active storage units to be properly updated. Please [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for any help and assistance in managing your capacity pools.
 
-![](./img/capacity_new_pooldetails.png)
+![](img/capacity_new_pooldetails.png)

@@ -13,19 +13,19 @@ You can transfer your TFT from eVDC mainnet or testnet, and import your wallet i
 
 Once you logged into your eVDC account, access your eVDC Wallet by clicking '__My VDC__' menu on the top navigation bar.
 
-![](./img/myvdc.png)
+![](img/myvdc.png)
 
 You will be directed to your eVDC Management page with Compute Nodes page as its default display. Click on 'Wallet Information' page on the left sidebar
 
-![](./img/walletpage.png)
+![](img/walletpage.png)
 
 You will then redirected to your eVDC Wallet page.
 
-![](./img/walletinfo.png)
+![](img/walletinfo.png)
 
 Copy your eVDC Secret Key. _(Please copy secret key, not your wallet address)_
 
-![](./img/copy_secret.png)
+![](img/copy_secret.png)
 
 
 ## Open your Solar Wallet App / Account (Mainnet)

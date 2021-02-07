@@ -7,7 +7,7 @@ Anyone could creates 3Nodes. The process is very simple and requires you to put 
 
 <!-- TODO #63 Look at the farming pages and see if the description of getting a farm_id and more is cleary documented enough -->
 
-<!-- ![](./img/bootstrap.png) -->
+<!-- ![](img/bootstrap.png) -->
 <img src="img/bootstrap.png" width="600" alt="">
 
 ### Find 3Nodes to deploy workloads on
@@ -17,16 +17,16 @@ The TF Grid has an explorer which represents all of the 3Nodes that form the cap
 Also included is a rudimentary search facility where you could select nodes based on their characteristics (number of CPU cores, memory etc.). For discovery purpose this grid portal is a good starting point to find out what is available on the TF Grid in which geography.
 
 <img src="img/explorer-front-page.png" width="600" alt="Explorer front page">
-<!-- ![](./img/explorer_front_page.png) -->
+<!-- ![](img/explorer_front_page.png) -->
 
 
 On a per-node level, node specific details are available. Opening a specific node tab provides you with the identity and statistics of the node. All this information is also searchable and available in the SDK.
 <img src="img/explorer_node_details.png" width="600" alt="Explorer front page">
-<!-- ![](./img/explorer_node_details.png) -->
+<!-- ![](img/explorer_node_details.png) -->
 
 ### Find or create Flists 
 The Flist principle is explained in the introduction architecture section ([here](architecture_flist).
-<!-- ![](./img/hub_startpage.png) -->
+<!-- ![](img/hub_startpage.png) -->
 
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
 

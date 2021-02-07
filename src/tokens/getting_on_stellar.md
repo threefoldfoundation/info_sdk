@@ -71,7 +71,7 @@ There is a possibility to connect to us, for useful projects that want to explor
 
 To claim your 1000 FreeTFT, go to the [website](https://www.getfreetft.Threefold.io) and fill in the application form.
 
-![appl_form](./img/getfreetft_application_form.png ':size=500x620')
+![appl_form](img/getfreetft_application_form.png ':size=500x620')
 
 <!--- TODO add FreeTFT faucet website, testnet already available :
 https://testnet.Threefold.io/Threefoldfoundation/stellar_faucet --->

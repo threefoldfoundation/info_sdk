@@ -11,11 +11,11 @@ In the SDK you could easily set up Stellar based wallets for both TFT, FreeTFT a
 
 In the left Menu click Wallets Manager.
 
-![image alt text](./img/wallets_manager.jpg)
+![image alt text](img/wallets_manager.jpg)
 
 Click Create Wallet and give it a name
 
-![image alt text](./img/create_wallet.jpg)
+![image alt text](img/create_wallet.jpg)
 
 Your wallet has now been created and should show up in your list
 
@@ -78,12 +78,12 @@ You will have to copy the first part only: the secret key.
 Now go to the SDK Wallets Manager and Click Import Wallet.
 Give the wallet a name and paste your wallet secret.
 
-![image alt text](./img/3sdk_import_1.jpg)
+![image alt text](img/3sdk_import_1.jpg)
 
 You have now imported the Interstellar wallet and it will show up in your Wallets Manager.
 
-![image alt text](./img/3sdk_import_2.jpg)
+![image alt text](img/3sdk_import_2.jpg)
 
 The public address of the account is the same for all assets. So by setting up the account, you have also an overview of all tokens / assets for which a trustline has been created. 
 
-![image alt text](./img/3sdk_import_3.jpg)
+![image alt text](img/3sdk_import_3.jpg)

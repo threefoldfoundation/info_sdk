@@ -20,7 +20,7 @@ Once this info is entered, wait for the solution to be deployed.
 
 The owner has access to the SQL database inside and can protect it with a password. 
 
-![](./img/evdc_mattermost_05_mysql.png)
+![](img/evdc_mattermost_05_mysql.png)
 
 Choose the size of the capacity that you want to reserve for this solution. 
 ![](img/evdc_mattermost_06_chatflow_flavour.png)

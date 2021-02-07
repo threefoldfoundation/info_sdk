@@ -14,7 +14,7 @@ The sidebar allows easy navigation between the different features offered within
 
  It provides “at-a-glance” visibility into active resources, shows system versions, network (testnet, mainnet), processes status, memory consumptions, pools and some health checks. 
 
-![./img/threebot_admin_dashboard.png](img/threebot_admin_dashboard.png)
+![img/threebot_admin_dashboard.png](img/threebot_admin_dashboard.png)
 
 ### Wallets
 

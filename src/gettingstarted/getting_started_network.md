@@ -32,15 +32,15 @@ wg-quick up my_first_network.conf
 
 Open the wireguard application and click on the plus icon on the lower left corner. Add a new empty tunnel and copy the configuration or import the file if you have downloaded it from the chat flow.
 
-![./img/wg_config_mac_add.png](img/wg_config_mac_add.png)
-![./img/wg_config_mac_config.png](img/wg_config_mac_config.png)
-![./img/wg_config_mac_enable.png](img/wg_config_mac_enable.png)
+![img/wg_config_mac_add.png](img/wg_config_mac_add.png)
+![img/wg_config_mac_config.png](img/wg_config_mac_config.png)
+![img/wg_config_mac_enable.png](img/wg_config_mac_enable.png)
 
 #### On Windows
 
 The process is very similar. Open the wireguard application and click on the plus icon or on `Add Tunnel` on the lower left corner. Add a new empty tunnel and copy the configuration or import the file if you have downloaded it from the chat flow.
 
-![./img/wg_config_win_add.png](img/wg_config_win_add.png)
-![./img/wg_config_win_config.png](img/wg_config_win_config.png)
-![./img/wg_config_win_enable.png](img/wg_config_win_enable.png)
+![img/wg_config_win_add.png](img/wg_config_win_add.png)
+![img/wg_config_win_config.png](img/wg_config_win_config.png)
+![img/wg_config_win_enable.png](img/wg_config_win_enable.png)
 

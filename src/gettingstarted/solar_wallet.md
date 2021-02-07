@@ -106,7 +106,7 @@ Find TFT and click on __'add custom asset'__
 
 Here you will find TFT asset information. Set the asset up by clicking on __'add asset to your account'__ button.
 
-![](./img/solar/18_confirmtft.png)
+![](img/solar/18_confirmtft.png)
 
 Confirm the FreeTFT addition by clicking on __'confirm'__ button.
 
