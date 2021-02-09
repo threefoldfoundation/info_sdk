@@ -21,7 +21,7 @@
       - [Deploy eVDC](evdc_deploy.md)
       - [Manage eVDC](evdc_manage.md)
  - [eVDC Admin Panel](evdc_admin.md)
-      - [My eVDC](evdc_compute.md)
+      - [My eVDC](evdc_my_evdc.md)
          - [Manage Compute Nodes](evdc_compute.md)
             - [Upgrade Nodes](evdc_upgrade.md)
             - [Remove Nodes](evdc_downgrade.md)
