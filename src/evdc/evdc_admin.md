@@ -9,7 +9,7 @@ With eVDC Admin Panel, you can now deploy and manage your workloads on each acti
 The admin panel for your eVDC is made of 2 parts: 
 - __My VDC__ gives you the access to overview your compute nodes, storage nodes and the wallet that is set up specifically for funding the resource provisioning of your VDC. 
 
-- TF NOW Marketplace allows you to deploy workloads onto your VDC.
+- __TF NOW Marketplace__ allows you to deploy workloads onto your VDC.
 
 
 > Go to [__My eVDC__](evdc_my_evdc.md) to manage overview your eVDC resource provisioning.
