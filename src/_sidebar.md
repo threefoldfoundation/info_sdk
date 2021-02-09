@@ -26,10 +26,8 @@
             - [Upgrade Nodes](evdc_upgrade.md)
             - [Remove Nodes](evdc_downgrade.md)
          - [Manage Storage Nodes](evdc_storage.md)
-         - [K8S Management](evdc_k8s.md)
-         - [Manage K8S Cluster](evdc_deploy_k8s.md)
-            - [Monitor K8S Clusters](evdc_monitoring_k8s.md)
-               - [Monitoring Stack](evdc_monitoring_stack.md)\
+         - [Monitor Workloads](evdc_k8s.md)
+               - [Monitoring Stack](evdc_monitoring_stack.md)
                - [Local Monitoring](evdc_monitoring_local.md)
          - [eVDC Wallet](evdc_wallet.md)
             - [Wallet Access](evdc_wallet_access.md)
