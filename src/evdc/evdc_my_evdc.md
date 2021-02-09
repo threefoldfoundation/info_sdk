@@ -2,15 +2,18 @@
 
 ![](img/evdc_compute_nodes.png)
 
-The panel `My VDC` gives an overview of the resources that make up your Kubernetes cluster, both compute and storage nodes. 
-It also manages the wallet that is set up specifically for this eVDC. 
+The panel `My VDC` gives an overview of the resources that make up your Kubernetes cluster, both compute and storage nodes. It also manages the wallet that is set up specifically for this eVDC. 
 
-> Go to [__eVDC Management Manual__](evdc_manage) to read how to access your eVDC Admin Panel.
+## Accessing My eVDC
+
+You can easily access My VDC page by simply clicking on `My VDC` button on the top right corner of your eVDC Admin Panel.
+
+![](evdc_myvdc.png)
+
 
 ## Functionalities
 
 - [Manage Compute Nodes in your eVDC](evdc_compute)
 - [Manage Storage Nodes in your eVDC](evdc_storage)
 - [eVDC Wallet](evdc_wallet)
-.
-- [Kubernetes Cluster Deployment in your eVDC](evdc_k8s)
+- [Manage Workloads](evdc_k8s)
