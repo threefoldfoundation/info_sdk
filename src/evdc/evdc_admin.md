@@ -2,7 +2,7 @@
 
 ![](img/evdcadmin.png)
 
-After successfuly deploying an eVDC from the eVDC Deployer, you can access your eVDC Admin panel via the given link on VDC Deployer.
+After successfuly deploying an eVDC from the eVDC Deployer, you can access your eVDC Admin panel via the given link on your [Deployed eVDCs List](evdc_manage.md).
 
 With eVDC Admin Panel, you can now deploy and manage your workloads on each active eVDC via the __eVDC admin panel__. This admin panel will support you to execute many eVDC functionalities, such as accessing your eVDC wallet, deploying decentralised solutions on the marketplace, upgrading your eVDC compute nodes, and many more.
 
