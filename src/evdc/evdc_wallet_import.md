@@ -10,6 +10,6 @@ __Please keep in mind that we would not be able to refund any TFT after each tes
 -  You should only import / transfer your TFT to __a mainnet stellar wallet__, regardless if it is currently on eVDC wallet testnet. Since we are only using mainnet TFT for testing purposes.
 - You can transfer your TFT from eVDC mainnet or testnet, and import your wallet into __ThreeFold Connect Wallet__ or a third party Stellar wallet (mainnet), like , __Solar Wallet__, or __Interstellar Wallet__. 
 
-> Click [__here__](evdc_wallet_import_tf.md) to read a manual on how import your eVDC Wallet to your __ThreeFold Connect Wallet (Mobile App)__.
+> Click [__here__](evdc_wallet_import_tf) to read a manual on how import your eVDC Wallet to your __ThreeFold Connect Wallet (Mobile App)__.
 
-> Click [__here__](evdc_wallet_import_solar.md) to read a manual on how import your eVDC Wallet to __Solar Wallet (Third-party App)__.
+> Click [__here__](evdc_wallet_import_solar) to read a manual on how import your eVDC Wallet to __Solar Wallet (Third-party App)__.
