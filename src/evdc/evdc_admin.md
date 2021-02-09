@@ -13,6 +13,6 @@ The eVDC Admin Panel is consisted of 2 sections:
 - __TF NOW Marketplace__ allows you to deploy workloads onto your VDC.
 
 
-> Go to [__My eVDC__](evdc_my_evdc.md) to manage overview your eVDC resource provisioning.
+> Go to [__My eVDC__](evdc_my_evdc.md) to manage and provision your eVDC resources.
 
 > Go to [__TFNOW Marketplace Solutions in your eVDC__](evdc_tfnow.md) to deploy a solution.
