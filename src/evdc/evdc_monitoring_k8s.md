@@ -1,8 +1,14 @@
 # Monitor K8s clusters 
+TODO GEERT
+- explain you can do either monitoring online or locally
+- at the end add link to vdc_monitoring_stack.md
+- add link to monitoring_local.md
+
+------------
 
 The health of the VDC you deploy can be monitored. A stack has been prepared that offers monitoring through Prometheus and Grafana. A Helm chart `kube-prometheus-stack` is available, which offers Prometheus and Grafana as tooling to monitor your VDC. 
 
-## Monitoring Walkthrough
+## Monitoring Manuals
 
 The monitoring stack is available as a solution in the marketplace. 
 

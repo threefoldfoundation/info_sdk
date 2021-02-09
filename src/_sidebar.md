@@ -38,11 +38,11 @@
          - [Deploy Mattermost](evdc_mattermost.md)
          - [Blockchain Solutions](evdc_blockchain.md)
             - [Digibyte Node](evdc_digibyte.md)
-         - [K8S Deployment](evdc_k8s.md)
-            - [Deploy K8S Cluster](evdc_deploy_k8s.md)
-            - [Upload Cluster Containers](evdc_upload_k8s.md)
-            - [Monitor K8S Clusters](evdc_monitor_k8s.md)
-            - [Manage Networks](evdc_networks.md)
+         - [K8S Management](evdc_k8s.md)
+            - [Manage K8S Cluster](evdc_deploy_k8s.md)
+            - [Monitor K8S Clusters](evdc_monitoring_k8s.md)
+               - [Monitoring Stack](evdc_monitoring_stack.md)\
+               - [Local Monitoring](evdc_monitoring_local.md)
    <!-- - 3bot -->
 * [3Bot](3bot.md)
  - [3Bot Deployer](3Bot_deployer.md)

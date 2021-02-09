@@ -1,4 +1,8 @@
 # Docker and Kubernetes
+TO DO geert
+explain in short what is kubernetes cluster and how it relates to TF evdc Compute nodes. show when you upgrade a computer node, it means youre deploying kubernetes cluster. explains the sizes of kubernetes cluster,  add link on how to add compute nodes at the end.
+
+
 
 The IT industry is used to standard tooling for the deployment of their IT workload: 
 - Docker is the standard for container
