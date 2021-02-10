@@ -1,8 +1,10 @@
 # Monitor K8s clusters Locally using Lens IDE
 TODO GEERT
-- explain what is lens ide , what can it monitor, what's the use / what can it monitor.
-- explain requirements
-- explain how to set up steps
+- intro: explain what is lens ide , 
+what can it monitor, what's the use / what can it monitor.
+- requirement: explain requirements
+- getting started: explain how to set up / deploy steps (steps)
+- use case: give an example of a monitoring use case once user has a lens ide (steps)
 
 ---------------
 
