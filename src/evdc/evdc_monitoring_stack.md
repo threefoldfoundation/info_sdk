@@ -1,4 +1,4 @@
-# # Monitor K8s clusters using Monitoring Stack
+# # Monitor Kubernetes Clusters using Monitoring Stack
 TODO 
 - intro: what is mnonitoring stack what are included in monitoring stack
 - explain what is prometheus, what's the use / what can it monitor
