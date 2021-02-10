@@ -1,6 +1,9 @@
 # Docker and Kubernetes
 TO DO geert
-explain in short what is kubernetes cluster and how it relates to TF evdc Compute nodes. show when you upgrade a computer node, it means youre deploying kubernetes cluster. explains the sizes of kubernetes cluster,  add link on how to add compute nodes at the end.
+- intro: explain in short what is kubernetes cluster and how it relates to TF evdc Compute nodes. 
+- intro: show when you upgrade a computer node, it means youre deploying kubernetes cluster. 
+- explains the sizes of kubernetes cluster,  
+- add link on how to add compute nodes at the end. (evdc_compute)
 
 
 

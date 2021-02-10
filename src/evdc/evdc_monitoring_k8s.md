@@ -1,8 +1,9 @@
 # Monitor K8s clusters 
 TODO GEERT
-- explain you can do either monitoring online or locally
-- at the end add link to vdc_monitoring_stack.md
-- add link to monitoring_local.md
+- intro: explain what you can monitor in terms of k8s monitoring
+- intro: explain what you can do either monitoring online or locally
+- getting started: at the end add link to vdc_monitoring_stack.md
+- getting started:  add link to monitoring_local.md
 
 ------------
 
