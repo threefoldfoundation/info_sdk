@@ -1,4 +1,4 @@
-# Set up a network for your solution
+# Set up a network in the Kubernetes cluster
 
 Set up a network for interconnecting the different Kubernetes pods and volumes comes out of the box with Kubernetes (and available in the K3S implementation). 
 
