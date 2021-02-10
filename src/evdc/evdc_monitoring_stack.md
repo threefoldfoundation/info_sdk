@@ -1,10 +1,11 @@
 # # Monitor K8s clusters using Monitoring Stack
-TODO GEERT
-- what are included in monitoring stack
+TODO 
+- intro: what is mnonitoring stack what are included in monitoring stack
 - explain what is prometheus, what's the use / what can it monitor
 - explain what isgrafana , what can it monitor, what's the use / what can it monitor
-- explain requirements
-- explain steps
+- requirements: explain requirements
+- getting started explain deploymnent steps
+- use case: give 1 example of monitoring on the deployed  grafana / prometheus
 --------------
 
 
