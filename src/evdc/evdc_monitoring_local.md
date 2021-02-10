@@ -37,3 +37,5 @@ And you're done !
 
 ![](img/evdc_k8s_monitoring_14_lens.png)
 
+> For the installation of Kubernetes monitoring using the tooling on the Marketplace, please read [__Monitoring Stack__](evdc_monitoring_stack).
+

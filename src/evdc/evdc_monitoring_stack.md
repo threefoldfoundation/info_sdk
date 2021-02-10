@@ -52,14 +52,5 @@ And that's it: the url's are available to access your monitoring solution, with 
 
 ![](img/evdc_k8s_monitoring_11_grafana3.png)
 
-Alternatively you can also set up monitoring from your local computer, as an example through the [Lens](https://k8slens.dev/) IDE. To configure the K8S into Lens, you need to download the VDC `Kubeconfig` file. 
+> For the installation of Kubernetes monitoring on your local machine, please read [__Local Monitoring__](evdc_monitoring_local)).
 
-![](img/evdc_k8s_monitoring_12_kubeconfig.png)
-
-Import this file into the IDE.
-
-![](img/evdc_k8s_monitoring_13_lens_kubeconfig.png)
-
-And you're done !
-
-![](img/evdc_k8s_monitoring_14_lens.png)

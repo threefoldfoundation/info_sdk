@@ -1,4 +1,4 @@
-# Deploy K8s Cluster
+# Deploy Kubernetes Cluster
 
 The Kubernetes cluster comes with the creation of your VDC. 
 
