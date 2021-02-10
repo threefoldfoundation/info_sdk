@@ -5,7 +5,7 @@ TODO GEERT
 what can it monitor, what's the use / what can it monitor.
 - requirement: explain requirements
 - getting started: explain how to set up / deploy steps (steps)
-- use case: give an example of a monitoring use case once user has a lens ide (steps)
+- use case: give an example of a monitoring use case once user has a lens ide (steps) -->
 
 The health of the VDC you deploy can be monitored, either using online tooling such as the Prometheus/Grafana online monitoring stack, or on your local computer, as an example through the [Lens](https://k8slens.dev/) IDE. 
 
