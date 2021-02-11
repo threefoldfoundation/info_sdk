@@ -23,7 +23,4 @@ Any tooling for managing your Kubernetes cluster, both for workload provisioning
 
 > Please read [__Monitoring__](evdc_monitoring_k8s) to deploy monitoring tools on your Kubernetes cluster. 
 
-The process for deploying workloads has been made easy as quite a lot of Helm templates have been made available, ready for usage on the grid. 
-
-For storage, any file system will be supported.
-
+The process for deploying workloads has been made easy as quite a lot of Helm templates have been made available, ready for usage on the grid. The `Marketplace` widget are created with the help of Helm Charts, which can be found [here](https://github.com/threefoldtech/vdc-solutions-charts), but evidently you can also create your own Helm Charts and deploy them onto your Kubernetes cluster. 
