@@ -2,12 +2,11 @@
 
 The Kubernetes cluster comes with the creation of your VDC. 
 
-- This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS.
-
+This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS.
 
   ![](img/evdck3slogo.png)
 
-- K3S is full conformant production-ready Kubernetes distribution with the following changes:   
+K3S is a fully conformant production-ready Kubernetes distribution with the following changes:   
    - It is packaged as a single binary
    - It adds support to sqlite3 as default storage. Etcd3, MySQL and Postgres are also supported
    - It wraps Kubernetes and other components in a single, simple launcher
@@ -17,7 +16,7 @@ The Kubernetes cluster comes with the creation of your VDC.
    More info on K3S can be found [here](https://github.com/rancher/k3s).
   
 
-## Next, use the guided setup to create and configure your private VDC
+### Next, use the guided setup to create and configure your private VDC
 
 - Both K8S and storage have their own flow – actions in order to deploy your own instance on top of the ThreeFold Grid.
 - If you're feeling lost, each live tool has a tutorial on its page here on the wiki.
