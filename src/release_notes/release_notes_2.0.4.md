@@ -8,12 +8,12 @@
 ## Component versions
 
 - Jumpscale/SDK: `10.5.2`
- - [Github project](https://github.com/orgs/Threefoldtech/projects/69)
- - [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.5.2)
+- [Github project](https://github.com/orgs/Threefoldtech/projects/69)
+- [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.5.2)
 - Zero-OS v2: `0.3.0`
- - [Github project](https://github.com/orgs/Threefoldtech/projects/21)
- - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.0)
- - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.2.6)
+- [Github project](https://github.com/orgs/Threefoldtech/projects/21)
+- [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.0)
+- [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.2.6)
 
 ## known issues
 
@@ -24,4 +24,4 @@
 
 ## Roadmap see
 
-- [Roadmap](wiki:roadmap.md)
+- [Roadmap](threefold:roadmap.md)

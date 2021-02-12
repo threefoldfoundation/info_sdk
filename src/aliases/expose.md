@@ -1,2 +1,1 @@
-!!!include:manual:solution_expose.md
-
+!!!include:sdk:solution_expose.md

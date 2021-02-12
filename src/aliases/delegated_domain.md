@@ -1,1 +1,1 @@
-!!!include:manual:delegate_domain.md
+!!!include:sdk:delegate_domain.md

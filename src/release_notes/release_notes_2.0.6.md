@@ -27,8 +27,8 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 #### Chatflows improvements
 
 - Stateful chatflows:
- - Pick up where a chatflow was last left
- - Go back and forth within a chatflow
+- Pick up where a chatflow was last left
+- Go back and forth within a chatflow
 - Gitea solution chatflow
 - Split-up of bill about what is to be paid
 - Expose solution with custom domains
@@ -76,12 +76,12 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 ## Component versions
 
 - Jumpscale/SDK: `10.6`
- - [Github project](https://github.com/orgs/Threefoldtech/projects/88)
- - [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.6)
+- [Github project](https://github.com/orgs/Threefoldtech/projects/88)
+- [Jumpscale release notes](https://github.com/Threefoldtech/jumpscaleX_core/releases/tag/v10.6)
 - Zero-OS v2:`0.3.3`:
- - [Github project](https://github.com/orgs/Threefoldtech/projects/89)
- - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
- - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
+- [Github project](https://github.com/orgs/Threefoldtech/projects/89)
+- [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
+- [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
 
 ### 3SDK binaries
 
@@ -96,4 +96,4 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 
 ## Roadmap see
 
-- [Roadmap](wiki:roadmap.md)
+- [Roadmap](threefold:roadmap.md)

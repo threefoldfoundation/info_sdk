@@ -1,1 +1,1 @@
-!!!include:manual:solution_ubuntu.md
+!!!include:sdk:solution_ubuntu.md

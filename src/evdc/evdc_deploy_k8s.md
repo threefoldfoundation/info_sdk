@@ -1,24 +1,22 @@
-# Deploy K8s Cluster
+# Deploy Kubernetes Cluster
 
 The Kubernetes cluster comes with the creation of your VDC. 
 
-- This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS
+This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS.
 
   ![](img/evdck3slogo.png)
-- K3S is full conformant production-ready Kubernetes distribution with the following changes:   
+
+K3S is a fully conformant production-ready Kubernetes distribution with the following changes:   
    - It is packaged as a single binary
    - It adds support to sqlite3 as default storage. Etcd3, MySQL and Postgres are also supported
    - It wraps Kubernetes and other components in a single, simple launcher
    - It is secure by default with reasonable defa&ults for lightweight environments
    - It eliminates the need to expose a port on Kubernetes worker nodes fopr the kubelet API by exposing this API to the Kubernetes control plain nodes over a websocket tunnel. 
    
-   More info can be found [here](https://github.com/rancher/k3s)
-   
-   
-   - You'll need to log in through Threefold Connect, an authenticator for the ThreeFold ecosystem.
-     You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/3botconnect_install).
+   More info on K3S can be found [here](https://github.com/rancher/k3s).
+  
 
-## Next, use the guided setup to create and configure your private VDC
+### Next, use the guided setup to create and configure your private VDC
 
 - Both K8S and storage have their own flow – actions in order to deploy your own instance on top of the ThreeFold Grid.
 - If you're feeling lost, each live tool has a tutorial on its page here on the wiki.

@@ -1,2 +1,1 @@
-!!!include:manual:solution_network.md
-
+!!!include:sdk:solution_network.md
