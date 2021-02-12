@@ -1,4 +1,4 @@
-## Actors
+## Actors for myjobs
 
 See [actors](actors), for example, myjobs actor have the following methods:
 

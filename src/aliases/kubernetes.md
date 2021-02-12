@@ -1,2 +1,1 @@
-!!!include:manual:solution_kubernetes.md
-
+!!!include:sdk:solution_kubernetes.md

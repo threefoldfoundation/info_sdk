@@ -1,1 +1,1 @@
-!!!include:manual:solution_container.md
+!!!include:sdk:solution_container.md
