@@ -1,8 +1,6 @@
 <!--- original content: https://github.com/Threefoldfoundation/info_Threefold/tree/development/src/docs/token/apps_wallets --->
 # ThreeFold Connect App
 
-![](img/3bot_intro.png)
-
 ## Home Page
 
 This is the Home Page of your ThreeFold Connect App. It offers a gateway to your digital life. 

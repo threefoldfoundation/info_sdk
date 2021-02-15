@@ -1,7 +1,3 @@
-
-![](img/vfs_intro2.png)
-
-
 # Ultra Efficient Virtual File System for Zero-OS
 
 ## Virtual Filesystem Architecture

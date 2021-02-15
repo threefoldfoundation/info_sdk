@@ -2,7 +2,7 @@
 
 - [Definitions](definitions)
 - [Disclaimer](disclaimer)
-- [Privacy Policy](privacypolicy.md)
+- [Privacy Policy](threefold:privacypolicy)
 - [Terms & Conditions Grid](terms_conditions)
 
 Our single source of truth for our legal docs is on [Github](https://github.com/threefoldfoundation/legal/tree/master)

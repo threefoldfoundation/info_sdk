@@ -8,7 +8,7 @@ When deploying an application that needs to retain data, you’ll need to create
 
 A persistent volume (PV) is a piece of storage in the Kubernetes cluster, while a persistent volume claim (PVC) is a request for storage.
 
-![Persistant storage in kubernetes](persistentstorage.png)
+![](persistentstorage.png)
 
 PV has three access modes
 
@@ -85,17 +85,11 @@ The idea behind the CNI initiative is to create a framework for dynamically conf
 
 ### Benchmark
 
-**Ressources consumption**
-
-![CNI Ressources consumption](ressource_consumption.png)
+**Resources consumption**
 
 **Performance**
 
-![CNI Performance](cniperf.png)
-
 **Network Policies and Encryption**
-
-![Network Policies and Encryption](networkpolicies_encryption.png)
 
 ### Flannel by default
 

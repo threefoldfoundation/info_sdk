@@ -65,7 +65,7 @@ M = (((26 * C) + 40) * S/B) + N * 2560 = 6256025600
 
 
 ## Graphical
-Please refer to the [tutorial](tutorial.md) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
+Please refer to the [tutorial](tutorials.md) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
 
 ## Programmatically
 Please make sure you understand the graphical method first. Since it explains the generic main steps that you need to build a solution from scratch.

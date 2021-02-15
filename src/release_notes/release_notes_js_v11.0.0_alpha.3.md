@@ -76,4 +76,4 @@
 
 check [v11.0.0-alpha2](https://github.com/orgs/threefoldtech/projects/95) and [v11.0.0-alpha3](https://github.com/orgs/threefoldtech/projects/104) for the complete project logs
 
-check the [manual](manual.grid.tf) for docs
+check the [manual](manual.threefold.io) for docs

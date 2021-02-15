@@ -41,7 +41,7 @@ A 3Bot is your virtual system administrator, and through your own 3Bot which non
 
 You can do this by means through deployment wizards as part of the 3Bot user interface, or if you are an advance user, you can create scripts which run on your 3Bot.
 
-Solution providers create solutions on top of the ThreeFold grid. The ThreeFold Foundation is also creating a [__marketplace__](marketplace.threefold.io) which makes it easy for endusers to deploy your own decentralized applications on top of the TF Grid see http://now.threefold.io
+Solution providers create solutions on top of the ThreeFold grid. The ThreeFold Foundation is also creating The ThreeFold NOWwx Marketplace which makes it easy for endusers to deploy your own decentralized applications on top of the TF Grid see http://now.threefold.io
 
 
 ## Want to know more (technical)?

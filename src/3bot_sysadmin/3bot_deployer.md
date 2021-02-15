@@ -9,7 +9,6 @@
 ### Create a 3Bot
 
 In the welcome step you are requested to either recover a previously created 3Bot or to create a new one. 
-![](img/threebot_0_welcome.png)
 
 If you choose to create a new 3Bot, please go through following steps: 
 
@@ -120,7 +119,7 @@ Go to the web address mentioned and log into your 3Bot by using the ThreeFold Co
 ### Access Your Dashboard
 
 After agreement on the Terms and Conditions and an explanation on prerequisites, you will be redirected to your main 3Bot Dashboard where your first initial backup is automatically made.
-![](img/threebot_dashboard.png)
+![](img/threebot_admin_dashboard.png)
 
 ### Explore the 3Bot Admin Panel's Features
 

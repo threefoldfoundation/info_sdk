@@ -1,5 +1,3 @@
-![](img/network_architecture4.png)
-
 ## Web Gateway Architecture
 
 A  __Web Gateway__ is service on the TFGrid that makes the bridge between the public internet and the private workload as running inside the private TFGrid.
