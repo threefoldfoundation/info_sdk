@@ -1,4 +1,4 @@
-You've already completed the [Getting Started](getting_started.md) sections and have your 3bot
+You've already completed the [Getting Started](twin:twin:getting_started) sections and have your 3bot
 
 
 
@@ -10,5 +10,3 @@ Once you set up your 3Bot identity and get your tfts, follow this doc on how to 
 ## Get yourself a **hosted 3Bot** from the Marketplace
 
 Once you're ready, follow this doc on how to get your own [hosted 3Bot](3bot)
-
-

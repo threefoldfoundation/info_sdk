@@ -19,7 +19,7 @@ A wallet address is composed of 2 things, the address itself and the asset code.
 
 Fill in the wallet address with your address and the correct asset. You could add as many addresses as you want. But only one per supported asset you want to accept is required.
 
-![](save_farm.png)
+![](img/save_farm.png)
 
 Once you are done, click the save button at the bottom right.
 

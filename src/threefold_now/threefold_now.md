@@ -32,4 +32,4 @@
 
 > By using The ThreeFold Now Demo or the 3Bot you agree with our [Terms and Conditions](terms_conditions). See our [Legals](legal) for more.
 
-> Read More on [How to Deploy eVDC](evdc_deploy) to Access TFNOW Marketplace
+> Read More on [How to Deploy eVDC](cloud:cloud:evdc_deploy) to Access TFNOW Marketplace

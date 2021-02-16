@@ -15,4 +15,4 @@ It introduces the threefold_now https://manual.Threefold.io/#/threefold_now runn
 
 ## Roadmap see
 
-- [Roadmap](threefold:roadmap.md)
+- [Roadmap](threefold:threefold:roadmap)
