@@ -3,7 +3,7 @@
    - [Grid Intro](grid_intro.md)
    - [Farming Intro](farming_intro.md)
    - [Why ThreeFold](/threefold_why.md)
-* [Architecture](architecture.md)
+* [Architecture](cloud_architecture.md)
    - [3Node](architecture_3Node.md)
    - [Peer2Peer Storage](architecture_storage.md)
    - [Overlay Network](architecture_network.md)
