@@ -2,7 +2,7 @@
 
 ![](tfnow_home)
 
-- **ThreeFold NOW Marketplace** is a marketplace of open source peer-to-peer solutions that are built on top of ThreeFold Grid, deployable via [eVDC Admin Panel](evdc).
+- **ThreeFold NOW Marketplace** is a marketplace of open source peer-to-peer solutions that are built on top of ThreeFold Grid, deployable via [eVDC Admin Panel](my_evdc).
 - Its main goal is to enable simplified deployment of safe, secure, and private solutions that will decentralize our lives, without the necessity of technical system administration knowledge.
 - In its early stages on testnet, there are already offerings covering various fields from a peer-to-peer video sharing platform, to an online publisher, to office tools, and more.
 
