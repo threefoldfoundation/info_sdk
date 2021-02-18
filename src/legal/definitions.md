@@ -4,4 +4,4 @@
 
 ## concepts used
 
-see [definitions_concepts](threefold:definitions_concepts)
+see [definitions_concepts](threefold:info_threefold:definitions_concepts)
