@@ -24,4 +24,4 @@
 
 ## Roadmap see
 
-- [Roadmap](threefold:threefold:roadmap)
+- [Roadmap](threefold:roadmap)
