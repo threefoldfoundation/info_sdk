@@ -12,7 +12,3 @@ It introduces the threefold_now https://manual.Threefold.io/#/threefold_now runn
 - [Github project](https://github.com/orgs/Threefoldtech/projects/89)
 - [Zero-OS release notes](https://github.com/Threefoldtech/zos/releases/tag/v0.3.3)
 - [tfexplorer release notes](https://github.com/Threefoldtech/tfexplorer/releases/tag/v0.3.1)
-
-## Roadmap see
-
-- [Roadmap](threefold:roadmap)

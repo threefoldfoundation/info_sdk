@@ -21,7 +21,3 @@
 - documentation is not good enough yet, we will be adding lots of content over next weeks
 - the 3sdk installer needs to improve (less verbose errors, more support for user edge cases, ...)
 - python notebooks and visual codeserver could use a lot of memory (these are 3e party components we use and we could not resolve this)
-
-## Roadmap see
-
-- [Roadmap](threefold:roadmap)

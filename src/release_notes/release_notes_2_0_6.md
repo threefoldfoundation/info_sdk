@@ -93,7 +93,3 @@ TF Grid 2.0.6 beta is a minor release which is focus on bug fixing and stability
 
 - Impossible to extend or modify a reservation. Will be resolved in 2.1 which releases later this month. You could checkout the specification at https://github.com/Threefoldtech/tfexplorer/blob/master/specs/modify_IT_contract_over_time.md
 - Improve installer experience
-
-## Roadmap see
-
-- [Roadmap](threefold:roadmap)

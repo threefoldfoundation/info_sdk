@@ -34,7 +34,3 @@ The billing of the reservation has been updated. The amount of token required to
 - Impossible to extend or modify a reservation. Research to allow it is ongoing at https://github.com/Threefoldtech/tfexplorer/pull/64
 - Improve installer experience
 - Inability to go back in chatflows
-
-## Roadmap see
-
-- [Roadmap](threefold:roadmap)

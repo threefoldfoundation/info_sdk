@@ -1,4 +1,4 @@
-## v11.0.0-alpha.3 release notes
+## v11.0.0-alpha3 release notes
 
 #### This release features:
  - personal 3bot on the grid
@@ -76,4 +76,4 @@
 
 check [v11.0.0-alpha2](https://github.com/orgs/threefoldtech/projects/95) and [v11.0.0-alpha3](https://github.com/orgs/threefoldtech/projects/104) for the complete project logs
 
-check the [manual](manual.threefold.io) for docs
+check the [manual](https://manual.threefold.io) for docs
