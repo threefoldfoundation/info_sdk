@@ -18,7 +18,7 @@
 
 | def | description |
 | ---- | ---- |
-| [chatsystem](page__info_threefold__chat.md) | Digital Twin |
+| [chatsystem](page__info_threefold__chat.md) | NO TITLE |
 | [cloudcapacity](page__info_threefold__ic_internet_capacity.md) | IC = Internet Capacity |
 | [cloudunits](page__info_threefold__cloud_units.md) | Cloud Units |
 | [crystaltwin](page__info_threefold__crystaltwin.md) | Crystal Twin |
@@ -76,7 +76,7 @@
 
 | def | description |
 | ---- | ---- |
-| [notificationsystem](page__info_threefold__notification_system.md) | Digital Twin |
+| [notificationsystem](page__info_threefold__notification_system.md) | Notification System |
 
 ## p
 
@@ -157,7 +157,7 @@
 
 | def | description |
 | ---- | ---- |
-| [wallet](page__info_threefold__wallet.md) | Digital Twin |
+| [wallet](page__info_threefold__wallet.md) | NO TITLE |
 
 ## z
 
