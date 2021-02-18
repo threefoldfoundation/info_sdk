@@ -46,11 +46,11 @@ Solution providers create solutions on top of the ThreeFold grid. The ThreeFold 
 
 ## Want to know more (technical)?
 
-- [Generic architecture](architecture)
-- [Peer2peer Network architecture](architecture_network)
-- [Peer2peer Web Gateway architecture](architecture_webgateway)
-- [Peer2peer Storage architecture](architecture_storage)
-- [Peer2peer virtual filessystem ](architecture_flist.md)
+- [Generic Architecture](architecture)
+- [Peer2peer Network Architecture](architecture_network)
+- [Peer2peer Web Gateway Architecture](architecture_webgateway)
+- [Peer2peer Storage Architecture](architecture_storage)
+- [Peer2peer Virtual File System](architecture_flist.md)
 
 
 
