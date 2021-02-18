@@ -4,4 +4,4 @@
 
 - [Buy TFT: StellarX](tft_stellarx)
 - [Buy TFT: Interstellar](tft_interstellar)
-- [Buy TFT: Lobstr Wallet](tft_lobstr)
+- [Buy TFT: Lobstr Wallet](info_threefold:tft_lobstr)
