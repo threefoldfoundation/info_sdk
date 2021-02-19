@@ -157,7 +157,7 @@
 
 | def | description |
 | ---- | ---- |
-| [wallet](page__info_threefold__wallet.md) | NO TITLE |
+| [wallet](page__info_threefold__wallet_old.md) | Wallet |
 
 ## z
 

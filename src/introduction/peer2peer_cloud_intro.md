@@ -50,7 +50,7 @@ Solution providers create solutions on top of the ThreeFold grid. The ThreeFold 
 - [Peer2peer Network Architecture](architecture_network)
 - [Peer2peer Web Gateway Architecture](architecture_webgateway)
 - [Peer2peer Storage Architecture](architecture_storage)
-- [Peer2peer Virtual File System](architecture_flist.md)
+- [Peer2peer Virtual File System](architecture_flist)
 
 
 
