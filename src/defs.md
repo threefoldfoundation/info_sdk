@@ -76,7 +76,7 @@
 
 | def | description |
 | ---- | ---- |
-| [notificationsystem](page__info_threefold__notification_system.md) | Notification System |
+| [notificationsystem](page__info_threefold__notification_system.md) | NO TITLE |
 
 ## p
 
@@ -157,7 +157,7 @@
 
 | def | description |
 | ---- | ---- |
-| [wallet](page__info_threefold__wallet_old.md) | Wallet |
+| [wallet](page__info_threefold__wallet_old.md) | NO TITLE |
 
 ## z
 
