@@ -12,9 +12,8 @@ A Web Gateway delivers the following services
 - tcp forwarding services (v2.3)
 - dns services
 - ipv4 to ipv6 gateway services (allow ipv4 users to get on public ipv6 networks)
-- access points for our [planetary TFLan](tf_lan).
+- access points for our [Planetary Secure Network](threefold:threefold_network).
 
- 
 This mechanism provides lots of flexibility to create distributed architectures where processing and storing information happen next to the data creation point, while actual access to this data could be provided through private (encrypted tunnel) and public (Web Gateway) locations. It leads to reliable, redundant accesses (creating two or more, and have DNS load balancing between the two) to online content and this could extend all the way to build a private CDN.
 
 ### Why is the network farming separate from the compute and storage farming
