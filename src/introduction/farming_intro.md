@@ -2,11 +2,11 @@
 
 ![](img/whatisafarmer.png)
 
-## Farming: Putting Capacity Online On The ThreeFold Grid
+## Farming: Putting Capacity Online On The ThreeFold_Grid
 
 ### What is a Farmer?
 
-The ThreeFold Grid is formed by ThreeFold farmers - individuals or businesses who connect compute and storage hardware (also known as servers) called 3Nodes to the ThreeFold Grid. The compute and storage capacity of 3Nodes mint [ThreeFold Tokens](threefold:token_what) for the Farmer as a reward. Once the farmer’s capacity on the ThreeFold Grid gets reserved by a user he gets ThreeFold Tokens. This is called capacity cultivation income.
+The ThreeFold_Grid is formed by ThreeFold farmers - individuals or businesses who connect compute and storage hardware (also known as servers) called 3Nodes to the ThreeFold_Grid. The compute and storage capacity of 3Nodes mint [ThreeFold Tokens](threefold:token_what) for the Farmer as a reward. Once the farmer’s capacity on the ThreeFold_Grid gets reserved by a user he gets ThreeFold_Tokens. This is called capacity cultivation income.
 
 ### Types of ThreeFold Farmers
 
