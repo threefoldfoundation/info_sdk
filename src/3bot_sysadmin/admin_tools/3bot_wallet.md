@@ -4,16 +4,13 @@
 
 Your 3Bot comes in handy with built-in __Stellar wallets__, listing all your existing Stellar wallets, with the option to create a new wallet or import an existing one. This feature was especially made with the aim to make it easier and faster for you to reserve and pay for your IT Capacity. 
 
-Please keep in mind that testnet and mainnet operate with tokens that reside on another network, the testnet and mainnet of the Stellar network resp. 
-A testnet wallet can only send and receive transactions within the test network, the same way with how a mainnet wallet could only send and receive transactions within the main network.
-
 ## Creating a New Wallet
 
 Can be created from the create button in Wallets page
 
 ## Import an Existing Wallet 
 
-Using your stellar secret you saved from an existing wallet you can import your wallet into the 3Bot.
+Using your Stellar secret you saved from an existing wallet you can import your wallet into the 3Bot.
 The Stellar secret is a string of characters, starting with a 'S' (unlike the public address which starts with a 'G').
 
 ## Viewing Your Existing Wallet
