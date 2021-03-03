@@ -1,6 +1,6 @@
 # Ultra Efficient Virtual File System for Zero-OS
 
-## Virtual Filesystem Architecture
+## Zero-OS Virtual Filesystem Architecture
 
 There are times when you need to download particular files from an archive, but in order to do so, you would need to download a heavy-sized archive from the internet. 
 
@@ -29,6 +29,8 @@ To understand further how Flist works, we would need to understand the concept o
 The Flist itself is the metadata. It's a database that contains a list of directories and files, all their information (name, size, permissions, ...) and the list of chunk addresses (the list of hashes we could use to query the database).
 
 We store Flist files into our [<< hub >>](https://hub.grid.tf). For example, you could see the file ubuntu:18.04 which is mostly the same as ubuntu:18.04 docker image, but the Flist is 3.16 MB large. By downloading this, you have enough information to know everything in the archive.
+
+![](img/archi_flist.png)
 
 With some tools like __0-FS__, you could even mount that Flist and use it like a real directory.
 

@@ -1,1 +1,3 @@
 ...
+
+![](img/smartcontract4it.png)
