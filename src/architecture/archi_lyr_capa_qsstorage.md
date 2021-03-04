@@ -28,7 +28,7 @@ This approach has quite some disadvantages :
 - 5 times the bandwidth is  required to store on multiple locations
 - A hacker only needs to have one copy of the original, so he only needs to hack himself into one location
 
-### The ThreeFold approach : Quantum-Safe storage
+### The ThreeFold approach : Quantum-Safe Storage
 
 ThreeFold has optimized storage in a way it becomes quantum-safe. We mean by that that even a quantumcomputer won't be able to decipher encrypted data, simply because based on the data in one location, there is no way to recompile the original information. 
 
@@ -36,9 +36,21 @@ ThreeFold has optimized storage in a way it becomes quantum-safe. We mean by tha
 
 ![](img/archi_storage_dispersed.png)
 
-You can visualize the 'Space Algorithm' as a description of the data as a collection of equations: 
+You can visualize the 'Space Algorithm' (also called FEC = 'Forward-Looking Error Correcting Code') as a description of the data as a collection of equations. Let's state that there are 16 chunks of data to be stored. Each of these chunks has a binary value (for simplicity, the below example uses the decimal system). 
+
+Let's name these chunks a,b,c,d, ... and then let's generate equations with it. 
 
 `a+2b+c+d+e+f+g+h+i+j+k+l+m+n+o+p=100`
 `a-3b-c+d+f-g-4h-i+j+2k-l-m-n+o+p=204`
 `a-3b-c+d+f-g-h-i+j+k-7l-m-n+o+2p=506`
-`...` (20 times)
+`...` (20 equations)
+
+Each of these equations reveals information on the value of all data chunks, but none of them is useful individually to retrieve information on what these values might be. Only when 16 out of these 20 equations are combined, one is able to recollect the full data. 
+
+Each of these equations are stored on a different location, in a way that only the one controlling the IT workload that has generated the information is able to reconstruct the original data. Data is 'dispersed' over 20 locations: 16 randomly chosen locations are needed to recollect the pieces, the 4 remaining ones are available as an 'operational backup' : in case 1 or even 4 node go down, the algorithm is robust enough to reassemble the original data. 
+
+#### Advantages
+
+- **Space efficient** : only 20% space overhead is required. This is a factor 20 better than classic systems to achieve the same reliability; 
+- **Flexible** : the order of retrieval is not important to recunstruct the original data;
+- **Hacker proof** : A hacker needs to break into physical 16 locations and have the encryption key before he can try to reconstruct the data. 
