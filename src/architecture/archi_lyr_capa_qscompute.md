@@ -1,5 +1,14 @@
 # Quantum Safe Compute System
 
+as delivered by our Zero-OS = our own custom operating system.
+most efficient & safe utilization of hardware resources
+network wall: no tcp-ip travels from internet to compute (apps),
+isolate processes 100% from the internet
+smart contract for IT layer, super controlled way how to deploy apps
+ZeroOS filesystem (ZOS-FS): 
+only boot signed/fingerprinted files, not possible for hacker to change any content & insert backdoors
+
+
 ## Zero-OS
 
 ### Core Components
@@ -49,9 +58,36 @@ Allows all containers to talk to each other in all privacy & security.
 - Deduped, Cache per ZOS
 - Hacker Safe, cannot modify files.
 
+
+
 #### Z-DB
 
 Optimized storage engine technology. Knows how to write most efficient to a specific medium like SSD or HD. 
+
+- Backend Storage Engine
+- Can do +50.000 transactions per/sec
+- Can work on SSD & HD
+- Optimized for easy (soft/green) operation on HD
+- Works with reservations
+- Always append store (can keep unlimited history)
+- Master-Slave replication
+
+#### Z-Container and Z-VM
+
+- Runs any workload inside
+  - Docker -> ZOS Containers, …
+- Super efficient container storage engine
+  - Does not need Images
+  - Dedupe Storage
+  - Thin Provisioning
+- Virtual Disk support  (OEM only)
+  - Block Storage
+  - Replication Support
+  - Thin Provisioning
+- Core-X support
+  - Flexible process manager
+  - Web & SSH support
+
 
 #### Z-Disk and Z-VM 
 (OEM only)
