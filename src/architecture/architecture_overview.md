@@ -10,7 +10,7 @@
 
 - [Capacity Layer](architecture_layers_capacity)
 - [Autonomous Layer](architecture_layers_autonomous)
-  - [Smart Contract for IT](archi_interaction_smartcontract4it)  
+  - [Smart Contract for IT](archi_smartcontract4it)  
 - [Experience Layer](architecture_layers_experience)
 
 ## Functional Breakdown
