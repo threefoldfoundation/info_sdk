@@ -4,7 +4,7 @@
   - [Farming Intro](farming_intro)
   - [Why ThreeFold](threefold_why)
 - [Architecture](architecture_overview)
-  - [Structural Breakdown: 3 Layers](architecture_layers)
+  - Structural Breakdown: 3 Layers
     - [Capacity Layer](architecture_layers_capacity)
       - [Zero-OS](threefold:zos-architecture)
       - [3Node](threefold:3node)

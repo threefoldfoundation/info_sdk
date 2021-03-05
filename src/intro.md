@@ -32,7 +32,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
       - [Planetary Secure File System](archi_psfs)
     - Network
       - [Quantum Safe Network](archi_qsnetwork)
-      - [Web Gateway](architecture_webgateway)
+      - [Web Gateway](archi_webgateway)
       - [Planetary Secure Network](archi_psnw)
       - [Web 3.0 Interface](archi_interface)
     - [Smart Contract for IT](archi_smartcontract4it)  

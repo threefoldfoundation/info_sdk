@@ -26,7 +26,7 @@
   - [Quantum Safe Network](archi_qsnetwork)
   - [Planetary Secure Network](archi_psnw)
   - [Web 3.0 Interface](archi_interface)
-  - [Web Gateway](architecture_webgateway)
+  - [Web Gateway](archi_webgateway)
   - [Zero-OS Network](capacity_network)
 - [3Node](threefold:3node)
 - [3Bot](threefold:3bot)
