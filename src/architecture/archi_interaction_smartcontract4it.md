@@ -1,3 +1,8 @@
+## wiki
+!!!include wiki:smart_contract_for_it level:2
+
+## Threefold 
+
 !!!include threefold:smart_contract_for_it level:2
 
 --- 
