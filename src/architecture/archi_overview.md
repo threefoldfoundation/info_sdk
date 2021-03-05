@@ -12,7 +12,23 @@
 - [Autonomous Layer](architecture_layers_autonomous)
 - [Experience Layer](architecture_layers_experience)
 
-# Foundational layer for the digital world
+## Functional Breakdown 
+
+- Compute
+  - [Quantum Safe Compute Concept](threefold:quantumsafe_compute_concept)
+  - [Zero-OS Filesystem](architecture_flist)
+  - [ZOS-FS 2](threefold:zos_fs)
+- Storage
+  - [Quantum Safe Storage Concept](threefold:quantumsafe_storage_concept)
+  - [ThreeFold Filesystem](threefold:threefold_fs)
+- Network
+  - [Quantum Safe Network Concept](threefold:quantumsafe_network_concept)
+  - [Zero-OS Network](capacity_network)
+  - [ThreeFold Network = Planetary Network](threefold:threefold_network)
+  - [Web Gateway](architecture_webgateway)
+
+
+## Foundational layer for the digital world
 
 - [Foundational](archi_foundational)
 
@@ -20,15 +36,6 @@
 
 **More info:**
 
-- [Quantum Safe Compute Concept](threefold:quantumsafe_compute_concept)
-  - [Zero-OS Filesystem](architecture_flist)
-  - [ZOS-FS 2](threefold:zos_fs)
-- [Quantum Safe Storage Concept](threefold:quantumsafe_storage_concept)
-  - [ThreeFold Filesystem](threefold:threefold_fs)
-- [Quantum Safe Network Concept](threefold:quantumsafe_network_concept)
-  - [Zero-OS Network](capacity_network)
-  - [ThreeFold Network = Planetary Network](threefold:threefold_network)
-  - [Web Gateway](architecture_webgateway)
 - TFGrid
   - [3Node](threefold:3node)
   - [ThreeFold Connect](threefold:tfconnect)
