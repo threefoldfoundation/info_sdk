@@ -56,7 +56,9 @@ By not copying the full objects integrally but dispersing the parts after encryp
 
 ## Usage
 
-This Quantum-Safe Storage can be used as back-end storage for **any** file format : 
+The algorithm has been implemented on the ThreeFold Grid as the [**Planetary Secure File System**](cloud:threefold_filesystem).
+
+This Quantum-Safe File System can be used as back-end storage for **any** file format : 
 
 - Archive systems
 - S3 storage systems
