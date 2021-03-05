@@ -52,4 +52,4 @@ Once payment is confirmed, the reserved capacity is added to the list, indicatin
 
  Each capacity pool is named after few digits of auto generated numbers and is always listed on the first page of your __Pools__ submenu. Click on __'Pool Number'__ to see the details of each __capacity pool's workload__. It will take a few minutes after your successful reservation transaction for the details of the active cloud units and active storage units to be properly updated. Please [__contact our helpdesk__](https://threefoldfaq.crisp.help/en/) for any help and assistance in managing your capacity pools.
 
-![](capacity_new_pooldetails.png)
+![](img/capacity_new_pooldetails.png) 
