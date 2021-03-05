@@ -32,7 +32,6 @@
     - [Scalable](archi_usp_scalable)
     - [Self-healing](archi_usp_selfhealing)
     - [Low Redundancy](archi_usp_redundant)
-    - [Energy Efficient](archi_usp_energy_efficient)
 - [Getting Started](all_getting_started)
   - [Get ThreeFold Connect](threefold_connect_install)
   - [Get and Store TFT](mainnet_gettft)
