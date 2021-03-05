@@ -1,5 +1,7 @@
 # Quantum-safe Storage system
 
+!!!include threefold:quantumsafe_storage_concept
+
 ![](img/archi_qsfs.png)
 
 - Even quantum computers cannot hack and "decrypt" data
