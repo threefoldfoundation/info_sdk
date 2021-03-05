@@ -9,21 +9,23 @@
 ![](img/archi_layers.png)
 
 - [Capacity Layer](architecture_layers_capacity)
-  - [Quantum Safe Compute](archi_lyr_capa_qscompute)
-  - [Quantum Safe Storage](archi_lyr_capa_qsstorage)
-  - [Quantum Safe Network](archi_lyr_capa_qsnetwork)
 - [Autonomous Layer](architecture_layers_autonomous)
-  - [Planetary Secure File System](archi_lyr_auto_psfs)
-  - [Planetary Secure Network](archi_lyr_auto_psnw)
-  - [Web 3.0 Interface](archi_lyr_auto_interface)
-  - [Smart Contract for IT](archi_interaction_smartcontract4it)  
+- [Smart Contract for IT](archi_interaction_smartcontract4it)  
 - [Experience Layer](architecture_layers_experience)
 
-## 3Node and 3Bot
+## Functional Breakdown
 
-  - [3Node](threefold:3node)
-  - [3Bot](threefold:3bot)
-
+- Compute
+  - [Quantum Safe Compute](archi_lyr_capa_qscompute)
+- Storage
+  - [Quantum Safe Storage](archi_lyr_capa_qsstorage)
+  - [Planetary Secure File System](archi_lyr_auto_psfs)
+- Network
+  - [Quantum Safe Network](archi_lyr_capa_qsnetwork)
+  - [Planetary Secure Network](archi_lyr_auto_psnw)
+  - [Web 3.0 Interface](archi_lyr_auto_interface)
+- [3Node](threefold:3node)
+- [3Bot](threefold:3bot)
 
 ## Benefits 
 
