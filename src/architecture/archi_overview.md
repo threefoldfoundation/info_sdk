@@ -1,5 +1,3 @@
-![](img/architecture_why_us.png)
-
 # Architecture 
 
 ## Inspired by Nature
@@ -12,16 +10,19 @@
 
 - [Capacity Layer](architecture_layers_capacity)
 - [Autonomous Layer](architecture_layers_autonomous)
-- [Experience Layer](experience)
+- [Experience Layer](architecture_layers_experience)
 
 # Foundational layer for the digital world
 
-![](img/archi_quantumsafecloud_usage.png)
+- [Foundational](archi_foundational)
+
+![](img/architecture_why_us.png)
 
 **More info:**
 
 - [Quantum Safe Compute Concept](threefold:quantumsafe_compute_concept)
-  - [Zero-OS Filesystem](threefold:zos_fs)
+  - [Zero-OS Filesystem](architecture_flist)
+  - [ZOS-FS 2](threefold:zos_fs)
 - [Quantum Safe Storage Concept](threefold:quantumsafe_storage_concept)
   - [ThreeFold Filesystem](threefold:threefold_fs)
 - [Quantum Safe Network Concept](threefold:quantumsafe_network_concept)

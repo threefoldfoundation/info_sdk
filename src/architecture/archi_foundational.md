@@ -4,3 +4,4 @@
 
 ![](img/archi_foundation_for_it.png)
 
+![](img/archi_quantumsafecloud_usage.png)

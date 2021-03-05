@@ -1,5 +1,9 @@
 # Planetary Secure Network 
 
+!!!include threefold:threefold_network 
+
+---
+
 - Public side of our planetary secure network.
 - connect everyone in the world (mobile & desktop), end2end encrypted
 - strongly authenticated at the edge.
