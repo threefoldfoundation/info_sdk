@@ -4,7 +4,7 @@ A  __Web Gateway__ is service on the TFGrid that makes the bridge between the pu
 
 Unlike other clouds, you cannot launch software/application containers who are connected to the internet. Each application you deploy using our container technology is only visible for your private encrypted overlay network. 
 
-![](archi_psn_webgateway.png)
+![](img/archi_psn_webgateway.png)
 
 The Web Gateway is a service delivered by a network TFGrid farmer.
 
@@ -42,4 +42,3 @@ Separating the network farming and compute/storage farming has following benefit
 ### Scale-out Architecture
 
 The independence of network and location created by the Web Gateway allows this architecture to scale endlessly. There is no limit to the amount of 3Nodes that could be added to the TF Grid to create more universal substrates, and the number of Ingress and Egress points scale independently from that. This results in a true Peer2Peer and scale-out architecture.
-

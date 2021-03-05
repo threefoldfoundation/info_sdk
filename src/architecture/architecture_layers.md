@@ -2,6 +2,8 @@
 
 ## Inspired by Nature
 
+![](img/archi_inspiredbynature.png)
+
 ## Three Layers
 
 ![](img/archi_layers.png)
