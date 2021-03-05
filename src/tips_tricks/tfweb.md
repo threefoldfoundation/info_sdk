@@ -5,7 +5,7 @@
 - uses docsify, which means all plugins from docsify are back
 - all names of .md & .jpeg/.png files need to be unique
 - names will be rewritten to lowercase & snakecase
-- links & images only need to refer to the shortname e.g. ```![](bcdb.png)``` is good enough
+- links & images only need to refer to the shortname e.g. ```![](img/bcdb.png)``` is good enough
 
 ## Markdown / Docsify Tricks
 
@@ -50,4 +50,3 @@ https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
 ```
 
 the name in [] need to be like above, and use the raw representation of the content
-
