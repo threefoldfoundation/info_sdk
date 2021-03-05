@@ -44,8 +44,6 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
     - [Self-healing](archi_usp_selfhealing)
     - [Low Redundancy](archi_usp_redundant)
     - [Energy Efficient](archi_usp_energy_efficient)
-- [Architecture](architecture)
-   - [Overlay Network](threefold:threefold_network)
 - [__Getting Started__](getting_started_all)
 - [__3Bot__ Your Virtual System Administrator](3bot)
 - [__Develop your own solutions__](develop)

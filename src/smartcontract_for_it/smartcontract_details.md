@@ -74,9 +74,9 @@ the corresponding public key can be used to check if the signature is valid. A [
 
 ## Lifecycle
 
-The following is a quick overview of the types used, their fields, and what these fields are used for. You can find a full definition of the types in [provision](provisioningflow.md).
+The following is a quick overview of the types used, their fields, and what these fields are used for. 
 
-the following is an overview of the lifecycle of a reservation, and how the `next_action` changes during the lifetime of the contract.
+The following is an overview of the lifecycle of a reservation, and how the `next_action` changes during the lifetime of the contract.
 
 All fields related to the contract lifecycle are under the `state` object. That's the only mutable part of the smart contract. Mutation is done by some authorized API end points (like signing), or by the grid itself (like `next_action`).
 
@@ -145,7 +145,7 @@ The result object has a `WorkloadId` field, which is used to map the result to t
 - `epoch`: Time at which the result has been created.
 - `node_id`: The node ID of the node that deployed the workload.
 
-## Reservation flow Diagram
+## Reservation Flow Diagram
 
 ![process](img/grid_provisioning2.png)
 
