@@ -1,5 +1,3 @@
-# Smart Contract for IT process
-
 !!!include threefold:smart_contract_for_it level:2
 
 --- 
