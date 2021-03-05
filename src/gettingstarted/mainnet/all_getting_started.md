@@ -25,12 +25,12 @@ To reserve IT Capacity and pay for your workload on top of the TF Grid, you woul
 
 ## Deploy eVDC on TF Grid 2.4 Testnet
 
-[**eVDC**](evdc) is your virtual data center on top of the ThreeFold_Grid.
+[**eVDC**](https://vdc.testnet.grid.tf) is your virtual data center on top of the ThreeFold Grid.
 
 > Easy Set Up: [Get your eVDC](cloud:evdc_deployer)
 
 ## Deploy a 3Bot on TF Grid 2.3 Mainnet
 
-[**3Bot**](3bot) is your virtual system administator on top of the ThreeFold_Grid.
+[**3Bot**](3bot) is your virtual system administator on top of the ThreeFold Grid.
 
 > Easy Set Up: [Get your 3Bot](3bot_deployer)

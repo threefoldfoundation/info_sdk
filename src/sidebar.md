@@ -17,7 +17,7 @@
       - [Smart Contract for IT](archi_interaction_smartcontract4it)  
     - [Experience Layer](architecture_layers_experience)
   - [3Node](threefold:3node)
-  - [3Bot](threefold:3bot)
+  - [3Bot](3bot)
   - [Architecture Benefits](archi_usp)
     - [Simple](archi_usp_simple)
     - [Energy Efficient](archi_usp_energy_efficient)
