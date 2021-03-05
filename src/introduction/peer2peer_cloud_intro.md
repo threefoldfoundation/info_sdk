@@ -38,15 +38,19 @@ A 3Bot is your virtual system administrator, and through your own 3Bot which non
 
 You can do this by means through deployment wizards as part of the 3Bot user interface, or if you are an advance user, you can create scripts which run on your 3Bot.
 
-Solution providers create solutions on top of the ThreeFold_Grid. The ThreeFold Foundation is also creating The ThreeFold NOWwx Marketplace which makes it easy for endusers to deploy your own decentralized applications on top of the TF Grid see http://now.threefold.io
+Solution providers create solutions on top of the ThreeFold_Grid. The ThreeFold Foundation is also creating The ThreeFold Marketplace which makes it easy for end users to deploy your own decentralized applications on top of the TF Grid see http://now.threefold.io
 
-## Want to know more (technical)?
+## Want to know more (architectural)?
 
-- [Generic Architecture](architecture)
-- [Peer2peer Network Architecture](architecture_network)
+- [Generic Architecture](archi_overview)
+- [Quantumsafe Compute Architecture](archi_lyr_capa_qscompute)
+- [Quantumsafe Network Architecture](archi_lyr_capa_qsnetwork)
+- [Quantumsafe Storage Architecture](archi_lyr_capa_qsstorage)
 - [Peer2peer Web Gateway Architecture](architecture_webgateway)
-- [Peer2peer Storage Architecture](architecture_storage)
 - [Peer2peer Virtual File System](architecture_flist)
+- [Planetary Filesystem](archi_lyr_auto_psfs)
+- [Planetary Secure Network](archi_lyr_auto_psnw)
+
 
 ## ThreeFold Foundation
 
