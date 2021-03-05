@@ -24,7 +24,7 @@
 - Network
   - [Quantum Safe Network Concept](threefold:quantumsafe_network_concept)
   - [Zero-OS Network](capacity_network)
-  - [ThreeFold Network = Planetary Network](threefold:threefold_network)
+  - [Planetary Secure Network](threefold:threefold_network)
   - [Web Gateway](architecture_webgateway)
 
 
