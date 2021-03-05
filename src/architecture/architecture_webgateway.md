@@ -4,6 +4,8 @@ A  __Web Gateway__ is service on the TFGrid that makes the bridge between the pu
 
 Unlike other clouds, you cannot launch software/application containers who are connected to the internet. Each application you deploy using our container technology is only visible for your private encrypted overlay network. 
 
+![](archi_psn_webgateway.png)
+
 The Web Gateway is a service delivered by a network TFGrid farmer.
 
 A Web Gateway delivers the following services
