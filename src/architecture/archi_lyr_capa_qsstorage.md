@@ -1,7 +1,5 @@
 # Quantum-safe Storage system
 
-!!!include threefold:quantumsafe_storage_concept
-
 ![](img/archi_qsfs.png)
 
 - Even quantum computers cannot hack and "decrypt" data
@@ -10,7 +8,7 @@
 - data distributed in controlled way over X nr of chosen locations, but none of the locations has enough data to reconstruct the original = super reliable/safe
 
 
-## How to make storage quantum safe
+## How to Make Storage Quantumsafe
 
 ### Old-school storage 
 
@@ -30,9 +28,13 @@ This approach has quite some disadvantages :
 - 5 times the bandwidth is  required to store on multiple locations
 - A hacker only needs to have one copy of the original, so he only needs to hack himself into one location
 
-### The ThreeFold approach : Quantum-Safe Storage
+### The ThreeFold approach
 
-ThreeFold has optimized storage in a way it becomes quantum-safe. We mean by that that even a quantumcomputer won't be able to decipher encrypted data, simply because based on the data in one location, there is no way to recompile the original information. 
+ThreeFold has optimized storage in a way it becomes quantumsafe. We mean by that that even a quantumcomputer won't be able to decipher encrypted data, simply because based on the data in one location, there is no way to recompile the original information. 
+
+!!!include threefold:quantumsafe_storage_algo level:4
+
+---
 
 #### How does it work ?
 
@@ -50,6 +52,8 @@ Let's name these chunks a,b,c,d, ... and then let's generate equations with it.
 Each of these equations reveals information on the value of all data chunks, but none of them is useful individually to retrieve information on what these values might be. Only when 16 out of these 20 equations are combined, one is able to recollect the full data. 
 
 Each of these equations are stored on a different location, in a way that only the one controlling the IT workload that has generated the information is able to reconstruct the original data. Data is 'dispersed' over 20 locations: 16 randomly chosen locations are needed to recollect the pieces, the 4 remaining ones are available as an 'operational backup' : in case 1 or even 4 node go down, the algorithm is robust enough to reassemble the original data. 
+
+---
 
 #### Self-healing
 
