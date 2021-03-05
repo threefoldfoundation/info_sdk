@@ -4,26 +4,25 @@
   - [Farming Intro](farming_intro)
   - [Why ThreeFold](threefold_why)
 - [Architecture](architecture_overview)
-  - Structural Breakdown: 3 Layers
+  - [Structure](archi_layers)
     - [Capacity Layer](architecture_layers_capacity)
       - [Zero-OS](tftech:magic_zos)
       - [3Node](threefold:3node)
     - [Autonomous Layer](architecture_layers_autonomous)
       - [3Bot](3bot) 
       - [Smart Contract for IT](archi_smartcontract4it)  
-    - [Experience Layer](architecture_layers_experience)
-  - Functional Breakdown 
-    - Compute
-      - [Quantum Safe Compute](archi_qscompute)
-      - [Zero-OS FS](architecture_flist)
-    - Storage
-      - [Quantum Safe Storage](archi_qsstorage)
-      - [Planetary Secure File System](archi_psfs)
-    - Network
-      - [Quantum Safe Network](archi_qsnetwork)
-      - [Planetary Secure Network](archi_psnw)
-      - [Web Gateway](archi_webgateway)
-    - [Web 3.0 Interface](archi_interface)
+    - [Experience Layer](architecture_layers_experience) 
+  - Compute
+    - [Quantum Safe Compute](archi_qscompute)
+    - [Zero-OS FS](architecture_flist)
+  - Storage
+    - [Quantum Safe Storage](archi_qsstorage)
+    - [Planetary Secure File System](archi_psfs)
+  - Network
+    - [Quantum Safe Network](archi_qsnetwork)
+    - [Planetary Secure Network](archi_psnw)
+    - [Web Gateway](archi_webgateway)
+  - [Web 3.0 Interface](archi_interface)
   - [Architecture Benefits](archi_usp)
     - [Simple](archi_usp_simple)
     - [Energy Efficient](archi_usp_energy_efficient)
