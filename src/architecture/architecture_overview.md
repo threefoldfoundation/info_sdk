@@ -10,20 +10,24 @@
 
 - [Capacity Layer](architecture_layers_capacity)
 - [Autonomous Layer](architecture_layers_autonomous)
-- [Smart Contract for IT](archi_interaction_smartcontract4it)  
+  - [Smart Contract for IT](archi_interaction_smartcontract4it)  
 - [Experience Layer](architecture_layers_experience)
 
 ## Functional Breakdown
 
 - Compute
-  - [Quantum Safe Compute](archi_lyr_capa_qscompute)
+  - [Quantum Safe Compute](archi_qscompute)
+  - [Zero-OS Filesystem](architecture_flist)
+  - [ZOS-FS 2](threefold:zos_fs)
 - Storage
-  - [Quantum Safe Storage](archi_lyr_capa_qsstorage)
-  - [Planetary Secure File System](archi_lyr_auto_psfs)
+  - [Quantum Safe Storage](archi_qsstorage)
+  - [Planetary Secure File System](archi_psfs)
 - Network
-  - [Quantum Safe Network](archi_lyr_capa_qsnetwork)
-  - [Planetary Secure Network](archi_lyr_auto_psnw)
-  - [Web 3.0 Interface](archi_lyr_auto_interface)
+  - [Quantum Safe Network](archi_qsnetwork)
+  - [Planetary Secure Network](archi_psnw)
+  - [Web 3.0 Interface](archi_interface)
+  - [Web Gateway](architecture_webgateway)
+  - [Zero-OS Network](capacity_network)
 - [3Node](threefold:3node)
 - [3Bot](threefold:3bot)
 
@@ -42,4 +46,19 @@
 
 # Foundational layer for the digital world
 
+- [Foundational](archi_foundational)
+
 ![](img/archi_quantumsafecloud_usage.png)
+
+![](img/architecture_why_us.png)
+
+**More info:**
+
+- TFGrid
+  - [ThreeFold Connect](threefold:tfconnect)
+- Payments
+  - [AutoPay](twin:autopay)
+  - [TFGrid Wallet](cloud:cloud_wallet)
+
+> TODO: webgateway
+> TODO: zos_network
