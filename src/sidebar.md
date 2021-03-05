@@ -6,7 +6,7 @@
 - [Architecture](architecture_overview)
   - Structural Breakdown: 3 Layers
     - [Capacity Layer](architecture_layers_capacity)
-      - [Zero-OS](threefold:zos-architecture)
+      - [Zero-OS](tftech:magic_zos)
       - [3Node](threefold:3node)
     - [Autonomous Layer](architecture_layers_autonomous)
       - [3Bot](3bot) 
