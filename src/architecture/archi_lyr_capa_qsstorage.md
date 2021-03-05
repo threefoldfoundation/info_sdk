@@ -49,8 +49,31 @@ Each of these equations reveals information on the value of all data chunks, but
 
 Each of these equations are stored on a different location, in a way that only the one controlling the IT workload that has generated the information is able to reconstruct the original data. Data is 'dispersed' over 20 locations: 16 randomly chosen locations are needed to recollect the pieces, the 4 remaining ones are available as an 'operational backup' : in case 1 or even 4 node go down, the algorithm is robust enough to reassemble the original data. 
 
+#### Self-healing
+
+Self-healing can be installed for the storage system. The 3Bot as your Virtual System Administrator can monitor your storage (as an example, )
+
+![](img/archi_qsfs_selfhealing.png)
+
 #### Advantages
 
 - **Space efficient** : only 20% space overhead is required. This is a factor 20 better than classic systems to achieve the same reliability; 
 - **Flexible** : the order of retrieval is not important to recunstruct the original data;
-- **Hacker proof** : A hacker needs to break into physical 16 locations and have the encryption key before he can try to reconstruct the data. 
+- **Hacker proof and Quantum-safe** : A hacker needs to break into physical 16 locations and have the encryption key before he can try to reconstruct the data. Same counts for a supercomputer, that is not capable to reconstruct the info as it misses data. 
+- **Ultra Reliable** : more than one nodes can go down without performance degradation or data loss
+- **Self-healing** : service can be automatically recovered in the event of outage with no human intervention
+- **Scalable** : scaling is possible without limits
+
+#### Usage
+
+This Quantum-Safe Storage can be used as back-end storage for any file format : 
+
+- Archive systems
+- S3 storage systems
+- VDisk backend systems (block device access) (OEM only)
+- Virtual file system (container FS)
+- CDN = Content Delivery Networks
+- Blockchain Storage Backends (here optimisation is a factor 50 or more, depending on the number of participating nodes)
+- ...
+
+![](img/archi_qsfs_scales.png)
