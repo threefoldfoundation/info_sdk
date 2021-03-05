@@ -7,7 +7,7 @@
   - [Layers](architecture_layers)
     - [Capacity Layer](architecture_layers_capacity)
       - [Quantum Safe Compute](archi_lyr_capa_qscompute)
-        - [0-Container Virtual FS](architecture_flist)
+        - [Zero-OS FS](architecture_flist)
       - [Quantum Safe Storage](archi_lyr_capa_qsstorage)
       - [Quantum Safe Network](archi_lyr_capa_qsnetwork)
     - [Autonomous Layer](architecture_layers_autonomous)
