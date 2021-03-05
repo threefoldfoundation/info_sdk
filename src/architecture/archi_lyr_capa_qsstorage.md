@@ -2,23 +2,6 @@
 
 !!!include threefold:quantumsafe_storage_algo level:2
 
-![](img/archi_storage_dispersed.png)
-
-You can visualize the 'Space Algorithm' (also called FEC = 'Forward-Looking Error Correcting Code') as a description of the data as a collection of equations. Let's state that there are 16 chunks of data to be stored. Each of these chunks has a binary value (for simplicity, the below example uses the decimal system). 
-
-Let's name these chunks a,b,c,d, ... and then let's generate equations with it. 
-
-`a+2b+c+d+e+f+g+h+i+j+k+l+m+n+o+p=100`
-`a-3b-c+d+f-g-4h-i+j+2k-l-m-n+o+p=204`
-`a-3b-c+d+f-g-h-i+j+k-7l-m-n+o+2p=506`
-`...` (20 equations)
-
-Each of these equations reveals information on the value of all data chunks, but none of them is useful individually to retrieve information on what these values might be. Only when 16 out of these 20 equations are combined, one is able to recollect the full data. 
-
-Each of these equations are stored on a different location, in a way that only the one controlling the IT workload that has generated the information is able to reconstruct the original data. Data is 'dispersed' over 20 locations: 16 randomly chosen locations are needed to recollect the pieces, the 4 remaining ones are available as an 'operational backup' : in case 1 or even 4 node go down, the algorithm is robust enough to reassemble the original data. 
----
-![](img/archi_qsfs.png)
-
 ## Quantum-safe 
 
 ThreeFold has intelligently applied this algorithm to make a quantum-safe storage system. Even a quantumcomputer won't be able to decipher encrypted data, simply because based on the data in one location, there is no way to recompile the original information. 
