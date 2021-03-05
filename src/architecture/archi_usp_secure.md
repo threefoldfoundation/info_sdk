@@ -1,4 +1,3 @@
 
 
-![](archi_network_wall.png)
-
+![](img/archi_network_wall.png)
