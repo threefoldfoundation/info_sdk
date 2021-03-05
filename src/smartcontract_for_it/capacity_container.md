@@ -8,9 +8,7 @@ This primitive allows a user to run its application into a container on a node.
 
 Here is the schema used to define a container reservation:
 
-* `flist`: the URL of the [Flist](#Flist). This URL needs to be reachable by
-
-the node. This is usually a URL to https://hub.grid.tf/.
+* `flist`: the URL of the [Flist](#Flist). This URL needs to be reachable by the node. This is usually a URL in https://hub.grid.tf/.
 
 * `hub_url`: The URL of the hub to use, if not using the default hub.grid.tf.
 * `environment`: The environment variables to set inside the container. This is usually used to configure the application running in the container.
