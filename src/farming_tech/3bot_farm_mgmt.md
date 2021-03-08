@@ -12,6 +12,9 @@ Follow this detailed guide to [create a farm](threefold:farm_init).
 
 If you want to change any of the detail about your farm, you can click on the gear icon at the right side of the farm table under the actions column. This will open a popup containing a form that let you edit any of the farm's information.
 
+![gear](img/3bot_farmmgmt_gear.png) 
+
+
 ### Changing the owner of a farm
 
 If you want to change the owner of a farm, you can do so by opening the edit popup and then change the `3Bot ID` field. Be careful when doing so because once a farm has changed owner, there is no way to get it back unless the new owner agrees to do so.
