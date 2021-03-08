@@ -71,6 +71,7 @@
   - [Prepare a 3Node](3node_prepare)
   - [Booting a 3Node Over USB](boot_3node_usb)
   - [Manage Farm & Nodes](3bot_farm_mgmt)
+  - [Manage public IPs](configure_farmer_ips)
   - [Manage your Farm Wallet](configure_wallet)
 - [Smart Contract For IT](smart_contract)
   - [Smart Contract Details](smartcontract_details)
