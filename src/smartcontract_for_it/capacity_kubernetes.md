@@ -1,8 +1,8 @@
-# K8bernetes cluster
+# Kubernetes cluster
 
 ![](img/kubernetes_intro.png)
 
-This primitive allows a user to deploy a kubernetes cluster.
+This primitive allows a user to deploy a Kubernetes cluster.
 
 A cluster must be composed of at least 2 nodes. One master node and any number of
 worker nodes.
@@ -88,7 +88,7 @@ print("provisioning result")
 print(master.info.result)
 ```
 
-## How to log into your VM after deployement
+## How to log into your VM after deployment
 
 Once the cluster is deployed, you need to connect to one of the nodes and copy the kube-config file.
 
