@@ -4,7 +4,7 @@ In order for users to reserve capacity from your farm and pay for it. The users 
 
 ## Configure your farm wallet addresses from the 3SDK GUI
 
-The easiest method to configure the wallet addresses of your farm is to do it from the `Farm management` page from the [3Bot Dashboard](sdk:3bot_farm_mgmt)
+The easiest method to configure the wallet addresses of your farm is to do it from the `Farm management` page from the [3Bot Dashboard](3bot_farm_mgmt)
 
 1. Click on the little gear in the `Actions` colum of the farm tables
 
