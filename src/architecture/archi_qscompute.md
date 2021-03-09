@@ -1,7 +1,7 @@
 # Quantum Safe Compute System
 
-as delivered by our Zero-OS = our own custom operating system.
-most efficient & safe utilization of hardware resources
+Delivered by our Zero-OS = our own custom operating system.
+It is the most efficient & safe utilization of hardware resources.
 network wall: no tcp-ip travels from internet to compute (apps),
 isolate processes 100% from the internet
 smart contract for IT layer, super controlled way how to deploy apps
