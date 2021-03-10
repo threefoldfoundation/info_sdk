@@ -1,8 +1,8 @@
 # Quantum Safe Compute System
 
-as delivered by our Zero-OS = our own custom operating system.
-most efficient & safe utilization of hardware resources
-network wall: no tcp-ip travels from internet to compute (apps),
+The Quantum-Safe Compute System is delivered by Zero-OS, the peer-to-peer operating system.
+It is the most efficient & safe utilization of hardware resources.
+A network wall makes that no tcp-ip travels from internet to compute (apps),
 isolate processes 100% from the internet
 smart contract for IT layer, super controlled way how to deploy apps
 ZeroOS filesystem (ZOS-FS): 
@@ -50,6 +50,12 @@ Deploy IT workloads based on blockchain & peer2peer requests. Enforces multisign
 
 Overlay network.
 Allows all containers to talk to each other in all privacy & security.
+
+#### Network Wall
+
+![](img/archi_network_wall.png)
+No TCP/IP travels from internet to the compute infrastructure (apps),
+processes are 100% isolated from the internet.
 
 #### Zero-OS File System (ZOS-FS)
 
