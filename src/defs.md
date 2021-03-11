@@ -1,1 +1,1 @@
-!!!def_list categories:''
+!!!def_list categories:'' exclude:'tech'
