@@ -5,6 +5,7 @@
 ## How to Deploy your 3Bot
 
 - For **Mainnet** Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
+- For **Testnet** Go to [3Bot Testnet Deployer Website](https://deploy3bot.testnet.grid.tf)
 
 ### Create a 3Bot
 
