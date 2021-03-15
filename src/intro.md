@@ -17,7 +17,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 
 - [__Introduction__: what is our peer2peer cloud](peer2peer_cloud_intro)
   - [Grid Intro](grid_intro)
-  - [Farming Intro](farming_intro)
+  - [Farming Intro](threefold:farming_intro)
 - [Architecture](architecture_overview)
   - Layers
     - [Capacity Layer](architecture_layers_capacity)
@@ -54,4 +54,3 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 
 
 If you're looking for an introduction to ThreeFold in general, please go to our main [__ThreeFold Wiki__](https://wiki.threefold.io) 
-

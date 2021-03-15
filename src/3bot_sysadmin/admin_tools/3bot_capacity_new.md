@@ -18,7 +18,7 @@ __CU__ stands for __Compute Unit__; it is the amount of data processing power sp
 More precisely, 1 CU corresponds to 1 core and 4 GB of RAM. 
 1 SU corresponds to a storage capacity of 800 GB of HDD plus 40 GB of SSD (definition until end of 2020). 
 
-Feel free to go to [__Grid Concept__](https://wiki.threefold.io/#/grid_concepts?id=some-examples-of-cu-and-su-in-detail) section of TF Grid Wiki to learn more about Cloud Units.
+Feel free to go to [__Grid Concept__](grid_concepts?id=some-examples-of-cu-and-su-in-detail) section of TF Grid Wiki to learn more about Cloud Units.
 
 Specify also the __Pools Time-to-live__. 
 Remark: this is a theoretical value. It assumes that the fully reserved capacity is depleted after the indicated number of units and under the condition that the capacity is fully used. In practice, only the capacity that is consumed by deployed IT workloads reduces the counter. 
