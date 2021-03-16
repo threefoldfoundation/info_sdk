@@ -39,8 +39,8 @@ https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
 ### links
 
 ```
-[link](/demo:target=_blank)
-[link](/demo2:target=_self)
+[link](demo:target_blank)
+[link](demo2:target_self)
 ```
 
 ### remote include
