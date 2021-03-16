@@ -113,4 +113,6 @@
   - [2.0.4 beta](cloud:release_notes_2_0_4)
 - [Legals](legal:legal)
   - [Disclaimer](legal:disclaimer)
-  - [Terms & Conditions](terms_conditions.md)
+  - [Terms & Conditions](terms_conditions)
+
+<!--   legal:terms_conditions_griduser -->

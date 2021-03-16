@@ -44,9 +44,9 @@ You can use any [__third-party testnet stellar wallet__](https://www.stellar.org
 
 You have three options for getting / purchasing TFT
 
-1. Get TFT from a public [__digital currency exchange__](threefold:how_to_buy_and_sell?id=_1public-exchanges) *(with some limitations for certain countries)*
-2. Get TFT through a [__Stellar decentralized exchange__](threefold:how_to_buy_and_sell?id=_3-on-stellar-through-xlm-stellars-token)
-3. Purchase TFT directly from a [__ThreeFold Farmer__](threefold:how_to_buy_and_sell?id=_2-directly-from-a-threefold-farmer)
+1. Get TFT from a public [__digital currency exchange__](threefold:how_to_buy_and_sell) *(with some limitations for certain countries)*
+2. Get TFT through a [__Stellar decentralized exchange__](threefold:how_to_buy_and_sell)
+3. Purchase TFT directly from a [__ThreeFold Farmer__](threefold:how_to_buy_and_sell)
 
 - If you have had some experience with trading, buying and selling digital currencies:
     - We'd recommend you go through one of the digital currency exchanges if those are available in your country. 

@@ -16,8 +16,9 @@ Here is the schema used to define a container reservation:
 * `entrypoint`: It is the program to start when the container is created.
 * `interactive`: If set to true, coreX is started in the container and the value.
 
-of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
+of `Entrypoint` is ignored. See [Using corex section](solution_container)
 for more detail.
+
 
 * `volumes`: This is where you define which volume to mount inside the container.
  - `volume_id`: The ID of the volume.

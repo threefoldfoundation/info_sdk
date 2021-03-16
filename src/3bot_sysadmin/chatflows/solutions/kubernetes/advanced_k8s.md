@@ -125,4 +125,4 @@ Run K3s with --flannel-backend=none
 
 ## HA :warning: (WIP) :construction_worker:
 
-![k3s ha architecture](ressources/ha/k3s-ha-architecture.svg)
+![k3s ha architecture](resources/ha/k3s-ha-architecture.svg)
