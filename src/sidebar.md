@@ -12,16 +12,13 @@
       - [3Bot](3bot) 
       - [Smart Contract for IT](archi_smartcontract4it)  
     - [Experience Layer](architecture_layers_experience) 
-  - Compute
-    - [Quantum Safe Compute](archi_qscompute)
-    - [Zero-OS FS](architecture_flist)
-  - Storage
-    - [Quantum Safe Storage](archi_qsstorage)
-    - [Planetary Secure File System](archi_psfs)
-  - Network
-    - [Quantum Safe Network](archi_qsnetwork)
-    - [Planetary Secure Network](archi_psnw)
-    - [Web Gateway](archi_webgateway)
+  - [Quantum Safe Compute](archi_qscompute)
+  - [Zero-OS FS](architecture_flist)
+  - [Quantum Safe Storage](archi_qsstorage)
+  - [Planetary Secure File System](archi_psfs)
+  - [Quantum Safe Network](archi_qsnetwork)
+  - [Planetary Secure Network](archi_psnw)
+  - [Web Gateway](archi_webgateway)
   - [Web 3.0 Interface](archi_interface)
   - [Architecture Benefits](archi_usp)
     - [Simple](archi_usp_simple)
