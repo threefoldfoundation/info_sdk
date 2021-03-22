@@ -1,11 +1,13 @@
-* Threefold
-    * [TF Grid Website](http://www.threefold.io/)
-    * [TF Foundation Website](http://www.threefold.me/)
-    * [TF Wiki](http://wiki.threefold.io/)
-    * [TF Blogs](https://blog.Threefold.io/)
-    * [Alliance for a Conscious Internet](https://www.consciousinternet.org/)
-    * [Freeflow Nation](https://www.freeflownation.org/)
-* TF Grid
-    * [3Bot Deployer](https://manual.threefold.io/#/3bot_deployer)
-    * [TF Grid Demo](https://marketplace.threefold.io/)
-    * [TF Grid Simulator](threefold:simulator)
+- ThreeFold
+  - [ThreeFold Website](https://new.threefold.io)
+  - [ThreeFold Blog](https://new.threefold.io/farming/blog)
+  - [TF Knowledge Base](https://new.threefold.io/info/threefold)
+  - [TFGrid Capacity Explorer](https://explorer.grid.tf/)
+  - [TF Token Stats](https://tokenstats.threefoldtoken.com/)
+- ThreeFold Grid
+    - [3Bot Deployer](https://manual.threefold.io/#/3bot_deployer)
+    - [TF Grid Simulator](threefold:simulator)
+- Related Websites
+  - [FreeFlow Nation](http://www.freeflownation.org/)
+  - [Alliance for a Conscious Internet](https://new.threefold.io/aci)
+  - [Planetary Matchmakers](https://www.freeflowmatchmakers.com/)
