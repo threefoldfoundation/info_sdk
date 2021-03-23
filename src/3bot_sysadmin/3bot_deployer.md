@@ -4,8 +4,8 @@
 
 ## How to Deploy your 3Bot
 
-- For **Mainnet** Go to [3Bot Deployer Website](https://deploy3bot.grid.tf)
-- For **Testnet** Go to [3Bot Testnet Deployer Website](https://deploy3bot.testnet.grid.tf)
+- For **Mainnet** Go to 3Bot [Deployer Website](https://deploy3bot.grid.tf)
+- For **Testnet** Go to 3Bot [Testnet Deployer Website](https://deploy3bot.testnet.grid.tf)
 
 ## Create a 3Bot
 
@@ -123,4 +123,4 @@ After signing in and agreeing to terms and conditions, you'll see the 3Bot dashb
 
 ### Explore the 3Bot Admin Panel's Features
 
-You can now access all the features of your 3Bot, such as the Code Server, Python Notebooks, Farm Management, and many more. Feel free to click on [3Bot Dashboard](3bot_admin) section to learn more about your hosted 3Bot features.
+You can now access all the features of your 3Bot, such as the Code Server, Python Notebooks, Farm Management, and many more. Feel free to click on [the Dashboard](3bot_admin) section to learn more about your hosted 3Bot features.
