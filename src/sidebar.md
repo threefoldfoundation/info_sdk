@@ -9,7 +9,7 @@
       - [Zero-OS](tftech:magic_zos)
       - [3Node](threefold:3node)
     - [Autonomous Layer](architecture_layers_autonomous)
-      - [3Bot](3bot) 
+      - [3Bot](3bot_intro) 
       - [Smart Contract for IT](archi_smartcontract4it)  
     - [Experience Layer](architecture_layers_experience) 
   - [Quantum Safe Compute](archi_qscompute)
