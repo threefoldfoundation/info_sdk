@@ -6,6 +6,6 @@
     * [Alliance for a Conscious Internet](https://www.consciousinternet.org/)
     * [Freeflow Nation](https://www.freeflownation.org/)
 * TF Grid
-    * [3Bot Deployer](https://manual.threefold.io/#/3bot_deployer)
+    * [3Bot Deployer](sdk:3bot_deployer)
     * [TF Grid Demo](https://marketplace.threefold.io/)
     * [TF Grid Simulator](threefold:simulator)
