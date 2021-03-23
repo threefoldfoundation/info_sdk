@@ -5,7 +5,7 @@
   - [TFGrid Capacity Explorer](https://explorer.grid.tf/)
   - [TF Token Stats](https://tokenstats.threefoldtoken.com/)
 - ThreeFold Grid
-    - [3Bot Deployer](sdk:3bot_deployer)
+    - [3Bot Deployer](3bot_deployer)
     - [TF Grid Simulator](threefold:simulator)
 - Related Websites
   - [FreeFlow Nation](http://www.freeflownation.org/)

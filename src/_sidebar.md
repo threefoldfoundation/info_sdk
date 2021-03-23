@@ -66,7 +66,7 @@
   - [Logs](3bot_logs)
   - [Alerts](3bot_alerts)
   - [Settings](3bot_settings)
-- [Farming](threefold:farm_management)
+- [Farming](threefold:farming_diy_guide)
   - [Configuring a Farm](threefold:farm_init)
   - [Prepare a 3Node](threefold:3node_prepare)
   - [Booting a 3Node Over USB](threefold:boot_3node_usb)
