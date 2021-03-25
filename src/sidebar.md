@@ -55,7 +55,7 @@
   - [Deployed Workloads](3bot_deployed_workloads)
   - [Backup](3bot_backup)
   - [Capacity Explorer](3bot_capacity_explorer)
-  - [Farm Management](cloud:3bot_farm_mgmt)
+  - [Farm Management](threefold:3bot_farm_mgmt)
   - [Wikis](3bot_wikis)
   - [Packages](3bot_packages)
   - [Code Server](3bot_code_server)
