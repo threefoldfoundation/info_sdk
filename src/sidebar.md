@@ -30,7 +30,7 @@
     - [Self-healing](archi_usp_selfhealing)
     - [Low Redundancy](archi_usp_redundant)
 - [Getting Started](all_getting_started)
-  - [Get ThreeFold Connect](threefold_connect_install)
+  - [Get ThreeFold Connect](threefold:threefold_connect)
   - [Get and Store TFT](mainnet_gettft)
   - [See Nodes On The TFGrid](explore_nodes)
 - [3Bot](3bot)

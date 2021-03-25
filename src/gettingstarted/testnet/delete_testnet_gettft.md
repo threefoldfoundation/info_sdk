@@ -1,13 +1,10 @@
-# Get and Store Testnet TFT 
+# Get and Store TFT 
 
 On Testnet Hosted 3Bot environment, there are a few options on how to get and store Testnet TFT to reserve IT Capacity for your workload deployment test.  
 
-To store your TFT Testnet, you can use:
-- A pre-configured hosted 3Bot wallet.
-- A __third-party testnet stellar wallet__.
+You can use a __pre-configured hosted 3Bot wallet__, __3Bot wallet on your ThreeFold Connect App__, or a __third-party Stellar wallet__ to store your TFT. 
 
- Usually __1000 Testnet TFT would be automatically added__ to your pre-configured wallet on your hosted 3Bot, but if you're using a third party testnet wallet, you can __request for 1000 Testnet TFT manually__ via [__Request Testnet TFT faucet__](https://gettft.testnet.grid.tf). You can also __trade other stellar tokens into TFT__ on the Testnet Stellar Exchange to get more Testnet TFT.
-
+You can purchase TFT by __buying or trading other stellar into TFT__ via Stellar-supported exchangers like Liquid or BTC-Alpha. You can also purchase TFT Directly from the farms. Please check this [__tutorial__ on how to buy and sell TFT](threefold:how_to_buy_and_sell)
 
 ## Store your Testnet TFT
 
