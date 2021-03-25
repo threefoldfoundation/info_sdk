@@ -20,11 +20,11 @@ Once you've signed up, deployed, and logged into your hosted 3Bot, you can use a
 
 Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wallet list, and click on one particular wallet to see the details of the wallet, including the wallet address and the amount of TFT balance you have on your account.
 
-> Please go to [__Hosted 3Bot Wallet__](3bot_wallet) to read more about the 3Bot Wallet feature on your hosted 3Bot.
+> Please go to [__Hosted 3Bot Wallet__](3bot_sdk_wallet) to read more about the 3Bot Wallet feature on your hosted 3Bot.
 
 ### Store your TFT on your __3Bot Wallet on ThreeFold Connect App__
 
-<img src="img/3bot_wallet.png" width="300" alt="image missing 3bot_wallet.png">
+![](img/3bot_wallet.png) 
 
 Your ThreeFold Connect App comes with an inclusive 3Bot Wallet that you can access within the app on your mobile phone. After installing the __ThreeFold Connect App__ on your device, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Then click on the big __'transaction' icon__ on the bottom right corner of your screen to start sending or receiving TFT.
 

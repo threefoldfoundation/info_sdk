@@ -8,7 +8,7 @@ The admin panel has 2 viewing options, light and dark mode. You can switch betwe
 
 The sidebar allows easy navigation between the different features offered within this admin panel. Each of the features is shortly explained below and in this wiki.
 
-<img src="img/3bot_admin_sidebar.png" width="200" alt="">
+![](img/3bot_admin_sidebar.png)
 
 ### Dashboard
 
@@ -18,9 +18,9 @@ It provides “at-a-glance” visibility into active resources, shows system ver
 
 ### Wallets
 
-Your 3Bot comes with a built-in [**3Bot Wallet**](3bot_wallet) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot).
+Your 3Bot comes with a built-in [**3Bot Wallet**](3bot_sdk_wallet) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot).
 
-Please go to [**3Bot Wallets**](3bot_wallet) to learn more.
+Please go to [**3Bot Wallets**](3bot_sdk_wallet) to learn more.
 
 ### Capacity Pools
 
