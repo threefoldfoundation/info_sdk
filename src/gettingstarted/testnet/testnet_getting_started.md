@@ -8,7 +8,7 @@ As the first step, you need to get yourself a **ThreeFold Connect** and **3Bot I
 
 Please be aware that this ID will be used as your main digital identity on the ThreeFold_Grid and holds the keys to access every service on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The ThreeFold Connect App will also provide you with an access to your 3Bot Wallet where you can store your ThreeFold_Tokens.
 
-> sdk: [Get **ThreeFold Connect App**](threefold_connect_install)
+> [Get **ThreeFold Connect App**](threefold:threefold_connect)
 
 ## Get a 3Bot on Testnet
 
@@ -27,5 +27,5 @@ Go to the provided link to launch your 3Bot and login to your new 3Bot admin das
 
 ## Get TFT (Tokens for IT Capacity)
 
-The same TFTs can be used on testnet and on mainnet, there is however a price difference (currently on testnet the price for capacity is a factor 10 cheaper than on mainnet). 
+The same TFTs can be used on testnet and on mainnet, there is however a price difference (currently - March 2021 - on testnet the price for capacity is a factor 10 cheaper than on mainnet). 
 Please refer to [Get & Store TFT](mainnet_gettft) section to know more. 
