@@ -28,7 +28,7 @@ Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wal
 
 You can use a __third-party testnet Stellar Wallet__ to store your Testnet TFT. There are a lot of testnet Stellar Wallets out there. __Interstellar wallet__ is one of the many Testnet Stellar Wallets we recommend to use to store your Testnet TFT due to its user-friendliness. Please follow this tutorial below to __configure a new testnet Interstellar wallet__ and store your Testnet TFT on your wallet.
 
-> [Get and Store Testnet TFT on __Testnet Interstellar Wallet__](testnet_wallet_interstellar)
+> [Get and Store Testnet TFT on __Testnet Interstellar Wallet__](delete_testnet_wallet_interstellar)
 
 ## Get Testnet TFT
 

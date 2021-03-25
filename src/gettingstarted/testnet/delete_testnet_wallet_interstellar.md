@@ -32,4 +32,4 @@ __Go back to your Interstellar Testnet Wallet account__ and see if 1000 Testnet 
 
 > [__Claim your Testnet TFT!__](https://gettft.testnet.grid.tf)
 
-> go back to [__Get and Store TFT on Testnet__](testnet_gettft)
+> go back to [__Get and Store TFT on Testnet__](delete_testnet_gettft)
