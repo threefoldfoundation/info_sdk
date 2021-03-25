@@ -2,7 +2,7 @@
 
 On Mainnet hosted 3Bot environment, there are a few options on how to get and store TFT to reserve IT Capacity for your workload deployment test. You can use a __pre-configured hosted 3Bot wallet__, __3Bot wallet on your ThreeFold Connect App__, or a __third-party Stellar wallet__ to store your TFT. 
 
-You can purchase TFT by __buying or trading other stellar tokens into TFT__ via Stellar-supported exchangers like Liquid or BTC-Alpha. You can also purchase TFT Directly from the farms. Please check this [__tutorial__ on how to buy and sell TFT](threefold:how_to_buy_and_sell)
+You can purchase TFT by __buying or trading other stellar into TFT__ via Stellar-supported exchangers like Liquid or BTC-Alpha. You can also purchase TFT Directly from the farms. Please check this [__tutorial__ on how to buy and sell TFT](threefold:how_to_buy_and_sell)
 
 
 ## Store your TFT
@@ -28,7 +28,7 @@ Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wal
 
 Your ThreeFold Connect App comes with an inclusive 3Bot Wallet that you can access within the app on your mobile phone. After installing the __ThreeFold Connect App__ on your device, simply click on the app, and click on __Wallet__ to access the 3Bot Wallet. Then click on the big __'transaction' icon__ on the bottom right corner of your screen to start sending or receiving TFT.
 
-> Please go back to [__ThreeFold Connect App__ Installation Manual](threefold_connect_install) if you have not installed the ThreeFold Connect App on your mobile phone.
+> Please go back to [__ThreeFold Connect App__ Installation Manual](threefold:threefold_connect) if you have not installed the ThreeFold Connect App on your mobile phone.
 
 ### Store your TFT on your third-party testnet Stellar Wallet
 
