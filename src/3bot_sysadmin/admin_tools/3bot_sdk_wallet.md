@@ -2,7 +2,7 @@
 
 <!-- <img src="img/3bot_wallet.png" width="300" alt=""> -->
 
-Your 3Bot comes in handy with built-in __Stellar wallets__, listing all your existing Stellar wallets, with the option to create a new wallet or import an existing one. This feature was especially made with the aim to make it easier and faster for you to reserve and pay for your IT Capacity. 
+Your 3Bot comes in handy with built-in __Stellar wallets__, listing all your existing Stellar wallets, with the option to create a new wallet or import an existing one. This feature was especially made in the SDK with the aim to make it easier and faster for you to reserve and pay for your IT Capacity. 
 
 ## Creating a New Wallet
 

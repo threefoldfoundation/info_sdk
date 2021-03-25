@@ -36,7 +36,7 @@
 - [3Bot](3bot)
   - [3Bot Deployer](3bot_deployer)
   - [3Bot Admin Panel](3bot_admin)
-  - [Wallets](3bot_wallet)
+  - [Wallets](3bot_sdk_wallet)
   - [Capacity Pools](3bot_capacity_pools)
     - [Your First Capacity Pool](3bot_capacity_new)
     - [Create a Capacity Pool](3bot_capacity_new)
