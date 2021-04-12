@@ -6,7 +6,6 @@
   - [TF Token Stats](https://tokenstats.threefoldtoken.com/)
 - ThreeFold Grid
     - [3Bot Deployer](3bot_deployer)
-    - [TF Grid Simulator](threefold:simulator)
 - Related Websites
   - [FreeFlow Nation](http://www.freeflownation.org/)
   - [Alliance for a Conscious Internet](https://threefold.io/aci)
