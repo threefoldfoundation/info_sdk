@@ -1,3 +1,5 @@
+<!--- replace by threefold:threefold_connect --->
+
 # ThreeFold Connect App
 
 <!--- original content: https://github.com/Threefoldfoundation/info_Threefold/tree/development/src/docs/token/apps_wallets --->
