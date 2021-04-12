@@ -100,7 +100,7 @@
 - [Community Channels](community)
 - [Collaboration](collab)
   - [Become a Grid Tester](test_grid)
-- [Release Notes](cloud:releasenotes)
+- [Release Notes](cloud:release_notes)
   - [2.4.0](cloud:release_notes_2_4_0)
   - [2.3.0](cloud:release_notes_2_3_0)
   - [2.2.0](cloud:release_notes_2_2_0)
