@@ -20,6 +20,8 @@ Schema used to define a kubernetes reservation:
 * `master_ips`: If this VM is not the master of the cluster, add the IP address of the master node here.
 * `ssh_keys`: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all.
 * `public_ip`: The reservation ID of the public IP reserved earlier. The ip should be reserved with the same **node_id**
+* `datastore_endpoint`: If this is not an empty string, it will be used as the connection string for an external datastore endpoint for kubernetes state storage
+* `disable_default_ingress`: If true, the kubernetes VM will be started without a default traefik ingress controller.
 
 ### VM Sizes
 
