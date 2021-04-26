@@ -1,1 +1,1 @@
-!!!include:manual:four_to_six_gateway.md
+!!!include:four_to_six_gateway.md

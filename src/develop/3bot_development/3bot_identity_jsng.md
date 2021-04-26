@@ -12,7 +12,7 @@
 
 - This will take you to configure your identity, It will ask you about the network you want to use, 3Bot name, email, and words.
  
- ![configure](./img/identity_new.png)
+ ![configure](img/identity_new.png)
 
 - Then it will start 3Bot server with an identity setup that could be accessed via `j.core.identity.me`
 

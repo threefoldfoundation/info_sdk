@@ -72,5 +72,5 @@ mainbox
 
 When running the above code in a notebook you should see something like:
 
-![](example_ui.png)
+![](img/example_ui.png)
 

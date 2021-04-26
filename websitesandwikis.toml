@@ -9,7 +9,7 @@ addr = "0.0.0.0"
 name = "manual"
 title = "Grid Manual"
 #http or git url
-url = "github.com/threefoldfoundation/info_gridmanual"
+url = "github.com/threefoldfoundation/info_tfgrid_sdk"
 #if empty will be auto created
 path = ""
 #commit automatically when there is new info, only works when ssh used

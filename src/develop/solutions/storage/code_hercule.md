@@ -6,13 +6,13 @@ The basic idea is to provide a reliable storage solution that leverage on the cu
 > NOTE: We are discussing a modified version of minio that has be officially released by ThreeFold to have all the feature that is used, and explained in this document. So when we say `minio` we always mean the `Threefold` version. You could find the source code [here](https://github.com/Threefoldtech/minio)
 
 ## Installation tutorial
-Please check a full installation tutorial [here](minio.md)
+Please check a full installation tutorial [here](cloud:minio)
 
 # Diagrams
-![Minio Arch](./img/minio_arch.png)
+![Minio Arch](img/minio_arch.png)
 
 ## Master/Slave setup
-![Minio Master/Slave](./img/minio_master_slave.png)
+![Minio Master/Slave](img/minio_master_slave.png)
 
 This is a `primart/readonly` setup where metadata is replicated to a slave (readonly) node where users can use to read/download objects. Upload is only possible via the primary node.
 
@@ -65,7 +65,7 @@ M = (((26 * C) + 40) * S/B) + N * 2560 = 6256025600
 
 
 ## Graphical
-Please refer to the [tutorial](tutorial.md) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
+Please refer to the [tutorial](tutorials) for a full walk through to deploy a fully working minio with master/slave setup and monitoring enabled.
 
 ## Programmatically
 Please make sure you understand the graphical method first. Since it explains the generic main steps that you need to build a solution from scratch.

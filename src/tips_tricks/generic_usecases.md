@@ -3,19 +3,19 @@
 
 ## Decentralized, Autonomous, Edge, Grid Computing
 
-![](edge_cloud.png)
+![](img/edge_cloud.png)
 
 TODO: use case Autonomous, Edge, Grid Computing, high level
 
 ## BCDB: Secure, Scalable, Distributed Storage Workloads
 
-![](bcdb.png)
+![](img/bcdb.png)
 
 ## Blockchain-as-a-service 
 
-![](blockchain_service.png)
+![](img/blockchain_service.png)
 
-![](blokchain_service2.png)
+![](img/blokchain_service2.png)
 
 ## S3 Storage
 

@@ -7,7 +7,7 @@ Anyone could creates 3Nodes. The process is very simple and requires you to put 
 
 <!-- TODO #63 Look at the farming pages and see if the description of getting a farm_id and more is cleary documented enough -->
 
-<!-- ![](./img/bootstrap.png) -->
+<!-- ![](img/bootstrap.png) -->
 <img src="img/bootstrap.png" width="600" alt="">
 
 ### Find 3Nodes to deploy workloads on
@@ -17,20 +17,20 @@ The TF Grid has an explorer which represents all of the 3Nodes that form the cap
 Also included is a rudimentary search facility where you could select nodes based on their characteristics (number of CPU cores, memory etc.). For discovery purpose this grid portal is a good starting point to find out what is available on the TF Grid in which geography.
 
 <img src="img/explorer-front-page.png" width="600" alt="Explorer front page">
-<!-- ![](./img/explorer_front_page.png) -->
+<!-- ![](img/explorer_front_page.png) -->
 
 
 On a per-node level, node specific details are available. Opening a specific node tab provides you with the identity and statistics of the node. All this information is also searchable and available in the SDK.
 <img src="img/explorer_node_details.png" width="600" alt="Explorer front page">
-<!-- ![](./img/explorer_node_details.png) -->
+<!-- ![](img/explorer_node_details.png) -->
 
 ### Find or create Flists 
-The Flist principle is explained in the introduction architecture section ([here](architecture_flist.md).
-<!-- ![](./img/hub_startpage.png) -->
+The Flist principle is explained in the introduction architecture section ([here](architecture_flist).
+<!-- ![](img/hub_startpage.png) -->
 
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
 
-Access to this hub is restricted to people that have a ThreeFold Connect identity. There is a description in the "getting started" section on how to get one of these [here](threefold_connect_install.md).
+Access to this hub is restricted to people that have a ThreeFold Connect identity. There is a description in the "getting started" section on how to get one of these [here](threefold:threefold_connect).
 
 Login to the hub and you will not only have access to Flists created and uploaded by others but also the ability to create and upload your own. Two principle ways to create (custom) Flists:
 - import docker images from the docker hub
@@ -42,7 +42,7 @@ Login to the hub and you will not only have access to Flists created and uploade
 
 <!-- TODO not sure how to restrict sceenshot from being presented very large
 original image includes
-![](./img/docker_converter.png)
-![](./img/homemade_Flist.png)
+![](img/docker_converter.png)
+![](img/homemade_flist.png)
 -->
 

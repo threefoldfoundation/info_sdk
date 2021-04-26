@@ -1,6 +1,6 @@
 # Container
 
-![](./img/containers_real.png)
+![](img/containers_real.png)
 
 This primitive allows a user to run its application into a container on a node.
 
@@ -8,49 +8,45 @@ This primitive allows a user to run its application into a container on a node.
 
 Here is the schema used to define a container reservation:
 
-* **Flist**: the URL of the [Flist](#Flist). This URL needs to be reachable by
+* `flist`: the URL of the [Flist](#Flist). This URL needs to be reachable by the node. This is usually a URL in https://hub.grid.tf/.
 
-the node. This is usually a URL to https://hub.grid.tf/.
+* `hub_url`: The URL of the hub to use, if not using the default hub.grid.tf.
+* `environment`: The environment variables to set inside the container. This is usually used to configure the application running in the container.
+* `secret_environment`: It is the same as `Environment` but these values are encrypted.
+* `entrypoint`: It is the program to start when the container is created.
+* `interactive`: If set to true, coreX is started in the container and the value.
 
-* **HubUrl**: The URL of the hub to use, if not using the default hub.grid.tf.
-* **Environment**: The environment variables to set inside the container. This is usually used to configure the application running in the container.
-* **SecretEnvironment**: It is the same as `Environment` but these values are encrypted.
-* **Entrypoint**: It is the program to start when the container is created.
-* **Interactive**: If set to true, coreX is started in the container and the value.
-
-of `Entrypoint` is ignored. See [the coreX section](corex---the-0-os-container-process-manager)
+of `Entrypoint` is ignored. See [Using corex section](solution_container)
 for more detail.
 
-* **Volumes**: This is where you define which volume to mount inside the container.
 
- - **VolumeID**: The ID of the volume.
- - **Mountpoint**: The path into the container filesystem where to mount the volume.
+* `volumes`: This is where you define which volume to mount inside the container.
+ - `volume_id`: The ID of the volume.
+ - `mountpoint`: The path into the container filesystem where to mount the volume.
 
-* **Capacity**:
+* `capacity`:
 
- - **CPU**: The amount of virtual CPU to allocate to the container.
- - **Memory**: The amount memory in MiB to allocate to the container.
- - **DiskSize**: The size in MiB of the root filesystem of the container.
- - **DiskType**: The type of disk to use for the root filesystem of the container.
+ - `cpu`: The amount of virtual CPU to allocate to the container.
+ - `memory`: The amount memory in MiB to allocate to the container.
+ - `disk_size`: The size in MiB of the root filesystem of the container.
+ - `disk_type`: The type of disk to use for the root filesystem of the container.
  Valid value are 'HDD' or 'SSD'.
 
-* **NetworkConnection**: This is where you define the network of the container
+* `network_connection`: This is where you define the network of the container
 
- - **NetworkId**: The name of the network created using a [network](network.md)
+ - `network_id`: The name of the network created using a [network](network)
  primitive.
- - **Ipaddress**: net. IP: The IP address to give to the container.
- - **public_ipv6**: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
+ - `ipaddress`: net. IP: The IP address to give to the container.
+ - `public_ipv6`: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
  to the public internet and out of your private overlay network.
- - **yggdrasil_ip**: If true, allocated an yggdrasil IP address to the container. This will make the container directly accessible over the yggdrasil network.
+ - `yggdrasil_ip`: If true, allocated an yggdrasil IP address to the container. This will make the container directly accessible over the yggdrasil network.
 
-* **Logs**: A redis backend where you can send stdout and stderr output.
-* **StatsAggregator**: A list of redis backend where you can send periodic statistics.
-* **Statistics**: A redis backend where you can send periodic statistics.
-* **pool_id**: The capacity pool ID to use to provision the workload.
+* `logs`: A redis backend where you can send stdout and stderr output.
+* `stats`: A list of redis backend where you can send periodic statistics.
 
 ## Flist
 
-More information about Flist at [Flist documentation](architecture_flist.md).
+More information about Flist at [Flist documentation](architecture_flist).
 
 ## CoreX - The Zero-OS container process manager
 
@@ -72,7 +68,7 @@ You can even specify multiple endpoints. For now only redis is supported but thi
 
 In the reservation payload, there is a `logs` field where you can specify your endpoints:
 
-``` 
+```
  ...
  "entrypoint": "",
  "interactive": true,
@@ -98,7 +94,7 @@ You can read them via redis using `SUBSCRIBE container-stdout container-stderr` 
 Like logs, you can send statistics to a (only for now) redis channel. Container will send each 2 seconds a statistic info into
 the specified channel:
 
-``` 
+```
 {
  "timestamp": 1586221435,
  "memory_usage": 561152,
@@ -111,7 +107,7 @@ the specified channel:
 
 To set your remote endpoint, you can specify in the reservation:
 
-``` 
+```
  ...
  "interactive": true,
  "logs": null,
@@ -126,8 +122,58 @@ To set your remote endpoint, you can specify in the reservation:
  ...
 ```
 
+
+### Endpoint
+
 Fields `endpoint` wants uri like: `redis://host:port/channel`
 You can read them via redis using `SUBSCRIBE container-stats` for example.
+
+Since this uses `PUB/SUB` method, redis doesn't keep any logs. If there are no
+subscribers attached when statistics are pushed, they are discarded.
+
+You need to get a subscriber attached to fetch statistics.
+
+### Values
+
+- `timestamp`: Unix timestamp when stats were generated.
+- `memory_usage`: Effective memory usage in in bytes.
+- `memory_limit`: Maximum memory you can use, in bytes.
+- `memory_cache`: Cache usage (like when using `free` command) in bytes.
+- `cpu_usage`: CPU time elapsed, in 10 microseconds.
+- `pids_current`: Amount of pids running.
+
+Note: timestamp is in second (for now), which will be updated later to increase precision.
+
+In order to compute CPU usage in percentage, you need to substract two statistics points and
+divide difference by `10000000`:
+```
+(usage - prev.usage) / ((timestamp - prev.timestamp) / 10000000)
+```
+
+### SDK
+
+There is a helper on the `sal` where you can get container statistics.
+
+Via container object:
+```python
+zos = j.sals.zos
+
+# create your container
+container = zos.container.create(...)
+
+# attach your stats
+zos.container.add_stats(container, "redis://remote:6379/stats")
+
+# ... deploy your container ...
+
+# monitor statistics
+zos.container.monitor(container)
+```
+
+You can also monitor from an existing reservation:
+```
+zos.container.monitor_reservation('https://explorer/api/v1/reservations/workloads/103')
+```
 
 ## Example using sdk
 

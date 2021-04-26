@@ -1,1 +1,0 @@
-!!!include:manual:solution_container.md

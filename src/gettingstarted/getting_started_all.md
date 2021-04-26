@@ -1,8 +1,9 @@
 # Getting Started
 
-To get started and deploy a solution on top of the TF Grid, you would need to first figure out of whether you would like to build on top of the __TF Grid Testnet__ or __TF Grid Mainnet__. 
+At the moment, you can either deploy your solutions on TF Grid 2.4 (testnet) or TF Grid 2.3 (mainnet).
 
-- Go to [__Start on Mainnet__](mainnet_getting_started.md) : the production net (grid 2.3)
-- Go to [__Start on Testnet__](testnet_getting_started.md) : where the latest updates of our software are being tested.
+- To get started and deploy a solution on top of the TF Grid 2.4  testnet, go to  [__ThreeFold edge-Virtual Data Center (eVDC) Manual__](https://vdc.testnet.grid.tf). 
 
-> Please keep in mind that the two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. For example, You would not be able to purchase capacity on TF Grid mainnet by using the testnet TFT you have on your testnet wallet.
+- To get started and deploy a solution on top of the TF Grid 2.3 (mainnet), you can go to [__ThreeFold's 3Bot SDK Manual__](3bot). The eVDC is not available on top of the Grid 2.3 and below.
+
+> Please keep in mind that the two networks are completely separated, and thus every activity done on testnet cannot be applied to the mainnet, and vice versa. 

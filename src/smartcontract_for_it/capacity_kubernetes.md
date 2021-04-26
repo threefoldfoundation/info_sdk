@@ -1,8 +1,8 @@
-# K8bernetes cluster
+# Kubernetes cluster
 
-![](./img/kubernetes_intro.png)
+![](img/kubernetes_intro.png)
 
-This primitive allows a user to deploy a kubernetes cluster.
+This primitive allows a user to deploy a Kubernetes cluster.
 
 A cluster must be composed of at least 2 nodes. One master node and any number of
 worker nodes.
@@ -13,14 +13,15 @@ A kubernetes cluster could be linked to our other primitives.
 
 Schema used to define a kubernetes reservation:
 
-* **NodeId**: The node ID on which the Virtual machine will be created.
-* **Size**: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes).
-* **NetworkId**: The name of the network created using a [network](network.md) primitive.
-* **Ipaddress**: The IP address to give to the VM.
-* **ClusterSecret**: The value of this field must be the same for all the members of a cluster.
-* **MasterIps**: If this VM is not the master of the cluster, add the IP address of the master node here.
-* **SshKeys**: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all.
-* **pool_id**: the capacity pool ID to use to provision the workload.
+* `size`: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes).
+* `network_id`: The name of the network created using a [network](network) primitive.
+* `ipaddress`: The IP address to give to the VM.
+* `cluster_secret`: The value of this field must be the same for all the members of a cluster.
+* `master_ips`: If this VM is not the master of the cluster, add the IP address of the master node here.
+* `ssh_keys`: A list of SSH public keys to authorize into the VM. Don't forget to add yours here or you won't be able to reach the node at all.
+* `public_ip`: The reservation ID of the public IP reserved earlier. The ip should be reserved with the same **node_id**
+* `datastore_endpoint`: If this is not an empty string, it will be used as the connection string for an external datastore endpoint for kubernetes state storage
+* `disable_default_ingress`: If true, the kubernetes VM will be started without a default traefik ingress controller.
 
 ### VM Sizes
 
@@ -43,6 +44,7 @@ Schema used to define a kubernetes reservation:
 | 15 | 1 | 2 | 25 |
 | 16 | 2 | 4 | 50 |
 | 17 | 4 | 8 | 50 |
+| 18 | 1| |1 | 25 |
 
 ## Example
 
@@ -88,7 +90,7 @@ print("provisioning result")
 print(master.info.result)
 ```
 
-## How to log into your VM after deployement
+## How to log into your VM after deployment
 
 Once the cluster is deployed, you need to connect to one of the nodes and copy the kube-config file.
 
