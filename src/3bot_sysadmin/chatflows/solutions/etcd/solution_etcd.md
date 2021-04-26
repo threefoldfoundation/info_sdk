@@ -3,7 +3,7 @@ A distributed, reliable key-value store for the most critical data of a distribu
 
 ## Steps to Deploy ETCD
 
-### Add the solution name. Keep in mind it will also be the subdomain.
+### Add the solution name
 ![](./img/Single_ETCD/01.png)
 
 ### Choose Number of ETCD Nodes
