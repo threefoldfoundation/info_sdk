@@ -1,3 +1,3 @@
 
-!!!include threefold:smart_contract_for_it
+!!!include threefold:smartcontract_it
 

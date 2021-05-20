@@ -19,7 +19,7 @@ Each workload gets registered on the TF Grid smartcontract database.
 
 ### the process
 
-![](img/smart_contract_it_arch.png)
+![](img/smartcontract_it_arch.png)
 
 #### STEP 1: educate 3Bot = TF Grid SDK
 
