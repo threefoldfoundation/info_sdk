@@ -96,7 +96,7 @@
   - [Admin Panel](3bot_adminpanel_extend)
   - [Jumpscale](internals)
   - [ChatFlow](develop_chatflow)
-  - [Flist](flist_intro)
+  - [Flist](flist)
 - [Community Channels](community)
 - [Collaboration](collab)
   - [Become a Grid Tester](test_grid)
