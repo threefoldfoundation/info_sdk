@@ -35,7 +35,7 @@ By not copying the full objects integrally but dispersing the parts after encryp
 - **Auditable** : data can never be lost, unlimited history, auditing on digital ledger layer
 - **Energy-efficient** : 10x less power utilization due to the reduced storage volumes
 - **Self-healing** : service can be automatically recovered in the event of outage with no human intervention. The 3Bot as your Virtual System Administrator can monitor your storage on node outages and can trigger the reconstruction of data (read: new equations) on the fly. 
-![](img/archi_zstor_selfhealing.png)
+![](img/archi_psn_redundant_selfhealing.png)
 
 ## Usage
 
@@ -52,4 +52,4 @@ This Quantum-Safe File System can be used as back-end storage for **any** file f
 - Distributed file sharing formats such as IPFS and Hypercore
 - ...
 
-![](img/archi_zstor_scales.png)
+![](img/archi_usp_scales.png)
