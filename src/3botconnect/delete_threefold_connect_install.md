@@ -17,7 +17,7 @@ Follow the steps below to set up your own ThreeFold Connect and 3Bot ID (usernam
 To use the ThreeFold Connect App, you need to download it from **Apple Store** or **Google Play Store**.
 
 [Download ThreeFold Connect via Google Play store](https://play.google.com/store/apps/details?id=org.jimber.threebotlogin&hl=en) <BR>
-[Download ThreeFold Connect via Apple Appstore](https://apps.apple.com/us/app/3bot-connect/id1459845885)
+[Download ThreeFold Connect via Apple Appstore](https://apps.apple.com/us/app/threefold_connect/id1459845885)
 
 ### Store Your Seed Phrase in a Safe Place
 
