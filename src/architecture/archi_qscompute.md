@@ -76,7 +76,7 @@ Optimized storage engine technology. Knows how to write most efficient to a spec
 - Optimized for easy (soft/green) operation on HD
 - Works with reservations
 - Always append store (can keep unlimited history)
-- Master-Slave replication
+- Primary-Secodary replication
 
 #### Z-Container and Z-VM
 
