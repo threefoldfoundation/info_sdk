@@ -2,7 +2,9 @@
 
 !!!include threefold:quantumsafe_storage_algo level:2
 
-## Quantum-safe 
+!!!include tftech:quantumsafestorage level:2
+
+## Quantum-safe
 
 ThreeFold has intelligently applied this algorithm to make a quantum-safe storage system. Even a quantumcomputer won't be able to decipher encrypted data, simply because based on the data in one location, there is no way to recompile the original information. 
 
