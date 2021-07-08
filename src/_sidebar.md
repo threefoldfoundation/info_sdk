@@ -6,7 +6,7 @@
 - [Architecture](architecture_overview)
   - [Structure](archi_layers)
     - [Capacity Layer](architecture_layers_capacity)
-      - [Zero-OS](tftech:magic_zos)
+      - [Zero-OS](internet4:zos)
       - [3Node](threefold:3node)
     - [Autonomous Layer](architecture_layers_autonomous)
       - [3Bot](3bot) 
