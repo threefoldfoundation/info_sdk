@@ -1,6 +1,6 @@
 # Planetary Secure Network 
 
-!!!include threefold:planetary_network  
+!!!include internet4:planetary_network  
 
 !!!include tftech:planetary_network level:3
 
