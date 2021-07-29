@@ -1,0 +1,23 @@
+{
+    "name": "threefold",
+    "git_url": "git@github.com:crystaluniverse/publishtools/tree/development/doc",
+    "pull": false,
+    "reset": false,
+    "cat": 0,
+    "domains": [
+        "publishtools.threefold.io",
+    ],
+    "descr": "wiki about publishtools",
+    "groups": [],
+    "acl": [],
+    "trackingid": "33",
+    "opengraph": {
+        "title": "Publishtools",
+        "description": "Publishingtools.",
+        "url": "https://info.threefold.io",
+        "type_": "article",
+        "image": "https://info.threefold.io/threefold__welcomepage.png",
+        "image_width": "1200",
+        "image_height": "630"
+    }
+}

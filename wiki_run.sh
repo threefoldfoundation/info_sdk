@@ -1,0 +1,3 @@
+cd wiki
+./run.sh
+
