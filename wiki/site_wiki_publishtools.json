@@ -5,19 +5,8 @@
     "reset": false,
     "cat": 0,
     "domains": [
-        "publishtools.threefold.io",
+        "publishtools.threefold.io"
     ],
-    "descr": "wiki about publishtools",
-    "groups": [],
-    "acl": [],
-    "trackingid": "33",
-    "opengraph": {
-        "title": "Publishtools",
-        "description": "Publishingtools.",
-        "url": "https://info.threefold.io",
-        "type_": "article",
-        "image": "https://info.threefold.io/threefold__welcomepage.png",
-        "image_width": "1200",
-        "image_height": "630"
-    }
+    "descr": "wiki about publishtools"
+
 }
