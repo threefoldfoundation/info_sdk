@@ -1,4 +1,4 @@
-# info_gridmanual
+# ThreeFold Grid Manual
 
 ## Manual Content
 
@@ -29,14 +29,11 @@ clone https://github.com/Threefoldfoundation/info_TF Gridsdk/ -b development
 sh install_osx.sh
 ```
 
-#### if you are on linux
+#### If you are on linux
 
 - build the tool in https://github.com/threebotserver/publishingtools
 - make sure tf_wiki is in path
 
-#### this is only a prelease
-
-by tonight normally we should have a new version which has easier install and also support for multiple wiki & website.
 
 #### Run the server
 
