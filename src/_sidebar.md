@@ -69,7 +69,7 @@
 - [Farming](threefold:farming_diy_guide)
   - [Configuring a Farm](threefold:farm_init)
   - [Prepare a 3Node](threefold:3node_prepare)
-  - [Create Bootable Image](threefold:boot_image_create)
+  - [Create Bootable Image of ZOS](threefold:boot_image_create)
   - [Booting a 3Node Over USB](threefold:boot_3node_usb)
   - [Manage Farm & Nodes](threefold:3bot_farm_mgmt)
   - [Manage public IPs](threefold:configure_farmer_ips)
