@@ -70,6 +70,7 @@
   - [Configuring a Farm](threefold:farm_init)
   - [Prepare a 3Node](threefold:3node_prepare)
   - [Booting a 3Node Over USB](threefold:boot_3node_usb)
+    - [ZOS Bootable Image](threefold:boot_image_create)
   - [Manage Farm & Nodes](threefold:3bot_farm_mgmt)
   - [Manage public IPs](threefold:configure_farmer_ips)
   - [Manage your Farm Wallet](threefold:configure_wallet)
