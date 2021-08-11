@@ -2,10 +2,11 @@ image:
   file: .gitpod.Dockerfile
 tasks:
     - name: WIKI
-      command: sudo /etc/init.d/redis-server start && clear && cat gitpod_readme.md
-    - name: Build
-      openMode: split-right
-      command: bash ct_scripts/install.sh && bash wiki_develop.sh && cat gitpod_readme.md
+      command: |
+        curl https://raw.githubusercontent.com/crystaluniverse/crystaltools/development/install.sh > /tmp/install.sh
+        bash /tmp/install.sh
+        source /workspace/env.sh
+        echo ' - do "./wiki_run" to run wiki'
 
 ports:
   - port: 9998
