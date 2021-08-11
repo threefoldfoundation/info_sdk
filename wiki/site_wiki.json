@@ -1,7 +1,0 @@
-{
-	"fs_path": "../src",
-	"name": "sdk",
-	"domains": [
-		"sdk.threefold.io"
-	]
-}
