@@ -1,0 +1,23 @@
+{
+    "name": "sdk",
+    "git_url": "git@github.com:threefoldfoundation/info_sdk/tree/development/wiki",
+    "pull": false,
+    "reset": false,
+    "cat": 0,
+    "domains": [
+        "sdk.threefold.io"
+    ],
+    "descr": "for IAC, devops, how to do Infrastruture As Code, 3bot, Ansible, tfgrid-sdk, ...",
+    "groups": [],
+    "acl": [],
+    "trackingid": "14",
+    "opengraph": {
+        "title": "ThreeFold | Grid Manual (SDK)",
+        "description": "All you need to know about how to create and deploy IT Solutions on top of the ThreeFold P2P Cloud.",
+        "url": "https://sdk.threefold.io",
+        "type_": "article",
+        "image": "https://sdk.threefold.io/sdk__storage_compute.png",
+        "image_width": "1200",
+        "image_height": "630"
+    }
+}
