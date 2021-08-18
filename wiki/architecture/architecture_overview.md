@@ -41,7 +41,7 @@ Functionally, the ThreeFold technology brings a groundbreaking leap forward to t
 - [Web 3.0 Interface](archi_interface)
 - [Web Gateway](archi_webgateway)
 - [Zero-OS Network](capacity_network)
-- [3Node](threefold:3node)
+- [Certified 3Node](threefold:certified_node)
 - [3Bot](threefold:3bot)
 
 ## Benefits
@@ -71,7 +71,7 @@ while keeping the barrier for adoption by the current IT industry very low :
 **More info:**
 
 - TFGrid
-  - [ThreeFold Connect](threefold:tfconnect)
+  - [ThreeFold Connect](threefold:threefold_connect)
 - Payments
   - [AutoPay](twin:autopay)
   - [TFGrid Wallet](cloud:cloud_wallet)

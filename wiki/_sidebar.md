@@ -7,7 +7,7 @@
   - [Structure](archi_layers)
     - [Capacity Layer](architecture_layers_capacity)
       - [Zero-OS](internet4:zos)
-      - [3Node](threefold:3node)
+      - [Certified 3Node](threefold:certified_node)
     - [Autonomous Layer](architecture_layers_autonomous)
       - [3Bot](3bot) 
       - [Smart Contract for IT](archi_smartcontract4it)  

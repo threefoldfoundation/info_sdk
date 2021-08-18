@@ -1,5 +1,3 @@
-<!-- !!!include:zflist_ -->
-
 # Build your own Flist
 
 ## Command line tool

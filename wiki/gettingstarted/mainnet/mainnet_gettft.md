@@ -38,7 +38,7 @@ You can use any [__third-party testnet stellar wallet__](https://www.stellar.org
 
 > [__Get a third party Stellar Wallet__](https://www.stellar.org/lumens/wallets)
 
-> Please go to [__How to Store Your TFT__](threefold:tf_wallets) section on ThreeFold Wiki for more detailed information on purchasing TFT.
+> Please go to [__How to Store Your TFT__](threefold:threefold_wallets) section on ThreeFold Wiki for more detailed information on purchasing TFT.
 
 ## Get TFT
 

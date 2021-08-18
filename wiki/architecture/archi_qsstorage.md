@@ -1,8 +1,8 @@
 # Quantum-safe Storage system
 
-!!!include threefold:quantumsafe_storage_algo level:2
+<!-- !!!include threefold:quantumsafe_storage_algo level:2
 
-!!!include tftech:quantumsafestorage level:2
+!!!include tftech:quantumsafestorage level:2 -->
 
 ## Quantum-safe
 

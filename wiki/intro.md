@@ -36,7 +36,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
       - [Planetary Secure Network](archi_psnw)
       - [Web 3.0 Interface](archi_interface)
     - [Smart Contract for IT](archi_smartcontract4it)  
-    - [3Node](threefold:3node)
+    - [Certified 3Node](threefold:certified_node)
     - [3Bot](threefold:3bot)
   - [Architecture Benefits](archi_usp)
     - [Simple](archi_usp_simple)
