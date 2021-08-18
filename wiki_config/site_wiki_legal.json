@@ -1,0 +1,25 @@
+{
+	"name": "legal",
+	"git_url": "git@github.com:threefoldfoundation/info_legal/tree/development/wiki",
+	"pull": false,
+	"reset": false,
+	"cat": 0,
+	"domains": [
+		"legal.threefold.io",
+		"legal-info.threefold.io",
+		"legal-wiki.threefold.io"
+	],
+	"descr": "",
+	"groups": [],
+	"acl": [],
+	"trackingid": "17",
+	"opengraph": {
+		"title": "",
+		"description": "",
+		"url": "",
+		"type_": "",
+		"image": "",
+		"image_width": "",
+		"image_height": ""
+	}
+}
