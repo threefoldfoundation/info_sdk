@@ -1,4 +1,4 @@
-You've already completed the [Getting Started](twin:digital_twin_for_life) sections and have your 3bot.
+You've already completed the [Getting Started](getting_started_all) sections and have your 3bot.
 
 ## Deploy a network through the Marketplace
 
