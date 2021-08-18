@@ -9,4 +9,4 @@
 - [Tokens Intro](threefold:token_home)
 - [What is TFT](threefold:token_what)
 - [New to Tokens](threefold:newtotokens)
-- [ThreeFold Wallets](threefold:tf_wallets)
+- [ThreeFold Wallets](threefold:threefold_wallets)
