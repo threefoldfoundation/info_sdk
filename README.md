@@ -1,5 +1,7 @@
 # ThreeFold Grid Manual
 
+### For progress please follow web presence board on Circles tool: https://circles.threefold.me/project/despiegk-product_web_threefold/wiki/home
+
 ## Manual Content
 
 Welcome to __Grid Manual__.
