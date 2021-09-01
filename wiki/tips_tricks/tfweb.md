@@ -40,7 +40,7 @@ https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
 
 ```
 [link](tfweb)
-[link](threefold:grid_why)
+[link](tfgrid:grid_why)
 ```
 
 ### remote include

@@ -2,6 +2,6 @@
 
 ![](img/tokens_tf_header.png)
 
-- [Buy TFT: StellarX](threefold:tft_stellarx)
-- [Buy TFT: Interstellar](threefold:tft_interstellar)
-- [Buy TFT: Lobstr Wallet](threefold:lobstr_wallet)
+- [Buy TFT: StellarX](tfgrid:tft_stellarx)
+- [Buy TFT: Interstellar](tfgrid:tft_interstellar)
+- [Buy TFT: Lobstr Wallet](tfgrid:lobstr_wallet)

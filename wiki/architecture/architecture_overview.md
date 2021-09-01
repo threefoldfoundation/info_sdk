@@ -22,7 +22,7 @@ Three layers interact to make the ThreeFold Grid operational:
 
 More info:
 - [Capacity Layer](architecture_layers_capacity)
-  - [Zero-OS](internet4:zos)
+  - [Zero-OS](cloud:zos)
 - [Autonomous Layer](architecture_layers_autonomous)
   - [Smart Contract for IT](archi_smartcontract4it)  
 - [Experience Layer](architecture_layers_experience)
@@ -41,8 +41,8 @@ Functionally, the ThreeFold technology brings a groundbreaking leap forward to t
 - [Web 3.0 Interface](archi_interface)
 - [Web Gateway](archi_webgateway)
 - [Zero-OS Network](capacity_network)
-- [Certified 3Node](threefold:certified_node)
-- [3Bot](threefold:3bot)
+- [Certified 3Node](tfgrid:certified_node)
+- [3Bot](3bot)
 
 ## Benefits
 
@@ -71,7 +71,7 @@ while keeping the barrier for adoption by the current IT industry very low :
 **More info:**
 
 - TFGrid
-  - [ThreeFold Connect](threefold:threefold_connect)
+  - [ThreeFold Connect](tfgrid:threefold_connect)
 - Payments
   - [AutoPay](twin:autopay)
   - [TFGrid Wallet](cloud:cloud_wallet)

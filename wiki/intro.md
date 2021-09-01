@@ -17,7 +17,7 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
 
 - [__Introduction__: what is our peer2peer cloud](peer2peer_cloud_intro)
   - [Grid Intro](grid_intro)
-  - [Farming Intro](threefold:farming_intro)
+  - [Farming Intro](tfgrid:farming_intro)
 - [Architecture](architecture_overview)
   - Layers
     - [Capacity Layer](architecture_layers_capacity)
@@ -36,8 +36,8 @@ Hi! Welcome to the __TF Grid Manual__, the knowledge base for those interested i
       - [Planetary Secure Network](archi_psnw)
       - [Web 3.0 Interface](archi_interface)
     - [Smart Contract for IT](archi_smartcontract4it)  
-    - [Certified 3Node](threefold:certified_node)
-    - [3Bot](threefold:3bot)
+    - [Certified 3Node](tfgrid:certified_node)
+    - [3Bot](3bot)
   - [Architecture Benefits](archi_usp)
     - [Simple](archi_usp_simple)
     - [Energy Efficient](archi_usp_energy_efficient)

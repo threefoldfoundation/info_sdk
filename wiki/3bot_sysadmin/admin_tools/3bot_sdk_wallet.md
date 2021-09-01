@@ -24,6 +24,6 @@ Click on an existing wallet see the details of the wallet. Along with the name o
 
 **Secret:** can be used to import this wallet elsewhere or sign transactions using tools like Stellar Laboratory. Anyone with this secret can send funds from the wallet, so it should be kept secure.
 
-**Balances:** shows which tokens and how many are held in the wallet. It is important to note that the assets shown here are the only assets that this wallet can receive, due to a Stellar concept called trustlines. A trustline for TFT is automatically created for all 3Bot wallets. If you have TFTA, please [convert it](threefold:tfta_to_tft) to TFT for use with your 3Bot.
+**Balances:** shows which tokens and how many are held in the wallet. It is important to note that the assets shown here are the only assets that this wallet can receive, due to a Stellar concept called trustlines. A trustline for TFT is automatically created for all 3Bot wallets. If you have TFTA, please [convert it](tfgrid:tfta_to_tft) to TFT for use with your 3Bot.
 
 **QRCode:** scan this code with a QR enabled wallet, like the ThreeFold Connect app, to add funds to the 3Bot wallet.

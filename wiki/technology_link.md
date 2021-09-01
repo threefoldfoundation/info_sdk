@@ -4,4 +4,4 @@
 
 ![](img/tech_architecture1.png)
 
-> Please see [threefold generic technology overview](internet4:technology)
+> Please see [threefold generic technology overview](cloud:technology)
