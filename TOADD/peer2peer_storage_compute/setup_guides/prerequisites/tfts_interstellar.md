@@ -16,7 +16,7 @@ Interstellar.exchange is a decentralized exchange that allows you to buy TFTs.
 * Click Enter Account
 For Interstellar all you need to do is set a password. As the wallet will be linked to your device instead of an email address.
 
-![](images/enteraccount.png)
+![](img/enteraccount.png)
 
 * Set your password, Confirm it, and accept the Terms and Conditions
 
@@ -31,7 +31,7 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 * You’re account is now created and you will have to send funds (digital currencies that run on the Stellar Blocklchain only only) to one of the wallets attached to your account.
 
 * We have funded our wallet with $408 or 10.000 XLMs for this manual as you could see these are now shown in the account overview.
-![](images/accountoverview.png)
+![](img/accountoverview.png)
 ## Part 3: Adding the TFT Asset to your account.
 
 * Click Add Token in your account overview
@@ -42,15 +42,15 @@ For Interstellar all you need to do is set a password. As the wallet will be lin
 Asset Code: TFT
 Asset Issuer: GBOVQKJYHXRR3DX6NOX2RRYFRCUMSADGDESTDNBDS6CDVLGVESRTAC47!
 
-![](images/addasset.png)
+![](img/addasset.png)
 
 * The Asset is now added to your account, to trade the asset however you will have to create a trustline, you could do this by clicking on the "Trust Asset" Button.
 
-![](images/trustasset.png)
+![](img/trustasset.png)
 
 * When you have successfully created a trustline it will say success and the activity will show up in the right-hand column of the account page.
 
-![](images/trustline-created.png)
+![](img/trustline_created.png)
 
 ## Part 4: Trading Digital Currencies for TFT
 
