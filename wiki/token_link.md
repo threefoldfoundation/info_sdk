@@ -1,6 +1,6 @@
 ![](img/tokenintrohome.png)
 
-- [Buy and Sell TFT](tfgrid:how_to_buy_and_sell)
+- [Buy and Sell TFT](tfgrid:how_to_buy)
   - [BTC to TFT in wallet](tfgrid:threefold_connect_btc)
   - [Binance DEFI Exchange](tfgrid:tft_bsc_bridge)
 

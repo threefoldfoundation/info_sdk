@@ -33,7 +33,7 @@ Functionally, the ThreeFold technology brings a groundbreaking leap forward to t
 
 - [Quantum Safe Compute](archi_qscompute)
 - [Zero-OS Filesystem](architecture_flist)
-- flist_fs
+- zos_fs
 - [Quantum Safe Storage](archi_qsstorage)
 - [Planetary Secure File System](archi_psfs)
 - [Quantum Safe Network](archi_qsnetwork)
