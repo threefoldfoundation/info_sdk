@@ -1,3 +1,2 @@
 
-!!!include internet4:smartcontract_it
-
+!!!include tfgrid:smartcontract_it

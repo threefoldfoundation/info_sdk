@@ -1,1 +1,1 @@
-!!!include:delegate_domain.md
+!!!include:delegate_domain

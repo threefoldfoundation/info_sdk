@@ -1,1 +1,1 @@
-!!!include:solution_ubuntu.md
+!!!include:solution_ubuntu

@@ -22,7 +22,7 @@ Three layers interact to make the ThreeFold Grid operational:
 
 More info:
 - [Capacity Layer](architecture_layers_capacity)
-  - [Zero-OS](cloud:zos)
+  - [Zero-OS](tfgrid:zos)
 - [Autonomous Layer](architecture_layers_autonomous)
   - [Smart Contract for IT](archi_smartcontract4it)  
 - [Experience Layer](architecture_layers_experience)

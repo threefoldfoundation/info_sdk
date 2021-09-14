@@ -1,1 +1,1 @@
-!!!include:solution_expose.md
+!!!include:solution_expose

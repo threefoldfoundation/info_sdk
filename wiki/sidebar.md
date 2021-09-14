@@ -95,7 +95,7 @@
 
   <!-- - [Structure](archi_layers)
     - [Capacity Layer](architecture_layers_capacity)
-      - [Zero-OS](cloud:zos)
+      - [Zero-OS](tfgrid:zos)
       - [Certified 3Node](tfgrid:certified_node)
     - [Autonomous Layer](architecture_layers_autonomous)
       - [3Bot](3bot_intro) 
