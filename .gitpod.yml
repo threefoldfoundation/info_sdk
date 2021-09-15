@@ -3,7 +3,7 @@ image:
 tasks:
     - name: WIKI
       command: |
-        curl https://raw.githubusercontent.com/crystaluniverse/crystaltools/development/install.sh > /tmp/install.sh
+        curl https://raw.githubusercontent.com/freeflowuniverse/crystaltools/development/install.sh > /tmp/install.sh
         bash /tmp/install.sh
         source /workspace/env.sh
         publtools_check

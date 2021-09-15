@@ -7,7 +7,7 @@ then
     if ! [ -d "/workspace/publishtools" ] 
     then
         pushd /workspace "$@" > /dev/null
-        git clone https://github.com/crystaluniverse/crystaltools
+        git clone https://github.com/freeflowuniverse/crystaltools
         #which version of publish tools do you want
         cd publishtools
         git checkout $PUBLISHTOOLSBRANCH
@@ -24,7 +24,7 @@ else
     if ! [ -d ~/code/publishtools ] 
     then
         pushd ~/code
-        git clone https://github.com/crystaluniverse/crystaltools
+        git clone https://github.com/freeflowuniverse/crystaltools
         #which version of publish tools do you want
         cd publishtools
         git checkout $PUBLISHTOOLSBRANCH
