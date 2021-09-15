@@ -1,3 +1,0 @@
-cd wiki
-./develop.sh
-

@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-publtools_build
-cd wiki_config
-publishtools develop
-
