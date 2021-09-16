@@ -6,7 +6,7 @@
 
 ### More Info About TFT
 
-- [Tokens Intro](tfgrid:token_home)
+- [Tokens Intro](tfgrid:tokens_home)
 - [What is TFT](tfgrid:token_what)
 - [New to Tokens](tfgrid:newtotokens)
 - [ThreeFold Wallets](tfgrid:threefold_wallets)
