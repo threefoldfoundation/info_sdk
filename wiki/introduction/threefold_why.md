@@ -17,4 +17,4 @@ The current industry solutions focus on increasing the use of renewable energies
 
 ThreeFold brings the world the first true peer-to-peer Internet. It uses pioneering technologies that remove the need for centralized and power-hungry data centers, consumes up to 90% less energy, and uses up to 90% less international fiber network capacity. (To learn about ThreeFold power savings, read [here](https://blog.Threefold.io/blog/tfblog/posts/10-times-power-savings-is-this-possible)).
 
-> For more in-depth information on ThreeFold foundation, please go to [ThreeFold's main knowledge base](https://info.threefold.io/)
+> For more in-depth information on ThreeFold foundation, please go to [ThreeFold's main knowledge base](https://library.threefold.me/)

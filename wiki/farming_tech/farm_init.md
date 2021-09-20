@@ -29,7 +29,7 @@ Let's go over each field and explain what they are:
 * **Organization ID**: This field is only useful is you are migrating a farm from the TF Grid v1. If you are creating a new farm from scratch, you can ignore it.
 * **Email address**: The email address that will be associated with the farm. This email address will be used for all communication to the farmer.
 * **Country**: This field is optional but usually you want users to know where the farm is located so they can select nodes that are closer to them.
-* **Wallet addresses**: This the address where rewards from farming and renting capacity will be received on. At the time of writing, the only accepted token is [TFT](https://wiki.threefold.io/#/terms_conditions_griduser?id=_5-use-of-threefold-tokens). You can use any wallet to generate your addresses, you just need to make sure the right [Trustline](https://www.stellar.org/developers/guides/concepts/assets.html) is created.
+* **Wallet addresses**: This the address where rewards from farming and renting capacity will be received on. At the time of writing, the only accepted token is [TFT](https://library.threefold.me/#/terms_conditions_griduser?id=_5-use-of-threefold-tokens). You can use any wallet to generate your addresses, you just need to make sure the right [Trustline](https://www.stellar.org/developers/guides/concepts/assets.html) is created.
 
 **Make sure you add a valid TFT stellar address.** This is required for a user to be able to reserve capacity from your farm.
 

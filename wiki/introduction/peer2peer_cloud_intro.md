@@ -56,4 +56,4 @@ Solution providers create solutions on top of the ThreeFold_Grid. The ThreeFold 
 The ThreeFold Foundation is realizing the vision to provide affordable, local digital services by anyone, for anyone.
 ![](img/ses.png)
 
-For more information on the Foundation, please check https://info.threefold.io, which is our generic knowledge base of ThreeFold Foundation.
+For more information on the Foundation, please check https://library.threefold.me, which is our generic knowledge base of ThreeFold Foundation.
