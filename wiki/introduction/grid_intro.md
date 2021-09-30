@@ -6,7 +6,7 @@ However, the Internet is expanding much faster than data centers and the planet 
 
 The solution is to have the Internet be more **distributed**, **cost**-**effective**, **neutral,** and **sustainable**. ThreeFold has developed such a new technology, the ThreeFold_Grid (Grid) and a token which enables all this to happen.
 
-![](img/tf_principle_banner.png)
+![](img/tf_principle_banner_.jpg)
 
 > And you could become a part of this solution by becoming a farmer and add more decentralized capacity to the ThreeFold_Grid.
 

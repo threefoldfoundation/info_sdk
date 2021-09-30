@@ -2,7 +2,7 @@
 
 ## Reporting Issue and Feedback on Github 
 
-![](img/tftech_github.png)
+![](img/tftech_github_.jpg)
 
 As an organization, Threefold upholds open source collaboration as one of our core values. We thrive from our community members' feedback and participation. Therefore, we would like to invite you to become a part of our project by testing out, using our product components, documenting processes, giving feedback and reporting issues or problems faced during the usage and deployment of our product components.
 
@@ -19,7 +19,7 @@ On this article we are going to show you how to collaborate with ThreeFold by cr
 In order to create a Github issue, you would need to first create a Github account.
 Feel free to read [Github's tutorials on Account Sign up](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account) to learn more about it.
 
-![](img/threefoldtech.png)
+![](img/threefoldtech_.jpg)
 
 After signing up on Github, with the issue that you would like to report in mind, go to [ThreeFold Tech's official Github homepage](https://github.com/threefoldtech) and go to ThreeFold Tech's [**'Home' **](https://github.com/threefoldtech/home/) repository. **'Home'** is a repository that serves as a starting point for ThreeFold where both external and internal collaborations take place.
 

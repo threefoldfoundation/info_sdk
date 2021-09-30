@@ -66,7 +66,7 @@ while keeping the barrier for adoption by the current IT industry very low :
 
 ![](img/archi_quantumsafecloud_usage.png)
 
-![](img/architecture_why_us.png)
+![](img/architecture_why_us_.jpg)
 
 **More info:**
 

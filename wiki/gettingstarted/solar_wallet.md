@@ -6,7 +6,7 @@ We will divide this tutorial into two sections:
 
 ## Solar Wallet Sign Up
 
-![](img/0_solar_home.png)
+![](img/0_solar_home_.jpg)
 
 In this tutorial we'll teach you how to set up a Solar Wallet (testnet) as the wallet address to save your FreeTFT. In order to set up a testnet wallet, by default, we would first need to set up a mainnet Solar wallet.
 
@@ -50,7 +50,7 @@ Press the __"<" back__ button next to your wallet name to go back to all your ma
 
 ### Activate 'Testnet' via Wallet Account List's Setting
 
-![](img/8_solar_setting.png)
+![](img/8_solar_setting_.jpg)
 
 On your mainnet wallet account list page, click on the __'setting'__ icon on the left corner of your page. 
 
@@ -60,13 +60,13 @@ On your wallet account setting, click on the option to __'Show Testnet Account'_
 
 ### Switch to Testnet Wallet Account List
 
-![](img/10_solar_switch.png)
+![](img/10_solar_switch_.jpg)
 
 Go back to your mainnet wallet accounts list, and click on __'SWITCH TO TESTNET'__.
 
 ### Create Your First Testnet Wallet Account
 
-![](img/11_solar_testhome.png)
+![](img/11_solar_testhome_.jpg)
 
 Congratulations, now you are on the testnet environment. But we need to create a testnet wallet account, so let's click on __'ADD ACCCOUNT'__ to create a new testnet wallet.
 
@@ -76,7 +76,7 @@ Congratulations, now you are on the testnet environment. But we need to create a
 
 Now repeat the same procedure as creating a mainnet wallet account by setting up your wallet name, password and storing your security key in a safe place. 
 
-![](img/13_solar_testnet.png)
+![](img/13_solar_testnet_.jpg)
 
 You will be automatically redirected to your new wallet homepage. Congratulations, now you have officially set up a testnet Solar wallet!
 
@@ -84,13 +84,13 @@ You will be automatically redirected to your new wallet homepage. Congratulation
 
 ### Get some Testnet Lumens
 
-![](img/13_solar_testnet.png)
+![](img/13_solar_testnet_.jpg)
 
 By default, your could only set up another token asset (in this case, FreeTFT) in your testnet wallet once you have addes some testnet lumens (XLM) in your wallet. Simply click on __'Ask the Friendbot'__ to get some free Testnet Lumens.
 
 ### Set up a New Asset (TFT)
 
-![](img/14_solar_assets.png)
+![](img/14_solar_assets_.jpg)
 
 Once your testnet lumens fund is successfully added, click on the __'menu' button__ on the top left corner of your wallet homepage and click on __'Assets & Balance'__ to add TFT as our new asset.
 
@@ -110,7 +110,7 @@ Here you will find TFT asset information. Set the asset up by clicking on __'add
 
 Confirm the FreeTFT addition by clicking on __'confirm'__ button.
 
-![](img/19_solar_home.png)
+![](img/19_solar_home_.jpg)
 
 Congratulations! Now you have successfully add Freetft as an asset on your testnet Solar wallet. Now let's add some funds, go and __claim your TFT!__ by clicking __'RECEIVE'__ on your wallet homepage.
 
@@ -128,11 +128,11 @@ Now go to your web browser and go to [gettft.testnet.grid.tf](https://getfreetft
 
 __Connect your 3Bot ID__ via ThreeFold Connect App to login to the TFT Claim Page.
 
-![](img/24_receive_done.png)
+![](img/24_receive_done_.jpg)
 
 Insert your paste your testnet Stellar wallet address on the given form and click _enter_ to receive your TFT within minutes. 
 
-![](img/testnet_success.png)
+![](img/testnet_success_.jpg)
 
 __Go back to your Testnet Wallet account__ and see if 1000 testnet TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your TFT to get started with deploying your solutions via [__3Bot__](3bot) or [__TF Grid 2.2 Demo__](cloud:threefold_now)
 

@@ -1,6 +1,6 @@
 # 0-DB : the low level storage primitive
 
-![](img/0db_head.png)
+![](img/0db_head_.jpg)
 
 This primitive allows a user to reserve some storage on a node. The storage is exposed through [0-DB](https://github.com/Threefoldtech/0-DB), a low level key-value store that uses the RESP (redis) protocol.
 

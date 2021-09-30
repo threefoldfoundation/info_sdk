@@ -2,7 +2,7 @@
 
 As your digital presence on the TF Grid, 3Bot plays a crucial role in creating, monitoring, maintaining activities on top of the TF Grid. Therefore, **3Bot** comes with a system administrator panel; a powerful tool that helps you deploy, maintain and monitor your solutions and workloads on top of the ThreeFold_Grid.
 
-![](img/hosted3bot.png)
+![](img/hosted3bot_.jpg)
 
 There are 2 ways you could run a 3Bot on mainnet network: you could either run a **Mainnet Hosted 3Bot** online via your web browser, or for more advanced users, you could install and run a **Mainnet Local 3Bot** manually on your local machine.
 

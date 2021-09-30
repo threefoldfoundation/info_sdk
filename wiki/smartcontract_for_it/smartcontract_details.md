@@ -1,6 +1,6 @@
 # Smart contract for IT Detail Explanation
 
-![](img/smart_contract_detail_header.png)
+![](img/smart_contract_detail_header_.jpg)
 
 This chapter contains a detailed explanation about how the IT smart contract is built.
 What are the different component that compose it?

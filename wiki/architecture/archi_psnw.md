@@ -6,6 +6,6 @@
 
 ![](img/archi_psn.png)
 
-![](img/archi_psn_bridge.png)
+![](img/archi_psn_bridge_.jpg)
 
 ![](img/archi_psn_public.png)

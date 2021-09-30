@@ -4,9 +4,9 @@
 
 The developed technology scales horizontally and is therefore endlessly scalable: Adding new hardware infrastructure grows the grid. However, this extension is not at the expense of previously existing workloads, which can continue to operate with the hardware that was previously chosen. So scaling is no issue: the current state of the TF Grid can be followed on the [Grid Explorer](https://explorer.grid.tf). Expansion of it does not influence the performance of the workloads running on the infrastructure.
 
-![](img/archi_usp_scales.png)
+![](img/archi_usp_scales_.jpg)
 
-![](img/archi_usp_scales2.png)
+![](img/archi_usp_scales2_.jpg)
 
 ## Scaling up to the Edge
 

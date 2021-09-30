@@ -1,6 +1,6 @@
 # Tokens
 
-![](img/tokens_tf_header.png)
+![](img/tokens_tf_header_.jpg)
 
 - [Buy TFT: StellarX](tfgrid:tft_stellarx)
 - [Buy TFT: Interstellar](tfgrid:tft_interstellar)

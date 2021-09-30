@@ -9,15 +9,14 @@ TODO: use case Autonomous, Edge, Grid Computing, high level
 
 ## BCDB: Secure, Scalable, Distributed Storage Workloads
 
-![](img/bcdb.png)
+![](img/bcdb_.jpg)
 
 ## Blockchain-as-a-service 
 
-![](img/blockchain_service.png)
+![](img/blockchain_service_.jpg)
 
 ![](img/blokchain_service2.png)
 
 ## S3 Storage
 
 TODO: high-level use case S3 Storage
-

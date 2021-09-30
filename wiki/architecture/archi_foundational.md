@@ -5,7 +5,7 @@ The IT world can benefit from the ThreeFold technology in different ways.
 On the one hand, it gives the opportunity for developers to deploy decentralized applications, with the Digital Twin representing the user in the digital world, who needs to remain in control of his data and his workload. 
 Also traditional market in the IT world can find the tooling they are used to on the threeFold Grid. Existing standards such as Docker, Kubernetes, S3 storage, ... are supported in the developed framework. 
 
-![](img/archi_usp_compatible.png)
+![](img/archi_usp_compatible_.jpg)
 
 It brings tooling for different audiences: 
 - A DevOps engineer can use Docker, Kubernetes, the Planetary Filesystem, ... out-of-the-box on the ThreeFold Grid.

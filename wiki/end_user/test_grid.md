@@ -65,7 +65,7 @@ On the 'test suite' list shown, click on the 'Deploy eVDC' test suite, and click
 
 Go to the eVDC Deployer and begin your test.
 
-![](img/evdc_home.png)
+![](img/evdc_home_.jpg)
 
 Write your remark on the provided comment box, and click on 'pass' , 'fail' or 'skip' depending on the result of your test run to provide feedback to the QA Team of ThreeFold.
 

@@ -1,6 +1,6 @@
 # Capacity explorer
 
-![capacity explorer](img/capacity_explorer.png)
+![capacity explorer](img/capacity_explorer_.jpg)
 
 This page lets you explore the TF Grid. It highlights TF Grid usage statistics and provides details about all the active nodes and gateways.
 

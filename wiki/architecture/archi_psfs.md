@@ -5,6 +5,6 @@
 
 ![](img/archi_psfs.png)
 
-![](img/archi_psfs_any_os.png)
+![](img/archi_psfs_any_os_.jpg)
 
-![](img/archi_psfs_kubernetes.png)
+![](img/archi_psfs_kubernetes_.jpg)

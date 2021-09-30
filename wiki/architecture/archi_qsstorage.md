@@ -54,4 +54,4 @@ This Quantum-Safe File System can be used as back-end storage for **any** file f
 - Distributed file sharing formats such as IPFS and Hypercore
 - ...
 
-![](img/archi_usp_scales.png)
+![](img/archi_usp_scales_.jpg)

@@ -5,7 +5,7 @@
 - uses docsify, which means all plugins from docsify are back
 - all names of .md & .jpeg/.png files need to be unique
 - names will be rewritten to lowercase & snakecase
-- links & images only need to refer to the shortname e.g. ```![](img/bcdb.png)``` is good enough
+- links & images only need to refer to the shortname e.g. ```![](img/bcdb_.jpg)``` is good enough
 
 ## Markdown / Docsify Tricks
 

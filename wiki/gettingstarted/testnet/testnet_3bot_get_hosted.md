@@ -7,8 +7,8 @@ Browse to the website and log in using your ThreeFold Connect app. Please, make 
 Once you're in, you can either `Deploy a new 3bot`, or you can view the hosted 3Bots that you have created before for recovery (`View my existing 3Bots`). All 3Bots are backed up, so recovery is possible. 
 
 Select `Deploy a new 3Bot` and `Create` 
-![](img/hosted3bot_choice.png)
-![](img/hosted3bot_create_recover.png)
+![](img/hosted3bot_choice_.jpg)
+![](img/hosted3bot_create_recover_.jpg)
 
 Give your 3Bot a name: 
 ![](img/hosted3bot_name.png)
@@ -22,5 +22,4 @@ And you're done !
 Now your hosted 3Bot is available at the indicated url. 
 
 ![](img/hosted3bot_success.png)
-
 

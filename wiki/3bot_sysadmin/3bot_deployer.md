@@ -17,7 +17,7 @@ If you choose to create a new 3Bot, please go through following steps:
 
 This name will be used to identify this 3Bot. Keep in mind that this name will also be used as your 3Bot's subdomain (a part of your 3Bot's web address).
 
-![](img/threebot_1_getname.png)
+![](img/threebot_1_getname_.jpg)
 
 ### Choose the 3Bot Configuration
 
@@ -72,15 +72,15 @@ Multiple steps happen now behind the scene:
 
 This process can take a while.
 
-![](img/threebot_6_3bot_setup.png)
-![](img/threebot_7_3bot_deploy.png)
-![](img/threebot_8_3bot_init.png)
+![](img/threebot_6_3bot_setup_.jpg)
+![](img/threebot_7_3bot_deploy_.jpg)
+![](img/threebot_8_3bot_init_.jpg)
 
 ### Choose the 3Bot's Expiration Time
 
 The expiration time determines your preference for how long you want to keep this 3Bot alive. This will calculate the amount of grid capacity you need to purchase in order to keep the 3Bot online. You can always extend your 3Bot's life span by extending your capacity reservation, or restart your 3Bot later if it's funding has run out.
 
-![](img/threebot_2_expiry.png)
+![](img/threebot_2_expiry_.jpg)
 
 ### Pay for Your Capacity by using a Stellar Wallet
 
@@ -88,12 +88,12 @@ You will be shown payment details as below. Send the required amount to the addr
 
 If you're entering the transaction manually without scanning the QR code, please do not forget to include the reservation ID as the memo text for the transaction. This is needed to link the payment to the specific reservation, and the payment will fail without it.
 
-![](img/threebot_4_payment.png)
+![](img/threebot_4_payment_.jpg)
 
 ### Wait Until Your Payment Has Succeeded
 
 Payment can take some time. The screen gives an overview of the amount, currency, destination wallet and reservation ID. Once processing the payment is detected, it goes to the next step.
-![](img/threebot_5_pay_process.png)
+![](img/threebot_5_pay_process_.jpg)
 
 ### Set up Wireguard (optional)
 
@@ -101,7 +101,7 @@ Hosted 3Bots provide a web gateway for access to the browser based interface fro
 
 If you want to access the 3Bot container directly or use ssh, you need to set up a Wireguard connection on your local computer. Download the configuration file and follow the instructions to do this.
 
-![](img/threebot_y_container_access.png)
+![](img/threebot_y_container_access_.jpg)
 
 ### Congratulations, Your Hosted 3Bot is Now Live!
 
@@ -109,17 +109,17 @@ Congratulations, your 3Bot has been successfully deployed.
 
 You can access your 3Bot by following the link provided, or using the IP address if you've set up Wireguard.
 
-![](img/threebot_z_success.png)
+![](img/threebot_z_success_.jpg)
 
 Log in here using your ThreeFold Connect app.
 
-![](img/threebot_zz_url.png)
+![](img/threebot_zz_url_.jpg)
 
 ### Access Your Dashboard
 
 After signing in and agreeing to terms and conditions, you'll see the 3Bot dashboard with some information about resource usage and currently running processes. Please note that the memory and disk usage refer to the whole node that your 3Bot is running on, not necessarily all resources available to the 3Bot.
 
-![](img/threebot_admin_dashboard.png)
+![](img/threebot_admin_dashboard_.jpg)
 
 ### Explore the 3Bot Admin Panel's Features
 

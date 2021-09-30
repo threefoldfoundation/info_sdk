@@ -14,7 +14,7 @@ Please be aware that this ID will be used as your main digital identity on the T
 
 [**3Bot**](testnet_3bot) is your virtual system administrator.
 
-![](img/hosted3bot.png)
+![](img/hosted3bot_.jpg)
 
 > Easy Set Up (recommended): [Get a **Testnet Hosted 3Bot** using **3bot Deployer**](3bot_deployer) <BR>
 > Advanced Set Up: [Create a **Testnet Local 3Bot** on your local machine](3bot_local_install)
