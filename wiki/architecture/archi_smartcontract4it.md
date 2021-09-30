@@ -1,2 +1,2 @@
 
-!!!include tfgrid:smartcontract_it
+!!!include threefold:smartcontract_it

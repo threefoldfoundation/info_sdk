@@ -55,7 +55,7 @@ The Farm Management package helps you create and manage a TF Grid Farm.
 
 The Marketplace is a package that will host the Marketplace on your 3Bot. The Marketplace consists of extra solutions that you can deploy within a few clicks!
 
-More information about the [Marketplace](cloud:threefold_now).
+More information about the [Marketplace](threefold:threefold_now).
 
 ### 3Bot deployer
 

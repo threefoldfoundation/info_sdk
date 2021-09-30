@@ -1,12 +1,12 @@
 ![](img/tokenintrohome.png)
 
-- [Buy and Sell TFT](tfgrid:how_to_buy)
-  - [BTC to TFT in wallet](tfgrid:threefold_connect_btc)
-  - [Binance DEFI Exchange](tfgrid:tft_bsc_bridge)
+- [Buy and Sell TFT](threefold:how_to_buy)
+  - [BTC to TFT in wallet](threefold:threefold_connect_btc)
+  - [Binance DEFI Exchange](threefold:tft_bsc_bridge)
 
 ### More Info About TFT
 
-- [Tokens Intro](tfgrid:tokens_home)
-- [What is TFT](tfgrid:token_what)
-- [New to Tokens](tfgrid:newtotokens)
-- [ThreeFold Wallets](tfgrid:threefold_wallets)
+- [Tokens Intro](threefold:tokens_home)
+- [What is TFT](threefold:token_what)
+- [New to Tokens](threefold:newtotokens)
+- [ThreeFold Wallets](threefold:threefold_wallets)

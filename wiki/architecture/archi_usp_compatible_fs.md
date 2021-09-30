@@ -1,1 +1,1 @@
-!!!include cloud:compatibility
+!!!include threefold:compatibility

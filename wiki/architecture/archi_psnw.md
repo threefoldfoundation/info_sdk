@@ -1,8 +1,8 @@
 # Planetary Secure Network 
 
-!!!include tfgrid:planetary_network  
+!!!include threefold:planetary_network  
 
-!!!include tfgrid:planetary_network level:3
+!!!include threefold:planetary_network level:3
 
 ![](img/archi_psn.png)
 

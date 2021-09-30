@@ -41,7 +41,7 @@ By not copying the full objects integrally but dispersing the parts after encryp
 
 ## Usage
 
-The algorithm has been implemented on the ThreeFold Grid as the [**Planetary Secure File System**](cloud:threefold_filesystem).
+The algorithm has been implemented on the ThreeFold Grid as the [**Planetary Secure File System**](threefold:threefold_filesystem).
 
 This Quantum-Safe File System can be used as back-end storage for **any** file format : 
 

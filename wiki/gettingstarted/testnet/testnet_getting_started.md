@@ -8,7 +8,7 @@ As the first step, you need to get yourself a **ThreeFold Connect** and **3Bot I
 
 Please be aware that this ID will be used as your main digital identity on the ThreeFold_Grid and holds the keys to access every service on the grid. Therefore, it's very important to remember the login data and the seed phrase of your ID. The ThreeFold Connect App will also provide you with an access to your 3Bot Wallet where you can store your ThreeFold_Tokens.
 
-> [Get **ThreeFold Connect App**](tfgrid:threefold_connect)
+> [Get **ThreeFold Connect App**](threefold:threefold_connect)
 
 ## Get a 3Bot on Testnet
 
