@@ -5,17 +5,17 @@
 The TF Grid is orchestrated using a very unique approach.
 Each workload gets registered on the TF Grid smartcontract database.
 
-- [Smart contract details](@smartcontract_details)
-- [Capacity pool concept](@smartcontract_details)
+- [Smart contract details](smartcontract_details)
+- [Capacity pool concept](smartcontract_details)
 
 ### Workload definitions
 
-- [0-Containers](@capacity_container)
-- [Overlay network](@capacity_network)
-- [Web Gateway](@capacity_webgateway)
-- [Kubernetes](@capacity_kubernetes)
-- [0-DB storage](@capacity_0db)
-- [Virtual disk](@capacity_vdisk)
+- [0-Containers](capacity_container)
+- [Overlay network](capacity_network)
+- [Web Gateway](capacity_webgateway)
+- [Kubernetes](capacity_kubernetes)
+- [0-DB storage](capacity_0db)
+- [Virtual disk](capacity_vdisk)
 
 ### The process
 
@@ -50,4 +50,4 @@ Need to give consensus to check the “IT smart contract” and give their appro
 
 ### Details how the smart contract layer works
 
-- [Smartcontract details](@smartcontract_details)
+- [Smartcontract details](smartcontract_details)

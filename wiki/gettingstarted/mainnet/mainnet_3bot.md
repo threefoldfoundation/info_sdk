@@ -8,6 +8,6 @@ There are 2 ways you could run a 3Bot on mainnet network: you could either run a
 
 To deploy a mainnet hosted 3Bot online, you would need to follow a deployment tutorial and go to the **Mainnet 3Bot Deployer** website. To deploy a Mainnet Local 3Bot on your computer, you would need to follow a tutorial on setting up a local 3Bot locally on main network.
 
-> Easy Set Up: [Get **a Mainnet Hosted 3Bot** using **Mainnet 3bot Deployer**](@3bot_deployer)
+> Easy Set Up: [Get **a Mainnet Hosted 3Bot** using **Mainnet 3bot Deployer**](3bot_deployer)
 
-> Advanced Set Up: [Create a **Mainnet Local 3Bot** on your local machine](@3bot_local_install)
+> Advanced Set Up: [Create a **Mainnet Local 3Bot** on your local machine](3bot_local_install)

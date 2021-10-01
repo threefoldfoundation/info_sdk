@@ -1,6 +1,6 @@
 # 3Bot Wallets
 
-Your 3Bot manages Stellar wallets, in order to store ThreeFold Tokens and pay for capacity on the Grid. Any wallets with adequate funds will be available as payment options when creating or extending [capacity pools](@3bot_capacity_pools). If you want to transfer tokens out of a 3Bot wallet, you can import the wallet into the ThreeFold Connect app or another Stellar wallet provider.
+Your 3Bot manages Stellar wallets, in order to store ThreeFold Tokens and pay for capacity on the Grid. Any wallets with adequate funds will be available as payment options when creating or extending [capacity pools](3bot_capacity_pools). If you want to transfer tokens out of a 3Bot wallet, you can import the wallet into the ThreeFold Connect app or another Stellar wallet provider.
 
 By default, 3Bots automatically extend any capacity pools which are nearing expiration. This includes the pool used to provide capacity for the 3Bot itself, in the case of hosted 3Bots. A default wallet is provided when 3Bots are initialized, which you can fund with TFT to keep your 3Bot and other workloads online.
 

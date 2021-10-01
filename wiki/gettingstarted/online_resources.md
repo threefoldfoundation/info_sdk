@@ -25,12 +25,12 @@ On a per-node level, node specific details are available. Opening a specific nod
 <!-- ![](img/explorer_node_details.png) -->
 
 ### Find or create Flists 
-The Flist principle is explained in the introduction architecture section ([here](@architecture_flist).
+The Flist principle is explained in the introduction architecture section ([here](architecture_flist).
 <!-- ![](img/hub_startpage.png) -->
 
 <img src="img/hub_startpage.png" width="600" alt="Docker converter">
 
-Access to this hub is restricted to people that have a ThreeFold Connect identity. There is a description in the "getting started" section on how to get one of these [here](@threefold:threefold_connect).
+Access to this hub is restricted to people that have a ThreeFold Connect identity. There is a description in the "getting started" section on how to get one of these [here](threefold:threefold_connect).
 
 Login to the hub and you will not only have access to Flists created and uploaded by others but also the ability to create and upload your own. Two principle ways to create (custom) Flists:
 - import docker images from the docker hub

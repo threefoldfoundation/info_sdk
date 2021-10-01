@@ -39,7 +39,7 @@ https://github.com/jperasmus/docsify-copy-code/blob/master/README.md
 ### links
 
 ```
-[link](@tfweb)
+[link](tfweb)
 [link](threefold:grid_why)
 ```
 

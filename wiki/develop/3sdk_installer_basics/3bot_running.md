@@ -1,6 +1,6 @@
 ## Nginx capabilities and advanced running options
 
-After the [installation](@3bot_local_install) steps you should have an executable `3Bot`
+After the [installation](3bot_local_install) steps you should have an executable `3Bot`
 
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`

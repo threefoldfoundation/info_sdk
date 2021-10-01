@@ -2,7 +2,7 @@
 
 #### Requirements
 
-Please check the [general requirements](@code)
+Please check the [general requirements](code)
 
 ### Overview
 The aim is to deploy a simple container using an Flist which is further describer below.
@@ -11,7 +11,7 @@ The aim is to deploy a simple container using an Flist which is further describe
 
 #### Create an overlay network or identity a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that they have no connection to the public (IPv4 or IPv6) network directly. To work with such a network a tunnel needs to be created between the overlay network, on the grid and your local network. You could find instructions on how to create a network [here](@code_network)
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that they have no connection to the public (IPv4 or IPv6) network directly. To work with such a network a tunnel needs to be created between the overlay network, on the grid and your local network. You could find instructions on how to create a network [here](code_network)
 
 
 #### What is a Flist?
@@ -28,14 +28,14 @@ The Flist represents a very efficient way to distribute a de-duped container ima
 
 On the public hub there is import functionality to import Docker images and create Flists out of them. Another way to create your own tar archives and upload these to transform into Flists. More information with regards to creating, managing and using Flists could be found [here](https://hub.grid.tf/)
 
-You could find more information about Flist and hub usage [here](@flist)
+You could find more information about Flist and hub usage [here](flist)
 
 #### Select which Flist to deploy?
 
 For this example, we selected the code-server Flist in a public hub. The code-server Flist is based on an open opensource software managed here: https://github.com/Microsoft/vscode. Its visual studio code provides a very feature-rich coding and code management environment. The Flist could be found [here](https://hub.grid.tf/weynandkuijpers.3bot/codercom-code-server-latest.Flist).
 
 #### Node selection and parameters.
-You have created a network in the network creation [tutorial](@code_network) with the following details:
+You have created a network in the network creation [tutorial](code_network) with the following details:
 
 ```python
 demo_ip_range="172.20.0.0/16"

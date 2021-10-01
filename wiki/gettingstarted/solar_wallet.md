@@ -134,6 +134,6 @@ Insert your paste your testnet Stellar wallet address on the given form and clic
 
 ![](img/testnet_success_.jpg)
 
-__Go back to your Testnet Wallet account__ and see if 1000 testnet TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your TFT to get started with deploying your solutions via [__3Bot__](@3bot) or [__TF Grid 2.2 Demo__](threefold:threefold_now)
+__Go back to your Testnet Wallet account__ and see if 1000 testnet TFT is added automatically. If yes, then, congratulations, you have successfuly claimed your TFT to get started with deploying your solutions via [__3Bot__](3bot) or [__TF Grid 2.2 Demo__](threefold:threefold_now)
 
 > If you have problem with adding testnet TFT, feel free to contact our [Support Helpdesk](https://Threefoldfaq.crisp.help/en/).

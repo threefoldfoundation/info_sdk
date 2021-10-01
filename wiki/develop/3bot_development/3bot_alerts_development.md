@@ -2,7 +2,7 @@
 
 ## Actors
 
-See [actors](@actors), for example we have alerta actor with the following methods:
+See [actors](actors), for example we have alerta actor with the following methods:
 
 - `list_alerts` : list all alerts
 - `list_alerts_by_category`: get alerts by category

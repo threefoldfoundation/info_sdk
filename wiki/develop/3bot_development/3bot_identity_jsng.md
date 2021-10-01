@@ -46,7 +46,7 @@ identity.save()
 
 ### Using admin dashboard
 
-see [3bot_identity_configure](@3bot_identity_configure)
+see [3bot_identity_configure](3bot_identity_configure)
 
 ## Change default identity
 

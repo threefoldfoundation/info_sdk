@@ -37,5 +37,5 @@ With some tools like __0-FS__, you could even mount that Flist and use it like a
 
 ## More information 
 
-- [container virtual filesystem details](@container_vfs_details)
-- [how to build and upload Flist](@flist)
+- [container virtual filesystem details](container_vfs_details)
+- [how to build and upload Flist](flist)

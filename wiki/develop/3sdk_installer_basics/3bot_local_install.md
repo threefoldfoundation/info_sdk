@@ -64,7 +64,7 @@ After the installation steps you should have an executable `threebot`
 - in case of pip it should be available for the user
 - in case of poetry you need to be in the isolated environment using `poetry shell`
 
-3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](@3bot_running) for nginx binary (in case of linux) or install as root in case of OSX.
+3Bot server could run using `threebot start --local` starts a server on `8443, 8080`. If you want to use `80, 443` ports you need to set [capabilities](3bot_running) for nginx binary (in case of linux) or install as root in case of OSX.
 
  ```bash
  threebot start --local

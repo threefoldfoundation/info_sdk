@@ -14,7 +14,7 @@ A kubernetes cluster could be linked to our other primitives.
 Schema used to define a kubernetes reservation:
 
 * `size`: Kubernetes VMs come in 2 sizes. see [VM Sizes](#vm-sizes).
-* `network_id`: The name of the network created using a [network](@network) primitive.
+* `network_id`: The name of the network created using a [network](network) primitive.
 * `ipaddress`: The IP address to give to the VM.
 * `cluster_secret`: The value of this field must be the same for all the members of a cluster.
 * `master_ips`: If this VM is not the master of the cluster, add the IP address of the master node here.

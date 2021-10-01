@@ -72,7 +72,7 @@ Some components will be defined by default based on the parent package classes i
  path_dest = "/"
  websocket = true
  ```
- *Detailed types of `nginx` locations that could be defined inside `package.toml` are documented [here](@locations).
+ *Detailed types of `nginx` locations that could be defined inside `package.toml` are documented [here](locations).
 
 - **__init__.py** could include the docs that will summarize the use of the package where they are added in the beging of the file in docstrings.
 
@@ -143,7 +143,7 @@ Some components will be defined by default based on the parent package classes i
 
   Actor = HelloActor
   ```
- - To know more see [actors](@actors)
+ - To know more see [actors](actors)
 
 - **chats**
  - chats (chatflows) are interactive communication tools implemented as chatbots where interactive question structures are defined in the parent class
@@ -173,7 +173,7 @@ Some components will be defined by default based on the parent package classes i
 
   chat = HelloChatflow
   ```
- - To know more see [chatflows](@develop_chatflow)
+ - To know more see [chatflows](develop_chatflow)
 
 ## Configuration
 

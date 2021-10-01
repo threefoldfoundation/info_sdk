@@ -3,7 +3,7 @@
 Any solution you choose to deploy will need the prior provisioning of an overlay network in order to reach the deployment.
 We support both IPv4 and IPv6. 
 
-If you are curious of how the overlay network works, some documentation is available at [Overlay network](@capacity_network)
+If you are curious of how the overlay network works, some documentation is available at [Overlay network](capacity_network)
 
 The technology used to implement the network overlay is [Wireguard](https://www.Wireguard.com/). Make sure you have installed Wireguard on your device to be able to access your deployments from your local machine: [Wireguard installation](https://www.wireguard.com/install/).
 
@@ -16,7 +16,7 @@ Go to your deployed hosted 3Bot admin panel, and click on __Solutions__ -> __Net
 
 ![solutions menu](img/network_landing_page.png)
 
-Follow this detailed guide: [Create a network](@solution_network)
+Follow this detailed guide: [Create a network](solution_network)
 
 ### Setting up wireguard
 

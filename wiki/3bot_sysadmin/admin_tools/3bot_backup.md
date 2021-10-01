@@ -27,7 +27,7 @@ The marketplace backup is a service that is installed by default when you initia
 
 The minio backup is a service that is not installed by default. For it to make backups of your 3Bot, you need to run your own instance of minio.
 
-> Follow this detailed guide to deploy an instance of [minio](@solution_storage)
+> Follow this detailed guide to deploy an instance of [minio](solution_storage)
 
 If you wish to run minio backups you can enable it by clicking on __Minio__ -> __Init Now__.
 
