@@ -260,4 +260,4 @@ or the dashboard ID 6879
 
 ## Want to know more ?
 
-head toward our more [advanced documentation](advanced_k8s) about the features offered by our kubernetes cluster
+head toward our more [advanced documentation](@advanced_k8s) about the features offered by our kubernetes cluster

@@ -42,14 +42,14 @@ Solution providers create solutions on top of the ThreeFold_Grid. The ThreeFold 
 
 ## Want to know more (architectural)?
 
-- [Generic Architecture](architecture_overview)
-- [Quantumsafe Compute Architecture](archi_qscompute)
-- [Quantumsafe Network Architecture](archi_qsnetwork)
-- [Quantumsafe Storage Architecture](archi_qsstorage)
-- [Peer2peer Web Gateway Architecture](archi_webgateway)
-- [Peer2peer Virtual File System](architecture_flist)
-- [Planetary Filesystem](archi_psfs)
-- [Planetary Secure Network](archi_psnw)
+- [Generic Architecture](@architecture_overview)
+- [Quantumsafe Compute Architecture](@archi_qscompute)
+- [Quantumsafe Network Architecture](@archi_qsnetwork)
+- [Quantumsafe Storage Architecture](@archi_qsstorage)
+- [Peer2peer Web Gateway Architecture](@archi_webgateway)
+- [Peer2peer Virtual File System](@architecture_flist)
+- [Planetary Filesystem](@archi_psfs)
+- [Planetary Secure Network](@archi_psnw)
 
 ## ThreeFold Foundation
 

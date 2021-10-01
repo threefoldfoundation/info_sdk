@@ -16,7 +16,7 @@ Here is the schema used to define a container reservation:
 * `entrypoint`: It is the program to start when the container is created.
 * `interactive`: If set to true, coreX is started in the container and the value.
 
-of `Entrypoint` is ignored. See [Using corex section](solution_container)
+of `Entrypoint` is ignored. See [Using corex section](@solution_container)
 for more detail.
 
 
@@ -34,7 +34,7 @@ for more detail.
 
 * `network_connection`: This is where you define the network of the container
 
- - `network_id`: The name of the network created using a [network](network)
+ - `network_id`: The name of the network created using a [network](@network)
  primitive.
  - `ipaddress`: net. IP: The IP address to give to the container.
  - `public_ipv6`: Ff true, allocated a public IPv6 address to the container. This is useful when you want to expose service directly.
@@ -46,7 +46,7 @@ for more detail.
 
 ## Flist
 
-More information about Flist at [Flist documentation](architecture_flist).
+More information about Flist at [Flist documentation](@architecture_flist).
 
 ## CoreX - The Zero-OS container process manager
 

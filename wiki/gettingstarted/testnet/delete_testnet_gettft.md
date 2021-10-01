@@ -21,14 +21,14 @@ You can use a pre-configured hosted 3Bot Wallet to store your Testnet TFT. 3Bot 
 
 Simply click on __'Wallet'__ menu on your hosted 3Bot sidebar to access your wallet list. Click on a wallet to see the details, including the wallet address and the amount of TFT balance you have in that wallet.
 
-> Please go to [__Hosted 3Bot Wallet__](3bot_sdk_wallet) to read more about the 3Bot Wallet feature on your hosted 3Bot.
+> Please go to [__Hosted 3Bot Wallet__](@3bot_sdk_wallet) to read more about the 3Bot Wallet feature on your hosted 3Bot.
 
 
 ### Store TFT on a Third-party Testnet Stellar Wallet
 
 You can use a __third-party testnet Stellar Wallet__ to store your Testnet TFT. There are a lot of testnet Stellar Wallets out there. __Interstellar wallet__ is one of the many Testnet Stellar Wallets we recommend to use to store your Testnet TFT due to its user-friendliness. Please follow this tutorial below to __configure a new testnet Interstellar wallet__ and store your Testnet TFT on your wallet.
 
-> [Get and Store Testnet TFT on __Testnet Interstellar Wallet__](delete_testnet_wallet_interstellar)
+> [Get and Store Testnet TFT on __Testnet Interstellar Wallet__](@delete_testnet_wallet_interstellar)
 
 ## Get Testnet TFT
 

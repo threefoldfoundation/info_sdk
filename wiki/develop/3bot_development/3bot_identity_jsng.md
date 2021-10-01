@@ -46,7 +46,7 @@ identity.save()
 
 ### Using admin dashboard
 
-see [3bot_identity_configure](3bot_identity_configure)
+see [3bot_identity_configure](@3bot_identity_configure)
 
 ## Change default identity
 
@@ -59,6 +59,5 @@ j.core.identity.set_default("INSTANCE_NAME")
 where
 
 - **INSTANCE_NAME**: is the instance name of the identity previously created and registered
-
 
 

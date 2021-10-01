@@ -7,11 +7,11 @@ In this example, we will create an overlay network over a number of nodes in the
 
 #### Requirements
 
-Please check the [general requirements](code).
+Please check the [general requirements](@code).
 
 #### 1. Load required libraries and create empty reservation structure.
 
-To be able to make a reservation, we need to create a [capacity pool](code_pool).
+To be able to make a reservation, we need to create a [capacity pool](@code_pool).
 
 #### 2. Select overlay network addressing scheme and select nodes.
 

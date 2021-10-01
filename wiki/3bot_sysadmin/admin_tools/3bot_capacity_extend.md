@@ -20,7 +20,7 @@ The next steps are identical to the creation of a new pool.
 ### Specify the extension
 
 Specify the amount of CU you want to add to the capacity pool, the amount of SU and the pool's 'time-to-live' (amount + unit).
-For the definition of the 3 fields above (CU, SU, time-to-live), please check [Create a Capacity Pool](3bot_capacity_new). 
+For the definition of the 3 fields above (CU, SU, time-to-live), please check [Create a Capacity Pool](@3bot_capacity_new). 
 
 Indicate also the token you wish to pay with. It does not matter what was the token you paid with for previous capacity pool reservations. 
 

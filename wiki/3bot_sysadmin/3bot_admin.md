@@ -18,15 +18,15 @@ It provides “at-a-glance” visibility into active resources, shows system ver
 
 ### Wallets
 
-Your 3Bot comes with a built-in [**3Bot Wallet**](3bot_sdk_wallet) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot).
+Your 3Bot comes with a built-in [**3Bot Wallet**](@3bot_sdk_wallet) that lists all your existing 3Bot wallets. You also have the option to create new wallets or to import existing ones from the Stellar Network (mainnet or testnet, aligned with the network that hosts your 3Bot).
 
-Please go to [**3Bot Wallets**](3bot_sdk_wallet) to learn more.
+Please go to [**3Bot Wallets**](@3bot_sdk_wallet) to learn more.
 
 ### Capacity Pools
 
-Your 3Bot comes in handy with a built-in [**Capacity Pools**](3bot_capacity_pools) reservation; a feature to reserve capacity on the grid to deploy your solutions on.
+Your 3Bot comes in handy with a built-in [**Capacity Pools**](@3bot_capacity_pools) reservation; a feature to reserve capacity on the grid to deploy your solutions on.
 
-Please go to [**Capacity Pools**](3bot_capacity_pools) to learn more.
+Please go to [**Capacity Pools**](@3bot_capacity_pools) to learn more.
 
 ### Package management system
 

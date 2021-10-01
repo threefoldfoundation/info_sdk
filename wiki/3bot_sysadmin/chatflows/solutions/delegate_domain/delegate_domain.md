@@ -1,6 +1,6 @@
 # Delegate Domain
 
-Our grid provides functionality to delegate subdomains of your domains allowing us to create subdomain for your solutions [see](exposed).
+Our grid provides functionality to delegate subdomains of your domains allowing us to create subdomain for your solutions [see](@exposed).
 To do this you will need to configure your dns manager. In your dns manager you will need to add a `ns` record pointing to the dns_server of the chosen gateway.
 The chatflow will also instruct you to do so.
 

@@ -2,7 +2,7 @@
 
 #### Requirements
 
-Please check the [general requirements](code)
+Please check the [general requirements](@code)
 
 ### Overview
 
@@ -18,11 +18,11 @@ The aim is to create a simple S3 archive solution by following a few steps:
 
 #### Create an overlay network or use the identity of a previously deployed overlay network
 
-Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](code_network).
+Each overlay network is private and contains private IP addresses. Each overlay network is deployed in such a way that is has no connection to the public (IPv4 or IPv6) network directly. In order to work with such a network a tunnel needs to be created between the overlay network on the grid and your local network. You could find instructions how to create a network [here](@code_network).
 
 #### Design the S3 simple storage solution
 
-You have created a network in the network creation [tutorial](code_network) with the following details:
+You have created a network in the network creation [tutorial](@code_network) with the following details:
 
 ``` python
 demo_ip_range="172.20.0.0/16"
