@@ -1,4 +1,4 @@
-![](img/intro.png)
+![](img/intro_.png)
 
 A new standard in peer2peer cloud = networking, storage and computing capacity.
 

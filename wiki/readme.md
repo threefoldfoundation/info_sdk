@@ -1,1 +1,1 @@
-./intro.md
+!!!include:sdk_home
