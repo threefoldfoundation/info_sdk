@@ -73,7 +73,7 @@ while keeping the barrier for adoption by the current IT industry very low :
 - TFGrid
   - [ThreeFold Connect](threefold:threefold_connect)
 - Payments
-  - [AutoPay](digitalself:autopay)
+  - [AutoPay](twin:autopay)
   - [TFGrid Wallet](threefold:cloud_wallet)
 
 > TODO: webgateway
