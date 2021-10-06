@@ -116,7 +116,7 @@
   - [2.0.6 beta](@threefold:release_notes_2_0_6)
   - [2.0.5 beta](@threefold:release_notes_2_0_5)
   - [2.0.4 beta](@threefold:release_notes_2_0_4)
-- [Legals](@legal:legal)
+- [Legals](!@legal:legal)
   - [Disclaimer](@legal:disclaimer)
   - [Terms & Conditions](@legal:terms_conditions_griduser)
 

@@ -77,7 +77,7 @@
 - [Collaboration](@collab)
   - [Become a Grid Tester](@test_grid)
 - [Release Notes](@threefold:releasenotes)
-- [Legals](@legal:legal)
+- [Legals](!@legal:legal)
   - [Disclaimer](@legal:disclaimer)
   - [Terms & Conditions](@legal:terms_conditions_griduser)
 
