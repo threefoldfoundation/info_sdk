@@ -1,1 +1,1 @@
-!!!include:solution_kubernetes.md
+!!!include:solution_kubernetes
