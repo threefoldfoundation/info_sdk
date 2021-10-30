@@ -1,6 +1,6 @@
 - [Home](@freeflow:intro)
 - [Introduction](@peer2peer_cloud_intro)
-  - [Grid Intro](@grid_intro)
+  - [Grid Intro](@threefold:grid_intro)
   - [Farming Intro](@threefold:farming_intro)
   - [Why ThreeFold](@threefold_why)
 - [Getting Started](@all_getting_started)
