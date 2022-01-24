@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+publtools_check
+cd wiki_config
+publishtools develop
+

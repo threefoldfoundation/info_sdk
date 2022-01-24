@@ -1,0 +1,24 @@
+{
+	"name": "cloud",
+	"git_url": "git@github.com:threefoldfoundation/info_cloud/tree/development/wiki",
+	"pull": false,
+	"reset": false,
+	"cat": 0,
+	"domains": [
+		"cloud-info.threefold.io",
+		"cloud-wiki.threefold.io"
+	],
+	"descr": "how to use the cloud for deploying apps: evdc, kubernetes, planetary fs, ... + marketplace solutions ",
+	"groups": [],
+	"acl": [],
+	"trackingid": "16",
+	"opengraph": {
+		"title": "ThreeFold P2P Cloud | Knowledge",
+		"description": "All you need to know about the ThreeFold P2P Cloud and its offerings.",
+		"url": "https://cloud-info.threefold.io",
+		"type_": "article",
+		"image": "https://cloud-info.threefold.io/cloud__cloud_node.png",
+		"image_width": "1200",
+		"image_height": "630"
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "name": "threefold",
+    "git_url": "git@github.com:threefoldfoundation/info_threefold/tree/development/wiki",
+    "pull": false,
+    "reset": false,
+    "cat": 0,
+    "domains": [
+        "info.threefold.io",
+        "wiki.threefold.io"
+    ],
+    "descr": "wiki for foundation, collaborate, what if farmings, tokens",
+    "groups": [],
+    "acl": [],
+    "trackingid": "11",
+    "opengraph": {
+        "title": "ThreeFold | Knowledge",
+        "description": "All you need to know about ThreeFold.",
+        "url": "https://info.threefold.io",
+        "type_": "article",
+        "image": "https://info.threefold.io/threefold__welcomepage.png",
+        "image_width": "1200",
+        "image_height": "630"
+    }
+}

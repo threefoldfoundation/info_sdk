@@ -1,0 +1,33 @@
+{
+	"name": "internet4",
+	"git_url": "git@github.com:threefoldfoundation/info_internet4/tree/development/wiki",
+	"pull": false,
+	"reset": false,
+	"cat": 0,
+	"domains": [
+		"internet4.threefold.io"
+	],
+	"descr": "",
+	"groups": [],
+	"acl": [
+		{
+			"groups": [],
+			"users": [],
+			"rights": "R",
+			"secrets": [
+				"peer2peer",
+				"planetfirst"
+			]
+		}
+	],
+	"trackingid": "",
+	"opengraph": {
+		"title": "",
+		"description": "",
+		"url": "",
+		"type_": "",
+		"image": "",
+		"image_width": "",
+		"image_height": ""
+	}
+}
